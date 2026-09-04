@@ -6,7 +6,7 @@ sektor: 04-Education
 tur: g'oya
 holat: faol
 bosqich: 7
-qadam: 65
+qadam: 70
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
@@ -1038,19 +1038,40 @@ PMF XULOSA: (bormi? qaysi segment kuchli?)
 
 ---
 
-## QADAM 66: MIJOZ XIZMATI STANDARTLARI
+## ✅ QADAM 66: MIJOZ XIZMATI STANDARTLARI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Ota-ona savoliga < 4 soat; bog'cha bron xabari < 1 soat; yolg'on ma'lumot (narx) bo'yicha 24 soat ichida tuzatish.
+| Yo'nalish | SLA | Javobgar |
+|-----------|-----|----------|
+| Ota-ona savoli (Telegram/Instagram DM) | < 4 soat (ish vaqti 9:00–21:00) | Operator |
+| Bog'cha bron so'rovi → listing egasiga | < 1 soat | Operator (avtomat eslatma) |
+| Yolg'on/narx ma'lumot shikoyati | Tekshiruv < 24 soat, tuzatish < 48 soat | Moderator |
+| Salbiy review (haqorat/yolg'on) | Ko'rib chiqish < 24 soat (dalil talab) | Moderator |
+| To'lov muammosi (featured/Pro) | < 4 soat | Operator |
 
-**✅ BAJARILDI:** _(standartlar yozildi)_
+**Qo'shimcha standartlar:**
+- Har ota-onaga javobdan keyin qoniqish so'rovi (1-6 oy) — NPS ga kiritiladi (QADAM 53)
+- Har hafta: eng ko'p takrorlangan 3 savol → FAQ ga qo'shiladi (javob vaqtini qisqartiradi)
+- Shablon javoblar tayyor (uzbek tilida) — lekin har mijozga moslashtiriladi
 
 ---
 
-## QADAM 67: BOSQICH 7 XULOSA
+## ✅ QADAM 67: BOSQICH 7 XULOSA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** 61–66 — trafik, featured soni, bronlar.
+```
+GTM NATIJALARI (to'ldiriladi — 61–66 amalda bajarilgach):
+  TRAFIK: ota-ona tashrifi _/oy (mezon 1,000)
+  LISTING: _ ta (mezon: Toshkent 500+ baza)
+  FEATURED: _ ta (mezon 15 sinov → 5 Pro)
+  BRON SO'ROVLARI: _/oy (mezon 100+)
+  MRR: $ _ (mezon $2,000+)
+  ENG YAXSHI KANAL: _ (DM? kontent? referral?)
+  CAC: $ _ (maqsad <$25)
+  ASOSIY TO'SIQ: _
+QAROR: (O'sishga / tuzatish / to'xtatish)
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
 
-**✅ BAJARILDI:** _(keyin)_
+**Mezon (BOSQICH 7 o'tdi):** 100+ bron/oy va MRR $2,000+ (15 featured $25 + 5 Pro $75 ≈ $750 — 2-3-oyda $2,000 ga yetadi: 40 featured yoki 20 Pro)
 
 ---
 
@@ -1101,19 +1122,38 @@ PMF XULOSA: (bormi? qaysi segment kuchli?)
 
 ---
 
-## QADAM 69: YANGI SHAHAR PROTOKOLI
+## ✅ QADAM 69: YANGI SHAHAR PROTOKOLI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** 2-shahar (Samarqand): 50 bog'cha bazasi, 10 featured, ota-ona guruhlari. SOP qilish.
+**Qachon:** Toshkentda PMF isboti (QADAM 60: Sean Ellis 40%+, NPS 40+) → 2-shahar: **Samarqand** (300+ bog'cha, ota-ona guruhlari faol)
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**SOP (qayta ishlatiladigan protokol):**
+1. **Baza:** 2 hafta — Instagram/Telegram/Yandex orqali 50 bog'cha (bepul listing taklifi bilan DM)
+2. **Kontent kanali:** shahar ota-ona guruhlari (Samarqand) — top-10 guruhga foydali post
+3. **Ona zanjiri:** 5 faol ona (Toshkent tajribasi: referral eng kuchli kanal) — "farzandingiz bog'chasi ro'yxatda"
+4. **Sotuv:** 10 featured sinovi maqsadi (QADAM 65 funnel — 2 hafta DM)
+5. **Mahalliy moslashuv:** narxlar (Samarqand xususiy bog'cha $60–150/oy — Toshkentdan past), reklama kanallari
+
+**Mezon (2-shahar):** 50 listing + 10 featured sinovi → shahar protokoli isbotlangan → 3-shahar (Buxoro/Andijon)
+
+**SOP fayli:** shahar ochilish checklisti (baza → kanal → sotuv → moslashuv) — keyingi shaharlar 4 haftada
 
 ---
 
-## QADAM 70: BOSQICH 7 YAKUNIY HISOBOT
+## ✅ QADAM 70: BOSQICH 7 YAKUNIY HISOBOT — BAJARILDI (AI 01, 2026-09-04)
 
-**Mezon:** Oyda 100+ bron so'rovi va MRR $2,000+ → O'sish.
+```
+BOSQICH 7 (GTM) YAKUNI:
+  KANALLAR: DM (B2B) + kontent/ota-ona guruhlari (B2C)
+  PAKETLAR: Bepul $0 / Featured $25 / Pro $75 / Tekshiruv $50-100 / Ota-ona $10
+  FUNNEL: 200 DM → 50 listing → 15 featured → 5 Pro
+  CAC: <$25 (DM — asosan vaqt xarajati)
+  MRR MAQSADI: $2,000+/oy (6-oy) → BOSQICH 8 (O'sish)
+  KENGAYTIRISH: Samarqand protokoli (QADAM 69) — 4 hafta/shahar
+QAROR: (O'sishga — mezonlar bajarilsa)
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
 
-**✅ BAJARILDI:** _(keyin)_
+**✅ BOSQICH 7 (61–70) yakunlandi — reja tayyor. Keyingi: BOSQICH 8 (O'sish).**
 
 ---
 
