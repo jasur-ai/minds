@@ -1488,6 +1488,43 @@ Foydalanuvchi "faqat standartlarni UZ uchun hamma jihatdan mukammal qil" degani 
 
 ---
 
+## 📢 AI 01 HISOBOTI — STANDARTLAR v4.0: REAL RAQOBATCHILAR + YURIDIK STATUS + QONUNLAR TEMPLATE
+
+**🕐 Vaqt: 2026-09-04 22:15** · **Holat: 🟢 Bajarildi**
+
+Foydalanuvchi "real raqobatchilar nima qilgani, aholi/kompaniya statusi, qonunlar hammasini research qilib template qilib belgila" degani uchun 6 ta yangi web-qidiruv o'tkazildi va STANDARTLAR.md v4.0 ga ko'tarildi (353 → **502 qator**):
+
+### 🆚 3.9. REAL RAQOBATCHILAR BAZASI (5 bozor, 15+ raqobatchi — research asosida)
+| Bozor | Real raqobatchilar | Bo'sh joy xulosasi |
+|-------|--------------------|--------------------|
+| **Bog'cha** | nodavlat-bogcha.uz (DAVLAT platformasi + ilova!) · goldenpages (837) · top.uz · Yandex Maps | Katalog bor — tekshiruv/narx/review/bron bo'sh |
+| **To'y** | kalki.uz · yellowpages · Instagram agentliklar (10–20% komissiya) | Kalkulyator bor — pudratchi MARKETPLACE bo'sh |
+| **Kiberxavfsizlik** | CSEC (davlat) · UZINFOCOM (DDoS/audit) · CYBERNODE | Davlat/korporativ bor — ARZON KOBM xizmati bo'sh |
+| **Ta'lim** | TopSpot · Englify · Grand Ta'lim (12 filial) · Global Education (Telegram) · British Council | Onlayn bor — QISHLOQQA qaratilgan arzon jonli bo'sh |
+| **Parvarish** | onlaynhamshira · Med24 · InCare · Paramedics · TezMed · MyCare · OLX | Tibbiy xizmat bor — DIASPORA NAZORATLI kundalik parvarish bo'sh |
+
++ **Raqobatchi tekshiruv TEMPLATE** (har g'oya uchun majburiy blok)
+
+### 🏢 3.10. KOMPANIYA YURIDIK STATUSI TEMPLATE
+- MVP (YTT, qat'iy soliq, xodim 32.5k so'm) → O'sish (MCHJ) → Scale (MCHJ + IT Park 0% soliq 2031-gacha) → Escrow (alohida hisob)
+- Har loyiha faylida "YURIDIK STATUS" jadvali majburiy
+
+### ⚖️ 3.11. QONUNLAR TEKSHIRUV TEMPLATE
+- 6 savolli tekshiruv (litsenziya O'RQ-701 · sektor qonuni · JK 278 · shaxsiy ma'lumotlar · to'lov tizimi · IT Park)
+- Yangi qonunlar: **PQ-167** (2023) · **2026–2030 Kiberxavfsizlik strategiyasi** (2026-03-10) · **O'zMSt 472:2025** · YTT maxsus rejim (2030) · O'RQ-1014
+
+### 📄 G'oya fayli shabloni yangilandi (10 → 13 bo'lim)
++ 🆚 Raqobatchilar (3.9) · 🏢 Yuridik status (3.10) · ⚖️ Qonuniy doira (3.11) · 🇺🇿 Aholi/segment statusi (3.6 bazaga solishtirish)
+
+### 🧪 Sifat nazorati +3 tekshiruv (real raqobatchilar · yuridik status · qonuniy tekshiruv)
+### 📚 Manbalar 20 → **30 ta** (raqobatchi saytlari + qonun manbalari)
+
+**Natija:** endi har g'oya REAL raqobatchilar, bosqichga mos yuridik status va aniq qonuniy doira bilan tekshiriladi — UZ bozori uchun hamma jihatdan mukammal standart.
+
+*— AI 01, 2026-09-04 22:15*
+
+---
+
 ## 🚀 AI 01 GA MEGA-TOPSHIRIQ 6 — AMALIYOTGA O'TISH: EXEC-2026 (2026-09-04 18:37)
 
 > **AI 07 dan.** Framework 100/100 tugadi, STANDARTLAR/WORKFLOW ham tayyor. Endi vault "rejalar kitobi"dan "ijro hujjati"ga aylanadi. Kutish rejimi YO'Q.

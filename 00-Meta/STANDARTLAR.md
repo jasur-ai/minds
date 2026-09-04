@@ -245,6 +245,118 @@ G'oya xorijiy muvaffaqiyat modelini takrorlashi mumkin, lekin **lokalizatsiya is
 
 ---
 
+## 🆚 3.9. REAL RAQOBATCHILAR BAZASI (2025-2026 research — v4.0)
+
+Har g'oya tekshirilganda quyidagi **real UZ raqobatchilari** bilan solishtiriladi (kim nima qilgan, bo'sh joy qayerda):
+
+### A) Bog'cha bozori (Bog'chaTop uchun)
+| Raqobatchi | Nima qiladi | Kuchli tomoni | Bo'sh joy |
+|------------|-------------|---------------|-----------|
+| **nodavlat-bogcha.uz** + ilova (davlat platformasi) | Nodavlat bog'cha ro'yxati, davomat, ota-ona ilovasi | Davlat ishonchi, bepul | Tekshiruv/reyting/narx taqqoslash yo'q |
+| **goldenpages.uz** (837 bog'cha) | Katalog — kontakt + manzil | Keng baza | Narx, o'rinlar, review, tekshiruv yo'q |
+| **top.uz / yellowpages.uz** | Katalog | — | Faqat kontakt |
+| **Yandex Maps** | Xarita + review | Joylashuv | Bog'cha-spetsifik emas, tekshiruv yo'q |
+
+**Bo'sh joy xulosasi:** katalog bor, lekin TEKSHIRUV + narx + review + bron — bo'sh.
+
+### B) To'y bozori (To'yByudjet uchun)
+| Raqobatchi | Nima qiladi | Kuchli tomoni | Bo'sh joy |
+|------------|-------------|---------------|-----------|
+| **kalki.uz** | Umumiy kalkulyatorlar (soliq, foiz) | Bepul, tanish | To'y byudjeti + pudratchilar YO'Q |
+| **yellowpages.uz** (to'y sayohatlari) | Katalog | — | Pudratchi bozori YO'Q |
+| To'y agentliklari (Instagram) | To'liq tashkil qilish (10–20% komissiya) | Xizmat sifati | Komissiya baland, shaffoflik yo'q |
+
+**Bo'sh joy xulosasi:** kalkulyator bor, pudratchi MARKETPLACE'i bo'sh.
+
+### C) Kiberxavfsizlik bozori (XavfsizBiz.uz uchun)
+| Raqobatchi | Nima qiladi | Kuchli tomoni | Bo'sh joy |
+|------------|-------------|---------------|-----------|
+| **CSEC (csec.uz)** — davlat markazi | Davlat ob'yektlari uchun xizmat, 24/7 ishonch telefoni | Davlat miqyosida | KOBM ga xizmat qilmaydi |
+| **UZINFOCOM** | DDoS himoya, antivirus, audit, o'qitish | Texnik imkoniyat | KOBM narxiga emas, korporativ |
+| **CYBERNODE** (xususiy) | Yirik mijozlar uchun | Texnik | KOBM segmentiga yo'nalmagan |
+| Mastercard so'rovi (2025) | KOBM larning ~50% hujumga uchragan — talab isboti | — | — |
+
+**Bo'sh joy xulosasi:** davlat/korporativ xizmatlar bor — ARZON KOBM xizmati bo'sh (PP-167 talablari KOBM ga ham o'tmoqda).
+
+### D) Ta'lim bozori (QishloqMaktab.uz uchun)
+| Raqobatchi | Nima qiladi | Kuchli tomoni | Bo'sh joy |
+|------------|-------------|---------------|-----------|
+| **TopSpot / Englify** | Onlayn ingliz tili (jonli darslar) | Sifat, brend | Shahar narxi (430k so'm+/oy), qishloqqa mos emas |
+| **Grand Ta'lim** (12 filial) | Offline + onlayn | Tarmoq | Shaharlar, qishloq yo'q |
+| **Global Education (Telegram)** | Telegram darslar (Payme/Click) | Kanali to'g'ri | Qishloqqa qaratilmagan, jonli emas |
+| British Council | Onlayn | Xalqaro brend | Narxi yuqori |
+
+**Bo'sh joy xulosasi:** onlayn ta'lim bor — QISHLOQQA qaratilgan arzon jonli model bo'sh.
+
+### E) Parvarish bozori (Parvarish.uz uchun)
+| Raqobatchi | Nima qiladi | Kuchli tomoni | Bo'sh joy |
+|------------|-------------|---------------|-----------|
+| **onlaynhamshira.uz / Med24 / InCare / Paramedics / TezMed / MyCare** | Uyga tibbiy hamshira, ukol, tahlil (24/7) | Tibbiy xizmat | KUNDALIK parvarish (yashash, ovqat, nazorat) YO'Q |
+| **OLX** (29 e'lon) | Shaxsiy hamshira e'lonlari | — | Tekshiruv, kafolat, hisobot yo'q |
+
+**Bo'sh joy xulosasi:** tibbiy xizmatlar bor — DIASPORA NAZORATI bilan keksalar parvarishi bo'sh.
+
+### F) Raqobatchi tekshiruv TEMPLATE (har g'oya uchun majburiy)
+```markdown
+## 🆚 RAQOBATCHILAR (sana)
+| Raqobatchi | Nima qiladi | Kuchli | Bo'sh joy |
+|---|---|---|---|
+| 1. _ | _ | _ | _ |
+| 2. _ | _ | _ | _ |
+
+**Bo'sh joy xulosasi:** _ (katalog bor lekin X yo'q / xizmat bor lekin segment Y ga yo'nalmagan)
+**Manbalar:** goldenpages.uz/yellowpages.uz/Google qidiruv — tekshirilgan sana
+```
+
+---
+
+## 🏢 3.10. KOMPANIYA YURIDIK STATUSI TEMPLATE (v4.0)
+
+Har loyihada **bosqichga mos yuridik shakl** belgilanadi — status avtomatik o'smaydi, maqsadga qarab tanlanadi:
+
+| Bosqich | Yuridik shakl | Soliq rejimi | Qachon o'tish |
+|---------|---------------|--------------|--------------|
+| MVP (0–$1k MRR) | **Yakka tadbirkor (YTT)** | Qat'iy soliq (2025: xodim uchun 32.5k so'm yarmi); 2030-gacha maxsus rejim | Darhol — bepul ochiladi (my.gov.uz) |
+| O'sish ($1k–5k MRR) | YTT → **MCHJ** | YTT imtiyozlari davom; MCHJ da standart | 10+ mijoz/shartnoma kerak bo'lganda |
+| Scale ($5k+ MRR) | **MCHJ + IT Park rezidenti** | **0% daromad solig'i** (2031-gacha, O'RQ-1014) | IT faoliyat ulushi yetganda |
+| Escrow/xalqaro | MCHJ + alohida hisob / xorijiy yuridik shaxs | Alohida talablar | To'lov himoyasi (escrow) yoqilganda |
+
+**YTT imtiyozlari (2025):** qat'iy soliq 50% xodim uchun (32.5 ming so'm), savdo uchun alohida stavkalar — president.uz (2025-08-11), gov.uz (2025-03-20)
+
+### Template (har loyiha fayliga):
+```markdown
+## 🏢 YURIDIK STATUS
+| Bosqich | Shakl | Soliq | Qachon o'zgaradi |
+|---|---|---|---|
+| Hozir | Yakka tadbirkor | Qat'iy | 10+ mijozda |
+| Keyin | MCHJ + IT Park | 0% soliq | MRR $5k+ |
+**Qonuniy doira:** litsenziya kerakmi (O'RQ-701)? JK 278 ehtiyoti? PP-167? — aniq javob
+```
+
+---
+
+## ⚖️ 3.11. QONUNLAR TEKSHIRUV TEMPLATE (v4.0)
+
+Har g'oya **qonuniy doirasini** quyidagi template bilan tekshiradi:
+
+| # | Savol | Javob (aniq) | Manba |
+|---|-------|--------------|-------|
+| 1 | Faoliyat litsenziyalanadimi? (O'RQ-701) | Ha/Yo'q — qaysi tur | lex.uz |
+| 2 | Sektor qonuni bormi? (bog'cha 2022, PP-167, ta'lim) | Ha — qaysi | lex.uz |
+| 3 | JK javobgarligi bormi? (JK 278 — axborot xavfsizligi) | Ehtiyot choralari | lex.uz |
+| 4 | Shaxsiy ma'lumotlar qonuni (O'RQ-718?) | Talablar | lex.uz |
+| 5 | To'lov tizimi talablari (Payme/Click merchant) | Rasmiylashuv muddati | provider.uz |
+| 6 | IT Park rezidentligi mumkinmi? | Ha/Yo'q — IT faoliyat ulushi | it-park.uz |
+
+**Yangi qonunlar (research 2026):**
+- **PQ-167** (2023-05-31, lex.uz/-6479190) — kiberxavfsizlik talablari (MAI obyektlari)
+- **2026–2030 Kiberxavfsizlik strategiyasi** (2026-03-10 farmon, gazeta.uz 2026-03-17) — talab o'sishda
+- **O'zMSt 472:2025** — axborot xavfsizligi hodisalarini boshqarish (milliy standart)
+- **YTT maxsus rejim** (2030-12-31 gacha) — president.uz (2025-08-11)
+- **O'RQ-1014** (2024-12-24) — IT Park imtiyozlari uzaytirildi (2031)
+
+---
+
 ## 📄 4. G'OYA FAYLI SHABLONI (yangi fayl uchun)
 
 Har bir yangi g'oya quyidagi tuzilma bilan yaratiladi:
@@ -279,10 +391,34 @@ qisqacha: 1 jumlalik tavsif
 ## 💰 Startup modeli (narxlar)
 | Paket | Narx | Tarkib |
 
+## 🆚 Raqobatchilar (real — 3.9 template)
+| Raqobatchi | Nima qiladi | Kuchli | Bo'sh joy |
+|---|---|---|---|
+| _ | _ | _ | _ |
+
+## 🏢 Yuridik status (3.10 template)
+| Bosqich | Shakl | Soliq | Qachon o'zgaradi |
+|---|---|---|---|
+| Hozir | _ | _ | _ |
+
+## ⚖️ Qonuniy doira (3.11 template)
+| Savol | Javob |
+|---|---|
+| Litsenziya kerakmi? | _ |
+| Sektor qonuni | _ |
+
 ## 📈 Bozor tahlili (TAM/SAM/SOM)
+- TAM: top-down (manbali)
+- SAM: segment bo'yicha
+- SOM: bottom-up (mijoz × ACV, UZS da)
+
+## 🇺🇿 Aholi/segment statusi (3.6 bazaga solishtirish)
+| Ko'rsatkich | UZ raqam | Bizning segment |
+|---|---|---|
+| Aholi 37.54 mln | _ | _ |
 
 ## 🔗 Bog'liq notalar
-- [[00-Meta/STARTUP-100-STEPS]] · [[00-Meta/METHODOLOGY]]
+- [[00-Meta/STARTUP-100-STEPS]] · [[00-Meta/METHODOLOGY]] · [[00-Meta/STANDARTLAR]]
 
 ## 📚 Manbalar (7+)
 1. [manba]
@@ -312,6 +448,9 @@ qisqacha: 1 jumlalik tavsif
 | UZ raqamlar bazasi (3.6) | Raqamlar manbali va yangilangan (stat.uz/it-park.uz) | Manba yangilash |
 | To'lov kanali | Payme/Click/Uzum Pay ko'rsatilgan | Kanala qo'shish |
 | IT Park yo'li | Rezidentlik/grant yo'li rejada | Qo'shish |
+| Real raqobatchilar (3.9) | Kamida 2 ta real raqobatchi + bo'sh joy xulosasi | Raqobatchi research |
+| Yuridik status (3.10) | Bosqichga mos shakl (YTT/MCHJ/IT Park) aniq | Status qo'shish |
+| Qonuniy tekshiruv (3.11) | 6 savol javobi + tegishli qonun nomi | Qonun research |
 
 ---
 
@@ -337,6 +476,16 @@ qisqacha: 1 jumlalik tavsif
 18. it-park.uz (2026-01-07) — 3,400+ IT Park rezidenti (970+ xorijiy kapital)
 19. buxgalter.uz (2025-01-07) — O'RQ-1014 (2024-12-24): IT Park soliq imtiyozlari 2031-gacha uzaytirildi
 20. salom-ai.uz — IT Park AI startaplar uchun 0% soliq (2031-gacha)
+21. nodavlat-bogcha.uz — davlat nodavlat bog'cha platformasi + ota-ona ilovasi (Bog'chaTop raqobatchisi)
+22. goldenpages.uz — 837 xususiy bog'cha katalogi (raqobatchi tekshiruvi)
+23. csec.uz — O'zbekiston Kiberxavfsizlik markazi (davlat — KOBM ga xizmat qilmaydi)
+24. uzinfocom.uz — UZINFOCOM kiberxavfsizlik xizmatlari (DDoS, audit, o'qitish — korporativ)
+25. onlaynhamshira.uz / med24.uz / inCare.uz / paramedics.uz / mycare.uz — uyga tibbiy hamshira xizmatlari
+26. topspot.uz / englify.uz / grandtalim.uz — onlayn ingliz tili (shahar narxi, qishloq emas)
+27. kalki.uz — umumiy kalkulyatorlar (to'y pudratchilari yo'q)
+28. lex.uz/-6479190 — PQ-167 (2023-05-31) kiberxavfsizlik qarori
+29. gazeta.uz (2026-03-17) — 2026–2030 Kiberxavfsizlik strategiyasi farmoni (2026-03-10)
+30. gov.uz (2025-03-20) / president.uz (2025-08-11) — YTT maxsus soliq rejimi 2030-gacha
 
 ---
 
@@ -351,4 +500,4 @@ qisqacha: 1 jumlalik tavsif
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (UZ bozor bazasi + aniq iqllik testi — v3.0)*
+*Oxirgi yangilanish: 2026-09-04 (real raqobatchilar + yuridik status + qonunlar template — v4.0)*
