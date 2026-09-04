@@ -41,12 +41,12 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | Loyiha | BOSQICH | Qadam | Holat |
 |--------|:------:|:-----:|-------|
 | [[20-Society/ElderlyCare]] | 10/10 | 100/100 | 🏆 Etalon — to'liq |
-| [[04-Education/BogchaTop]] | 8/10 | 80/100 | ✅ Faol |
-| [[20-Society/ToyByudjet]] | 8/10 | 80/100 | ✅ Faol |
-| [[14-Security/SMB_Cybersecurity]] | 5/10 | 50/100 | 🔄 Faol |
-| [[04-Education/RuralEducation]] | 5/10 | 50/100 | 🔄 Faol |
+| [[04-Education/BogchaTop]] | 9/10 | 90/100 | ✅ Faol |
+| [[20-Society/ToyByudjet]] | 9/10 | 90/100 | ✅ Faol |
+| [[14-Security/SMB_Cybersecurity]] | 6/10 | 60/100 | 🔄 Faol |
+| [[04-Education/RuralEducation]] | 6/10 | 60/100 | 🔄 Faol |
 
-> *2026-09-04 holatiga ko'ra: ElderlyCare to'liq (etalon), BogchaTop + ToyByudjet QADAM 80 (O'sish rejasi), SMB + RuralEducation QADAM 50 (Sinov rejasi) — barcha bosqich xulosalari yozilgan.*
+> *2026-09-04 holatiga ko'ra: ElderlyCare to'liq (etalon), BogchaTop + ToyByudjet QADAM 90 (SCALE rejasi), SMB + RuralEducation QADAM 60 (PMF rejasi) — barcha bosqich xulosalari yozilgan.*
 
 ---
 
