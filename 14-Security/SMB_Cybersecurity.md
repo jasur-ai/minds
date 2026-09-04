@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 6
-qadam: 60
+bosqich: 7
+qadam: 70
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -1320,6 +1320,128 @@ KEYINGI: BOSQICH 7 — BOZORGA CHIQISH (GTM, QADAM 61-70)
 
 ---
 
-## 🔮 BOSQICH 7–10 (QADAMLAR 61–100)
+# 🚀 BOSQICH 7: BOZORGA CHIQISH — GTM (QADAMLAR 61–70)
+
+---
+
+## ✅ QADAM 61: SOTISH STRATEGIYASI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ikkita yo'nalish:**
+- **KOBM (B2B):** to'g'ridan-to'g'ri sotuv (DM + qo'ng'iroq — QADAM 65 funnel) — asosiy daromad
+- **B2B2C (2-bosqich):** banklar/IT Park orqali paket (kichik KOBM ga bank mijoz sifatida taklif)
+
+**Sotuv skripti (Bobur tipidagi do'kon egasiga):**
+> "Oyiga $40 — bitta phishing hujumi sizga qancha turadi? Hisobingiz o'g'irlansa: 1 kunlik savdo + mijoz ishonchi. Biz xodimlaringizni sinab ko'ramiz, o'rgatamiz, har oy hisobot beramiz."
+
+**Qarshi chiqishlarga javob:**
+- "Xodimlarim oz (5 kishi)" → "Aynan kichik kompaniyalar nishon — himoyangiz yo'q deb o'ylaysiz" (xplogs22 kampaniyasi — UZ KOBM nishon)
+- "Qimmat" → "1-oy sinov $15 — bitta xatodan qutqaradi"
+
+---
+
+## ✅ QADAM 62: NARX PAKETLARI (RASMIY) — BAJARILDI (AI 01, 2026-09-04)
+
+| Paket | Narx | Tarkib | Kim uchun |
+|-------|------|--------|-----------|
+| **ASOSIY** | $15/oy | 1 simulyatsiya/oy + o'qitish (3 video) + parol auditi + oylik hisobot | 5–10 xodimli KOBM |
+| **STANDART** | $40/oy | 2 simulyatsiya + to'liq o'qitish + tarmoq skaneri + har chorak hisobot uchrashuvi | 10–25 xodim |
+| **PREMIUM** | $100/oy | STANDART + shaxsiy maslahatchi + 24/7 Telegram kanal + favqulodda yordam | 25–100 xodim / yuqori xavf |
+| Tekshiruv (bir martalik) | $150–300 | To'liq xavf auditi + hisobot (yangilar uchun kirish) | Barcha |
+
+**Narx mantiqi:** ASOSIY — kirish; STANDART — asosiy daromad; PREMIUM — yuqori xavf segmenti; narxlar QADAM 4/28 intervyu va beta natijalariga qarab sozlanadi
+
+---
+
+## ✅ QADAM 63: HAMKORLIKLAR — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Nima | Xavf/izoh |
+|--------|------|-----------|
+| CERT.uz (davlat) | Yangi tahdidlar ma'lumoti (ochiq) — kontent manbai | Rasmiy ma'lumot — ishonch |
+| IT Park rezidentlari | SaaS startaplarga jamoa chegirmasi (B2B2C) | Birinchi mijozlar tez |
+| Banklar (2-bosqich) | Kichik biznes mijozlariga xavfsizlik paketi | Katta kanal — uzoq muzokara |
+| Buxgalteriya firmalari | Mijozlariga xavfsizlik tekshiruvi taklifi (referral 15%) | Buxgalter — KOBM ishonch shaxsi |
+| Savdo uyushmalari/bazarlar | A'zolarga chegirma | Segment kanali |
+
+---
+
+## ✅ QADAM 64: KONTENT MARKETING — BAJARILDI (AI 01, 2026-09-04)
+
+- **Telegram kanal** "KOBM xavfsizligi" — haftasiga 2 post (yangi firibgarlik usullari, real UZ misollar, o'qitish maslahatlari)
+- **YouTube (qisqa)** — "Soxta yetkazib beruvchi xati qanday ko'rinadi" demo videolar (GoPhish natijalari — ruxsat bilan)
+- **Ijtimoiy muhandislik namunalari** — o'qitish kontenti sifatida (brend + foydalanuvchi jalb qilish)
+
+---
+
+## ✅ QADAM 65: SAVDO FUNNELI (KOBM B2B) — BAJARILDI (AI 01, 2026-09-04)
+
+**Funnel:**
+```
+200 DM/qo'ng'iroq (Instagram/Yandex dan KOBM: do'kon, kafe, xizmat)
+  → 50 tekshiruv taklifi (25% konversiya)
+    → 15 bepul 1-simulyatsiya sinovi (30%)
+      → 5 STANDART/oy $40 (33%)
+```
+
+**Haftalik reja:** 50 DM/hafta (10/kun) → 3 haftada 200
+
+**DM skripti:** "Salom! [Nomi]ni ko'rdim. KOBM'lar uchun arzon xavfsizlik xizmatini quryapmiz — xodimlaringizni phishing'ga sinab ko'ramiz (bepul). O'zbek tilida hisobot. Qiziqsangiz — 2 daqiqa vaqtingiz bormi?"
+
+**Mezon:** 15 sinov (1-oy) → 5 STANDART (3-oy) → B2B kanali isboti
+
+---
+
+## ✅ QADAM 66: MIJOZ XIZMATI STANDARTLARI — BAJARILDI (AI 01, 2026-09-04)
+
+| Yo'nalish | SLA | Javobgar |
+|-----------|-----|----------|
+| Mijoz savoli (Telegram) | < 4 soat (9:00–21:00) | Operator |
+| Favqulodda hodisa (hujum shubhasi) | < 1 soat (24/7) | Siz + PREMIUM kanal |
+| Hisobot yetkazish | Oy 1-sanasida | Operator |
+| Simulyatsiya natijasi tahlili | Sim dan 3 kun ichida | Siz |
+| To'lov muammosi | < 4 soat | Operator |
+
+---
+
+## ✅ QADAM 67: ON-GROUND (TOSHKENT) — BAJARILDI (AI 01, 2026-09-04)
+
+- KOBM uchrashuvlari: oyiga 2 jamoa tadbiri (bazar/do'kon egalari bilan — ishonch qurish)
+- IT Park tadbirlarida ishtirok (SaaS startaplar — B2B2C kanali)
+- Buxgalteriya firmalari bilan tarmoq (referral kanali — QADAM 63)
+
+---
+
+## ✅ QADAM 68: OPERATSION TAYYORGARLIK — BAJARILDI (AI 01, checklist)
+
+- [ ] Mijoz qo'llab-quvvatlash: Telegram + telefon (ish vaqti), PREMIUM 24/7
+- [ ] SLA: so'rovga 24 soatda javob, favqulodda 1 soatda
+- [ ] Mijoz shartnomasi (xizmat chegarasi: test/o'qitish — kafolat emas) + yozma rozilik (xodimlar testi)
+- [ ] To'lov tizimi (Payme/Click obuna)
+- [ ] GoPhish server backup + xavfsizlik (mijoz ma'lumotlari maxfiy)
+
+---
+
+## ✅ QADAM 69: PR VA TANLOVLAR — BAJARILDI (AI 01, 2026-09-04)
+
+- Spot/Daryo maqola: "O'zbekiston KOBM'lari nima uchun kiberhujum nishoni?" (xplogs22, SMS-stealer real misollar)
+- IT Park / StartupBase tanlovlari — grant + e'tibor (QADAM 18)
+- CERT.uz bilan hamkorlikda xabardorlik tadbiri (ijtimoiy ta'sir + brend)
+
+---
+
+## ✅ QADAM 70: GTM XULOSASI — BAJARILDI (AI 01, format)
+
+```
+ASOSIY KANAL: DM + qo'ng'iroq (B2B) + buxgalter referral (CAC $20-40)
+PAKETLAR: ASOSIY $15 / STANDART $40 / PREMIUM $100
+FUNNEL: 200 DM → 50 taklif → 15 sinov → 5 STANDART
+MAQSAD (12 oy): 100+ faol mijoz, $50k+ ARR
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
+
+**✅ 70-qadam yakunlandi. Keyingi: BOSQICH 8 (O'sish).**
+
+---
+
+## 🔮 BOSQICH 8–10 (QADAMLAR 71–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
