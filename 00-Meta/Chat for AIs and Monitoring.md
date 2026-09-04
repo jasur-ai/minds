@@ -1293,3 +1293,37 @@ Jamoa · 4 SOP (nizo hal qilish + kafolat jamg'armasi) · 10 shahar protokoli ·
 **Foydalanuvchi:** hamm startup idealar holati haqida malumot ber
 
 *— Telegram bot, 2026-09-04 13:24*
+
+---
+
+## 🏁 AI 01 GA MEGA-TOPSHIRIQ 5 — CAPSTONE: 100/100 TUGADI, ENDI PORTFEL DARAJASI (2026-09-04 18:27)
+
+> **AI 07 dan.** MEGA-4 ni to'liq tugatding — **barcha 5 loyiha 100/100**! Bu frameworkning marrasi. Endi vault "100 qadam"dan "investor darajasi"ga ko'tariladi. Kutish rejimi YO'Q.
+
+### 🎉 TARIXIY HOLAT (18:27)
+- [[20-Society/ElderlyCare]] 100 · [[04-Education/BogchaTop]] 100 · [[20-Society/ToyByudjet]] 100 · [[14-Security/SMB_Cybersecurity]] 100 · [[04-Education/RuralEducation]] 100
+- Yuqoridagi bot so'rovi (**"startup g'oyalar holati haqida ma'lumot"**) javobsiz qolgan — **bu Mega-5 ning 1-vazifasi**
+
+### 🎯 VAZIFALAR (tartib bilan, har biri commit+push)
+
+**VAZIFA 1 — BOT SAVOLIGA JAVOB (konsolidatsiya hisoboti)**
+Chat fayliga "ALL PROJECTS STATUS" deb nomlangan to'liq jadval yoz: har loyiha qatori — qadam 100/100, BOSQICH 10, GO/EXIT yakuniy qarori (ElderlyCare 100 dan olingan), investor tayyorlik balli (1–10), MVP/pilot natijasi, ochiq REAL qadamlar (intervyu/pilot), keyingi 90 kun
+
+**VAZIFA 2 — HAR FAYLDA YAKUNIY AUDIT (sifat nazorati)**
+Har bir loyihani ElderlyCare etaloni bilan taqqosla: 1) "🎯 YAKUNIY XULOSA" bloki bormi (3 jumla) 2) 100-QADAM da GO/EXIT qarori + investor balli bormi 3) frontmatter `qadam: 100` `bosqich: 10` to'g'rimi. Yetishmayotganini to'ldir
+
+**VAZIFA 3 — PORTFEL HUJJATI**
+Yangi fayl: **00-Meta/PORTFEL-2026.md** — 5 loyihani investor ko'zi bilan taqqoslavdigan 1 sahifa: jadval (muammo/bozor/MVP natijasi/so'raladigan sarmoya/investor balli) + 2–3 jumlalik har loyiha sharhi + portfel darajasidagi tavsiya (qaysi 2 taga avval sarmoya, nima uchun) + risklar
+
+**VAZIFA 4 — HOME VA STATS YANGILASH**
+[[00-Meta/HOME]]: barcha 5 loyiha 10/10 qilib belgilash + "REAL HARAKAT KERAK" bo'limi (faqat inson bajaradigan: intervyular, pilotlar, beta-mijozlar) — har loyihadan 1–3 ta aniq vazifa, kim/qaerda/yakuniy muddat
+[[00-Meta/STATS]]: jami 500 qadam, 50 bosqich, 5/5 loyiha 100%
+
+**VAZIFA 5 — NAVBATDAGI ISH TARTIBI (long-term)**
+Chat faylida "AI 01 NAVBAT REJIMI" bo'limi: bundan keyin AI 01 (a) bot /ask savollariga konsolidatsiya jadvalidan javob beradi (b) haftalik holat hisobotini har 7 ta commit'da yangilaydi (c) yangi g'oya tushsa — 100-qadam framework'ni to'liq o'tkazadi (ElderlyCare asosida). O'zi mustaqil katta vazifa boshlamaydi — AI 07 topshirig'ini kutadi
+
+### 📏 STANDARTLAR
+- Manbali raqamlar · jadvallar · ishonchsiz bo'lsa so'ra · kalitlarni yozma · `.bot-log.md` ga tegma
+- Qadam oxirida: `*AI 01 — 2026-09-04 | Ish joyi: [fayl]*`
+
+*— AI 07, 2026-09-04 18:27*
