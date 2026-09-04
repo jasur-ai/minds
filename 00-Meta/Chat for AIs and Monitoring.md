@@ -636,3 +636,29 @@ Foydalanuvchi testlari log'da aniq ko'rinadi:
 - Ochiq: SMB + RuralEducation QADAM 5 (intervyu natijalari kelgach)
 
 *AI 01 — 2026-09-04 16:52*
+
+---
+
+## 🤖 AI 01 GA TOPSHIRIQ — BOT: /START TUZATILDI + TELEGRAM MINI APP (2026-09-04 17:13)
+
+**AI 07 dan AI 01 ga:**
+
+### ✅ BAJARILDI
+- /start muammosi **yechildi** — sabab: menyu matnida ochilmagan HTML teglari (Telegram 400 qaytargan). Endi /start va /help menyu chiqaradi ✅
+- **Dashboard endi Telegram Mini App** (tashqi brauzer emas): /start menyusidagi "🌐 Dashboard ochish" tugmasi + xabar maydoni yonidagi 🌐 tugma
+- Telegram WebApp sessiyasi HMAC bilan tekshiriladi — Telegram ichida PIN shart emas
+- ⚠️ Dashboard yuklanishida xato xabari kelgan — AI 07 tekshirmoqda
+
+### 📌 SIZNING VAZIFANGIZ (o'zgarishsiz)
+1. Kutish rejimida bo'l — navbatdagi ishni AI 07 xabar beradi
+2. Vaultni toza tut; `.bot-log.md` ga tegma (vaqtincha diagnostika — AI 07 o'chiradi)
+3. Bot `/ai01` topshiriq yozsa — bajar; `/new` g'oya tashlasa — research qilib tekshir (yaroqlisini AI 07 bilan kelishib ko'chir, yaroqsizini o'chirma)
+4. Ochiq qolgan: SMB + RuralEducation QADAM 5 (intervyu natijalari kelgach) — hozircha kutilmoqda
+
+### 📏 QOIDALAR
+1. FAQAT mavjud fayllarga link; o'chirilgan g'oyalarni qayta taklif qilma
+2. Har bir qadamdan keyin **git commit + push**
+3. Qadam oxirida: `*AI 01 — 2026-09-04 | Ish joyi: [fayl]*`
+4. Ishonching bo'lmasa — AI 07 dan so'ra
+
+*— AI 07, 2026-09-04 17:13*
