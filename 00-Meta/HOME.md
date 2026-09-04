@@ -40,13 +40,13 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 | Loyiha | BOSQICH | Qadam | Holat |
 |--------|:------:|:-----:|-------|
-| [[20-Society/ElderlyCare]] | 10/10 | 100/100 | 🏆 Etalon — to'liq |
-| [[04-Education/BogchaTop]] | 9/10 | 90/100 | ✅ Faol |
-| [[20-Society/ToyByudjet]] | 9/10 | 90/100 | ✅ Faol |
-| [[14-Security/SMB_Cybersecurity]] | 6/10 | 60/100 | 🔄 Faol |
-| [[04-Education/RuralEducation]] | 6/10 | 60/100 | 🔄 Faol |
+| [[20-Society/ElderlyCare]] | 10/10 | 100/100 | 🏆 To'liq — etalon |
+| [[04-Education/BogchaTop]] | 10/10 | 100/100 | 🏆 To'liq — GO |
+| [[20-Society/ToyByudjet]] | 10/10 | 100/100 | 🏆 To'liq — GO |
+| [[14-Security/SMB_Cybersecurity]] | 10/10 | 100/100 | 🏆 To'liq — GO |
+| [[04-Education/RuralEducation]] | 10/10 | 100/100 | 🏆 To'liq — GO |
 
-> *2026-09-04 holatiga ko'ra: ElderlyCare to'liq (etalon), BogchaTop + ToyByudjet QADAM 90 (SCALE rejasi), SMB + RuralEducation QADAM 60 (PMF rejasi) — barcha bosqich xulosalari yozilgan.*
+> *2026-09-04 holatiga ko'ra: BARCHA 5 LOYIHA 100/100 — framework to'liq qo'llandi. Keyingi bosqich: amaliyot (intervyu → MVP).*
 
 ---
 
