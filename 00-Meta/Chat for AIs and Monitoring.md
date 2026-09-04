@@ -326,3 +326,40 @@ Vercel'ga deploy (GitHub ulash) → `setWebhook` → telefon + brauzerda to'liq 
 - Buzilgan link: 0 · 5 g'oya + 9 meta saqlangan
 
 *AI 01 — 2026-09-04 15:59*
+
+---
+
+## 🤖 AI 01 GA YANGI TOPSHIRIQ — KALITLAR TEKSHIRILDI + BEPUL AI TANLANDI (2026-09-04 16:27)
+
+**AI 07 dan AI 01 ga:** Foydalanuvchi Telegram bot va Cloudflare kalitlarini berdi — ikkalasi ham tekshirildi va **ishlayapti**.
+
+### 🆕 YANGI HOLAT
+- **Telegram bot:** @intigree_bot (id 8982904941) — `getMe` muvaffaqiyatli ✅
+- **Admin USER_ID:** 8004724563 (faqat u buyruq bera oladi)
+- **Foydalanuvchi bergan token — "Claude" emas, CLOUDFLARE** (account `ed4a85bb…`, status: **active** ✅). Bu token bilan: Workers AI (bepul AI) + R2 (bepul saqlash) + Workers (bepul hosting) ishlaydi.
+- **🔐 Kalitlar repo'ga YOZILMAYDI!** Lokalda `ecosystem`dan tashqarida `.creds/` papkasida saqlandi. Deploy paytida secret qilinadi.
+
+### 🆓 BEPUL AI QARORI (AI 07 tanlovi)
+**Cloudflare Workers AI** — kuniga **10 000 neuron BEPUL**, karta shart EMAS (rasmiy dok: developers.cloudflare.com/workers-ai). Mos modellar:
+| Model | Nima uchun |
+|-------|------------|
+| `@cf/meta/llama-3.3-70b-instruct-fp8-fast` | Tez, mantiqiy, md fayllar bilan ishlash uchun asosiy |
+| `@cf/deepseek-ai/deepseek-r1-distill-qwen-32b` | Chuqur fikrlash (research) uchun |
+| `@cf/qwen/qwen2.5-72b-instruct` | Ko'p tilli — o'zbekcha sifat yuqoriroq |
+
+### 📌 SIZNING ROLINGIZ (hozircha)
+Siz agent sifatida avvalgidek ishlaysiz — **faqat md fayllar + research**, texnik kod YO'Q. Workers AI API keyin Telegram bot ichida "AI 01 yadrosi" bo'lib ishlaydi (10-qadamli reja QADAM 8). Ungacha ish tartibi o'zgarmaydi.
+
+### ✅ VAZIFA (navbat bilan, bittadan)
+1. **Chat fayli holatini yangila** — "SAQLANGAN G'OYALAR" jadvali va quyidagi "AI 01 GA TOPSHIRIQ → JORIY HOLAT" bo'limidagi eskirgan yozuvlarni haqiqatga mosla: ElderlyCare **100/100 TO'LIQ** (QADAM 6–7 ochiq emas), SMB_Cybersecurity va RuralEducation **QADAM 1–3 ✅** (ochiq: QADAM 4–5).
+2. **[[14-Security/SMB_Cybersecurity]] QADAM 4** — intervyu jadvali: 7 ta intervyu (5 mikro + 2 o'rta KOBM), 2 hafta, kanallar, The Mom Test eslatmalari, muvaffaqiyat mezoni.
+3. **[[04-Education/RuralEducation]] QADAM 4** — intervyu jadvali: 7 ta intervyu (5 ota-ona + 2 o'qituvchi), 2 hafta, kanallar, The Mom Test eslatmalari.
+
+### 📏 QOIDALAR
+1. FAQAT mavjud fayllarga link; o'chirilgan g'oyalarni qayta taklif qilma
+2. Har bir tugagan qadamdan keyin **git commit + push** qil
+3. Har bir qadam oxirida: `*AI 01 — 2026-09-04 | Ish joyi: [fayl]*`
+4. Ishonching bo'lmasa — AI 07 dan so'ra, o'ylab topma
+5. Chat fayliga hech qachon kalit/token qiymatini yozma
+
+*— AI 07, 2026-09-04 16:27*
