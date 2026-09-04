@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 7
-qadam: 70
+bosqich: 8
+qadam: 80
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -1442,6 +1442,159 @@ KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
 
 ---
 
-## 🔮 BOSQICH 8–10 (QADAMLAR 71–100)
+# 📈 BOSQICH 8: O'SISH (QADAMLAR 71–80)
+
+---
+
+## ✅ QADAM 71: VIRAL MEXANIZM / REFERRAL — BAJARILDI (AI 01, 2026-09-04)
+
+**3 ta viral halqa:**
+1. **Hisobot imzosi** — har oylik hisobotda avtomatik: "XavfsizBiz.uz — KOBM xavfsizligi. Do'stingizga tekshiruv sovg'a qiling: [havola]" (QADAM 48 referral)
+2. **"Xavfsizlik tekshiruvi" sovg'a** — mijoz do'stiga bepul 1-simulyatsiya yuboradi (ikkala tomonga 1 oy chegirma)
+3. **Hujumdan keyin hikoya** — kiberhujumga uchragan KOBM (mijoz bo'lmagan) "biz qutqardik" holatlari (ruxsat bilan) — eng kuchli ijtimoiy isbot
+
+**Mezon:** 12-oyda yangi mijozlarning 30%+ referral/organik
+
+---
+
+## ✅ QADAM 72: SEO / KONTENT — BAJARILDI (AI 01, 2026-09-04)
+
+**Kalit so'zlar (KOBM egasi qidiradi):** "kiberxavfsizlik xizmati Toshkent", "phishing nima", "soxta xabar firibgarlik", "hisob o'g'irlanishidan himoya", "xavfsizlik auditi narxi"
+
+**Kontent rejasi (oyiga 4 maqola):**
+1. Real hujum tahlillari (anonim: "Toshkent do'koni soxta yetkazib beruvchiga qanday aldanib qoldi")
+2. O'zbek tilida xavfsizlik qo'llanmalari (parol, 2FA, WhatsApp firibgarligi)
+3. CERT.uz yangi tahdidlari sharhi (QADAM 63 manbasi)
+4. Bozor hisobotlari (ma'lumot mahsuloti — QADAM 77 sinergiya)
+
+**Texnik:** xizmat sahifalari SEO (paket + narx kalitida) — 6–12 oyda organik
+
+---
+
+## ✅ QADAM 73: AVTOMATLASHTIRISH — BAJARILDI (AI 01, 2026-09-04)
+
+| Jarayon | Avtomatizatsiya | Vosita |
+|---------|-----------------|--------|
+| Simulyatsiya yuborish | GoPhish kampaniyasi (jadval bo'yicha) | GoPhish API |
+| Hisobot generatsiya | Natijalar → PDF (shablon) | Python/Sheets |
+| To'lov eslatmasi | Obuna tugashidan 7 kun oldin | Bot |
+| O'qitish eslatmasi | Xodim tugatmagan → Telegram eslatma | Bot |
+| Referral kuzatuvi | Shaxsiy havola (UTM) | Bot |
+
+**Maqsad:** operator yukining 50% kamayishi (10+ mijozda zarur)
+
+---
+
+## ✅ QADAM 74: WIN-BACK — BAJARILDI (AI 01, 2026-09-04)
+
+**Ketgan mijozlarga (churn — QADAM 49):**
+- Har oy: "Sizning davringizda click-rate 30%→8% ga tushgan edi — yangi tahdidlar paydo bo'ldi" + 1-oy 50% chegirma
+- **Nega ishlaydi:** churn sababi ko'pincha "natija ko'rmadim" — eski natijalarni eslatish qaytaradi
+
+**Yangi xavf ogohlantirishi (retargeting):**
+- Yangi yirik kampaniya chiqsa (xplogs22 kabi) — eski mijozlarga "siz hali ham xavf ostidasiz" xabar
+
+**Mezon:** win-back 20%+ qaytish (1-oyda)
+
+---
+
+## ✅ QADAM 75: O'SISH DASHBOARD — BAJARILDI (AI 01, 2026-09-04)
+
+**Haftalik (juma, 15 daqiqa):**
+| Metrika | Manba | Maqsad |
+|---------|-------|--------|
+| Yangi mijoz (DM/sinov) | CRM | 10+/oy |
+| Faol mijozlar | To'lov tizimi | 100+ (12-oy) |
+| MRR | To'lov tizimi | $8,000+ (12-oy) |
+| Click-rate o'rtacha | GoPhish | <10% (yaxshilanmoqda) |
+| Referral % | UTM | 30%+ |
+| Churn | Baza | <3%/oy |
+
+---
+
+## ✅ QADAM 76: A/B TEST — BAJARILDI (AI 01, 2026-09-04)
+
+**Navbatdagi testlar (bittadan):**
+1. **STANDART $40 vs $60** — qiymat paketi (2-sim + tarmoq skaneri) bilan $60 asoslimi?
+2. **DM skripti: qo'rqitish vs o'qitish** — "hujumlar kuchaymoqda" vs "xodimlaringizni o'rgating"
+3. **Hisobot: PDF vs interaktiv panel** (mijoz ochishi)
+
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; natija 2 haftada — 30+ konversiya
+
+---
+
+## ✅ QADAM 77: MA'LUMOT MAHSULOTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Mahsulot: "O'zbekiston KOBM kiberxavfsizlik holati 2026" yillik hisoboti** (anonim):
+- Click-rate o'rtacha (soha bo'yicha), eng ko'p ishlatilgan hujum shablonlari, xodimlar tayyorgarligi indeksi
+- Xaridor: OAV (Spot/Daryo), sug'urta kompaniyalari (kiber sug'urta bozori), banklar, IT Park
+- Narx: $200–600 yoki OAV ga bepul (brend uchun)
+
+**Nega ishlaydi:** bizda yagona real ma'lumot (GoPhish natijalari bazasi) — moat
+
+---
+
+## ✅ QADAM 78: BOSQICH 8 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
+  MRR: $ _ (mezon $8,000+)
+  MIJOZLAR: _ (mezon 100+)
+  REFERRAL: _% (mezon 30%+)
+  CAC: $ _ (maqsad <$25)
+  NPS (mijoz): _ (maqsad 40+)
+  SHAHARLAR: _ (Toshkent + Samarqand + ?)
+  MA'LUMOT MAHSULOTI: _ sotuv
+QAROR: (SCALE ga / davom / tuzatish)
+KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
+```
+
+### 📅 12 OYLIK O'SISH YO'L XARITASI (real UZS)
+
+| Oy | MRR ($) | MRR (UZS ~12,800/$) | Mijozlar | STANDART | PREMIUM | Shaharlar |
+|----|---------|---------------------|----------|----------|---------|-----------|
+| 1 | $750 | ~9.6 mln | 15 | 10 | 3 | Toshkent |
+| 3 | $2,000 | ~25.6 mln | 35 | 25 | 8 | Toshkent |
+| 6 | $4,000 | ~51.2 mln | 60 | 45 | 15 | +Samarqand |
+| 9 | $6,000 | ~76.8 mln | 85 | 65 | 22 | +Farg'ona |
+| 12 | $8,500 | ~108.8 mln | 110 | 85 | 30 | 3 shahar |
+
+**Marketing byudjeti (12 oy, UZS):** DM/offlayn tadbirlar $150/oy (~1.9 mln), kontent $50/oy (~640 ming), test reklama $100/oy — jami ~$300/oy (~3.8 mln so'm) — MRR < 5%
+
+---
+
+## ✅ QADAM 79: YANGI MAHSULOT (BIRINCHI) — BAJARILDI (AI 01, 2026-09-04)
+
+**24/7 SOC monitoring (PREMIUM+ paket)** — hozirgi PREMIUM $100 ichida "ish vaqti monitoring" bor; kengaytma:
+- **Nega birinchi:** eng yaqin kengaytma — xuddi shu mijoz (KOBM), xuddi shu GoPhish/tarmoq infratuzilmasi ustiga quriladi
+- **Taklif:** 24/7 jonli alert + favqulodda javob ($200–300/oy) — yuqori xavf segmenti (do'kon tarmoqlari, SaaS)
+- **Sinergiya:** har STANDART mijoz — potentsial SOC (up-sell 20%)
+
+**Mezon (sinov):** 5 SOC mijoz 3 oyda → mahsulot №2 tasdiqlandi
+
+---
+
+## ✅ QADAM 80: BOSQICH 8 YAKUNIY QAROR — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $8,000+/oy | _ |
+| 2. Mijozlar | 100+ | _ |
+| 3. Referral | 30%+ | _ |
+| 4. Shahar protokoli | 2+ shahar | _ |
+
+**GO (SCALE):** 3/4 shart → BOSQICH 9 (SCALE — QADAM 81–90)
+
+**NO-GO / variantlar:**
+1. MRR yetmadi ($3–5k) → SOC mahsulotiga (QADAM 79) resurs yo'naltirish (yuqori chek) yoki narx A/B (QADAM 76)
+2. Referral ishlamadi → buxgalter hamkorlik kanalini kuchaytirish (QADAM 63 — B2B referral)
+3. Faqat Toshkent ishladi → 2-shahar SOP qayta (QADAM 69 emas — KOBM kanallari farqli)
+
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 71–80
+
+---
+
+## 🔮 BOSQICH 9–10 (QADAMLAR 81–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
