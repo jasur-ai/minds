@@ -61,6 +61,34 @@ Bot `/new` orqali g'oya kelganda AI 01 quyidagi checklistni to'ldiradi:
 
 ---
 
+## 🎤 2.5. INTERVYU STANDARTI (MOM TEST — Rob Fitzpatrick)
+
+Intervyular g'oyani maqtash emas, **fakt yig'ish** uchun o'tkaziladi. 3 ta qoida:
+
+| Qoida | Nima qilish kerak | Nima qilish mumkin emas |
+|-------|-------------------|--------------------------|
+| 1. **G'oyani aytma** | Suhbatdoshning o'zi muammosini so'zlasin | "Biz shunday app quryapmiz..." demo |
+| 2. **Maqtovni hisobga olma** | "Ajoyib g'oya!" — qiymat 0, keyingi savolga o't | Maqtovni tasdiq deb qabul qilish |
+| 3. **O'tmishdagi faktni so'ra** | "Oxirgi marta qachon shu muammoga duch keldingiz? Nima qildingiz? Qancha to'ladingiz?" | "Kelajakda foydalanarmidingiz?" (yolg'on "ha" oladi) |
+
+**Kuchli intervyu savollari (har biri fakt chiqaradi):**
+1. "Bu muammoni oxirgi marta qachon sezdingiz?" (chastota)
+2. "O'shanda nima qildingiz? Kimdan so'radingiz?" (mavjud yechim)
+3. "Buning uchun pul to'laganmisiz? Qancha?" (to'lov qobiliyati)
+4. "Hozir nimadan foydalanasiz? Nima yoqmadi?" (muammo chuqurligi)
+5. "Buni hal qilish uchun qancha vaqt/pul sarfladingiz?" (og'riq qiymati)
+
+**Intervyu isbot shkalasi (kuchli → zaif):**
+1. 🥇 **Pre-order/depozit** (pul oldindan) — eng kuchli
+2. 🥈 **Kelajakdagi majburiyat** ("x/y da sotib olaman" + telefon/kelishuv)
+3. 🥉 **O'tmishdagi to'lov** (bunga o'xshashga allaqachon to'lagan)
+4. ⚠️ "Qiziq, ehtimol foydalanardim" (taxmin — isbot emas)
+5. ❌ "Ajoyib g'oya!" (maqtov — 0 qiymat)
+
+**Mezon:** har g'oya uchun 5+ intervyu, ularning kamida 2 tasida pul/isbot darajasi 🥇-🥉 bo'lishi kerak.
+
+---
+
 ## 📊 3. BAHOLASH TIZIMI (1–10 skala)
 
 Har loyiha uchun (QADAM 100 — yakuniy baho) 6 mezon bo'yicha ball:
@@ -80,6 +108,67 @@ Har loyiha uchun (QADAM 100 — yakuniy baho) 6 mezon bo'yicha ball:
 - **<5.0** → PIVOT/TO'XTATISH ❌ (sabab yoziladi, g'oya o'chiriladi)
 
 **Joriy baholar (2026-09-04):** Parvarish.uz etalon · Bog'chaTop 7.5 · To'yByudjet 7.8 · XavfsizBiz.uz 8.0 · QishloqMaktab.uz 7.8
+
+---
+
+## 🌍 3.5. GLOBAL FRAMEWORKLAR INTEGRATSIYASI (brilliant tekshiruv)
+
+Har g'oya quyidagi global investor frameworklari bilan ham tekshiriladi:
+
+### A) YC (Y Combinator) — "Kuchli g'oya" 3 mezon (Michael Seibel)
+| Mezon | Savol | Zaif javob | Kuchli javob |
+|-------|-------|------------|--------------|
+| **Kichik bozor (kichikdan boshlash)** | Kichik, aniq segmentda boshlay olasizmi? | "Hamma uchun" | Bitta aniq segment (masalan, diaspora farzandlari) |
+| **Tez o'sish potentsiali** | Bozor o'syaptimi? | O'smayotgan/statik | Texnologik/populyatsion o'sish (masalan, 65+ ulushi) |
+| **Takrorlash qiyinligi** | 6 oyda klonlana oladimi? | Bir kunlik app | Moat: ma'lumot, tarmoq, litsenziya, brend |
+
+> YC qabul darajasi ~1.5% (10,000+ ariza → 130–150 qabul) — ular aynan shu 3 mezonni + jamoani qidiradi.
+
+### B) Peter Thiel — "Zero to One" 7 savol (monopoliya testi)
+| # | Savol | Standart javob |
+|---|-------|----------------|
+| 1 | **Texnologiya** — 10× yaxshimisiz? | Mavjud yechimdan 10× arzon/tez/yaxshi (masalan, agent komissiyasi 10–20% → $30/oy) |
+| 2 | **Tarmoq effekti** — har foydalanuvchi bilan qiymat o'sadimi? | Marketplace: pudratchi ↔ mijoz (bog'cha ↔ ota-ona) |
+| 3 | **Tejamkorlik** — o'sish bilan xarajat kamayadimi? | SaaS/marketplace marjasi o'sadi, agentlik emas |
+| 4 | **Brend** — kategoriya egasi bo'la olasizmi? | "bog'cha tanlash = Bog'chaTop" (Winnie modeli) |
+| 5 | **Monopoliya** — kichik bozorning katta ulushi? | Bo'sh joy: raqobatchi yo'q yoki faqat qisman yechim |
+| 6 | **Tarqatish** — mijozga qanday yetasiz? | Arzon kanal: DM, ona zanjiri, direktor (CAC <$5) |
+| 7 | **Vaqt** — nima uchun hozir? | Infratuzilma/qonun/talab o'zgardi (masalan, PP-167, 2022 qonun) |
+
+### C) a16z — Market sizing: TOP-DOWN vs BOTTOM-UP
+| Usul | Formula | Xavf |
+|------|---------|------|
+| **Top-down** | "Jami bozor $X mlrd → 1% olsak..." | Optimizm (marketing slaydlari uchun) |
+| **Bottom-up** ✅ | `Mijozlar soni × o'rtacha yillik to'lov (ACV)` | Real — asosiy isbot |
+
+**Standart:** Har g'oyada IKKALASI kerak — top-down (potentsial hikoyasi) + bottom-up (real hisob).
+**Misollar:** To'yByudjet bottom-up: 200k to'y/yil × $30 featured = $6M/yil potentsial. SMB: 400k KOBM × $240/yil = $96M TAM.
+
+### D) Alex Hormozi — 5 mezon testi (tez filtr)
+| Mezon | Savol |
+|-------|-------|
+| Muammo kattaligi | Yechishga arziydigan darajada og'riqli/tez-tezmi? |
+| To'lov qobiliyati | Mijozda pul bormi? |
+| Yetkazib berish | Siz (1-2 kishi) yetkaza olasizmi? |
+| Barqarorlik | Qayta sotib olish (subscription/referral) bormi? |
+| Ko'paytirish | O'sish bilan marja yaxshilanadimi? |
+
+---
+
+## 🇺🇿 3.6. UZBEKISTON EKOTIZIM KONTEKSTI (standardning UZ qatlami)
+
+G'oyani baholashda global mezonlarga **UZ bozor realiyasi** qo'shiladi:
+
+| Omil | 2025 holati (manbali) | Standartga ta'siri |
+|-------|------------------------|---------------------|
+| Ekotizim hajmi | **771+ startup**, $489 mln+ jami funding, 96 moliyalashtirilgan kompaniya, 1 unicorn (Uzum) | Raqobat oshmoqda — bo'sh joyni tez egallash kerak |
+| Funding o'sishi | 2025 Q1–4: $110 mln (2 round) — 2024 xuddi shu davrdan +111.92% | Investor uchun tayyor loyihalar talab qilinadi |
+| IT Park imtiyozlari | 0% daromad solig'i, xarajatning 50% gacha qaytarish ($20k gacha), "1+1" co-invest $100k | Har loyihada IT Park rezidentligi hisobga olinadi |
+| StartupBase.uz | Yagona raqamli platforma (startup + investor + hamkor) | Vaultdan tashqari qo'shimcha tasdiq manbai |
+| Venture funds | 2025 Q1: 5 ta yangi fond (AloqaVentures, IT Park Ventures, xalqaro) | Exit/investor yo'li real — loyiha tayyor bo'lishi kerak |
+| President Tech Award | $1M mukofot fondi | Ma'lumot mahsuloti/PR imkoniyati |
+
+**Qo'shimcha UZ qoidasi:** g'oya xorijiy muvaffaqiyat modelini (Winnie, The Knot, Physics Wallah, Guardz) lokal bo'shliqda takrorlashi mumkin, LEKIN model manbasi ko'rsatilishi va UZ infratuzilmasiga (internet, to'lov tizimi, qonun) mosligi isbotlanishi shart.
 
 ---
 
@@ -142,6 +231,25 @@ qisqacha: 1 jumlalik tavsif
 | Linklar | Buzilgan link 0 | Tuzatish |
 | Imzo | `*AI 01 — sana | Ish joyi*` | Qo'shish |
 | UZ realligi | Har faylda 🇺🇿 bo'limi | Qo'shish |
+| YC 3 mezon | Kichik segment + o'sish + takrorlanmaslik | Qayta ishlash |
+| Thiel 7 savol | Kamida 4/7 "ha" | Zaif nuqtani chuqurlashtirish |
+| Bottom-up hisob | Mijoz × ACV formulasi bor | Hisob qo'shish |
+| Mom Test isboti | 🥇-🥉 darajali 2+ intervyu | Intervyu o'tkazish |
+
+---
+
+## 📚 MANBALAR (frameworklar)
+
+1. ycombinator.com — "How to apply and succeed at YC" (Dalton Caldwell) — kuchli g'oya + jamoa mezonlari
+2. YC acceptance ~1.5% — 10,000+ ariza → 130–150 qabul (Quora/HubSpot 2021–2025)
+3. Peter Thiel — "Zero to One" (2014) — 7 savol: texnologiya, tarmoq, tejamkorlik, brend, monopoliya, tarqatish, vaqt
+4. Rob Fitzpatrick — "The Mom Test" (2013) — intervyu 3 qoidasi + isbot darajalari
+5. a16z.com — "16 More Startup Metrics" (2015) — top-down vs bottom-up market sizing
+6. waveup.com (2026-04-27) — Top-down vs bottom-up: "Top-down = prize, bottom-up = capture"
+7. Alex Hormozi — 5 mezon business idea testi
+8. elpislabs.com (2025-06-04) — UZ startup ekotizimi 2025: 771+ startup, $489M funding, +111.92% o'sish, Uzum unicorn
+9. startupbase.uz — O'zbekiston startup ekotizimi raqamli platformasi
+10. itparkventures.uz — IT Park Ventures (Central Asia venture fund)
 
 ---
 
@@ -156,4 +264,4 @@ qisqacha: 1 jumlalik tavsif
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (5 loyiha 100/100 dan so'ng standartlar qayta tasdiqlandi)*
+*Oxirgi yangilanish: 2026-09-04 (global frameworklar integratsiyasi — v2.0)*

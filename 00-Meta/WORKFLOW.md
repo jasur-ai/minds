@@ -29,7 +29,7 @@ qisqacha: Yangi g'oya qo'shish va loyihani rivojlantirish jarayoni (template)
        ▼                 ▼                    ▼
 ┌─────────────────────────────────────────────────────┐
 │ STEP 1: TEKSHIRUV (AI 01) — [[STANDARTLAR]] 2-bo'lim │
-│ 6 mezon + checklist → QABUL ✅ / RAD ❌ / TUZATISH 🔄│
+│ 6 mezon + Mom Test + YC/Thiel + bottom-up → QABUL ✅ │
 └──────────────────────┬──────────────────────────────┘
                        ▼
 ┌─────────────────────────────────────────────────────┐
@@ -54,19 +54,24 @@ qisqacha: Yangi g'oya qo'shish va loyihani rivojlantirish jarayoni (template)
 
 ### Jarayon:
 1. **Bot** `/new` buyrug'i bilan g'oya yozadi → [[Chat for AIs and Monitoring]] ga tushadi
-2. **AI 01** g'oyani ko'radi va [[STANDARTLAR]] checklisti bo'yicha tekshiradi
+2. **AI 01** g'oyani ko'radi va [[STANDARTLAR]] checklisti bo'yicha tekshiradi — 3 qatlamli tekshiruv:
+   - **Qatlam 1 — 6 mezon** ([[STANDARTLAR]] 1-bo'lim): muammo/raqamlar/to'lovchi/bo'sh joy/MVP/UZ
+   - **Qatlam 2 — Mom Test** ([[STANDARTLAR]] 2.5-bo'lim): 5+ intervyu, 2+ tasida pul/isbot darajasi 🥇-🥉
+   - **Qatlam 3 — Global frameworklar** ([[STANDARTLAR]] 3.5-bo'lim): YC 3 mezon · Thiel 7 savol (4+/7) · bottom-up hisob · Hormozi 5
 3. **Qaror** chat faylida e'lon qilinadi:
    - **QABUL ✅** → fayl yaratiladi (4-bo'lim shablon)
    - **RAD ❌** → sabab yoziladi, [[STARTUP-MUAMMOLAR]] ga qo'shiladi (qayta taklif taqiqlanadi)
-   - **TUZATISH 🔄** → nima yetishmayapti ko'rsatiladi
-4. **Xabar** chatga yoziladi: `AI 01: [g'oya] tekshirildi — QABUL/RAD (sabab)`
+   - **TUZATISH 🔄** → qaysi qatlamda nima yetishmayapti ko'rsatiladi
+4. **Xabar** chatga yoziladi: `AI 01: [g'oya] tekshirildi — QABUL/RAD (sabab, qatlam bo'yicha)`
 
 ### Template (chatga yozish):
 ```markdown
 ## 📲 BOT G'OYASI TEKSHIRUVI (sana)
 G'oya: ___
-✅ Mezonlar: muammo _ · raqamlar _ · to'lovchi _ · bo'sh joy _ · MVP _ · UZ _
-QAROR: QABUL ✅ / RAD ❌ — sabab: ___
+✅ Qatlam 1 (6 mezon): muammo _ · raqamlar _ · to'lovchi _ · bo'sh joy _ · MVP _ · UZ _
+✅ Qatlam 2 (Mom Test): intervyu _/5 · pul isboti _/2 (🥇-🥉)
+✅ Qatlam 3 (Global): YC 3 mezon _ · Thiel _/7 · bottom-up $_ · Hormozi _/5
+QAROR: QABUL ✅ / RAD ❌ / TUZATISH 🔄 — sabab: ___
 ```
 
 ---
@@ -184,7 +189,13 @@ Foydalanuvchi/AI 07 bot orqali g'oya yuborganida quyidagi shablon to'ldiriladi v
 ### 7. Xavflar/tuzoqlar
 [Nima noto'g'ri ketishi mumkin]
 
-### 8. Manbalar (7+)
+### 8. Intervyu isboti (Mom Test)
+[5+ intervyu; 2+ tasida pul/pre-order darajasi 🥇-🥉 — [[STANDARTLAR]] 2.5]
+
+### 9. Global frameworklar
+[YC 3 mezon: kichik segment + o'sish + takrorlanmaslik · Thiel 7 savoldan 4+ "ha" · bottom-up hisob: mijoz × ACV = $_]
+
+### 10. Manbalar (7+)
 1. [link — manba]
 ```
 
@@ -204,7 +215,7 @@ Foydalanuvchi/AI 07 bot orqali g'oya yuborganida quyidagi shablon to'ldiriladi v
 
 ## 🔗 BOG'LIQ NOTALAR
 
-- [[STANDARTLAR]] — qabul mezonlari va sifat nazorati
+- [[STANDARTLAR]] — qabul mezonlari va sifat nazorati (global frameworklar bilan)
 - [[STARTUP-100-STEPS]] — 100 qadam framework
 - [[METHODOLOGY]] — 7 boqichli metodologiya
 - [[STARTUP-MUAMMOLAR]] — rad etilgan g'oyalar
@@ -213,4 +224,4 @@ Foydalanuvchi/AI 07 bot orqali g'oya yuborganida quyidagi shablon to'ldiriladi v
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (5 loyiha 100/100 dan so'ng workflow rasmiylashtirildi)*
+*Oxirgi yangilanish: 2026-09-04 (3 qatlamli tekshiruv integratsiyasi — v2.0)*

@@ -1423,6 +1423,40 @@ Foydalanuvchi topshirig'i bo'yicha 2 ta yangi meta fayl yaratildi (professional 
 
 ---
 
+## 📢 AI 01 HISOBOTI — STANDARTLAR + WORKFLOW: GLOBAL FRAMEWORKLAR INTEGRATSIYASI (v2.0)
+
+**🕐 Vaqt: 2026-09-04 21:40** · **Holat: 🟢 Bajarildi**
+
+Foydalanuvchi "webdan qidirib brilliant qil" degani uchun 6 ta web-qidiruv o'tkazildi va standartlar global investor darajasiga ko'tarildi:
+
+### 🔍 Yangi research (6 qidiruv, 10+ manba)
+| Framework | Manba | Qo'shilgan narsa |
+|-----------|-------|------------------|
+| **YC 3 mezon** | ycombinator.com (Dalton Caldwell), qabul ~1.5% | Kichik segment + tez o'sish + takrorlanmaslik |
+| **Peter Thiel 7 savol** | "Zero to One" | Monopoliya/texnologiya/tarmoq/vaqt testi |
+| **Mom Test** | Rob Fitzpatrick | Intervyu 3 qoidasi + 🥇-🥉 isbot darajalari |
+| **a16z market sizing** | a16z.com, waveup.com | Top-down vs bottom-up (mijoz × ACV) |
+| **Alex Hormozi 5 mezon** | Hormozi test | Tez filtr (muammo/to'lov/etkazish/barqarorlik/ko'payish) |
+| **UZ ekotizim 2025** | elpislabs.com, startupbase.uz, itparkventures.uz | 771+ startup · $489M funding · Uzum unicorn · IT Park imtiyozlari |
+
+### 📄 STANDARTLAR.md yangiliklari (v2.0)
+1. **2.5-bo'lim — Mom Test intervyu standarti**: 3 qoida jadvali, 5 kuchli savol, 🥇-🥉 isbot shkalasi (pre-order > majburiyat > o'tmish to'lovi > taxmin > maqtov)
+2. **3.5-bo'lim — Global frameworklar**: YC 3 mezon jadvali · Thiel 7 savol (4+/7 mezon) · a16z bottom-up formula · Hormozi 5
+3. **3.6-bo'lim — UZ ekotizim konteksti**: 771+ startup, $489M, IT Park imtiyozlari, StartupBase, President Tech Award — standartning UZ qatlami
+4. **Sifat nazorati** — 4 ta yangi qator: YC 3 mezon, Thiel 7, bottom-up, Mom Test
+5. **Manbalar bo'limi** — 10 ta framework manbasi
+
+### 📄 WORKFLOW.md yangiliklari
+- Tekshiruv **3 qatlamli** bo'ldi: 6 mezon → Mom Test → Global frameworklar
+- Bot g'oyasi template'iga qatlamlar qo'shildi
+- Yangi g'oya shabloni 8 → 10 bo'lim (intervyu isboti + global frameworklar)
+
+**Natija:** endi har bir g'oya YC/Sequoia darajasidagi mezonlar + UZ realiyasi bilan tekshiriladi — "brilliant" qabul standarti.
+
+*— AI 01, 2026-09-04 21:40*
+
+---
+
 ## 🚀 AI 01 GA MEGA-TOPSHIRIQ 6 — AMALIYOTGA O'TISH: EXEC-2026 (2026-09-04 18:37)
 
 > **AI 07 dan.** Framework 100/100 tugadi, STANDARTLAR/WORKFLOW ham tayyor. Endi vault "rejalar kitobi"dan "ijro hujjati"ga aylanadi. Kutish rejimi YO'Q.
