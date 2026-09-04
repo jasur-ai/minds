@@ -2,6 +2,13 @@
 aliases: [Rural Education, QishloqMaktab.uz, Qishloq Ta'limi, Village Education]
 tags: [education, ruraleducation]
 created: 2026-09-03
+sektor: 04-Education
+tur: g'oya
+holat: faol
+bosqich: 2
+qadam: 20
+sarlavha: QishloqMaktab.uz — qishloq ta'limi
+qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
 
 # 📚 QISHLOQMAKTAB.UZ — QISHLOQ TA'LIMI — 100 QADAM
@@ -497,8 +504,218 @@ Suhbat #: _  Sana: _  Kim: _ (ota-ona/o'qituvchi/ekspert)  Qayerda: _ (qishloq/t
 
 ---
 
-## 🛠️ BOSQICH 2–10 (QADAMLAR 11–100)
+# 🔍 BOSQICH 2: TADQIQOT (QADAMLAR 11–20)
+
+---
+
+## ✅ QADAM 11: ICP — IDEAL MIJOZ PROFILI (BAJARILDI, AI 01 2026-09-04)
+
+### Asosiy ICP: **Qishloq ota-onasi (30–45), 1–9-sinf bolasi bor, eri migrant yoki mahalliy ishda**
+- Samarqand/Qashqadaryo/Andijon/Farg'ona qishloqlari — tuman markazidan 20–60 km
+- Ona uyda (dehqonchilik/chorva), smartfoni bor, Telegram ishlatadi; to'lov Click/Payme orqali
+- Oylik daromad: 2–4 mln so'm (migrant remittance) — repetitor (500 ming) ko'tara olmaydi, 100 ming ($8) guruhli dars ko'taradi
+- Og'riq kanali: "bola fanidan ortda" — maktab yig'ilishida yoki qo'shni suhbatida oshkor bo'ladi
+
+### B2B ICP: **Qishloq maktabi direktori (400–800 o'quvchi)**
+- Chet tili/IT o'qituvchisi yo'q — shikoyat eshitadi, yechim topa olmaydi
+- Bizning darslar = uning obro'si + o'quvchilar natijasi (choraklik hisobot bilan)
+- Qaror: direktor ota-onalarga tavsiya qiladi (pul ota-onadan) — biz direktor orqali tarqalamiz
+
+### B2G ICP (kelajak): **Donor/NNT (World Bank, ADB, UNICEF) + tuman ta'lim bo'limi**
+- BILIM dasturi ($378 mln, 2026) — boshlang'ich ta'lim; ADB $100 mln STEM — qishloq komponenti
+- Ular pudratchi (kontent/xizmat ko'rsatuvchi) qidiradi — biz shu rolni olamiz
+
+### Nega aynan ular:
+- Ona: qarorni o'zi qiladi (eri uzoqda), bola kelajagi uchun $8/oy ajrata oladi, qo'shnilar bilan tarqatadi
+- Direktor: bepul kanal (o'z manfaati uchun tavsiya qiladi), ishonch beradi
+- Donor: katta byudjet, bizga masshtab (B2G — QADAM 60+ da)
+
+---
+
+## ✅ QADAM 12: DEEP-DIVE — MALIKANING KUNI (BAJARILDI, AI 01 2026-09-04)
+
+### Malika (36, Payshanba, 3 bola) — odatiy kun:
+
+| Vaqt | Harakat | Ta'lim nuqtasi |
+|------|---------|----------------|
+| 06:00 | Chorvaga qaraydi, non yopadi | — |
+| 08:00 | Bolalarni maktabga kuzatadi | Aziza (10 yosh) ingliz tilidan qo'rqadi |
+| 12:00 | Aziza qaytadi — "uy vazifasi yo'q, chunki dars bo'lmadi" | ⚠️ O'qituvchi yo'q — dars o'rniga boshqa fan |
+| 15:00 | Telefonda Telegram — qishloq guruhi | ⚠️ Bolalar bekor, telefon o'yin |
+| 18:00 | Eri qo'ng'iroq qiladi — "bolalar o'qiyaptimi?" | Og'riq: er ham bezovta, yordam bera olmaydi |
+| 20:00 | Aziza amakivachchasi (shaharlik) video ko'rsatadi — inglizcha gapiradi | ⚠️ Aziza yig'laydi: "men tushunmayman" |
+
+### Og'riq nuqtalari xaritasi:
+1. **Dars yo'q** — o'qituvchi yetishmasa, fan umuman o'qitilmaydi (Malika maktabida ingliz tili 2 yil yo'q)
+2. **Yordam yo'q** — ona 9-sinf ma'lumotli, o'rgata olmaydi; er uzoqda
+3. **Repetitor narxi** — 500 ming/oy + 60 km (tuman markazi) — imkonsiz
+4. **Vaqt bo'shliq** — 15:00–20:00 bolalar nazoratsiz (o'yin/telefon)
+5. **Ruhiy bosim** — tengdoshdan ortda qolish (Aziza misoli) — ota-ona yurak og'rig'i
+
+### Xulosa: Og'riq KUNDALIK (dars jadvalida) — "dars bo'lmadi" har hafta takrorlanadi; yechimga tayyor (pul + vaqt bor, kanal tayyor)
+
+---
+
+## ✅ QADAM 13: RAKOBATCHILAR TAHLILI (BAJARILDI, AI 01 2026-09-04)
+
+| Raqobatchi | Nima qiladi | Narx | Zaif tomoni | Bizning ustunlik |
+|-----------|-------------|------|-------------|------------------|
+| **Davlat "Onlayn maktab"** | TV/Telegram eshittirish | Bepul | Bir tomonlama; jonli emas; vazifa/tekshiruv yo'q; motivatsiya tushadi | Jonli + interaktiv + hisobot |
+| **eMaktab (davlat)** | Elektron jurnal/hisob | Bepul | Ta'lim kontenti emas | Jonli darslar |
+| **Repetitor (tuman markazi)** | Yakka dars | 300–500 ming/oy | 60 km; qimmat; 1 bola | Guruhli $8/bola + onlayn (masofa yo'q) |
+| **Telegram yakka repetitorlar** | Tartibsiz onlayn | 100–300 ming | Sifat nazoratsiz; guruhli emas | Standart dastur + hisobot |
+| **Khan Academy / Byjus** | Video-kontent | Bepul/$10–30 | Chet tilida; qishloq bolasi uchun emas | O'zbekcha + jonli + ota-ona hisoboti |
+| **Beshplus markazlari** | Guruhli darslar (shahar) | 200–500 ming | Faqat viloyat markazlari | Qishloqqa onlayn yetib boradi |
+
+### Bo'sh joy (white space):
+**Qishloq + jonli + guruhli (5–8 bola) + o'zbekcha + $5–10/oy + ota-ona hisobotli** — bu kombinatsiya YO'Q. Davlat eshittirish jonli emas, repetitor qimmat/uzoq, xalqaro o'zbekcha emas.
+
+---
+
+## ✅ QADAM 14: NARX MODELI (BAJARILDI, AI 01 2026-09-04)
+
+### 3 paket (QADAM 6 dan chuqurlashtirilgan — raqobatchi asosida):
+
+| Paket | Narx | Raqobatchi taqqoslash |
+|-------|------|----------------------|
+| OILAVIY GURUH | 100 ming/oy/bola (~$8) | Repetitor 500 ming/oy dan 5x arzon; 5–8 bola guruhi |
+| MAKTAB HAMKORLIK | $100–200/oy/maktab | Maktab byudjeti yo'q — lekin ota-ona to'lovi direktor kanali orqali |
+| DONOR GRANT | $30–50/bola/yil | BILIM $378 mln / ADB $100 mln byudjetidan |
+
+### Narx tamoyillari:
+- **Kirish narxi 100 ming** — oila byudjetiga mos (choyxona/telefon xarajatiga teng); Click/Payme
+- **Guruh iqtisodiyoti:** 7 bola × 100 ming = 700 ming/oy/guruh — o'qituvchiga 400–500 ming, bizga 200–300 ming
+- **Sinov:** 2 hafta bepul (50 ming qiymat) — qarorni osonlashtiradi
+- **Donor paketi** — MVP isbotidan keyin (BILIM/ADB tenderiga kirish)
+
+**📚 RESEARCH:** ucell/mobiuz narxlari (1 GB = 8,900–10,000 so'm) — internet xarajati oilaga qo'shimcha 10–20 ming/oy · repetitor narxlari (QADAM 2 persona) · worldbank.org BILIM $378 mln (2026-06-30)
+
+---
+
+## ✅ QADAM 15: QONUNIY TEKSHIRUV (BAJARILDI, AI 01 2026-09-04)
+
+### Bizga tegishli qonunlar:
+- **Ta'lim to'g'risida (O'RQ-637, 2020)** — nodavlat ta'lim tashkilotlari faoliyati; onlayn ta'lim xizmati litsenziya talab qiladimi — aniqlash kerak (maslahatchi bilan)
+- **"Onlayn maktab" davlat tizimi** — raqobat emas, qo'shimcha (pozitsiya: "davlat bilan hamkor")
+- **Bolalar huquqlari** — voyaga yetmaganlar ma'lumotlari (ota-ona roziligi); dars yozuvlari — faqat ota-ona ruxsati bilan
+- **Reklama qonuni** — "maktab dasturini to'ldiradi" degan da'volarda ehtiyot (yolg'on reklama emas)
+- **Shaxsiy ma'lumotlar (ZRU-547)** — o'quvchi/ota-ona ma'lumotlarini himoya qilish
+
+### Litsenziya masalasi (hal qilinishi kerak):
+- Onlayn to'garak/kurs sifatida boshlasak — **qo'shimcha ta'lim xizmati** (litsenziya talabi yengilroq)
+- "Maktab o'rnini bosuvchi" emas — "qo'shimcha dars" pozitsiyasi (rasmiy jihatdan xavfsiz)
+- Tuman ta'lim bo'limi bilan ochiq ishlash (direktor kanali buni osonlashtiradi)
+
+### Xavf: bolalar bilan ishlashda xavfsizlik (background check o'qituvchiga) — ishonch brendi uchun muhim
+
+**📚 RESEARCH:** lex.uz (O'RQ-637, ZRU-547) · ta'lim bo'limi amaliyoti (direktor suhbatlari orqali)
+
+---
+
+## ✅ QADAM 16: TEXNOLOGIYA (BAJARILDI, AI 01 2026-09-04)
+
+### MVP stack (60 kun):
+| Vazifa | Vositа | Narx |
+|--------|--------|------|
+| Jonli dars (video) | Telegram video / Zoom | $0 (mavjud) |
+| Guruh chat + hisobot | Telegram bot (oddiy) | $0 |
+| To'lov | Click/Payme | 1–2% |
+| Kontent | O'qituvchi + metodist ishlanma | $100–200 |
+| Ota-ona hisoboti | Telegram xabar (avtomat) | $0 |
+
+### Nega Telegram (dastlab):
+- Qishloqda Telegram hammada bor (o'rnatilgan) — yangi ilova o'rnatish to'sig'i yo'q
+- Internet talabi past: 45 daqiqa jonli video ~200–300 MB — oylik paketga sig'adi (1 GB = 8,900 so'm)
+- Yozib olish: darsni ko'rmagan bola keyinroq ko'radi (offline takrorlash)
+
+### 3 oylik yo'l xaritasi:
+- **Oy 1:** Payshanbada 10 oila piloti (Telegram), 1 guruh (ingliz tili)
+- **Oy 2:** 2-guruh (qo'shni qishloq), hisobot avtomatizatsiyasi
+- **Oy 3:** Maktab kanali (direktor orqali 3–5 guruh), 2-fan (matematika)
+
+### Xarajat: MVP $350–700 (QADAM 7) — asosan o'qituvchi + kontent
+
+---
+
+## ✅ QADAM 17: JAMOA (BAJARILDI, AI 01 2026-09-04)
+
+### Minimal jamoa (4 rol):
+| Rol | Vazifa | Topish kanali | Oylik xarajat |
+|-----|--------|---------------|---------------|
+| **Asoschi (AI 07 + foydalanuvchi)** | Strategiya, maktab/mahalla kanali | — | $0 |
+| **O'qituvchi (ingliz tili)** | Jonli darslar (haftasiga 4–6 guruh × 2 dars) | Toshkent/Samarqand universitetlari, Telegram | $300–500/oy |
+| **Metodist (yarim kunlik)** | Dastur ishlanma, sifat nazorati | Pedagogika universiteti | $150–300/oy |
+| **Mahalliy koordinator (Payshanba)** | Oila yig'ish, to'lov, maktab bilan aloqa | Mahalliy faol ona (Malika tipidagi) | $100–150/oy |
+
+### Jami oylik xarajat: **$550–950** (MVP bosqichi)
+
+### Nega shu odamlar: o'qituvchi — mahsulot yurak; mahalliy koordinator — qishloqqa faqat o'z odami orqali kiriladi (ishonch); metodist — sifat
+
+---
+
+## ✅ QADAM 18: MOLIYALASHTIRISH (BAJARILDI, AI 01 2026-09-04)
+
+### Bootstrap (birinchi 6 oy):
+- 3 guruh × 7 bola × 100 ming = 2.1 mln so'm/oy (~$160) — o'qituvchi + koordinatorni qoplay boshlaydi
+- Asoschi + freelancer — katta kapital kerak emas
+
+### Keyingi manbalar:
+| Manba | Tavsif | Shart |
+|-------|--------|-------|
+| **Ota-ona to'lovi** | 10 guruh = ~$500–600/oy | Tarqalish (direktor kanali) |
+| **IT Park rezidentligi** | 0% soliq, ofis | IT xizmat (edtech) |
+| **Yoshlar ishlari / Innovatsiya agentligi** | Ta'lim/texnologiya grantlari | Tanlov |
+| **UNICEF / UNDP loyihalari** | Qishloq ta'limiga grant (2023–26 hamkorlik bitimi) | Tender/partnerlik |
+| **World Bank BILIM ($378 mln) / ADB ($100 mln)** | Xizmat ko'rsatuvchi pudratchi bo'lish | Tender (xalqaro standart) |
+
+### Byudjet jadvali (12 oy):
+| Oy | Xarajat | Daromad (prognoz) |
+|-----|---------|--------------------|
+| 1–2 | $700 (MVP pilot) | 0 (10 oila sinov) |
+| 3–6 | $1,500/oy (jamoa) | $200–400 (3–5 guruh) |
+| 7–12 | $2,500/oy (kengayish) | $800–1,500 (10–15 guruh) + grant arizasi |
+
+**📚 RESEARCH:** worldbank.org (BILIM $378 mln, 2026-06-30) · adb.org (STEM $100 mln) · unicef.org (2023–26 bitim) · it-park.uz
+
+---
+
+## ✅ QADAM 19: XALQARO BENCHMARK (BAJARILDI, AI 01 2026-09-04)
+
+### Eng yaqin model: **Physics Wallah (Hindiston) — arzon jonli darslar**
+- $1 mlrd baho (2024): arzon (₹) jonli darslar + kichik shaharlar/qishloqlar fokusi; agressiv marketing EMAS, sifat + og'izdan og'iz
+- **Saboq 1:** Narx past bo'lishi mumkin — hajm kompensatsiya qiladi (bizda guruh modeli)
+- **Saboq 2:** Jonli sinf iqtisodiyoti — o'qituvchi 1 ta, o'quvchi 1000 ta (bizda: 1 o'qituvchi, 7 bola guruh — lekin guruhlar ko'payadi)
+
+### Ikkinchi model: **Vedantu (Hindiston) — jonli online darslar**
+- Byju's qulashidan omon qoldi — chunki jonli (live) formatga o'tdi; yozib olingan video emas
+- **Saboq:** Jonli = retention (o'quvchi qatnashadi, savol beradi); video = passiv (tashlab ketadi)
+
+### UZ ga moslash:
+- Hindiston: millionlab o'quvchi, reklamaga pul → **Biz: qishloq guruhlari, direktor kanali (bepul tarqalish)**
+- Hindiston: ilova → **Biz: Telegram (allaqachon o'rnatilgan)**
+- Hindiston: ₹ narx → **Biz: 100 ming/oy guruhli (repetitordan 5x arzon)**
+- Byju's xatosi: qarz + agressiv sotib olish → **Biz: qarz yo'q, arzon MVP, organik o'sish**
+
+---
+
+## ✅ QADAM 20: TADQIQOT XULOSASI (BAJARILDI, AI 01 2026-09-04)
+
+| Savol | Javob |
+|-------|-------|
+| Muammo haqiqiymi? | ✅ 8/10 — dars yo'q (ingliz tili 2 yil), kundalik og'riq |
+| Auditoriya katta? | ✅ 6.78 mln o'quvchining ~70% qishloqda |
+| Kim to'laydi? | ✅ Ona $8/oy (guruh) + donor grant (BILIM $378 mln) |
+| Qonuniy? | ⚠️ Litsenziya masalasi tekshirilishi kerak (qo'shimcha ta'lim pozitsiyasi) |
+| Raqobat? | ✅ Bo'sh joy aniq: qishloq+jonli+guruhli+o'zbekcha |
+| MVP tezmi? | ✅ 60 kun, $350–700 (Telegram yetarli) |
+| Model? | ✅ Guruh obunasi + maktab kanali + donor grant (3 bosqich) |
+
+### QAROR: **GO** — asosiy sinov: 10 oila pilotida 8/10 qoladimi + 4/5 ota-ona 100 ming/oy ga rozi (intervyu QADAM 4)
+
+---
+
+## 🛠️ BOSQICH 3–10 (QADAMLAR 21–100)
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–10
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–20
