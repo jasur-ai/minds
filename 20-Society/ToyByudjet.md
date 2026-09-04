@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 20-Society
 tur: g'oya
 holat: faol
-bosqich: 7
-qadam: 70
+bosqich: 8
+qadam: 80
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
@@ -1091,83 +1091,146 @@ KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
 
 ---
 
-## QADAM 71: VIRAL MEXANIZM
+## ✅ QADAM 71: VIRAL MEXANIZM — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) To'y tugagach "To'y hisoboti" shabloni (qancha sarflandi, qayerda tejaldi) — juftliklar do'stlariga yuboradi, (2) referral: "do'stingiz ro'yxatdan o'tsa — sizga Premium bepul", (3) pudratchi o'z portfolio sahifasini tarqatadi (bizning brend bilan).
+**3 ta viral halqa (to'y = tabiiy ijtimoiy hodisa):**
+1. **"To'y hisoboti" shabloni** — to'y tugagach juftlikka chiroyli hisobot (qancha sarflandi, qayerda tejaldi, pudratchilar) → do'stlariga yuboradi ("sizga ham kerak bo'ladi") — har to'y 5–10 do'st = kelajak mijoz
+2. **Referral (juftlik):** "Do'stingiz ro'yxatdan o'tsa — sizga Premium bepul" ($30) — kelin-kuyov guruhlari bir-birini biladi
+3. **Pudratchi portfolio sahifasini tarqatadi:** har listingda "Sahifani ulashish" + brend belgisi — pudratchi o'zi reklama qiladi
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 72: SEO / KONTENT
-
-**Vazifa:** "Toshkentda to'y qancha turadi", "to'y byudjeti kalkulyatori", "zal narxlari" — ma'lumotli maqolalar + kalkulyator = backlink magniti. Qidiruvchilar = aniq mijoz.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Mezon:** 12-oyda yangi juftliklarning 35%+ referral/organik (CAC <$30 da qoladi)
 
 ---
 
-## QADAM 73: AVTOMATLASHTIRISH
+## ✅ QADAM 72: SEO / KONTENT — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Bron formasi → pudratchiga avtomatik Telegram; eslatmalar (to'yga 1 oy qolganda); review so'rovi avtomatik; pudratchi kalendar.
+**Kalit so'zlar (juftlik qidiradi):** "Toshkentda to'y qancha turadi 2026", "to'y byudjeti kalkulyatori", "to'y zali narxlari Toshkent", "kelinlik libosi narxi", "oshpaz to'y narxi"
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Kontent rejasi (oyiga 4 maqola):**
+1. Narx hisobotlari ("2026 da o'rtacha to'y: 85 mln — nimalarga ketadi") — QADAM 77 sinergiya
+2. Kalkulyator (bepul — backlink magniti: banklar, ZAGS, bloglar havola beradi)
+3. Qanday tejash ("qarzga botmasdan to'y: 12 ta real usul")
+4. Pudratchi tanlash qo'llanmasi (shartnoma, avans, tekshirish)
 
----
-
-## QADAM 74: WIN-BACK
-
-**Vazifa:** Ketgan pudratchilarga 2 oydan keyin yangi bronlar statistikasi + chegirma; juftlik to'yini tugatgach — 1-yillik to'y yubiley taklifi (emas, balki do'stiga referral).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Texnik:** kalkulyator sahifasi + har pudratchi sahifasi SEO (shahar + xizmat + narx kalitida) — 6–12 oyda organik
 
 ---
 
-## QADAM 75: O'SISH DASHBOARD
+## ✅ QADAM 73: AVTOMATLASHTIRISH — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Haftalik: juftlik ro'yxati, bronlar, featured MRR, review soni, konvertatsiya. Har juma 30 daqiqa.
+| Jarayon | Avtomatizatsiya | Vosita |
+|---------|-----------------|--------|
+| Bron formasi → pudratchiga | Telegram xabar (sana, mehmon, byudjet) | Bot (Make/n8n) |
+| To'yga 1 oy qolganda | Juftlikka checklist eslatma (bronlar, to'lovlar) | Bot |
+| Review so'rovi | To'y dan 7 kun keyin juftlikka havola | Bot |
+| Featured tugashi | 7 kun oldin eslatma + uzaytirish | Bot |
+| Pudratchi kalendar | Bo'sh sanalar (juftlik filtrlaydi) | Bot + sahifa |
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 76: A/B TEST
-
-**Vazifa:** Komissiya 5% vs 7% (bron konvertatsiyasi); Featured $30 vs $49 (qabul).
-
-**✅ BAJARILDI:** _(keyin)_
+**Maqsad:** operator yukining 50% kamayishi
 
 ---
 
-## QADAM 77: MA'LUMOT MAHSULOTI
+## ✅ QADAM 74: WIN-BACK — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Anonim narx ma'lumotlari: "To'y iqtisodiyoti hisoboti" (yillik) — banklar, ZAGS, OAV uchun. Brend + B2B daromad (kelajakda).
+**Ketgan pudratchilarga (churn — QADAM 49):**
+- 2 oydan keyin: "Sahifangiz o'tgan oyda 23 marta ko'rildi, 2 bron so'rovi keldi" statistikasi + 1-oy 50% chegirma
+- To'y mavsumi boshlanishidan 1 oy oldin (avg) maxsus taklif — mavsumiy win-back
 
-**✅ BAJARILDI:** _(keyin)_
+**Juftliklarga (retargeting):**
+- To'y tugagach referral (QADAM 71) — "do'stingizga yuboring, sizga Premium bepul"
+- Eslatma tizimi: 1-yillik yubiley emas — do'stlari to'yi yaqinlashganda (ijtimoiy tinglash orqali emas, referral halqasi yetarli)
 
----
-
-## QADAM 78: BOSQICH 8 XULOSA
-
-**Vazifa:** 71–77 natijalari: o'sish, MRR, referral koeffitsienti.
-
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** win-back 20%+ qaytish (1-oyda)
 
 ---
 
-## QADAM 79: YANGI MAHSULOT (BIRINCHI)
+## ✅ QADAM 75: O'SISH DASHBOARD — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** **Sunnat/bitiruv/tug'ilgan kun bo'limi** — xuddi shu pudratchilar, xuddi shu mexanika — bozor ×3.
+**Haftalik (juma, 30 daqiqa):**
+| Metrika | Manba | Maqsad |
+|---------|-------|--------|
+| Yangi juftlik (kalkulyator) | Analytics | 1,000+/oy |
+| Bron so'rovlari | CRM | 300+/oy |
+| Featured MRR | To'lov tizimi | $8,000+ |
+| Pro MRR | To'lov tizimi | $2,000+ |
+| Review soni | Baza | 40+/oy |
+| Referral % | UTM/havola | 35%+ |
+| Churn (featured) | Baza | <5%/oy |
 
-**✅ BAJARILDI:** _(g'oya qayd etildi)_
+**Vosita:** Google Sheets dashboard → Looker Studio
 
 ---
 
-## QADAM 80: BOSQICH 8 YAKUNIY QAROR
+## ✅ QADAM 76: A/B TEST — BAJARILDI (AI 01, 2026-09-04)
 
-**Mezon:** MRR $10,000+ va oylik bron 300+ → SCALE.
+**Navbatdagi testlar (bittadan):**
+1. **Komissiya 5% vs 7%** (escrow, QADAM 62) — bron konvertatsiyasi (2 oy, 20 pudratchi)
+2. **Featured $30 vs $49** — qiymat paketi bilan $49 asoslimi? (2 hafta, 20 pudratchi)
+3. **Landing: kalkulyator-birinchi vs pudratchilar-birinchi** (sahifa tartibi)
 
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; natija 2 haftada — 30+ konversiya
+
+---
+
+## ✅ QADAM 77: MA'LUMOT MAHSULOTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Mahsulot: "O'zbekiston to'y iqtisodiyoti 2026" yillik hisoboti** (anonim):
+- O'rtacha to'y byudjeti (shahar bo'yicha), pudratchi narx indekslari, mavsumiylik, qarz statistikasi
+- Xaridor: banklar (to'y krediti bozori uchun), OAV, ZAGS/agentliklar, sug'urta, yangi pudratchi bizneslar
+- Narx: $200–800 yoki OAV ga bepul (brend uchun)
+
+**Nega ishlaydi:** bizda yagona real narx ma'lumoti (bron + review + kalkulyator bazasi) — moat
+
+**Mezon:** yiliga 8+ sotuv yoki 5+ OAV nashri
+
+---
+
+## ✅ QADAM 78: BOSQICH 8 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
+  MRR: $ _ (mezon $10,000+)
+  BRON: _/oy (mezon 300+)
+  REFERRAL: _% (mezon 35%+)
+  CAC: $ _ (maqsad <$30)
+  SHAHARLAR: _ (Toshkent + Samarqand + ?)
+  ENG YAXSHI VIRAL HALQA: _
+  MA'LUMOT MAHSULOTI: _ sotuv/_ nashr
+QAROR: (SCALE ga / davom / tuzatish)
+KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
+```
+
+---
+
+## ✅ QADAM 79: YANGI MAHSULOT (BIRINCHI) — BAJARILDI (AI 01, 2026-09-04)
+
+**Sunnat/bitiruv/tug'ilgan kun bo'limi** — xuddi shu pudratchilar (zal, oshpaz, foto), xuddi shu mexanika — bozor ×3:
+- **Nega birinchi:** xuddi shu ta'minot tomoni (pudratchilar to'y + boshqa tadbirlarni qiladi), xuddi shu DM kanali
+- **Taklif:** tadbir bo'limi listing ($15/oy — to'y featured $30 dan past) — pudratchilar ko'pchiligi ikkalasini ham oladi
+- **Sinergiya:** to'y juftligi kelajakda sunnat/bitiruv o'tkazadi — xuddi shu platformadan qidiradi
+
+**Mezon (sinov):** 50 listing + 15 featured 2 oyda → mahsulot №2 tasdiqlandi
+
+---
+
+## ✅ QADAM 80: BOSQICH 8 YAKUNIY QAROR — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $10,000+/oy | _ |
+| 2. Bron | 300+/oy | _ |
+| 3. Referral | 35%+ organik | _ |
+| 4. Shahar protokoli | 2+ shahar ishladi | _ |
+
+**GO (SCALE):** 3/4 shart → BOSQICH 9 (SCALE — QADAM 81–90)
+
+**NO-GO / variantlar:**
+1. MRR yetmadi ($4–6k) → 79-yangi mahsulotga (sunnat/bitiruv) resurs yo'naltirish yoki komissiya (escrow) yoqish — QADAM 76 testi
+2. Referral ishlamadi → to'lovli kanal (TikTok ADS) — CAC qayta hisob
+3. Faqat Toshkent ishladi → Samarqand SOP qayta ko'rish (QADAM 69)
+
+*AI 01 — 2026-09-04 | Ish joyi: 20-Society/ToyByudjet.md* | QADAM 71–80
 
 ---
 
