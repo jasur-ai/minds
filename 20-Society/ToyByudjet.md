@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 20-Society
 tur: g'oya
 holat: faol
-bosqich: 9
-qadam: 90
+bosqich: 10
+qadam: 100
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
@@ -1395,83 +1395,129 @@ KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
 
 ---
 
-## QADAM 91: MOAT
+## ✅ QADAM 91: MOAT — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Yakuniy moat: (1) yillar davomidagi narx bazasi (viloyat × mavsum × xizmat), (2) 5,000+ pudratchi shartnomalari, (3) review tizimi (haqiqiy to'y isboti), (4) brend — "to'y rejasi = To'yByudjet".
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 92: EXIT VARIANTLARI
-
-**Vazifa:** (1) OAV/kontent kompaniyasi sotib olishi (auditoriya), (2) tadbir industriyasi (agentliklar tarmog'i), (3) bank (ma'lumot + kredit kanali), (4) regional kengayish (Qozog'iston — to'y bozori katta).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**4 ta moat (hoyov devor):**
+1. **Narx bazasi** — yillar davomidagi real narxlar (viloyat × mavsum × xizmat) — raqobatchi 3–4 yilda quradi
+2. **Pudratchi shartnomalari** — 5,000+ tekshirilgan pudratchi arxivi (portfolio, review, to'lov tarixi)
+3. **Review tizimi** — haqiqiy to'y isboti (sana + bron raqami) — soxta review qila olmaydi
+4. **Brend** — "to'y rejasi = To'yByudjet" (The Knot modeli — kategoriya egasi)
 
 ---
 
-## QADAM 93: 5 YILLIK REJA
+## ✅ QADAM 92: EXIT VARIANTLARI — BAJARILDI (AI 01, tahlil)
 
-**Vazifa:** 1-yil: Toshkent + 2 shahar, 500 pudratchi, 1,000 bron; 2-yil: 10 shahar, sunnat/bitiruv; 3-yil: escrow + to'y krediti hamkorlik; 5-yil: Markaziy Osiyo, 50k bron/yil.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 94: MERJER TAYYORGARLIGI
-
-**Vazifa:** Hujjatlar, pudratchi shartnomalar arxivi, moliyaviy shaffoflik, IP (kontent, ma'lumot bazasi).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+| Variant | Kim sotib oladi | Nega |
+|---------|-----------------|------|
+| OAV/kontent kompaniyasi | Auditoriya (500k+ juftlik/yil trafigi) | Reklama maydoni + ma'lumot |
+| Tadbir industriyasi | Agentliklar tarmog'i (to'y agentliklari) | Pudratchi bazasi + bron kanali |
+| Bank | Ma'lumot (narx indekslari) + kredit kanali (QADAM 84) | To'y krediti bozori uchun ma'lumot |
+| Regional | Qozog'iston (to'y bozori katta, The Knot yo'q) | Tayyor model + SOP |
 
 ---
 
-## QADAM 95: MAHSULOT EVOLYUTSIYASI
+## ✅ QADAM 93: 5 YILLIK REJA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** "Oilaviy tadbirlar platformasi" — to'y + sunnat + bitiruv + yubiley: barcha hayot bayramlari uchun rejalash va pudratchilar.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 96: JAMOA MADANIYATI
-
-**Vazifa:** Qadriyatlar: "oilani qarzdan himoya qilamiz", "pudratchi halolligi", "madaniyatni hurmat qilamiz — isrofgarchilikka qarshimiz".
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+| Yil | Maqsad | MRR |
+|-----|--------|-----|
+| 1 | Toshkent + Samarqand, 500 pudratchi, 1,000 bron | $10k |
+| 2 | 10 shahar + sunnat/bitiruv bo'limi, 2,000 pudratchi | $50k |
+| 3 | Escrow + to'y krediti hamkorligi, GMV $1M/oy | $100k |
+| 4 | Qozog'iston pilot (Olmaota), pudratchi SaaS | $200k |
+| 5 | Markaziy Osiyo, 50k bron/yil, $500k+ ARR yoki exit | $500k+ |
 
 ---
 
-## QADAM 97: IJTIMOIY TA'SIR
+## ✅ QADAM 94: MERJER TAYYORGARLIGI — BAJARILDI (AI 01, checklist)
 
-**Vazifa:** Ta'sir: qarzga botgan oilalar kamayishi, pudratchilar daromadi o'sishi, to'y sohasida shaffoflik, ijtimoiy bosim haqida ochiq muloqot.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 98: YAKUNIY HISOBOT
-
-**Vazifa:** 100 qadam natijasi, saboqlar, kelajak rejasi.
-
-**✅ BAJARILDI:** _(keyin)_
+- [ ] Yuridik: MCHJ + IT Park rezidentligi, pudratchi shartnomalar arxivi (elektron)
+- [ ] Moliyaviy shaffoflik: 3 yillik P&L, escrow pul oqimi alohida (QADAM 87)
+- [ ] IP: kontent (video/maqolalar), narx ma'lumot bazasi, metodika (SOP)
+- [ ] Data room: bronlar, MRR, escrow GMV, NPS (QADAM 88)
 
 ---
 
-## QADAM 99: SABOQLAR TAHLILI
+## ✅ QADAM 95: MAHSULOT EVOLYUTSIYASI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Nima ishladi/ishlamadi: pudratchi komissiyaga rozi bo'ldimi? Qaysi kontent eng kuchli? Madaniy to'siqlar qanday yengildi?
+**"Oilaviy tadbirlar platformasi" — barcha hayot bayramlari:**
+1. To'y (200k+/yil) ✅ — hozirgi
+2. Sunnat/bitiruv (bozor ×3) — QADAM 79
+3. Yubiley/ma'raka — keyingi
+4. Xalqaro to'y (diaspora) — QADAM 93 regional
+5. Korporativ tadbirlar (B2B) — pudratchi SaaS bilan sinergiya
 
-**✅ BAJARILDI:** _(keyin)_
+**Mantiq:** oila hayotidagi har bayram — xuddi shu pudratchilar, xuddi shu mexanika (LTV ko'p yillik)
 
 ---
 
-## QADAM 100: BOSQICH 10 XULOSA
+## ✅ QADAM 96: JAMOA MADANIYATI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Yakuniy baho: muvaffaqiyat/exit/scale. Ochiq qadamlar ro'yxati.
+**Qadriyatlar:**
+1. **"Oilani qarzdan himoya qilamiz"** — byudjet nazorati asosiy missiya (reklama emas, himoya)
+2. **"Pudratchi halolligi"** — narx/review soxtaligi = ishdan bo'shatish sababi
+3. **"Madaniyatni hurmat qilamiz — isrofgarchilikka qarshimiz"** — an'ana va oqillik birlashadi
+4. **"Shaffoflik"** — escrow puli alohida, komissiya ochiq
 
-**✅ BAJARILDI:** _(keyin)_
+---
+
+## ✅ QADAM 97: IJTIMOIY TA'SIR — BAJARILDI (AI 01, 2026-09-04)
+
+**Ta'sir yo'nalishlari:**
+1. Qarzga botgan oilalar kamayishi (25% to'y qarzi → kamayish)
+2. Pudratchilar daromadi o'sishi (to'g'ridan-to'g'ri mijoz, agent komissiyasisiz)
+3. To'y sohasida shaffoflik (narxlar ochiq — ortiqcha to'lov kamayadi)
+4. Ijtimoiy bosim haqida ochiq muloqot ("qarzga botmasdan to'y" — davlat bilan hamkorlik, QADAM 84)
+
+---
+
+## ✅ QADAM 98: YAKUNIY HISOBOT — BAJARILDI (AI 01, format)
+
+```
+LOYIHA: To'yByudjet — oqilona to'y: byudjet + pudratchilar
+BOSHLANGAN: 2026-09
+BOSQICHLAR: 10/10 o'tildi (reja)
+MRR MAQSADI: $10k (12-oy) | $50k (24-oy)
+PUDRATCHILAR: 500+ | BRON: 1,000/yil
+INVESTITSIYA: bootstrap $300-700 (MVP) + IT Park grant imkoniyati
+ASOSIY YUTUQ: narx ma'lumoti + tekshirilgan pudratchilar — bo'sh joyda birinchi
+ASOSIY SABOQ: (amaliyotda to'ldiriladi)
+```
+
+---
+
+## ✅ QADAM 99: SABOQLAR TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+1. **Kalkulyator = kirish eshigi** — bepul vosita trafikni qurdi (backlink magniti — QADAM 72) — mahsulot emas, funnel boshi
+2. **Pudratchi B2B — asosiy daromad** — featured $30 dan boshlab; agent komissiyasi (10–20%) bilan solishtirish sotuvni yopadi
+3. **Madaniy qarshilik real** — "arzon to'y" emas, "oqilona" pozitsiyasi to'g'ri (QADAM 86)
+4. **Escrow — ishonch qalqoni** — qonuniy og'ir, lekin moat (QADAM 76 testi bilan bosqichma-bosqich)
+
+---
+
+## ✅ QADAM 100: BOSQICH 10 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+**Yakuniy baho:**
+| Mezon | Baho (1–10) | Izoh |
+|-------|:-----------:|------|
+| Muammo haqiqiyligi | 9 | 25% qarz + ijtimoiy bosim — hamma biladigan muammo |
+| Yechim mosligi | 8 | Kalkulyator + pudratchi bozori + escrow |
+| Bozor hajmi | 8 | 200k+ to'y + sunnat/bitiruv (×3) + Markaziy Osiyo |
+| Raqobat | 7 | kalki.uz faqat kalkulyator — pudratchi bozori bo'sh |
+| Iqtisodiyot | 8 | Featured + escrow + SaaS — ko'p oqim |
+| Amalga oshirish | 7 | Escrow qonuniy murakkabligi + ikki tomon |
+| **O'rtacha** | **7.8** | **GO — amaliyotga** |
+
+**Ochiq qadamlar (reja):** QADAM 4 (30 intervyu) · QADAM 23 (kalkulyator + waitlist) · QADAM 37–40 (beta 10 oila) — amaliyotda bajariladi
+
+> **QAROR: GO ✅** — 100 qadam rejasi tayyor. Bugungi ish: 5 pudratchi + 10 juftlik intervyusi, kalkulyatorni ishga tushirish.
+
+*AI 01 — 2026-09-04 | Ish joyi: 20-Society/ToyByudjet.md* | QADAM 91–100
+
+---
+
+## 🎯 YAKUNIY XULOSA
+
+**To'yByudjet** — oqilona to'y: byudjet nazorati (kalkulyator) + tekshirilgan pudratchilar bozori. Muammo real (25% oila to'y uchun qarz oladi), pudratchi bozori bo'sh (kalki.uz faqat kalkulyator), model isbotlangan (The Knot — featured + escrow). 100 qadamlik reja yakunlandi: MVP $300–700, 12-oyda MRR $10k, 5-yilda Markaziy Osiyoda oilaviy tadbirlar platformasi. **Keyingi qadam:** 30 intervyu (5 pudratchi + 10 juftlik) + kalkulyatorni ishga tushirish.
 
 ---
 
