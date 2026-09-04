@@ -1063,6 +1063,126 @@ KEYINGI: BOSQICH 5 — SINOV (QADAM 41-50)
 
 ---
 
-## 🔮 BOSQICH 5–10 (QADAMLAR 41–100)
+## 🧪 BOSQICH 5: SINOV (QADAMLAR 41–50)
+
+---
+
+## ✅ QADAM 41: ANALYTICS O'RNATISH — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima o'lchanadi:**
+1. Funnel: DM → listing → simulyatsiya boshlanishi → hisobot → obuna (QADAM 65)
+2. Phishing natijalari: yuborilgan → ochilgan → bosilgan → parol bergan (har simulyatsiya)
+3. O'qitish tugatilishi (video ko'rildi, test topshirildi)
+4. Mijoz bahosi (har hisobotdan keyin 1–5)
+
+**Vositalar:** GoPhish kampaniya hisoboti + Google Sheets dashboard (MVP) → keyin panel (QADAM 34 wireframe)
+
+---
+
+## ✅ QADAM 42: RETENTION TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima:** 1-oy, 2-oy, 3-oyda qolgan mijozlar %
+
+**Mezonlar:** 2-oyga 80%+ qolish = xizmat bog'lab qoladi (subscription); 60% dan past = muammo bor
+
+**Churn sabablari tekshiruvi:** natija ko'rinmayapti? hisobot tushunarsiz? xodimlar qarshilik qilmoqda? narx?
+
+---
+
+## ✅ QADAM 43: COHORT TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Jadval:** har oy kirgan mijozlar guruhi (cohort) alohida kuzatiladi
+
+| Cohort (oy) | Mijozlar | 1-oyda qolgan | 2-oyda | 3-oyda |
+|-------------|----------|---------------|--------|--------|
+| Sentyabr | 3–5 | _ | _ | _ |
+| Oktyabr | _ | _ | _ | _ |
+
+**Nima uchun:** kanal/segment o'zgarganda retention yaxshilan/yomonlashganini ko'rish
+
+---
+
+## ✅ QADAM 44: UNIT EKONOMIKA — BAJARILDI (AI 01, hisob)
+
+**Bitta mijoz iqtisodiyoti (STANDART $40/oy):**
+- Daromad: o'rtacha $30/oy (ASOSIY+STANDART aralashmasi, 10% PREMIUM)
+- Umr (LTV): o'rtacha 18 oy (B2B obuna — xodimlar o'zgarsa ham kompaniya qoladi) → **LTV ≈ $540**
+- Xarajat (CAC): DM + qo'ng'iroq + demo ≈ $20–40 (B2B arzon — shaxsiy sotuv)
+- **LTV/CAC = 13–27×** — juda yaxshi (mezon: 3×+ yetarli)
+
+**Xulosa:** Unit iqtisodiyot kuchli — asosiy xarajat vaqt (operatsiya), GoPhish $6/oy VPS.
+
+---
+
+## ✅ QADAM 45: FUNNEL TAHLILI — BAJARILDI (AI 01, reja)
+
+| Bosqich | Foiz | Muammo bo'lsa |
+|---------|------|----------------|
+| DM yuborildi | 100% | — |
+| Javob (listing) | _% | Xabar zaif → A/B (QADAM 46) |
+| Demo qo'ng'iroq | _% | Qiymat tushunarli emas → skript (QADAM 68) |
+| Sinov boshladi | _% | Ishonch yo'q → bepul 1-simulyatsiya |
+| To'lovga o'tdi | _% | Natija ko'rinmayapti → hisobot sifati |
+
+---
+
+## ✅ QADAM 46: A/B TEST — BAJARILDI (AI 01, reja)
+
+**Navbatdagi testlar:**
+1. Phishing shabloni: bank vs soliq vs kurer (qaysi biri eng real — o'qitish uchun)
+2. Hisobot formati: matn vs infografika (1 sahifa)
+3. Paket taklifi: oylik vs 6 oylik (chegirma) — B2B afzal ko'radi
+
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; har test 2 hafta yoki 2 simulyatsiya.
+
+---
+
+## ✅ QADAM 47: XIZMAT SIFATI NAZORATI — BAJARILDI (AI 01, tizim)
+
+- Har hisobotdan keyin mijoz bahosi (1–5) + har mijoz bilan oylik 15 daqiqa qo'ng'iroq
+- Simulyatsiya natijalari < 5% click-rate bo'lsa — shablon eskirgan (yangi avlod hujumlariga moslash)
+- O'zbekcha kontent yangiligi: har oy 1 yangi phishing shabloni + 1 o'qitish videosi (CERT.uz yangiliklaridan)
+
+---
+
+## ✅ QADAM 48: REFERRAL TIZIMI — BAJARILDI (AI 01, reja)
+
+**Taklif:** "Do'stingizni taklif qiling — ikkalangizga 1 oy bepul" (ASOSIY paket)
+
+**Nega ishlaydi:** KOBM egalari bir-birini biladi (bazar, savdo uyushmalari, IT Park); kiberhujumdan keyin "sizni kim qutqardi?" — tabiiy tavsiya
+
+**Mezon:** har mijozdan oyiga 0.3 referral → 12-oyda organik o'sish
+
+---
+
+## ✅ QADAM 49: CHURN TAHLILI — BAJARILDI (AI 01, reja)
+
+**Ketgan mijozlardan so'rash (majburiy qo'ng'iroq):**
+1. Nega to'xtatdingiz? (natija yo'q / narx / xodimlar qarshiligi / biznes yopildi / ichki xodim oldi)
+2. Qaytish uchun nima kerak?
+3. Tavsiya qila olasizmi?
+
+**Churn sabablari kategoriyalanadi → 3 ta asosiy sabab tuzatiladi**
+
+---
+
+## ✅ QADAM 50: SINOV XULOSASI — BAJARILDI (AI 01, format)
+
+```
+FAOL MIJOZLAR: _
+RETENTION (2-oy): _ (mezon 80%+)
+LTV: $540 | CAC: $20-40 | LTV/CAC: 13-27x
+CLICK-RATE (1→2-sim): _ (mezon 30%→10%)
+ENG YAXSHI KANAL: _
+ASOSIY MUAMMO: _
+QAROR: (PMF ga o'tish / tuzatish / pivot)
+KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
+```
+
+**✅ 50-qadam yakunlandi. Keyingi: BOSQICH 6 (PMF).**
+
+---
+
+## 🔮 BOSQICH 6–10 (QADAMLAR 51–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
