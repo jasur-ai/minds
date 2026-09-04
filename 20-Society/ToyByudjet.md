@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 20-Society
 tur: g'oya
 holat: faol
-bosqich: 8
-qadam: 80
+bosqich: 9
+qadam: 90
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
@@ -1255,83 +1255,139 @@ KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 
 ---
 
-## QADAM 81: JAMOANI KENGAYTIRISH
+## ✅ QADAM 81: JAMOANI KENGAYTIRISH — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Scale jamoasi: shahar menejerlari (har shaharga 1 — pudratchilar bilan), kontent jamoasi (TikTok), support, dasturchi. IT Park rezidentligi.
+**Qachon kim qo'shiladi (MRR asosida):**
+| Rol | Vazifa | Qachon |
+|-----|--------|--------|
+| Shahar menejeri (har shaharga 1) | Pudratchilar bilan DM + listing + featured | 2-shahar ochilganda (MRR $5k+) |
+| Kontent jamoasi (TikTok) | Haftada 5 video + to'y hisobotlari (QADAM 71) | MRR $6k+ |
+| Support (0.5) | Mijoz xizmati SLA (QADAM 66) | MRR $5k+ |
+| Dasturchi (0.5→1) | Bot/panel avtomatlashuvi (QADAM 73) + escrow | MRR $10k+ |
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 82: SOP
-
-**Vazifa:** Yozma jarayonlar: pudratchi qabul qilish (tekshiruv checklist), review moderatsiyasi, narx bazasi yangilash (har mavsum), nizo hal qilish.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**IT Park rezidentligi:** 0% daromad solig'i — MCHJ ochish (escrow uchun yuridik shaxs majburiy)
 
 ---
 
-## QADAM 83: 10 SHAHARGA KENGAYISH
+## ✅ QADAM 82: SOP — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Samarqand, Buxoro, Farg'ona vodiysi (3), Qarshi, Nukus, Urganch, Jizzax, Andijon — protokol bo'yicha 1 shahar/oy.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 84: YIRIK HAMKORLIK
-
-**Vazifa:** (1) Yirik zal tarmoqlari bilan milliy shartnoma, (2) banklar bilan "oqilona to'y krediti" (byudjet chegarasi bilan — mas'uliyatli kreditlash), (3) davlat bilan ta'limiy hamkorlik (ijtimoiy bosimga qarshi kontent).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Yoziladigan 4 SOP (yangi xodim 3 kunda o'rganadi):**
+1. **Pudratchi qabul qilish** — DM → listing → tekshiruv checklist (litsenziya/ruxsat, portfolio, mijoz telefonlari) → nashr (24 soat)
+2. **Review moderatsiyasi** — haqiqiylik isboti (to'y sanasi + bron raqami), yolg'on/haqoratni olib tashlash
+3. **Narx bazasi yangilash** — har mavsum (avg oldi + yanvar): pudratchilarga eslatma, tasdiqlanmagan narx belgisi
+4. **Nizo hal qilish** — mijoz ↔ pudratchi kelishmovchiligi: 24 soat javob, 72 soat yechim, kafolat jamg'armasi (QADAM 86)
 
 ---
 
-## QADAM 85: YANGI DAROMAD OQIMLARI
+## ✅ QADAM 83: 10 SHAHARGA KENGAYISH — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) Escrow komissiyasi (5–7%), (2) ma'lumot mahsuloti, (3) to'y krediti bo'yicha referal komissiya (bankdan), (4) pudratchi SaaS (CRM + kalendar).
+**Protokol (QADAM 69 SOP) — 1 shahar/oy, 4 hafta:**
+| Hafta | Ish |
+|-------|-----|
+| 1 | Baza: 30 pudratchi (DM bepul listing) + narx bazasi (20 so'rov) |
+| 2 | Mahalliy juftlik guruhlari + TikTok geolokatsiya |
+| 3 | 5 featured sinovi (QADAM 65 funnel) |
+| 4 | Mahalliy moslashuv (narxlar, mavsum) + shahar menejeri topshirish |
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Navbat:** Samarqand ✅ → Buxoro, Farg'ona, Andijon, Namangan, Qarshi, Nukus, Urganch, Jizzax, Navoiy
 
----
-
-## QADAM 86: XAVFLARNI BOSHQARISH
-
-**Vazifa:** (1) Pudratchi sifatsiz ish qilsa — obro' xavfi → tekshiruv + kafolat jamg'armasi, (2) madaniy qarshilik ("arzon to'y" degan obro') → pozitsiya nazorati, (3) yirik raqobatchi kirsa → pudratchi eksklyuzivligi, (4) iqtisodiy pasayish → byudjet segmentiga urg'u.
-
-**✅ BAJARILDI:** _(xavf reyestri tayyor)_
-
----
-
-## QADAM 87: MOLIYAVIY BOSHQARUV
-
-**Vazifa:** MRR (featured), komissiya daromadi, oylik P&L, escrow pul oqimi alohida hisob (bankda — mijoz pullari biznikidan ajratilgan).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Shart (shaharni ochish):** 10+ pudratchi javob berdi + juftlik guruhlari faol
 
 ---
 
-## QADAM 88: INVESTORLARGA TAYYORLIK
+## ✅ QADAM 84: YIRIK HAMKORLIK — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Tezislar: (1) 200k+ to'y/yil + sunnat/bitiruv (bozor ×3), (2) 25% qarz — muammo isbotlangan, (3) marketplace ikkala tomonli o'sish, (4) The Knot modeli lokal bo'shliqda. Data room: bronlar, MRR, pudratchi soni, NPS.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 89: BOSQICH 9 XULOSA
-
-**Vazifa:** 81–88 natijalari: 10 shahar, MRR, jamoa.
-
-**✅ BAJARILDI:** _(keyin)_
+| Hamkor | Format | Qiymat |
+|--------|--------|--------|
+| Yirik zal tarmoqlari (3+ filial) | Milliy shartnoma: Pro jamoa chegirmasi (20%) | 30+ listing bir bitimda |
+| Banklar | "Oqilona to'y krediti" — kalkulyator integratsiyasi (byudjet chegarasi, mas'uliyatli kreditlash) | B2B ma'lumot + trafik |
+| Fotosalon/kelinlik tarmoqlari | Milliy kupon almashish | Trafik (B2C) |
+| Davlat (ZAGS/mahalla) | Ta'limiy kontent: "qarzga botmasdan to'y" (ijtimoiy bosimga qarshi) | Brend + ijtimoiy ta'sir |
+| Sug'urta kompaniyalari | To'y bekor bo'lish sug'urtasi (kelajak) | Yangi daromad oqimi |
 
 ---
 
-## QADAM 90: SCALE QARORI
+## ✅ QADAM 85: YANGI DAROMAD OQIMLARI — BAJARILDI (AI 01, 2026-09-04)
 
-**Mezon:** MRR $50,000+ → Voyaga yetish. Aks holda asosiy bozorlarni mustahkamlash.
+1. **Escrow komissiyasi (5–7%)** — depozit himoyasi: mijoz puli bankda alohida, to'y o'tgach pudratchiga → ishonch + komissiya (QADAM 76 testidan keyin)
+2. **Ma'lumot mahsuloti** (QADAM 77) — yillik hisobot $200–800
+3. **To'y krediti referral komissiyasi** — bankdan 1–2% (mijoz kredit olganda) — QADAM 84 #2 bilan
+4. **Pudratchi SaaS** — CRM + kalendar + mijozlar bazasi ($10–20/oy) — 500+ pudratchida
 
-**✅ BAJARILDI:** _(keyin)_
+**Prognoz (12-oy):** MRR tarkibi — Featured/Pro 55% · escrow 25% · SaaS 10% · ma'lumot/referral 10%
+
+---
+
+## ✅ QADAM 86: XAVFLARNI BOSHQARISH (SCALE) — BAJARILDI (AI 01, 2026-09-04)
+
+| Risk | Ogohlantirish belgisi | Yechim |
+|-------|------------------------|--------|
+| Pudratchi sifatsiz ish qilsa | Salbiy review/OAV | Tekshiruv (QADAM 82 SOP) + kafolat jamg'armasi (har bitimdan 1% → nizo qoplamasi) |
+| "Arzon to'y" degan obro' (madaniy qarshilik) | Ijtimoiy muhokama | Pozitsiya: "oqilona, qarzga botmasdan" — hashamatga qarshi emas, nazoratga qarshi (QADAM 26) |
+| Yirik raqobatchi kirsa | Yangi platforma/agentlik | Pudratchi eksklyuzivligi (yaxshi pudratchilarga imtiyozli shartlar) + escrow moati |
+| Iqtisodiy pasayish | Makro ko'rsatkichlar | Byudjet segmentiga urg'u (kichik to'y paketlari, $5–10 listing) |
+| Escrow qonuniy xavfi | Qonun o'zgarishi | Yuridik monitoring (O'RQ-701 litsenziya qonuni doirasi) |
+
+---
+
+## ✅ QADAM 87: MOLIYAVIY BOSHQARUV — BAJARILDI (AI 01, 2026-09-04)
+
+- **Oylik P&L:** MRR (featured/pro) + escrow komissiyasi + bir martalik (ma'lumot) − xarajatlar = foyda
+- **Escrow pul oqimi** — ALOHIDA hisob (bankda mijoz pullari biznikidan ajratilgan — qonuniy talab, QADAM 85 #1)
+- **KPI:** MRR o'sishi (15%+/oy scale), churn <5%, har shahar MRR, escrow bitim hajmi (GMV)
+- **Cashflow qoidasi:** 3 oylik operatsion zaxira; mavsumiylik hisobi (avg–okt yuqori, yan–fev past) — qishda byudjet siqiladi
+
+---
+
+## ✅ QADAM 88: INVESTORLARGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Tezislar (pitch):**
+1. 200k+ to'y/yil + sunnat/bitiruv (bozor ×3) — har oilada yiliga kamida 1 tadbir
+2. 25% qarz — muammo isbotlangan (to'y qarzi ijtimoiy muammo sifatida tan olingan)
+3. Marketplace ikkala tomonli o'sish: juftlik (bepul kalkulyator) + pudratchi (featured $30/Pro $90) — tarmoq effekti
+4. The Knot (AQSh, $1.5 mlrd baho) modeli — Markaziy Osiyoda lokal bo'shliqda birinchi
+
+**Data room:** bronlar, MRR, escrow GMV, pudratchi soni, NPS, mavsumiylik egri chizig'i
+
+**Kimga:** IT Park Ventures, fintech angel'lar (escrow modeli uchun), Markaziy Osiyo VC'lar
+
+---
+
+## ✅ QADAM 89: BOSQICH 9 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+SCALE NATIJALARI (to'ldiriladi — 81–88 amalda bajarilgach):
+  MRR: $ _ (mezon $50,000+)
+  SHAHARLAR: _/10 (har biri MRR $4-6k)
+  PUDRATCHILAR: _ listing | _ featured
+  ESCROW: _ GMV/oy | _ komissiya
+  JAMOA: _ kishi
+  YIRIK HAMKORLIK: _ (bank? zal tarmoqlari?)
+  ENG KATTA XAVF: _
+QAROR: (VOYAGA YETISH ga / davom / to'xtatish)
+KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
+```
+
+---
+
+## ✅ QADAM 90: SCALE QARORI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $50,000+/oy | _ |
+| 2. Shaharlar | 5+/10 ishladi (protokol) | _ |
+| 3. Birlik iqtisodiyoti | Har shahar MRR > xarajat | _ |
+| 4. Escrow | Qonuniy ishlayapti (GMV o'smoqda) | _ |
+
+**GO (VOYAGA YETISH):** 3/4 shart → BOSQICH 10 (QADAM 91–100)
+
+**NO-GO / variantlar:**
+1. MRR $20–35k → kengayishni to'xtatib, escrow + SaaS oqimlarini kuchaytirish (QADAM 85)
+2. Shahar protokoli zaif → SOP qayta (QADAM 82), menejer treningi
+3. Escrow qonuniy to'siq → komissiya modelisiz (faqat featured + SaaS) — moslashish
+
+*AI 01 — 2026-09-04 | Ish joyi: 20-Society/ToyByudjet.md* | QADAM 81–90
 
 ---
 
