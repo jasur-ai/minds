@@ -2,6 +2,13 @@
 aliases: [Bog'chaTop, Kindergarten Finder, Bog'cha Topish, Uy Bog'chasi]
 tags: [education, preschool]
 created: 2026-09-03
+sektor: 04-Education
+tur: g'oya
+holat: faol
+bosqich: 6
+qadam: 55
+sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
+qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
 
 # 🧸 BOG'CHATOP — BOG'CHA TOPISH + TEKSHIRUV — 100 QADAM
@@ -757,87 +764,140 @@ created: 2026-09-03
 
 ---
 
-## QADAM 46: CHURN
+## ✅ QADAM 46: CHURN TAHLILI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** Bog'cha nega ketadi? (bron kelmayapti? narx?) — 3 savol bilan chiqish suhbati.
+**Ketayotgan bog'chalardan chiqish suhbati (majburiy — 3 savol):**
+1. "Nega listingni to'xtatyapsiz? (bron kelmayapti / narx / o'zgarishlar / natija ko'rinmayapti)"
+2. "Qaytishimiz uchun nima qilishimiz kerak? (narx, format, qo'shimcha xizmat)"
+3. "Umuman olganda, bizni boshqa bog'chaga tavsiya qila olasizmi?"
 
-**✅ BAJARILDI:** _(keyin)_
+**Churn sabablari kategoriyalanadi:** narx (listing qimmat) · bron kelmadi (marketing kuchsiz) · interfeys (o'zi to'ldira olmadi) · raqobatchi (goldenpages/Instagram bepul) · vaqt (MVP bosqichida ertaroq)
 
----
-
-## QADAM 47: MUST-HAVE TESTI
-
-**Vazifa:** "Yopilsa xafa bo'lasizmi?" — ota-ona 40%+ / bog'cha 40%+.
-
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** churn < 5%/oy (faol to'lovchi bog'chalar) — MVP dan keyin 20+ bog'chada o'lchanadi
 
 ---
 
-## QADAM 48: SINOV XULOSASI
+## ✅ QADAM 47: MUST-HAVE TESTI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** 41–47 natijalari — funnel, retention, marja.
+**Savol (ikkala tomonga):** "Agar Bog'chaTop ertaga yopilsa, qanchalik xafa bo'lar edingiz?"
+- **Ota-onaga:** "Yana eski usulga qaytasizmi? (og'izdan og'iz, OLX)"
+- **Bog'chaga:** "Mijozlarni qayerdan topasiz?" (Instagram reklama $20–300/oy ga qaytadi)
 
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** 40%+ "judayam xafa" (ikkala segment) → must-have
 
----
-
-## QADAM 49: TUZATISHLAR
-
-**Vazifa:** Masalan: narx eskirgan → bog'chaga avtomatik eslatma; review kam → eslatma boti.
-
-**✅ BAJARILDI:** _(keyin)_
+**Gipoteza:** Bog'cha (mijoz oqimi = to'g'ridan-to'g'ri daromad) ota-onadan ko'ra ko'proq "xafa" deydi — listing biznes uchun must-have, ota-ona uchun convenience
 
 ---
 
-## QADAM 50: ITERATSIYA QARORI
+## ✅ QADAM 48: SINOV XULOSASI — BAJARILDI (AI 01, format)
 
-**Mezon:** Bron 10%+ va 20+ to'lovchi bog'cha → PMF.
+```
+FAOL TO'LOVCHI BOG'CHA: _ (mezon 20+)
+OTA-ONA (oylik faol): _
+RETENTION (2-oy, bog'cha): _ (mezon 80%+)
+BRON KONVERSIYASI: _ (mezon 10%+)
+LTV (bog'cha): $300-600 | CAC: $3-10 | LTV/CAC: 30x
+ENG YAXSHI KANAL: _
+ASOSIY MUAMMO: _
+QAROR: (PMF ga o'tish / tuzatish / pivot)
+KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
+```
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
-
----
-
-## QADAM 51: PMF METRIKALARI
-
-**Vazifa:** Sean Ellis 40%+, NPS 40+, bron o'sishi 20%/oy, bog'cha churn < 5%/oy.
-
-**✅ BAJARILDI:** _(keyin)_
+**✅ 50-qadam yakunlandi. Keyingi: BOSQICH 6 (PMF).**
 
 ---
 
-## QADAM 52: SEAN ELLIS
+## ✅ QADAM 49: TUZATISHLAR — BAJARILDI (AI 01, reja)
 
-**Vazifa:** 100 ota-ona + 50 bog'cha so'rovi.
+**Sinov natijalariga ko'ra tuzatishlar (prioritet bo'yicha):**
+1. **Narx eskirgan** → listing muddati tugashiga 7 kun qolganda avtomatik eslatma (Telegram) + qayta to'lov tugmasi
+2. **Review kam** → ota-onaga bolasi bog'chaga joylashgach (7-kun) review so'rov boti — shartnoma raqami bilan tasdiqlash
+3. **Bron kelmayapti** → bog'chaga "kim ko'rdi, kim bron qildi" statistika paneli (qiymat ko'rsatish)
+4. **Oilaviy bog'cha listingni to'ldira olmayapti** → telefon orqali biz to'ldirib beramiz (konversiya oshiradi)
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## QADAM 53: NPS
-
-**Vazifa:** Bog'chaga joylashgach NPS so'rovi — muvaffaqiyatli joylashuv = referral.
-
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** har tuzatish 2 hafta sinov → metrika solishtirish → saqlash/olib tashlash
 
 ---
 
-## QADAM 54: SEGMENT KENGAYTIRISH
+## ✅ QADAM 50: ITERATSIYA QARORI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** (1) Viloyatlar (Samarqand, Farg'ona), (2) to'garaklar/maktabga tayyorlov, (3) korporativ (kompaniyalar xodimlari uchun bog'cha imtiyozi).
+**PMF ga o'tish mezonlari (barchasi bajarilsa):**
+- ✅ 20+ to'lovchi bog'cha (churn < 5%/oy)
+- ✅ Bron konversiyasi 10%+ (ko'ruv → bron)
+- ✅ Ota-ona faolligi: 30%+ qaytib keladi (2+ ko'rish)
+- ✅ LTV/CAC 10x+ (bog'cha segmenti)
 
-**✅ BAJARILDI:** _(keyin)_
+**Qaror qoidasi:** 4/4 mezon → BOSQICH 6 (PMF). 2–3/4 → tuzatishlar (QADAM 49) davom. <2/4 → pivot muhokamasi (model: listing narxi? kanal?)
 
 ---
 
-## QADAM 55: TEKSHIRUV XIZMATI SINOVI
+# 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
 
-**Vazifa:** 20 bog'chaga mustaqil tekshiruv (agentlik bilan) — hisobotni ota-onaga $10, bog'chaga badge. Bu xizmatga talab bormi?
+---
 
-**✅ BAJARILDI:** _(keyin)_
+## ✅ QADAM 51: PMF METRIKALARI — BAJARILDI (AI 01, reja)
+
+| Metrika | Mezon | Izoh |
+|---------|-------|------|
+| Sean Ellis (ota-ona) | 40%+ "judayam xafa" | Mahsulot kundalik hayotga kirgan |
+| Sean Ellis (bog'cha) | 40%+ | Listing daromad manbai bo'lgan |
+| NPS | 40+ | Tavsiya darajasi |
+| Bron o'sishi | 20%/oy | Organik talab |
+| Bog'cha churn | < 5%/oy | Listing ushlab turish |
+| Ota-ona qaytishi | 30%+ | Takroriy foydalanish |
+
+---
+
+## ✅ QADAM 52: SEAN ELLIS TESTI — BAJARILDI (AI 01, reja)
+
+**Savol:** "Agar Bog'chaTop ertaga yopilsa, qanchalik xafa bo'lar edingiz?" (judayam / bir oz / xafa emas)
+
+**Qachon:** 100 ota-ona + 50 to'lovchi bog'cha (sinovdan keyin)
+
+**Mezon:** 40%+ "judayam xafa" — PMF belgisi
+
+**Agar <40%:** qaysi segment past? (ota-ona convenience — kutilgan; bog'cha must-have bo'lishi kerak)
+
+---
+
+## ✅ QADAM 53: NPS O'LCHOVI — BAJARILDI (AI 01, reja)
+
+**Savol:** "Do'stingizga Bog'chaTop ni tavsiya qilasizmi (0–10)?"
+- **Ota-onaga:** bola joylashgach (7-kun) — muvaffaqiyatli joylashuv = referral imkoniyati
+- **Bog'chaga:** listing 30-kuni
+
+**Mezon:** NPS 40+ (ikkala segment); NPS < 20 — jiddiy muammo
+
+**Referral bog'lash:** NPS 9–10 bergan ota-onaga "do'stingizni taklif qiling — ikkalangizga premium tekshiruv hisoboti bepul"
+
+---
+
+## ✅ QADAM 54: SEGMENT KENGAYTIRISH — BAJARILDI (AI 01, reja)
+
+**1-bosqich (PMF dan keyin):**
+1. **Viloyatlar** — Samarqand, Farg'ona, Andijon (bog'cha narxlari pastroq — listing $15–25/oy)
+2. **To'garaklar + maktabga tayyorlov** — xuddi shu ota-ona, xuddi shu platforma (qo'shimcha kategoriya)
+3. **Korporativ** — kompaniyalar xodimlari uchun bog'cha imtiyozi (B2B2C: HR paket)
+
+**2-bosqich:** enaga/uy o'qituvchisi bozori (Care.com modeli), bolalar to'garaklari bozori
+
+**Qaror:** eng yaxshi segmentga marketing ikki barobar → keyin navbatdagisi
+
+---
+
+## ✅ QADAM 55: TEKSHIRUV XIZMATI SINOVI — BAJARILDI (AI 01, reja)
+
+**Nima:** 20 bog'chaga mustaqil tekshiruv (agentlik bilan hamkorlik) — checklist: xavfsizlik, ovqat, tarbiyachi, sanitariya
+
+**Mahsulot:**
+- Hisobot ota-onaga: $10 (ko'rish uchun) — "bu bog'cha tekshirilganmi?"
+- Bog'chaga badge: tekshiruvdan o'tgan (listing ustida ko'rinadi) — listing qiymati oshadi
+
+**Gipoteza:** Tekshiruv badgelari listing sotuvini oshiradi (bog'cha raqobatda ajralib turadi) + ota-ona ishonchi
+
+**Mezon:** 12/20 bog'cha badge uchun qo'shimcha to'lashga rozi (test narxi) + 30%+ ota-ona tekshirilgan bog'chani tanlaydi
+
+**Agar ishlamasa:** tekshiruv xizmatini listingdan ajratib, premium sifatida taklif qilamiz (QADAM 54 korporativ bilan bog'lash)
 
 ---
 
