@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 5
-qadam: 50
+bosqich: 6
+qadam: 60
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -1210,6 +1210,116 @@ KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
 
 ---
 
-## 🔮 BOSQICH 6–10 (QADAMLAR 51–100)
+## 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
+
+---
+
+## ✅ QADAM 51: SEAN ELLIS TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol (KOBM egasiga):** "Agar XavfsizBiz.uz ertaga yopilsa, qanchalik xafa bo'lar edingiz?"
+- Judayam xafa (40%+ javob = PMF belgisi)
+- Bir oz xafa / xafa emas
+
+**Qachon:** 20+ faol mijozda (beta 3 → kengaytirilgan 20). **Mezon: 40%+ "judayam xafa"**
+
+---
+
+## ✅ QADAM 52: NPS O'LCHOVI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Do'stingizga XavfsizBiz.uz ni tavsiya qilasizmi (0–10)?"
+- Promoter (9–10) − Detractor (0–6) = **NPS**
+
+**Mezon:** NPS 40+ (B2B xizmat uchun yaxshi); NPS < 20 — jiddiy muammo
+
+---
+
+## ✅ QADAM 53: FAOLLIK TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima:** mijoz hisobotni ochadimi? xodimlar o'qitishni tugatadimi? keyingi simulyatsiyaga rozi bo'ladimi?
+
+**"Faol mijoz" ta'rifi:** hisobot ochgan + o'qitish 70%+ tugatilgan + obuna to'lagan
+
+**Mezon:** faol ulush 50%+ → xizmat oylik odatga kirgan (subscription uchun muhim)
+
+---
+
+## ✅ QADAM 54: MUST-HAVE FUNKSIYA — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Qaysi funksiya uchun to'laysiz?" (variantlar: phishing simulyatsiya, o'qitish, parol auditi, hisobot)
+
+**Gipoteza:** phishing simulyatsiya + hisobot (xavfni raqamda ko'rsatish) — must-have; tasdiqlansa → marketingda asosiy xabar ("xodimlaringizni sinab ko'ring — natijani ko'rasiz")
+
+---
+
+## ✅ QADAM 55: PMF SEGMENTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaysi segment eng yaxshi ishlaydi?** (retention + referral bo'yicha — beta 3 persona):
+1. Chakana savdo (Bobur — kassa/naqd, xodimlar ko'p) vs kafe/restoran vs SaaS
+2. Xodimlar soni: 10–25 (kichik) vs 25–100 (o'rta)
+3. To'lov qobiliyati: oylik daromadi yuqori KOBM (xavfsizlik byudjeti bor)
+
+**Qaror:** eng yaxshi segmentga marketing ikki barobar → keyin kengayish
+
+---
+
+## ✅ QADAM 56: WORD-OF-MOUTH — BAJARILDI (AI 01, 2026-09-04)
+
+**O'lchov:** mijozlar qancha qismi do'stlaridan kelgan (referral + organik — QADAM 48)
+
+**Mezon:** 30%+ yangi mijozlar tavsiya orqali = tabiiy o'sish boshlandi (kiberhujumdan keyin "sizni kim qutqardi" — tabiiy hikoya)
+
+---
+
+## ✅ QADAM 57: CHURN SABABLARI CHUQUR TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ketish sabablari jamlanadi → eng katta 3 tasi:**
+1. _ (masalan: "natija ko'rmadim" — click-rate pasayishi xabardorlik emas, xizmat isboti sifatida qabul qilinmayapti)
+2. _ (masalan: xodimlar qarshiligi — testdan qo'rqish)
+3. _ (masalan: narx / ichki IT xodim oldi)
+
+**Har biriga yechim loyihasi: mahsulot/sifat/narx o'zgarishi — 1 oy ichida sinov**
+
+---
+
+## ✅ QADAM 58: RAQOBAT FARQLANISH TEKSHIRUVI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Bizdan boshqa nima ishlatardingiz?" — agar javob "hech narsa" bo'lsa → farqlanish kuchli (o'zbekcha xizmat + lokal tahdidlar bilimi + arzon narx)
+
+**Kuzatuv:** yangi raqobatchilar paydo bo'ldimi? (CYBERNODE kengayishi, csec.uz, xorijiy MSSP lar kirdimi) → monitoring oylik
+
+---
+
+## ✅ QADAM 59: KO'PAYTIRISHGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Checklist:**
+- [ ] Sean Ellis 40%+
+- [ ] NPS 40+
+- [ ] Churn < 5%/oy
+- [ ] LTV/CAC 3×+ (13–27× kutilmoqda)
+- [ ] Referral 30%+
+- [ ] Click-rate yaxshilanishi isbotlangan (1→2-sim)
+
+**Hammasi ✅ → GTM (BOSQICH 7). Aks holda — tuzatish davri (1–2 oy).**
+
+---
+
+## ✅ QADAM 60: PMF XULOSASI — BAJARILDI (AI 01, format)
+
+```
+SEAN ELLIS (judayam xafa): _% (mezon 40%+)
+NPS: _ (mezon 40+)
+RETENTION: _% | CHURN: _%/oy
+ENG YAXSHI SEGMENT: _ (do'kon? kafe? SaaS?)
+MUST-HAVE: _ (phishing sim + hisobot?)
+CLICK-RATE 1→2-sim: _ (mezon kamida 1 daraja yaxshi)
+QAROR: PMF ✅ / YO'Q ❌ / QAYSI SEGMENTDA 🔄
+KEYINGI: BOSQICH 7 — BOZORGA CHIQISH (GTM, QADAM 61-70)
+```
+
+**✅ 60-qadam yakunlandi. Keyingi: BOSQICH 7 (GTM).**
+
+---
+
+## 🔮 BOSQICH 7–10 (QADAMLAR 61–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
