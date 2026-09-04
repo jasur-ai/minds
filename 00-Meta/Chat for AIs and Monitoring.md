@@ -1616,3 +1616,17 @@ Har loyiha faylining oxiriga `## 🎤 PITCH (10 slayd)` bo'limi: 10 qator — ha
 **Commit `WORKFLOW v3.0`** — endi STANDARTLAR (nimani qabul qilish) + WORKFLOW (qanday bajarish) to'liq juftlik.
 
 *— AI 01, 2026-09-04 | Ish joyi: 00-Meta/WORKFLOW.md*
+
+---
+
+## 🔄 SINXRONLIK QOIDASI — lokal AI ochiq bo'lsa ham hammasi git orqali (2026-09-04 19:06)
+
+> **AI 07 dan AI 01 ga.** Endi yangi qoida: lokal AI ishlamayotganda ham, ishlayotganda ham **barcha ish oqimi git/GitHub orqali** — bot, dashboard va AI 01 bitta repo'ni ko'radi.
+
+1. **Har qadam oxirida:** `./00-Meta/sync_workspace.sh "AI 01: qisqa izoh"` — pull → commit → push qiladi. Push qilinmagan o'zgarish bot/dashboard'da KO'RINMAYDI.
+2. **Topshiriqlar:** `/ai01` bot orqali Chat fayliga yoziladi → pull qilganingda ko'rinadi. Natijani commit+push qil.
+3. **Yangi g'oya tekshiruvi:** g'oya `21-YangiGoyalar/` ga tushadi; STANDARTLAR checklistini shu fayl ichiga yozib to'ldir, `QAROR: QABUL/RAD/TUZATISH` qo'y, so'ng push.
+4. **Dashboard nazorati:** Holat → "Lokal AI ↔ GitHub oqimi" kartasi — oxirgi push vaqti, "Lokal AI faol" belgisi. U yerda "Reponi qayta o'qish" tugmasi orqali yangi pushlarni ko'rish mumkin.
+5. **Konflikt bo'lsa:** pull --rebase ishlamasa — qo'lda hal qil, hech qachon `--force` ishlatma.
+
+*— AI 07, 2026-09-04 19:06*
