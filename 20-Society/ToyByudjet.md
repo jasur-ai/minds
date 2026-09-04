@@ -6,7 +6,7 @@ sektor: 20-Society
 tur: g'oya
 holat: faol
 bosqich: 7
-qadam: 65
+qadam: 70
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
@@ -968,19 +968,40 @@ PMF XULOSA: (bormi? qaysi segment kuchli?)
 
 ---
 
-## QADAM 66: MIJOZ XIZMATI STANDARTLARI
+## ✅ QADAM 66: MIJOZ XIZMATI STANDARTLARI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Juftlik savoliga < 4 soat javob; pudratchi bron xabari < 1 soat; yomon review bo'yicha pudratchi bilan 24 soat ichida aloqa.
+| Yo'nalish | SLA | Javobgar |
+|-----------|-----|----------|
+| Juftlik savoli (Telegram/Instagram DM) | < 4 soat (9:00–21:00) | Operator |
+| Pudratchi bron so'rovi → listing egasiga | < 1 soat | Operator (avtomat eslatma) |
+| Salbiy/yolg'on review | Pudratchi bilan aloqa < 24 soat, hal qilish < 48 soat | Moderator |
+| Narx ma'lumoti eskirgan (mavsumiy) | Yangilash < 24 soat | Moderator |
+| To'lov muammosi (featured/Pro/Premium) | < 4 soat | Operator |
 
-**✅ BAJARILDI:** _(standartlar yozildi)_
+**Qo'shimcha standartlar:**
+- To'y mavsumida (avg–okt) navbatchilik kengayadi — javob < 2 soat
+- Har juftlikka bron yakunida qisqa so'rov (NPS ga kiritiladi)
+- Haftalik: eng ko'p takrorlangan savollar → FAQ + kalkulyator ichiga maslahat
 
 ---
 
-## QADAM 67: BOSQICH 7 XULOSA
+## ✅ QADAM 67: BOSQICH 7 XULOSA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** 61–66 natijalari: juftlik trafigi, featured pudratchilar, bronlar.
+```
+GTM NATIJALARI (to'ldiriladi — 61–66 amalda bajarilgach):
+  TRAFIK: kalkulyator ishlatish _/oy (mezon 1,000)
+  LISTING: _ ta (mezon: 50+ pudratchi)
+  FEATURED: _ ta (mezon 15 sinov → 5 Pro)
+  BRON SO'ROVLARI: _/oy (mezon 50+)
+  MRR: $ _ (mezon $3,000+)
+  ENG YAXSHI KANAL: _ (DM? TikTok? referral?)
+  CAC: $ _ (maqsad <$30)
+  ASOSIY TO'SIQ: _
+QAROR: (O'sishga / tuzatish / to'xtatish)
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
 
-**✅ BAJARILDI:** _(keyin)_
+**Mezon (BOSQICH 7 o'tdi):** 50+ bron/oy va MRR $3,000+ (15 featured $30 + 5 Pro $90 ≈ $900 — 2-3-oyda $3,000 ga yetadi: 40 featured yoki 20 Pro + Premium)
 
 ---
 
@@ -988,23 +1009,81 @@ PMF XULOSA: (bormi? qaysi segment kuchli?)
 
 **🤖 AI 01 GA PROMPT:** "To'yByudjet QADAM 68 — pudratchi (zal egasi/oshpaz) bilan qo'ng'iroq skripti: og'riq (mijoz topish), demo, e'tirozlar (komissiya/kerak emas), yopilish. Uzbek tilida."
 
-**✅ BAJARILDI:** _(AI 01 javobidan keyin)_
+### 📞 SOTUV SKRIPTI (QO'NG'IROQ) — BAJARILDI (AI 01, 2026-09-04)
+
+**Kimga:** to'y pudratchilari (zal egasi, oshpaz, fotograf, boshlovchi). **Maqsad:** Featured listing $30/oy (yoki 3 oy $75 pre-order) sotish. **Vaqt:** 7–10 daqiqa.
 
 ---
 
-## QADAM 69: YANGI SHAHAR PROTOKOLI
+**1. OCHILISH (30 soniya)**
+> "Assalomu alaykum, [Ism]! Men To'yByudjet'dan qo'ng'iroq qilyapman. Biz juftliklar to'y byudjetini hisoblaydigan va pudratchilarni tanlaydigan platforma quryapmiz. 3 daqiqa gaplashsak bo'ladimi?"
 
-**Vazifa:** 2-shahar: 30 pudratchi yig'ish (2 hafta), narx bazasi (20 so'rov), 5 featured. Jarayonni SOP qilish.
+**2. O'G'RIQNI KABARITISH (1–2 daqiqa)**
+> "To'y mavsumida mijozlarni qanday topasiz? Instagram'mi, tanish-bilishmi, agentlarmi?"
+> *(Javobni tinglang)*
+> "Agentlar komissiya olishadi — 10–20%? To'ydan o'rtacha qancha daromad olasiz?"
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**3. YECHIM + DEMO (2 daqiqa)**
+> "Bizda sizning sahifangiz bo'ladi: 10 foto, narx, review, bo'sh sanalar. Oyiga 500+ juftlik kalkulyator orqali o'tadi — ular pudratchilarni shu yerda ko'radi. Featured listing'da sahifangiz tepada turadi."
+> *Demo: qidiruv + pudratchi sahifasi* — "Juftlik to'y sanasini kiritadi — sizning profilingiz mos kelsa chiqasiz."
+
+**4. E'TİROZLARGA JAVOB (2 daqiqa):**
+| E'tiroz | Javob |
+|---------|-------|
+| "Qimmat" | "Oyiga $30 — agent komissiyasining bir qismi. Bitta bron $300–1,000 daromad — listing narxini qoplaydi." |
+| "Instagram yetarli" | "Instagram'da sizni faqat kuzatuvchilar ko'radi. Bizda to'y rejalayotgan juftliklar — byudjeti tayyor, sovuq trafik." |
+| "Agentlarim bor" | "Zo'r! Featured sizni qo'shimcha kanal bilan ta'minlaydi. 3 oylik $75 sinov — xavf yo'q." |
+| "Avval sinab ko'rmoqchiman" | "Birinchi oy bepul listing. Yoqsa — featured'ga o'tasiz." |
+| "Hozir pul yo'q" | "Tushunaman. Bepul listing bilan boshlaymiz — katalogda bo'lish bepul." |
+
+**5. YOPILISH (1 daqiqa)**
+> "Taklif: featured 3 oy $75 — bitta bronning daromadidan arzon. Rozimisiz?"
+> *HA:* "A'lo! Sahifa uchun ma'lumot — nom, narx, fotolar — Telegram'ga yuboring, 24 soatda tayyor."
+> *YO'Q:* "Bepul listing bilan boshlaymizmi? Keyin o'zingiz ko'rasiz."
+
+**6. KEYINGI QADAM (30 soniya)**
+> "Sahifa tayyor bo'lgach havolani yuboraman. Savol bo'lsa — Telegram'da yozing."
 
 ---
 
-## QADAM 70: BOSQICH 7 YAKUNIY HISOBOT
+**MEZON (QADAM 65 funnel bilan bog'liq):** 200 DM → 50 listing → 15 featured → 5 Pro/oy.
 
-**Mezon:** Oyda 50+ bron so'rovi va MRR $3,000+ → O'sish.
+**✅ BAJARILDI:** ✅ (AI 01, 2026-09-04)
 
-**✅ BAJARILDI:** _(keyin)_
+---
+
+## ✅ QADAM 69: YANGI SHAHAR PROTOKOLI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qachon:** Toshkentda PMF isboti (QADAM 60) → 2-shahar: **Samarqand** (yirik to'y an'analari, faol pudratchilar)
+
+**SOP (qayta ishlatiladigan protokol):**
+1. **Baza:** 2 hafta — Instagram/Telegram orqali 30 pudratchi (bepul listing taklifi bilan DM)
+2. **Narx bazasi:** 20 juftlik so'rovi — Samarqand to'y byudjetlari (Toshkentdan farqi: zal 10–20 mln vs 30–80 mln)
+3. **Kontent kanali:** Samarqand juftlik guruhlari + TikTok geolokatsiya ("Samarqand to'yi byudjeti")
+4. **Sotuv:** 5 featured sinovi maqsadi (QADAM 65 funnel — 2 hafta DM)
+5. **Mahalliy moslashuv:** pudratchi narxlari, mavsum (Samarqandda to'yxona mavsumi keng), an'ana xizmatlari (otincha? — mahalliy so'rov)
+
+**Mezon (2-shahar):** 30 listing + 5 featured sinovi → shahar protokoli isbotlangan → 3-shahar (Buxoro — turistik to'ylar)
+
+**SOP fayli:** shahar ochilish checklisti — keyingi shaharlar 4 haftada
+
+---
+
+## ✅ QADAM 70: BOSQICH 7 YAKUNIY HISOBOT — BAJARILDI (AI 01, 2026-09-04)
+
+```
+BOSQICH 7 (GTM) YAKUNI:
+  KANALLAR: DM (B2B) + TikTok/kalkulyator (B2C)
+  PAKETLAR: Bepul $0 / Featured $30 / Pro $90 / Juftlik Premium $30
+  FUNNEL: 200 DM → 50 listing → 15 featured → 5 Pro
+  CAC: <$30 (DM — asosan vaqt xarajati)
+  MRR MAQSADI: $3,000+/oy (6-oy) → BOSQICH 8 (O'sish)
+  KENGAYTIRISH: Samarqand protokoli (QADAM 69) — 4 hafta/shahar
+QAROR: (O'sishga — mezonlar bajarilsa)
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
+
+**✅ BOSQICH 7 (61–70) yakunlandi — reja tayyor. Keyingi: BOSQICH 8 (O'sish).**
 
 ---
 
