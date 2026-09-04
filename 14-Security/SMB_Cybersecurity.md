@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 8
-qadam: 80
+bosqich: 9
+qadam: 90
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -1595,6 +1595,146 @@ KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 
 ---
 
-## 🔮 BOSQICH 9–10 (QADAMLAR 81–100)
+# 🏗️ BOSQICH 9: SCALE (QADAMLAR 81–90)
 
-**AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
+---
+
+## ✅ QADAM 81: JAMOA — BAJARILDI (AI 01, 2026-09-04)
+
+**Qachon kim qo'shiladi (MRR asosida):**
+| Rol | Vazifa | Qachon |
+|-----|--------|--------|
+| Sotuv menejeri (KOBM bilan) | DM + qo'ng'iroq + demo | MRR $3k+ (35+ mijoz) |
+| Analitik/mijoz menejeri | Hisobotlar + mijoz aloqasi | MRR $5k+ |
+| Kontent menejeri | SEO + Telegram kanal + ma'lumot mahsuloti | MRR $6k+ |
+| SOC operatori (0.5) | 24/7 monitoring (QADAM 79) | 10+ SOC mijoz |
+| Dasturchi (0.5) | Avtomatlashuv + panel | MRR $8k+ |
+
+**IT Park rezidentligi:** 0% daromad solig'i — MCHJ ochish (mijoz shartnomalari uchun)
+
+---
+
+## ✅ QADAM 82: SOP — BAJARILDI (AI 01, 2026-09-04)
+
+**Yoziladigan 4 SOP (yangi xodim 3 kunda o'rganadi):**
+1. **Yangi mijoz qabul qilish** — DM → demo → shartnoma → GoPhish sozlash → 1-simulyatsiya (7 kun)
+2. **Simulyatsiya sikli** — shablon tanlash → yuborish → natija tahlili → hisobot (QADAM 37 shkala)
+3. **Favqulodda hodisa** — hujum shubhasi → 1 soat javob → yo'riqnoma → hisobot
+4. **O'qitish kontenti yangilash** — oyiga 1 shablon + 1 video (CERT.uz manbasi)
+
+---
+
+## ✅ QADAM 83: 10 SHAHARGA KENGAYISH — BAJARILDI (AI 01, 2026-09-04)
+
+**KOBM xizmati — shahar protokoli (masofaviy, ofis shart emas):**
+| Hafta | Ish |
+|-------|-----|
+| 1 | Baza: 50 KOBM (DM — Yandex/Instagram dan do'kon, kafe, xizmat) |
+| 2 | Mahalliy buxgalter/uychilik hamkorlik (referral — QADAM 63) |
+| 3 | 15 bepul sinov (1-simulyatsiya) |
+| 4 | 5 STANDART mijoz + mahalliy sotuv menejeri (masofaviy) |
+
+**Navbat:** Toshkent ✅ → Samarqand, Farg'ona, Andijon, Buxoro, Namangan, Qarshi, Nukus, Urganch, Jizzax
+
+**Shart:** 10+ KOBM javob + buxgalter hamkori topildi
+
+---
+
+## ✅ QADAM 84: YIRIK HAMKORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Format | Qiymat |
+|--------|--------|--------|
+| Banklar | Kichik biznes mijozlariga xavfsizlik paketi (B2B2C) | 100+ mijoz kanali |
+| Sug'urta kompaniyalari | Kiber sug'urta bilan xizmat paketi (audit = sug'urta sharti) | Yangi talab manbai |
+| IT Park | Rezident startaplarga jamoa chegirmasi | B2B2C tez |
+| Buxgalteriya tarmoqlari | Milliy referral shartnoma (15%) | Doimiy kanal |
+| Savdo uyushmalari | A'zolarga milliy chegirma | Segment kanali |
+
+---
+
+## ✅ QADAM 85: YANGI DAROMAD OQIMLARI — BAJARILDI (AI 01, 2026-09-04)
+
+1. **24/7 SOC** (QADAM 79) — $200–300/oy — yuqori chek segmenti
+2. **Kiber sug'urta referrali** — sug'urta kompaniyasidan komissiya (sug'urta sharti sifatida audit)
+3. **O'qitish platformasi (B2B2C)** — boshqa kompaniyalar xodimlariga o'qitish (HR paket)
+4. **Ma'lumot mahsuloti** (QADAM 77) — yillik hisobot $200–600
+
+**Prognoz (12-oy):** MRR tarkibi — STANDART/PREMIUM 65% · SOC 20% · B2B2C 10% · ma'lumot 5%
+
+---
+
+## ✅ QADAM 86: XAVFLAR (SCALE) — BAJARILDI (AI 01, ro'yxat)
+
+| Risk | Ogohlantirish belgisi | Yechim |
+|-------|------------------------|--------|
+| GoPhish'ning o'zi nishonga olinishi | Mijoz ma'lumotlari sizib chiqishi | Alohida VPS + 2FA + backup (QADAM 68) |
+| Xizmat kafolati da'volari | Mijoz "hujum bo'ldi — kafolat" desa | Shartnoma chegarasi (test/o'qitish — kafolat emas) |
+| Qonuniy o'zgarish (test taqiqi?) | Yangi talablar | Advokat monitoringi + yozma rozilik |
+| Yirik MSSP kirishi (CYBERNODE kengayishi) | Narx urushi | Lokal til + arzon narx + KOBM segmenti |
+| Kadrlar (SOC operatori topilmasa) | 24/7 bo'shliq | Freelance navbatchi + avtomatlashuv |
+
+---
+
+## ✅ QADAM 87: MOLIYAVIY BOSHQARUV — BAJARILDI (AI 01, 2026-09-04)
+
+- **Oylik P&L:** MRR − xarajatlar (jamoa, marketing ~$300/oy, VPS, freelancer) = foyda
+- **Marja:** xizmat marjasi yuqori (asosiy xarajat vaqt — har 100 mijozda 1 analitik)
+- **KPI:** MRR o'sishi (15%+/oy scale), churn <3%, har shahar MRR
+- **Cashflow qoidasi:** 3 oylik operatsion zaxira; yillik paketlar (2 oy bepul) cashflow yaxshilaydi
+
+---
+
+## ✅ QADAM 88: INVESTORLARGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Tezislar (pitch):**
+1. O'zbekiston KOBM'lari kiberhujum nishonida (xplogs22, SMS-stealer — Group-IB) — himoya bo'shlig'i real
+2. PP-167 kiberxavfsizlik qonuni — talab o'sadi (KOBM xabardorligi majburiyatga aylanmoqda)
+3. MSSP modeli isbotlangan (Guardz/Cynomi/Huntress — SMB segmenti $70B ga o'smoqda)
+4. Lokal til + lokal tahdid bilimi — xorijiy MSSP lar kira olmaydi
+
+**Data room:** mijozlar, MRR, click-rate yaxshilanishi (natija isboti), retention, churn
+
+**Kimga:** IT Park Ventures, xavfsizlik sektori angel'lari, Markaziy Osiyo VC'lar
+
+---
+
+## ✅ QADAM 89: BOSQICH 9 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+SCALE NATIJALARI (to'ldiriladi — 81–88 amalda bajarilgach):
+  MRR: $ _ (mezon $25,000+)
+  MIJOZLAR: _ (mezon 300+)
+  SHAHARLAR: _/10
+  SOC MIJOZLARI: _
+  YIRIK HAMKORLIK: _ (bank? sug'urta?)
+  ENG KATTA XAVF: _
+QAROR: (VOYAGA YETISH ga / davom / to'xtatish)
+KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
+```
+
+---
+
+## ✅ QADAM 90: SCALE QARORI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $25,000+/oy | _ |
+| 2. Mijozlar | 300+ | _ |
+| 3. Shaharlar | 5+/10 | _ |
+| 4. SOC | 20+ mijoz (mahsulot №2) | _ |
+
+**GO (VOYAGA YETISH):** 3/4 shart → BOSQICH 10 (QADAM 91–100)
+
+**NO-GO / variantlar:**
+1. MRR $10–20k → chuqurlashish: SOC up-sell (QADAM 79) + PREMIUM ulushini oshirish
+2. Shahar protokoli zaif → masofaviy modelni qayta (KOBM ofis talab qilmaydi — kanal muammosi)
+3. Raqobat bosimi → lokal kontent + hamkorlik moatini kuchaytirish (bank kanali)
+
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 81–90
+
+---
+
+## 🔮 BOSQICH 10 (QADAMLAR 91–100)
+
+**AI 01 tomonidan navbatdagi bosqichda to'ldiriladi** — ElderlyCare formatida.
