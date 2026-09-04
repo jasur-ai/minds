@@ -11,17 +11,14 @@
             "id": "b36d94e2619d1a3e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Ecosystem.canvas",
-                "viewState": {
-                  "x": -25,
-                  "y": 327.37068965517244,
-                  "zoom": -1.1918675543229895
-                }
+                "file": "00-Meta/Chat for AIs and Monitoring.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Ecosystem"
+              "icon": "lucide-file",
+              "title": "Chat for AIs and Monitoring"
             }
           }
         ]
@@ -162,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ecosystem.canvas",
+                "file": "00-Meta/Chat for AIs and Monitoring.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -192,6 +189,7 @@
   },
   "active": "b36d94e2619d1a3e",
   "lastOpenFiles": [
+    "Ecosystem.canvas",
     "00-Meta/Chat for AIs and Monitoring.md",
     "00-Meta/HOME.md",
     "00-Meta/UNSOLVED-PROBLEMS.md",
@@ -214,7 +212,6 @@
     "00-Meta/sedOTLy6C",
     "00-Meta/sedRN4lca",
     "00-Meta/sedLnADZ2",
-    "Ecosystem.canvas",
     "06-Transport/MetanNavbat.md",
     "20-Society/ElderlyCare.md",
     "00-Meta/IDEAS-120-MERGE.md",
@@ -228,7 +225,6 @@
     "02-Business/Marketing.md",
     "01-Technology/AI.md",
     "20-Society/DigitalInclusion.md",
-    "14-Security/SMB_Cybersecurity.md",
     "Untitled.canvas"
   ]
 }

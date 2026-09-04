@@ -192,6 +192,32 @@ MetanNavbat (Metanchi.uz), Freelancer (Payxem), JobPlatform (IshTopchi), NFCPay 
 **Holat:** SMB_Cybersecurity va RuralEducation — QADAM 1–3 ✅, QADAM 4 (intervyu jadvali) va QADAM 5 (AI 01 sloti) ochiq. AI 07 BOSQICH 2-10 ni to'ldirishi uchun tayyor.
 
 *AI 01 — 2026-09-04 15:50*
+
+---
+
+## 🟢 AI 01 QAYTA ISHI — QADAM 1–3 CHUQURLASHTIRILDI (2026-09-04 16:10)
+
+> Foydalanuvchi tanqidi: "sayoz, detallar qisqa" → **ikkala fayl ElderlyCare/Bog'chaTop standartiga yetkazildi** (qayta research bilan, yangi real raqamlar).
+
+### 📊 QO'SHIMCHA RESEARCH (4 ta qidiruv)
+- KOBM soni aniqlandi: **1,212,000+** (stat.uz via uzdaily 2025-11-01) — avvalgi "500,000+" taxminim 2.4x kam edi ❌ tuzatildi
+- KOBM YaIMning 50%+; 2025 H1 da 26,738 yangi KOBM (stat.uz)
+- Global SMB xavfsizlik statistikasi: hujumlarning 43–49% KOBMga; phishing buzilishlarning 33.8% (#1 vektor); xodim xatosi 68%; zarar $10k–100k (67% KOBM); 60% biznes 6 oyda yopiladi (Heimdal/gov.uk/totalassure)
+- Ta'lim: o'quvchilar **6,776,300** (2024/25); o'qituvchilar 564,900→577,700; **1-sinf qabuli 726,231** (209,280 onlayn); maktab interneti 71.6% (qishloqda 69.4%) — gazeta.uz 2024
+
+### 1️⃣ [[14-Security/SMB_Cybersecurity]] — QADAM 1–3 qayta yozildi (chuqurlashtirildi)
+- **QADAM 1:** 1 jumla + 10 ta manbali raqam (1.2 mln KOBM, PP-167+ZRU-764, 33.8% phishing, $254k o'rtacha zarar); og'riq 8/10; 6 ta mavjud yechim tekshiruvi
+- **QADAM 2:** 3 guruh (mikro $10–30/oy, o'rta B2B $50–150/oy, B2B2C bank/IT Park) + 2 persona (Bobur — $3,000 phishing zarari; Malika CTO — xalqaro security hujjat ehtiyoji)
+- **QADAM 3:** 10 savol (mikro 5 + o'rta 4 + ekspert 1), har biri The Mom Test qoidasi bilan, kanal rejasi
+
+### 2️⃣ [[04-Education/RuralEducation]] — QADAM 1–3 qayta yozildi (chuqurlashtirildi)
+- **QADAM 1:** 1 jumla + 10 ta manbali raqam (6.78 mln o'quvchi, ~70% qishloqda, 69.4% qishloq interneti, davlat Onlayn maktab kamchiligi); og'riq 7/10; 7 ta mavjud yechim tekshiruvi
+- **QADAM 2:** 3 guruh (ota-ona $5–10/oy guruhli, o'qituvchi/direktor hamkor, NNT grant) + persona Malika (Payshanba — ingliz o'qituvchisi 2 yil yo'q)
+- **QADAM 3:** 10 savol (ota-ona 5 + maktab 3 + ekspert 2), narx testi ikki nuqta bilan, tarqalish testi
+
+**Holat:** QADAM 1–3 ✅ (chuqurlashtirilgan versiya). QADAM 4 (intervyu) + QADAM 5 (AI 01 sloti) ochiq.
+
+*AI 01 — 2026-09-04 16:10*
 ---
 
 ## 🚀 GITHUB PUSH + AI 01 GA YANGI TOPSHIRIQ (2026-09-04)
