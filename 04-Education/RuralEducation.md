@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 2
-qadam: 20
+bosqich: 3
+qadam: 30
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -714,8 +714,206 @@ Suhbat #: _  Sana: _  Kim: _ (ota-ona/o'qituvchi/ekspert)  Qayerda: _ (qishloq/t
 
 ---
 
-## 🛠️ BOSQICH 3–10 (QADAMLAR 21–100)
+# ✅ BOSQICH 3: VALIDATION (QADAMLAR 21–30)
+
+---
+
+## ✅ QADAM 21: LANDING PAGE MATNI — BAJARILDI (AI 01, 2026-09-04)
+
+### Landing (ota-ona tilida — donor tilida EMAS):
+**Sarlavha:** *"Farzandingiz hali 'Hello' dey olmayaptimi? — Qishloqda ingliz tili darsi endi bor."*
+
+**Sub-sarlavha:** "Jonli, guruhli (5–8 bola) onlayn darslar — o'zbekcha o'qituvchi, haftasiga 2 marta. Ota-onasi har darsdan keyin hisobot oladi. Oyiga 100 ming so'm."
+
+**3 afzallik:**
+1. 🎓 **Jonli dars** — shahar o'qituvchisi, lekin farzandingiz qishloqda o'tiradi (savol beradi, javob oladi)
+2. 👨‍👩‍👧 **Ota-ona hisoboti** — har darsdan keyin: "bugun 8 ta so'z o'rgandi, uy vazifasi 10 daqiqa"
+3. 🤝 **Qo'shni bolalari bilan** — guruhda o'qish oson, bola yolg'iz emas (arzon: 7 bola bo'lishsa 100 ming)
+
+**CTA:** "Bepul sinov darsiga yozilish"
+
+**Forma (3 savol):**
+1. Farzandingiz necha yoshda? (guruh filtri)
+2. Qaysi qishloq/tuman? (guruh tashkil qilish)
+3. Qaysi fan? (ingliz tili / matematika / IT)
+
+**Ishonch elementlari:** "1-hafta bepul sinov" · "O'qituvchi tekshirilgan" · "To'lov Click/Payme — har oy to'laysiz, majburiyat yo'q"
+
+**📚 Research:** persona Malika (QADAM 2) — "Aziza hali Hello demaydi" og'rig'i; narx 100 ming/oy (QADAM 6)
+
+---
+
+## ✅ QADAM 22: WAITLIST REJASI — BAJARILDI (AI 01, 2026-09-04)
+
+### Maqsad: 3 haftada 30 ta oila + 10 ta qishloq (Payshanba va atrof)
+
+### Kanallar (ota-ona):
+1. **Maktab direktori** (Qo'rg'ontepa) — ota-onalar guruhiga e'lon (eng kuchli ishonch kanali)
+2. **Mahalla yig'ini / choyxona** — jonli taklif (asoschi 2 kun Payshanbada)
+3. **Qishloq Telegram guruhlari** — "Payshanba axborot" post + video (1 daqiqalik dars namunasi)
+4. **Tanishuv zanjiri** — 1 ona → qo'shnisi (Malika 3 ta onani tanishtiradi)
+
+### 3 haftalik jadval:
+| Hafta | Harakat | Maqsad |
+|-------|---------|--------|
+| 1 | Direktor + maktab yig'ini + Malika zanjiri | 15 oila (1-guruh) |
+| 2 | Mahalla/choyxona + qishloq guruhi (video) | 10 oila (2-guruh) |
+| 3 | Qo'shni qishloq (Qamashi) — direktor kanali | 5+ oila (3-guruh potentsiali) |
+
+**Imtiyoz:** waitlistdagilar 1-oy 80 ming (100 mingdan) + "birinchi guruh" badge
+
+**GO sharti (AI 07 topshirig'i):** internet/telefon tekshiruvi har oilada (operator, qamrov) — yozib olinadi
+
+---
+
+## ✅ QADAM 23: 50 TA INTERVYU REJASI — BAJARILDI (AI 01, 2026-09-04)
+
+### Segmentlar bo'yicha (QADAM 4 ni kengaytiradi):
+
+| Segment | Soni | Nima tekshiramiz |
+|---------|------|------------------|
+| Qishloq ota-onasi (Payshanba tumani) | 25 | Ingliz tili bo'shlig'i; 100 ming/oy guruh narxi; internet |
+| Qishloq ota-onasi (boshqa tuman: Qamashi, G'uzor) | 10 | Muammo tarqalganmi (faqat Payshanba emas) |
+| Maktab direktori / o'qituvchi | 8 | Dars yetishmasligi; direktor kanali ishonchi |
+| Tuman ta'lim bo'limi / metodist | 4 | Davlat pozitsiyasi; qo'llab-quvvatlash |
+| NNT/donor vakili (UNDP, UNICEF loyihalari) | 3 | Grant kanali realmi; qanday kiriladi |
+| **JAMI** | **50** | |
+
+### Maxsus savollar (QADAM 3 qo'shimchasi):
+- **Ota-ona:** "Telefoningizda internet qancha? Qaysi operator? Oyiga qancha to'laysiz?" (infratuzilma — GO sharti)
+- **Direktor:** "Ota-onalar to'lagan qo'shimcha darslar bo'lganmi? (masalan, X doira) Qanday o'tdi?" (to'lov tarixi)
+- **Donor:** "Qishloq ta'limiga grant qanday yopiladi? Biz kabi kichik tashkilot qanday ishtirok etadi?" (grant yo'li)
+
+### Muvaffaqiyat mezoni:
+- **20/35 ota-ona** 100 ming/oy guruh narxiga "ha" desa → model isboti
+- **5/8 direktor** ota-onalarga tavsiya qilishga tayyor → kanal isboti
+- **30/35 ota-onada** internet bor (kamida 1 GB paket) → infratuzilma sharti
+- <10 ota-ona "ha" demasa → ⚠️ narx/format qayta (audio? offline?)
+
+---
+
+## ✅ QADAM 24: PRE-ORDER — BAJARILDI (AI 01, 2026-09-04)
+
+### Taklif (haqiqiy — guruh tashkil bo'lsa to'lov):
+**"1-oy (8 dars) — 100 ming so'm"** — guruhda 7 bola yig'ilsa boshlanadi; yig'ilmasa pul qaytadi
+
+### O'lchash:
+- Maktab yig'inida / uyma-uy: "1-oyga oldindan yozilish" — depozit 30 ming (Click/Payme yoki naqd)
+- **Mezon:** 2 haftada 14+ depozit (2 guruh × 7) → talab isboti; 0–5 → narx/guruh o'lchami qayta
+- Har depozitdan keyin: "nima uchun yozildingiz?" (motivatsiya yozuvi — marketing uchun)
+
+### Guruh tashkil qilish (muhim):
+- 7 bola kerak — 14 ta depozit = 2 ta guruh (kunlar: Du/Pa va Se/Ju)
+- Yozilganlar qo'shnisini ham olib keladi (depozit qaytarilmasligi uchun emas — bola bilan o'qish uchun)
+
+---
+
+## ✅ QADAM 25: FAKE DOOR TEST — BAJARILDI (AI 01, 2026-09-04)
+
+### Test: "Matematika darsi" tugmasi (2-fan — hali yo'q)
+- Landing/Telegram'da: "Matematikadan jonli guruh darsi — yoziling" (aslida hali ishga tushmagan)
+- Yozilganda: "Rahmat! Ingliz tili guruhlari to'lib bormoqda — matematika navbatiga qo'shildingiz"
+
+### O'lchash (3 hafta):
+- **Yozilish:** 10+ oila matematikaga → 2-fan talabi bor
+- **Ingliz tili CTA solishtirish:** qaysi fan ko'proq yoziladi → birinchi MVP fani tasdiqlanadi (yoki o'zgaradi)
+
+### Xulosa: Ingliz tili MVP fani sifatida tasdiqlansa ham, matematika fake door'i 2-fan rejasini (QADAM 7) tekshiradi
+
+---
+
+## ✅ QADAM 26: POZITSIYALASH (POSITIONING) — BAJARILDI (AI 01, 2026-09-04)
+
+**Umumiy qoida (davlat bilan munosabat):**
+- ❌ Hech qachon "davlat Onlayn maktab yomon" yoki "maktab o'rnini bosamiz" degan pozitsiya yo'q
+- ✅ "Biz maktabga QO'SHIMCHA dars beramiz — o'qituvchi yo'q fanlarni to'ldiramiz, direktor bilan hamkorlikda"
+- ⚠️ "Maktab o'rnini bosuvchi" emas — "qo'shimcha ta'lim" (litsenziya pozitsiyasi, QADAM 15)
+
+**VARIANT 1 — OTA-ONA UCHUN:**
+> **"QishloqMaktab.uz — farzandingizning o'qishi shahardagidan ortda qolmasin."**
+> Jonli guruhli darslar, o'zbekcha, qo'shni bolalari bilan — oyiga 100 ming. Ota-onasi har darsdan keyin hisobot oladi.
+
+**VARIANT 2 — MAKTAB DIREKTORI UCHUN (B2B):**
+> **"QishloqMaktab.uz — maktabingizda yo'q fanlar endi bor."**
+> Direktor tavsiyasi bilan o'quvchilar jonli onlayn dars oladi — sizning choraklik hisobotingiz "ta'lim sifati yaxshilandi" dalili.
+
+**VARIANT 3 — DONOR/INVESTOR UCHUN:**
+> **"6.78 mln o'quvchining 70% qishloqda; chet tili o'qituvchisi yo'q maktablar bor; World Bank $378 mln (BILIM) + ADB $100 mln ajratmoqda. Byjus qulashidan saboq oldik: arzon MVP, organik kanal, qarz yo'q. Physics Wallah modeli (arzon jonli) $1 mlrd baholangan."**
+
+---
+
+## ✅ QADAM 27: MIJOZ TOPISH KANALLARI TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+### 4 kanalni sinash (3 hafta):
+| Kanal | Test | Mezon (kanal ishlaydi) |
+|-------|------|------------------------|
+| Maktab direktori | 2 maktab (Payshanba, Qamashi) | 3+ oila / maktab |
+| Mahalla yig'ini / choyxona | 4 yig'ilish | 5+ oila / yig'ilish |
+| Qishloq Telegram guruhlari | 5 guruhga video-post | 5+ yozilish / post |
+| Tanishuv zanjiri (ona → ona) | Malika + 3 ta boshlovchi | 1 ona → 2+ yangi |
+
+### Xulosa qoidasi:
+- 2+ kanal ishlasa → pilot shu kanallar bilan (80/20)
+- Direktor kanali ishlamasa (hech kim tanishtirmasa) → ⚠️ qishloqqa kirish modeli xato (pivot: faqat mahalla/ona zanjiri)
+
+---
+
+## ✅ QADAM 28: TO'LOVGA TAYYORLIK TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+### So'rovnoma (50 ta — QADAM 23 intervyularida):
+- **Ota-ona (35):** "100 ming/oy bo'lsa to'laysizmi? 150 ming-chi? 70 ming (guruh katta bo'lsa)?"
+- **Direktor (8):** "Ota-onalar qo'shimcha darsga to'lashga odatlanganmi? Qancha?" (mintaqa tajribasi)
+- **Donor (3):** "Bola boshiga $30–50/yil grant realmi?" (B2G baho)
+
+### Mezon:
+- **20/35 ota-ona (57%)** 100 mingga "ha" → PASS
+- **5/8 direktor** "to'laydi" desa → PASS
+- Internet: 30/35 da bor (1 GB+ paket) → infratuzilma sharti
+
+### Moslashuv (natijaga qarab):
+- Ha kam: guruh 10 bola (narx 70 ming), yoki 2 haftada 1 dars (50 ming)
+- Ha ko'p: 150 ming (3 dars/hafta) qo'shimcha paket
+
+---
+
+## ✅ QADAM 29: VALIDATION XULOSASI — BAJARILDI (AI 01, format)
+
+```
+WAITLIST: _ (mezon 30 oila) | PRE-ORDER DEPOZIT: _ (mezon 14)
+INTERVYU: _50_ | TO'LOVGA TAYYOR: _/35 (mezon 20)
+FAKE DOOR (matematika): _ (mezon 10)
+INTERNET TEKSHIRUVI: _/35 (mezon 30)
+ENG YAXSHI KANAL: _ (direktor? mahalla?)
+ASOSIY XAVF: _ (to'lov? internet? o'qituvchi?)
+QAROR: (GO pilot / tuzatish / pivot)
+KEYINGI: BOSQICH 4 — MVP/PILOT (QADAM 31-40)
+```
+
+**Mezon (BOSQICH 3 o'tdi):** Waitlist 30 · depozit 14+ (2 guruh) · to'lovga tayyor 20+ · internet 30+ · kanal 2+
+
+---
+
+## ✅ QADAM 30: GO/NO-GO — BAJARILDI (AI 01, 2026-09-04)
+
+### Qaror qoidasi:
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. Talab isboti | Waitlist 30 + depozit 14+ (2 guruh) | _ |
+| 2. To'lovga tayyorlik | 20/35 "ha" | _ |
+| 3. Infratuzilma | 30/35 internet | _ |
+| 4. Kanal | 2+ ishladi (direktor?) | _ |
+
+**GO:** 3/4 shart → BOSQICH 4 (10 oila piloti — QADAM 7 rejasi asosida, 8 haftalik dastur)
+
+**NO-GO / pivot variantlari:**
+1. To'lov quvvati yo'q (0 og'riq intervyuda) → **pivot:** maktab B2B (direktor byudjeti/donor orqali) — ota-ona to'lovi emas
+2. Internet yetarli emas → **pivot:** audio-darslar / maktab kompyuter sinfida (69.4% internet bor maktablar)
+3. Direktor kanali ishlamadi → **pivot:** faqat ona zanjiri + mahalla (B2C to'g'ridan-to'g'ri)
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–30
+
+---
+
+## 🛠️ BOSQICH 4–10 (QADAMLAR 31–100)
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
-
-*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–20
