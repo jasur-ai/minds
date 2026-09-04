@@ -357,6 +357,127 @@ Har g'oya **qonuniy doirasini** quyidagi template bilan tekshiradi:
 
 ---
 
+## ⚠️ 3.12. XAVFLAR VA TUZOQLAR (CB Insights + UZ — v5.0)
+
+### Global muvaffaqiyatsizlik sabablari (CB Insights — 400+ post-mortem tahlili)
+| # | Sabab | % | Standartda qanday oldini olinadi |
+|---|-------|---|----------------------------------|
+| 1 | **Bozor ehtiyoji yo'q** (no market need) | **35–43%** | Mom Test 🥇-🥉 isboti + pre-order (2.5-bo'lim) |
+| 2 | **Pul tugadi / mablag' topa olmadi** | **38%** | Cashflow qoidasi: 3 oy zaxira + IT Park grantlari (3.6C) |
+| 3 | **Raqobatchiga yutqazdi** | **20%** | Real raqobatchilar bazasi (3.9) + moat tekshiruvi (QADAM 91) |
+| 4 | **Noto'g'ri jamoa** | **15%** | 1-2 kishi qura oladigan MVP mezonu (1-bo'lim #5) |
+| 5 | **Noto'g'ri vaqt** | **13%** | "Nega hozir?" savoli (Thiel 7-savol, 3.5B) |
+| 6 | **Qonuniy muammolar** | **8%** | Qonuniy tekshiruv (3.11) — litsenziya/JK 278 |
+
+### UZ-spetsifik tuzoqlar (vault tajribasidan)
+| # | Tuzoq | Misol | Qoida |
+|---|-------|-------|-------|
+| 1 | **"Davlat qiladi" xavfi** | nodavlat-bogcha.uz — davlat o'zi platforma qurdi | Davlat bor joyda — hamkorlik yoki bo'sh segment topish (3.9) |
+| 2 | **To'lovchi yo'q model** | NGO/grant g'oyalar (DigitalInclusion) | Kim to'laydi aniq bo'lmasa — RAD (1-bo'lim) |
+| 3 | **Mavjud yechim kloni** | MetanNavbat→Metanchi.uz, NFCPay→Apple Pay | Raqobatchilar tekshiruvi (3.9) majburiy |
+| 4 | **Naqd pul madaniyati** (qishloq) | Onlayn to'lov ishlamaydi | "Naqd + Payme" gibrid model (3.6D) |
+| 5 | **Internet cheklovi** | Qishloqda video dars sig'maydi | Telegram engil format + oflayn (3.6D) |
+| 6 | **Madaniy stigma** | "Arzon to'y" — obro' masalasi | Pozitsiya nazorati (To'yByudjet QADAM 86 saboq) |
+| 7 | **Ishonch muammosi** | Onlayn xizmatga ishonmaydi | Oqsoqol/mahalla/direktor kanali (3.14) |
+| 8 | **Mavsumiylik** | To'y avg–okt, paxta oylari churn | Mavsumiylik byudjeti (QADAM 49 saboq) |
+
+---
+
+## 📈 3.13. METRIKALAR STANDARTLARI (v5.0 — benchmarklar)
+
+### A) Subscription/xizmat modellari (SaaS benchmarklari)
+| Metrika | Zaif 🔴 | O'rta 🟡 | Sog'lom 🟢 | Manba |
+|---------|---------|---------|------------|-------|
+| Oylik churn | >5% | 2–5% | **<1%** (B2B SaaS median ~3.5%/yil) | Recurly 2025, Vena 2025 |
+| Retention (2-oy) | <50% | 50–70% | **70%+** | saas-capital 2025 |
+| MRR o'sishi (oylik) | <5% | 5–15% | **15%+** | a16z |
+| LTV/CAC | <1× | 1–3× | **3×+** (yaxshi 5–10×) | YC standarti |
+| NPS | <20 | 20–40 | **40+** | Sean Ellis |
+| Gross margin (xizmat) | <50% | 50–70% | **70%+** | a16z |
+
+### B) Marketplace modellari (Bog'chaTop/To'yByudjet uchun — a16z 13 metrika)
+| Metrika | Zaif 🔴 | Sog'lom 🟢 | Formula |
+|---------|---------|------------|----------|
+| **Likvidlik** (buyer-side) | Qidiruv → bron <2% | **>5%** | bron/qidiruv |
+| **Fill rate** (seller-side) | <50% so'rov javob | **>80%** | javob bergan/so'rov |
+| **Take rate** | <3% | **5–15%** | daromad/GMV |
+| GMV o'sishi | <10%/oy | **20%+/oy** | — |
+| Listing hajmi | <100 | **500+** (1-shahar) | — |
+| Mijoz CAC | — | Marketplace uchun <$30 | — |
+
+### C) UZ spetsifik metrikalar
+| Metrika | Mezon | Izoh |
+|---------|-------|------|
+| Payme/Click to'lov ulushi | To'lovchilarning 60%+ | Naqd+raqamli gibrid (3.6D) |
+| Telegram kanal ochilishi | >50% | Mobil-birinchi auditoriya |
+| Referral koeffitsienti | 0.3–1.0/oila | Ona zanjiri kuchi |
+
+---
+
+## 🔄 3.14. PIVOT QOIDALARI (v5.0 — qachon va qanday o'zgartirish)
+
+### Qachon pivot (qizil chiziqlar)
+| Holat | Qaror | |
+|-------|-------|---|
+| QADAM 30 GO/NO-GO: 2/4 mezon | **TUZATISH** (kanal/narx) — 1 oy | |
+| QADAM 30: <2/4 mezon | **PIVOT** — segment/kanal/model o'zgaradi | |
+| Beta (QADAM 37–40): 0 ta to'lovchi | **PIVOT** — intervyuga qaytish (Mom Test) | |
+| PMF (QADAM 60): Sean Ellis <30% | **TUZATISH** — must-have funksiyaga | |
+| MRR 6-oy: maqsaddan <50% | **PIVOT yoki TO'XTATISH** | |
+
+### Pivot turlari (eng arzon → qimmat)
+1. **Narx pivoti** — paket/narx modeli (eng arzon, 1 hafta)
+2. **Kanal pivoti** — boshqa kanal (DM → ona zanjiri, 2 hafta)
+3. **Segment pivoti** — boshqa mijoz (B2C → B2B/donor, 1 oy)
+4. **Yechim pivoti** — boshqa yechim (xizmat → SaaS, 1-2 oy)
+5. **Muammo pivoti** — butunlay boshqa muammo (oxirgi chora, 2-3 oy)
+
+### Pivot protokoli
+1. Sababni yozish (qaysi mezon ishlamadi — ma'lumot bilan)
+2. Pivot turini tanlash (yuqoridagi 5 tadan)
+3. Yangi gipoteza + 2 haftalik mini-tekshiruv (5 intervyu / landing)
+4. Natijaga qarab: davom / yana pivot / to'xtatish
+5. Chat faylida e'lon qilish + frontmatter holat yangilash
+
+---
+
+## 🤝 3.15. MADANIY OMILLAR VA ISHONCH KANALLARI (v5.0 — UZ xususiyati)
+
+O'zbekiston bozorida g'oya muvaffaqiyati ko'pincha **texnologiyadan ko'ra ishonchga** bog'liq:
+
+| Ishonch kanali | Qanday ishlaydi | Qaysi loyihalarda |
+|----------------|-----------------|--------------------|
+| **Mahalla / oqsoqol** | Yig'ilishda tavsiya — kuchli ijtimoiy isbot | QishloqMaktab, Parvarish |
+| **Maktab direktori** | Rasmiy ishonch — ota-onalarga xabar | QishloqMaktab |
+| **Ona zanjiri** | Bola darsidan keyin do'stlar onalariga | QishloqMaktab, To'yByudjet |
+| **Buxgalter** | KOBM moliyaviy ishonch shaxsi | XavfsizBiz |
+| **Diaspora guruhlari** | Telegram guruhlari (Moskva/Seul) | Parvarish |
+| **Bog'cha egasi o'zi** | Listing tarqatish (QR) | Bog'chaTop |
+
+**Qoidalar:**
+1. Har g'oyada kamida 1 ta ishonch kanali ko'rsatilgan bo'lishi shart (3.7 aniq kanal talabi bilan bog'liq)
+2. Madaniy sezgirlik: "arzon" so'zi emas — "oqilona/byudjetli" (To'yByudjet saboq)
+3. Rad etishga hurmat: "balki keyinroq" — savdo emas, ehtiyoj tushunish
+
+---
+
+## 📑 3.16. HUJJATLAR RO'YXATI (v5.0 — har loyiha shablonida)
+
+| Hujjat | Qachon kerak | Kim tayyorlaydi |
+|--------|--------------|-----------------|
+| Mijoz shartnomasi (xizmat chegarasi) | 1-mijozdan | Siz + advokat |
+| Yozma rozilik (xodimlar testi/sog'liq) | Beta boshlanganda | Siz |
+| Pudratchi/ta'minotchi shartnomasi | Hamkor boshlanganda | Siz |
+| Payme/Click merchant shartnomasi | To'lov yoqilganda (1–2 hafta) | Siz |
+| O'qituvchi/xodim shartnomasi | Ishga olinganda | Siz |
+| Maxfiylik siyosati (shaxsiy ma'lumotlar) | Sayt/ilova ishga tushganda | Shablon |
+| Foydalanish shartlari | Sayt ishga tushganda | Shablon |
+| Escrow alohida hisob hujjati | Escrow yoqilganda | Bank |
+
+**Qoida:** MVP bosqichida 3 tasi minimal: mijoz shartnomasi + rozilik + merchant. Qolganlari bosqichma-bosqich.
+
+---
+
 ## 📄 4. G'OYA FAYLI SHABLONI (yangi fayl uchun)
 
 Har bir yangi g'oya quyidagi tuzilma bilan yaratiladi:
@@ -417,6 +538,21 @@ qisqacha: 1 jumlalik tavsif
 |---|---|---|
 | Aholi 37.54 mln | _ | _ |
 
+## ⚠️ Xavflar va tuzoqlar (3.12)
+| Xavf | Ogohlantirish | Yechim |
+|---|---|---|---|
+| _ | _ | _ |
+
+## 📈 Metrikalar (3.13)
+| Metrika | Mezon | Manba |
+|---|---|---|
+| Churn | <1%/oy | Recurly |
+
+## 🤝 Ishonch kanali (3.15)
+| Kanal | Qanday | Qaysi bosqich |
+|---|---|---|
+| _ | _ | _ |
+
 ## 🔗 Bog'liq notalar
 - [[00-Meta/STARTUP-100-STEPS]] · [[00-Meta/METHODOLOGY]] · [[00-Meta/STANDARTLAR]]
 
@@ -451,6 +587,11 @@ qisqacha: 1 jumlalik tavsif
 | Real raqobatchilar (3.9) | Kamida 2 ta real raqobatchi + bo'sh joy xulosasi | Raqobatchi research |
 | Yuridik status (3.10) | Bosqichga mos shakl (YTT/MCHJ/IT Park) aniq | Status qo'shish |
 | Qonuniy tekshiruv (3.11) | 6 savol javobi + tegishli qonun nomi | Qonun research |
+| Xavflar (3.12) | 3+ xavf + ogohlantirish + yechim | Xavf tahlili |
+| Metrikalar (3.13) | Churn/LTV/CAC mezonlariga mos | Metrika hisoblash |
+| Pivot rejasi (3.14) | Qaysi holatda pivot — oldindan yozilgan | Qo'shish |
+| Ishonch kanali (3.15) | Kamida 1 ta aniq kanal | Qo'shish |
+| Hujjatlar (3.16) | MVP uchun 3 minimal hujjat | Ro'yxat tuzish |
 
 ---
 
@@ -486,6 +627,13 @@ qisqacha: 1 jumlalik tavsif
 28. lex.uz/-6479190 — PQ-167 (2023-05-31) kiberxavfsizlik qarori
 29. gazeta.uz (2026-03-17) — 2026–2030 Kiberxavfsizlik strategiyasi farmoni (2026-03-10)
 30. gov.uz (2025-03-20) / president.uz (2025-08-11) — YTT maxsus soliq rejimi 2030-gacha
+31. cbinsights.com — "Why Startups Fail" (400+ post-mortem): 35–43% no market need, 38% cash, 20% raqobat, 15% jamoa
+32. recurly.com (2025) — Churn benchmark: B2B SaaS yillik median 3.5%, oylik <1%
+33. venasolutions.com (2025-09-19) — SaaS churn: B2B oylik ~4.9% yillik
+34. saas-capital.com (2025-09-18) — Retention benchmark: ARR $1M+ median o'sish 24%
+35. a16z.com (2020-02-21) — "13 Metrics for Marketplace Companies": GMV, take rate, likvidlik
+36. bowerycap.com — B2B marketplace: fill rate / tender acceptance metrikalari
+37. stripe.com — Two-sided marketplace: search-to-booking, response time, liquidity
 
 ---
 
@@ -500,4 +648,4 @@ qisqacha: 1 jumlalik tavsif
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (real raqobatchilar + yuridik status + qonunlar template — v4.0)*
+*Oxirgi yangilanish: 2026-09-04 (xavflar + metrikalar + pivot + madaniy omillar + hujjatlar — v5.0)*

@@ -1525,6 +1525,41 @@ Foydalanuvchi "real raqobatchilar nima qilgani, aholi/kompaniya statusi, qonunla
 
 ---
 
+## 📢 AI 01 HISOBOTI — STANDARTLAR v5.0: XAVFLAR + METRIKALAR + PIVOT + MADANIY OMILLAR + HUJJATLAR
+
+**🕐 Vaqt: 2026-09-04 22:30** · **Holat: 🟢 Bajarildi**
+
+Foydalanuvchi "yana batafsil qil, biror narsa e'tibordan chetda qolmasin" degani uchun 3 ta yangi web-qidiruv + 7 ta manba bilan STANDARTLAR.md v5.0 ga ko'tarildi (502 → **650 qator**):
+
+### ⚠️ 3.12. XAVFLAR VA TUZOQLAR (CB Insights + UZ)
+- **Global 6 sabab** (400+ post-mortem): 35–43% bozor ehtiyoji yo'q · 38% pul tugadi · 20% raqobat · 15% jamoa · 13% vaqt · 8% qonuniy — har biriga STANDARTDA qanday oldini olish
+- **UZ 8 tuzoq**: davlat qiladi (nodavlat-bogcha.uz) · to'lovchi yo'q · klon · naqd pul · internet · stigma · ishonch · mavsumiylik — har biriga misol + qoida
+
+### 📈 3.13. METRIKALAR STANDARTLARI (benchmarklar)
+- **Subscription:** churn <1%/oy (Recurly: B2B median 3.5%/yil) · retention 70%+ · MRR 15%+/oy · LTV/CAC 3×+ · NPS 40+ · margin 70%+
+- **Marketplace (a16z 13 metrika):** likvidlik >5% · fill rate >80% · take rate 5–15% · GMV 20%+/oy · 500+ listing
+- **UZ spetsifik:** Payme/Click 60%+ · Telegram ochilishi 50%+ · referral 0.3–1.0
+
+### 🔄 3.14. PIVOT QOIDALARI
+- Qizil chiziqlar jadvali (QADAM 30/Beta/PMF/MRR bo'yicha)
+- 5 pivot turi (arzon→qimmat: narx→kanal→segment→yechim→muammo) + protokol
+
+### 🤝 3.15. MADANIY OMILLAR VA ISHONCH KANALLARI
+- 6 ishonch kanali: mahalla/oqsoqol · direktor · ona zanjiri · buxgalter · diaspora · bog'cha egasi
+- Qoidalar: har g'oyada 1+ ishonch kanali shart · "arzon" emas "oqilona"
+
+### 📑 3.16. HUJJATLAR RO'YXATI
+- 8 hujjat (mijoz shartnomasi · rozilik · merchant · maxfiylik...): qachon kerak, kim tayyorlaydi
+- MVP minimali: 3 ta (shartnoma + rozilik + merchant)
+
+### 📄 G'oya shabloni 13 → 17 bo'lim (+ xavflar · metrikalar · ishonch kanali) · Sifat nazorati +5 tekshiruv · Manbalar 30 → 37
+
+**Natija:** endi standartda hamma jihat qamrab olingan — muammo → intervyu → baho → UZ raqamlar → raqobatchilar → yuridik → qonun → xavflar → metrikalar → pivot → madaniyat → hujjatlar. E'tibordan chetda qoladigan jihat qolmadi.
+
+*— AI 01, 2026-09-04 22:30*
+
+---
+
 ## 🚀 AI 01 GA MEGA-TOPSHIRIQ 6 — AMALIYOTGA O'TISH: EXEC-2026 (2026-09-04 18:37)
 
 > **AI 07 dan.** Framework 100/100 tugadi, STANDARTLAR/WORKFLOW ham tayyor. Endi vault "rejalar kitobi"dan "ijro hujjati"ga aylanadi. Kutish rejimi YO'Q.
