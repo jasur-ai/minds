@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 8
-qadam: 80
+bosqich: 9
+qadam: 90
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
@@ -1323,83 +1323,142 @@ KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 
 ---
 
-## QADAM 81: JAMOA
+## ✅ QADAM 81: JAMOA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Shahar menejerlari (bog'chalar bilan), tekshiruv jamoasi (agentlik), kontent, support, dasturchi. IT Park rezidentligi.
+**Qachon kim qo'shiladi (MRR asosida):**
+| Rol | Vazifa | Qachon |
+|-----|--------|--------|
+| Shahar menejeri (bog'chalar bilan) | DM + listing + featured sotuv | 2-shahar ochilganda (MRR $4k+) |
+| Tekshiruv jamoasi (agentlik shartnomasi) | Tekshiruv protokoli ijrosi (QADAM 82) | 20+ tekshiruv/oy |
+| Kontent-menejer | SEO + Instagram + ota-ona guruhlari | MRR $6k+ |
+| Support (0.5) | Mijoz xizmati SLA (QADAM 66) | MRR $4k+ |
+| Dasturchi (0.5→1) | Bot/panel avtomatlashuvi (QADAM 73) | MRR $8k+ |
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 82: SOP
-
-**Vazifa:** Bog'cha qabul qilish checklist, tekshiruv protokoli, review moderatsiya, narx yangilash sikli.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 83: 10 SHAHARGA KENGAYISH
-
-**Vazifa:** Samarqand, Buxoro, Farg'ona, Andijon, Namangan, Qarshi, Nukus, Urganch, Jizzax — protokol bo'yicha 1 shahar/oy.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**IT Park rezidentligi:** 0% daromad solig'i (QADAM 18) — MCHJ ochish vaqti keldi (hozircha yakka tartibdagi)
 
 ---
 
-## QADAM 84: YIRIK HAMKORLIK
+## ✅ QADAM 82: SOP — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) Maktabgacha ta'lim agentligi bilan rasmiy ma'lumot hamkorligi, (2) yirik bog'cha tarmoqlari (milliy shartnoma), (3) davlat-xususiy sheriklik loyihalari.
+**Yoziladigan 4 SOP (yangi xodim 3 kunda o'rganadi):**
+1. **Bog'cha qabul qilish** — DM → listing yaratish → ma'lumot tekshiruvi → nashr (24 soat)
+2. **Tekshiruv protokoli** — navbat ro'yxati, checklist (litsenziya, sanitariya, xavfsizlik, o'qituvchi malakasi), hisobot shabloni, badge berish
+3. **Review moderatsiyasi** — haqiqiylik isboti (bron raqami), haqorat/yolg'onni olib tashlash (24 soat)
+4. **Narx yangilash sikli** — har 6 oyda bog'chaga eslatma + tasdiqlanmagan narx "tekshiruvda" belgisi
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 85: YANGI DAROMAD OQIMLARI
-
-**Vazifa:** (1) Depozit/escrow komissiyasi, (2) korporativ (kompaniyalar uchun bog'cha imtiyozi SaaS), (3) bolalar mahsulotlari reklamasi, (4) ma'lumot mahsuloti.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Maqsad:** franchayza/partner (QADAM 87 model) shaharlarda ham xuddi shu sifat
 
 ---
 
-## QADAM 86: XAVFLAR
+## ✅ QADAM 83: 10 SHAHARGA KENGAYISH — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) Davlat o'z katalogini ochsa → hamkorlik/yangi segment (tekshiruv), (2) bog'cha sifatsiz chiqsa → obro' xavfi (tekshiruv + kafolat), (3) review soxtaligi → isbot tizimi, (4) demografiya (tug'ilish pasayishi) → to'garak/maktab kengaytmasi.
+**Protokol (QADAM 69 SOP) — 1 shahar/oy, 4 hafta:**
+| Hafta | Ish |
+|-------|-----|
+| 1 | Baza: 50 bog'cha (DM bepul listing) |
+| 2 | Ota-ona guruhlari + 5 faol ona (referral zanjiri) |
+| 3 | 10 featured sinovi (QADAM 65 funnel) |
+| 4 | Mahalliy moslashuv (narxlar, kanallar) + shahar menejeri topshirish |
 
-**✅ BAJARILDI:** _(xavf reyestri tayyor)_
+**Navbat:** Samarqand ✅ (QADAM 69) → Buxoro, Farg'ona, Andijon, Namangan, Qarshi, Nukus, Urganch, Jizzax, Nukus
 
----
-
-## QADAM 87: MOLIYAVIY BOSHQARUV
-
-**Vazifa:** MRR, oylik P&L, tekshiruv xizmati marjasi. Depozit pullari alohida.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 88: INVESTORLARGA TAYYORLIK
-
-**Vazifa:** Tezislar: (1) 3 mln bola, 780k qamrovsiz, (2) oilaviy bog'cha bozori qonuniylashgan (2022) — nazorat bo'shlig'i, (3) ikkala tomonli marketplace, (4) Winnie modeli lokal bo'shliqda. Data room: bronlar, MRR, bog'cha soni.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Shart (shaharni ochish):** 10+ bog'cha javob berdi (baza uchun) + ota-ona guruhlari faol
 
 ---
 
-## QADAM 89: BOSQICH 9 XULOSA
+## ✅ QADAM 84: YIRIK HAMKORLIK — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** 81–88 — 10 shahar, MRR, jamoa.
-
-**✅ BAJARILDI:** _(keyin)_
+| Hamkor | Format | Qiymat |
+|--------|--------|--------|
+| Maktabgacha ta'lim agentligi | Rasmiy ma'lumot hamkorligi (ochiq ro'yxat) | Ishonch + qonuniylik |
+| Yirik bog'cha tarmoqlari (5+ filial) | Milliy shartnoma: Pro paket jamoa chegirmasi (20%) | 50+ listing bir bitimda |
+| Davlat-xususiy sheriklik (PPP) | "Bo'sh o'rinlar" xaritasi (davlat bog'chalari) | Ijtimoiy ta'sir + brend |
+| Bolalar poliklinikalari | Broshyura + bepul qidiruv (QADAM 64 dan scale) | Trafik |
+| Yirik ish beruvchilar | HR imtiyozi: xodimlar uchun bog'cha topish | B2B2C daromad (QADAM 85 #2) |
 
 ---
 
-## QADAM 90: SCALE QARORI
+## ✅ QADAM 85: YANGI DAROMAD OQIMLARI — BAJARILDI (AI 01, 2026-09-04)
 
-**Mezon:** MRR $40,000+ → Voyaga yetish.
+1. **Depozit/escrow komissiyasi** — bron uchun depozit (5%) → to'lov himoyasi (ota-ona ishonchi) + komissiya daromadi — QADAM 76 testidan keyin
+2. **Korporativ SaaS** — kompaniyalar xodimlariga "bog'cha imtiyozi": oyiga $2–5/xodim (HR paket) — 50+ xodimli kompaniyalar
+3. **Bolalar mahsulotlari reklamasi** — bezi, o'yinchoq, bolalar klublari (maqsadli banner) — trafik 50k+/oy da
+4. **Ma'lumot mahsuloti** (QADAM 77) — yillik bozor hisoboti $150–500
 
-**✅ BAJARILDI:** _(keyin)_
+**Prognoz (12-oy):** MRR tarkibi — Featured/Pro 70% · korporativ 15% · escrow 10% · ma'lumot 5%
+
+---
+
+## ✅ QADAM 86: XAVFLAR (SCALE) — BAJARILDI (AI 01, ro'yxat)
+
+| Risk | Ogohlantirish belgisi | Yechim |
+|-------|------------------------|--------|
+| Davlat o'z katalogini ochsa | Agentlik veb-sayti/yangiliklari | Hamkorlik (QADAM 84) yoki tekshiruv segmentiga o'tish — moat |
+| Bog'cha sifatsiz chiqsa (hodisa) | Salbiy OAV/review | Tekshiruv + kafolat + tez javob (24 soat) |
+| Review soxtaligi | Bir xil IP/mijozdan ko'p review | Bron raqami isboti + moderatsiya (QADAM 82 SOP) |
+| Tug'ilish pasayishi (demografiya) | Davlat statistikasi | To'garak/maktabga tayyorlov kengaytmasi (QADAM 79) — 6 yoshgacha emas, 12 yoshgacha |
+| Bog'cha bozori to'yinganligi (DM kanali) | Javob darajasi pasayishi | Referral + SEO (QADAM 71–72) kanallarini kuchaytirish |
+
+---
+
+## ✅ QADAM 87: MOLIYAVIY BOSHQARUV — BAJARILDI (AI 01, 2026-09-04)
+
+- **Oylik P&L:** MRR (featured/pro) + tekshiruv (bir martalik) − xarajatlar (jamoa, marketing ~$250/oy, VPS/bot) = foyda
+- **Tekshiruv marjasi:** $50–100 daromad − tekshiruvchi $25–40 = **marja 45–50%**
+- **Depozit/escrow pullari** — alohida hisob (kompaniya puli emas!) — QADAM 85 #1 ishga tushsa
+- **KPI:** MRR o'sishi (oylik 15%+ scale davrida), churn <5%, har shahar MRR (protokol sifati)
+- **Cashflow qoidasi:** 3 oylik operatsion zaxira (xarajat × 3) — kengayish shundan moliyalanadi
+
+---
+
+## ✅ QADAM 88: INVESTORLARGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Tezislar (pitch):**
+1. 3 mln bola (0–6 yosh), 780k+ davlat qamrovidan tashqarida — xususiy/oilaviy bog'cha bozori o'smoqda
+2. Oilaviy bog'cha bozori qonuniylashgan (2022 soddalashtirilgan tartib) — nazorat/tekshiruv bo'shlig'i = bizning moat
+3. Ikkala tomonli marketplace: ota-ona (bepul) + bog'cha (featured $25/Pro $75) — tarmoq effekti
+4. Winnie (AQSh, $17M jalb qilgan) modeli — O'zbekistonda lokal bo'shliqda birinchi
+
+**Data room:** bronlar soni, MRR, retention, har shahar statistikasi, tekshiruv bazasi hajmi
+
+**Kimga:** IT Park Ventures, ta'lim texnologiyalari angel'lari, davlat-xususiy sheriklik grantlari
+
+---
+
+## ✅ QADAM 89: BOSQICH 9 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+SCALE NATIJALARI (to'ldiriladi — 81–88 amalda bajarilgach):
+  MRR: $ _ (mezon $40,000+)
+  SHAHARLAR: _/10 (har biri MRR $3-5k)
+  BOG'CHALAR: _ listing | _ featured
+  JAMOA: _ kishi | TEKSHIRUVCHILAR: _
+  YIRIK HAMKORLIK: _ (agentlik? tarmoqlar?)
+  ENG KATTA XAVF: _
+QAROR: (VOYAGA YETISH ga / davom / to'xtatish)
+KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
+```
+
+---
+
+## ✅ QADAM 90: SCALE QARORI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $40,000+/oy | _ |
+| 2. Shaharlar | 5+/10 ishladi (protokol) | _ |
+| 3. Birlik iqtisodiyoti | Har shahar MRR > xarajat | _ |
+| 4. Jamoa | Shahar menejerlari tizimi ishlayapti | _ |
+
+**GO (VOYAGA YETISH):** 3/4 shart → BOSQICH 10 (QADAM 91–100)
+
+**NO-GO / variantlar:**
+1. MRR $15–25k (10 shaharda) → kengayishni to'xtatib, chuqurlashish: har shaharda featured ulushini oshirish
+2. Shahar protokoli zaif (2–3 shahar ishladi) → SOP qayta (QADAM 82), menejer treningi
+3. Jamoa yuklamasi → raqamli avtomatlashuvga investitsiya (QADAM 73) — operator o'rniga bot
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/BogchaTop.md* | QADAM 81–90
 
 ---
 
