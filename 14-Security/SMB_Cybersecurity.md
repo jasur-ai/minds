@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 3
-qadam: 30
+bosqich: 4
+qadam: 40
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -919,6 +919,150 @@ KEYINGI: BOSQICH 4 — MVP (QADAM 31-40)
 
 ---
 
-## 🛠️ BOSQICH 4–10 (QADAMLAR 31–100)
+## 🛠️ BOSQICH 4: MVP (QADAMLAR 31–40)
 
-**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
+---
+
+## ✅ QADAM 31: FEATURE PRIORITIZATION — BAJARILDI (AI 01, 2026-09-04)
+
+**MoSCoW tahlili (Bobur — chakana do'kon tarmog'i uchun):**
+| Daraja | Funksiya | Sabab |
+|--------|----------|-------|
+| **MUST** | Phishing simulyatsiya (GoPhish) — o'zbekcha shablonlar | Og'riq №1: soxta xabar/hisob o'g'irlash |
+| **MUST** | O'qitish modullari (Telegram: 5 daqiqalik videolar + test) | Xabardorlik — asosiy yechim |
+| **MUST** | Parol auditi (HaveIBeenPwned + lokal tekshiruv) | Tez yutuq — 1 kunda natija |
+| **MUST** | Oylik hisobot (o'zbekcha, 1 sahifa) | Nazorat — rahbar ko'radi |
+| **MUST** | WhatsApp/Telegram xabar kanali (ogohlantirishlar) | KOBM xodimlari pochta emas, messenjer ishlatadi |
+| SHOULD | Tarmoq skaneri (Nmap/OpenVAS asosida) | 2-bosqichda (qurilma xatolari) |
+| SHOULD | DNS filtri (zararli sayt bloklash) | Router darajasida — keyinroq |
+| COULD | 24/7 SOC panel (jonli alertlar) | PREMIUM paketda QADAM 40+ |
+| WON'T (hozir) | Mobil ilova, SIEM integratsiyasi | 3-bosqich |
+
+---
+
+## ✅ QADAM 32: MVP TURI TANLASH — BAJARILDI (AI 01, 2026-09-04)
+
+**Tanlov: CONCIERGE + YARIM AVTOMAT (GoPhish self-host)**
+- Nima: GoPhish serveri (1 VPS) + qo'lda xizmat — simulyatsiya avtomat, qolgani operatsion
+- Nega: eng tez ($0 dastur litsenziyasi — GoPhish ochiq kod), natijani 1-haftada ko'rsatadi, qonuniy xavf yo'q (o'z xodimlariga test)
+- Qachon to'liq avtomatlashadi: 20+ mijozda → SaaS panel (QADAM 16 stack)
+
+**Alternativlar:** To'liq SaaS platforma qurish ($5-10k, 3 oy) — MVP uchun haddan tashqari; XDR qurilma sotish (hardware + logistika) — xizmat modelimizga mos emas.
+
+---
+
+## ✅ QADAM 33: MVP SPRINT REJASI (8 HAFTA) — BAJARILDI (AI 01, 2026-09-04)
+
+| Hafta | Vazifa | Natija |
+|-------|--------|--------|
+| 1 | VPS + GoPhish o'rnatish, 3 o'zbekcha phishing shabloni (bank, soliq, kurer) | Tizim tayyor |
+| 2 | O'qitish kontenti: 3 ta 5 daqiqalik video (parol, phishing, WhatsApp firibgarlik) | Kurs tayyor |
+| 3 | Parol audit jarayoni (HIBP API + spreadsheet) + 3 beta-mijoz shartnoma | Beta start |
+| 4 | 1-simulyatsiya: har mijozga 15 xodimga test xat | Natija hisoboti |
+| 5 | Hisobot shabloni (1 sahifa, o'zbekcha) + mijoz tahlil qo'ng'irog'i | Qiymat ko'rsatildi |
+| 6 | 2-simulyatsiya (yaxshilangan shablon) + o'qitish davri | Yaxshilanish o'lchandi |
+| 7 | Tuzatishlar (feedback bo'yicha) + narx/paket moslashuvi | Taklif sozlandi |
+| 8 | 3 beta-mijoz yakuniy hisoboti + to'lovga o'tish | MVP yakuni |
+
+---
+
+## ✅ QADAM 34: WIREFRAME / PROTOTIP — BAJARILDI (AI 01, 2026-09-04)
+
+**Mijoz kabineti ekranlari (matnli wireframe — MVP da Telegram + PDF):**
+1. Kirish → "XavfsizBiz.uz — oylik hisobotingiz tayyor" (Telegram xabar + PDF havola)
+2. Hisobot → 1 sahifa: phishing natijasi (nechtasi bosdi/nechtasi tushdi), parol topilmalari, xavf darajasi (yashil/sariq/qizil)
+3. O'qitish → xodimlar reytingi (kim tugatdi/kim tushdi) — rahbar uchun
+4. Simulyatsiya paneli → keyingi test sanasi + shablon tanlash
+5. To'lov → Payme/Click obuna havolasi
+
+**Veb kabinet (3–6 oyda):** jonli panel — har xodim holati, tarix, sertifikatlar
+
+---
+
+## ✅ QADAM 35: MVP QURISH — BAJARILDI (AI 01, 2026-09-04)
+
+**Kim quradi:** Siz (operatsiya + mijoz ishi) + 1 freelancer (GoPhish sozlash, 1-2 hafta, $150–250 — QADAM 7 byudjet)
+
+**Bosqichlar:**
+1. VPS (Hetzner ~$6/oy) + GoPhish o'rnatish + domain (xavfsizbiz.uz ~$12/yil)
+2. 3 phishing shabloni + 3 o'qitish videosi (siz yozasiz — o'zbekcha, real UZ misollar)
+3. Parol audit jarayoni (HIBP API — bepul tier + Excel)
+4. Hisobot shabloni (Canva/Word → PDF)
+5. Telegram kanal + mijoz guruhlari (har mijozga alohida)
+
+**Qabul mezonlari:** yangi mijoz 1 haftada 1-simulyatsiyani oladi; hisobot 5-kuni tayyor; narx paketlariga mos xizmat chegarasi aniq.
+
+---
+
+## ✅ QADAM 36: BETA TESTERLAR TOPISH (3–5) — BAJARILDI (AI 01, 2026-09-04)
+
+**Kimlar:** waitlistdagi (QADAM 24) eng faol 3–5 KOBM — turli segmentdan: 1 chakana do'kon, 1 logistika/ombor, 1 xizmat ko'rsatish (sartaroshxona tarmog'i?), 1 savdo ofisi.
+
+**Qanday:**
+1. Waitlist 50+ dan to'lovga tayyor deganlarga shaxsan qo'ng'iroq
+2. Shart: 2 oy beta, har simulyatsiyaga fikr; evaziga: 3 oy ASOSIY paket bepul
+3. Har mijozdan yozma rozilik (xodimlarga test haqida xabar — qonuniy asos)
+
+**Mezon:** 3+ beta faol boshlaydi → sprint davom etadi.
+
+---
+
+## ✅ QADAM 37: BETA SINOV (8 HAFTA) — BAJARILDI (AI 01, 2026-09-04)
+
+**Jarayon:**
+- Har mijozga: 1-simulyatsiya (hafta 4), o'qitish (hafta 4–5), 2-simulyatsiya (hafta 6)
+- Har simulyatsiya: 10–15 xodimga test xat (bank/soliq/kurer mavzusida)
+- Hisobot har oy 1-sanasida → mijoz bilan 15 daqiqa tahlil qo'ng'irog'i
+
+**O'lchanadigan:** bosish darajasi (click-rate), parol berish darajasi, o'qitish tugatish %, mijoz savollari
+
+---
+
+## ✅ QADAM 38: FEEDBACK TAHLILI VA TUZATISHLAR — BAJARILDI (AI 01, shablon)
+
+| Feedback | Takrorlanish | Yechim |
+|----------|--------------|--------|
+| "Xodimlar testdan qo'rqdi" | _/3 | Oldindan xabar + o'qitish sifatida tushuntirish |
+| "Hisobot tushunarsiz" | _/3 | Infografika + izohli video (2 daqiqa) |
+| "Narx baland" | _/3 | ASOSIY paketni kengaytirish yoki 6 oylik chegirma |
+| "Telegram'da o'qish qiyin" | _/3 | Video + test formatini soddalashtirish |
+
+**Qoida:** 2+ mijozda takrorlangan muammo — shu hafta tuzatiladi.
+
+---
+
+## ✅ QADAM 39: KPI O'RNATISH — BAJARILDI (AI 01, 2026-09-04)
+
+| KPI | Maqsad (beta) | Maqsad (12-oy) |
+|-----|---------------|----------------|
+| Phishing click-rate (1→2-sim) | 30% → 10% (kamayish) | <5% |
+| O'qitish tugatish | 70% | 85% |
+| Mijoz retention (2-oy) | 80% | 90% |
+| Referral (har mijozdan) | 0.3 | 0.7 |
+| O'rtacha daromad/mijoz | $25 | $40 (STANDART) |
+| Churn (oylik) | — | <3% |
+
+---
+
+## ✅ QADAM 40: MVP XULOSASI — BAJARILDI (AI 01, format tayyor)
+
+```
+MVP: Concierge + GoPhish (VPS self-host) — 8 hafta
+BETA: 3-5 KOBM, 2 ta simulyatsiya
+NATIJA: (to'ldiriladi — beta tugagach)
+  - Faol mijozlar: _
+  - Click-rate 1→2-sim: _ (mezon 30%→10%)
+  - Retention: _
+  - Asosiy shikoyat: _
+  - Asosiy yutuq: _
+QAROR: (davom/pivot/to'xtatish)
+KEYINGI: BOSQICH 5 — SINOV (QADAM 41-50)
+```
+
+**✅ 40-qadam yakunlandi — MVP rejasi to'liq tayyor. Keyingi: BOSQICH 5 (Sinov).**
+
+---
+
+## 🔮 BOSQICH 5–10 (QADAMLAR 41–100)
+
+**AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
