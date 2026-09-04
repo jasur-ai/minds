@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 4
-qadam: 40
+bosqich: 5
+qadam: 50
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -1071,6 +1071,14 @@ KEYINGI: BOSQICH 5 — SINOV (QADAM 41-50)
 3. Test natijalari: 1-test → 2-test ball o'zgarishi (o'rganish isboti)
 4. Ota-ona bahosi (har oy 1–5) + hisobot ochilishi
 
+**Ingliz tili darajasi — OLDIN/KEYIN shabloni (AI 07 talabi — har o'quvchi uchun):**
+| O'quvchi | Kirish testi (hafta 1) | Chiqish testi (hafta 8) | O'zgarish |
+|----------|------------------------|-------------------------|-----------|
+| _ | _/20 ball (A0/A1) | _/20 ball | +_ ball |
+
+**Daraja belgisi:** 0–5 = A0 (boshlang'ich) · 6–10 = A1 boshi · 11–15 = A1 o'rtasi · 16–20 = A2 yo'lida
+**Mezon:** o'quvchilarning 70%+ kamida 1 daraja yuqoriga (masalan, A0 → A1 boshi)
+
 **Vositalar:** Google Sheets dashboard (MVP — qo'lda, o'qituvchi to'ldiradi) → keyin bot analytics
 
 ---
@@ -1171,9 +1179,11 @@ FAOL O'QUVCHILAR: _ (mezon 8+)
 RETENTION (2-oy): _ (mezon 70%+)
 GURUH IQTISODIYOTI: _/guruh/oy (maqsad $20-25 marja)
 LTV: $36-40 | CAC: $2-5 | LTV/CAC: 8-20x
+DARaja O'ZGARISHI (oldin→keyin): _ (mezon 70%+ 1 daraja yuqori)
 TEST BALLI O'SISHI (1→2): _ (mezon +15%)
 ENG YAXSHI KANAL: _
 ASOSIY MUAMMO: _
+OTA-ONA QAYTARI: _ ("bola endi mustaqil o'qiydi" kabi sifatli misollar)
 QAROR: (PMF ga o'tish / tuzatish / pivot)
 KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
 ```

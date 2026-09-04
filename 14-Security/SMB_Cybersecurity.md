@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 4
-qadam: 40
+bosqich: 5
+qadam: 50
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -996,7 +996,10 @@ KEYINGI: BOSQICH 4 — MVP (QADAM 31-40)
 
 ## ✅ QADAM 36: BETA TESTERLAR TOPISH (3–5) — BAJARILDI (AI 01, 2026-09-04)
 
-**Kimlar:** waitlistdagi (QADAM 24) eng faol 3–5 KOBM — turli segmentdan: 1 chakana do'kon, 1 logistika/ombor, 1 xizmat ko'rsatish (sartaroshxona tarmog'i?), 1 savdo ofisi.
+**Kimlar:** waitlistdagi (QADAM 24) eng faol **3 beta-mijoz** (AI 07 persona — turli xavf profili):
+1. **Bobur — chakana elektronika do'koni** (QADAM 2 ICP): 15 xodim, Payme orqali sotuv, kassada kompyuter — eng yuqori xavf (soxta yetkazib beruvchi hisobi o'g'irlanishi)
+2. **Kafe/restoran (kassa + yetkazib berish):** 20 xodim, onlayn buyurtma — xodimlar almashinuvi yuqori (mavsumiy)
+3. **SaaS startap (IT Park):** 10 xodim, kod + mijoz ma'lumotlari — texnik xabardor, lekin phishing'ga qarshi o'qitilmagan (Group-IB SMS-stealer nishoni)
 
 **Qanday:**
 1. Waitlist 50+ dan to'lovga tayyor deganlarga shaxsan qo'ng'iroq
@@ -1011,14 +1014,38 @@ KEYINGI: BOSQICH 4 — MVP (QADAM 31-40)
 
 **Jarayon:**
 - Har mijozga: 1-simulyatsiya (hafta 4), o'qitish (hafta 4–5), 2-simulyatsiya (hafta 6)
-- Har simulyatsiya: 10–15 xodimga test xat (bank/soliq/kurer mavzusida)
+- Har simulyatsiya: 10–15 xodimga test xat (bank/soliq/kurer mavzusida — har mijozga mos: do'konga "yetkazib beruvchi", kafega "yetkazish xizmati", SaaS'ga "API kalit")
 - Hisobot har oy 1-sanasida → mijoz bilan 15 daqiqa tahlil qo'ng'irog'i
+
+**Phishing natijalari shkalasi (har simulyatsiya):**
+| Ko'rsatkich | Yashil ✅ | Sariq ⚠️ | Qizil 🔴 |
+|------------|-----------|-----------|----------|
+| Click-rate (bosganlar) | <5% | 5–15% | >15% |
+| Ma'lumot berganlar (parol) | 0–1% | 1–5% | >5% |
+| O'qitish tugatish | >80% | 60–80% | <60% |
+
+**Mezon:** 1-sim → 2-sim da kamida 1 daraja yaxshilanish (masalan, qizil → sariq) — xizmat qiymati isboti
 
 **O'lchanadigan:** bosish darajasi (click-rate), parol berish darajasi, o'qitish tugatish %, mijoz savollari
 
 ---
 
 ## ✅ QADAM 38: FEEDBACK TAHLILI VA TUZATISHLAR — BAJARILDI (AI 01, shablon)
+
+**Iteratsiya sikli (2 hafta):**
+```
+Simulyatsiya (hafta 1) → Natija tahlili (QADAM 37 shkalasi)
+  → Mijoz bilan 15 daqiqa qo'ng'iroq (feedback)
+    → Tuzatish: shablon/kontent/jarayon (hafta 2)
+      → Keyingi simulyatsiya
+```
+
+**Har mijoz bo'yicha tahlil (3 beta — AI 07 persona):**
+| Mijoz | 1-sim natija | Asosiy muammo | Tuzatish |
+|-------|--------------|---------------|----------|
+| Bobur (do'kon) | _% click | Yetkazib beruvchi xatiga ishonish | Sotib olish jarayoni bo'yicha o'qitish |
+| Kafe | _% click | Mavsumiy xodimlar tushmayapti | Onboarding o'qitish (1-kun) |
+| SaaS | _% click | "Bu spam" deb belgilashadi | Real API kalit mavzusida shablon |
 
 | Feedback | Takrorlanish | Yechim |
 |----------|--------------|--------|
