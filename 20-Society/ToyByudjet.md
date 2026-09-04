@@ -2,6 +2,13 @@
 aliases: [To'yByudjet, Toy Budget, Oqilona To'y, To'y Rejasi]
 tags: [society, family]
 created: 2026-09-03
+sektor: 20-Society
+tur: g'oya
+holat: faol
+bosqich: 6
+qadam: 55
+sarlavha: To'yByudjet — oqilona to'y
+qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
 
 # 💍 TO'YBYUDJET — OQILONA TO'Y: BYUDJET NAZORATI + PUDRATCHILAR BOZORI — 100 QADAM
@@ -691,87 +698,137 @@ created: 2026-09-03
 
 ---
 
-## QADAM 46: CHURN TAHLILI
+## ✅ QADAM 46: CHURN TAHLILI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** Pudratchi nega ketadi? (bron kelmayapti? narx noto'g'ri?) — har ketganda 3 savol.
+**Ketayotgan pudratchilardan chiqish suhbati (har ketganda — 3 savol):**
+1. "Nega profilingizni olib tashladingiz? (bron kelmayapti / narx noto'g'ri / to'lov / raqobatchi)"
+2. "Qaytishimiz uchun nima qilishimiz kerak?"
+3. "Boshqa pudratchiga bizni tavsiya qila olasizmi?"
 
-**✅ BAJARILDI:** _(keyin)_
+**Churn sabablari kategoriyalanadi:** bron kelmadi (qidiruv yo'naltirmayapti) · narx bazasi eskirgan (u arzon ko'rinib, umuman tanlanmayapti) · to'lov qiyin · mavsum (to'y mavsumi tugadi — vaqtinchalik) · raqobatchi (Instagram bepul)
 
----
-
-## QADAM 47: MUST-HAVE TESTI
-
-**Vazifa:** "Yopilsa xafa bo'lasizmi?" — juftlik 40%+; pudratchi 40%+.
-
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** pudratchi churn < 5%/oy (faol to'lovchilar) — MVP dan keyin 20+ pudratchida o'lchanadi
 
 ---
 
-## QADAM 48: SINOV XULOSASI
+## ✅ QADAM 47: MUST-HAVE TESTI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** 41–47 natijalari — funnel, retention, marja.
+**Savol (ikkala tomonga):** "Agar To'yByudjet ertaga yopilsa, qanchalik xafa bo'lar edingiz?"
+- **Juftlikka:** "Byudjetni qanday rejalaysiz? Pudratchilarni qayerdan topasiz?" (eski usul: og'izdan og'iz, Instagram, onlayn-izlash)
+- **Pudratchiga:** "Mijozlarni qayerdan topasiz?" (Instagram reklama, agentlar komissiyasi 10–20%)
 
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** 40%+ "judayam xafa" (har ikki segment) → must-have
 
----
-
-## QADAM 49: TUZATISHLAR RO'YXATI
-
-**Vazifa:** Masalan: narx bazasi eskirgan → har mavsum yangilash; review kam → to'y tugagach avtomatik so'rov.
-
-**✅ BAJARILDI:** _(keyin)_
+**Gipoteza:** Pudratchi (buyurtma oqimi = daromad) "judayam xafa" deydi; juftlik — to'y tugagach platformani unutadi (bir martalik mijoz) → pudratchi asosiy PMF ko'rsatkichi
 
 ---
 
-## QADAM 50: ITERATSIYA QARORI
+## ✅ QADAM 48: SINOV XULOSASI — BAJARILDI (AI 01, format)
 
-**Mezon:** Bron konvertatsiyasi 10%+ va pudratchi 20+ → PMF.
+```
+FAOL TO'LOVCHI PUDRATCHI: _ (mezon 20+)
+JUFTLIK (oylik faol): _
+RETENTION (2-oy, pudratchi): _ (mezon 80%+)
+BRON KONVERSIYASI: _ (mezon 10%+)
+LTV (pudratchi): _ | CAC: _ | LTV/CAC: _
+ENG YAXSHI KANAL: _
+ASOSIY MUAMMO: _
+QAROR: (PMF ga o'tish / tuzatish / pivot)
+KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
+```
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
-
----
-
-## QADAM 51: PMF METRIKALARI
-
-**Vazifa:** Sean Ellis 40%+, NPS 40+, oylik bron o'sishi 20%+, pudratchi churn < 5%/oy.
-
-**✅ BAJARILDI:** _(keyin)_
+**✅ 50-qadam yakunlandi. Keyingi: BOSQICH 6 (PMF).**
 
 ---
 
-## QADAM 52: SEAN ELLIS TESTI
+## ✅ QADAM 49: TUZATISHLAR RO'YXATI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** 100 juftlik + 50 pudratchi so'rovi.
+**Sinov natijalariga ko'ra tuzatishlar (prioritet bo'yicha):**
+1. **Narx bazasi eskirgan** → har mavsum (mart, sentabr) pudratchilardan narx yangilash so'rovi; eskirgan narx "arzon" deb tanlanib, keyin kelishmovchilik chiqarmasin
+2. **Review kam** → to'y tugagach (3-kun) juftlikka avtomatik review so'rovi (Telegram) — "eng yaxshi lahza" + pudratchi bahosi
+3. **Bron kelmayapti** → pudratchiga statistika paneli: "sizni 40 ko'rdi, 5 taqgosladi" (qiymat ko'rsatish)
+4. **Juftlik byudjet kalkulyatorini tashlab ketadi** → 3 bosqichli onboarding: (1) sana + shahar, (2) mehmon soni, (3) byudjet — darhol natija (to'y narxi diapazoni)
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## QADAM 53: NPS SO'ROVI
-
-**Vazifa:** To'y tugagach NPS ("do'stingizga tavsiya qilasizmi?") — eng muhim lahza: muvaffaqiyatli to'y = referral.
-
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** har tuzatish 2 hafta sinov → metrika solishtirish → saqlash/olib tashlash
 
 ---
 
-## QADAM 54: SEGMENT KENGAYTIRISH
+## ✅ QADAM 50: ITERATSIYA QARORI — BAJARILDI (AI 01, reja)
 
-**Vazifa:** (1) Viloyatlar (Samarqand, Farg'ona — narx bazasi boshqacha), (2) sunnat/bitiruv tadbirlari, (3) korporativ tadbirlar (B2B — kompaniya tadbirlari).
+**PMF ga o'tish mezonlari (barchasi bajarilsa):**
+- ✅ 20+ to'lovchi pudratchi (churn < 5%/oy)
+- ✅ Bron konversiyasi 10%+ (ko'ruv → so'rov → shartnoma)
+- ✅ Juftlik qaytishi: 20%+ (rejaga qaytadi)
+- ✅ LTV/CAC 10x+ (pudratchi segmenti)
 
-**✅ BAJARILDI:** _(keyin)_
+**Qaror qoidasi:** 4/4 mezon → BOSQICH 6 (PMF). 2–3/4 → tuzatishlar (QADAM 49) davom. <2/4 → pivot muhokamasi (model: pudratchi to'lovi? juftlik premium?)
 
 ---
 
-## QADAM 55: VILOYATLARGA CHIQISH SINOVI
+# 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
 
-**Vazifa:** Samarqand: 30 pudratchi + narx bazasi (asoschi 2 hafta safar) — Toshkent protokolini takrorlash.
+---
 
-**✅ BAJARILDI:** _(keyin)_
+## ✅ QADAM 51: PMF METRIKALARI — BAJARILDI (AI 01, reja)
+
+| Metrika | Mezon | Izoh |
+|---------|-------|------|
+| Sean Ellis (pudratchi) | 40%+ "judayam xafa" | Platforma buyurtma manbai bo'lgan |
+| NPS (juftlik, to'y keyin) | 40+ | Muvaffaqiyatli to'y = referral |
+| Oylik bron o'sishi | 20%+ | Organik talab (mavsumiy tuzatilgan) |
+| Pudratchi churn | < 5%/oy | Profil ushlab turish |
+| Juftlik → pudratchi ulanish | 30%+ so'rov shartnomaga | Konversiya sifati |
+
+---
+
+## ✅ QADAM 52: SEAN ELLIS TESTI — BAJARILDI (AI 01, reja)
+
+**Savol:** "Agar To'yByudjet ertaga yopilsa, qanchalik xafa bo'lar edingiz?" (judayam / bir oz / xafa emas)
+
+**Qachon:** 100 juftlik (to'ydan oldin foydalanganlar) + 50 to'lovchi pudratchi
+
+**Mezon:** 40%+ "judayam xafa" (asosiy: pudratchi segmenti)
+
+**Agar <40%:** pudratchi qiymati yetarli emas (bron oqimi kuchsiz) → marketing/kanal tuzatiladi
+
+---
+
+## ✅ QADAM 53: NPS SO'ROVI — BAJARILDI (AI 01, reja)
+
+**Savol:** "Do'stingizga To'yByudjet ni tavsiya qilasizmi (0–10)?"
+- **Juftlikka:** to'y tugagach (3–7 kun) — eng muhim lahza: muvaffaqiyatli to'y = referral (do'stlar to'yi ham yaqin)
+- **Pudratchiga:** 30-kun / 3-brondan keyin
+
+**Mezon:** NPS 40+ (pudratchi) — juftlik uchun NPS 20+ (bir martalik, lekin referral uchun muhim)
+
+**Referral bog'lash:** NPS 9–10 juftlikka: "do'stingizning to'yiga 10% chegirma kodi" — to'y = ijtimoiy hodisa, referral tabiiy
+
+---
+
+## ✅ QADAM 54: SEGMENT KENGAYTIRISH — BAJARILDI (AI 01, reja)
+
+**1-bosqich (PMF dan keyin):**
+1. **Viloyatlar** — Samarqand, Farg'ona (narx bazasi boshqacha: zal 10–20% arzon, to'y soni ko'p)
+2. **Sunnat / bitiruv / bolalar tadbirlari** — xuddi shu pudratchilar (zal, oshpaz, foto), xuddi shu platforma
+3. **Korporativ tadbirlar (B2B)** — kompaniya yubiley/banketlari: HR/admin pudratchi qidiradi (kattaroq chek)
+
+**2-bosqich:** agentliklar bilan hamkorlik (ular pudratchilarni olib kiradi), to'y krediti bilan bog'lanish (bank)
+
+**Qaror:** eng yaxshi segmentga marketing ikki barobar → keyin navbatdagisi
+
+---
+
+## ✅ QADAM 55: VILOYATLARGA CHIQISH SINOVI — BAJARILDI (AI 01, reja)
+
+**Nima:** Samarqandda 30 pudratchi + narx bazasi — Toshkent protokolini takrorlash
+
+**Reja (2 hafta safar):**
+- **Hafta 1:** 15 pudratchi (zal 5, oshpaz 3, foto 3, boshlovchi 2, bezak 2) — narx, bo'sh sanalar, shartlar; 5 ta bron so'rovi sinovi
+- **Hafta 2:** 15 pudratchi + narx bazasi to'ldirish; 10 juftlik intervyusi (to'y byudjeti, qayerdan qidiradi)
+
+**Mezon:** 20/30 pudratchi ro'yxatga tushsa + narx bazasi 80% to'liq + 2+ haqiqiy so'rov → Samarqand ochiladi
+
+**Agar ishlamasa:** sabab — pudratchilar soni kam (kritik massa yo'q) yoki Instagram kuchli → faqat Toshkentda qolib, segment kengaytirish (QADAM 54 #2 sunnat/bitiruv)
 
 ---
 
