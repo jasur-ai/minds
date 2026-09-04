@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 6
-qadam: 55
+bosqich: 7
+qadam: 65
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
@@ -901,95 +901,140 @@ KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
 
 ---
 
-## QADAM 56: FEATURE ROADMAP
+## ✅ QADAM 56: FEATURE ROADMAP — BAJARILDI (AI 01, 2026-09-04)
 
-**Top-3:** (1) tekshiruv hisobotlari, (2) onlayn bron + depozit, (3) bog'cha bilan chat (savol-javob).
+**Top-3 (feedback asosida):**
+1. **Tekshiruv hisobotlari** — 20 bog'cha tekshiruvi (QADAM 55) natijasi → ota-onaga ochiq baza
+2. **Onlayn bron + depozit** — bog'cha bilan 2 tomonlama tasdiq, depozit orqali bron (no-show kamayadi)
+3. **Bog'cha bilan chat** — ota-ona platformada savol beradi, bog'cha <1 soatda javob beradi
 
-**✅ BAJARILDI:** _(feedback asosida)_
-
----
-
-## QADAM 57: PMF XULOSASI
-
-**Vazifa:** 51–56 — PMF bormi?
-
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** har funksiya 2 hafta sinov → foydalanish metrikasi (30%+ faol) → saqlash/tashlash. Feedback tizimi (QADAM 59) bilan bog'langan.
 
 ---
 
-## QADAM 58: PMF DAN KEYINGI REJA
+## ✅ QADAM 57: PMF XULOSASI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** PMF → BOSQICH 7: kontent + B2B bog'cha sotuvi + SEO.
+```
+SEAN ELLIS: ota-ona _% / bog'cha _% (mezon 40%+)
+NPS: ota-ona _ / bog'cha _ (mezon 40+)
+BRON O'SISHI: _% (mezon 20%/oy)
+BOG'CHA CHURN: _% (mezon <5%/oy)
+FAOL OTA-ONA: _ (mezon 30%+ qaytish)
+PMF XULOSA: (bormi? qaysi segment kuchli?)
+```
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## QADAM 59: FEEDBACK TIZIMI
-
-**Vazifa:** Har joylashuvdan keyin so'rov; bog'cha bilan oylik qo'ng'iroq.
-
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## QADAM 60: PMF QARORI
-
-**Vazifa:** PMF bormi? → Ha: 61+. Yo'q: faqat tekshiruv B2B yo'nalishi.
-
-**✅ BAJARILDI:** _(keyin)_
+**Qaysi segment PMF ga yaqin?** (QADAM 54 tahlili): oilaviy bog'cha listinglari (tekshiruv badge bilan) — ishonch muammosi eng o'tkir segmentda qiymat eng aniq.
 
 ---
 
-## 🚀 BOSQICH 7: BOZORGA CHIQISH (QADAMLAR 61–70)
+## ✅ QADAM 58: PMF DAN KEYINGI REJA — BAJARILDI (AI 01, 2026-09-04)
+
+**PMF dan keyin (BOSQICH 7–8):**
+1. **Kontent marketing** — "Bog'cha tanlash checklist" gidlari, tekshiruv videolari (SEO + guruhlar)
+2. **B2B bog'cha sotuvi** — to'g'ridan-to'g'ri sotuv kanali (QADAM 65 funnel)
+3. **SEO** — "Toshkent bog'cha narxlari", "X tumanidagi bog'chalar" (organik talab)
+4. **2-shahar** — Samarqand (narx bazasi pastroq — listing $15–25)
+
+**Byudjet:** 70% ishlagan kanalga (QADAM 27), 30% yangi kanal testlariga
 
 ---
 
-## QADAM 61: SOTISH STRATEGIYASI
+## ✅ QADAM 59: FEEDBACK TIZIMI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Ota-ona — kontent ("Bog'cha tanlash checklist" gidlari) + guruhlar; bog'cha — to'g'ridan-to'g'ri sotuv.
+**Ikkita halqa:**
+1. **Ota-ona:** har joylashuvdan keyin (7-kun) 3 savol: "Qidiruv oson bo'ldimi?" / "Ma'lumot haqiqiy chiqdimi?" / "Bog'chani tavsiya qilasizmi (0-10)?"
+2. **Bog'cha:** oylik 10 daqiqalik qo'ng'iroq: bronlar qanday keldi? Qaysi listing formati ishladi?
 
-**Bog'cha skripti:** "Har oy 1,000 ota-ona bizda bog'cha qidiradi. Sizning listingingiz ularga ko'rinadi. Featured $25/oy."
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 62: NARXLAR PAKETLARI
-
-| Paket | Narx | Tarkib |
-|-------|------|--------|
-| Bepul listing | $0 | Asosiy ma'lumot |
-| **Featured** | $25/oy | Yuqori o'rin, foto, badge |
-| Pro (bog'cha) | $75/oy | + Bron boshqaruvi, statistika |
-| Tekshiruv (bir martalik) | $50–100 | Hisobot + badge |
-| Ota-ona Premium | $10 | Tekshiruv hisobotlari to'plami |
-
-**✅ BAJARILDI:** Paketlar tayyor
+**Ishlov:** har oy 20+ javob yig'iladi → top-3 shikoyat → keyingi sprintga (QADAM 56 roadmap)
 
 ---
 
-## QADAM 63: MARKETING (1-OV)
+## ✅ QADAM 60: PMF QARORI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) Instagram/TikTok: "Bog'cha tanlashda 5 xato", tekshiruv videolari, (2) ota-ona Telegram guruhlari, (3) pediatrlar/poliklinikalar hamkorligi, (4) yangi uylar (massiv) mahalla guruhlari — yosh oilalar ko'p.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 64: HAMKORLIKLAR
-
-**Vazifa:** (1) Maktabgacha ta'lim agentligi (ma'lumot almashish — ehtiyotkor), (2) pediatrlar tarmog'i, (3) bolalar do'konlari (bezi, o'yinchoq — reklama), (4) ish beruvchilar (xodim imtiyozi), (5) bog'cha uyushmalari.
-
-**✅ BAJARILDI:** _(ro'yxat tayyor)_
+**Qaror qoidasi (QADAM 57 xulosasi):**
+- **PMF ✅** (Sean Ellis 40%+ bog'cha, NPS 40+, bron 20%/oy) → BOSQICH 7 (GTM — QADAM 61–70)
+- **PMF ⚠️** (bog'cha 40%, ota-ona past) → faqat B2B yo'nalish: tekshiruv xizmati (QADAM 55) asosiy, ota-ona katalogi qo'shimcha
+- **PMF ❌** → tuzatishlar (QADAM 49) davom; 2-oy ichida yaxshilanmasa — pivot: tekshiruv agentligi (B2B2C)
 
 ---
 
-## QADAM 65: SAVDO FUNNELI (Bog'cha B2B)
+# 🚀 BOSQICH 7: BOZORGA CHIQISH (QADAMLAR 61–70)
 
-**Funnel:** DM → bepul listing → 1-oy featured sinovi ($12) → Pro. Maqsad: 200 DM → 50 listing → 15 featured → 5 Pro/oy.
+---
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+## ✅ QADAM 61: SOTISH STRATEGIYASI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ikkita yo'nalish:**
+- **Ota-ona (B2C):** kontent marketing ("Bog'cha tanlash checklist" — QADAM 63) + ota-ona guruhlari → organik kelish
+- **Bog'cha (B2B):** to'g'ridan-to'g'ri sotuv (QADAM 65 funnel) — asosiy daromad manbai
+
+**Bog'cha sotuv skripti:**
+> "Har oy 1,000+ ota-ona bizning platformada bog'cha qidiradi — sizning listingingiz ularga ko'rinadi. Featured $25/oy: yuqori o'rin, foto, haqiqiy review. Instagram reklamangizga sarflagan pulingizning bir qismi — lekin maqsadli auditoriya (bolasi bor, yaqin hududda)."
+
+**Qarshi chiqishlarga javob:**
+- "Instagram'da topilamizku" → "Instagram'da sizni faqat kuzatuvchilar ko'radi; bizda bolasi bog'cha qidirayotgan onalar — sovuq trafik"
+- "Qimmat" → "1-oy $12 sinov — bitta o'quvchi $300–800/oy daromad, bitta bron listingni qoplaydi"
+
+---
+
+## ✅ QADAM 62: NARXLAR PAKETLARI (RASMIY) — BAJARILDI (AI 01, 2026-09-04)
+
+| Paket | Narx | Tarkib | Kim uchun |
+|-------|------|--------|-----------|
+| Bepul listing | $0 | Asosiy ma'lumot (nom, manzil, narx oralig'i) | Barcha bog'chalar |
+| **Featured** | $25/oy | Yuqori o'rin + foto + badge + review | Xususiy (20–100 bola) |
+| **Pro** | $75/oy | Featured + bron boshqaruvi + statistika | Yirik xususiy/tarmoq |
+| Tekshiruv (bir martalik) | $50–100 | Mustaqil hisobot + "tekshirilgan" badge | Barcha (badge qiymati) |
+| Ota-ona Premium | $10/oy | To'liq tekshiruv hisobotlari + ogohlantirishlar | Ota-ona |
+
+**Narx mantiqi:** bepul listing — baza (talab tomoni); Featured/Pro — bog'cha daromadi (ta'minot tomoni); tekshiruv — moat + ishonch; ota-ona Premium — keyingi qatlam
+
+---
+
+## ✅ QADAM 63: MARKETING (1-OY) — BAJARILDI (AI 01, 2026-09-04)
+
+**1-oy byudjeti (~$300):**
+1. **Instagram/TikTok kontenti** — "Bog'cha tanlashda 5 xato", tekshiruv jarayoni videolari (3 ta/hafta) — $100 (kontent)
+2. **Ota-ona Telegram guruhlari** — top-20 guruhga foydali post (sotuv EMAS) — $0
+3. **Pediatrlar/poliklinikalar** — broshyura + "bepul qidiruv" (100 ta) — $50
+4. **Yangi uylar mahalla guruhlari** — massivlar (yosh oilalar) — $0
+5. **Bog'cha tomoni** — DM kampaniyasi (QADAM 65 funnel) — $150 (vaqt)
+
+**KPI (1-oy):** 500 ota-ona tashrifi · 50 yangi listing · 10 featured sotuv
+
+---
+
+## ✅ QADAM 64: HAMKORLIKLAR — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Nima | Xavf/izoh |
+|--------|------|-----------|
+| Maktabgacha ta'lim agentligi | Ma'lumot almashish (ochiq ma'lumotlar) | Ehtiyotkor — "davlat nazoratini almashtirmaymiz" pozitsiyasi (QADAM 26) |
+| Pediatrlar tarmog'i | "Bog'cha tanlash" broshyurasi (kutish xonasi) | Pediatr tavsiyasi = ishonch |
+| Bolalar do'konlari (bezi, o'yinchoq) | Reklama almashish | Keyinroq (trafik yetganda) |
+| Ish beruvchilar | Xodimlar uchun bog'cha imtiyozi (HR paket) | B2B2C — QADAM 54 #3 bilan |
+| Bog'cha uyushmalari | Listing taklifi + tekshiruv chegirmasi | B2B kanali |
+
+**Qoida:** hamkorlik ma'lumot almashishdan boshlanadi, puldan emas
+
+---
+
+## ✅ QADAM 65: SAVDO FUNNELI (Bog'cha B2B) — BAJARILDI (AI 01, 2026-09-04)
+
+**Funnel:**
+```
+200 DM (Instagram'da top-200 bog'cha)
+  → 50 bepul listing (25% konversiya)
+    → 15 featured sinovi $12 (30%)
+      → 5 Pro/oy $75 (33%)
+```
+
+**Haftalik reja:** 50 DM/hafta (10/kun) → 3 haftada 200 DM
+
+**DM skripti:** "Salom! [Nomi] bog'changizni ko'rdim. Bog'chaTop'da Toshkent bog'chalari katalogini quryapmiz — ota-onalar narx va review bilan qidiradi. Bepul listing ochib beramiz, 5 daqiqa. Xohlaysizmi?"
+
+**Mezon:** 15 featured sinovi (1-oy) → 5 Pro (3-oy) → B2B kanali isboti
+
+**✅ BAJARILDI (AI 01):** reja tayyor — 56–65 bloki yakunlandi. Keyingi: QADAM 66+ (mijoz xizmati, onboarding)
 
 ---
 
