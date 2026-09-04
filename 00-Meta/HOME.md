@@ -2,6 +2,11 @@
 aliases: [Dashboard, Bosh sahifa, Start]
 tags: [meta, home]
 cssclass: dashboard
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: Bosh sahifa
+qisqacha: Ecosystem vault navigatsiya markazi
 ---
 
 # 🌐 ECOSYSTEM — Startup G'oyalar Vaulti

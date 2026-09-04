@@ -2,6 +2,11 @@
 aliases: [Startup Metodologiyasi, Framework, Qo'llanma]
 tags: [meta, methodology]
 created: 2026-09-02
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: Startup metodologiyasi
+qisqacha: 7 boqichli metodologiya + UZ ekotizim + checklist
 ---
 
 # 🎯 STARTUP METODOLOGIYASI — 7 BOQICHLI TO'LIQ QO'LLANMA

@@ -2,6 +2,11 @@
 aliases: [100 Qadam, 100 Steps, Startup Roadmap, 100-Step Framework]
 tags: [meta, framework]
 created: 2026-09-03
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: 100 qadam framework
+qisqacha: Har bir startup g'oyasi uchun 100 qadamli master-framework
 ---
 
 # 🎯 100 QADAM — HAR BIR STARTUP G'OYASI UCHUN MASTER-FRAMEWORK

@@ -1,5 +1,10 @@
 ---
 tags: [meta, ideas]
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: 120 g'oya merge
+qisqacha: 120 → 60 merge + FINAL 60 (manba fayl)
 ---
 
 # 🧠 IDEAS 120 → 60 (MERGE FAYLI)

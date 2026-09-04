@@ -3,6 +3,11 @@ aliases: [Haqiqiy Muammolar, Real Problems, Unsolved]
 tags: [meta, problems]
 created: 2026-09-02
 updated: 2026-09-04
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: O'zbekistondagi real muammolar
+qisqacha: 5 g'oya bo'yicha real muammolar tahlili
 ---
 
 # 🔴 O'ZBEKISTONDA HAQIQIY HAL ETILMAGAN MUAMMOLAR

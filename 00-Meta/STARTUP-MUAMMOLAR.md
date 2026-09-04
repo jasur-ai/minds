@@ -3,6 +3,11 @@ aliases: [Startup Muammolari, Specific Problems, Yechimlar]
 tags: [meta, problems]
 created: 2026-09-02
 updated: 2026-09-04
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: Startup muammolari
+qisqacha: 5 g'oyaning aniq muammolari + tuzoqlar
 ---
 
 # 🎯 5 TA SAQLANGAN STARTUP — ANIQ MUAMMO

@@ -2,6 +2,13 @@
 aliases: [Parvarish.uz, Keksalar Parvarishi, Elderly Care, Diaspora G'amxo'rlik]
 tags: [society, care]
 created: 2026-09-03
+sektor: 20-Society
+tur: g'oya
+holat: faol
+bosqich: 10
+qadam: 100
+sarlavha: Parvarish.uz — keksalar parvarishi
+qisqacha: Diaspora to'laydigan tekshirilgan parvarishchi + oylik monitoring + hisobot
 ---
 
 # 👴 PARVARISH.UZ — KEKSALAR UYDA PARVARISH — 100 QADAM

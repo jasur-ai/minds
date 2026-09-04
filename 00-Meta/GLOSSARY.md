@@ -1,6 +1,11 @@
 ---
 aliases: [Lug'at, Terminologiya, Dictionary]
 tags: [meta, glossary]
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: Lug'at
+qisqacha: Ecosystem bo'ylab ishlatiladigan tushunchalar
 ---
 
 # 📖 GLOSSARY — Asosiy Tushunchalar

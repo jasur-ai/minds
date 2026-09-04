@@ -1,6 +1,11 @@
 ---
 aliases: [Statistika, Statistics, Metrics, Dashboard]
 tags: [meta, stats]
+sektor: 00-Meta
+tur: meta
+holat: faol
+sarlavha: Statistika
+qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 ---
 
 # 📊 STATS — Umumiy statistika
