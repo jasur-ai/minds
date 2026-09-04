@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 3
-qadam: 30
+bosqich: 4
+qadam: 40
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -914,6 +914,151 @@ KEYINGI: BOSQICH 4 — MVP/PILOT (QADAM 31-40)
 
 ---
 
-## 🛠️ BOSQICH 4–10 (QADAMLAR 31–100)
+## 🛠️ BOSQICH 4: MVP/PILOT (QADAMLAR 31–40)
 
-**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
+---
+
+## ✅ QADAM 31: FEATURE PRIORITIZATION — BAJARILDI (AI 01, 2026-09-04)
+
+**MoSCoW tahlili (Malika — 6-sinf o'quvchisi, qishloq uchun):**
+| Daraja | Funksiya | Sabab |
+|--------|----------|-------|
+| **MUST** | Jonli ingliz tili guruhi (Telegram, haftasiga 3×60 daqiqa) | Asosiy qiymat — jonli o'qituvchi |
+| **MUST** | Vazifalar + tekshirish (o'qituvchi fikri) | Mustahkamlash — o'rganish sikli |
+| **MUST** | Ota-ona kundalik hisoboti (Telegram: qatnashdi/ball) | Nazorat — ota-ona to'lovchi |
+| **MUST** | To'lov (Payme/Click, oyiga) | Daromad — ota-ona $5–10 |
+| **MUST** | Dars yozuvi (keyin eshitish) | Internet uzilganda davomiylik |
+| SHOULD | Sinov testlari (har oy) + ball taxtasi | Motivatsiya |
+| SHOULD | Ota-onalar guruhi (savol-javob) | Ishonch — mahalla zanjiri |
+| COULD | Sertifikat (oy yakuni) | Keyingi oyga qayta yozilish |
+| WON'T (hozir) | Mobil ilova, interaktiv platforma | 2-bosqich (maktab B2B da) |
+
+---
+
+## ✅ QADAM 32: MVP TURI TANLASH — BAJARILDI (AI 01, 2026-09-04)
+
+**Tanlov: JONLI TELEGRAM PILOTI (concierge)**
+- Nima: 1 o'qituvchi + Telegram guruhlar + qo'lda nazorat (spreadsheet CRM)
+- Nega: eng tez ($0 dastur), qishloqda internet og'ir — Telegram engil (1GB = 8,900 so'm), ota-ona tanish interfeys, jonli dars = natija isboti
+- Qachon avtomatlashadi: 5+ guruhda takrorlansa → bot (dars jadvali, to'lov eslatmasi, test)
+
+**Alternativlar:** Zoom/Google Meet — qishloq internetiga og'ir (video sig'maydi); EdApp/ZoomSchool kabi platforma — inglizcha UI, qishloq o'qituvchisi/ota-onaga murakkab.
+
+---
+
+## ✅ QADAM 33: MVP SPRINT REJASI (8 HAFTA) — BAJARILDI (AI 01, 2026-09-04)
+
+| Hafta | Vazifa | Natija |
+|-------|--------|--------|
+| 1 | O'qituvchi topish (Payshanba — ingliz tili bakalavr/4-kurs) + dastur sxemasi | Jamoa tayyor |
+| 2 | 10 oila yig'ish (depozit olganlar) + Telegram guruh + to'lov sozlash | 2 guruh (5+5) |
+| 3 | 1-hafta darslar (3×60 daqiqa) + vazifalar + ota-ona hisoboti formati | Pilot start |
+| 4 | 2-hafta: qatnashish kuzatuvi + dastlabki feedback qo'ng'irog'i | Erta tuzatishlar |
+| 5 | Sinov testi #1 + ota-onalarga natija hisoboti | Natija ko'rsatildi |
+| 6 | 2-oyga qayta yozilish taklifi (birinchi oy yakuni) | Retention o'lchandi |
+| 7 | Tuzatishlar (feedback bo'yicha) + 2-guruh tajribasidan xulosa | Dastur sozlandi |
+| 8 | Pilot yakuniy hisoboti + 2-oy qarori | MVP yakuni |
+
+---
+
+## ✅ QADAM 34: WIREFRAME / PROTOTIP — BAJARILDI (AI 01, 2026-09-04)
+
+**Telegram tuzilmasi (matnli wireframe):**
+1. Kanal "Ingliz tili — Payshanba 6-sinf" → dars jadvali + eslatmalar
+2. Guruh "6-sinf darslari" → jonli audio dars (o'qituvchi ovozli) + savol-javob
+3. Vazifalar guruhi → har darsdan keyin topshiriq (foto/audio javob) → o'qituvchi tekshiradi
+4. Ota-ona hisoboti → har juma: "Malika: 3/3 dars, ball 24/30, izoh" (shaxsiy xabar)
+5. To'lov → Payme/Click havola (oy boshi eslatma)
+
+**Keyinroq (2-bosqich):** mini-kabinet — ballar tarixi, sertifikat, sinov natijalari
+
+---
+
+## ✅ QADAM 35: MVP QURISH — BAJARILDI (AI 01, 2026-09-04)
+
+**Kim quradi:** Siz (operatsiya: ota-ona aloqasi, to'lov, hisobot) + 1 o'qituvchi (darslar) — dasturchi shart emas (MVP $350–700 asosan o'qituvchi + kontent)
+
+**Bosqichlar:**
+1. Dastur sxemasi: 8 hafta, 24 dars, mavzular (A1 boshlang'ich: o'zini tanishtirish, oila, maktab, bozor, raqamlar)
+2. O'qituvchi bilan 1 hafta tayyorgarlik (dars plani, Telegram vositalari)
+3. Telegram kanal + guruhlar + hisobot shabloni (asosiy format: ovozli + matn + rasm)
+4. To'lov: Payme merchant (1–2 hafta rasmiylashuv) yoki avval depozit/karta orqali
+5. Ota-ona roziligi + qoidalar (dars vaqti, davomat, pul qaytarish)
+
+**Qabul mezonlari:** yangi o'quvchi 48 soatda guruhga qo'shiladi; dars jadval asosida o'tadi; ota-ona har juma hisobot oladi.
+
+---
+
+## ✅ QADAM 36: BETA TESTERLAR TOPISH (10 OILA) — BAJARILDI (AI 01, 2026-09-04)
+
+**Kimlar:** Payshanbadagi depozit olgan 10 oila (QADAM 24) — 6-sinf bolalari.
+
+**Qanday:**
+1. Har oilaga shaxsan tashrif/qo'ng'iroq — dastur tushuntiriladi (oqsoqol/mahalla bilan)
+2. Shart: 1 oy (8 haftalik dasturning 1-oyi), har juma fikr; evaziga: 2-oy 50% chegirma
+3. Yozma rozilik (ota-ona imzosi) + telefon raqami (hisobot uchun)
+
+**Mezon:** 8+ oila faol boshlaydi (kamida 1 dars/hafta) → pilot davom etadi.
+
+---
+
+## ✅ QADAM 37: BETA SINOV (8 HAFTA) — BAJARILDI (AI 01, 2026-09-04)
+
+**Jarayon:**
+- Har o'quvchi: haftasiga 3 dars (du/chor/pa) + 3 vazifa + hafta yakuni testi
+- O'qituvchi: har darsdan keyin davomat + ball (spreadsheet)
+- Ota-ona: har juma hisobot (Telegram) + oy oxiri qo'ng'iroq (15 daqiqa)
+
+**O'lchanadigan:** darsga qatnashish %, vazifa bajarish %, test o'rtacha balli (1-test → 2-test o'zgarishi), ota-ona qoniqishi, to'lov muddati
+
+---
+
+## ✅ QADAM 38: FEEDBACK TAHLILI VA TUZATISHLAR — BAJARILDI (AI 01, shablon)
+
+| Feedback | Takrorlanish | Yechim |
+|----------|--------------|--------|
+| "Internet uzilib qoldi" | _/10 | Dars yozuvi + kechki qayta eshitish (MUST allaqachon) |
+| "Bolaga qiyin" | _/10 | Guruhni darajaga bo'lish (A1/A2) yoki qo'shimcha takror dars |
+| "Narx baland" | _/10 | 2-bola chegirmasi (aka-uka) yoki 3 oylik paket |
+| "Vaqt mos emas" | _/10 | Ertalab/kechqurun guruh variantlari |
+
+**Qoida:** 3+ oilada takrorlangan muammo — shu hafta tuzatiladi.
+
+---
+
+## ✅ QADAM 39: KPI O'RNATISH — BAJARILDI (AI 01, 2026-09-04)
+
+| KPI | Maqsad (pilot) | Maqsad (12-oy) |
+|-----|---------------|----------------|
+| Darsga qatnashish | 80% | 85% |
+| Vazifa bajarish | 70% | 80% |
+| Test balli o'sishi (1→2-test) | +15% | +20% |
+| 2-oyga qolish (retention) | 70% | 80% |
+| Ota-ona qoniqishi (so'rov) | 4.0/5 | 4.5/5 |
+| O'rtacha daromad/oila | $5 | $8 (2-bola + premium) |
+
+---
+
+## ✅ QADAM 40: MVP XULOSASI — BAJARILDI (AI 01, format tayyor)
+
+```
+MVP: Jonli Telegram piloti (1 o'qituvchi, 2 guruh) — 8 hafta
+BETA: 10 oila (Payshanba), 24 dars
+NATIJA: (to'ldiriladi — pilot tugagach)
+  - Faol oilalar: _ (mezon 8+)
+  - Qatnashish: _ (mezon 80%)
+  - Retention 2-oy: _ (mezon 70%)
+  - Test balli o'sishi: _ (mezon +15%)
+  - Asosiy shikoyat: _
+  - Asosiy yutuq: _
+QAROR: (davom/pivot/to'xtatish)
+KEYINGI: BOSQICH 5 — SINOV (QADAM 41-50)
+```
+
+**✅ 40-qadam yakunlandi — MVP/PILOT rejasi to'liq tayyor. Keyingi: BOSQICH 5 (Sinov).**
+
+---
+
+## 🔮 BOSQICH 5–10 (QADAMLAR 41–100)
+
+**AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
