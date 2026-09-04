@@ -68,7 +68,7 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
-## 📚 META FAYLLAR (9 ta)
+## 📚 META FAYLLAR (11 ta)
 
 ### 🧠 Boshqaruv
 | Fayl | Vazifa |
@@ -83,6 +83,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 |------|--------|
 | [[METHODOLOGY]] | Yagona metodologiya (7 boqich + UZ ekotizim + checklist) |
 | [[STARTUP-100-STEPS]] | 100 qadam framework |
+| [[STANDARTLAR]] | Qabul mezonlari + sifat nazorati (checklist, baholash) |
+| [[WORKFLOW]] | Yangi g'oya qo'shish + rivojlantirish jarayoni (template) |
 | [[STARTUP-MUAMMOLAR]] | 5 g'oyaning aniq muammolari + tuzoqlar |
 
 ### 📊 Tadqiqot
@@ -98,8 +100,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | Ko'rsatkich | Qiymat |
 |-------------|--------|
 | **G'oya notalari** | 5 ta |
-| **Meta fayllar** | 9 ta |
-| **Jami notalar** | 14 ta |
+| **Meta fayllar** | 11 ta |
+| **Jami notalar** | 16 ta |
 | **O'chirilgan (1-tozalash)** | 59 ta yaroqsiz shablon nota (2026-09-04) |
 | **O'chirilgan (2-tozalash)** | 11 ta g'oya + 13 meta fayl (2026-09-04) |
 | **O'chirilgan (meta tozalash)** | 3 ta eskirgan meta fayl (2026-09-04) |
