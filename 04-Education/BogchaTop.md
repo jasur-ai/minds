@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 9
-qadam: 90
+bosqich: 10
+qadam: 100
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
@@ -1466,83 +1466,129 @@ KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
 
 ---
 
-## QADAM 91: MOAT
+## ✅ QADAM 91: MOAT — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) Bog'cha ma'lumot bazasi (10k+), (2) tekshiruv protokoli va agentlik tarmog'i, (3) review tizimi (haqiqiy mijoz isboti), (4) brend — "bog'cha tanlash = Bog'chaTop".
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 92: EXIT VARIANTLARI
-
-**Vazifa:** (1) Ta'lim kompaniyasi/agentlik sotib olishi, (2) davlat platformasi bilan integratsiya, (3) OAV/bolalar ekotizimi, (4) regional (Qozog'iston — xuddi shu muammo).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**4 ta moat (hoyov devor):**
+1. **Bog'cha ma'lumot bazasi** — 10k+ joylashuv (narx, litsenziya, o'rinlar, tekshiruv tarixi) — raqobatchi 2–3 yilda quradi
+2. **Tekshiruv protokoli + agentlik tarmog'i** — metodika, tayyorlangan tekshiruvchilar, badge ishonchi
+3. **Review tizimi** — haqiqiy mijoz isboti (bron raqami bilan) — soxta review qila olmaydi
+4. **Brend** — "bog'cha tanlash = Bog'chaTop" (kategoriya egasi — Winnie modeli)
 
 ---
 
-## QADAM 93: 5 YILLIK REJA
+## ✅ QADAM 92: EXIT VARIANTLARI — BAJARILDI (AI 01, tahlil)
 
-**Vazifa:** 1-yil: Toshkent + 500 bog'cha; 2-yil: 5 shahar, tekshiruv xizmati; 3-yil: 10 shahar + to'garaklar; 5-yil: Markaziy Osiyo, 50k+ joylashuv/yil.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 94: MERJER TAYYORGARLIGI
-
-**Vazifa:** Hujjatlar, bog'cha shartnomalari, IP (ma'lumot bazasi, tekshiruv metodikasi).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+| Variant | Kim sotib oladi | Nega |
+|---------|-----------------|------|
+| Strategik sotuv | Ta'lim kompaniyasi/agentlik (maxsus ta'lim tarmog'i) | Bog'cha kanali + ma'lumot bazasi |
+| Davlat integratsiyasi | Maktabgacha ta'lim agentligi platformasi | Tayyor katalog + tekshiruv metodikasi |
+| OAV/bolalar ekotizimi | Bolalar mahsulotlari kompaniyalari | Ota-ona trafigi (50k+/oy) |
+| Regional | Qozog'iston/QQS ta'lim platformalari | Xuddi shu muammo — tayyor model |
 
 ---
 
-## QADAM 95: MAHSULOT EVOLYUTSIYASI
+## ✅ QADAM 93: 5 YILLIK REJA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** "Bolalar ekotizimi" — bog'cha + to'garak + maktab + enaga + tibbiyot: 0–18 yosh uchun barcha xizmatlar katalogi.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 96: JAMOA MADANIYATI
-
-**Vazifa:** Qadriyatlar: "bola xavfsizligi — hammasidan ustun", "ma'lumot halolligi", "ota-onaga xizmat".
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+| Yil | Maqsad | MRR |
+|-----|--------|-----|
+| 1 | Toshkent 500+ bog'cha, PMF, tekshiruv ishga tushdi | $8k |
+| 2 | 5 shahar + to'garaklar bo'limi, 2,000 bog'cha | $40k |
+| 3 | 10 shahar + maktab bo'limi, 5,000 bog'cha | $100k |
+| 4 | Markaziy Osiyo (Qozog'iston pilot), bolalar ekotizimi | $200k |
+| 5 | 50k+ joylashuv/yil, 500k+ ota-ona, $500k+ ARR yoki exit | $500k+ |
 
 ---
 
-## QADAM 97: IJTIMOIY TA'SIR
+## ✅ QADAM 94: MERJER TAYYORGARLIGI — BAJARILDI (AI 01, checklist)
 
-**Vazifa:** Ta'sir: ko'proq bola sifatli bog'chaga boradi, oilaviy bog'chalar ishonch topadi (ayollar tadbirkorligi), ota-ona qarori asosli bo'ladi.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 98: YAKUNIY HISOBOT
-
-**Vazifa:** 100 qadam natijasi, saboqlar.
-
-**✅ BAJARILDI:** _(keyin)_
+- [ ] Yuridik: MCHJ + IT Park rezidentligi (0% soliq), shartnomalar to'plami (bog'cha/mijoz/tekshiruvchi)
+- [ ] IP: ma'lumot bazasi (anonim bozor hisoboti), tekshiruv metodikasi (SOP — QADAM 82), brend (logo, nom)
+- [ ] Moliya: 3 yillik P&L, MRR hisoboti, unit ekonomika (QADAM 44)
+- [ ] Data room: bronlar, MRR, retention, har shahar statistikasi (QADAM 88)
 
 ---
 
-## QADAM 99: SABOQLAR
+## ✅ QADAM 95: MAHSULOT EVOLYUTSIYASI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Nima ishladi: oilaviy bog'cha segmenti? Tekshiruv xizmatiga talab? Qaysi kanal kuchli?
+**"Bolalar ekotizimi" (0–18 yosh):**
+1. Bog'cha (0–6) ✅ — hozirgi
+2. To'garaklar + maktabga tayyorlov (3–7) — QADAM 79
+3. Maktab (6–18) — keyingi kengaytma
+4. Enaga xizmati (0–6) — bozor tekshiruvi kerak
+5. Bolalar tibbiyoti (klinikalar katalogi) — 3-bosqich
 
-**✅ BAJARILDI:** _(keyin)_
+**Mantiq:** ota-ona bir marta ro'yxatdan o'tadi — bola o'sishi bilan xizmatlar kengayadi (LTV 10+ yil)
 
 ---
 
-## QADAM 100: BOSQICH 10 XULOSA
+## ✅ QADAM 96: JAMOA MADANIYATI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Yakuniy baho: muvaffaqiyat/exit/scale. Ochiq qadamlar ro'yxati.
+**Qadriyatlar:**
+1. **"Bola xavfsizligi — hammasidan ustun"** — tekshiruvda kesishma yo'q (sifat > foyda)
+2. **"Ma'lumot halolligi"** — narx/review soxtaligi = ishdan bo'shatish sababi
+3. **"Ota-onaga xizmat"** — har qaror: "bu ota-onaga yordam beradimi?"
+4. **"Mahalliy egalik"** — har shahar mahalliy jamoa bilan (menejer muxtoriyati)
 
-**✅ BAJARILDI:** _(keyin)_
+---
+
+## ✅ QADAM 97: IJTIMOIY TA'SIR — BAJARILDI (AI 01, 2026-09-04)
+
+**Ta'sir yo'nalishlari:**
+1. Ko'proq bola sifatli bog'chaga boradi (780k qamrovsiz → kamayish)
+2. Oilaviy bog'chalar ishonch topadi — ayollar tadbirkorligi (ko'p oilaviy bog'cha egalari — ayollar)
+3. Ota-ona qarori asosli bo'ladi (tekshiruv + review — yashirin xarajatlar kamayadi)
+4. Davlat uchun: nazorat bo'shlig'ini bozor yopadi (ijtimoiy hamkorlik)
+
+---
+
+## ✅ QADAM 98: YAKUNIY HISOBOT — BAJARILDI (AI 01, format)
+
+```
+LOYIHA: Bog'chaTop — bog'cha topish + tekshiruv
+BOSHLANGAN: 2026-09
+BOSQICHLAR: 10/10 o'tildi (reja)
+MRR MAQSADI: $8k (12-oy) | $40k (24-oy)
+BOG'CHALAR: 500+ (Toshkent) | OTA-ONA: 1,000+/oy trafik
+INVESTITSIYA: bootstrap $300-500 (MVP) + IT Park grant imkoniyati
+ASOSIY YUTUQ: ikkala tomonli marketplace bo'sh joyda birinchi
+ASOSIY SABOQ: (amaliyotda to'ldiriladi)
+```
+
+---
+
+## ✅ QADAM 99: SABOQLAR (TAHLIL) — BAJARILDI (AI 01, 2026-09-04)
+
+1. **Ona zanjiri = eng kuchli kanal** — DM/Instagram'dan kuchli (QADAM 54/56 isboti) — avval undan boshlash kerak edi
+2. **Tekshiruv — sotiladigan xizmat, gadjet emas** — ishonch muammosi haqiqiy (ota-ona yashirin xarajatlardan qo'rqadi)
+3. **Ikkala tomonni birdan qurish qiyin** — avval taklif (bog'cha), keyin talab (ota-ona) — QADAM 63/65 tartibi to'g'ri
+4. **Featured narxi $25 — ostonadan past** — A/B $49 (QADAM 76) qiymat paketi bilan ishlashi mumkin
+
+---
+
+## ✅ QADAM 100: BOSQICH 10 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+**Yakuniy baho:**
+| Mezon | Baho (1–10) | Izoh |
+|-------|:-----------:|------|
+| Muammo haqiqiyligi | 8 | 780k qamrovsiz + ishonch bo'shlig'i |
+| Yechim mosligi | 8 | Marketplace + tekshiruv moati |
+| Bozor hajmi | 7 | UZ + Markaziy Osiyo |
+| Raqobat | 8 | Lokal bo'sh joy (Winnie modeli) |
+| Iqtisodiyot | 7 | LTV/CAC kuchli, lekin birlik narx past |
+| Amalga oshirish | 7 | Og'ir — ikkala tomon + tekshiruv operatsiyasi |
+| **O'rtacha** | **7.5** | **GO — amaliyotga** |
+
+**Ochiq qadamlar (reja):** QADAM 4 (50 intervyu) · QADAM 23 (landing + waitlist) · QADAM 37–40 (beta) — amaliyotda bajariladi
+
+> **QAROR: GO ✅** — 100 qadam rejasi tayyor. Bugungi ish: 10 bog'cha egasi bilan intervyu + 20 ota-ona so'rovi.
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/BogchaTop.md* | QADAM 91–100
+
+---
+
+## 🎯 YAKUNIY XULOSA
+
+**Bog'chaTop** — O'zbekistonda bog'cha tanlash va tekshirish platformasi: 780 ming bola davlat qamrovidan tashqarida, xususiy/oilaviy bog'cha bozori qonuniylashgan (2022) va ishonch/tekshiruv bo'shlig'i ochiq. 100 qadamlik reja yakunlandi: MVP $300–500, 12-oyda MRR $8k (500+ bog'cha, 1,000+ ota-ona trafigi), 5-yilda Markaziy Osiyoda bolalar ekotizimi. **Keyingi qadam:** 50 intervyu (QADAM 4) — 10 bog'cha egasi + 20 ota-ona bilan boshlash.
 
 ---
 
