@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Meta/Chat for AIs and Monitoring.md",
+                "file": "00-Meta/METHODOLOGY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chat for AIs and Monitoring"
+              "title": "METHODOLOGY"
             }
           }
         ]
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Meta/Chat for AIs and Monitoring.md",
+                "file": "00-Meta/METHODOLOGY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,8 +189,29 @@
   },
   "active": "b36d94e2619d1a3e",
   "lastOpenFiles": [
-    "Ecosystem.canvas",
+    "00-Meta/PORTFEL-2026.md",
+    "00-Meta/WORKFLOW.md",
+    "00-Meta/STARTUP-MUAMMOLAR.md",
+    "00-Meta/STARTUP-100-STEPS.md",
+    "00-Meta/EXEC-2026.md",
+    "04-Education/BogchaTop.md",
+    "00-Meta/sync_workspace.sh",
+    "00-Meta/STANDARTLAR.md",
+    "04-Education/sed7g3TfK",
+    "14-Security/sedTwVG5W",
+    "04-Education/sedmgANOr",
+    "04-Education/sednGpbhr",
+    "14-Security/sedqKCGVp",
+    "20-Society/sedHSuBXt",
+    "04-Education/sedzmirV5",
+    "04-Education/sedLfYNIt",
+    "14-Security/sedWL4eQp",
+    "04-Education/RuralEducation.md",
+    "14-Security/SMB_Cybersecurity.md",
+    "20-Society/ToyByudjet.md",
     "00-Meta/Chat for AIs and Monitoring.md",
+    "00-Meta/IDEAS-120-MERGE.md",
+    "Ecosystem.canvas",
     "00-Meta/HOME.md",
     "00-Meta/UNSOLVED-PROBLEMS.md",
     "00-Meta/FULL-ANALYSIS.md",
@@ -198,33 +219,12 @@
     "05-Environment/WaterFilterRental.md",
     "05-Environment/WaterMonitoring.md",
     "05-Environment/EnergySaving.md",
-    "04-Education/RuralEducation.md",
     "00-Meta/REAL-PROBLEMS-UZ.md",
-    "04-Education/BogchaTop.md",
-    "00-Meta/sed8eZnY4",
-    "00-Meta/sednWBUUi",
-    "00-Meta/sed40mokZ",
-    "00-Meta/sedXz9nxR",
-    "00-Meta/sedC0ZRTk",
-    "20-Society/ToyByudjet.md",
-    "00-Meta/sedyL2PR3",
-    "00-Meta/sedV2dtQ0",
-    "00-Meta/sedOTLy6C",
-    "00-Meta/sedRN4lca",
-    "00-Meta/sedLnADZ2",
     "06-Transport/MetanNavbat.md",
     "20-Society/ElderlyCare.md",
-    "00-Meta/IDEAS-120-MERGE.md",
     "04-Education/JobPlatform.md",
     "00-Meta/REAL-IDEAS-2026.md",
     "00-Meta/MONITORING-REPORT.md",
-    "00-Meta/STARTUP-100-STEPS.md",
-    "00-Meta/TAGS.md",
-    "17-Tourism/Hospitality.md",
-    "13-Communication/5G.md",
-    "02-Business/Marketing.md",
-    "01-Technology/AI.md",
-    "20-Society/DigitalInclusion.md",
     "Untitled.canvas"
   ]
 }
