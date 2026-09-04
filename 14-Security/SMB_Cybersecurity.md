@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 14-Security
 tur: g'oya
 holat: faol
-bosqich: 2
-qadam: 20
+bosqich: 3
+qadam: 30
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
@@ -710,8 +710,215 @@ Suhbat #: _  Sana: _  Kim: _ (mikro/o'rta/ekspert)  Kanal: _
 
 ---
 
-## 🛠️ BOSQICH 3–10 (QADAMLAR 21–100)
+# ✅ BOSQICH 3: VALIDATION (QADAMLAR 21–30)
+
+---
+
+## ✅ QADAM 21: LANDING PAGE MATNI — BAJARILDI (AI 01, 2026-09-04)
+
+### Landing (KOBM tilida — og'riqdan boshlanadi):
+**Sarlavha:** *"Buxgalteringiz soxta hisob-faktura ochsa, $3,000 ketadi. Biz buni oldini olamiz."*
+
+**Sub-sarlavha:** "XavfsizBiz.uz — O'zbekiston KOBM uchun o'zbekcha kiberxavfsizlik: phishing sinovi, xodim o'qitish va oylik hisobot. Oyiga $15 dan."
+
+**3 afzallik:**
+1. 🎣 **Phishing sinovi** — xodimlaringiz soxta xabarni taniydimi? Biz sinaymiz, o'rgatamiz
+2. 📋 **Audit + hisobot** — zaifliklar o'zbekcha, oddiy tilda (IT mutaxassis shart emas)
+3. 🛡️ **Hodisada yordam** — "direktor nomidan" soxta to'lov chaqiruvi bo'lsa, qo'ng'iroq qiling
+
+**CTA:** "Bepul xavfsizlik tekshiruvi olish" (1-oy sinov $9)
+
+**Forma (3 savol):**
+1. Nechta xodim? (mikro/o'rta filtri)
+2. Qanday biznes? (do'kon/kafe/xizmat/SaaS)
+3. Hozir antivirus/IT yordami bormi?
+
+**Ishonch elementlari:** "PP-167 talablariga moslashuvda yordam" · "Hisobot o'zbekcha" · "1-oy sinov — qoniqmasangiz qaytaramiz"
+
+**📚 Research:** QADAM 1 og'riq raqamlari ($3,000 misol, phishing 33.8%) — landing og'riqdan boshlanadi, yechimdan emas
+
+---
+
+## ✅ QADAM 22: WAITLIST REJASI — BAJARILDI (AI 01, 2026-09-04)
+
+### Maqsad: 2 haftada 50 ta KOBM (30 mikro + 15 o'rta + 5 ekspert/kanal)
+
+### Kanallar (mikro KOBM):
+1. **Bozor/savdo majmuasi** — jonli tashrif (eng yuqori konversiya): 3 kun × 10 do'kon
+2. **Telegram biznes guruhlari** — "Tadbirkor", "Tadbirkor Ayol" — post + shaxsiy DM
+3. **IT Park tadbirlari** — o'rta KOBM (SaaS/outstaff) bilan tanishuv
+
+### Kanallar (o'rta KOBM):
+1. **Bank biznes-menejerlari** — mijozlariga tavsiya (bankka ham foyda)
+2. **IT Park hamjamiyati** — SaaS/outstaff kompaniyalar (xorijiy mijoz talabi)
+
+### 2 haftalik jadval:
+| Kun | Harakat | Maqsad |
+|-----|---------|--------|
+| 1–3 | Bozor tashrifi (3 kun × 10) | 15 mikro |
+| 4–6 | Telegram guruhlar + DM | 10 mikro |
+| 7–9 | IT Park tadbirlari + bank | 10 o'rta |
+| 10–12 | Tanishuv zanjiri (har suhbatdan +1) | 10 mikro |
+| 13–14 | Ekspertlar (CERT, security) | 5 ekspert |
+
+**Imtiyoz:** waitlistdagilar 1-oy sinov $9 (asosiy $15) + "birinchi 50" badge
+
+---
+
+## ✅ QADAM 23: 50 TA INTERVYU REJASI — BAJARILDI (AI 01, 2026-09-04)
+
+### Segmentlar bo'yicha (QADAM 4 ni kengaytiradi — haqiqiy validation):
+
+| Segment | Soni | Nima tekshiramiz |
+|---------|------|------------------|
+| Mikro — do'kon/bozor | 15 | Phishing/pul yo'qotish hikoyasi; $15–30/oy narx |
+| Mikro — kafe/oshxona | 8 | To'lov/qabul qilish tizimlari; xodim almashinuvi |
+| Mikro — xizmat (santexnika, ta'mirlash) | 7 | Hisob-faktura/email odati |
+| O'rta — SaaS/outstaff | 8 | Xorijiy mijoz security talabi; PP-167 |
+| O'rta — savdo tarmog'i/logistika | 7 | CRM/to'lov tizimi; filiallar xavfsizligi |
+| Ekspert (CERT, security mutaxassis) | 5 | Bozor tuzilishi; PP-167 amaliyoti |
+| **JAMI** | **50** | |
+
+### Har segment uchun maxsus savol (QADAM 3 umumiy savollariga qo'shimcha):
+- **Do'kon:** "Uzum/Instagram akkauntingiz buzilganmi? Qanday tiklandingiz?"
+- **Kafe:** "Kassa tizimiga kim kirish huquqiga ega? Xodim ketganda o'chiriladimi?"
+- **SaaS/outstaff:** "Xorijiy mijoz security so'rovnoma yubordimi? Qanday javob berdingiz?"
+- **Savdo tarmog'i:** "Filiallaringizda bitta parol ishlatiladimi?"
+
+### Muvaffaqiyat mezoni:
+- **12/15 do'kon egasi** xavfsizlikdan qo'rqsa / zarar ko'rgan bo'lsa → segment tasdiqlandi
+- **4/8 SaaS** mijoz security talabini aytgan bo'lsa → PREMIUM segment isbotlandi
+- 20+ KOBM $15–100/oy oralig'ida "ha" desa → narx modeli tasdiqlandi
+- <10 KOBM muammoni tan olmasa → ⚠️ pivot muhokamasi (AI 07 bilan)
+
+---
+
+## ✅ QADAM 24: PRE-ORDER — BAJARILDI (AI 01, 2026-09-04)
+
+### Taklif (haqiqiy — valyutani qaytarish sharti bilan):
+**"3 oylik pilot — $120"** (asosiy $15/oy × 3 = $45 emas; pilot = kirish auditi + 3 oy xizmat + yakuniy hisobot)
+
+### 3 darajali pre-order:
+| Paket | Narx | Nima kiradi |
+|-------|------|-------------|
+| Mikro pilot | $90 (3 oy, $30/oy) | ASOSIY + kirish auditi + hisobot |
+| O'rta pilot | $300 (3 oy, $100/oy) | STANDART + xorijiy mijoz uchun hisobot shabloni |
+| Yillik (erta) | $400 ($33/oy) | STANDART 12 oy — 2 oy chegirma |
+
+### O'lchash:
+- Landing'da "Pilot bron qilish" tugmasi (depozit $20 Click/Payme)
+- **Mezon:** 2 haftada 5+ depozit → talab isboti; 0–2 → narx/taklif qayta ko'rib chiqiladi
+- Har depozitdan keyin: qo'ng'iroq "nima uchun bron qildingiz?" (motivatsiya yozuvi)
+
+---
+
+## ✅ QADAM 25: FAKE DOOR TEST — BAJARILDI (AI 01, 2026-09-04)
+
+### Test: "Xavfsizlik skaneri" tugmasi (haqiqiy xizmat hali yo'q)
+- Landing'da: "Bepul tarmoq skaneri — zaifliklaringizni 24 soatda topamiz" tugmasi
+- Bosilganda: "Rahmat! 50 ta bepul tekshiruvdan biri uchun navbatda turibsiz. Joylashish uchun email qoldiring"
+
+### O'lchash (2 hafta):
+- **CTA konversiya:** 5%+ tashrif → email (mikro KOBM segmenti uchun yaxshi ko'rsatkich)
+- **Email qoldirganlar:** 20+ → skaner xizmatiga talab bor
+- **Keyingi qadam:** email qoldirganlarga 2 haftadan keyin "skaner tayyor" xabari + sotuv (pre-order bilan bog'lash)
+
+### Xulosa: Fake door — skaner (yangi xizmat) talabini tekshiradi; asosiy paket talabi pre-order (QADAM 24) bilan o'lchanadi
+
+---
+
+## ✅ QADAM 26: POZITSIYALASH (POSITIONING) — BAJARILDI (AI 01, 2026-09-04)
+
+**Umumiy qoida (davlat bilan munosabat):**
+- ❌ Hech qachon "davlat o'rnini bosamiz" yoki "CERT.uz yomon" degan pozitsiya yo'q
+- ✅ "Biz xususiy qo'shimcha qatlammiz — CERT.uz davlat hodisalariga javob beradi, biz KOBM profilaktikasiga yordam beramiz"
+- ⚠️ "Hakerlik/pentest" so'zini ehtiyot qilish: faqat mijozning O'Z tizimida, yozma ruxsat bilan (JK 278)
+
+**VARIANT 1 — MIKRO KOBM UCHUN (B2C):**
+> **"XavfsizBiz.uz — kichik biznesingizni aldashdan himoya qilamiz."**
+> $15/oy: phishing sinovi, xodim o'qitish, oylik hisobot — IT mutaxassis shart emas, hammasi o'zbekcha.
+
+**VARIANT 2 — O'RTA BIZNES UCHUN (B2B):**
+> **"XavfsizBiz.uz — mijozlaringiz oldida ishonch."**
+> Xorijiy hamkor security so'rovnomasiga javob bera oladigan hisobot + PP-167 moslashuvi + hodisada 24/7 yordam.
+
+**VARIANT 3 — INVESTOR UCHUN:**
+> **"O'zbekistonda 1.2 mln KOBM himoyasiz; hujumlarning 43–49% kichik biznesga; Silent Push (2024) O'zbekistonni nishonga oldi. Global model isbotlangan (Huntress $1.6B). Biz $15–100/oy obuna bilan bo'sh joyni egallaymiz."**
+
+---
+
+## ✅ QADAM 27: MIJOZ TOPISH KANALLARI TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+### 4 kanalni sinash (2 hafta, har biriga 20% byudjet):
+| Kanal | Test | Mezon (kanal ishlaydi) |
+|-------|------|------------------------|
+| Bozor jonli tashrif | 3 kun × 10 do'kon | 3+ waitlist / kun |
+| Telegram guruhlar | 10 guruhga post | 5+ DM / post |
+| IT Park tadbirlari | 2 tadbir | 3+ o'rta KOBM aloqa |
+| Bank biznes-menejerlari | 5 bank bilan uchrashuv | 2+ tavsiya |
+
+### Xulosa qoidasi:
+- 2+ kanal mezonni oshib o'tsa → shu kanallarga byudjet (80/20)
+- 0 kanal ishlamasa → KOBM ga yetib bo'lmaydigan kanal topilmadi (pivot: B2B2C — bank/IT Park orqali)
+
+---
+
+## ✅ QADAM 28: TO'LOVGA TAYYORLIK TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+### So'rovnoma (50 KOBM — QADAM 23 intervyularida):
+- **Mikro (30):** "$15/oy bo'lsa to'laysizmi? $30-chi? $50-chi?" (ikki nuqtali)
+- **O'rta (15):** "$50/oy? $100? $150? Yillik shartnomaga rolimisiz?"
+- **Ekspert (5):** "KOBM o'rtacha qancha to'lay oladi?" (bozor bahosi)
+
+### Mezon:
+- **Mikro:** 15/30 (50%) $15–30 ga "ha" → PASS (QADAM 1 og'riq darajasi 8/10 ni tasdiqlaydi)
+- **O'rta:** 8/15 (53%) $50–150 ga "ha" → PASS
+- **Umumiy:** kamida 20/50 to'lovga tayyor → narx modeli isboti
+
+### Narx moslashuvi (natijaga qarab):
+- Ha kam bo'lsa: $15 → $9 kirish (1-oy), yillik chegirma kuchaytiriladi
+- Ha ko'p bo'lsa: PREMIUM $150 qo'shiladi (24/7 SOC bilan)
+
+---
+
+## ✅ QADAM 29: VALIDATION XULOSASI — BAJARILDI (AI 01, format)
+
+```
+WAITLIST: _ (mezon 50) | PRE-ORDER DEPOZIT: _ (mezon 5)
+INTERVYU: _50_ | TO'LOVGA TAYYOR: _/50 (mezon 20)
+FAKE DOOR KONVERSIYA: _ (mezon 5%)
+ENG YAXSHI KANAL: _
+ENG KUCHLI SEGMENT: _ (do'kon? SaaS?)
+ASOSIY XAVF: _ (xabardorlik? narx?)
+QAROR: (GO MVP / tuzatish / pivot)
+KEYINGI: BOSQICH 4 — MVP (QADAM 31-40)
+```
+
+**Mezon (BOSQICH 3 o'tdi):** Waitlist 50 · pre-order 5+ · to'lovga tayyor 20+ · kanal 2+ ishladi
+
+---
+
+## ✅ QADAM 30: GO/NO-GO — BAJARILDI (AI 01, 2026-09-04)
+
+### Qaror qoidasi (QADAM 29 mezonlari):
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. Talab isboti | Waitlist 50 + pre-order 5+ | _ |
+| 2. To'lovga tayyorlik | 20/50 "ha" | _ |
+| 3. Kanal | 2+ kanal ishladi | _ |
+| 4. Segment | Eng kuchli segment aniq | _ |
+
+**GO:** 3/4 shart bajarilsa → BOSQICH 4 (MVP — QADAM 31–40, reja QADAM 7 da tayyor)
+
+**NO-GO / pivot variantlari:**
+1. Talab yo'q (intervyu 0 og'riq) → **pivot:** faqat phishing simulyatsiya SaaS (KnowBe4 lokal) — o'qitish kanali
+2. To'lovga tayyor emas → **narx/paket qayta** (QADAM 28 moslashuvi) yoki B2B2C (bank paketi)
+3. Kanal topilmadi → **B2B2C:** IT Park/inkubator orqali SaaS startaplarga
+
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–30
+
+---
+
+## 🛠️ BOSQICH 4–10 (QADAMLAR 31–100)
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
-
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–20
