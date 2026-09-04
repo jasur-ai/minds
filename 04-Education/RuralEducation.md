@@ -1847,4 +1847,15 @@ ASOSIY SABOQ: (amaliyotda to'ldiriladi)
 
 ---
 
-## 📊 BOSQICH STATISTIKASI
+## 🎤 PITCH (10 slayd)
+
+**Slayd 1 — Muammo:** 1,600+ qishloq maktabida ingliz tili o'qituvchisi yetishmaydi. Onlayn kurslar shahar uchun qilingan — qishloq bolasi sifatli ta'limdan mahrum.
+**Slayd 2 — Yechim:** Mahalliy o'qituvchi + jonli Telegram darslari + ota-ona hisobotlari — 25–50k so'm/oy. Internetning o'zi yetarli — qo'shimcha infratuzilma talab qilinmaydi.
+**Slayd 3 — Bozor:** 10 mln+ qishloq aholisi, 3 mln+ maktab yoshidagi bola. TAM = B2C guruh to'lovi + donor byudjeti (BILIM $378 mln).
+**Slayd 4 — Model:** Guruh to'lovi ($20–25 marja) + donor B2B (maktab/donor to'laydi). O'qituvchi ulushi 50–60% — sifat barqarorligi kafolati.
+**Slayd 5 — Raqobat:** TopSpot/Englify shaharga qaratilgan va qimmat — qishloq segmenti bo'sh. Physics Wallah (Hindiston) qishloq ta'limi modelini isbotlagan.
+**Slayd 6 — Isbot:** 100 qadam, 10 oila piloti rejalangan, oldin/keyin daraja testi (70%+ 1 daraja) mezon qilib belgilangan. Ona zanjiri + direktor kanali ishonchni qurish sxemasi.
+**Slayd 7 — Traction:** 1-guruh 10 oila (kun 30), 2-guruh 15 oila (kun 90), donor murojaat xati. Retention 70%+ bo'lsa kengayish qoidasi ishga tushadi.
+**Slayd 8 — Jamoa:** Foydalanuvchi (mahalla zanjiri) + mahalliy o'qituvchi ($350/oy) + AI 01. Eng kam xarajatli loyiha — 12 oylik byudjet 96 mln so'm.
+**Slayd 9 — Sarmoya so'rovi:** 96 mln so'm (12 oy): jamoa 60, marketing 24, texnologiya 12 mln. Donor granti bilan moliyalash imkoniyati — kam xavfli.
+**Slayd 10 — Vision:** Har qishloqda ingliz tili — "Physics Wallah of Central Asia". 5 yilda donor B2B bilan 20,000 o'quvchi.

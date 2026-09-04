@@ -1549,3 +1549,18 @@ ASOSIY SABOQ: (amaliyotda to'ldiriladi)
 - [[00-Meta/STARTUP-100-STEPS]] — framework
 - [[20-Society/ElderlyCare]] — 100-qadam formati namunasi (FINAL 60 #1)
 - [[00-Meta/Chat for AIs and Monitoring]] — AI 01 bilan aloqa
+
+---
+
+## 🎤 PITCH (10 slayd)
+
+**Slayd 1 — Muammo:** 25% oila to'y uchun qarz oladi, 65.2% to'y 50–100 mln so'm turadi. Byudjet nazorati yo'q, pudratchilar tekshirilmagan — firibgarlik va ortiqcha xarajat keng tarqalgan.
+**Slayd 2 — Yechim:** Byudjet kalkulyatori + tekshirilgan pudratchilar bozori (narx/review/escrow). Oila 3 daqiqada byudjetni rejalashtiradi, pudratchini ishonch bilan tanlaydi.
+**Slayd 3 — Bozor:** Yiliga 200k+ to'y, TAM 10 trln so'm+. kalki.uz faqat kalkulyator — marketplace bo'sh.
+**Slayd 4 — Model:** Komissiya 5–10% + featured + pudratchi SaaS (escrow orqali). The Knot modeli ($500M+ daromad) isbotlagan — featured + komissiya.
+**Slayd 5 — Raqobat:** kalki.uz (kalkulyator), Instagram agentliklar (10–20% komissiya, shaffof emas). Tekshiruv + review + escrow — ularning hech birida yo'q.
+**Slayd 6 — Isbot:** 100 qadam, 30 intervyu rejasi (5 pudratchi + 10 juftlik). Mavsumiy MRR prognozi: 12-oy $10,500 ≈ 134 mln so'm (mavsumiylik ×1.5/×0.6).
+**Slayd 7 — Traction:** 10 pudratchi katalogi (kun 60), 2 shartnoma (kun 90), MRR $200+. Instagram + DM kampaniyasi to'y bozoriga to'g'ridan-to'g'ri kanal.
+**Slayd 8 — Jamoa:** Foydalanuvchi (pudratchi kanali) + AI 01 (katalog/tekshiruv) + AI 07 (kalkulyator bot). 12 oylik byudjet 252 mln so'm — portfeldagi eng katta TAM.
+**Slayd 9 — Sarmoya so'rovi:** 252 mln so'm (12 oy): jamoa 168, marketing 60, texnologiya 24 mln. Escrow (alohida hisob) pulni xavfsiz saqlash kafolati.
+**Slayd 10 — Vision:** Markaziy Osiyoda oilaviy tadbirlar platformasi — "oqilona to'y" standarti. 5 yilda to'y + sunnat + bitiruv ekotizimi.

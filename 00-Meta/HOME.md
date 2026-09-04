@@ -11,8 +11,23 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 # 🌐 ECOSYSTEM — Startup G'oyalar Vaulti
 
-> *2026-09-04 meta tozalashdan so'ng: 5 ta real startup g'oyasi + 9 meta fayl*
+> *2026-09-04 meta tozalashdan so'ng: 5 ta real startup g'oyasi + 13 meta fayl*
 > *Faqat UZ bozorida REAL daromad, bo'sh joy va amalga oshirish mumkin bo'lgan g'oyalar saqlandi.*
+
+---
+
+## ⚡ HOZIRGI FOKAL: EXEC-2026 IJRO REJASI
+
+> Framework 100/100 tugadi — endi IJRO. Kutish rejimi YO'Q. To'liq reja: [[EXEC-2026]] · investor jadvali: [[PORTFEL-2026]]
+
+**Birinchi 7 kun — eng muhim 5 harakat:**
+- [ ] **09-05** — 5 intervyu: do'kon/kafe egasi (XavfsizBiz) — 👤 Foydalanuvchi
+- [ ] **09-06** — 5 intervyu: to'y pudratchilari (To'yByudjet) — 👤 Foydalanuvchi
+- [ ] **09-07** — `xavfsizbiz.uz` landing kontent draft — 🤖 AI 01
+- [ ] **09-08** — 3 intervyu: bog'cha egalari (Bog'chaTop) — 👤 Foydalanuvchi
+- [ ] **09-09** — 3 intervyu: qishloq onalari (QishloqMaktab) — 👤 Foydalanuvchi
+
+> Maqsad: 30-kunga 150+ intervyu · 60-kunga 2 MVP · 90-kunga birinchi daromad. Har juma KPI hisoboti → [[Chat for AIs and Monitoring]]
 
 ---
 
@@ -85,6 +100,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | [[STARTUP-100-STEPS]] | 100 qadam framework |
 | [[STANDARTLAR]] | Qabul mezonlari + sifat nazorati (checklist, baholash) |
 | [[WORKFLOW]] | Yangi g'oya qo'shish + rivojlantirish jarayoni (template) |
+| [[PORTFEL-2026]] | Investor portfeli: ballar, byudjet, prioritet |
+| [[EXEC-2026]] | 30/60/90 kunlik ijro rejasi (intervyu → MVP → daromad) |
 | [[STARTUP-MUAMMOLAR]] | 5 g'oyaning aniq muammolari + tuzoqlar |
 
 ### 📊 Tadqiqot
@@ -100,8 +117,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | Ko'rsatkich | Qiymat |
 |-------------|--------|
 | **G'oya notalari** | 5 ta |
-| **Meta fayllar** | 11 ta |
-| **Jami notalar** | 16 ta |
+| **Meta fayllar** | 13 ta |
+| **Jami notalar** | 18 ta |
 | **O'chirilgan (1-tozalash)** | 59 ta yaroqsiz shablon nota (2026-09-04) |
 | **O'chirilgan (2-tozalash)** | 11 ta g'oya + 13 meta fayl (2026-09-04) |
 | **O'chirilgan (meta tozalash)** | 3 ta eskirgan meta fayl (2026-09-04) |
@@ -123,5 +140,5 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (meta tozalash: 3 meta fayl o'chirildi — jami 86 fayl)*
-*MllyCore Ecosystem v3.1*
+*Oxirgi yangilanish: 2026-09-04 — EXEC-2026 ijro rejasi boshlangan (PORTFEL-2026 + EXEC-2026 qo'shildi)*
+*MllyCore Ecosystem v3.2*

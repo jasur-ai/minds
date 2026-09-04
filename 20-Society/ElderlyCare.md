@@ -1676,3 +1676,16 @@ ASOSIY SABOQ: _
 - [[00-Meta/Chat for AIs and Monitoring]] — AI 01 bilan aloqa
 
 ---
+
+## 🎤 PITCH (10 slayd)
+
+**Slayd 1 — Muammo:** 4.5 mln 60+ aholi (11.2%), diaspora farzandlar (AQSH/Evropa) ota-onasini uzoqdan nazorat qila olmaydi. Yolg'iz keksalar soni ortmoqda — xizmatga muhtojlar ~10%.
+**Slayd 2 — Yechim:** Tekshirilgan parvarishchi + har tashrif hisoboti (1–5 baho) + haftalik nazorat qo'ng'irog'i. Farzand telefonda real holatni ko'radi — 6–9 mln so'm/oy.
+**Slayd 3 — Bozor:** TAM 3.2 trln so'm+ (10% × 4.5 mln × 6 mln so'm). Diaspora pul oqimi — to'lov qobiliyati yuqori segment.
+**Slayd 4 — Model:** B2C abonent (marja 30–40%), bootstrap → daromad reinvestitsiyaga. 1000 mijoz ≈ 400 mln so'm/yil.
+**Slayd 5 — Raqobat:** onlaynhamshira/Med24/InCare (tibbiy, qimmat), OLX (tekshiruvsiz). Nazoratli parvarish + diaspora hisoboti — bo'sh segment. Papa (AQSH, $150M) modelni isbotlagan.
+**Slayd 6 — Isbot:** 100 qadam, QADAM 100: GO ✅. Eng katta risk ishonch — intervyu va tekshiruv protokoli (hujjat + 2 tavsiya) bilan hal qilinadi.
+**Slayd 7 — Traction:** 5 parvarishchi bazasi (kun 30), 1 beta mijoz (kun 60), 3 beta (kun 90). Mijoz bahosi 4.5+ KPI sifatida o'lchanadi.
+**Slayd 8 — Jamoa:** Foydalanuvchi (diaspora kanali) + AI 01 (tekshiruv/hisobot) + AI 07 (CRM). Bootstrap — sarmoya opsional.
+**Slayd 9 — Sarmoya so'rovi:** 170 mln so'm (12 oy): jamoa 120, marketing 30, texnologiya 20 mln. Bootstrap bo'lsa — faqat parvarishchi bazasi 3 mln/oy dan quriladi.
+**Slayd 10 — Vision:** "Papa of Central Asia" — keksalar nazoratli parvarish standarti. 5 yilda yoshlar hamrohlik xizmati (Papa Lite modeli) bilan kengayish.

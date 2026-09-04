@@ -1863,4 +1863,15 @@ ASOSIY SABOQ: (amaliyotda to'ldiriladi)
 
 ---
 
-## 📊 BOSQICH STATISTIKASI
+## 🎤 PITCH (10 slayd)
+
+**Slayd 1 — Muammo:** O'zbekiston KOBM'lari maxsus hujumlar nishonida (xplogs22, SMS-stealer) va 400k+ KOBM himoyasiz. Bitta phishing hujumi o'rtacha biznesga 100+ mln so'm zarar keltiradi.
+**Slayd 2 — Yechim:** O'zbekcha phishing simulyatsiya + o'qitish + Telegram/PDF hisobot — $15/oy dan. Davlat CSEC xizmatidan 10× arzon, KOBM uchun mo'ljallangan.
+**Slayd 3 — Bozor:** 1.2 mln+ KOBM, 400k+ raqamli to'lov ishlatadi (Payme/Click). TAM $144M/yil, SAM $30M — bozor jadal o'smoqda (raqamli iqtisodiyot).
+**Slayd 4 — Model:** Subscription $15/$40/$100, LTV $540, LTV/CAC 13–27×. Qayta sotish daromadi 85% — subscription barqaror MRR quriladi.
+**Slayd 5 — Raqobat:** CSEC/UZINFOCOM davlat katta biznesga qaratilgan — KOBM segmenti bo'sh. Xalqaro Guardz modeli ($48M) KOBM kiberxavfsizligini isbotlagan.
+**Slayd 6 — Isbot:** 100 qadamlik reja yakunlandi, 3-beta persona (Bobur-do'kon/kafe/SaaS) tahlil qilindi. 8 haftalik MVP rejasi: 2 simulyatsiya, 3–5 beta KOBM.
+**Slayd 7 — Traction:** 10 intervyu (kun 30), 3 beta-mijoz (kun 60), MRR $300+ (kun 90). PQ-167 qonuni mijoz talabini oshiradi.
+**Slayd 8 — Jamoa:** Foydalanuvchi (mijoz kanali) + AI 01 (tadqiqot/hisobot) + AI 07 (GoPhish/bot). Xarajat kam — 12 oylik byudjet 156 mln so'm.
+**Slayd 9 — Sarmoya so'rovi:** 156 mln so'm (12 oy): jamoa 96, marketing 36, texnologiya 24 mln. Sarmoya MRR $8k (100+ mijoz) maqsadiga olib boradi.
+**Slayd 10 — Vision:** 3 yilda Markaziy Osiyo KOBM'lari uchun standart kiberhimoya. "UZ KOBM Cyber Shield" — har do'kon, har kafe himoyalangan.

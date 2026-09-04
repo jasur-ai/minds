@@ -1614,3 +1614,18 @@ ASOSIY SABOQ: (amaliyotda to'ldiriladi)
 6. cabar.asia — bog'cha yetishmasligi (AI 01 research)
 7. Winnie / Care.com / Toddle / Kinde — global modellar
 8. Maktabgacha ta'lim agentligi talablari — tekshiruv checklist asosi
+
+---
+
+## 🎤 PITCH (10 slayd)
+
+**Slayd 1 — Muammo:** 780k bola davlat bog'chasidan tashqarida, xususiy bog'cha tanlashda ishonch va tekshiruv yo'q. Ota-ona bog'cha haqida ma'lumotni og'zaki (mahalla) orqali oladi.
+**Slayd 2 — Yechim:** Tekshirilgan bog'cha katalogi + narx/review/bron — 3 daqiqada tanlov. 2022 qonun bozorni qonuniylashtirdi, platforma uni shaffof qiladi.
+**Slayd 3 — Bozor:** 4.61 mln 0–4 yosh bola, 780k davlat qamrovidan tashqarida. TAM 2.8 trln so'm+ — katalog/review segmenti butunlay bo'sh.
+**Slayd 4 — Model:** Komissiya (bog'cha to'laydi) 3–5% + premium listing + ma'lumot mahsuloti. 12-oy MRR $8k (500+ bog'cha, 1,000+ ota-ona trafigi).
+**Slayd 5 — Raqobat:** nodavlat-bogcha.uz (davlat, faqat katalog — review/bron yo'q), goldenpages, Yandex Maps. Tekshiruv + review + bron — bizning bo'sh joy.
+**Slayd 6 — Isbot:** 100 qadam, 12 oylik UZS yo'l xarita ($8,500 ≈ 108.8 mln). Winnie (AQSH) modeli — bolalar xizmatlari marketplace'i $19M+ investitsiya olgan.
+**Slayd 7 — Traction:** 30 bog'cha katalogi (kun 30), 50+ ota-ona murojaati (kun 60), 10+ bron (kun 90). Samarqand SOP protokoli 2-shahar tayyorgarligi.
+**Slayd 8 — Jamoa:** Foydalanuvchi (bog'cha kanali) + AI 01 (katalog/tekshiruv) + AI 07 (bot). 12 oylik byudjet 156 mln so'm.
+**Slayd 9 — Sarmoya so'rovi:** 156 mln so'm (12 oy): jamoa 72, marketing 48, texnologiya 36 mln. PPP (davlat hamkorligi) 10 shahar protokoli bilan kengayish yo'li.
+**Slayd 10 — Vision:** Markaziy Osiyoda bolalar ekotizimi — bog'chadan to'garakgacha. 5 yilda 4 daromad oqimi: komissiya, premium, ma'lumot, to'garak.
