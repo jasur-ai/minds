@@ -423,8 +423,82 @@ Suhbat #: _  Sana: _  Kim: _ (ota-ona/o'qituvchi/ekspert)  Qayerda: _ (qishloq/t
 
 ---
 
+## ✅ QADAM 8: GLOBAL BOZOR TADQIQOTI — BAJARILDI (AI 01, 2026-09-04)
+
+### 🌍 BOZOR HAJMI (research):
+- **Global edtech bozori: $197.3 mlrd (2025) → $353.1 mlrd (2030)**, CAGR ~12% (MarketsandMarkets) — boshqa hisobotlar $373 mlrd (2024) bilan mos (SkyQuest)
+- **Global ta'lim bozori: $10 trln (2030) ga** — rivojlanayotgan bozorlarda aholi o'sishi asosiy dvigatel (HolonIQ) — O'zbekiston (35 mln+ aholi, 6.78 mln o'quvchi) shu to'lqinda
+- **Raqamli ta'lim: $31.7 mlrd (2025) → $248 mlrd (2034)**, CAGR 24.9% (IMARC) — offline→onlayn siljish tez
+- **Muhim dars — Byju's qulashi (Hindiston):** $22 mlrd (2022) → ~99% qulash (2024–25): sabab — agressiv sotib olishlar (WhiteHat Jr), ulkan marketing xarajati, qarz ($1.2 mlrd), mahsulot sifatiga e'tiborsizlik (Sage Journals, Cornell 2024). **Bizga dars: arzon MVP, organik tarqalish (direktor kanali), qarz OLMAYMIZ, sifatni birinchi o'ringa qo'yamiz**
+
+### 🏆 GLOBAL MODELLAR (nima ishlagan / ishlamagan):
+| Kompaniya | Model | Natija | Bizga dars |
+|-----------|-------|--------|------------|
+| **Byju's (Hindiston)** | Yirik online kurslar + agressiv marketing | $22 mlrd → qulash (2024) | ❌ Katta marketing/qarz = falokat; sifat + organik o'sish
+| **Vedantu (Hindiston)** | **Jonli online darslar (live classes)** — kichik shaharlar/qishloqlar | Omon qoldi, jonli formatga o'tdi | **Jonli = bizning asosiy format** (yozib olingan video emas) |
+| **Khan Academy (global)** | Bepul video-kontent | 100+ til, millionlar | O'zbekcha kontent kam — hamkorlik/bo'sh joy |
+| **Bridge International (Afrika)** | Arzon maktablar (low-cost private schools) | Ko'p mamlakatda ishladi | Narx segmentatsiyasi: eng arzon narx = eng katta bozor |
+| **Unacademy/Physics Wallah (Hindiston)** | Arzon jonli darslar (govt exam) | Physics Wallah: $1 mlrd baho (2024) | **Arzon + jonli + kichik shaharlar = yirik biznes** (bizning model isboti) |
+| **Davlat Onlayn maktab (UZ)** | TV/Telegram eshittirish | Sifat past, jonli emas | Bo'sh joy: jonli + interaktiv |
+
+### 📊 XULOSA:
+- Global trend: **arzon + jonli + kichik shaharlar/qishloqlar** segmenti (Physics Wallah, Vedantu) — O'zbekiston qishlog'i uchun eng mos model
+- **Byju's sabog'i:** marketingga emas, mahsulotga pul; organik kanal (direktor/ona) — byudjeti kam biznes uchun yagona yo'l
+- **O'zbekistonda bo'sh joy:** o'zbekcha jonli guruhli qishloq ta'limi yo'q; donor pullari (World Bank $100 mln, ADB $100 mln) kelyapti — grant kanali bilan masshtab mumkin
+- Biz global xatoni takrorlamaymiz: MVP $350–700, 10 oila, direktor kanali — agressiv emas, isbotga asoslangan
+
+---
+
+## ✅ QADAM 9: 10 TA MUQOBIL G'OYA — BAJARILDI (AI 01, 2026-09-04)
+
+1. **Qishloq o'qituvchilarini onlayn qayta tayyorlash** (chet tili/IT) — o'qituvchi taqchilligini ildizidan hal qiladi (to'lovchi: davlat/NNT — grantga bog'liq, sekin)
+2. **Bepul kontent platformasi (Khan Academy o'zbekcha)** — video darslar bepul, daromad grant/reklama (to'lovchi yo'q — CUT)
+3. **Ota-onalar uchun ta'lim yo'riqchisi ilovasi** — bolaga qanday yordam berishni o'rgatadi (to'lovchi: ona? — kam)
+4. **Qishloq bolalari uchun STEM to'garaklari (offline)** — robototexnika/IT klublari (infratuzilma og'ir, logistika qimmat)
+5. **Maktab CRM / elektron jurnal (davlat eMaktab ga qarshi)** — davlat bepul beradi — raqobat qiyin
+6. **Onlayn repetitor bozori (Ustoz.uz)** — yakka repetitor-topish platformasi (mavjud: repetitor.uz kabi — tekshirish kerak; guruhli arzon model bizniki)
+7. **Qishloq bolalari uchun kitob/audio-kontent obunasi** — ingliz tili audio-kitoblar (kontent litsenziyasi qimmat)
+8. **Migrant ota-onalar uchun bola ta'limi hisobot ilovasi** — er chet elda bolasining o'qishini kuzatadi (qo'shimcha funksiya — mustaqil emas)
+9. **Qishloq maktablariga internet/proyektor ta'minoti (B2G)** — infratuzilma biznesi (kapital talab, davlat xaridi — startup emas)
+10. **O'qituvchi almashish tarmog'i (tumanlararo)** — bir o'qituvchi bir necha maktabga onlayn dars (bizning modelning bir varianti — mentor tarmog'i, QADAM 60+ ga)
+
+**✅ Tanlov:** Asosiy g'oya (jonli guruhli darslar, ota-ona to'lovi + maktab kanali + donor granti) — #1, #8, #10 uning TARKIBIY QISMI; #2 (bepul) to'lovchisiz; #6 raqobatli. Asosiy model eng to'g'ri.
+
+---
+
+## ✅ QADAM 10: 1-BOSQICH XULOSASI — GO/NO-GO (BAJARILDI, AI 01 2026-09-04)
+
+### 📊 SCORECARD (0–10):
+
+| Mezon | Baho | Izoh |
+|-------|------|------|
+| Muammo haqiqiyligi | 8.0 | O'qituvchi yo'q (ingliz tili 2 yil), repetitor 60 km/500 ming — persona isbotlagan |
+| Auditoriya hajmi | 9.0 | 6.78 mln o'quvchining ~70% qishloqda — ulkan |
+| To'lovga tayyorlik | 5.5 | ⚠️ Eng zaif nuqta: qishloq oilasi $5–10/oy guruhli modelga tayyorligi TEST qilinmagan (QADAM 4 intervyu SHART) |
+| Infratuzilma | 7.5 | Internet 69.4% maktab; ota-ona smartfoni bor — yetarli, lekin chekka qishloqda muammo |
+| Raqobat | 8.0 | Lokal bo'sh; davlat eshittirish sifatsiz; xalqaro o'zbekcha emas |
+| Donor/grant kanali | 7.5 | World Bank $100 mln + ADB $100 mln + UNICEF — pul bor, kirish mehnat talab |
+| MVP murakkabligi | 8.5 | Telegram + 1 o'qituvchi + kontent — $350–700, 60 kun |
+| **JAMI (maks 70)** | **54 / 70 (77%)** | |
+
+### 🚦 QAROR: **GO — shartli** ⚠️
+
+**GO sabablari:** muammo haqiqiy va keng (70% qishloq) · global model isbotlangan (Physics Wallah $1 mlrd, Vedantu jonli) · infratuzilma tayyor · donor pullari kelyapti · Byju's xatosidan saboq olib, arzon MVP.
+
+**Shart (GO dan oldin bajarilishi kerak):**
+1. **QADAM 4 intervyular (7 ta)** — 4/5 ota-ona $5–10/oy (100 ming) ga rozi bo'lishi SHART; bo'lmasa — narx/format (audio? offline?) qayta ko'rib chiqiladi
+2. **10 oila piloti (QADAM 7)** — Payshanbada 8/10 oila 2-haftadan keyin qolishi kerak
+3. **Internet/telefon tekshiruvi** — pilot qishloqda haqiqiy qamrov (operator, tezlik) sinovdan o'tkazilishi kerak
+
+**NO-GO triggerlari (qaysi holatda to'xtaymiz):**
+- 3+ ota-ona "davlat darslari yetarli" yoki "telefoni/interneti yo'q" → pivot (format/segment)
+- Pilotda 5/10 dan kam oila qolsa → to'lov modeli xato
+- Direktor kanali ishlamasa (hech kim tanishtirmasa) → marketing kanali topilmadi
+
+---
+
 ## 🛠️ BOSQICH 2–10 (QADAMLAR 11–100)
 
-**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida. QADAM 8–10 (global bozor, muqobil g'oyalar, 1-bosqich xulosasi) BOSQICH 1 yakuni sifatida qo'shiladi.
+**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–7
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–10

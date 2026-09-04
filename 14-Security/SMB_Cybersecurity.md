@@ -424,8 +424,82 @@ Suhbat #: _  Sana: _  Kim: _ (mikro/o'rta/ekspert)  Kanal: _
 
 ---
 
+## ✅ QADAM 8: GLOBAL BOZOR TADQIQOTI — BAJARILDI (AI 01, 2026-09-04)
+
+### 🌍 BOZOR HAJMI (research):
+- **Global kiberxavfsizlik bozori: $227.6 mlrd (2025) → $351.9 mlrd (2030)**, CAGR 9.1% (MarketsandMarkets 2025-07) — boshqa hisobotlar $251–264 mlrd (2025) bilan mos (MRFR, Mordor)
+- **Managed Security Services (MSS): $39.47 mlrd (2025) → $66.83 mlrd (2030)**, CAGR 11.1% (MarketsandMarkets) — xizmat modeli bozordan tezroq o'smoqda
+- **SMB kiberxavfsizlik segmenti: $25 mlrd (2023) → $70 mlrd (2034)** (Contrary Research 2025-11) — bizning segment globalda eng tez o'sayotgan yo'nalish
+- Kiberjinoyat global iqtisodga yillik zarari: trln dollar (Verizon DBIR/Cybersecurity Ventures) — KOBM 4x tez-tez nishonga olinadi (Cynomi 2026)
+- **O'zbekiston IT xizmatlari:** IT Park eksporti $392.5 mln (2025, it-park.uz/instagram) — o'sish 90.3 mln; IT-xizmatlar eksporti davlat tomonidan rag'batlantirilmoqda — kiberxavfsizlik xizmati ham eksport salohiyatiga ega
+
+### 🏆 GLOBAL MODELLAR (nima ishlagan):
+| Kompaniya | Model | Natija | Bizga dars |
+|-----------|-------|--------|------------|
+| **Huntress (AQSh)** | SMB uchun MSSP: EDR + 24/7 inson monitoring, MSP kanali orqali | **$308M mablag', $1.6 mlrd baho** (2024); 10 yillik o'sish (2025) | KOBM xavfsizligi = katta biznes; kanal (MSP) orqali tarqalish |
+| **Cynomi (Isroil)** | vCISO (virtual CISO) — KOBM ga CISO xizmati, AI avtomatizatsiya | **$37M Series B (2025), yillik 60% o'sish** | "CISO darajasidagi xizmatni KOBM narxida" — bizning PREMIUM paket g'oyasi isboti |
+| **Guardz (Isroil/US)** | All-in-one KOBM platforma: identity+endpoint+email+o'qitish, MSP kanali | ~$5/user/oy; 57% SME breach tadqiqoti | Arzon paket + o'qitish = standart; o'zbekcha lokal gap yo'q |
+| **KnowBe4 (AQSh)** | Phishing simulyatsiya + o'qitish (KOBM asosiy) | 60k+ tashkilot; $4.6 mlrd baho | **Phishing sim + o'qitish = kirish mahsuloti** (bizning MVP aynan shu) |
+| **Cisco/ymirlik MSSP** | Yirik MSSP (KOBM emas) | $100+/user/oy | KOBM segmenti bo'sh qolgan |
+
+### 📊 XULOSA:
+- Global trend: **KOBM xavfsizligi alohida kategoriya bo'ldi** — Huntress ($1.6B), Cynomi, Guardz buni isbotladi
+- Model: **phishing sim + o'qitish (kirish) → EDR/monitoring (yuqori paket)** — bizning 3-paket tuzilmasi global standartga mos
+- **O'zbekistonda bo'sh joy:** global o'yinchilar o'zbekcha emas, lokal to'lov yo'q, CYBERNODE yiriklarga qaratilgan — biz global modelni lokal tilda + PP-167 bilan olib kelamiz
+- Tarqalish kanali sifatida **IT Park/SaaS/outstaff** (xalqaro mijozlar talabi) — eksportga chiqish eshigi (Markaziy Osiyo KOBM lari bir xil muammoda)
+
+---
+
+## ✅ QADAM 9: 10 TA MUQOBIL G'OYA — BAJARILDI (AI 01, 2026-09-04)
+
+1. **KOBM phishing simulyatsiya platformasi (SaaS)** — faqat o'qitish, audit/monitoring yo'q (KnowBe4 lokal analogi)
+2. **Xodimlar o'qitish kursi (bepul/obuna)** — kibergigiena bo'yicha o'zbekcha video-kurs (to'lovchi: korxona emas, xodim? — zaif model)
+3. **Kiber sug'urta agenti** — KOBM ni sug'urta kompaniyasiga ulash + audit (sug'urta bozori UZ da rivojlanmagan — erta)
+4. **Ransomware qutqarish / hodisaga javob xizmati (DFIR)** — hodisa sodir bo'lgach chaqiriladi (og'riq o'tkir, lekin sotish qiyin — "baxtsiz hodisa marketingi")
+5. **Banklar uchun KOBM xavfsizlik API (B2B2C)** — bank mijozlariga paket sotadi (bank qarori sekin — erta, QADAM 60+ ga)
+6. **KOBM IT-autsorsing (to'liq IT boshqaruvi)** — xavfsizlik emas, hamma IT (raqobat: IT freelancerlar, arzon)
+7. **Davlat uchun PP-167 compliance xizmati** — faqat qonun talabiga moslashuv (bozor tor: sektorlar cheklangan)
+8. **SMB uchun dark-web monitoring / breach-alert xizmati** — xodim ma'lumotlari oqib chiqishini kuzatish (qo'shimcha funksiya, mustaqil sotish qiyin)
+9. **KOBM egasi uchun shaxsiy cyber-gigiena ilovasi** — biznes emas, shaxsiy (to'lovchi yo'q — CUT)
+10. **MSSP franchayzing** — viloyatlarda mahalliy hamkorlar orqali xizmat (masshtabdan keyin — QADAM 80+)
+
+**✅ Tanlov:** Asosiy g'oya (audit + o'qitish + monitoring + hodisaga javob, $15–100/oy) — muqobillarning ko'pchiligi uning TARKIBIY QISMI (2, 4, 8) yoki KELAJAK kanali (5, 10). #1 (faqat simulyatsiya) MVP ga yaqin, lekin yolg'iz qolsa churn yuqori — biz paket bilan kuchliroqmiz.
+
+---
+
+## ✅ QADAM 10: 1-BOSQICH XULOSASI — GO/NO-GO (BAJARILDI, AI 01 2026-09-04)
+
+### 📊 SCORECARD (0–10):
+
+| Mezon | Baho | Izoh |
+|-------|------|------|
+| Muammo haqiqiyligi | 8.5 | Lokal tahdid isbotlangan (Silent Push 2024, xplogs22 2026, Group-IB 2025); og'riq yashirin lekin o'tkir ($3,000 misol) |
+| Auditoriya hajmi | 8.0 | 1,212,000+ KOBM; mikro ~90%; oyiga o'sish (26,738 yangi / H1) |
+| To'lovga tayyorlik | 6.5 | ⚠️ Asosiy xavf: KOBM xabardorligi past; $10–30/oy test qilinmagan (QADAM 4 intervyu) |
+| Qonun bosimi (PP-167) | 8.0 | Regulatory tailwind — talab kengaymoqda, bajaruvchi yo'q |
+| Raqobat | 8.5 | Lokal bo'sh (CYBERNODE yiriklar, antivirus yetarli emas); global modellar isbotlagan |
+| MVP murakkabligi | 8.5 | Ochiq manba vositalar (GoPhish, OpenVAS) — $150–400, 30 kun |
+| Model (obuna) | 8.0 | MRR, LTV/CAC ~15–20× potentsial; upsell yo'li 3 paket |
+| **JAMI (maks 70)** | **56 / 70 (80%)** | |
+
+### 🚦 QAROR: **GO — shartli** ⚠️
+
+**GO sabablari:** muammo haqiqiy va lokal isbotlangan · bozor ulkan (1.2 mln KOBM) · global model 3x isbotlangan (Huntress $1.6B, Cynomi, Guardz) · qonun talabi kelmoqda · MVP arzon va tez.
+
+**Shart (GO dan oldin bajarilishi kerak):**
+1. **QADAM 4 intervyular (7 ta)** — 4/5 mikro $10–30/oy ga rozi bo'lishi SHART; bo'lmasa — narx modeli qayta ko'rib chiqiladi
+2. **3 beta-mijoz MVP** (QADAM 7) — phishing bosish <10% natijasi ko'rsatilishi kerak
+3. **PP-167 amaliy nazorati** aniqlansin (kim tekshiradi, jarimalar) — QADAM 26 da
+
+**NO-GO triggerlari (qaysi holatda to'xtaymiz):**
+- 3+ intervyuda "hech qachon duch kelmaganman" / "hukumat hal qiladi" → pivot
+- Beta-mijozlar 30 kunda to'lamasa yoki phishing natijasi yaxshilanmasa → model xato
+- PP-167 nazorati umuman yo'qligi aniqlansa (qonun "qog'ozda") → qonun argumenti zaiflashadi, xabardorlikka tayanamiz
+
+---
+
 ## 🛠️ BOSQICH 2–10 (QADAMLAR 11–100)
 
-**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida. QADAM 8–10 (global bozor, muqobil g'oyalar, 1-bosqich xulosasi) BOSQICH 1 yakuni sifatida qo'shiladi.
+**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–7
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–10
