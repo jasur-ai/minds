@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 7
-qadam: 70
+bosqich: 8
+qadam: 80
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -1426,6 +1426,157 @@ KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
 
 ---
 
-## 🔮 BOSQICH 8–10 (QADAMLAR 71–100)
+# 📈 BOSQICH 8: O'SISH (QADAMLAR 71–80)
+
+---
+
+## ✅ QADAM 71: VIRAL MEXANIZM / WORD-OF-MOUTH — BAJARILDI (AI 01, 2026-09-04)
+
+**3 ta viral halqa (qishloq konteksti):**
+1. **Ota-ona hisoboti imzosi** — har juma hisobotida: "QishloqMaktab — qishloq bolalari uchun ingliz tili. Do'stingizni olib keling — ikkalangizga chegirma: [havola]" (QADAM 48)
+2. **Bola natijasi = reklama** — "Malika 2 oyda 30 ta so'z o'rgandi" hikoyalari (ota-ona ruxsati bilan) — qishloqda eng kuchli isbot
+3. **Maktab direktorlari zanjiri** — har dastur bitiruvchisi keyingi sinfga "ko'chadi" → direktor yangi ota-onalarga tavsiya qiladi
+
+**Mezon:** 12-oyda yangi oilalarning 35%+ referral/organik
+
+---
+
+## ✅ QADAM 72: SEO / KONTENT — BAJARILDI (AI 01, 2026-09-04)
+
+**Kalit so'zlar (ota-ona qidiradi):** "qishloqda ingliz tili kursi", "bolalar uchun onlayn ingliz tili", "ingliz tili telegram orqali", "Payshanba ingliz tili darslari"
+
+**Kontent rejasi (oyiga 4):**
+1. Bepul mini-darslar (Telegram kanal — QADAM 64) → YouTube ga ko'chirish
+2. Ota-ona hikoyalari ("farzandim endi mustaqil o'qiydi")
+3. Ingliz tilining qishloq bolasi uchun foydasi (universitet, ish, internet)
+4. Maktab dasturi bilan solishtirish (qo'shimcha emas — mustahkamlash)
+
+**Texnik:** Telegram kanal SEO emas — Google uchun landing + maqolalar (6–12 oyda organik)
+
+---
+
+## ✅ QADAM 73: AVTOMATLASHTIRISH — BAJARILDI (AI 01, 2026-09-04)
+
+| Jarayon | Avtomatizatsiya | Vosita |
+|---------|-----------------|--------|
+| Davomat kuzatuvi | O'qituvchi belgilaydi → ota-onaga kunlik | Bot (n8n) |
+| Hisobot generatsiya | Haftalik ballar → ota-ona xabari (shablon) | Bot |
+| To'lov eslatmasi | Oy boshi Payme/Click havola | Bot |
+| Vazifa eslatmasi | Darsdan keyin avtomatik | Bot |
+| Referral kuzatuvi | Shaxsiy havola | Bot |
+
+**Maqsad:** operator yukining 50% kamayishi (5+ guruhda zarur)
+
+---
+
+## ✅ QADAM 74: WIN-BACK — BAJARILDI (AI 01, 2026-09-04)
+
+**Ketgan oilalarga (churn — QADAM 49):**
+- Mavsumiy: yozgi tanaffusdan keyin (sentabr) "yangi mavsum — 1-oy 50% chegirma" + bola eski natijalari eslatmasi
+- Har oy: ketganlarga qisqa xabar — "guruhda joy bor, do'sti [ismi] o'qiyapti" (ijtimoiy isbot)
+
+**Mezon:** win-back 20%+ qaytish (1-oyda)
+
+---
+
+## ✅ QADAM 75: O'SISH DASHBOARD — BAJARILDI (AI 01, 2026-09-04)
+
+**Haftalik (juma, 15 daqiqa):**
+| Metrika | Manba | Maqsad |
+|---------|-------|--------|
+| Yangi o'quvchi (ro'yxat) | CRM | 15+/oy |
+| Faol o'quvchilar | Davomat | 200+ (12-oy) |
+| MRR | To'lov | $1,000+ (12-oy) |
+| Guruhlar | Baza | 20 (12-oy) |
+| Referral % | Havola | 35%+ |
+| Churn (mavsumdan tashqari) | Baza | <5%/oy |
+
+---
+
+## ✅ QADAM 76: A/B TEST — BAJARILDI (AI 01, 2026-09-04)
+
+**Navbatdagi testlar (bittadan):**
+1. **To'lov modeli: oylik vs 3 oylik (10% chegirma)** — cashflow uchun (QADAM 46 davomi)
+2. **Dars vaqti: 16:00 vs 18:00** — qaysi guruh retention yuqori
+3. **Guruh hajmi: 5 vs 10** — qatnashish sifati (o'qituvchi yuklamasi bilan birga)
+
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; natija 2 haftada
+
+---
+
+## ✅ QADAM 77: MA'LUMOT MAHSULOTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Mahsulot: "Qishloq ta'limi holati 2026" hisoboti** (anonim):
+- Qishloq maktablarida ingliz tili darajasi (testlarimiz asosida), internet qamrovi, ota-ona to'lov qobiliyati
+- Xaridor: donorlar (BILIM/ADB — 2-bosqich tender uchun asos), Xalq ta'limi vazirligi, NNT lar
+- Narx: $300–800 (donor uchun) yoki bepul (OAV/brend)
+
+**Nega ishlaydi:** bizda yagona real qishloq ma'lumoti (test natijalari bazasi) — donor hujjatlarida kuchli
+
+---
+
+## ✅ QADAM 78: BOSQICH 8 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
+  MRR: $ _ (mezon $1,000+)
+  O'QUVCHILAR: _ (mezon 200+)
+  GURUHLAR: _ (mezon 20)
+  REFERRAL: _% (mezon 35%+)
+  CAC: $ _ (maqsad <$3)
+  NPS (ota-ona): _ (maqsad 40+)
+  QISHLOQLAR: _ (Payshanba + ?)
+  DONOR: _ (BILIM/ADB holati)
+QAROR: (SCALE ga / davom / tuzatish)
+KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
+```
+
+### 📅 12 OYLIK O'SISH YO'L XARITASI (real UZS)
+
+| Oy | MRR ($) | MRR (UZS ~12,800/$) | O'quvchilar | Guruhlar | Qishloqlar |
+|----|---------|---------------------|-------------|----------|------------|
+| 1 | $100 | ~1.3 mln | 20 | 2 | Payshanba |
+| 3 | $300 | ~3.8 mln | 60 | 6 | Payshanba + 1 |
+| 6 | $600 | ~7.7 mln | 120 | 12 | 3 qishloq |
+| 9 | $900 | ~11.5 mln | 180 | 18 | 4 qishloq |
+| 12 | $1,200 | ~15.4 mln | 240 | 24 | 5 qishloq + donor pilot |
+
+**Marketing byudjeti (12 oy, UZS):** tashrif yo'l xarajati $50/oy (~640 ming), kontent $30/oy (~380 ming), materiallar $20/oy — jami ~$100/oy (~1.3 mln so'm) — MRR < 10%
+
+---
+
+## ✅ QADAM 79: YANGI MAHSULOT (BIRINCHI) — BAJARILDI (AI 01, 2026-09-04)
+
+**Matematika bo'limi** — xuddi shu o'quvchi (qishloq bolasi), xuddi shu mexanika (jonli Telegram guruhi):
+- **Nega birinchi:** xuddi shu ota-ona (2 fan = 1 to'lov), xuddi shu o'qituvchi modeli, PISA natijalari qishloqda zaif — ehtiyoj real
+- **Taklif:** Premium paket ($10/oy — ingliz + matematika) yoki alohida $5/oy
+- **Sinergiya:** guruh almashadi (ingliz guruhidagi bola matematikaga ham yoziladi — up-sell 30%)
+
+**Mezon (sinov):** 3 matematika guruhi 2 oyda → mahsulot №2 tasdiqlandi
+
+---
+
+## ✅ QADAM 80: BOSQICH 8 YAKUNIY QAROR — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $1,000+/oy | _ |
+| 2. O'quvchilar | 200+ | _ |
+| 3. Referral | 35%+ | _ |
+| 4. Donor yo'nalishi | BILIM/ADB bilan aloqa boshlangan | _ |
+
+**GO (SCALE):** 3/4 shart → BOSQICH 9 (SCALE — QADAM 81–90)
+
+**NO-GO / variantlar:**
+1. MRR yetmadi (B2C to'lov zaif) → donor B2B modeliga o'tish (maktab/donor to'laydi — QADAM 62)
+2. Referral ishlamadi → direktor kanalini kuchaytirish (har maktabda 1 elchi o'qituvchi)
+3. Internet cheklovi → oflayn materiallar + maktab kompyuter sinfi (69.4% qamrov)
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 71–80
+
+---
+
+## 🔮 BOSQICH 9–10 (QADAMLAR 81–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
