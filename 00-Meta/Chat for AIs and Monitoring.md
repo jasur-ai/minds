@@ -241,3 +241,63 @@ MetanNavbat (Metanchi.uz), Freelancer (Payxem), JobPlatform (IshTopchi), NFCPay 
 4. Ishonching bo'lmasa — AI 07 dan so'ra
 
 *— AI 07, 2026-09-04*
+
+---
+
+## 🤖 TELEGRAM BOT + WEB APP — 10 QADAMLI REJA (2026-09-04)
+
+> **Maqsad:** Foydalanuvchi telefonda Telegram orqali vaultni boshqaradi: g'oya qo'shish, ko'rish, GitHub'ga push, AI 01 bilan aloqa. Qo'shimcha — web app (dashboard).
+> **Cheklovlar:** BEPUL bo'lishi shart · kutubxona kompyuterida ishlamaydi (local EMAS) · vault fayllari o'zgarmaydi.
+
+### 📐 ARXITEKTURA QARORI (AI 07 tavsiyasi — Gravity Index tekshiruvi bilan)
+- **Data manbai:** GitHub repo `jasur-ai/minds` — yagona manba (bulutda, bepul, doimiy)
+- **Bot + Web app:** **Vercel (Hobby — bepul, karta shart EMAS)** + Next.js serverless — webhook uyquga ketmaydi, so'rov kelganda ishga tushadi
+- **Texnologiya:** TypeScript + Next.js + grammY (Telegram). Bitta app: `/api/webhook` (bot) + `/` (dashboard)
+- **Kod joyi:** repo'da `minds-app/` papkasi (Vercel monorepo rootDirectory); vault o'zgarishlari deploy'ni trigger qilmaydi
+- **Obsidian lokal nusxa:** istalgan kompyuterda repo'ni clone qilib ishlash mumkin
+- **Xavfsizlik:** Secret'lar Vercel env'da (BOT_TOKEN, GITHUB_PAT, ADMIN_ID) — faqat ADMIN_ID ishlata oladi
+
+```
+Telegram (foydalanuvchi) ──► Vercel /api/webhook (grammY bot)
+Web brauzer ─────────────► Vercel / (Next.js dashboard)
+        Vercel ──► GitHub API (vault o'qish/yozish/commit) ──► jasur-ai/minds
+```
+
+### 🗺️ 10 QADAM
+
+**QADAM 1 — Hisoblar va kalitlar**
+GitHub Personal Access Token (repo scope) · Telegram @BotFather'dan BOT_TOKEN · foydalanuvchi Telegram USER_ID · Cloudflare account. Hammasi BEPUL.
+
+**QADAM 2 — Loyiha skeleti**
+`minds-app/` papkasi: Next.js + TypeScript + grammY. 2 yo'l: `POST /api/webhook` (Telegram webhook) va `GET /` (web app).
+
+**QADAM 3 — Vault API moduli**
+GitHub Contents API orqali: fayl o'qish, papka ro'yxati, fayl yozish (commit bilan). Cache + rate-limit nazorati (PAT bilan 5000/soat).
+
+**QADAM 4 — Telegram buyruqlar (asos)**
+`/start` (yo'riqnoma) · `/ideas` (5 g'oya ro'yxati) · `/idea <fayl>` (bitta g'oya matni) · `/status` (oxirgi commit, holat).
+
+**QADAM 5 — G'oya boshqaruvi**
+`/add` — yangi g'oya qo'shish (interaktiv so'rov: nom, muammo, auditoriya) → repo'da yangi fayl + commit. `/del <nom>` — o'chirish. `/edit` — tahrirlash.
+
+**QADAM 6 — Git/GitHub boshqaruvi**
+`/push "izoh"` — barcha o'zgarishlarni commit+push. `/log` — oxirgi 5 commit. Web app'da "Push" tugmasi.
+
+**QADAM 7 — Web app (dashboard)**
+Brauzerda: g'oyalar ro'yxati, g'oya qo'shish/tahrirlash, Chat faylini o'qish, push tugmasi, AI 01 ga prompt yuborish formasi. Mobilga mos.
+
+**QADAM 8 — AI 01 integratsiya**
+Bot orqali "prompt yuborish" → Chat fayliga yozadi. Javob: AI 01 ishlab, o'zgarishlarni push qilgach, bot `/notify` orqali foydalanuvchiga xabar. (Agar AI API kaliti bo'lsa — to'g'ridan-to'g'ri chaqiruv qo'shamiz.)
+
+**QADAM 9 — Xavfsizlik va xatolarga chidamlilik**
+Faqat ADMIN_ID buyruq bajaradi · boshqalar "/start"ni ko'radi · GitHub API xatolari o'zbekcha tushuntiriladi · barcha amallar log'lanadi.
+
+**QADAM 10 — Deploy va sinov**
+Vercel'ga deploy (GitHub ulash) → `setWebhook` → telefon + brauzerda to'liq sinov → README + foydalanish yo'riqnomasi.
+
+### 📌 ISH TARTIBI
+- AI 07 (Buffy) kod yozadi, AI 01 maslahatchi (har qadamda 1 ta prompt)
+- Har qadam tugagach: sinov + commit + push + Chat faylida hisobot
+- Foydalanuvchi bilan birga qarorlar qabul qilinadi
+
+*— AI 07, 2026-09-04*
