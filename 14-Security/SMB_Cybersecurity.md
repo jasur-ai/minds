@@ -171,11 +171,58 @@ created: 2026-09-03
 
 ---
 
-## QADAM 5: PROBLEM STATEMENT YOZISH
+## ✅ QADAM 5: PROBLEM STATEMENT — BAJARILDI (AI 01, 2026-09-04)
 
-**🤖 AI 01 GA PROMPT:** \"XavfsizBiz.uz QADAM 5 — 1 jumlalik problem statement, 3 benchmark (YO'Q/NASHr/FOYDALANUVCHI), 30 soniyalik elevator pitch. Uzbek tilida.\"
+### 🎯 1 JUMLALIK PROBLEM STATEMENT:
 
-**✅ BAJARILDI:** _(keyin)_
+**O'zbekistonda 1,212,000+ KOBM (YaIMning 50%+) faoliyat yuritadi — ularning aksariyatida IT xodimi yo'q va "himoya" deb faqat antivirus tushuniladi; global statistikaga ko'ra kiberhujumlarning 43–49% aynan kichik biznesga qaratilgan (buzilishlarning 33.8% phishing orqali, xodim xatosi 68%), O'zbekiston foydalanuvchilari esa Silent Push (2024) va xplogs22 (2026) kabi Telegram/SMS phishing kampaniyalarining to'g'ridan-to'g'ri nishoniga aylangan; bitta muvaffaqiyatli hujum KOBM ga o'rtacha $10,000–100,000 zarar keltiradi (60% biznes 6 oyda yopiladi), lekin KOBM ga mo'ljallangan arzon, o'zbekcha, oddiy xizmat YO'Q — mavjud takliflar yirik kompaniyalarga qaratilgan ($100+/oy, chet tilida, murakkab).**
+
+### 📋 MUAMMO / AUDITORIYA / BUGUNGI YECHIM / BIZNING YECHIM / FARQ / NEGA HOZIR
+
+| Bo'lim | Tarkib |
+|--------|--------|
+| **MUAMMO** | KOBM egasi "antivirus o'rnatganman = himoyalanganman" deb o'ylaydi, lekin phishing/ijtimoiy muhandislik antivirusdan o'tadi; "direktor nomidan" soxta to'lov so'rovi, buxgalterga kelgan soxta hisob-faktura ($3,000–100,000 zarar), akkaunt o'g'irlash, SMS-stealer (Group-IB: O'zbekistonda Android malware rivojlanmoqda); xodim o'qitilmagan (68% buzilish xodim xatosi); hodisa yuz berganda kimga murojaat qilishni bilmaydi (CERT.uz — hodisaga javob, profilaktika emas); PP-167 talablari sektorga qarab kengaymoqda — moslashuvsiz KOBM shartnoma yo'qotadi |
+| **AUDITORIYA** | **Foydalanuvchi:** mikro/kichik biznes egasi (Bobur, 34 — onlayn-do'kon, 15 xodim, $50k/oy aylanma) — qarorni o'zi qiladi, $30/oy to'lashga tayyor (allaqachon $3,000 zarar ko'rgan). **Asosiy to'lovchi:** o'rta biznes (Malika, 29 — Taom.uz CTO, 60 xodim) — $50–150/oy, xalqaro mijozlar uchun security hisobot kerak. **Kelajak:** banklar/IT Park B2B2C kanali |
+| **BUGUNGI YECHIM** | ~~CYBERNODE~~ (yiriklar, $1000+/oy, KOBM ga sotmaydi); ~~Norton/Kaspersky~~ (antivirus — o'qitish/audit/javob yo'q, o'zbekcha support yo'q); ~~CERT.uz~~ (hodisaga javob — profilaktika emas); ~~IT freelancer~~ (kam, sifatsiz, viloyatda yo'q); ~~bank 2FA~~ (faqat to'lov himoyasi). **Arzon + o'zbekcha + audit + o'qitish + oylik xizmat: YO'Q** |
+| **BIZNING YECHIM** | **Obunali kiberxavfsizlik xizmati ($10–50/oy):** 1) kirish audit (xodimlar, email, to'lov tizimlari, zaifliklar — o'zbekcha hisobot); 2) phishing simulyatsiyasi + xodimlarni o'qitish (Telegram/oddiy modul); 3) oylik monitoring + ogohlantirishlar ("direktor nomidan soxta xabar aniqlandi"); 4) hodisaga yordam hotline (o'zbekcha); 5) o'rta biznes uchun xalqaro standartga mos hisobot (mijozlarga ko'rsatish uchun) |
+| **FARQ** | Pozitsiya: "biz qo'riqchi emas, o'zbekcha maslahatchi + asbob — KOBM egasi tushunadigan tilda". Yirik MSSP (CYBERNODE) dan farqli: **oddiy til, $10–50/oy, oylik hisobot, hodisada jonli yordam**. Antivirusdan farqli: **xodim omili** (68% xatolar) va **audit** qo'shilgan. Global model (Guardz/Huntress $5–15/user/oy) isbotlangan — lekin o'zbekcha + lokal to'lov + PP-167 moslashuvi YO'Q |
+| **NEGA HOZIR** | 1) **Tahdid lokal yetib keldi:** Silent Push (2024) — Telegram phishing O'zbekiston foydalanuvchilariga qaratilgan; xplogs22 (2026) — O'zbekiston asosiy nishon; Group-IB (2025) — Android SMS-stealer rivoji. 2) **Qonun talabi kelyapti:** PP-167 (2023) moliyaviy/aloqa sektoridan boshlab kengayadi. 3) **Bozor o'syapti:** 26,738 yangi KOBM (2025 H1); raqamlashtirish (Uzum, onlayn to'lov) hujum yuzasini kengaytiryapti. 4) **Global isbot:** 57% SME bir yilda kiberhujumga uchradi (Guardz 2025); KOBM MSSP bozori o'smoqda — O'zbekistonda lokal bo'sh joy |
+
+### 📊 3 XIL BENCHMARK
+
+**1) YO'Q — bozor bo'shlig'i:**
+- ~~CYBERNODE / cyber-bukhara~~ (yirik kompaniyalar, davlat, banklar — $1000+/oy, murakkab, KOBM ga sotmaydi)
+- ~~Norton / Kaspersky~~ (faqat antivirus — o'qitish, audit, hodisaga javob yo'q; o'zbekcha support yo'q)
+- ~~CERT.uz~~ (hodisalarga javob — profilaktika/audit emas; foydalanuvchi uchun emas)
+- ~~IT freelancer'lar~~ (Toshkentda kam, sifatsiz, nazoratsiz; viloyatda umuman yo'q)
+- ~~Bank ilovalari (2FA)~~ (faqat to'lov himoyasi — biznesning qolgan qismi ochiq)
+- **Arzon + o'zbekcha + audit + o'qitish + oylik monitoring + hodisaga javob: YO'Q** ✅ bo'sh joy
+
+**2) NASHr (manbalar):**
+- stat.uz via uzdaily.uz (2025-11-01) — **1,212,000+ KOBM**, YaIM 50%+
+- dentons.com (2023-06-07) — **PP-167** kompaniyalar kiberxavfsizlik talablari; regulations.ai — **ZRU-764** (2022)
+- SBA.gov — hujumlarning **43%** kichik biznesga; totalassure (2026) — **49%**, o'rtacha zarar **$254,000**, **60%** biznes 6 oyda yopiladi
+- Heimdal via stationx (2025) — buzilishlarning **33.8% phishing**; xodim xatosi **68%**; getastra — **67%** KOBM $10k–100k zarar
+- gov.uk (2025) — Buyuk Britaniyada kichik biznesning **42%** phishing aniqlagan (O'zbekistonda o'lchov ham yo'q)
+- silentpush.com (2024-05-17) — **Telegram phishing kampaniyasi O'zbekiston foydalanuvchilariga qaratilgan** (AI 01 research, 2026-09-04)
+- UzDaily (2026-07-17) — **xplogs22 phishing kampaniyasi: O'zbekiston asosiy nishonlardan biri** (AI 01 research)
+- group-ib.com (2025-12-19) — **O'zbekistonda Android SMS-stealer malware evolyutsiyasi** (AI 01 research)
+
+**3) FOYDALANUVCHI (persona + global isbot):**
+- **Bobur, 34** — onlayn-do'kon (15 xodim, $50k/oy): buxgalteri "yetkazib beruvchi"dan soxta hisob-faktura ochdi → **$3,000 yo'qotdi**. "Antivirus bor edi-u — email orqali keldi. $200/oy so'raganlar ruscha/inglizcha — tushunmayman. $30/oy oddiy xizmat bo'lsa — shu hafta to'layman."
+- **Malika, 29** — Taom.uz CTO (60 xodim, $200k/oy): xorijiy hamkorlar security so'rovnoma yuboradi, to'ldira olmayapti — "mijozlarga ko'rsatadigan audit hisoboti kerak"
+- **Guardz (Isroil/US)** — KOBM uchun birlashgan xavfsizlik platformasi: identity + endpoint + email + o'qitish + phishing simulyatsiya; MSP kanali orqali **~$5/user/oy** (ITT Systems 2024) — bizning model isboti; ularning tadqiqoti: **57% SME bir yilda hujumga uchragan**
+- **Huntress / Cynomi** — KOBM MSSP (managed security) $10–50/user/oy — global bozor isboti; O'zbekistonda lokal analog yo'q
+- **CrowdStrike (2025)** — 50 dan kam xodimli KOBM ning **47%** da umuman xavfsizlik rejasi yo'q — Bobur/Malika kabi mijozlar global me'yor
+
+### 🎤 30 SONIYALIK ELEVATOR PITCH (INVESTOR UCHUN)
+
+> "Bobur, 34 yosh — Toshkentda 8 yildir onlayn-do'kon boshqaradi: 15 xodim, oyiga $50,000 aylanma. IT xodimi yo'q — 'himoya' deb antivirus o'rnatilgan. O'tgan yili buxgalteriga soxta hisob-faktura keldi — $3,000 o'tkazib yubordi, pul qaytmadi. Qo'ng'iroq qilgan kompaniyalar $200/oy so'raydi va ruscha gapirishadi — tushunmaydi. XavfsizBiz.uz KOBM ga mo'ljallangan obunali kiberxavfsizlik beradi: o'zbekcha audit, phishing simulyatsiya + xodim o'qitish, oylik monitoring va hodisada jonli yordam — oyiga $10–50. Bozor: 1,212,000+ KOBM, YaIMning yarmi; tahdid lokal yetib kelgan (Silent Push 2024, xplogs22 2026 — O'zbekiston nishonda); PP-167 qonuni talabni kuchaytirmoqda. Global model isbotlangan — Guardz 57% SME hujumga uchraganini topgan va $5/user/oy dan sotmoqda; O'zbekistonda lokal, o'zbekcha, arzon analog YO'Q. Agar 1,000 KOBM × $30 = oyiga $30,000 MRR; LTV/CAC ~15–20×; MVP 1–2 oyda, $3,000–5,000. Biz 'KOBM kiberxavfsizligi' so'zini O'zbekistonda egallaymiz — hujumlarning 60% biznesni 6 oyda yopayotgan bir paytda."
+
+### 📝 ESLATMA
+- QADAM 4 (7 ta intervyu) dan keyin raqamlar yangilanadi — ayniqsa **$10–30/oy to'lovga tayyorlik mezoni (4/5 mikro)** va **$50–150/oy (1/2 o'rta)**
+- Silent Push / xplogs22 / Group-IB manbalari 2026-09-04 research (AI 01) — intervyu savollarida "Telegram orqali aldanganmisiz?" degan lokal og'riqni sinash tavsiya
+- PP-167 amaliy nazorati (jarimalar, kim tekshiradi) — QADAM 26 (davlat bilan munosabat) da chuqurlashtiriladi
 
 ---
 
@@ -183,4 +230,4 @@ created: 2026-09-03
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–4
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–5
