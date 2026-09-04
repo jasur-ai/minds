@@ -2,6 +2,13 @@
 aliases: [SMB Cybersecurity, XavfsizBiz.uz, Kichik Biznes Xavfsizlik, SME Security]
 tags: [security, smb, cybersecurity]
 created: 2026-09-03
+sektor: 14-Security
+tur: g'oya
+holat: faol
+bosqich: 2
+qadam: 20
+sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
+qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---
 
 # 🔒 XAVFSIZBIZ.UZ — KOBM KIBERXAVFSIZLIK — 100 QADAM
@@ -498,8 +505,213 @@ Suhbat #: _  Sana: _  Kim: _ (mikro/o'rta/ekspert)  Kanal: _
 
 ---
 
-## 🛠️ BOSQICH 2–10 (QADAMLAR 11–100)
+# 🔍 BOSQICH 2: TADQIQOT (QADAMLAR 11–20)
+
+---
+
+## ✅ QADAM 11: ICP — IDEAL MIJOZ PROFILI (BAJARILDI, AI 01 2026-09-04)
+
+### Asosiy ICP: **Mikro/kichik biznes egasi (1–30 xodim), onlayn yoki aralash savdo, IT xodimi yo'q**
+- Toshkent + viloyat markazlari (Samarqand, Farg'ona, Andijon, Buxoro); yirik bozorlar/savdo majmualari atrofi
+- Xodimlari email/Telegram/onlayn-to'lov ishlatadi; "himoya" = antivirus (yoki hech narsa)
+- Bank hisobi, Click/Payme, Uzum/Instagram savdo — hujum yuzasi ochiq
+- Aylanma $10k–100k/oy; xavfsizlik byudjeti: $0 (bir marta antivirus sotib olgan)
+- Og'riq kanali: "aldashdi/pul ketdi" hikoyasi — o'tkir lekin yashirin
+
+### B2B ICP: **O'rta biznes (30–100 xodim) — savdo tarmog'i, SaaS/outstaff, logistika**
+- Xorijiy mijozlar security so'rovnoma yuboradi (SaaS/outstaff eksport qiladi — IT Park 2025 eksport $392.5M)
+- PP-167 tegishli sektor (to'lov, aloqa) yoki xalqaro shartnoma talabi
+- Xavfsizlik byudjeti: $50–200/oy potentsial; qarorni CTO/direktor qiladi
+
+### Nega aynan ular:
+- Mikro: qarorni egasi o'zi qiladi (tez), og'riq o'tkir (pul yo'qotish), $15–30/oy to'lay oladi
+- O'rta: mijoz talabi = majburiyat (sotuv oson), $50–150/oy + yillik shartnoma
+- Ikkalasi ham: o'zbekcha xizmat yo'qligidan azob chekadi (CYBERNODE yiriklar uchun)
+
+---
+
+## ✅ QADAM 12: DEEP-DIVE — 1 KUYI (BAJARILDI, AI 01 2026-09-04)
+
+### Bobur (onlayn-do'kon egasi, 15 xodim) — odatiy kun:
+
+| Vaqt | Harakat | Xavfsizlik nuqtasi |
+|------|---------|--------------------|
+| 08:00 | Email tekshiradi — "yetkazib beruvchi" xatlari | ⚠️ Phishing (soxta hisob-faktura) |
+| 09:00 | Buxgalterga to'lov topshiriqlarini yuboradi (Telegram) | ⚠️ Telegram akkaunt buzilishi = yo'naltirilgan to'lov |
+| 11:00 | Uzum/Instagram buyurtmalarini ko'radi | ⚠️ Do'kon akkaunti o'g'irlanishi |
+| 14:00 | Omborchi yangi xodim — "kompyuterni sozlab ber" deydi | ⚠️ Xodim xatosi (68% buzilish) |
+| 16:00 | Bank ilovasida to'lov (2FA SMS) | ⚠️ SMS-stealer (Group-IB: UZ da rivojlanmoqda) |
+| 18:00 | "Tanish IT" chaqiradi — muammo bo'lsa | Og'riq: reaktiv, profilaktika yo'q |
+
+### Og'riq nuqtalari xaritasi:
+1. **Email** — phishing #1 vektor (33.8% buzilish) — himoyasiz
+2. **Telegram** — biznes aloqasi shu yerda; akkaunt buzilsa, xodimlar "direktor"dan buyruq oladi
+3. **Xodimlar** — o'qitilmagan (68% xatolar); yangi xodim eng zaif
+4. **To'lov** — bank 2FA bor, lekin SMS-stealer uni aylanib o'tadi
+5. **Reaktiv yondashuv** — hodisadan KEYIN chaqiriq; profilaktika yo'q
+
+### Xulosa: Og'riq har kuni, 5 nuqtada — lekin egasi buni "xavfsizlik muammosi" deb tan olmaydi (xabardorlik bo'shlig'i = bizning marketing vazifamiz)
+
+---
+
+## ✅ QADAM 13: RAKOBATCHILAR TAHLILI (BAJARILDI, AI 01 2026-09-04)
+
+| Raqobatchi | Nima qiladi | Narx | Zaif tomoni | Bizning ustunlik |
+|-----------|-------------|------|-------------|------------------|
+| **CYBERNODE LLC** (cybernode.uz) | Pentest, audit, hodisaga javob | $1,000+/loyiha | Yirik kompaniyalar/davlat; KOBM ga sotmaydi; o'zbekcha emas | KOBM segmenti + obuna + o'zbekcha |
+| **Kiberxavfsizlik markazi (csec.uz)** | Davlat markazi — hodisalar, tavsiyalar | Davlat byudjeti | Hodisaga javob, profilaktika emas; KOBM bilan ishlamaydi | Profilaktika + oylik xizmat |
+| **UZCERT / CERT.uz** | Milliy hodisa markazi | Davlat | Reaktiv; foydalanuvchi uchun emas | Reaktiv EMAS — profilaktika |
+| **Group-IB (Toshkent ofisi)** | Yirik tahdid tahlili, DCRC (2024-12 ochildi) | Yirik korxonalar | KOBM segmenti yo'q; narx yuqori | KOBM + arzon + mahalliy |
+| **Norton/Kaspersky (global)** | Antivirus | $30–80/yil | Faqat AV — o'qitish/audit/javob yo'q | Paket (o'qitish + audit + javob) |
+| **IT freelancer'lar** | "Tarmoq sozlash" | $50–200/soat | Sifatsiz, nazoratsiz, uzluksizlik yo'q | Standart xizmat + hisobot |
+| **techbehemoths 20+ kompaniya** | Yirik MSSP loyihalari | Yuqori | B2B yirik; KOBM e'tiborsiz | KOBM + obuna modeli |
+
+### Bo'sh joy (white space):
+**KOBM + obuna ($15–100/oy) + o'zbekcha + profilaktika (audit+o'qitish+monitoring) + hodisada jonli yordam** — bu kombinatsiya O'zbekistonda YO'Q. CYBERNODE loyihali (KOBM emas), davlat reaktiv (profilaktika emas), antivirus to'liq emas (o'qitish yo'q).
+
+---
+
+## ✅ QADAM 14: NARX MODELI (BAJARILDI, AI 01 2026-09-04)
+
+### 3 paket (QADAM 6 dan chuqurlashtirilgan — raqobatchi asosida):
+
+| Paket | Narx (USD) | Narx (UZS ~13,000/USD) | Raqobatchi taqqoslash |
+|-------|-----------|------------------------|----------------------|
+| ASOSIY | $15/oy | ~195,000 so'm/oy | Kaspersky $30–80/YIL dan 3–6x qimmat, lekin o'qitish+simulyatsiya qo'shilgan |
+| STANDART | $40/oy | ~520,000 so'm/oy | Freelancer 1 soati narxiga bir oy xizmat |
+| PREMIUM | $100/oy | ~1.3 mln so'm/oy | CYBERNODE $1,000+/loyiha dan 10x arzon (yillik hisobda) |
+
+### Narx tamoyillari:
+- **Mikro uchun kirish narxi $15** — Kaspersky'dan qimmat, lekin natija ko'rinadigan (phishing testi hisoboti)
+- **Upsell yo'li:** ASOSIY → STANDART (audit kerak bo'lganda) → PREMIUM (PP-167/mijoz talabi)
+- **Yillik shartnoma** (PREMIUM): 2 oy chegirma → cashflow barqaror
+- **UZS da to'lov** (Click/Payme) — global $ narxi emas, mahalliy to'lov odati
+
+**📚 RESEARCH:** Kaseya MSP so'rovi (22% $50–100/user/oy) · mspcompanies.us (2026) · CYBERNODE narxlari (cybernode.uz) · Kaspersky Small Office ($30–80/yil)
+
+---
+
+## ✅ QADAM 15: QONUNIY TEKSHIRUV (BAJARILDI, AI 01 2026-09-04)
+
+### Bizga tegishli qonunlar:
+- **ZRU-764 (2022-04-15) "Kiberxavfsizlik to'g'risida"** — asosiy qonun; davlat organlari va infratuzilma operatorlariga talab; KOBM ga to'g'ridan-to'g'ri emas, lekin trend ko'rsatadi (lex.uz/acts/-5960604)
+- **PP-167 (2023-05-31)** — kompaniyalar uchun kiberxavfsizlik talablari (dentons.com 2023-06-07): tizim operatorlari, moliyaviy/aloqa sektorlari; KOBM ga sektor kirganda talab o'sadi
+- **PP-315 (2022)** — axborot xavfsizligi bo'yicha qo'shimcha choralar (AI 07 topshirig'ida keltirilgan — QADAM 26 da chuqur)
+- **Shaxsiy ma'lumotlar qonuni (ZRU-547, 2019)** — mijoz ma'lumotlarini himoya qilishimiz (auditda ko'rsak)
+- **Ma'muriy javobgarlik (MJtK)** — kiberxavfsizlik buzilishi uchun jarimalar kuchaymoqda (infocom.uz 2025-03-24 tahlili)
+
+### Bizning xizmat litsenziya talab qiladimi?
+- Konsalting/audit/o'qitish xizmati — **alohida litsenziya talab qilinmaydi** (maslahat xizmati)
+- Lekin: "davlat nazorati" deb da'vo qilish TAQIQLANADI — pozitsiya: "xususiy tekshiruv, davlat standartlariga moslashuvda yordam"
+- Mijoz ma'lumotlari (audit hisobotlari) — konfidensiallik shartnomasi (NDA) majburiy
+- Kiberxavfsizlik markazi (csec.uz) bilan hamkorlik — ma'lumot almashish (hodisalar) yuridik jihatdan ehtiyot (faqat rasmiy kanal)
+
+### Xavf: **"Hackermiz" degan da'vo** — faqat mijozning O'Z tizimida, yozma ruxsat bilan (pentest shartnomasi) — aks holda jinoyat (JK 278-modda)
+
+**📚 RESEARCH:** lex.uz (ZRU-764, ZRU-547) · dentons.com (PP-167) · infocom.uz (2025 tahlili) · cybernode.uz amaliyoti
+
+---
+
+## ✅ QADAM 16: TEXNOLOGIYA (BAJARILDI, AI 01 2026-09-04)
+
+### MVP stack (30 kun):
+| Vazifa | Vositа | Narx |
+|--------|--------|------|
+| Phishing simulyatsiya | **GoPhish** (ochiq manba) — email/Telegram shablonlar | $0 |
+| Xodim o'qitish moduli | Telegram bot (Cloudflare Workers — AI 07 tajribasi bor) yoki oddiy veb | $0 |
+| Parol auditi | HaveIBeenPwned API (bepul) | $0 |
+| Tarmoq skaneri | nmap / OpenVAS (ochiq manba) | $0 |
+| Hisobot | PDF generator (oddiy) + Telegram yuborish | $0 |
+| To'lov | Click/Payme API | 1–2% |
+| CRM (mijozlar) | Oddiy jadval/Notion — MVP da yetarli | $0 |
+
+### 3 oylik yo'l xaritasi:
+- **Oy 1:** GoPhish + Telegram bot (o'qitish), 3 beta-mijoz (QADAM 7 rejasi)
+- **Oy 2:** Hisobot avtomatizatsiyasi + parol auditi; STANDART paket sotuvi
+- **Oy 3:** OpenVAS skaneri integratsiyasi + PREMIUM (PP-167 hisoboti shabloni)
+
+### Xarajat: MVP $150–400 (QADAM 7) — asosan kontent (video) + vaqt
+
+---
+
+## ✅ QADAM 17: JAMOA (BAJARILDI, AI 01 2026-09-04)
+
+### Minimal jamoa (4 rol):
+| Rol | Vazifa | Topish kanali | Oylik xarajat |
+|-----|--------|---------------|---------------|
+| **Asoschi (AI 07 + foydalanuvchi)** | Strategiya, mijozlar, sotuv | — | $0 (mavjud) |
+| **Security mutaxassis** (yarim kunlik) | Audit, GoPhish sozlash, hisobot | Telegram security guruhlari, CyberSecurity Club UZ (LinkedIn), IT Park | $300–600/oy |
+| **Dasturchi (freelancer)** | Telegram bot, hisobot avtomatizatsiyasi | IT Park, Telegram freelancer guruhlari | $200–500/oy |
+| **Sotuvchi (yarim kunlik)** | Bozor/do'konlarga tashrif, telefon qo'ng'iroqlar | Mahalliy tarmoq | $200–400/oy (komissiya bilan) |
+
+### Jami oylik xarajat: **$700–1,500** (MVP bosqichi)
+
+### Nega shu odamlar: security mutaxassis — sifat yurak; sotuvchi — bozor kanali (mikro KOBM ga faqat jonli yetib bo'ladi)
+
+---
+
+## ✅ QADAM 18: MOLIYALASHTIRISH (BAJARILDI, AI 01 2026-09-04)
+
+### Bootstrap (birinchi 6 oy):
+- Mijozlar to'lovi ($15–100/oy) — 20 mijozda $600–1,000/oy (asosiy xarajatni qoplaydi)
+- Asoschi + freelancer'lar — katta kapital kerak emas
+
+### Keyingi manbalar:
+| Manba | Tavsif | Shart |
+|-------|--------|-------|
+| **IT Park rezidentligi** | 0% daromad solig'i (7 yil), ofis | Rezident bo'lish sharti (IT xizmat) |
+| **IT Park Global Startup Accelerator 2026** | 6 haftalik onlayn akselerator — PMF, biznes model, pilot | Ariza (global.itpark.tech) |
+| **IT Park Ventures** | Markaziy Osiyo startaplari uchun venchur fond | Pitch |
+| **Startup Base (uz)** | Akselerator/inkubator, mentorlar | Tanlov |
+| **Innovatsiya agentligi granti** | Innovatsion loyihalar uchun davlat granti | Tanlov (security yo'nalishi mos) |
+
+### Byudjet jadvali (12 oy):
+| Oy | Xarajat | Daromad (prognoz) |
+|-----|---------|--------------------|
+| 1–3 | $2,000 (MVP) | $0 (3 beta bepul) |
+| 4–6 | $3,000 (jamoa) | $600–1,000 (20 mijoz) |
+| 7–12 | $6,000 (jamoa+kontent) | $2,500–5,000 (50–100 mijoz) |
+
+**📚 RESEARCH:** it-park.uz · global.itpark.tech (2026) · itparkventures.uz · startupbase.uz
+
+---
+
+## ✅ QADAM 19: XALQARO BENCHMARK (BAJARILDI, AI 01 2026-09-04)
+
+### Eng yaqin model: **Huntress (AQSh) — SMB MSSP**
+- $308M mablag', $1.6 mlrd baho (2024) · 10 yillik o'sish (2025) · EDR + 24/7 inson monitoring, MSP kanali
+- **Saboq 1:** KOBM xavfsizligi alohida KATEGORIYA — "katta kompaniya xizmatining kichik nusxasi" emas
+- **Saboq 2:** Kanalli tarqalish (MSP) — o'zi sotmasdan, boshqalar orqali (bizda: bank/IT Park/agentlik kanali)
+
+### Ikkinchi model: **Cynomi (Isroil) — vCISO**
+- $37M Series B (2025), 60% yillik o'sish — "CISO darajasidagi xizmat KOBM narxida"
+- **Saboq:** Konsaltingni PLATFORMA ga aylantirish (AI yordamida) — bizda: audit hisobotini avtomatlashtirish
+
+### UZ ga moslash:
+- Global: EDR agent + SOC (qimmat) → **Biz: phishing sim + o'qitish + oylik audit** (KOBM byudjetiga mos, infratuzilma soddaroq)
+- Global: MSP kanali → **Biz: bank biznes-menejerlari + IT Park + bozor kanali**
+- Global: $5–15/user/oy → **Biz: $15–100/biznes/oy** (O'zbekiston KOBM xodimlar soni kichik)
+
+---
+
+## ✅ QADAM 20: TADQIQOT XULOSASI (BAJARILDI, AI 01 2026-09-04)
+
+| Savol | Javob |
+|-------|-------|
+| Muammo haqiqiymi? | ✅ 8.5/10 — lokal tahdid (Silent Push, xplogs22, Group-IB) + $3,000 misol |
+| Auditoriya katta? | ✅ 1,212,000+ KOBM; 96.7% kichik biznes ulushi |
+| Kim to'laydi? | ✅ Mikro $15–30 (og'riq) + o'rta $50–150 (mijoz talabi) |
+| Qonuniy? | ✅ Litsenziya shart emas; PP-167 trend — talab o'sadi |
+| Raqobat? | ✅ Bo'sh joy aniq: KOBM+obuna+o'zbekcha+profilaktika |
+| MVP tezmi? | ✅ 30 kun, $150–400 (GoPhish ochiq manba) |
+| Model? | ✅ Obuna (MRR), upsell yo'li 3 paket, LTV/CAC ~15–20× |
+
+### QAROR: **GO** — asosiy sinov: 7 intervyuda 4/5 mikro $15–30/oy ga rozi bo'ladimi + 3 beta-mijoz MVP
+
+---
+
+## 🛠️ BOSQICH 3–10 (QADAMLAR 21–100)
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–10
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–20
