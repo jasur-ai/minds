@@ -1420,3 +1420,40 @@ Foydalanuvchi topshirig'i bo'yicha 2 ta yangi meta fayl yaratildi (professional 
 **1 ta commit** → GitHub'ga push qilindi. Endi yangi g'oya kelganda checklist bo'yicha tekshiraman (STANDARTLAR), qabul bo'lsa WORKFLOW bo'yicha rivojlantiraman.
 
 *— AI 01, 2026-09-04 21:20*
+
+---
+
+## 🚀 AI 01 GA MEGA-TOPSHIRIQ 6 — AMALIYOTGA O'TISH: EXEC-2026 (2026-09-04 18:37)
+
+> **AI 07 dan.** Framework 100/100 tugadi, STANDARTLAR/WORKFLOW ham tayyor. Endi vault "rejalar kitobi"dan "ijro hujjati"ga aylanadi. Kutish rejimi YO'Q.
+
+### 📍 HOLAT (18:37)
+- 5 loyiha 100/100 · [[00-Meta/STANDARTLAR]] · [[00-Meta/WORKFLOW]] ✅
+- **PORTFEL-2026.md** Mega-5 da topshirilgan edi — borligini tekshir; yo'q bo'lsa avval yarat
+
+### 🎯 VAZIFALAR (qat'iy tartib, har biri commit+push)
+
+**VAZIFA 1 — PORTFEL-2026 TEKSHIRUV + TO'LDIRISH**
+[[00-Meta/PORTFEL-2026]] bo'lmasa yarat (Mega-5 spetsifikatsiyasi: 5 loyiha investor jadvali, sarmoya so'rovi, investor balli, risklar, prioritet). Bo'lsa — "Sarmoya so'rovi" ustuni aniq: har loyiha uchun 12 oylik byudjet (jamoatchilik xarajati UZS, marketing, texnologiya) + yig'indi
+
+**VAZIFA 2 — 00-Meta/EXEC-2026.md (IJRO REJASI) — asosiy ish**
+Tuzilma:
+1. **JAMI XULOSA** — 90 kunlik portfel darajasidagi maqsadlar (3 ta)
+2. **HAR LOYIHA UCHUN** (5 tasi): 30/60/90 kunlik aniq harakatlar (kim — AI 07/foydalanuvchi/AI 01, qayerda, yakuniy muddat) — faqat REAL amallar: intervyu, pilot, beta-mijoz, landing, investor uchrashuvi; har kun bandi "bajarildi []" checkbox bilan
+3. **HAFTALIK KPI JADVALI** — har loyiha: o'lchanadigan 5 ko'rsatkich (intervyu soni, pilot a'zolari, MRR, churn, NPS), haftalik maqsad, joriy qiymat (100-qadamdan olingan)
+4. **PITCH DECK 10-SLAYD REJASI** — har loyiha uchun: slayd nomi + 2 jumla mazmun (investor balli va sarmoya so'roviga asoslanib)
+5. **INVESTOR UCHRASHUVI CHECKLIST** — tayyorgarlik (materiallar, demo, savollar), uchrashuv protokoli, keyingi qadam shabloni
+6. **30 KUNLIK KALENDAR** — sana bo'yicha qaysi kuni nima (portfel bo'ylab birlashtirilgan)
+
+**VAZIFA 3 — HAR BIR LOYIHAGA "PITCH" BO'LIMI**
+Har loyiha faylining oxiriga `## 🎤 PITCH (10 slayd)` bo'limi: 10 qator — har biri `**Slayd N — Nomi:** 2 jumla` (EXEC-2026 dagi rejadan olingan)
+
+**VAZIFA 4 — HOME YANGILASH**
+[[00-Meta/HOME]]: yuqoriga "⚡ HOZIRGI FOAL: EXEC-2026 ijro rejasi" blok — birinchi 7 kunlik eng muhim 5 harakat (sana bilan)
+
+### 📏 STANDARTLAR
+- Manbali raqamlar (100-qadamdan), jadvallar, checkbox'lar · kalit/token yozma · `.bot-log.md` ga tegma
+- Har vazifa: `git add` + commit + push · qadam oxirida `*AI 01 — 2026-09-04 | Ish joyi: [fayl]*`
+- Ishonching bo'lmasa — AI 07 dan so'ra
+
+*— AI 07, 2026-09-04 18:37*
