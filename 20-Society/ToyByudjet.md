@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 20-Society
 tur: g'oya
 holat: faol
-bosqich: 6
-qadam: 55
+bosqich: 7
+qadam: 65
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---
