@@ -1059,6 +1059,129 @@ KEYINGI: BOSQICH 5 — SINOV (QADAM 41-50)
 
 ---
 
-## 🔮 BOSQICH 5–10 (QADAMLAR 41–100)
+## 🧪 BOSQICH 5: SINOV (QADAMLAR 41–50)
+
+---
+
+## ✅ QADAM 41: ANALYTICS O'RNATISH — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima o'lchanadi:**
+1. Funnel: tanishuv → guruhga qo'shilish → 1-dars → 2-hafta → 2-oy to'lov (QADAM 65)
+2. Dars: davomat (kim keldi), qatnashish (savol berdi), vazifa bajarish
+3. Test natijalari: 1-test → 2-test ball o'zgarishi (o'rganish isboti)
+4. Ota-ona bahosi (har oy 1–5) + hisobot ochilishi
+
+**Vositalar:** Google Sheets dashboard (MVP — qo'lda, o'qituvchi to'ldiradi) → keyin bot analytics
+
+---
+
+## ✅ QADAM 42: RETENTION TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima:** 1-oy, 2-oy, 3-oyda qolgan oilalar %
+
+**Mezonlar:** 2-oyga 70%+ qolish = dastur bog'lab qoladi; 50% dan past = muammo bor
+
+**Churn sabablari tekshiruvi:** bola qiziqmayapti? o'qituvchi sifati? vaqt mos emas? internet? narx?
+
+---
+
+## ✅ QADAM 43: COHORT TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Jadval:** har oy kirgan o'quvchilar guruhi (cohort) alohida kuzatiladi
+
+| Cohort (oy) | O'quvchilar | 1-oyda qolgan | 2-oyda | 3-oyda |
+|-------------|----------|---------------|--------|--------|
+| Sentyabr | 10 | _ | _ | _ |
+| Oktyabr | _ | _ | _ | _ |
+
+**Nima uchun:** o'qituvchi/guruh vaqti o'zgarganda retention yaxshilan/yomonlashganini ko'rish
+
+---
+
+## ✅ QADAM 44: UNIT EKONOMIKA — BAJARILDI (AI 01, hisob)
+
+**Bitta o'quvchi iqtisodiyoti:**
+- Daromad: o'rtacha $5/oy (ota-ona to'lovi) + 2-bola chegirmasi tufayli o'rtacha $4.5
+- Guruh iqtisodiyoti: 10 o'quvchi × $5 = $50/oy — o'qituvchi $25–30/guruh/oy → **marja $20–25/guruh/oy**
+- Umr (LTV): o'rtacha 8 oy (o'quv yili) → **LTV ≈ $36–40/o'quvchi** (guruh LTV $360–400)
+- Xarajat (CAC): mahalla/direktor kanali ≈ $2–5/o'quvchi (arzon — og'izdan og'iz)
+- **LTV/CAC = 8–20×** — yaxshi (mezon: 3×+ yetarli)
+
+**Xulosa:** bitta o'quvchidan daromad kichik — guruh iqtisodiyoti asosiy birlik (10+ guruhda barqaror)
+
+---
+
+## ✅ QADAM 45: FUNNEL TAHLILI — BAJARILDI (AI 01, reja)
+
+| Bosqich | Foiz | Muammo bo'lsa |
+|---------|------|----------------|
+| Tanishuv (ona zanjiri) | 100% | — |
+| Qiziqish (ro'yxat) | _% | Taklif zaif → A/B (QADAM 46) |
+| Depozit | _% | Ishonch yo'q → bepul 1-hafta |
+| 1-darsga keldi | _% | Vaqt mos emas → guruh soati |
+| 2-oy to'lov | _% | Natija ko'rinmayapti → ota-ona hisoboti |
+
+---
+
+## ✅ QADAM 46: A/B TEST — BAJARILDI (AI 01, reja)
+
+**Navbatdagi testlar:**
+1. Dars vaqti: 16:00 vs 18:00 (qishloqda qaysi mos — 18:00 da internet band bo'lishi mumkin)
+2. To'lov modeli: oylik vs 3 oylik (chegirma 10%) — cashflow uchun
+3. Guruh hajmi: 5 vs 10 o'quvchi (qatnashish sifati)
+
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; har test 2 hafta.
+
+---
+
+## ✅ QADAM 47: O'QITUVCHI SIFATI NAZORATI — BAJARILDI (AI 01, tizim)
+
+- O'qituvchi bahosi: oyiga 1 dars audio-yozuvi tahlili (siz) + o'quvchi qoniqishi
+- Oylik o'qituvchi yig'ilishi (dars rejasi, muammolar, yangi usullar)
+- Dars rejasi standarti: har dars 3 qism (kirish 5' + asosiy 45' + takror 10')
+- Sifat < 4.0 bo'lgan o'qituvchi — ogohlantirish, takrorlansa almashtirish
+
+---
+
+## ✅ QADAM 48: REFERRAL TIZIMI — BAJARILDI (AI 01, reja)
+
+**Taklif:** "Do'stingizni olib keling — ikkalangizga 1 oy 50% chegirma"
+
+**Nega ishlaydi:** qishloqda ona zanjiri eng kuchli kanal (QADAM 27 isboti) — bola darsdan so'ng "a'lochi do'sti" haqida gapiradi, ota-onalar bir-birini biladi
+
+**Mezon:** har o'quvchidan oyiga 0.5 referral → 2-oyda ikkinchi guruh to'ladi
+
+---
+
+## ✅ QADAM 49: CHURN TAHLILI — BAJARILDI (AI 01, reja)
+
+**Ketgan oilalardan so'rash (majburiy qo'ng'iroq):**
+1. Nega to'xtatdingiz? (bola qiziqmadi / o'qituvchi / vaqt / internet / narx / mavsumiy ish)
+2. Qaytish uchun nima kerak?
+3. Tavsiya qila olasizmi?
+
+**Churn sabablari kategoriyalanadi → 3 ta asosiy sabab tuzatiladi** (mavsumiylik: paxta/yig'im-terim oylarida churn kutiladi — byudjetga kiritiladi)
+
+---
+
+## ✅ QADAM 50: SINOV XULOSASI — BAJARILDI (AI 01, format)
+
+```
+FAOL O'QUVCHILAR: _ (mezon 8+)
+RETENTION (2-oy): _ (mezon 70%+)
+GURUH IQTISODIYOTI: _/guruh/oy (maqsad $20-25 marja)
+LTV: $36-40 | CAC: $2-5 | LTV/CAC: 8-20x
+TEST BALLI O'SISHI (1→2): _ (mezon +15%)
+ENG YAXSHI KANAL: _
+ASOSIY MUAMMO: _
+QAROR: (PMF ga o'tish / tuzatish / pivot)
+KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
+```
+
+**✅ 50-qadam yakunlandi. Keyingi: BOSQICH 6 (PMF).**
+
+---
+
+## 🔮 BOSQICH 6–10 (QADAMLAR 51–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
