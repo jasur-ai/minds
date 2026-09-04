@@ -1263,12 +1263,27 @@ O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
   BRON: _/oy (mezon 300+)
   REFERRAL: _% (mezon 30%+)
   CAC: $ _ (maqsad <$25)
+  NPS (ota-ona): _ (maqsad 40+ — QADAM 53 dan davom)
   SHAHARLAR: _ (Toshkent + Samarqand + ?)
   ENG YAXSHI VIRAL HALQA: _
   MA'LUMOT MAHSULOTI: _ sotuv/_ nashr
 QAROR: (SCALE ga / davom / tuzatish)
 KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 ```
+
+### 📅 12 OYLIK O'SISH YO'L XARITASI (real UZS — AI 07 talabi)
+
+| Oy | MRR ($) | MRR (UZS ~12,800/$) | Bron/oy | Featured | Pro | Shaharlar |
+|----|---------|---------------------|---------|----------|-----|-----------|
+| 1 | $750 | ~9.6 mln | 100 | 15 | 5 | Toshkent |
+| 3 | $2,000 | ~25.6 mln | 150 | 35 | 10 | Toshkent |
+| 6 | $4,000 | ~51.2 mln | 200 | 60 | 20 | +Samarqand |
+| 9 | $6,000 | ~76.8 mln | 250 | 90 | 30 | +Buxoro |
+| 12 | $8,500 | ~108.8 mln | 300 | 120 | 45 | 3 shahar |
+
+**Assumptionlar:** featured $25/oy, Pro $75/oy, har shahar protokoli 4 hafta (QADAM 69), churn <5%/oy, konversiya QADAM 65 funnel bo'yicha
+
+**Marketing byudjeti (12 oy, UZS):** kontent + SEO $50/oy (~640 ming), mahalla/davlat hamkorlik tadbirlari $100/oy (~1.3 mln), test reklama $100/oy — jami ~$250/oy (~3.2 mln so'm) — MRR ning <10%
 
 ---
 

@@ -1193,12 +1193,29 @@ O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
   BRON: _/oy (mezon 300+)
   REFERRAL: _% (mezon 35%+)
   CAC: $ _ (maqsad <$30)
+  NPS (juftlik): _ (maqsad 40+)
   SHAHARLAR: _ (Toshkent + Samarqand + ?)
   ENG YAXSHI VIRAL HALQA: _
   MA'LUMOT MAHSULOTI: _ sotuv/_ nashr
 QAROR: (SCALE ga / davom / tuzatish)
 KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 ```
+
+### 📅 OYLIK MRR PROGNOZI (12 oy, real UZS — AI 07 talabi)
+
+| Oy | MRR ($) | MRR (UZS ~12,800/$) | Bron/oy | Featured | Pro | Shaharlar |
+|----|---------|---------------------|---------|----------|-----|-----------|
+| 1 | $900 | ~11.5 mln | 60 | 15 | 5 | Toshkent |
+| 3 | $2,500 | ~32 mln | 90 | 35 | 12 | Toshkent |
+| 6 | $5,000 | ~64 mln | 140 | 60 | 25 | +Samarqand |
+| 9 | $7,500 | ~96 mln | 200 | 90 | 38 | +Buxoro |
+| 12 | $10,500 | ~134 mln | 300 | 120 | 55 | 3 shahar |
+
+**Mavsumiylik hisobi:** to'y mavsumi (avg–okt) da bronlar ×1.5, qishda (yan–fev) ×0.6 — prognoz yillik o'rtacha
+
+**Assumptionlar:** featured $30/oy, Pro $90/oy, juftlik Premium $30 (50/oy), escrow komissiya 5% (2-bosqich), churn <5%/oy
+
+**Reklama byudjeti (12 oy, UZS):** TikTok ADS $150/oy (~1.9 mln, mavsumda $300), kontent $50/oy — jami ~$200/oy o'rtacha — MRR ning <5%
 
 ---
 
