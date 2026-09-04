@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 8
-qadam: 80
+bosqich: 9
+qadam: 90
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -1577,6 +1577,148 @@ KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
 
 ---
 
-## 🔮 BOSQICH 9–10 (QADAMLAR 81–100)
+# 🏗️ BOSQICH 9: SCALE (QADAMLAR 81–90)
 
-**AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
+---
+
+## ✅ QADAM 81: JAMOA — BAJARILDI (AI 01, 2026-09-04)
+
+**Qachon kim qo'shiladi (MRR/guruh asosida):**
+| Rol | Vazifa | Qachon |
+|-----|--------|--------|
+| O'qituvchilar (asosiy resurs) | Guruhlar olib borish (8–10 bola/o'qituvchi) | Har 3 guruhda +1 |
+| Qishloq koordinatori (elchi) | Mahalla/direktor aloqasi, tashriflar | 3+ qishloqda |
+| Kontent menejeri (0.5) | Dars materiallari + kanal | 10+ guruhda |
+| Support (0.5) | Ota-ona aloqasi, to'lov | 15+ guruhda |
+| Dasturchi (0.5) | Bot avtomatlashuvi (QADAM 73) | 20+ guruhda |
+
+**Model:** o'qituvchi — hamkor (guruh daromadidan 50–60%) — scale tez, ish haqi emas
+
+---
+
+## ✅ QADAM 82: SOP — BAJARILDI (AI 01, 2026-09-04)
+
+**Yoziladigan 4 SOP (yangi o'qituvchi/koordinator 3 kunda o'rganadi):**
+1. **Guruh ochish** — qishloq tanlash → ota-ona yig'ilishi → ro'yxat → bepul hafta → to'lov (14 kun)
+2. **Dars standarti** — 3 qism (kirish 5' + asosiy 45' + takror 10'), vazifa, davomat (QADAM 47)
+3. **Ota-ona hisoboti** — har juma: qatnashish, ball, izoh (shablon)
+4. **Sifat nazorati** — oyiga 1 dars audio-tahlili + o'quvchi qoniqishi (QADAM 47)
+
+---
+
+## ✅ QADAM 83: 10 SHAHAR/QISHLOQGA KENGAYISH — BAJARILDI (AI 01, 2026-09-04)
+
+**Qishloq protokoli (QADAM 69 SOP) — 1 qishloq/oy:**
+| Hafta | Ish |
+|-------|-----|
+| 1 | Maktab direktori + mahalla raisi bilan uchrashuv (ishonch) |
+| 2 | Ota-ona yig'ilishi + bepul mini-dars (10 bola) |
+| 3 | 1 guruh (8–10 bola) to'plash + o'qituvchi tayinlash |
+| 4 | Koordinator topshirish + nazorat |
+
+**Navbat:** Payshanba ✅ → qo'shni tumanlar (Nurota, Qo'shrabot, Xatirchi...) → 10 qishloq
+
+**Shart:** direktor roziligi + 8+ bola ro'yxati + internet yetarli (30/35 — QADAM 23)
+
+---
+
+## ✅ QADAM 84: YIRIK HAMKORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Format | Qiymat |
+|--------|--------|--------|
+| Xalq ta'limi bo'limi (viloyat) | Rasmiy tavsiya + maktablar kirishi | Ishonch — tez kengayish |
+| World Bank BILIM ($378 mln) | Pudratchi (tender) — 100+ maktab dasturi | Scale daromad (2-bosqich) |
+| ADB STEM ($100 mln) | Ingliz tili komponenti bo'yicha hamkor | 2-bosqich |
+| Mahalliy hokimiyat | Ijtimoiy loyiha (yosh avlod) | Brend + qonuniy himoya |
+| NNT lar (ta'lim) | Grant + tarmoq | Qo'shimcha mablag' |
+
+---
+
+## ✅ QADAM 85: YANGI DAROMAD OQIMLARI — BAJARILDI (AI 01, 2026-09-04)
+
+1. **Donor/maktab B2B** — $2–3/bola/oy (15–20 bola guruhi) — asosiy scale oqimi
+2. **Matematika bo'limi** (QADAM 79) — Premium up-sell
+3. **O'qituvchi tayyorlash markazi** — mahalliy o'qituvchilarni sertifikatlash (boshqa tashkilotlarga)
+4. **Ma'lumot mahsuloti** (QADAM 77) — donor hisobotlari $300–800
+
+**Prognoz (12-oy):** daromad tarkibi — B2C 40% · donor B2B 40% · boshqa 20% (scale boshlanganda donor ulushi o'sadi)
+
+---
+
+## ✅ QADAM 86: XAVFLAR (SCALE) — BAJARILDI (AI 01, ro'yxat)
+
+| Risk | Ogohlantirish belgisi | Yechim |
+|-------|------------------------|--------|
+| O'qituvchi sifati pasayishi | Qoniqish < 4.0 | Sifat nazorati (QADAM 82 SOP) + bonus tizimi |
+| Donor tender yutqazish | BILIM/ADB boshqa pudratchi tanlasa | B2C barqaror — donor qo'shimcha |
+| Internet infratuzilmasi | Yangi qishloqda uzilishlar | Dars yozuvi + oflayn + maktab kompyuteri |
+| Mahalliy qarshilik (boshqa repetitorlar) | Shikoyat | Direktor/hokimiyat hamkorligi (rasmiy) |
+| Davlat dasturi (bepul kurslar) | Bepul raqobat | Sifat farqi (jonli + shaxsiy e'tibor) |
+
+---
+
+## ✅ QADAM 87: MOLIYAVIY BOSHQARUV — BAJARILDI (AI 01, 2026-09-04)
+
+- **Oylik P&L:** MRR (B2C) + donor (B2B) − o'qituvchi ulushi (50–60%) − xarajatlar = foyda
+- **Guruh iqtisodiyoti:** 10 bola × $5 = $50 − o'qituvchi $28 (55%) = **marja $22/guruh** (QADAM 44 dan davom)
+- **Donor puli** — alohida hisob (grant talablari, hisobot majburiyati)
+- **KPI:** guruh soni, retention, o'quvchi natijalari (daraja o'sishi), donor hisobot muddatlari
+- **Cashflow qoidasi:** 3 oylik zaxira; o'qituvchiga haq to'lovdan keyin (cashflow yengil)
+
+---
+
+## ✅ QADAM 88: INVESTORLARGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Tezislar (pitch):**
+1. 1,600+ qishloq maktabida ingliz tili sifati past (PISA/ingliz tili milliy natijalar) — muammo davlat tan olgan
+2. World Bank BILIM $378 mln + ADB $100 mln — donor pullari bor, sifatli pudratchi yetishmaydi
+3. Arzon + jonli + Telegram — qishloq infratuzilmasiga mos (Physics Wallah modeli — arzon jonli ta'lim $1 mlrd baho)
+4. Guruh iqtisodiyoti isbotlangan (marja $22/guruh) — LTV/CAC 8–20×
+
+**Data room:** o'quvchilar, daraja o'sishi (oldin→keyin), retention, guruh iqtisodiyoti, donor aloqalari
+
+**Kimga:** IT Park Ventures, ta'lim donorlari (grant), ijtimoiy ta'sir investorlari
+
+---
+
+## ✅ QADAM 89: BOSQICH 9 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+SCALE NATIJALARI (to'ldiriladi — 81–88 amalda bajarilgach):
+  MRR (B2C): $ _ | DONOR: $ _
+  O'QUVCHILAR: _ (mezon 1,000+)
+  GURUHLAR: _ (mezon 100)
+  QISHLOQLAR: _/10
+  O'QITUVCHILAR: _ (hamkorlar)
+  DONOR HOLATI: _ (BILIM/ADB tender)
+  ENG KATTA XAVF: _
+QAROR: (VOYAGA YETISH ga / davom / to'xtatish)
+KEYINGI: BOSQICH 10 — VOYAGA YETISH (QADAM 91-100)
+```
+
+---
+
+## ✅ QADAM 90: SCALE QARORI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. O'quvchilar | 1,000+ (B2C + donor) | _ |
+| 2. Qishloqlar | 5+/10 | _ |
+| 3. Donor | 1 loyiha yutildi (BILIM/ADB) | _ |
+| 4. Iqtisodiyot | Guruh marjasi ijobiy (10+ guruhda) | _ |
+
+**GO (VOYAGA YETISH):** 3/4 shart → BOSQICH 10 (QADAM 91–100)
+
+**NO-GO / variantlar:**
+1. Donor yutqazildi + B2C sekin → matematika (QADAM 79) up-sell + 2-fan paketi
+2. Qishloq protokoli zaif → direktor kanalini qayta (elchi o'qituvchi tizimi)
+3. Internet muammosi keng → maktab kompyuter sinfi modeli (offline + nazorat)
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 81–90
+
+---
+
+## 🔮 BOSQICH 10 (QADAMLAR 91–100)
+
+**AI 01 tomonidan navbatdagi bosqichda to'ldiriladi** — ElderlyCare formatida.
