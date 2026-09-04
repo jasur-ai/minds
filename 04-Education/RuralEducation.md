@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 5
-qadam: 50
+bosqich: 6
+qadam: 60
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -1192,6 +1192,118 @@ KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
 
 ---
 
-## 🔮 BOSQICH 6–10 (QADAMLAR 51–100)
+## 🎯 BOSQICH 6: PMF (QADAMLAR 51–60)
+
+---
+
+## ✅ QADAM 51: SEAN ELLIS TESTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol (ota-onaga):** "Agar QishloqMaktab ertaga yopilsa, qanchalik xafa bo'lar edingiz?"
+- Judayam xafa (40%+ javob = PMF belgisi)
+- Bir oz xafa / xafa emas
+
+**Qachon:** 25+ faol o'quvchi oilasida (pilot 10 → kengaytirilgan 25). **Mezon: 40%+ "judayam xafa"**
+
+---
+
+## ✅ QADAM 52: NPS O'LCHOVI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Do'stingizga QishloqMaktab ni tavsiya qilasizmi (0–10)?"
+- Promoter (9–10) − Detractor (0–6) = **NPS**
+
+**Mezon:** NPS 40+ (qishloqda og'izdan og'iz — NPS bevosita o'sishga aylanadi); NPS < 20 — jiddiy muammo
+
+---
+
+## ✅ QADAM 53: FAOLLIK TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Nima:** bola darsga qatnashadimi? vazifa bajaradimi? ota-ona hisobotni ochadimi?
+
+**"Faol o'quvchi" ta'rifi:** haftasiga 2+ darsga kelgan + vazifa 70%+ bajargan + to'lov muddatida
+
+**Mezon:** faol ulush 60%+ → dastur bola hayotiga kirgan (qishloqda qoldirish — bekorchilikdan yaxshi)
+
+---
+
+## ✅ QADAM 54: MUST-HAVE FUNKSIYA — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Qaysi qismi uchun to'laysiz?" (variantlar: jonli dars, vazifa tekshiruvi, ota-ona hisoboti, dars yozuvi)
+
+**Gipoteza:** jonli dars + o'qituvchi fikri (vazifa tekshiruvi) — must-have (maktabdagi 50 o'quvchi sinfdan farqi — shaxsiy e'tibor); tasdiqlansa → marketingda asosiy xabar ("farzandingizga shaxsiy e'tibor")
+
+---
+
+## ✅ QADAM 55: PMF SEGMENTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaysi segment eng yaxshi ishlaydi?** (retention + referral bo'yicha — pilot 10 oila):
+1. Sinf: 5-6-sinf (o'quvchi mustaqil) vs 1-4-sinf (ota-ona ko'proq nazorat)
+2. Ona ma'lumoti: o'zi ingliz tilini bilmaydigan (farzandiga imkoniyat) vs biladigan
+3. Shahar chekkasi (internet barqaror) vs uzoq qishloq (uzilishlar)
+
+**Qaror:** eng yaxshi segmentga marketing ikki barobar → keyin kengayish
+
+---
+
+## ✅ QADAM 56: WORD-OF-MOUTH — BAJARILDI (AI 01, 2026-09-04)
+
+**O'lchov:** oilalar qancha qismi do'stlaridan kelgan (referral + organik — QADAM 48)
+
+**Mezon:** 35%+ yangi oilalar tavsiya orqali = tabiiy o'sish boshlandi (qishloqda ona zanjiri — eng kuchli kanal)
+
+---
+
+## ✅ QADAM 57: CHURN SABABLARI CHUQUR TAHLILI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ketish sabablari jamlanadi → eng katta 3 tasi:**
+1. _ (masalan: bola qiziqmadi — dars formatini o'zgartirish: o'yin/raqobat elementlari)
+2. _ (masalan: internet uzilishi — yozuv + oflayn materiallar)
+3. _ (masalan: mavsumiy ish (paxta/yig'im) — dasturni moslash: yozgi tanaffus yoki kechki soat)
+
+**Har biriga yechim loyihasi: mahsulot/sifat/narx o'zgarishi — 1 oy ichida sinov**
+
+---
+
+## ✅ QADAM 58: RAQOBAT FARQLANISH TEKSHIRUVI — BAJARILDI (AI 01, 2026-09-04)
+
+**Savol:** "Bizdan boshqa nima ishlatardingiz?" — agar javob "hech narsa" bo'lsa → farqlanish kuchli (qishloqqa qaratilgan + arzon + jonli + ota-ona hisoboti — shahardagi kurslar narxi/joylashuvi mos emas)
+
+**Kuzatuv:** yangi raqobatchilar paydo bo'ldimi? (shahar kurslarining onlayn guruhlari, davlat STEM dasturlari (ADB $100 mln), mahalliy repetitorlar) → monitoring oylik
+
+---
+
+## ✅ QADAM 59: KO'PAYTIRISHGA TAYYORLIK — BAJARILDI (AI 01, 2026-09-04)
+
+**Checklist:**
+- [ ] Sean Ellis 40%+
+- [ ] NPS 40+
+- [ ] Churn < 5%/oy (mavsumdan tashqari)
+- [ ] LTV/CAC 3×+ (8–20× kutilmoqda)
+- [ ] Referral 35%+
+- [ ] Daraja o'sishi isbotlangan (oldin→keyin, 70%+ 1 daraja)
+- [ ] Guruh iqtisodiyoti ijobiy (marja $20–25/guruh)
+
+**Hammasi ✅ → GTM (BOSQICH 7). Aks holda — tuzatish davri (1–2 oy).**
+
+---
+
+## ✅ QADAM 60: PMF XULOSASI — BAJARILDI (AI 01, format)
+
+```
+SEAN ELLIS (judayam xafa): _% (mezon 40%+)
+NPS: _ (mezon 40+)
+RETENTION: _% | CHURN: _%/oy
+ENG YAXSHI SEGMENT: _ (sinf? ona profili?)
+MUST-HAVE: _ (jonli dars + shaxsiy fikr?)
+DARaja O'ZGARISHI: _ (mezon 70%+ 1 daraja yuqori)
+GURUH IQTISODIYOTI: _ marja (mezon $20-25/guruh)
+QAROR: PMF ✅ / YO'Q ❌ / QAYSI SEGMENTDA 🔄
+KEYINGI: BOSQICH 7 — BOZORGA CHIQISH (GTM, QADAM 61-70)
+```
+
+**✅ 60-qadam yakunlandi. Keyingi: BOSQICH 7 (GTM).**
+
+---
+
+## 🔮 BOSQICH 7–10 (QADAMLAR 61–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
