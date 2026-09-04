@@ -125,21 +125,49 @@ created: 2026-09-03
 
 ---
 
-## QADAM 4: 10 TA INTERVYU O'TKAZISH
+## ✅ QADAM 4: 7 TA INTERVYU O'TKAZISH — JADVAL TAYYOR
 
-**Vazifa:** 10 ta haqiqiy potentsial mijoz bilan suhbat:
-- 4 ta mikro/kichik biznes egasi (onlayn-do'kon, kafe, xizmat ko'rsatish, ishlab chiqarish)
-- 3 ta o'rta biznes menejeri (savdo tarmog'i, logistika, SaaS/outstaff)
-- 2 ta IT/security mutaxassisi (CERT, xususiy kompaniya)
-- 1 ta bank biznes-menejeri yoki IT Park vakili (kanal testi)
+**Vazifa:** 7 ta haqiqiy potentsial mijoz bilan suhbat (2 hafta ichida):
+- **5 ta mikro/kichik biznes egasi** (onlayn-do'kon, kafe, xizmat ko'rsatish, ishlab chiqarish)
+- **2 ta o'rta KOBM** (savdo tarmog'i / SaaS-outstaff — B2B narx segmenti $50–150/oy)
 
-**Intervyu jadvali:**
-| # | Ism | Kim | Yoshi | Soha | Sana | Natija |
-|---|-----|-----|-------|------|------|--------|
+### 📅 2 HAFTALIK JADVAL (2026-09-08 → 2026-09-19)
 
-**Natija mezoni:** 7/10 KOBM $10–30/oy ga rozi + 2/3 o'rta biznes $50–150/oy ga rozi.
+| # | Ism | Kim | Soha | Sana | Kanal | Natija |
+|---|-----|-----|------|------|-------|--------|
+| 1 | Bobur (persona) | Mikro biznes egasi | Onlayn-do'kon (phishingdan $3,000 zarar ko'rgan) | 08-sent (Du) | Telefon — do'kon raqami orqali | _ |
+| 2 | Dilnoza | Mikro biznes egasi | Kafe/oshxona + online buyurtma | 09-sent (Se) | "Tadbirkor Ayol" Telegram guruhi | _ |
+| 3 | Aziz | Mikro biznes egasi | Xizmat ko'rsatish (santexnika/montaj firmasi) | 10-sent (Ch) | Bozor/savdo majmuasi — joyida | _ |
+| 4 | Sardor | Mikro biznes egasi | Kichik ishlab chiqarish (mebel) | 11-sent (Pa) | Bank biznes-menejeri tavsiyasi | _ |
+| 5 | Malika | Mikro biznes egasi | Internet-do'kon (Instagram savdo) | 12-sent (Ju) | IT Park tadbiri | _ |
+| 6 | Jahongir | O'rta KOBM menejeri | Savdo tarmog'i (filiallar) | 15-sent (Du) | To'g'ridan-to'g'ri — kompaniya ofisi | _ |
+| 7 | Lobar | O'rta KOBM | SaaS/outstaff kompaniya | 16-sent (Se) | IT Park hamjamiyati | _ |
 
-**✅ BAJARILDI:** _(haqiqiy suhbatlardan keyin)_
+**Hafta 1 (08–12-sent):** 5 ta mikro · **Hafta 2 (15–16-sent):** 2 ta o'rta KOBM
+
+### 📢 KANALLAR (qanday topiladi)
+1. **Telegram guruhlar:** "Tadbirkor", "Tadbirkor Ayol", sanoat/savdo guruhlari — faol biznes egalari yozadi
+2. **Bozor va savdo majmualari:** joyiga borib, egalari bilan jonli suhbat (eng yuqori javob darajasi)
+3. **IT Park tadbirlari / hamjamiyati:** o'rta KOBM (SaaS, outstaff) bilan tanishish
+4. **Bank biznes-menejerlari:** mijozlarini tanishtirishga rozi bo'lsa — ishonchli kirish
+5. **Shaxsiy tarmoq:** onlayn-do'kon egalari (Bobur kabi) — "do'stingizni tanishtiring" (1 intervyu → +1)
+
+### 🧠 THE MOM TEST ESLATMALARI (har suhbatda)
+- **Hikoya so'rang:** "Oxirgi marta xavfsizlik muammosiga duch kelganingizda nima bo'ldi?" — fikr emas, voqea
+- **Pulni aniq so'rang:** "Hozir shu ishga oyiga qancha sarflaysiz?" / "$30/oy xizmat uchun kim qaror qiladi?"
+- **G'oyani maqtamang:** Yechimni taqdim qilmang — avval muammo haqida gapiring
+- **"Agar... bo'lsa edi" so'zlaridan qoching:** Xayoliy kelajak emas, o'tmishdagi haqiqiy xatti-harakat
+- **3 ta fakt yozing** har suhbatdan keyin + takrorlanadigan javoblarni belgilang
+
+### ✅ MUVAFFAQIYAT MEZONI (intervyudan keyin tekshiriladi)
+- **4/5 mikro biznes** $10–30/oy narx oralig'ini eshitganda e'tirozsiz qabul qilsa → PASS
+- **1/2 o'rta KOBM** $50–150/oy (yillik shartnoma) ga "ha" desa → PASS
+- 3+ intervyuda **bir xil muammo hikoyasi** takrorlansa (phishing/hisob o'g'irlanishi) → muammo tasdiqlanadi
+- Agar 3+ intervyuda "hukumat/hal qiladi" yoki "hech qachon duch kelmaganman" desa → ⚠️ pivot muhokamasi (AI 07 bilan)
+
+**📊 Intervyu hisoboti:** har suhbatdan keyin shu jadvalning "Natija" ustuniga 1 jumla yoziladi.
+
+**✅ BAJARILDI:** _(haqiqiy suhbatlardan keyin — sana + natija bilan)_
 
 ---
 
@@ -155,4 +183,4 @@ created: 2026-09-03
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–3
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–4

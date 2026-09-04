@@ -124,20 +124,50 @@ created: 2026-09-03
 
 ---
 
-## QADAM 4: 10 TA INTERVYU O'TKAZISH
+## ✅ QADAM 4: 7 TA INTERVYU O'TKAZISH — JADVAL TAYYOR
 
-**Vazifa:** 10 ta haqiqiy potentsial mijoz bilan suhbat:
-- 5 ta qishloq ota-onasi (3 ta 1–5-sinf, 2 ta 6–9-sinf bolasi bor; 2 ta turli qishloqdan)
-- 3 ta qishloq maktab o'qituvchisi/direktori
-- 2 ta ekspert (ta'lim metodisti, NNT/ta'lim bo'limi vakili)
+**Vazifa:** 7 ta haqiqiy potentsial mijoz bilan suhbat (2 hafta ichida):
+- **5 ta qishloq ota-onasi** (kamida 2 xil qishloq/tumandan; 3 ta 1–5-sinf, 2 ta 6–9-sinf bolasi bor)
+- **2 ta qishloq maktab o'qituvchisi/direktori** (kanal + qo'shma mahsulot testi uchun)
 
-**Intervyu jadvali:**
-| # | Ism | Kim | Yoshi | Bolasi/Fani | Sana | Natija |
-|---|-----|-----|-------|-------------|------|--------|
+### 📅 2 HAFTALIK JADVAL (2026-09-08 → 2026-09-19)
 
-**Natija mezoni:** 7/10 ota-ona $5–10/oy guruhli obunaga rozi + 2/3 maktab bepul sinovga ochiq.
+| # | Ism | Kim | Bolasi/Fani | Qayerdan | Sana | Kanal | Natija |
+|---|-----|-----|-------------|----------|------|-------|--------|
+| 1 | Malika (persona) | Qishloq ota-ona | 3 bola (2–7 yosh), ingliz tiliga muhtoj | Payshanba (Qashqadaryo) | 08-sent (Du) | Maktab direktori tanishtirishi | _ |
+| 2 | Zilola | Qishloq ota-ona | 1–2-sinf bolasi | Qamashi tumani | 09-sent (Se) | Qishloq Telegram guruhi | _ |
+| 3 | Otabek | Qishloq ota-ona | 4-sinf (matematika zaif) | G'uzor tumani | 10-sent (Ch) | Mahalla yig'ini orqali | _ |
+| 4 | Nigora | Qishloq ota-ona | 7–8-sinf (rus tili) | Qarshi tumani | 11-sent (Pa) | Ota-onalar guruhi (maktab) | _ |
+| 5 | Feruza | Qishloq ota-ona | 1-sinf + 5-sinf | Dehqonobod | 12-sent (Ju) | Qo'shni orqali (tanishuv) | _ |
+| 6 | Dilshod aka | O'qituvchi | Ingliz tili (chet tili o'qituvchisi 2 yil yo'q) | Payshanba maktabi | 15-sent (Du) | Maktabda joyida | _ |
+| 7 | Barno opa | Direktor / o'qituvchi | Boshlang'ich sinf | Qamashi maktabi | 16-sent (Se) | Tuman ta'lim bo'limi orqali | _ |
 
-**✅ BAJARILDI:** _(haqiqiy suhbatlardan keyin)_
+**Hafta 1 (08–12-sent):** 5 ta ota-ona · **Hafta 2 (15–16-sent):** 2 ta o'qituvchi/direktor
+
+### 📢 KANALLAR (qanday topiladi)
+1. **Maktab direktorlari:** 1 ta direktorga erishsangiz — u ota-onalar guruhiga olib kiradi (eng kuchli kanal)
+2. **Qishloq Telegram guruhlari:** mahalla/qishloq guruhlari ("Payshanba axborot", "Qamashi yoshlari") — e'lon qo'ying
+3. **Mahalla yig'inlari / masjid oldi:** hafta oxiri jonli suhbat (ota-onalar bor joyda)
+4. **Tuman ta'lim bo'limi:** o'qituvchi/direktorlar bilan tanishish (rasmiy ruxsat so'rab emas, tanishuv)
+5. **Tanishuv zanjiri:** 1 ota-ona → qo'shnisi (Malika personasi 3 ta onani tanishtiradi)
+
+### 🧠 THE MOM TEST ESLATMALARI (har suhbatda)
+- **Hikoya so'rang:** "Farzandingiz oxirgi marta darsda tushunmaganini aytganda nima qildingiz?" — voqea, fikr emas
+- **Bugungi xatti-harakatni aniqlang:** "Repetitorga borganmisiz? Qancha to'lagansiz? Qanchalik tez-tez?"
+- **Pulni aniq so'rang:** "Oyiga $5–10 guruhli dars uchun qancha to'lashga tayyorsiz?" (ikki nuqtali narx testi: $5 va $10)
+- **G'oyani maqtamang:** Yechimni ko'rsatmang — muammo va bugungi yechim haqida gapiring
+- **Tarqalishni tekshiring:** "Farzandi shu muammoda bo'lgan yana kim bor?" — boshqa onalar nomini so'rang
+- **3 ta fakt yozing** har suhbatdan keyin + takrorlanadigan javoblarni belgilang
+
+### ✅ MUVAFFAQIYAT MEZONI (intervyudan keyin tekshiriladi)
+- **4/5 ota-ona** $5–10/oy guruhli obuna narxini eshitganda rozi bo'lsa → PASS
+- **1/2 o'qituvchi/direktor** bepul sinov darsiga ochiq bo'lsa + sinfga kirish imkonini bersa → PASS
+- 3+ intervyuda **bir xil muammo** takrorlansa ("repetitor uzoq/qimmat", "farzand tushunmaydi, yordam berolmayman") → muammo tasdiqlanadi
+- Agar 3+ ota-ona "davlat darslari yetarli" yoki "telefoni yo'q" desa → ⚠️ pivot muhokamasi (AI 07 bilan)
+
+**📊 Intervyu hisoboti:** har suhbatdan keyin shu jadvalning "Natija" ustuniga 1 jumla yoziladi.
+
+**✅ BAJARILDI:** _(haqiqiy suhbatlardan keyin — sana + natija bilan)_
 
 ---
 
@@ -153,4 +183,4 @@ created: 2026-09-03
 
 **AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
 
-*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–3
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/RuralEducation.md* | QADAM 1–4
