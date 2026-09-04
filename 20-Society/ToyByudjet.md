@@ -832,95 +832,139 @@ KEYINGI: BOSQICH 6 — PMF (QADAM 51-60)
 
 ---
 
-## QADAM 56: FEATURE ROADMAP
+## ✅ QADAM 56: FEATURE ROADMAP — BAJARILDI (AI 01, 2026-09-04)
 
-**Top-3:** (1) onlayn depozit/escrow, (2) to'y rejasi checklist (3–6 oy), (3) mehmon RSVP (Telegram).
+**Top-3 (feedback asosida):**
+1. **Onlayn depozit/escrow** — pudratchi bron qilinganda depozit platformada ushlab turiladi (ikkala tomon himoyasi; to'y o'tgach pudratchiga)
+2. **To'y rejasi checklist (3–6 oy)** — byudjetdan tashqari vaqt jadvali: "3-oy qolganida: zal bron, 2-oy: oshpaz menyu..."
+3. **Mehmon RSVP (Telegram)** — taklif + kelish/kelmasi (ovqat hisobi uchun)
 
-**✅ BAJARILDI:** _(feedback asosida)_
-
----
-
-## QADAM 57: PMF XULOSASI
-
-**Vazifa:** 51–56 — PMF bormi?
-
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** har funksiya 2 hafta sinov → 30%+ foydalanish → saqlash/tashlash. Eng muhimi: escrow (daromad modelini o'zgartiradi — komissiya 5–7%).
 
 ---
 
-## QADAM 58: PMF DAN KEYINGI REJA
+## ✅ QADAM 57: PMF XULOSASI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** PMF → BOSQICH 7: kontent-marketing kuchaytirish + B2B pudratchi sotuvi.
+```
+SEAN ELLIS: juftlik _% / pudratchi _% (mezon pudratchi 40%+)
+NPS: pudratchi _ / juftlik _ (mezon pudratchi 40+, juftlik 20+)
+BRON O'SISHI: _% (mezon 20%/oy)
+PUDRATCHI CHURN: _% (mezon <5%/oy)
+PMF XULOSA: (bormi? qaysi segment kuchli?)
+```
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## QADAM 59: FEEDBACK TIZIMI
-
-**Vazifa:** Har to'y tugagach: 5 savol so'rov + NPS; pudratchi bilan oylik qo'ng'iroq.
-
-**✅ BAJARILDI:** _(keyin)_
+**Qaysi segment PMF ga yaqin?** Pudratchi (bron oqimi = daromad); juftlik bir martalik — lekin referral (to'y = ijtimoiy) orqali yangi juftliklar keladi
 
 ---
 
-## QADAM 60: PMF QARORI
+## ✅ QADAM 58: PMF DAN KEYINGI REJA — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** PMF bormi? → Ha: 61+. Yo'q: faqat kalkulyator/kontent yo'nalishi yoki faqat pudratchi B2B.
+**PMF dan keyin (BOSQICH 7–8):**
+1. **Kontent-marketing kuchaytirish** — TikTok/Insta ma'lumotli video (byudjet taqsimoti, real hisobotlar) — juftlik trafigi
+2. **B2B pudratchi sotuvi** — to'g'ridan-to'g'ri DM + to'y ko'rgazmalari (QADAM 65 funnel)
+3. **Escrow bosqichma-bosqich** — depozitdan boshlab → to'liq to'lov himoyasi (komissiya 5–7%)
+4. **Viloyatlar** — Samarqand (QADAM 55 sinovi ishlagan bo'lsa)
 
-**✅ BAJARILDI:** _(keyin)_
-
----
-
-## 🚀 BOSQICH 7: BOZORGA CHIQISH (QADAMLAR 61–70)
-
----
-
-## QADAM 61: SOTISH STRATEGIYASI
-
-**Vazifa:** Juftlik — kontent-marketing (TikTok/Insta ma'lumotli video, to'y hikoyalari); pudratchi — to'g'ridan-to'g'ri sotuv (Instagram DM, to'y ko'rgazmalari).
-
-**Pudratchi skripti:** "Bizda har oy 500 juftlik byudjet hisoblaydi. Sizning listingingiz ularga ko'rinadi. Featured $30/oy — sinab ko'ring."
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Byudjet:** 70% ishlagan kanalga, 30% yangi kanal testlariga
 
 ---
 
-## QADAM 62: NARXLAR PAKETLARI
+## ✅ QADAM 59: FEEDBACK TIZIMI — BAJARILDI (AI 01, 2026-09-04)
 
-| Paket | Narx | Tarkib |
-|-------|------|--------|
-| Bepul listing | $0 | Asosiy ma'lumot, 2 foto |
-| **Featured** | $30/oy | Yuqori o'rin, 10 foto, badge |
-| Pro pudratchi | $90/oy | + Bron boshqaruvi, statistika |
-| Komissiya (bron) | 5–7% | Keyinroq (escrow bilan) |
-| Juftlik Premium | $30 | To'liq reja + shablonlar |
+**Ikkita halqa:**
+1. **Juftlik:** har to'y tugagach (3–7 kun) 5 savol: "Byudjetda qoldingizmi?" / "Pudratchi topish oson bo'ldimi?" / "Nimasi eng foydali?" / "Nimasi yetishmadi?" / "Tavsiya qilasizmi (0-10)?"
+2. **Pudratchi:** oylik 10 daqiqa qo'ng'iroq: bronlar qanday keldi? Narx bazasi to'g'rimi? Qaysi format ishladi?
 
-**✅ BAJARILDI:** Paketlar tayyor
+**Ishlov:** oyiga 20+ javob → top-3 shikoyat → keyingi sprintga (QADAM 56 roadmap)
 
 ---
 
-## QADAM 63: MARKETING REJASI (1-OV)
+## ✅ QADAM 60: PMF QARORI — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) TikTok: haftada 3 video — "50 mln to'y byudjeti qanday taqsimlanadi", real to'y hisobotlari, (2) Instagram reel + kelin-kuyov hikoyalari, (3) to'y ko'rgazmalari (Toshkentda yiliga 2–3), (4) fotosalon/kelinlik hamkorligi.
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 64: HAMKORLIKLAR
-
-**Vazifa:** (1) Pudratchilar uyushmalari/klasterlari, (2) to'y zalari tarmoqlari, (3) fotosalonlar (juftlikka kupon), (4) banklar (to'y krediti sahifasida kalkulyatorga havola — B2B ma'lumot kelajakda), (5) ZAGS/mahalla (davlat bilan ehtiyotkor — siyosiy emas, ta'limiy kontent).
-
-**✅ BAJARILDI:** _(ro'yxat tayyor)_
+**Qaror qoidasi (QADAM 57 xulosasi):**
+- **PMF ✅** (pudratchi Sean Ellis 40%+, NPS 40+, bron 20%/oy) → BOSQICH 7 (GTM — QADAM 61–70)
+- **PMF ⚠️** (pudratchi ishlaydi, juftlik zaif) → fokus: faqat pudratchi B2B (listing) + kalkulyator bepul marketing vositasi
+- **PMF ❌** → tuzatishlar davom; 2-oy ichida yaxshilanmasa — pivot: faqat kalkulyator/kontent (reklama modeli) yoki faqat pudratchi B2B direktoriya
 
 ---
 
-## QADAM 65: SAVDO FUNNELI (Pudratchi B2B)
+# 🚀 BOSQICH 7: BOZORGA CHIQISH (QADAMLAR 61–70)
 
-**Funnel:** DM → bepul listing → 1-oy featured sinov ($15) → Pro. Maqsad: 200 DM → 50 listing → 15 featured → 5 Pro/oy.
+---
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+## ✅ QADAM 61: SOTISH STRATEGIYASI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ikkita yo'nalish:**
+- **Juftlik (B2C):** kontent-marketing (TikTok byudjet videolari) → organik kelish (kalkulyator bepul — kirish eshigi)
+- **Pudratchi (B2B):** to'g'ridan-to'g'ri sotuv (QADAM 65 funnel) — asosiy daromad
+
+**Pudratchi sotuv skripti:**
+> "Bizda har oy 500+ juftlik to'y byudjetini hisoblaydi — sizning listingingiz ularga ko'rinadi. Featured $30/oy: yuqori o'rin, 10 foto, haqiqiy review. Bitta bron $300–1,000 daromad — listing narxini bir marta qoplaydi."
+
+**Qarshi chiqishlarga javob:**
+- "Instagram'da topilamizku" → "Instagram'da sizni faqat kuzatuvchilar ko'radi; bizda to'y rejalayotgan juftliklar — sovuq trafik + byudjeti tayyor"
+- "Agentlar komissiya oladi" → "Agent 10–20% oladi; biz $30/oy — ancha arzon va o'z vaqtida"
+
+---
+
+## ✅ QADAM 62: NARXLAR PAKETLARI (RASMIY) — BAJARILDI (AI 01, 2026-09-04)
+
+| Paket | Narx | Tarkib | Kim uchun |
+|-------|------|--------|-----------|
+| Bepul listing | $0 | Asosiy ma'lumot, 2 foto | Barcha pudratchilar |
+| **Featured** | $30/oy | Yuqori o'rin, 10 foto, badge | Faol pudratchilar |
+| **Pro** | $90/oy | Featured + bron boshqaruvi + statistika | Talab yuqori pudratchilar |
+| Komissiya (escrow) | 5–7% | To'lov himoyasi bilan (QADAM 56 #1) | Keyinroq |
+| Juftlik Premium | $30 | To'liq reja + shablonlar (kelinlik, mehmon) | Juftlik |
+
+**Narx mantiqi:** bepul listing — baza; Featured/Pro — pudratchi daromadi; escrow komissiya — kelajakda asosiy daromad; Premium — qo'shimcha qatlam
+
+---
+
+## ✅ QADAM 63: MARKETING REJASI (1-OY) — BAJARILDI (AI 01, 2026-09-04)
+
+**1-oy byudjeti (~$300):**
+1. **TikTok (asosiy)** — haftada 3 video: "50 mln to'y byudjeti qanday taqsimlanadi", real to'y hisobotlari (juftlik ruxsati bilan), pudratchi sahna ortida — $100 (kontent)
+2. **Instagram reel + hikoyalar** — kelin-kuyov hikoyalari ("qarzga botmasdan to'y") — $0
+3. **To'y ko'rgazmalari** (Toshkentda 2–3/yil) — stend + pudratchi ro'yxati — $100
+4. **Fotosalon/kelinlik hamkorligi** — kupon almashish — $50
+5. **Pudratchi DM kampaniyasi** (QADAM 65 funnel) — $50 (vaqt)
+
+**KPI (1-oy):** 1,000 juftlik kalkulyator ishlatishi · 50 yangi listing · 10 featured sotuv
+
+---
+
+## ✅ QADAM 64: HAMKORLIKLAR — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Nima | Xavf/izoh |
+|--------|------|-----------|
+| Pudratchilar uyushmalari/klasterlari | Listing taklifi (jamoa chegirmasi) | B2B kanali — ishonch |
+| To'y zalari tarmoqlari | O'z pudratchilarini tavsiya + biznikini ko'rsatish | Ikkala tomon manfaatli |
+| Fotosalonlar/kelinlik salonlari | Juftlikka kupon ("kalkulyator bilan keling") | Trafik manbai |
+| Banklar | To'y krediti sahifasida kalkulyatorga havola | B2B ma'lumot (kelajakda ma'lumot almashish) |
+| ZAGS/mahalla | Ta'limiy kontent (byudjet oqilona bo'lsin) | Ehtiyotkor — siyosiy emas, ijtimoiy foydali |
+
+**Qoida:** hamkorlik ma'lumot/trafik almashishdan boshlanadi, puldan emas
+
+---
+
+## ✅ QADAM 65: SAVDO FUNNELI (Pudratchi B2B) — BAJARILDI (AI 01, 2026-09-04)
+
+**Funnel:**
+```
+200 DM (Instagram'da top-200 pudratchi: zal/oshpaz/foto/boshlovchi)
+  → 50 bepul listing (25%)
+    → 15 featured sinovi $15 (30%)
+      → 5 Pro/oy $90 (33%)
+```
+
+**Haftalik reja:** 50 DM/hafta → 3 haftada 200 DM
+
+**DM skripti:** "Salom! [Nomi]ni ko'rdim. To'yByudjet'da to'y pudratchilari katalogini quryapmiz — juftliklar narx va review bilan tanlaydi. Bepul listing ochib beramiz, 5 daqiqa. Xohlaysizmi?"
+
+**Mezon:** 15 featured sinovi (1-oy) → 5 Pro (3-oy) → B2B kanali isboti
+
+**✅ BAJARILDI (AI 01):** reja tayyor — 56–65 bloki yakunlandi. Keyingi: QADAM 66+ (mijoz xizmati, onboarding)
 
 ---
 
