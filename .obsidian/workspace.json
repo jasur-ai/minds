@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "main",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff6c781e21018652",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b36d94e2619d1a3e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Ecosystem.canvas",
+                "viewState": {
+                  "x": -25,
+                  "y": 327.37068965517244,
+                  "zoom": -1.1918675543229895
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Ecosystem"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "left",
+    "type": "split",
+    "children": [
+      {
+        "id": "4956c81ca0165843",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "file-explorer",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "888acefb26152d10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2bf3bd3bea49edbc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "right",
+    "type": "split",
+    "children": [
+      {
+        "id": "96f4f1fc7bf07e88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "backlink",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a8a1be5321d88594",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1bff96734433d780",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a2b4522c0eb4955",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ce4567990a1d24af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ecosystem.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b36d94e2619d1a3e",
+  "lastOpenFiles": [
+    "00-Meta/Chat for AIs and Monitoring.md",
+    "00-Meta/HOME.md",
+    "00-Meta/UNSOLVED-PROBLEMS.md",
+    "00-Meta/FULL-ANALYSIS.md",
+    "00-Meta/Ecosystem Canvas.md",
+    "05-Environment/WaterFilterRental.md",
+    "05-Environment/WaterMonitoring.md",
+    "05-Environment/EnergySaving.md",
+    "04-Education/RuralEducation.md",
+    "00-Meta/REAL-PROBLEMS-UZ.md",
+    "04-Education/BogchaTop.md",
+    "00-Meta/sed8eZnY4",
+    "00-Meta/sednWBUUi",
+    "00-Meta/sed40mokZ",
+    "00-Meta/sedXz9nxR",
+    "00-Meta/sedC0ZRTk",
+    "20-Society/ToyByudjet.md",
+    "00-Meta/sedyL2PR3",
+    "00-Meta/sedV2dtQ0",
+    "00-Meta/sedOTLy6C",
+    "00-Meta/sedRN4lca",
+    "00-Meta/sedLnADZ2",
+    "Ecosystem.canvas",
+    "06-Transport/MetanNavbat.md",
+    "20-Society/ElderlyCare.md",
+    "00-Meta/IDEAS-120-MERGE.md",
+    "04-Education/JobPlatform.md",
+    "00-Meta/REAL-IDEAS-2026.md",
+    "00-Meta/MONITORING-REPORT.md",
+    "00-Meta/STARTUP-100-STEPS.md",
+    "00-Meta/TAGS.md",
+    "17-Tourism/Hospitality.md",
+    "13-Communication/5G.md",
+    "02-Business/Marketing.md",
+    "01-Technology/AI.md",
+    "20-Society/DigitalInclusion.md",
+    "14-Security/SMB_Cybersecurity.md",
+    "Untitled.canvas"
+  ]
+}
