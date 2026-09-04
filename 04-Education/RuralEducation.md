@@ -171,6 +171,110 @@ created: 2026-09-03
 
 ---
 
+## 📖 INTERVYU QO'LLANMASI (AI 01, 2026-09-04) — QADAM 4 ga amaliy qo'shimcha
+
+### 1. HAR PERSONA GURUHIGA SKRIPT
+
+**A) Qishloq ota-onasi (Malika tipidagi — 1–9-sinf bolasi bor, ona):**
+
+**Ochilish (1 daqiqa):** "Salom, [ism]. [Direktor/qo'shni] orqali keldim. Qishloqlarda bolalar ta'limi haqida gaplashyapman — farzandingiz maktabda qanday o'qiyapti, nimalarga qiynaladi, shu haqida o'rganmoqchiman. Sotadigan narsam yo'q, oddiy suhbat, 15 daqiqa. Bo'ladimi?" (uyida, choy bilan — eng tabiiy muhit)
+
+**Savollar ketma-ketligi:**
+1. "Farzandlaringiz necha yoshda, qaysi sinfda?" (iliq ochilish)
+2. "Maktabda qaysi fanlardan qiynaladi? O'qituvchisi bormi?" (og'riq — aniq fan nomi)
+3. "Uy vazifasida yordam berasizmi? Qanday?" (joriy xatti-harakat)
+4. "O'zi telefonda nimalar ko'radi? Dars ko'radimi?" (kanal + odat)
+5. Chuqurlashtirish (follow-up jadvali)
+6. "Repetitor haqida o'ylab ko'rganmisiz? Narxi qancha ekanini bilasizmi?" (to'siq)
+
+**Yopilish:** "Rahmat, juda foydali. Yana qo'ng'iroq qilsam bo'ladimi? Shu muammoda yana qaysi onalar bor — ular bilan ham gaplashsam bo'ladimi?" (tarqalish — qishloqda eng kuchli kanal)
+
+**B) Maktab direktori / o'qituvchi:**
+
+**Ochilish:** "Salom, [ism]. Men [tuman/ta'lim bo'limi orqali / Malikaning tanishtiruvi bilan] keldim. Qishloq maktablarida qaysi fanlardan o'qituvchi yetishmasligini o'rganyapman — sizning ko'zingizdan qarash juda muhim. 15 daqiqa?" (direktorga vaqt — ertalab yoki darsdan keyin)
+
+**Savollar ketma-ketligi:**
+1. "Maktabingiz necha o'quvchi? Qaysi fanlardan o'qituvchi yetishmaydi?" (aniq ro'yxat)
+2. "O'sha fanlarni o'quvchilar hozir qanday o'rganyapti?" (joriy holat)
+3. "Ota-onalardan qanday shikoyat keladi?" (og'riq kanali)
+4. "Maktabda internet/telefon/proyektor bormi? Darsda ishlatiladimi?" (infratuzilma)
+5. "Tashqaridan jonli onlayn dars kelsa — ota-onalarga tavsiya qilarmidingiz?" (kanal testi)
+
+**Yopilish:** "Rahmat. Ota-onalar guruhi bormi — qo'shilsam bo'ladimi? Yoki 2–3 ta faol onani tanishtira olasizmi?"
+
+**C) Ekspert (tuman ta'lim bo'limi / NNT / metodist):**
+
+**Ochilish:** "Salom. Qishloq-shahar ta'lim farqi bo'yicha tadqiqot qilyapman — sizning amaliy tajribangiz muhim. 20 daqiqa?"
+
+**Savollar:** qaysi fanlarda eng katta tafovut, davlat Onlayn maktab samarasi, xususiy tashabbuslarga (biznikiga o'xshash) davlat/NNT munosabati, grant imkoniyatlari (UNICEF/ADB dasturlari), qanday o'lchov metrikasi bor.
+
+### 2. TAQIQLANGAN SAVOLLAR (so'ramang!)
+- ❌ "QishloqMaktab.uz deb onlayn dars bo'lsa, olasizmi?" (g'oyani maqtash — xushomad)
+- ❌ "Farzandingiz ta'limidan qoniqasizmi?" (hamma "yo'q" deydi — ma'lumotsiz)
+- ❌ "Oyiga 100 ming to'laysizmi?" (xayoliy narx — hozirgi xarajatni so'rang)
+- ❌ "Telefonda dars o'qisa, foydali bo'larmidi?" ("agar" — xayoliy kelajak)
+- ❌ "Televizordagi darslar yaxshimi?" (fikr — voqea emas)
+- ❌ Bolalar soni/erining maoshi kabi nozik savollar to'g'ridan-to'g'ri (g'iybat orqali bilib oling, so'ramang)
+- ❌ "Ingliz tili muhimmi?" (hamma "ha" — harakat so'rang)
+
+**O'rniga:** hikoya so'rang ("oxirgi marta uy vazifasida nima bo'ldi?"), joriy xarajat ("repetitorga borganmisiz? qancha?"), aniq voqea ("qaysi darsda tushunmadi?").
+
+### 3. FOLLOW-UP SAVOLLAR (javobdan keyin chuqurlashtirish)
+
+| Suhbatdosh aytdi | Siz so'raysiz |
+|------------------|---------------|
+| "Ingliz tilidan o'qituvchi yo'q" | "O'quvchilar shu darsda nima qilishadi? Qancha vaqtdan beri? Ota-onalar nima deyapti?" |
+| "Repetitorga borolmaymiz" | "Borib ko'rganmisiz? Narxini bilasizmi? Masofa qancha? Kimga murojaat qilgansiz?" |
+| "Televizordan dars ko'radi" | "Qaysi kanal? Qachon? O'zi qarab oladimi, birga o'tirasizmi? Keyin nima o'rganganini aytadimi?" |
+| "O'zim ham bilmayman, yordam bera olmayman" | "Qaysi fanlarda ko'proq qiynaladi? O'shanda nima qilasiz? Boshqa onalardan so'raysizmi?" |
+| "Telefoni bor, lekin interneti yo'q" | "Qancha internet oladi? Qachon ishlatadi? Maktabda internet bormi?" |
+| "Qo'shniniki ham shu ahvolda" | "Kim? Bolasi necha yoshda? Onasi bilan tanishtira olasizmi?" (tarqalish!) |
+
+### 4. QAYD QILISH SHABLONI (har suhbatdan keyin — 5 daqiqa)
+
+```
+Suhbat #: _  Sana: _  Kim: _ (ota-ona/o'qituvchi/ekspert)  Qayerda: _ (qishloq/tuman)
+
+1. OILA (bolalar soni, yoshi, sinfi):
+2. MUAMMO FAN (aniq nomi):
+3. HO'JA (hikoya — voqea):
+4. JORIY YECHIM (televizor/repetitor/hech narsa + qancha to'laydi):
+5. PUL (aytgan raqam — masalan "100 ming bersam bo'ladi"):
+6. TELEFON/INTERNET (bor/yo'q, qaysi operator):
+7. OG'RIQ DARAJASI (1-10) + izoh:
+8. 3 TA FAKT:
+   a.
+   b.
+   c.
+9. IQTIBOS (aniq gap):
+10. TARQALISH (kimni tavsiya qildi — onalar ismi):
+11. KEYINGI QADAM (qayta aloqa sanasi):
+```
+
+### 5. SUHBATDOSH TOPISH KANALLARI (RuralEducation uchun)
+1. **Maktab direktori** — 1 direktorga erishsangiz, u ota-onalar guruhiga olib kiradi (eng kuchli kanal!)
+2. **Qishloq Telegram guruhlari** — "Payshanba axborot", "Qamashi yoshlari" kabi; e'lon emas, suhbatga taklif
+3. **Mahalla yig'ini / masjid oldi / choyxona** — hafta oxiri jonli (qishloqda eng tabiiy joy)
+4. **Maktab ota-onalar yig'ilishi** — direktor ruxsati bilan 5 daqiqa (10 ta onaga birdan kirish)
+5. **Tuman ta'lim bo'limi** — o'qituvchi/direktorlar bilan tanishuv (rasmiy emas, tanishuv)
+6. **Tanishuv zanjiri** — Malika → qo'shnisi → boshqa qishloqdagi opasi (qishloq tarmog'i juda zich)
+
+**Qoida:** Qishloqda ertalab (dehqonchilikdan oldin) yoki kechqurun (10–11) eng yaxshi vaqt. Suhbatni uyida/choyxonada o'tkazing — rasmiy joy yo'q. Har suhbatga 1 soat ajrating (yo'l + kutish).
+
+### 6. MUVAFFAQIYAT MEZONI — 7 TA INTERVYUDAN KEYIN NIMA BILISHIMIZ KERAK
+
+| Savol | Javob (intervyulardan) | Nima qilamiz |
+|-------|------------------------|--------------|
+| Muammo haqiqiymi? | 3+ suhbatda bir xil fan bo'shlig'i (ingliz tili/matematika) + ota-ona yordam bera olmaydi | Ha — davom; yo'q — boshqa fan/segment |
+| Qaysi fan birinchi? | Eng ko'p tilga olingan fan | MVP fanini tanlash (ingliz tili?) |
+| To'lovga tayyormi? | 4/5 ota-ona $5–10/oy (100 ming) ga "ha" | Narxni tasdiqlash (QADAM 6 paketi) |
+| Guruh modeli ishlaydimi? | 3+ ona "qo'shni bilan birga" desa | Guruh tuzish (5–8 bola) |
+| Kanal ishlaydimi? | Direktor tanishtirganlar rozi bo'ldimi? | Pilot qishloqni tanlash (Payshanba?) |
+| Infratuzilma yetarlimi? | Telefon/internet holati (operator, MB) | Dars formatini moslash (audio/video/offline) |
+| Pivot kerakmi? | 3+ "davlat darslari yetarli" yoki "telefoni yo'q" | AI 07 bilan muhokama (boshqa fan/format) |
+
+---
+
 ## ✅ QADAM 5: PROBLEM STATEMENT — BAJARILDI (AI 01, 2026-09-04)
 
 ### 🎯 1 JUMLALIK PROBLEM STATEMENT:

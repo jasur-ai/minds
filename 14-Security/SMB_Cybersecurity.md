@@ -171,6 +171,108 @@ created: 2026-09-03
 
 ---
 
+## 📖 INTERVYU QO'LLANMASI (AI 01, 2026-09-04) — QADAM 4 ga amaliy qo'shimcha
+
+### 1. HAR PERSONA GURUHIGA SKRIPT
+
+**A) Mikro biznes egasi (Bobur tipidagi — do'kon/kafe/xizmat):**
+
+**Ochilish (1 daqiqa):** "Salom, [ism]. Men [tanishuvchi] orqali keldim / sizning do'koningizni ko'rib qoldim. Kichik biznes egalari bilan suhbatlashyapman — kompyuter, telefon, onlayn to'lovlarni qanday ishlatishini o'rganyapman. Savollarim oddiy, 15 daqiqa. Sotadigan hech narsam yo'q — faqat tinglayman. Rozimisiz?"
+
+**Savollar ketma-ketligi:**
+1. "Biznesingiz qanday ishlaydi? Kuningiz qanday o'tadi?" (iliq ochilish — ishonch)
+2. "Kompyuter/telefon bilan ishda qanday muammolar bo'ladi?" (umumiy — og'riqni qidir)
+3. "Oxirgi marta kiberxavfsizlik/aldash muammosiga duch kelganmisiz? Nima bo'lgan edi?" (hikoya)
+4. Chuqurlashtirish (quyida follow-up jadvali)
+5. "Hozir shu narsaga qancha pul/vaqt sarflaysiz?" (pul)
+
+**Yopilish (2 daqiqa):** "Rahmat, juda foydali. Agar shu muammo haqida yana o'ylasangiz — qo'ng'iroq qilsam maylimi? Biladigan yana bir biznes egasi bormi — unga ham qo'ng'iroq qilsam bo'ladi?" (tarqalish + keyingi aloqa)
+
+**B) O'rta KOBM menejeri (Malika tipidagi — savdo tarmog'i/SaaS, 20–100 xodim):**
+
+**Ochilish:** "Salom, [ism]. [IT Park/bank/uyushma] orqali tanishtirishdi. Sizdek kompaniyalar xavfsizlik va mijozlar talablari bilan qanday ishlashini o'rganyapman — ilmiy/bozor tadqiqoti, sotuv emas. 20 daqiqa vaqtingiz bormi?"
+
+**Savollar ketma-ketligi:**
+1. "Kompaniyangizda IT/xavfsizlik qanday tashkil qilingan? Kim javobgar?" (tuzilma)
+2. "Oxirgi yilda xavfsizlik hodisasi bo'lganmi? Yoki mijozlar xavfsizlik talab qilganmi?" (og'riq + tashqi bosim)
+3. "Xorijiy mijozlar security so'rovnoma yuboradimi? Qanday javob berasiz?" (B2B og'riq — Malika holati)
+4. "PP-167 / davlat talablari haqida eshitganmisiz? Sizga tegishlimi?" (qonun xabardorligi)
+5. "Bunday ishga oyiga qancha ajrata olasiz?" (pul — aniq)
+
+**Yopilish:** "Rahmat. Bu mavzuda kim bilan gaplashishimni tavsiya qilasiz?" + "Hisobot/xulosa bilan bo'lishsam maylimi?"
+
+**C) Ekspert (CERT/security mutaxassisi, IT Park vakili):**
+
+**Ochilish:** "Salom. Bozor tadqiqoti qilyapman: O'zbekiston KOBM lari kiberxavfsizlikka qanchalik tayyor? Sizning fikringiz juda muhim. 20 daqiqa?"
+
+**Savollar:** bozor tuzilishi, qaysi soha zaif, PP-167 amalda qanday nazorat qilinadi, KOBM lar qanday hodisalarga uchraydi (ularning amaliyotidan misollar), kim to'lashga tayyor bo'lardi.
+
+### 2. TAQIQLANGAN SAVOLLAR (so'ramang!)
+- ❌ "XavfsizBiz.uz deb xizmat bo'lsa, olasizmi?" (g'oyani maqtash — xushomad javob keladi)
+- ❌ "Sizningcha, kiberxavfsizlik muhimmi?" (hamma "ha" deydi — ma'lumotsiz)
+- ❌ "$30/oy to'laysizmi?" (xayoliy narx — o'tmishdagi xatti-harakatni so'rang)
+- ❌ "Agar phishing himoyasi bo'lsa, foydalanarmidingiz?" ("agar" — xayoliy kelajak)
+- ❌ "Kaspersky yetarlimi deb o'ylaysizmi?" (fikr so'rash — voqea emas)
+- ❌ "Qancha xodimingiz bor?" dan boshqa demografik savollar ko'p bo'lsa (intervyu vaqtini yemoqda)
+- ❌ O'z tajribangizni aytish/"menda ham bo'lgan" (suhbatdoshni yo'naltirib qo'yasiz)
+
+**O'rniga:** voqea so'rang ("oxirgi marta nima bo'ldi?"), pul so'rang ("hozir qancha sarflaysiz?"), muammoni chuqurlashtiring ("keyin nima bo'ldi?").
+
+### 3. FOLLOW-UP SAVOLLAR (javobdan keyin chuqurlashtirish)
+
+| Suhbatdosh aytdi | Siz so'raysiz |
+|------------------|---------------|
+| "Bir marta akkauntimizni buzishdi" | "Qanday sezdingiz? Keyin nima qildingiz? Qancha vaqt tiklandingiz? Pul yo'qotdingizmi?" |
+| "Email orqali aldashdi" | "O'sha xabar qanday ko'rinishda edi? Kim ochdi? Keyin nima bo'ldi?" |
+| "Antivirusimiz bor" | "Qachon o'rnatgansiz? Kim o'rnatdi? Tekshirib turadimi? Xodimlar email ochganda himoya qiladimi?" |
+| "Bunday narsa bizga tegishli emas" | "Nimaga shunday deb o'ylaysiz? Xodimlar shaxsiy telefonida ishni qiladimi? Bank hisobingiz onlaynmi?" |
+| "Mijozlar talab qiladi" | "Qaysi mijoz? Qanday talab? Hozir qanday javob berasiz? Shu sababli shartnoma yo'qotganmisiz?" |
+| "Qimmat bo'lsa kerak" | "Qancha deb o'ylaysiz? Hozir shu ishga qancha sarflaysiz? (raqam so'rang)" |
+
+### 4. QAYD QILISH SHABLONI (har suhbatdan keyin — 5 daqiqa)
+
+```
+Suhbat #: _  Sana: _  Kim: _ (mikro/o'rta/ekspert)  Kanal: _
+
+1. BIZNES (1 jumla):
+2. XODIMLAR SONI / IT holati:
+3. HO'JA (hikoya — voqea):
+4. JORIY YECHIM (nima ishlatadi, qancha to'laydi):
+5. PUL (aytgan raqam):
+6. OG'RIQ DARAJASI (1-10) + izoh:
+7. 3 TA FAKT (eng muhim):
+   a.
+   b.
+   c.
+8. IQTIBOS (aniq gap — keyin marketingda ishlatiladi):
+9. TARQALISH (kimni tavsiya qildi):
+10. KEYINGI QADAM (qayta qo'ng'iroq sanasi):
+```
+
+### 5. SUHBATDOSH TOPISH KANALLARI (SMB uchun)
+1. **Bozor/savdo majmuasi:** joyiga borib, do'kon egalari bilan jonli (eng yuqori javob — yuzma-yuz)
+2. **Telegram biznes guruhlari:** "Tadbirkor", "Tadbirkor Ayol", soha guruhlari — faol yozuvchilarga shaxsiy yozish
+3. **IT Park tadbirlari / hamjamiyat:** o'rta KOBM (SaaS, outstaff) — meetup'larda tanishish
+4. **Bank biznes-menejerlari:** mijozlarini tanishtirish (bankka ham foydali — mijoz barqarorligi)
+5. **Tanishuv zanjiri:** har suhbat oxirida "yana kim?" — 1 intervyu → +1..2
+6. **Mahalliy biznes uyushmalari / palata:** rasmiy ro'yxat + tadbirlar
+
+**Qoida:** 1 kunda 2 tadan ko'p intervyu o'tkazmang (har birini chuqur yozish kerak). Eng yaxshi intervyu — 3-suhbatdan keyin keladi.
+
+### 6. MUVAFFAQIYAT MEZONI — 7 TA INTERVYUDAN KEYIN NIMA BILISHIMIZ KERAK
+
+| Savol | Javob (intervyulardan) | Nima qilamiz |
+|-------|------------------------|--------------|
+| Muammo haqiqiymi? | 3+ suhbatda bir xil hikoya (phishing/pul yo'qotish/akkaunt buzish) | Ha bo'lsa — davom; yo'q bo'lsa — og'riqni qayta aniqlash |
+| Kim ko'proq og'riyapti? | Mikro yoki o'rta? Qaysi soha? | Asosiy segmentni toraytirish |
+| To'lovga tayyormi? | Mikro: 4/5 $10–30/oy ga "ha"; o'rta: 1/2 $50–150/oy ga "ha" | Narxni tasdiqlash (QADAM 6 paketlari) |
+| Kim qaror qiladi? | Ega / menejer / CTO? | Sotuv skriptini kimga qaratish |
+| Qaysi kanal ishlaydi? | Qaysi kanaldan kelganlar rozi bo'ldi? | Marketing byudjetini shu kanalga |
+| Qanday so'zlar bilan gapirishadi? | IQTIBOSLAR ("tushunmayman", "aldashdi") | Marketing tilini ularning so'zlari bilan yozish |
+| Pivot kerakmi? | 3+ suhbat "hech qachon duch kelmaganman" yoki "hukumat hal qiladi" | AI 07 bilan pivot muhokamasi |
+
+---
+
 ## ✅ QADAM 5: PROBLEM STATEMENT — BAJARILDI (AI 01, 2026-09-04)
 
 ### 🎯 1 JUMLALIK PROBLEM STATEMENT:
