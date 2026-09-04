@@ -226,8 +226,104 @@ created: 2026-09-03
 
 ---
 
-## 🛠️ BOSQICH 2–10 (QADAMLAR 6–100)
+## ✅ QADAM 6: QIYMAT TAKLIFI — 3 PAKET + NARXLAR (BAJARILDI, AI 01 2026-09-04)
 
-**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida.
+### 💰 BOZOR NARXLARI (research)
 
-*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–5
+**Global (AQSh/Evropa) — KOBM uchun MSP narxlari:**
+- **$100–250/user/oy** — 10–25 xodimli biznes $1,000–5,000/oy to'laydi (mspcompanies.us 2026)
+- **$70–150/user/oy** — 1–50 xodimli biznes (mspaa.net 2025); Kaseya so'rovi: MSP larning 22% $50–100/user/oy sotadi
+- **$150–300+/user/oy** — xavfsizlik + compliance + 24/7 qo'shilganda (corsicatech 2025)
+- **Guardz (KOBM platforma)** — ~$5/user/oy MSP kanali orqali (identity+endpoint+email+o'qitish birga) — global "arzon KOBM" segmenti isboti
+- **Xulosa:** 15 xodimli biznes globalda $1,500–3,750/oy to'laydi — O'zbekiston KOBM i bunga qodir EMAS
+
+**O'zbekiston:**
+- Yirik audit (moliyaviy, tender) — **450 mln so'm** (tender.asia) — KOBM uchun emas
+- CYBERNODE / yirik MSSP — $1,000+/oy, faqat bank/davlat/yirik biznes
+- KOBM ning joriy xarajati: antivirus litsenziyasi ~$30–80/yil (Kaspersky Small Office) + "tanish IT" chaqiruvi — **muntazam xavfsizlik byudjeti YO'Q**
+
+### 📦 3 PAKET TAKLIFI
+
+| Paket | Kim uchun | Narx | Nima kiradi |
+|-------|-----------|------|-------------|
+| **🥉 ASOSIY** | Mikro biznes (1–10 xodim) — do'kon, kafe, xizmat | **$15/oy** (~200,000 so'm) | Phishing simulyatsiyasi (oyiga 2 ta) + xodim o'qitish moduli (Telegram, o'zbekcha) + parol kuchi tekshiruvi + oylik 1 sahifalik hisobot + Telegram ogohlantirishlar |
+| **🥈 STANDART** | Kichik biznes (10–30 xodim) — onlayn-do'kon, kichik ishlab chiqarish | **$40/oy** (~520,000 so'm) | ASOSIY + kirish auditi (email, to'lov tizimlari, CRM) + tarmoq skaneri (oylik) + "direktor nomidan" soxta xabar aniqlash + hodisaga 9–18 yordam (o'zbekcha) |
+| **🥇 PREMIUM** | O'rta biznes (30–100 xodim) — savdo tarmog'i, SaaS/outstaff | **$100/oy** (~1.3 mln so'm) | STANDART + **PP-167 moslashuv hisoboti** (mijozlarga ko'rsatish uchun) + xalqaro standartga mos audit (yiliga 2) + xodimlar sertifikati + 24/7 hodisa hotline + yillik shartnoma chegirmasi |
+
+**Narx mantiqi:** mikro $10–30/oy (QADAM 2 persona testi), o'rta $50–150/oy — paketlar shu oraliqda, 3 bosqichli upsell yo'li bilan. Globaldan **100x arzon** (user emas, biznes hisobida).
+
+### ⚖️ PP-167 NI PAKETGA BOG'LASH
+- **PP-167 (2023-05-31)** — moliyaviy, to'lov, aloqa, axborot tizimlari operatorlari uchun kiberxavfsizlik talablari; talablar **sektor bo'yicha kengaymoqda**
+- **STANDART+** paketlarga "PP-167 tekshiruvi" qo'shiladi: tizim inventarizatsiyasi, kirish nazorati, xodim o'qitish dalili, hodisa rejasi — **qonun talabini mijoz uchun tayyor mahsulotga aylantiramiz**
+- O'rta biznes (SaaS/outstaff, to'lov xizmatlari) PP-167 ga tushganda — PREMIUM sotish osonlashadi (majburiyat = sotuv argumenti)
+- Eslatma: PP-167 amaliy nazorati (kim tekshiradi, jarima) QADAM 26 da chuqurlashtiriladi — hozircha talab borligi fakt sifatida ishlatiladi
+
+### 📊 MAVJUD YECHIMLAR BILAN TAQQOSLASH
+
+| Mezon | CYBERNODE (yirik) | Kaspersky/Norton | CERT.uz (davlat) | IT freelancer | **XavfsizBiz.uz** |
+|-------|-------------------|------------------|------------------|---------------|-------------------|
+| Narx | $1,000+/oy | $30–80/yil | Bepul (davlat) | $50–200/soat | **$15–100/oy** |
+| Til | Rus/ingliz | Rus/ingliz | O'zbek (rasmiy) | Aralash | **O'zbekcha** |
+| Audit | ✅ | ❌ | ❌ (hodisa) | Qisman | **✅ kirish + tarmoq** |
+| Xodim o'qitish | ✅ (yirik format) | ❌ | ❌ | ❌ | **✅ phishing sim + modul** |
+| Oylik monitoring | ✅ | ❌ | ❌ | ❌ | **✅** |
+| Hodisaga javob | ✅ 24/7 | ❌ | ✅ (milliy) | Qisman | **✅ 9–18 / 24/7** |
+| KOBM ga mos | ❌ (sotmaydi) | ⚠️ (faqat antivirus) | ❌ | ⚠️ (sifatsiz) | **✅ asosiy segment** |
+| Hisobot (mijozga) | ✅ | ❌ | ❌ | ❌ | **✅ PREMIUM** |
+
+### 🎯 QIYMAT TAKLIFI (1 jumla):
+**"XavfsizBiz.uz — O'zbekiston KOBM i tushunadigan tilda, $15–100/oy ga kiberxavfsizlikni to'liq boshqaradi: audit, phishing sinovlari, xodim o'qitish, oylik hisobot va hodisada jonli yordam — yirik kompaniyalar xizmatining 1/100 narxida."**
+
+---
+
+## ✅ QADAM 7: 30 KUNLIK MVP — SKOP (BAJARILDI, AI 01 2026-09-04)
+
+### 🎯 MVP MAQSADI (30 kun):
+**3 beta-mijozda "xodim phishing bosadi, keyin o'qitishdan keyin bosmaydi + hisobot o'zbekcha tushunarli" degan natijani isbotlash — va ular $15–40/oy to'lashda davom etishini ko'rish.**
+
+### 📦 MVP GA KIRADI (aniq skop):
+1. **Phishing simulyatsiya (asosiy)** — 3 ta shablon: "yetkazib beruvchi hisob-faktura", "direktor nomidan so'rov", "chegirma aksiyasi"; xodim email/Telegram'iga yuboriladi; bosgan/ochgan qayd etiladi
+2. **Xodim o'qitish (Telegram bot yoki oddiy veb)** — 5 daqiqalik o'zbekcha modul: phishingni tanib olish (3 ta video + test); o'tmagan xodimga qayta yuborish
+3. **Parol auditi** — xodimlar parol kuchi tekshiruvi (HaveIBeenPwned API bepul) + 2FA yoqish bo'yicha ko'rsatma
+4. **Tarmoq skaneri (oddiy)** — 1 marta: ochiq portlar, eskirgan dasturlar, umumiy parollar (nmap/OpenVAS — ochiq manba)
+5. **1 sahifalik hisobot** — o'zbekcha: nechta xodim bosdi, qaysi zaifliklar, nima tuzatildi, kelasi oy rejasi (PDF/Telegram)
+6. **Yetkazish modeli:** 1-mijozga 1-hapta: kirish auditi → 2-3-hafta: phishing sim + o'qitish → 4-hafta: hisobot + taklif (STANDART/PREMIUM upsell)
+
+### 🚫 MVP GA KIRMAYDI (chegara — muhim!):
+- ❌ 24/7 SOC / jonli monitoring markazi (keyin — QADAM 40+)
+- ❌ O'z SIEM / log markazi (ochiq manba yechim bilan boshlanadi)
+- ❌ Ransomware qutqarish / kiber sug'urta (juda erta)
+- ❌ Yirik audit (ISO 27001, PCI DSS) — faqat PREMIUM uchun QADAM 50+
+- ❌ Mobil ilova (Telegram bot yetarli)
+- ❌ O'z tarmoq qurilmasi/agent (cloud + email simulyatsiya bilan boshlanadi)
+
+### 💰 MVP NARXI:
+| Xarajat | Summa | Izoh |
+|---------|-------|------|
+| Phishing platformasi | $0 | GoPhish (ochiq manba) yoki oddiy skript |
+| Tarmoq skaneri | $0 | nmap/OpenVAS ochiq manba |
+| Parol tekshiruvi | $0 | HaveIBeenPwned API bepul |
+| Telegram bot / veb | $0–50/oy | Vercel/Cloudflare bepul tier |
+| Kontent (video/modul) | $100–300 | O'zbekcha 3 video (freelancer) |
+| **JAMI** | **~$150–400** | 2–3 hafta ish (1 kishi) |
+
+### 🧪 3 BETA-MIJ OZ REJASI:
+1. **Bobur tipidagi onlayn-do'kon** (QADAM 2 persona) — 15 xodim, $30/oy ASOSIY — kanal: QADAM 4 intervyu ro'yxatidan 1-suhbatdosh
+2. **Kafe/oshxona tarmog'i** (2–3 filial) — 20 xodim, $40/oy STANDART — kanal: bozor/savdo majmuasi
+3. **Kichik SaaS/outstaff** (xorijiy mijozlar) — 25 xodim, $100/oy PREMIUM (PP-167 hisoboti kerak) — kanal: IT Park
+
+**Beta shartlari:** 30 kun bepul sinov (hisobot ulardan testimonial sifatida) → keyin haq to'lanadi. Har biridan: 1 testimonial + 1 taqriz + "qo'shnimga aytaman" va'dasi.
+
+### 📏 MVP MUVAFFAQIYAT MEZONI (30 kundan keyin):
+- 3/3 beta-mijoz xizmatda qolsa + $15–100/oy to'lasa → GO
+- Phishing bosish darajasi: boshlang'ich 20–40% → o'qitishdan keyin <10% (har beta-mijozda o'lchanadi)
+- 2/3 mijoz "qo'shnimga aytaman" desa → tarqalish boshlanadi
+- 3/3 hisobotni "tushunarli" desa (o'zbekcha, oddiy til)
+
+---
+
+## 🛠️ BOSQICH 2–10 (QADAMLAR 11–100)
+
+**AI 07 tomonidan to'ldiriladi** — avvalgi loyihalar (ElderlyCare, Bog'chaTop) formatida. QADAM 8–10 (global bozor, muqobil g'oyalar, 1-bosqich xulosasi) BOSQICH 1 yakuni sifatida qo'shiladi.
+
+*AI 01 — 2026-09-04 | Ish joyi: 14-Security/SMB_Cybersecurity.md* | QADAM 1–7
