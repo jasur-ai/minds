@@ -6,8 +6,8 @@ updated: 2026-09-04
 sektor: 00-Meta
 tur: meta
 holat: faol
-sarlavha: Standartlar
-qisqacha: Startup g'oyalarni qabul qilish, baholash va sifat nazorati standartlari
+sarlavha: Standartlar — UZ bozori uchun mukammal
+qisqacha: UZ bozori uchun aniq iqllik standartlari — qabul mezonlari, baholash, sifat nazorati (v3.0)
 ---
 
 # ✅ STANDARTLAR — Startup G'oyalarni Qabul Qilish va Sifat Nazorati
@@ -24,12 +24,12 @@ Yangi g'oya vaultga **faqat quyidagi 6 mezonning BARCHASI** bajarilsa qabul qili
 
 | # | Mezon | Talab | Tekshiruv manbai |
 |---|-------|-------|------------------|
-| 1 | **Aniq muammo** | "Kim uchun? Nima muammo? Qanchalik og'riqli?" — 1 jumlada | 5+ intervyu yozuvi |
-| 2 | **Real raqamlar** | Bozor hajmi, foydalanuvchi soni, narxlar — manbali | Manba linki (7+) |
-| 3 | **To'lovchi bor** | Kim pul to'laydi? Qancha? (B2C/B2B/B2B2C/donor) | Narx modeli hisobi |
-| 4 | **Bo'sh joy** | Mavjud yechim yo'q yoki kuchsiz (raqobatchilar tekshirildi) | Raqobatchilar ro'yxati |
-| 5 | **Amalga oshirish mumkin** | MVP $500 dan arzon, 1-2 kishi qura oladi | MVP byudjeti |
-| 6 | **UZ bozoriga mos** | Lokal til/infratuzilma/qonuniy doira hisobga olingan | UZ realligi bo'limi |
+| 1 | **Aniq muammo** | "Kim uchun? Nima muammo? Qanchalik og'riqli?" — 1 jumlada | 5+ intervyu yozuvi (Mom Test 🥇-🥉) |
+| 2 | **Real raqamlar** | UZ raqamlari [[STANDARTLAR]] 3.6 bazasiga solishtirilgan (aholi 37.54 mln, KOBM 1.2 mln, 0–4 yosh 4.61 mln...) | Manba linki (7+) |
+| 3 | **To'lovchi bor** | Kim to'laydi? Qancha? UZS da ham aniq (Payme/Click kanali bilan) | Narx modeli hisobi + bottom-up |
+| 4 | **Bo'sh joy** | Mavjud yechim yo'q yoki kuchsiz — goldenpages/Stat.uz tekshiruvi | Raqobatchilar ro'yxati |
+| 5 | **Amalga oshirish mumkin** | MVP $500 dan arzon, 1-2 kishi qura oladi, IT Park rezidentligi yo'li aniq | MVP byudjeti |
+| 6 | **UZ bozoriga mos** | Til (o'zbekcha), infratuzilma (Telegram/mobil internet), qonuniy doira (litsenziya?) — hammasi aniq | 🇺🇿 realligi bo'limi + 3.7 iqllik testi |
 
 > [!warning] ⛔ RAD ETISH SABABLARI (avtomatik)
 > 1. **Mavjud yechim bor** — IshTopchi, Payxem, Metanchi.uz, HEALZY, QALB, Agro-Market kabi (qayta taklif TAQIQLANADI)
@@ -155,20 +155,93 @@ Har g'oya quyidagi global investor frameworklari bilan ham tekshiriladi:
 
 ---
 
-## 🇺🇿 3.6. UZBEKISTON EKOTIZIM KONTEKSTI (standardning UZ qatlami)
+## 🇺🇿 3.6. UZBEKISTON BOZOR BAZASI (ANIQLANGAN RAQAMLAR — v3.0)
 
-G'oyani baholashda global mezonlarga **UZ bozor realiyasi** qo'shiladi:
+Har g'oya quyidagi UZ ma'lumotlar bazasiga solishtiriladi — raqamlar taxmin emas, **manbali va yangilangan**:
 
-| Omil | 2025 holati (manbali) | Standartga ta'siri |
-|-------|------------------------|---------------------|
-| Ekotizim hajmi | **771+ startup**, $489 mln+ jami funding, 96 moliyalashtirilgan kompaniya, 1 unicorn (Uzum) | Raqobat oshmoqda — bo'sh joyni tez egallash kerak |
-| Funding o'sishi | 2025 Q1–4: $110 mln (2 round) — 2024 xuddi shu davrdan +111.92% | Investor uchun tayyor loyihalar talab qilinadi |
-| IT Park imtiyozlari | 0% daromad solig'i, xarajatning 50% gacha qaytarish ($20k gacha), "1+1" co-invest $100k | Har loyihada IT Park rezidentligi hisobga olinadi |
-| StartupBase.uz | Yagona raqamli platforma (startup + investor + hamkor) | Vaultdan tashqari qo'shimcha tasdiq manbai |
-| Venture funds | 2025 Q1: 5 ta yangi fond (AloqaVentures, IT Park Ventures, xalqaro) | Exit/investor yo'li real — loyiha tayyor bo'lishi kerak |
-| President Tech Award | $1M mukofot fondi | Ma'lumot mahsuloti/PR imkoniyati |
+### A) Aholi va demografiya (2025)
+| Ko'rsatkich | Raqam | Manba |
+|-------------|-------|-------|
+| Aholi (2025-01-01) | **37.54 mln** (+51.5 ming/oy o'sish) | gazeta.uz, stat.uz |
+| 0–4 yosh bolalar | **4.61 mln** (eng yirik yosh guruhi) | kun.uz (2026-07-02) |
+| Mehnatga layoqatli yoshdan kattalar | **4.5 mln** | daryo.uz |
+| Internet foydalanuvchilari | **27.2 mln+** (25 mln+ mobil) | yuz.uz |
+| Bank kartalari / POS / bankomatlar | **69 mln** / 445 ming / 46 ming | infocom.uz |
 
-**Qo'shimcha UZ qoidasi:** g'oya xorijiy muvaffaqiyat modelini (Winnie, The Knot, Physics Wallah, Guardz) lokal bo'shliqda takrorlashi mumkin, LEKIN model manbasi ko'rsatilishi va UZ infratuzilmasiga (internet, to'lov tizimi, qonun) mosligi isbotlanishi shart.
+**Standart:** g'oya auditoriyasi soni shu raqamlar bilan tekshiriladi — "27 mln internet foydalanuvchisi" degan umumiy so'z emas, aniq segment (masalan, 0–4 yosh 4.61 mln → bog'cha bozori) ko'rsatilishi shart.
+
+### B) Tadbirkorlik va IT sektori (2025)
+| Ko'rsatkich | Raqam | Manba |
+|-------------|-------|-------|
+| Kichik tadbirkorlik subyektlari | **1.2 mln+** faol | stat.uz (2026-05-01) |
+| KOBM bozor xizmatlari hajmi | **397.5 trln so'm** (2025) | stat.uz (2025-10-24) |
+| Har 1,000 aholiga tadbirkorlik subyekti | **31.8** | stat.uz (2025-09-11) |
+| IT Park rezidentlari | **3,400+** (970+ xorijiy kapital) | it-park.uz (2026-01-07) |
+| Startup funding (jami) | **$489 mln+** · 96 kompaniya · 1 unicorn (Uzum) | elpislabs.com (2025) |
+| 2025 funding o'sishi | Q1–4: $110 mln — +111.92% (y/y) | elpislabs.com |
+
+### C) IT Park imtiyozlari (har loyiha rejasiga kiritilishi shart)
+| Imtiyoz | Shart | Manba |
+|---------|-------|-------|
+| **0% daromad solig'i** | 2031-yilgacha (IT sohasi) · O'RQ-1014 (2024-12-24) uzaytirdi | buxgalter.uz, it-park.uz |
+| Xarajatni 50% qaytarish | Xalqaro akseleratorlar uchun ($20k gacha) | elpislabs.com |
+| "1+1" co-investitsiya | **$100k gacha** (davlat + investor teng) | elpislabs.com |
+| Venture krediti | Bozor stavkasidan past shartlar | elpislabs.com |
+| President Tech Award | **$1M** mukofot fondi | elpislabs.com |
+
+**Standart:** har loyihaning MOLIYALASHTIRISH bo'limida IT Park yo'li ko'rsatiladi (rezidentlik + grant + akselerator). Bu — UZ startupning asosiy raqobat ustunligi.
+
+### D) To'lov tizimi va infratuzilma (mahsulot uchun talab)
+| Omil | Holat | Standartga ta'siri |
+|-------|-------|---------------------|
+| Payme / Click / Uzum Pay | Asosiy to'lov kanallari | Har biznes-modelda kamida 1 tasi ko'rsatilishi shart |
+| Naqd pul ulushi (qishloq) | Yuqori — ishonch kanali sifatida | "Naqd + Payme" gibrid modeli hisobga olinadi |
+| Mobil internet | 25 mln+ foydalanuvchi, tezligi +53% (2025) | Mobil-birinchi (Telegram) — app emas |
+| Telegram qamrovi | Keng — biznes kanali | Telegram bot/guruh modeli afzal (qishloqda ham) |
+| Xalqaro to'lov (diaspora) | Payme xalqaro kartalar; 2-bosqichda xorijiy yuridik shaxs | Diaspora modelida ko'rsatilishi shart |
+
+### E) Qonuniy doira (har g'oya tekshiriladi)
+| Qonun/Hujjat | Nima beradi | Qachon kerak |
+|--------------|-------------|--------------|
+| O'RQ-701 (2021) | Litsenziyalash tartibi | Tibbiy/ta'lim/parvarish xizmatlari |
+| 2022 bog'cha qonuni | Oilaviy bog'cha tartibini soddalashtirdi | Bog'cha platformalari |
+| PP-167 kiberxavfsizlik | Talablar + jarimalar | IT/xavfsizlik xizmatlari |
+| JK 278-modda | Axborot xavfsizligi buzilishi javobgarligi | Kiberxavfsizlik — ehtiyot pozitsiyasi |
+| 1% aylanma soliq (yakka tadbirkor) | Soddalashtirilgan soliq | MVP bosqichi (acsour.kz 2025-12-29 misol) |
+
+**Standart:** har faylda "Qonuniy doira" bo'limi — tegishli qonun ko'rsatilgan va litsenziya kerakmi/kerakmasligi aniq.
+
+---
+
+## 🎯 3.7. UZ STANDARTI — ANIQ IQLLIK (v3.0 yadrosi)
+
+UZ bozori uchun g'oya quyidagi **5 ta aniq iqllik talabiga** javob berishi shart:
+
+| # | Talab | Aniq iqllik mezoni | Qabul qilinmaydigan javob |
+|---|-------|--------------------|---------------------------|
+| 1 | **Aniq segment** | "27 mln internet foydalanuvchisi" EMAS — "Toshkentdagi 100k+ diaspora farzandi" | "Hamma uchun" |
+| 2 | **Aniq narx** | "$15/oy — Payme orqali" (UZS da ham: ~190k so'm) | "Raqobatdan arzon" |
+| 3 | **Aniq kanal** | "Ona zanjiri + Telegram guruhlari" (CAC $2–5) | "Marketing qilamiz" |
+| 4 | **Aniq raqam** | "1.2 mln KOBM × 5% qamrov = 60k mijoz" (bottom-up) | "Katta bozor" |
+| 5 | **Aniq qonun** | "Litsenziya shart emas (xizmat ko'rsatish); JK 278 ehtiyoti" | "Qonuniy xavf yo'q" |
+
+**Qoida:** Agar g'oya javobida "hamma", "marketing", "katta bozor", "qonuniy xavf yo'q" kabi noaniqlik bo'lsa — TUZATISH 🔄 holatiga qaytadi.
+
+---
+
+## 🌍 3.8. XALQARO MODEL LOKALIZATSIYASI (UZ uchun moslash)
+
+G'oya xorijiy muvaffaqiyat modelini takrorlashi mumkin, lekin **lokalizatsiya isboti** talab qilinadi:
+
+| Xalqaro model | UZ lokalizatsiyasi | Isbotlanishi kerak |
+|---------------|--------------------|--------------------|
+| Winnie (bog'cha, AQSh) | Bog'chaTop — 4.61 mln bola, 2022 qonun | Qonun matni + bog'cha soni |
+| The Knot (to'y, AQSh) | To'yByudjet — 200k+ to'y/yil, 25% qarz | To'y statistikasi + kalki.uz bo'shlig'i |
+| Guardz/Cynomi (MSSP) | XavfsizBiz — 1.2 mln KOBM, PP-167 | KOBM xavf statistikasi + qonun |
+| Physics Wallah (edtech, Hindiston) | QishloqMaktab — 1,600+ qishloq maktab | Maktab interneti + donor dasturlari |
+| Honor/Home Instead (parvarish, AQSh) | Parvarish.uz — 4.5 mln 60+, diaspora $3.8 mlrd | 65+ soni + remittance statistikasi |
+
+**Qoida:** model manbasi + UZ raqamlari + lokal farq (infratuzilma/qonun/madaniyat) — uchalasi bo'lsa lokalizatsiya qabul qilinadi.
 
 ---
 
@@ -233,8 +306,12 @@ qisqacha: 1 jumlalik tavsif
 | UZ realligi | Har faylda 🇺🇿 bo'limi | Qo'shish |
 | YC 3 mezon | Kichik segment + o'sish + takrorlanmaslik | Qayta ishlash |
 | Thiel 7 savol | Kamida 4/7 "ha" | Zaif nuqtani chuqurlashtirish |
-| Bottom-up hisob | Mijoz × ACV formulasi bor | Hisob qo'shish |
+| Bottom-up hisob | Mijoz × ACV formulasi bor (UZS da ham) | Hisob qo'shish |
 | Mom Test isboti | 🥇-🥉 darajali 2+ intervyu | Intervyu o'tkazish |
+| UZ aniq iqllik (3.7) | 5 talab: segment/narx/kanal/raqam/qonun — noaniqlik 0 | 3.7 testiga qaytarish |
+| UZ raqamlar bazasi (3.6) | Raqamlar manbali va yangilangan (stat.uz/it-park.uz) | Manba yangilash |
+| To'lov kanali | Payme/Click/Uzum Pay ko'rsatilgan | Kanala qo'shish |
+| IT Park yo'li | Rezidentlik/grant yo'li rejada | Qo'shish |
 
 ---
 
@@ -250,6 +327,16 @@ qisqacha: 1 jumlalik tavsif
 8. elpislabs.com (2025-06-04) — UZ startup ekotizimi 2025: 771+ startup, $489M funding, +111.92% o'sish, Uzum unicorn
 9. startupbase.uz — O'zbekiston startup ekotizimi raqamli platformasi
 10. itparkventures.uz — IT Park Ventures (Central Asia venture fund)
+11. gazeta.uz (2025-01-24) — Aholi 37,543,200 (2025-01-01), oyiga +51.5 ming
+12. kun.uz (2026-07-02) — 0–4 yosh 4.61 mln (eng yirik yosh guruhi)
+13. daryo.uz (2025-07-09) — 60+ ulushi 11.2%, mehnatga layoqatli yoshdan kattalar 4.5 mln
+14. yuz.uz — Internet foydalanuvchilari 27.2 mln+ (25 mln mobil)
+15. infocom.uz — Bank kartalari 69 mln · POS 445 ming · bankomatlar 46 ming
+16. stat.uz (2026-05-01) — 1.2 mln+ kichik tadbirkorlik subyekti
+17. stat.uz (2025-10-24) — KOBM bozor xizmatlari 397.5 trln so'm
+18. it-park.uz (2026-01-07) — 3,400+ IT Park rezidenti (970+ xorijiy kapital)
+19. buxgalter.uz (2025-01-07) — O'RQ-1014 (2024-12-24): IT Park soliq imtiyozlari 2031-gacha uzaytirildi
+20. salom-ai.uz — IT Park AI startaplar uchun 0% soliq (2031-gacha)
 
 ---
 
@@ -264,4 +351,4 @@ qisqacha: 1 jumlalik tavsif
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 (global frameworklar integratsiyasi — v2.0)*
+*Oxirgi yangilanish: 2026-09-04 (UZ bozor bazasi + aniq iqllik testi — v3.0)*
