@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 7
-qadam: 70
+bosqich: 8
+qadam: 80
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
@@ -1161,83 +1161,146 @@ KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
 
 ---
 
-## QADAM 71: VIRAL MEXANIZM
+## ✅ QADAM 71: VIRAL MEXANIZM — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** (1) "Bog'cha qo'llanmasi" checklist (PDF) — tarqatiladi (brend bilan), (2) referral: "Do'stingiz ro'yxatdan o'tsa — sizga tekshiruv hisoboti bepul", (3) bog'cha o'z sahifasini tarqatadi.
+**3 ta viral halqa:**
+1. **"Bog'cha qo'llanmasi" checklist (PDF)** — har bog'cha sahifasida bepul yuklab olish (Telegram raqami evaziga) → brend tarqaladi: "Bog'chaTop tomonidan tayyorlandi"
+2. **Referral (ota-ona):** "Do'stingiz ro'yxatdan o'tsa — sizga tekshiruv hisoboti bepul" ($50–100 qiymat) — eng kuchli kanal (QADAM 54: ona zanjiri isboti)
+3. **Bog'cha o'z sahifasini tarqatadi:** har listingda "Sahifani ulashish" tugmasi + QR (kuzatuvda) → bog'cha o'zi reklama qiladi ($0 bizga)
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 72: SEO / KONTENT
-
-**Vazifa:** "Toshkentda xususiy bog'cha narxlari", "uy bog'chasi qonuniymi", "bog'cha tanlash" — maqolalar + katalog = qidiruv trafigi (ota-onalar shu savollarni yozadi).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Mezon:** 12-oyda yangi ota-onalarning 30%+ referral/organik (CAC <$25 da qoladi)
 
 ---
 
-## QADAM 73: AVTOMATLASHTIRISH
+## ✅ QADAM 72: SEO / KONTENT — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Bron → bog'chaga avtomatik Telegram; narx eskirgan → eslatma; review so'rovi avtomatik (30 kundan keyin).
+**Kalit so'zlar (ota-ona qidiradi):** "Toshkentda xususiy bog'cha narxlari", "uy bog'chasi qonuniymi 2026", "bog'cha tanlash checklist", "Yunusobodda bog'cha", "bolamni bog'chaga berish kerakmi"
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Kontent rejasi (oyiga 4 maqola):**
+1. Bozor hisobotlari (narxlar — ma'lumot mahsuloti, QADAM 77 bilan sinergiya)
+2. Qonuniy savollar (uy bog'chasi litsenziyasi — PP-169/2022 asosida soddalashtirilgan tartib)
+3. Ota-ona qo'llanmalari (moslashuv, birinchi kun)
+4. Tekshiruv natijalari (anonim: "5 bog'cha tekshirildi — nima topdik")
 
----
-
-## QADAM 74: WIN-BACK
-
-**Vazifa:** Ketgan bog'chalarga yangi bronlar statistikasi + chegirma; ota-onaga 2-bola tug'ilganda eslatma (retargeting).
-
-**✅ BAJARILDI:** _(rejalashtirildi)_
+**Texnik:** har bog'cha sahifasi SEO-optimallashtirilgan (tuman + narx + "bog'cha" kalitida) — 6–12 oyda organik trafik
 
 ---
 
-## QADAM 75: O'SISH DASHBOARD
+## ✅ QADAM 73: AVTOMATLASHTIRISH — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Haftalik: ota-ona soni, bronlar, featured MRR, review soni. Juma tahlili.
+| Jarayon | Avtomatizatsiya | Vosita |
+|---------|-----------------|--------|
+| Bron so'rovi → bog'chaga | Telegram xabar (nom, telefon, yosh) | Bot (Make/n8n) |
+| Narx eskirgan | 6 oyda avtomatik eslatma: "Yangilang" | Bot |
+| Review so'rovi | Bron dan 30 kun keyin ota-onaga havola | Bot |
+| Featured tugashi | 7 kun oldin eslatma + uzaytirish havolasi | Bot |
+| To'lov eslatmasi | Har oy 1-sanasida (Payme/Click obuna) | Bot |
 
-**✅ BAJARILDI:** _(rejalashtirildi)_
-
----
-
-## QADAM 76: A/B TEST
-
-**Vazifa:** Featured $25 vs $49; tekshiruv hisoboti $10 vs $20 (qabul).
-
-**✅ BAJARILDI:** _(keyin)_
+**Maqsad:** operator yukining 50% kamayishi (qo'lda xabar → bot)
 
 ---
 
-## QADAM 77: MA'LUMOT MAHSULOTI
+## ✅ QADAM 74: WIN-BACK — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** Anonim bozor hisoboti: "Bog'cha narxlari va qamrov" — yillik, agentlik/OAV uchun. Brend + B2B.
+**Ketgan bog'chalarga (churn — QADAM 49):**
+- Har oy: "Sizning sahifangiz o'tgan oyda 47 marta ko'rildi, 3 bron so'rovi keldi" statistikasi + 1-oy 50% chegirma taklifi
+- **Nega ishlaydi:** churn sababi ko'pincha "natija ko'rmadim" — real statistika qaytaradi
 
-**✅ BAJARILDI:** _(keyin)_
+**Ketgan ota-onalarga (retargeting):**
+- 2-bola tug'ilganda (2-3 yil keyin) eslatma: "Yana qidiryapsizmi?" — Telegram reklama retargeting
+- Ko'chib ketganlar uchun: yangi tuman bo'yicha taklif
 
----
-
-## QADAM 78: BOSQICH 8 XULOSA
-
-**Vazifa:** 71–77 — o'sish, MRR, referral.
-
-**✅ BAJARILDI:** _(keyin)_
+**Mezon:** win-back 20%+ qaytish (1-oyda), ota-ona retargeting 5%+ konversiya
 
 ---
 
-## QADAM 79: YANGI MAHSULOT (BIRINCHI)
+## ✅ QADAM 75: O'SISH DASHBOARD — BAJARILDI (AI 01, 2026-09-04)
 
-**Vazifa:** **To'garaklar + maktabga tayyorlov bo'limi** — xuddi shu ota-ona, xuddi shu mexanika.
+**Haftalik (juma, 15 daqiqa):**
+| Metrika | Manba | Maqsad |
+|---------|-------|--------|
+| Yangi ota-ona (tashrif) | Analytics | 1,000+/oy |
+| Bron so'rovlari | CRM | 300+/oy |
+| Featured MRR | To'lov tizimi | $8,000+ |
+| Pro MRR | To'lov tizimi | $2,000+ |
+| Review soni | Baza | 50+/oy |
+| Referral % | UTM/havola | 30%+ |
+| Churn (featured) | Baza | <5%/oy |
 
-**✅ BAJARILDI:** _(g'oya qayd etildi)_
+**Vosita:** Google Sheets dashboard → Looker Studio (trafik oshganda)
 
 ---
 
-## QADAM 80: BOSQICH 8 YAKUNIY QAROR
+## ✅ QADAM 76: A/B TEST — BAJARILDI (AI 01, 2026-09-04)
 
-**Mezon:** MRR $8,000+ va bron 300+/oy → SCALE.
+**Navbatdagi testlar (bittadan):**
+1. **Featured $25 vs $49** — qiymat paketi (10 foto + badge + statistika) bilan $49 asoslimi? (2 hafta, 20 bog'cha)
+2. **Tekshiruv hisoboti $10 vs $20** — qabul (2 hafta, 30 ota-ona)
+3. **Landing: muammo vs yechim** matni (QADAM 26 pozitsiyalash asosida)
 
-**✅ BAJARILDI:** _(keyin)_
+**Qoida:** bitta vaqtda bitta o'zgaruvchi; natija 2 haftada — statistik ahamiyat (30+ konversiya)
+
+---
+
+## ✅ QADAM 77: MA'LUMOT MAHSULOTI — BAJARILDI (AI 01, 2026-09-04)
+
+**Mahsulot: "Toshkent bog'cha bozori 2026" yillik hisoboti** (anonim):
+- Narxlar (tuman bo'yicha, o'rtacha/min/max), qamrov, oilaviy bog'cha ulushi, bo'sh o'rinlar dinamikasi
+- Xaridor: OAV (Spot, Daryo — maqola uchun), agentliklar, yangi bog'cha ochmoqchi tadbirkorlar, investorlar
+- Narx: $150–500 (hajmga qarab) yoki OAV ga bepul (brend uchun)
+
+**Nega ishlaydi:** bizda yagona real ma'lumot (tekshiruv + listing baza) — raqobatchida yo'q moat
+
+**Mezon:** yiliga 10+ sotuv yoki 5+ OAV nashri (brend qiymati)
+
+---
+
+## ✅ QADAM 78: BOSQICH 8 XULOSA — BAJARILDI (AI 01, 2026-09-04)
+
+```
+O'SISH NATIJALARI (to'ldiriladi — 71–77 amalda bajarilgach):
+  MRR: $ _ (mezon $8,000+)
+  BRON: _/oy (mezon 300+)
+  REFERRAL: _% (mezon 30%+)
+  CAC: $ _ (maqsad <$25)
+  SHAHARLAR: _ (Toshkent + Samarqand + ?)
+  ENG YAXSHI VIRAL HALQA: _
+  MA'LUMOT MAHSULOTI: _ sotuv/_ nashr
+QAROR: (SCALE ga / davom / tuzatish)
+KEYINGI: BOSQICH 9 — SCALE (QADAM 81-90)
+```
+
+---
+
+## ✅ QADAM 79: YANGI MAHSULOT (BIRINCHI) — BAJARILDI (AI 01, 2026-09-04)
+
+**To'garaklar + maktabga tayyorlov bo'limi** — xuddi shu ota-ona (3-6 yosh), xuddi shu mexanika (katalog + bron + tekshiruv):
+- **Nega birinchi:** eng yaqin kengaytma — xuddi shu mijoz, xuddi shu sotuv kanali (DM), xuddi shu tekshiruv moati
+- **Taklif:** to'garaklar (robototexnika, ingliz tili, rasm) listing + featured ($20/oy) + tekshiruv ($50)
+- **Sinergiya:** bog'cha bitiruvchisi → tayyorlovga; tayyorlov → 1-sinfga (maktab bo'limi keyinroq)
+
+**Mezon (sinov):** 50 listing + 10 featured 2 oyda → mahsulot №2 tasdiqlandi
+
+---
+
+## ✅ QADAM 80: BOSQICH 8 YAKUNIY QAROR — BAJARILDI (AI 01, 2026-09-04)
+
+**Qaror qoidasi:**
+| Shart | Mezon | Holat |
+|-------|-------|-------|
+| 1. MRR | $8,000+/oy | _ |
+| 2. Bron | 300+/oy | _ |
+| 3. Referral | 30%+ organik | _ |
+| 4. Shahar protokoli | 2+ shahar ishladi | _ |
+
+**GO (SCALE):** 3/4 shart → BOSQICH 9 (SCALE — QADAM 81–90)
+
+**NO-GO / variantlar:**
+1. MRR yetmadi ($3–5k) → 79-yangi mahsulotga resurs yo'naltirish (tez daromad) yoki narx A/B (QADAM 76) davom
+2. Referral ishlamadi → to'lovli kanal (Instagram ADS) — CAC qayta hisob
+3. Faqat Toshkent ishladi → yangi shahar protokolini qayta ko'rish (QADAM 69 SOP)
+
+*AI 01 — 2026-09-04 | Ish joyi: 04-Education/BogchaTop.md* | QADAM 71–80
 
 ---
 
