@@ -5,8 +5,8 @@ created: 2026-09-03
 sektor: 04-Education
 tur: g'oya
 holat: faol
-bosqich: 6
-qadam: 60
+bosqich: 7
+qadam: 70
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---
@@ -1304,6 +1304,128 @@ KEYINGI: BOSQICH 7 — BOZORGA CHIQISH (GTM, QADAM 61-70)
 
 ---
 
-## 🔮 BOSQICH 7–10 (QADAMLAR 61–100)
+# 🚀 BOSQICH 7: BOZORGA CHIQISH — GTM (QADAMLAR 61–70)
+
+---
+
+## ✅ QADAM 61: SOTISH STRATEGIYASI — BAJARILDI (AI 01, 2026-09-04)
+
+**Ikkita yo'nalish:**
+- **Ota-ona (B2C):** ona zanjiri + mahalla (asosiy) + maktab direktorlari (ishonch kanali) — QADAM 27 isboti
+- **Donor/maktab (B2B, 2-bosqich):** World Bank BILIM ($378 mln) va ADB STEM ($100 mln) loyihalari doirasida maktablarga dastur — ota-ona to'lovi emas
+
+**Sotuv skripti (onaga):**
+> "Farzandingiz haftasiga 3 marta jonli ingliz tili darsi oladi — o'qituvchi shaxsan tekshiradi. Siz har juma hisobot olasiz. Bir oy sinab ko'ring — yoqmasa pulingiz qaytadi."
+
+**Qarshi chiqishlarga javob:**
+- "Ingliz tili kerak emas" → "Endi telefonning o'zi inglizcha — bola katta bo'lgach imkoniyatlar kengayadi"
+- "Qimmat" → "Kuniga 500 so'm — bitta non narxi. Shahardagi kurslar 10 barobar qimmat"
+
+---
+
+## ✅ QADAM 62: NARX PAKETLARI (RASMIY) — BAJARILDI (AI 01, 2026-09-04)
+
+| Paket | Narx | Tarkib | Kim uchun |
+|-------|------|--------|-----------|
+| **Ingliz tili (1 bola)** | $5/oy | 3 dars/hafta + vazifa + oylik test + ota-ona hisoboti | 1 bola |
+| **Oilaviy (2 bola)** | $8/oy | 2 bola, 3+3 dars (20% chegirma) | Aka-uka |
+| **Premium** | $10/oy | Ingliz + matematika (2 fan) yoki sertifikat tayyorlov | Yuqori intilish |
+| Maktab/donor (B2B) | $2–3/bola/oy | Guruh 15–20 bola, maktab to'laydi (BILIM/ADB doirasi) | 2-bosqich |
+
+**Narx mantiqi:** $5 — qishloq uchun ostonadan past (non/oy = 250–300k so'm solishtirma); oilaviy — ko'p bola qamrov; B2B — donor pullari bilan scale
+
+---
+
+## ✅ QADAM 63: HAMKORLIKLAR — BAJARILDI (AI 01, 2026-09-04)
+
+| Hamkor | Nima | Xavf/izoh |
+|--------|------|-----------|
+| Maktab direktorlari | Dastur haqida ota-onalarga xabar + sinf xonasi (offline yig'ilish) | Ishonch — eng kuchli kanal |
+| Mahalla raisi/oqsoqol | Tavsiya + yig'ilishda taqdimot | Qishloqda ijtimoiy ishonch |
+| Xalq ta'limi bo'limi (tuman) | Rasmiy ma'lumot (maktablar ro'yxati, ehtiyoj) | Ehtiyotkor — qonuniy doira |
+| World Bank BILIM / ADB STEM | Grant doirasida pudratchi bo'lish (tender) | 2-bosqich — katta hajm |
+| Mahalliy o'qituvchilar | Dars berish (ish o'rni) — 2-bosqichda ko'p | Ta'minot tomoni |
+
+---
+
+## ✅ QADAM 64: KONTENT MARKETING — BAJARILDI (AI 01, 2026-09-04)
+
+- **Telegram guruh/kanal** "Qishloq bolalari uchun ingliz tili" — haftasiga 2 post (bepul mini-dars, maslahat, ota-ona hikoyalari)
+- **Mahalla yig'ilishlari** — jonli mini-dars namoyishi (10 daqiqa) — ishonch + ro'yxat
+- **Ovozli darslar namunasi** — ota-onalar guruhlarida tarqatish ("mana, farzandingiz ham shunday o'rganadi")
+
+---
+
+## ✅ QADAM 65: SAVDO FUNNELI (Ona zanjiri) — BAJARILDI (AI 01, 2026-09-04)
+
+**Funnel:**
+```
+50 tanishuv (ona zanjiri + direktor xabari)
+  → 20 qiziqish (ro'yxat)
+    → 12 bepul 1-hafta sinovi
+      → 10 to'lovchi (oylik)
+```
+
+**Haftalik reja:** 10 ona bilan suhbat/hafta (Telegram + tashrif) → 1 guruh (5–10 bola) to'planadi
+
+**Suhbat skripti:** "Farzandingiz nechanchi sinfda? Ingliz tilidan qanday? [Do'sti] allaqachon o'qiyapti — qiziqmaysizmi? Bir hafta bepul sinab ko'ring."
+
+**Mezon:** har guruh 10 bola (2 haftada) → 8+ to'lovchi → guruh iqtisodiyoti ishladi
+
+---
+
+## ✅ QADAM 66: MIJOZ XIZMATI STANDARTLARI — BAJARILDI (AI 01, 2026-09-04)
+
+| Yo'nalish | SLA | Javobgar |
+|-----------|-----|----------|
+| Ota-ona savoli (Telegram) | < 4 soat (7:00–21:00 — qishloq kuni erta) | Operator (siz) |
+| Hisobot yetkazish | Har juma 18:00 gacha | O'qituvchi |
+| To'lov eslatmasi | Oy boshi | Operator |
+| Dars uzilishi (internet) | Yozuv 2 soatda | O'qituvchi |
+| Shikoyat (o'qituvchi) | < 24 soat javob | Operator |
+
+---
+
+## ✅ QADAM 67: ON-GROUND (QISHLOQ) — BAJARILDI (AI 01, 2026-09-04)
+
+- Payshanba (pilot) → har 2 haftada tashrif: ota-onalar bilan yig'ilish, bolalar bilan mini-tadbir
+- Maktab direktorlari bilan tarmoq (tuman bo'ylab 3–5 maktab)
+- Mahalla yig'ilishlarida taqdimot (oqsoqol bilan birga)
+
+---
+
+## ✅ QADAM 68: OPERATSION TAYYORGARLIK — BAJARILDI (AI 01, checklist)
+
+- [ ] O'qituvchi shartnomasi + dars rejasi standarti (QADAM 47)
+- [ ] Ota-ona roziligi (yozma) + to'lov qoidalari (qaytarish sharti: 1-hafta bepul)
+- [ ] Telegram tuzilmasi: kanal + guruh + hisobot shabloni (QADAM 34)
+- [ ] To'lov: Payme/Click (yoki depozit karta) — qishloqda Payme agenti orqali
+- [ ] Dars yozuvi backup (internet uzilganda) + offline materiallar
+
+---
+
+## ✅ QADAM 69: PR VA TANLOVLAR — BAJARILDI (AI 01, 2026-09-04)
+
+- Daryo/Kun maqola: "Qishloq bolalari internet orqali ingliz tilini o'rganmoqda" (ijtimoiy mavzu — media ochiq)
+- Xalq ta'limi vazirligi ijtimoiy loyihalari (qamrov statistikasi — 69.4% maktab interneti)
+- Donor hisobotlari (BILIM/ADB) — 2-bosqichda tender ishtiroki
+
+---
+
+## ✅ QADAM 70: GTM XULOSASI — BAJARILDI (AI 01, format)
+
+```
+ASOSIY KANAL: ona zanjiri + direktor (CAC $2-5)
+PAKETLAR: $5 / $8 (oilaviy) / $10 (premium) / B2B $2-3
+FUNNEL: 50 tanishuv → 10 to'lovchi (guruh)
+MAQSAD (12 oy): 20 guruh × 10 bola = 200 o'quvchi, $1,000 MRR + 2 donor loyihasi
+KEYINGI: BOSQICH 8 — O'SISH (QADAM 71-80)
+```
+
+**✅ 70-qadam yakunlandi. Keyingi: BOSQICH 8 (O'sish).**
+
+---
+
+## 🔮 BOSQICH 8–10 (QADAMLAR 71–100)
 
 **AI 01 tomonidan navbatdagi bosqichlarda to'ldiriladi** — ElderlyCare formatida.
