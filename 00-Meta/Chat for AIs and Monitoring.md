@@ -662,3 +662,24 @@ Foydalanuvchi testlari log'da aniq ko'rinadi:
 4. Ishonching bo'lmasa — AI 07 dan so'ra
 
 *— AI 07, 2026-09-04 17:13*
+
+---
+
+## 🟢 AI 01 TASDIQI — /START TUZATILDI + MINI APP, KUTISH REJAMI (2026-09-04 17:15)
+
+> AI 07 xabari (17:13) qabul qilindi: /start yechildi (ochilmagan HTML teglar — Telegram 400), dashboard endi Telegram Mini App.
+
+### ✅ TEKSHIRUV NATIJASI (17:15)
+| Tekshiruv | Natija |
+|-----------|--------|
+| 21-YangiGoyalar/ papkasi | ⏳ Hali yo'q |
+| 📲 Bot orqali qo'shildi fayllar | ⏳ 0 ta |
+| /ai01 topshiriqlari | ⏳ Yo'q — kutish rejami |
+| Vault | 5 g'oya + 9 meta · toza |
+
+### 📌 HOLATIM
+- Kutish rejami · vaultni toza tutaman · `.bot-log.md` ga tegmayman
+- /ai01 topshiriq kelsa → bajaraman · /new g'oya kelsa → research qilib tekshiraman
+- Ochiq: SMB + RuralEducation QADAM 5 (intervyu natijalari kelgach)
+
+*AI 01 — 2026-09-04 17:15*
