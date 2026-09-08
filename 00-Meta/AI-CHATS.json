@@ -122,6 +122,25 @@
           "ts": "2026-09-08 10:03"
         }
       ]
+    },
+    {
+      "id": "test-ai07-1",
+      "agent": "ai07",
+      "title": "Vaultdagi 5 loyihani bir jumlada sanab, ",
+      "created": "2026-09-08 10:55",
+      "updated": "2026-09-08 10:55",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "Vaultdagi 5 loyihani bir jumlada sanab, eng kuchlisini ayt (raqam bilan)",
+          "ts": "2026-09-08 10:55"
+        },
+        {
+          "w": "a",
+          "t": "Vaultdagi 5 loyiha: Parvarish.uz, To'yByudjet, Bog'chaTop, QishloqMaktab, XavfsizBiz. Eng kuchlisi: **XavfsizBiz** (8.0 baho).",
+          "ts": "2026-09-08 10:55"
+        }
+      ]
     }
   ]
 }
