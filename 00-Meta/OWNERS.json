@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-08 04:56",
+  "owners": [
+    {
+      "id": "8004724563",
+      "name": "Asosiy admin",
+      "addedAt": "init",
+      "by": "init"
+    },
+    {
+      "id": "111111111",
+      "name": "Sinov",
+      "addedAt": "2026-09-08 04:56",
+      "by": "dashboard"
+    }
+  ]
+}
