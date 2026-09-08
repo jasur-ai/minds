@@ -48,6 +48,24 @@
           "ts": "2026-09-08 06:33"
         }
       ]
+    },
+    {
+      "id": "web-mtshk5m7",
+      "title": "IDEAS-100 dan eng yaxshi 3 ta g'oyani ta",
+      "created": "2026-09-08 09:47",
+      "updated": "2026-09-08 09:47",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "IDEAS-100 dan eng yaxshi 3 ta g'oyani tanlab, nima uchun ekanini 2 jumlada tushuntir",
+          "ts": "2026-09-08 09:47"
+        },
+        {
+          "w": "a",
+          "t": "### **IDEAS-100 dan eng yaxshi 3 g'oyani tanlash:**\n\n1. **XavfsizBiz.uz (SMB kiberxavfsizlik)**  \n   - **Sabab:** KOBM larning 400k+ xavfsizlik bo'sh joyini to'ldiradi (14-Security/SMB_Cybersecurity.md). Real to'lovchi (B2B SaaS, $15–100/oy), amalga oshirish mumkin (MVP $150–400), UZ bozoriga mos (o'zbekcha, Telegram).  \n\n2. **To'yByudjet (to'y pudratchilari bozori)**  \n   - **Sabab:** 200k+ to'y bozori, 80% oila qarz olib, 65.2% to'y 50–100 mln so'm (20-Society/ToyByudjet.md). Real raqamlar, to'lovchi (komissiya + SaaS), bo'sh joy (marketplace), amalga oshirish mumkin (MVP $300–700).  \n\n3. **Bog'chaTop (bog'cha tanlash)**  \n   - **Sabab:** 780k bola davlat qamrovidan tashqarida, tekshiruv yo'q (04-Education/BogchaTop.md). Real to'lovchi (komissiya 3–5%), bo'sh joy (review + bron), amalga oshirish mumkin (MVP $300–500), UZ bozoriga mos (davlat qonuniylashtirgan).  \n\n---\n\n### **Nima uchun bu 3 g'oya eng yaxshi?**  \n- **Real to'lovchi + bo'sh joy:** Barchasida to'lovchi (B2B/SaaS) va bo'sh joy (marketplace/tekshiruv) bor.  \n- **Amalga oshirish mumkin:** MVP byudjeti $150–700, 1–2 kishi qura oladi (00-Meta/STANDARTLAR.md).  \n- **UZ bozoriga mos:** O'zbekcha, lokal infratuzilma (Telegram), qonuniy doira (litsenziya).  \n\nBu g'oyalar **7.8+ baho** bilan **GO ✅** (00-Meta/PORTFEL-2026.md), 30-kunda 150+ intervyu, 60-kunda 2 MVP, 90-kunda birinchi daromadga erishadi (00-Meta/EXEC-2026.md).",
+          "ts": "2026-09-08 09:47"
+        }
+      ]
     }
   ]
 }
