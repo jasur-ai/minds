@@ -1,4 +1,23 @@
 {
   "version": 1,
-  "sessions": []
+  "sessions": [
+    {
+      "id": "cmts7iv9badxv",
+      "title": "namuna goya qani qayerda keltirilgan?",
+      "created": "2026-09-08 06:28",
+      "updated": "2026-09-08 06:28",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "namuna goya qani qayerda keltirilgan?",
+          "ts": "2026-09-08 06:28"
+        },
+        {
+          "w": "a",
+          "t": "Namuna goya misollar quyidagi manbalarda keltirilgan:\n\n1. **Parvarish.uz (ElderlyCare)**: `20-Society/ElderlyCare.md` faylida\n2. **To'yByudjet**: `20-Society/ToyByudjet.md` faylida\n3. **Bog'chaTop**: `04-Education/BogchaTop.md` faylida\n4. **QishloqMaktab.uz**: `04-Education/RuralEducation.md` faylida\n5. **XavfsizBiz.uz (SMB kiberxavfsizlik)**: `14-Security/SMB_Cybersecurity.md` faylida\n\nBu fayllarda har bir loyiha uchun qisqacha tavsif, bozor tahlili, muammo, yechim, model, raqobat, isbot, traction, jamoa, sarmoya so'rovi va vision haqida ma'lumot berilgan.",
+          "ts": "2026-09-08 06:28"
+        }
+      ]
+    }
+  ]
 }
