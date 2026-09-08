@@ -11,7 +11,7 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 # 🌐 ECOSYSTEM — Startup G'oyalar Vaulti
 
-> *2026-09-04 meta tozalashdan so'ng: 5 ta real startup g'oyasi + 13 meta fayl*
+> *2026-09-08 tozalashdan so'ng: 5 ta real startup g'oyasi + 11 meta fayl*
 > *Faqat UZ bozorida REAL daromad, bo'sh joy va amalga oshirish mumkin bo'lgan g'oyalar saqlandi.*
 
 ---
@@ -102,12 +102,11 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | [[WORKFLOW]] | Yangi g'oya qo'shish + rivojlantirish jarayoni (template) |
 | [[PORTFEL-2026]] | Investor portfeli: ballar, byudjet, prioritet |
 | [[EXEC-2026]] | 30/60/90 kunlik ijro rejasi (intervyu → MVP → daromad) |
-| [[STARTUP-MUAMMOLAR]] | 5 g'oyaning aniq muammolari + tuzoqlar |
+| [[REAL-PROBLEMS-UZ]] | 5 g'oyaning aniq muammolari + tuzoqlar + rad etilgan g'oyalar |
 
 ### 📊 Tadqiqot
 | Fayl | Vazifa |
 |------|--------|
-| [[IDEAS-120-MERGE]] | 120 → 60 merge + FINAL 60 (manba) |
 | [[REAL-PROBLEMS-UZ]] | O'zbekistondagi real muammolar (5 g'oya bo'yicha) |
 
 ---
@@ -117,11 +116,12 @@ qisqacha: Ecosystem vault navigatsiya markazi
 | Ko'rsatkich | Qiymat |
 |-------------|--------|
 | **G'oya notalari** | 5 ta |
-| **Meta fayllar** | 13 ta |
-| **Jami notalar** | 18 ta |
+| **Meta fayllar** | 11 ta |
+| **Jami notalar** | 16 ta |
 | **O'chirilgan (1-tozalash)** | 59 ta yaroqsiz shablon nota (2026-09-04) |
 | **O'chirilgan (2-tozalash)** | 11 ta g'oya + 13 meta fayl (2026-09-04) |
 | **O'chirilgan (meta tozalash)** | 3 ta eskirgan meta fayl (2026-09-04) |
+| **O'chirilgan (2026-09-08 tozalash)** | IDEAS-120-MERGE (arxiv) + STARTUP-MUAMMOLAR (birlashtirildi) + .bot-log |
 
 ---
 
@@ -131,12 +131,11 @@ qisqacha: Ecosystem vault navigatsiya markazi
 1. **Graff ko'rishi** — barcha bog'lanishlarni vizual ko'rish
 2. **Canvas** → [[Ecosystem.canvas]] da xaritani ko'rish
 3. **AI 01 bilan ishlash** → [[Chat for AIs and Monitoring]] da prompt berish
-4. **FINAL 60 ro'yxati** → [[IDEAS-120-MERGE]]
 
 ### Asosiy fayllar:
 - **100 qadam framework** → [[STARTUP-100-STEPS]]
 - **AI 01 bilan aloqa** → [[Chat for AIs and Monitoring]]
-- **Muammo tuzoqlari** → [[STARTUP-MUAMMOLAR]]
+- **Muammo tuzoqlari** → [[REAL-PROBLEMS-UZ]]
 
 ---
 

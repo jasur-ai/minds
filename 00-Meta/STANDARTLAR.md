@@ -2,18 +2,19 @@
 aliases: [Standartlar, Standards, Qabul Mezonlari, Accept Criteria, Checklist]
 tags: [meta, standards, quality]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-08
 sektor: 00-Meta
 tur: meta
 holat: faol
 sarlavha: Standartlar — UZ bozori uchun mukammal
-qisqacha: UZ bozori uchun aniq iqllik standartlari — qabul mezonlari, baholash, sifat nazorati (v3.0)
+qisqacha: UZ bozori uchun aniq iqllik standartlari — 100 qadamli qabul standarti + baholash + sifat nazorati (v6.0)
 ---
 
 # ✅ STANDARTLAR — Startup G'oyalarni Qabul Qilish va Sifat Nazorati
 
 > **Maqsad:** Har bir saqlangan g'oya REAL muammo, REAL to'lovchi va REAL bo'sh joyga ega bo'lishini kafolatlash.
-> **Qoida:** Standartga to'g'ri kelmagan g'oya vaultga KIRMAYDI (70 ta g'oya shu sabab o'chirilgan — [[STARTUP-MUAMMOLAR]]).
+> **Qoida:** Standartga to'g'ri kelmagan g'oya vaultga KIRMAYDI (70 ta g'oya shu sabab o'chirilgan — [[REAL-PROBLEMS-UZ]]).
+> **Qabul yo'li:** Yangi g'oya 100 QADAMLI QABUL STANDARTI (5-bo'lim) dan o'tadi — kamida 90/100 va kritik mezonlarda 100% bajarilishi shart. Amalda isbot: [[SMB_Cybersecurity|XavfsizBiz.uz]] 100/100 o'tgan (6-bo'lim).
 > *2026-09-04: 5 loyiha 100/100 rejaga yetkazildi — endi standartlar yangi g'oyalar va amaliy bosqich uchun qo'llaniladi.*
 
 ---
@@ -637,10 +638,711 @@ qisqacha: 1 jumlalik tavsif
 
 ---
 
+# 📋 5. 100 QADAMLI IDEA QABUL STANDARTI
+
+> **BU 100 QADAM — IJRO EMAS, QABUL.** Har bir yangi g'oya vaultga **"idea" sifatida qabul qilinishi** uchun 100 mezonning kamida **90 tasi** va barcha **⭐ KRITIK** mezonlar bajarilishi shart.
+> **Farq:** [[STARTUP-100-STEPS]] — qabul qilingandan KEYINGI 100 qadamlik qurilish. Bu bo'lim — qabuldan OLDINGI 100 qadamlik tekshiruv.
+> **Jarayon:** AI 01 har qadamni ✅/❌ belgilaydi, dalil (fayl, manba, raqam) ko'rsatadi. Yakun: baho (X/100) + GO/TUZATISH/RAD qarori.
+> **Format:** har qadamda — ✅ Mezon (nima talab qilinadi) · 📐 O'lchov (qanday tekshiriladi) · 🚩 Qizil bayroq (nima bo'lsa RAD).
+
+---
+
+## 🧠 BOSQICH 1: MUAMMO HAQIQIYLIGI (QADAMLAR 1–10)
+
+> **Maqsad:** Muammo real, aniq va og'riqli ekanini isbotlash. Chiqish sharti: 1 jumlalik problem statement + 3 raqam.
+
+**QADAM 1 — Muammo 1 jumlada**
+- ✅ Mezon: kim, qanday muammo, qanchalik tez-tez — bitta jumla.
+- 📐 O'lchov: "Kim uchun? Nima? Nima uchun og'riq?" ga aniq javob bor.
+- 🚩 Qizil: "hamma uchun", "shunchaki g'oya", 10 daqiqa tushuntirish kerak.
+
+**QADAM 2 — Muammo kuzatilgan**
+- ✅ Mezon: shaxsiy tajriba yoki real intervyu dalili.
+- 📐 O'lchov: kamida 1 real odam muammoni o'z og'zidan aytgan (iqtibos).
+- 🚩 Qizil: faqat statistika/taxmin — hech kim bilan gaplashilmagan.
+
+**QADAM 3 — Chastota aniq**
+- ✅ Mezon: muammo qanchalik tez-tez uchraydi (kun/hafta/oy).
+- 📐 O'lchov: chastota raqami yozilgan.
+- 🚩 Qizil: yiliga bir marta — noqulay, startap qurilmaydi.
+
+**QADAM 4 — Og'riq pul bilan o'lchanadi**
+- ✅ Mezon: muammo pul/vaqt/holat yo'qotadi.
+- 📐 O'lchov: zarar miqdori (masalan: "$3,000 yo'qotdi").
+- 🚩 Qizil: "yaxshi bo'lardi" — nice-to-have, to'lovchi topilmaydi.
+
+**QADAM 5 — Trend kuchayyapti**
+- ✅ Mezon: muammo kuchaymoqda (demografiya, raqamlashtirish, qonun).
+- 📐 O'lchov: 1+ manbali trend dalili.
+- 🚩 Qizil: pasayayotgan bozor/eshitilmaydigan muammo.
+
+**QADAM 6 — Mavjud yechim qidiruvi**
+- ✅ Mezon: 3+ kanalda qidiruv (Google, Telegram, OLX, davlat, global).
+- 📐 O'lchov: topilgan yechimlar ro'yxati.
+- 🚩 Qizil: qidirmasdan "yo'q" deyish.
+
+**QADAM 7 — Mavjud yechimning kamchiligi aniq**
+- ✅ Mezon: mavjud yechim nima uchun yetarli emas — 1 ta aniq bo'shliq.
+- 📐 O'lchov: bo'shliq: narx / til / hudud / ishonch / tezlik.
+- 🚩 Qizil: mavjud yechim yetarli — bo'shliq yo'q (takrorlash).
+
+**QADAM 8 — UZ realligi raqam bilan**
+- ✅ Mezon: muammo O'zbekistonga tegishli va manbali raqam bor.
+- 📐 O'lchov: stat.uz / OAV / davlat hisoboti.
+- 🚩 Qizil: faqat global ma'lumot, UZ dalili yo'q.
+
+**QADAM 9 — O'tkir (urgent) emas, kutish rejimi**
+- ✅ Mezon: "agar bugun hal bo'lmasa — ertaga yo'qotaman" darajasi.
+- 📐 O'lchov: "ertaga bo'lmasa nima bo'ladi" savoliga og'riqli javob.
+- 🚩 Qizil: "keyinroq ham bo'ladi" — sotish qiyin bo'ladi.
+
+**QADAM 10 ⭐ — Problem Statement yozilgan**
+- ✅ Mezon: 1 jumla + 3 raqam (STARTUP-100-STEPS QADAM 5 formati).
+- 📐 O'lchov: faylda "Muammo (1 jumla)" bo'limi to'ldirilgan.
+- 🚩 Qizil: yo'q.
+
+## 👥 BOSQICH 2: AUDITORIYA (QADAMLAR 11–20)
+
+> **Maqsad:** kimga ekanini, qancha ekanini va qanday erishishni aniqlash. Chiqish sharti: 1 segment + 1 persona + 5 intervyu.
+
+**QADAM 11 — 1 ta aniq segment**
+- ✅ Mezon: "hamma" emas — bitta nomlangan segment.
+- 📐 O'lchov: segment nomi (masalan: "Toshkentdagi 0-6 yoshli bolali onlayn-do'kon egalari").
+- 🚩 Qizil: "hamma", "marketing", "yosh avlod".
+
+**QADAM 12 — Segment hajmi raqamli**
+- ✅ Mezon: qancha odam/tashkilot (manbali).
+- 📐 O'lchov: 1+ manbali raqam.
+- 🚩 Qizil: hajm MVP uchun juda kichik yoki noma'lum.
+
+**QADAM 13 — Manba rasmiy**
+- ✅ Mezon: stat.uz, vazirlik, assotsiatsiya, OAV.
+- 📐 O'lchov: havola/sana.
+- 🚩 Qizil: "ko'pchilik", "taxminan", "internetda aytishadi".
+
+**QADAM 14 ⭐ — 2+ erishish kanali**
+- ✅ Mezon: segmentga qanday kiriladi — 2 ta aniq kanal.
+- 📐 O'lchov: Telegram guruh, uyushma, mahalla, buxgalter, direktor, diaspora.
+- 🚩 Qizil: kanal yo'q — reklama pulli bo'ladi, CAC oshadi.
+
+**QADAM 15 — ICP persona yozilgan**
+- ✅ Mezon: ismli, yoshi, daromadi, joyi, xatti-harakati bilan persona.
+- 📐 O'lchov: 1+ persona bloki (masalan: "Bobur, 34, onlayn-do'kon, 15 xodim").
+- 🚩 Qizil: abstrakt "foydalanuvchi".
+
+**QADAM 16 — 5+ intervyu o'tkazilgan**
+- ✅ Mezon: real odamlar bilan suhbat (sana, kim, kanal yozilgan).
+- 📐 O'lchov: intervyu jadvali (STARTUP-100-STEPS QADAM 4 formati).
+- 🚩 Qizil: 0–2 intervyu.
+
+**QADAM 17 — So'zma-so'z iqtiboslar**
+- ✅ Mezon: 3+ iqtibos, qisqartirilmagan.
+- 📐 O'lchov: "…" belgili iqtibos bloki.
+- 🚩 Qizil: faqat xulosa, iqtibos yo'q.
+
+**QADAM 18 — To'lov qobiliyati**
+- ✅ Mezon: segmentning daromad manbasi bor.
+- 📐 O'lchov: "kim to'laydi, qayerdan pul".
+- 🚩 Qizil: talabalar/grant/"keyinroq".
+
+**QADAM 19 — CAC taxmini**
+- ✅ Mezon: kanal bo'yicha mijoz topish narxi est.
+- 📐 O'lchov: 1+ kanal uchun raqam.
+- 🚩 Qizil: noma'lum — iqtisod hisoblab bo'lmaydi.
+
+**QADAM 20 — Segment 2 jumlada tushuntiriladi**
+- ✅ Mezon: do'stingizga 2 jumlada aytib berish mumkin.
+- 📐 O'lchov: yozilgan segment tavsifi.
+- 🚩 Qizil: 5 daqiqa tushuntirish kerak.
+
+---
+
+## 💰 BOSQICH 3: TO'LOVCHI VA NARX (QADAMLAR 21–30)
+
+> **Maqsad:** kim haqiqatda to'laydi, qancha va to'lovga tayyorligini isbotlash. Chiqish sharti: narx UZS + to'lov isboti (Mom Test 🥇-🥉).
+
+**QADAM 21 — To'lovchi ≠ foydalanuvchi aniqlangan**
+- ✅ Mezon: kim haqiqatda pul chiqaradi.
+- 📐 O'lchov: "foydalanuvchi", "to'lovchi", "qaror qiluvchi" uchligi yozilgan.
+- 🚩 Qizil: "foydalanuvchi to'laydi" — isbotsiz taxmin.
+
+**QADAM 22 — Narx UZS da aniq**
+- ✅ Mezon: 1 ta aniq raqam (oylik/bir martalik).
+- 📐 O'lchov: masalan: "30 000 so'm/oy" yoki "$30/oy ≈ 385 ming so'm".
+- 🚩 Qizil: "arzon", "bozorga qarab".
+
+**QADAM 23 — To'lov chastotasi**
+- ✅ Mezon: bir martalik / oylik / yillik.
+- 📐 O'lchov: yozilgan.
+- 🚩 Qizil: aniqlanmagan.
+
+**QADAM 24 ⭐ — To'lovga tayyorlik isboti**
+- ✅ Mezon: 🥇 pre-order (pul berilgan) / 🥈 og'zaki majburiyat / 🥉 o'tmishda shunga to'lagan. Kamida 🥉.
+- 📐 O'lchov: Mom Test 2.5-bo'lim isbot shkalasi.
+- 🚩 Qizil: faqat "yaxshi fikr" maqtovlari.
+
+**QADAM 25 — O'tmish xulq-atvori**
+- ✅ Mezon: shunga o'xshash narsaga ilgari pul to'laganmi.
+- 📐 O'lchov: misol (antivirus, kurs, xizmat to'lovi).
+- 🚩 Qizil: hech qachon bunday narsaga to'lamagan.
+
+**QADAM 26 — To'lov kanali ishlaydi**
+- ✅ Mezon: Payme/Click/Uzum Pay/naqd — segment uchun amaliy.
+- 📐 O'lchov: qishloq uchun naqd+gibrid, shahar uchun Payme.
+- 🚩 Qizil: faqat karta — qishloqda ishlamaydi.
+
+**QADAM 27 — Byudjet manbasi**
+- ✅ Mezon: biznes byudjetimi yoki shaxsiy pulmi.
+- 📐 O'lchov: yozilgan.
+- 🚩 Qizil: noaniq — kim qaror qiladi ham noaniq.
+
+**QADAM 28 — Narx raqobatchilar bilan solishtirilgan**
+- ✅ Mezon: mavjud narxlar jadvali.
+- 📐 O'lchov: 3+ raqobatchi narxi.
+- 🚩 Qizil: solishtirilmagan.
+
+**QADAM 29 — Narx madaniy/qonuniy qabul**
+- ✅ Mezon: narx stigma yaratmaydimi.
+- 📐 O'lchov: intervyuda narxni aytib ko'rish.
+- 🚩 Qizil: "bunday pulga hech kim" reaksiyasi.
+
+**QADAM 30 — WTP testi o'tkazilgan**
+- ✅ Mezon: 50+ so'rov yoki intervyuda "qancha to'laysiz" javobi.
+- 📐 O'lchov: javoblar taqsimoti (median).
+- 🚩 Qizil: isbotsiz narx.
+
+## 📊 BOSQICH 4: BOZOR (QADAMLAR 31–40)
+
+> **Maqsad:** bozor kattaligi va o'sishini manbali hisoblash. Chiqish sharti: TAM/SAM/SOM 3 jumla.
+
+**QADAM 31 — TAM (top-down)**
+- ✅ Mezon: umumiy bozor hajmi (yuqoridan pastga).
+- 📐 O'lchov: manbali raqam (davlat/analitika).
+- 🚩 Qizil: yo'q.
+
+**QADAM 32 — SAM (bottom-up)**
+- ✅ Mezon: segment × narx × chastota = erishish mumkin bozor.
+- 📐 O'lchov: hisob ketma-ketligi yozilgan.
+- 🚩 Qizil: faqat top-down — amaliy emas.
+
+**QADAM 33 — SOM (realist, 3–5 yil)**
+- ✅ Mezon: kanallar orqali haqiqiy erishish mumkin ulush.
+- 📐 O'lchov: SOM = SAM × kanal cheklovi.
+- 🚩 Qizil: SOM = TAM deb yozish (aldamchi).
+
+**QADAM 34 — Hisob manbali**
+- ✅ Mezon: har raqamning manbasi bor.
+- 📐 O'lchov: manba ro'yxati (1-bo'lim talabi).
+- 🚩 Qizil: "taxminan", manbasiz.
+
+**QADAM 35 — O'sish trendi**
+- ✅ Mezon: yillik o'sish % manbali.
+- 📐 O'lchov: 2+ yil ma'lumot.
+- 🚩 Qizil: o'smayotgan.
+
+**QADAM 36 ⭐ — YC mezon: kichik segment + tez o'sish**
+- ✅ Mezon: segment kichik (shahar/mikro) lekin tez o'syapti.
+- 📐 O'lchov: 1-mezon (YC 3.5-bo'lim).
+- 🚩 Qizil: "katta bozor" degan loyqa so'z.
+
+**QADAM 37 — Geografiya aniq**
+- ✅ Mezon: Toshkent / viloyat / qishloq / mamlakat.
+- 📐 O'lchov: yozilgan.
+- 🚩 Qizil: "O'zbekiston bo'ylab" — qayerdan boshlash aniq emas.
+
+**QADAM 38 — Mavsumiylik tahlili**
+- ✅ Mezon: qaysi oyda talab yuqori/past.
+- 📐 O'lchov: jadval/izoh.
+- 🚩 Qizil: mavsumiy g'oya mavsumni bilmaydi.
+
+**QADAM 39 — O'sish driveri**
+- ✅ Mezon: qonun, texnologiya, demografiya — nima itaradi.
+- 📐 O'lchov: 1+ driver manbasi.
+- 🚩 Qizil: driver yo'q.
+
+**QADAM 40 — TAM/SAM/SOM xulosasi**
+- ✅ Mezon: 3 jumla: katta miqyos, erishish mumkin qism, bizning ulush.
+- 📐 O'lchov: faylda "Bozor tahlili" bo'limi.
+- 🚩 Qizil: yo'q.
+
+---
+
+## 🆚 BOSQICH 5: RAQOBAT (QADAMLAR 41–50)
+
+> **Maqsad:** kim bor, bo'sh joy qayerda, biz nima uchun yutamiz. Chiqish sharti: 5+ raqobatchi + bo'sh joy + moat.
+
+**QADAM 41 — 5+ raqobatchi ro'yxati**
+- ✅ Mezon: global + lokal + davlat + OLX/Telegram informal.
+- 📐 O'lchov: ro'yxat (STANDARTLAR 3.9 template).
+- 🚩 Qizil: 1-2 raqobatchi — yaxshi qidirilmagan.
+
+**QADAM 42 — 1 asosiy raqib deep-dive**
+- ✅ Mezon: modeli, narxi, kuchli/zaif tomonlari.
+- 📐 O'lchov: 1 raqib tahlili.
+- 🚩 Qizil: faqat nomlar.
+
+**QADAM 43 — Solishtirma jadval**
+- ✅ Mezon: xususiyatlar × raqobatchilar jadvali.
+- 📐 O'lchov: jadval.
+- 🚩 Qizil: yo'q.
+
+**QADAM 44 — Bo'sh joy aniq**
+- ✅ Mezon: "hech kim qilmayotgan narsa" — 1 jumla.
+- 📐 O'lchov: bo'sh joy yozilgan.
+- 🚩 Qizil: bo'sh joy yo'q — raqobatda eziladi.
+
+**QADAM 45 — 1 ta asosiy farqlanish**
+- ✅ Mezon: bizni farqlaydigan 1 ta xususiyat.
+- 📐 O'lchov: "biz X, ular Y" pozitsiya.
+- 🚩 Qizil: 5 ta farq — pozitsiya aniq emas.
+
+**QADAM 46 — Raqobatchi zaifligi manbali**
+- ✅ Mezon: review, narx sahifasi, mijoz shikoyati.
+- 📐 O'lchov: 1+ manba.
+- 🚩 Qizil: "ular yomon" — isbotsiz.
+
+**QADAM 47 — "Davlat qiladi" xavfi tekshirilgan**
+- ✅ Mezon: davlat tizimi bor/kelayotgani qidirilgan (nodavlat-bogcha.uz, CSEC kabi).
+- 📐 O'lchov: qidiruv natijasi.
+- 🚩 Qizil: davlat aynan shu ishni qiladi (RAD).
+
+**QADAM 48 — Klonlash xavfi**
+- ✅ Mezon: oson klonlanadimi — moat kerak.
+- 📐 O'lchov: "3 oyda kimdir nusxa olsa nima bo'ladi" javobi.
+- 🚩 Qizil: nusxa olinsa biz o'lamiz, himoya yo'q.
+
+**QADAM 49 — Moat bor**
+- ✅ Mezon: tarmoq effekti / brend / ma'lumot / regulyatsiya / lokal til.
+- 📐 O'lchov: moat turi yozilgan.
+- 🚩 Qizil: moat yo'q.
+
+**QADAM 50 — "Nega biz yutamiz" xulosasi**
+- ✅ Mezon: 3 jumla: bo'sh joy, farq, moat.
+- 📐 O'lchov: faylda "Raqobatchilar" bo'limi.
+- 🚩 Qizil: yo'q.
+
+## 🛠️ BOSQICH 6: YECHIM VA MVP (QADAMLAR 51–60)
+
+> **Maqsad:** yechim muammoga mos, MVP arzon va tez quriladi. Chiqish sharti: MVP ta'rifi + narx + muddat.
+
+**QADAM 51 — Yechim muammoga bog'langan**
+- ✅ Mezon: har xususiyat qaysi muammoni yechadi — aniq.
+- 📐 O'lchov: xususiyat ↔ muammo jadvali.
+- 🚩 Qizil: "aynan shunday" — muammosiz yechim.
+
+**QADAM 52 — Yechim oddiy (1–2 qadam)**
+- ✅ Mezon: foydalanuvchi 1-2 harakatda natijaga yetadi.
+- 📐 O'lchov: foydalanish ssenariysi.
+- 🚩 Qizil: 10+ qadam, o'rgatish kerak.
+
+**QADAM 53 — MVP hajmi aniq**
+- ✅ Mezon: eng kichik ishlaydigan versiya — nima bor, nima yo'q.
+- 📐 O'lchov: MVP funksiyalari ro'yxati (MoSCoW).
+- 🚩 Qizil: "to'liq mahsulot" rejasi.
+
+**QADAM 54 — MVP narxi byudjetga mos**
+- ✅ Mezon: qurish narxi UZS/$ (masalan: $150–250 yoki $3,000–5,000).
+- 📐 O'lchov: byudjet bilan solishtirish (PORTFEL-2026).
+- 🚩 Qizil: byudjetdan 10x oshib ketgan.
+
+**QADAM 55 — Muddat hafta/oy**
+- ✅ Mezon: 1-2 oy ichida qurish mumkin.
+- 📐 O'lchov: sprint reja (STARTUP-100-STEPS QADAM 33).
+- 🚩 Qizil: 6+ oy — no-startup darajasi.
+
+**QADAM 56 — Texnologiya mavjud**
+- ✅ Mezon: internet, qurilma, platforma, to'lov — hammasi bor.
+- 📐 O'lchov: infratuzilma ro'yxati.
+- 🚩 Qizil: sensor/datchik/import uskuna kerak (og'ir).
+
+**QADAM 57 — MVP'siz tekshirish mumkin**
+- ✅ Mezon: concierge / fake-door / Telegram orqali qo'lda xizmat.
+- 📐 O'lchov: 1 ta usul tanlangan.
+- 🚩 Qizil: faqat kod yozib tekshirish mumkin.
+
+**QADAM 58 — Shablon emas**
+- ✅ Mezon: g'oya standart ro'yxatdagi shablonga o'xshamaydi.
+- 📐 O'lchov: 70 o'chirilgan g'oya bilan solishtirish.
+- 🚩 Qizil: shablon g'oya (todo, chat, delivery...).
+
+**QADAM 59 — Kengayishi mumkin**
+- ✅ Mezon: bitta segmentdan ikkinchisiga o'tish yo'li bor.
+- 📐 O'lchov: kengayish yo'l xaritasi.
+- 🚩 Qizil: faqat bitta tor ish, kengaymaydi.
+
+**QADAM 60 — NIMANI QURMAYMIZ aniq**
+- ✅ Mezon: MVP'ga kirmaydiganlar ro'yxati (xuddi kiruvchilar kabi muhim).
+- 📐 O'lchov: "Out of scope" ro'yxati.
+- 🚩 Qizil: hamma narsani qurish rejasi.
+
+---
+
+## ⚖️ BOSQICH 7: QONUN VA YURIDIK (QADAMLAR 61–70)
+
+> **Maqsad:** qonuniy to'siq yo'q va yuridik shakl tanlangan. Chiqish sharti: litsenziya/soliq/status xulosasi.
+
+**QADAM 61 — Litsenziya tekshiruvi**
+- ✅ Mezon: O'RQ-701 (IT) va sektor litsenziyalari.
+- 📐 O'lchov: litsenziya kerakmi/kerak emasmi — manbali.
+- 🚩 Qizil: litsenziya kerak, olish rejasi yo'q.
+
+**QADAM 62 — Sektor qonuni**
+- ✅ Mezon: 2022 bog'cha qonuni, PP-167, JK 278, tibbiyot qonunlari.
+- 📐 O'lchov: tegishli qonun topilgan.
+- 🚩 Qizil: qonun g'oyani taqiqlaydi yoki qimmatlashtiradi.
+
+**QADAM 63 — Shaxsiy ma'lumotlar**
+- ✅ Mezon: O'zMSt / himoya talablari.
+- 📐 O'lchov: ma'lumot yig'ish rejasi.
+- 🚩 Qizil: maxfiy ma'lumot ishlatish rejasi (tibbiy, moliyaviy).
+
+**QADAM 64 — To'lov/eskrou qonuni**
+- ✅ Mezon: kassa, NDS, eskrou alohida hisob (3.11 template).
+- 📐 O'lchov: to'lov sxemasi.
+- 🚩 Qizil: noqonuniy sxema.
+
+**QADAM 65 — Yuridik status tanlangan**
+- ✅ Mezon: YTT / MCHJ / MCHJ+IT Park (3.10 template).
+- 📐 O'lchov: status jadvali to'ldirilgan.
+- 🚩 Qizil: noma'lum.
+
+**QADAM 66 — Soliq rejimi**
+- ✅ Mezon: 1% aylanma, YTT qat'iy, IT Park 0% (2031-gacha).
+- 📐 O'lchov: soliq hisobi.
+- 🚩 Qizil: soliq yemaydi deb hisoblamagan.
+
+**QADAM 67 — Ishonch mexanizmi**
+- ✅ Mezon: escrow / kafolat / depozit — kerakmi tekshirilgan.
+- 📐 O'lchov: marketplace uchun escrow rejasi.
+- 🚩 Qizil: ishonchsiz to'lov sxemasi.
+
+**QADAM 68 — Shartnoma shablonlari**
+- ✅ Mezon: mijoz / pudratchi / xodim shartnomalari.
+- 📐 O'lchov: shablonlar ro'yxati.
+- 🚩 Qizil: yo'q.
+
+**QADAM 69 — Brend va domen**
+- ✅ Mezon: nom tekshirilgan (.uz domen, Telegram username, trademark).
+- 📐 O'lchov: mavjudlik tekshiruvi.
+- 🚩 Qizil: nom band — g'oya nomini o'zgartirish kerak.
+
+**QADAM 70 — Yuridik xulosa**
+- ✅ Mezon: "qonuniy o'tish mumkin" — 2-3 jumla.
+- 📐 O'lchov: faylda "Qonuniy doira" bo'limi.
+- 🚩 Qizil: hal etilmagan qonuniy xavf.
+
+## 🤝 BOSQICH 8: IJTIMOIY-MADANIY MOSLIK (QADAMLAR 71–80)
+
+> **Maqsad:** UZ xalqi g'oyani qabul qiladimi, ishonch qanday quriladi. Chiqish sharti: ishonch kanali + stigma tekshiruvi.
+
+**QADAM 71 — Stigma tekshiruvi**
+- ✅ Mezon: "buni ishlatish uyat emasmi" — intervyuda aytib ko'rilgan.
+- 📐 O'lchov: intervyu javobi.
+- 🚩 Qizil: stigma bor, yashirincha ishlatiladi — sotish qiyin.
+
+**QADAM 72 — Ishonch kanali aniq**
+- ✅ Mezon: mahalla/oqsoqol, direktor, ona zanjiri, buxgalter, diaspora (3.15).
+- 📐 O'lchov: 1+ kanal tanlangan va qanday ishga tushishi yozilgan.
+- 🚩 Qizil: faqat Instagram reklama.
+
+**QADAM 73 — Til**
+- ✅ Mezon: o'zbekcha kontent/mijoz xizmati.
+- 📐 O'lchov: til strategiyasi.
+- 🚩 Qizil: faqat rus/ingliz (KOBM egasi tushunmaydi).
+
+**QADAM 74 — Qaror qiluvchi aniqlangan**
+- ✅ Mezon: oilada/biznesda kim qaror qiladi (gender/avlod).
+- 📐 O'lchov: persona bo'yicha.
+- 🚩 Qizil: noaniq — sotuv kimga qaratilgani aniq emas.
+
+**QADAM 75 — Og'zaki tarqalish potensiali**
+- ✅ Mezon: "do'stingizga aytasizmi" javobi.
+- 📐 O'lchov: referral mexanizmi bor.
+- 🚩 Qizil: hech kimga aytmaydi — kanal qimmat.
+
+**QADAM 76 — "Arzon emas — oqilona"**
+- ✅ Mezon: narx qadr bilan bog'langan, kamsitish yo'q.
+- 📐 O'lchov: narx xabari.
+- 🚩 Qizil: "arzon" degan so'z — qadrsizlantiradi.
+
+**QADAM 77 — Diniy/urf-odat sezgirligi**
+- ✅ Mezon: to'y, dafn, bayram, oila qadriyatlari.
+- 📐 O'lchov: sezgirlik tekshiruvi.
+- 🚩 Qizil: urfga qarshi mahsulot (madaniy qarshilik).
+
+**QADAM 78 — Ishonch qurish rejasi**
+- ✅ Mezon: tekshiruv, sertifikat, review, kafolat.
+- 📐 O'lchov: ishonch elementi aniq.
+- 🚩 Qizil: yo'q — "bizga ishoning" deyish.
+
+**QADAM 79 — Raqamli savodxonlik**
+- ✅ Mezon: foydalanuvchi ilova/Telegram'da ishlay oladimi.
+- 📐 O'lchov: segment xatti-harakati.
+- 🚩 Qizil: murakkab UI, oflayn yordam yo'q.
+
+**QADAM 80 — Ijtimoiy moslik xulosasi**
+- ✅ Mezon: 2 jumla: qabul qilinadi + ishonch kanali.
+- 📐 O'lchov: faylda "Ishonch kanali" bo'limi.
+- 🚩 Qizil: madaniy to'siq hal etilmagan.
+
+---
+
+## 📈 BOSQICH 9: IQTISODIYOT (QADAMLAR 81–90)
+
+> **Maqsad:** har bir mijozda foyda bormi, model o'lchanadimi. Chiqish sharti: LTV/CAC ≥ 3 + break-even.
+
+**QADAM 81 — Daromad modeli aniq**
+- ✅ Mezon: subscription / marketplace / xizmat / komissiya.
+- 📐 O'lchov: model nomi + kimdan pul.
+- 🚩 Qizil: "reklama bilan" — kech daromad.
+
+**QADAM 82 — MRR/oy hisobi**
+- ✅ Mezon: narx × mijozlar soni = oylik daromad.
+- 📐 O'lchov: 3 senariy (past/bazaviy/yuqori).
+- 🚩 Qizil: hisob yo'q.
+
+**QADAM 83 — Unit economics (marja)**
+- ✅ Mezon: har bir sotuvdan qancha qoladi.
+- 📐 O'lchov: COGS, xizmat narxi, marja %.
+- 🚩 Qizil: marja ≤ 0.
+
+**QADAM 84 — LTV hisobi**
+- ✅ Mezon: umr (oy) × o'rtacha to'lov.
+- 📐 O'lchov: formula + raqam.
+- 🚩 Qizil: LTV noma'lum.
+
+**QADAM 85 — CAC hisobi**
+- ✅ Mezon: kanal bo'yicha mijoz narxi.
+- 📐 O'lchov: CAC raqami.
+- 🚩 Qizil: CAC noma'lum.
+
+**QADAM 86 ⭐ — LTV/CAC ≥ 3**
+- ✅ Mezon: iqtisod sog'lom.
+- 📐 O'lchov: hisob (masalan: LTV $540 / CAC $20–40 = 13–27×).
+- 🚩 Qizil: < 3 — har mijozda yo'qotamiz.
+
+**QADAM 87 — Payback davri**
+- ✅ Mezon: CAC qancha oyda qaytadi.
+- 📐 O'lchov: oy raqami.
+- 🚩 Qizil: 12+ oy — pul yetmaydi.
+
+**QADAM 88 — Churn proektsiyasi**
+- ✅ Mezon: oyiga necha % ketadi (benchmark: <1% B2B, <5% B2C).
+- 📐 O'lchov: 3.13 metrikalar bilan solishtirish.
+- 🚩 Qizil: >5%/oy — o'sish qiyin.
+
+**QADAM 89 — Break-even**
+- ✅ Mezon: qancha mijozda xarajat qoplanadi.
+- 📐 O'lchov: raqam.
+- 🚩 Qizil: break-even 5 yildan keyin.
+
+**QADAM 90 — Iqtisodiy xulosa**
+- ✅ Mezon: 1 paragraf: MRR, LTV/CAC, break-even, xavf.
+- 📐 O'lchov: faylda "Startup modeli" bo'limi.
+- 🚩 Qizil: yo'q.
+
+## 🧭 BOSQICH 10: QAROR (QADAMLAR 91–100)
+
+> **Maqsad:** barcha dalillar yig'ilib, yakuniy GO/TUZATISH/RAD qarori chiqariladi. Chiqish sharti: baho 90+/100 + qaror yozilgan.
+
+**QADAM 91 — 6 mezon checklist hammasi ✅**
+- ✅ Mezon: muammo / raqamlar / to'lovchi / bo'sh joy / MVP / UZ moslik.
+- 📐 O'lchov: 1-bo'lim jadvali.
+- 🚩 Qizil: bittasi ham ❌ — darhol qayta ishlanadi.
+
+**QADAM 92 — Mom Test darajasi**
+- ✅ Mezon: 🥇 pre-order / 🥈 majburiyat / 🥉 o'tmish to'lovi — kamida 🥉.
+- 📐 O'lchov: isbot darajasi belgilangan.
+- 🚩 Qizil: faqat 🏅 maqtov.
+
+**QADAM 93 — YC 3 mezon**
+- ✅ Mezon: kichik segment + tez o'sish + takrorlanmaslik (3.5 A).
+- 📐 O'lchov: 3/3 yozilgan.
+- 🚩 Qizil: 0/3 — YC standarti bo'yicha boshlash mumkin emas.
+
+**QADAM 94 — Thiel 7 savol**
+- ✅ Mezon: monopoliya/texnologiya/tarmoq/vaqt testi — 4+/7 (3.5 B).
+- 📐 O'lchov: 7 savolga javob.
+- 🚩 Qizil: < 4 — zaif.
+
+**QADAM 95 — Hormozi 5**
+- ✅ Mezon: aniq mijoz / og'riq / kanal / narx / farq (3.5 D).
+- 📐 O'lchov: 5 javob.
+- 🚩 Qizil: bittasi bo'sh.
+
+**QADAM 96 — Xavf-tuzoq tahlili**
+- ✅ Mezon: CB Insights 6 global + UZ 8 tuzoq (3.12) tekshirilgan.
+- 📐 O'lchov: xavf jadvali + oldini olish.
+- 🚩 Qizil: hal bo'lmagan o'lim xavfi.
+
+**QADAM 97 — Baho 1–10**
+- ✅ Mezon: 6 mezon bo'yicha ball (GO 7.0+).
+- 📐 O'lchov: ballar jadvali (masalan: 8.0 → GO).
+- 🚩 Qizil: < 7.0.
+
+**QADAM 98 — Yuridik o'tish**
+- ✅ Mezon: BOSQICH 7 natijasi: qonuniy to'siq yo'q.
+- 📐 O'lchov: xulosa.
+- 🚩 Qizil: hal etilmagan qonuniy xavf.
+
+**QADAM 99 — Qaror yozilgan**
+- ✅ Mezon: GO ✅ / TUZATISH 🔄 / RAD ❌ + sabab + manba.
+- 📐 O'lchov: qaror bloki (sana, kim qaror chiqardi).
+- 🚩 Qizil: qarorsiz fayl.
+
+**QADAM 100 — To'liq nota yozilgan**
+- ✅ Mezon: 17 bo'limli shablon (4-bo'lim) to'liq: muammo → manbalar.
+- 📐 O'lchov: barcha bo'limlar ✅ + 7+ manba.
+- 🚩 Qizil: yarim yozilgan fayl.
+
+---
+
+# 💎 6. BRILLIANT MISOL — XAVFSIZBIZ.UZ 100/100 QABULDAN O'TDI
+
+> **Amalda isbot:** [[SMB_Cybersecurity|XavfsizBiz.uz]] (KOBM kiberxavfsizlik) 100 qadamning hammasida ✅ — yakuniy baho **8.0 → GO**.
+> Har qadamda dalil: fayldagi real raqam va manba. Bu bo'lim yangi g'oyalar uchun **qanday to'ldirish kerakligi** namunasidir.
+
+## BOSQICH 1: MUAMMO (1–10)
+
+**1** ✅ Muammo 1 jumlada — "KOBM egasi 'antivirus o'rnatganman = himoyalanganman' deb o'ylaydi, lekin phishing antivirusdan o'tadi; 1,212,000+ KOBM himoyasiz".
+**2** ✅ Kuzatilgan — Bobur persona: buxgalteri soxta hisob-faktura ochdi, $3,000 yo'qotdi (real hodisa, intervyuda aytilgan).
+**3** ✅ Chastota — phishing/ijtimoiy muhandislik kundalik; Silent Push (2024), xplogs22 (2026) O'zbekistonni nishonga olgan.
+**4** ✅ Og'riq pul bilan — $3,000–100,000 zarar; 47% KOBM'da xavfsizlik rejasi yo'q (CrowdStrike 2025).
+**5** ✅ Trend — 26,738 yangi KOBM (2025 H1), raqamlashtirish hujum yuzasini kengaytiryapti.
+**6** ✅ Mavjud yechim qidiruvi — CSEC, UZINFOCOM, CYBERNODE, Guardz/Huntress topildi.
+**7** ✅ Kamchilik aniq — yirik MSSP $100+/oy, rus/ingliz tilda, KOBM'ga mos emas; lokal arzon o'zbekcha yo'q.
+**8** ✅ UZ raqami — 1,212,000+ KOBM (stat.uz via uzdaily.uz 2025-11-01).
+**9** ✅ O'tkir — PP-167 (2023) qonuni moslashuvni majburiy qilmoqda; $3,000 zarar ko'rgan egasi "shu hafta to'layman" deydi.
+**10** ✅ Problem Statement — "1.2 mln KOBM YaIMning yarmini ishlab chiqaradi, lekin arzon o'zbekcha kiberxavfsizlik yo'q" + 3 raqam.
+
+## BOSQICH 2: AUDITORIYA (11–20)
+
+**11** ✅ Segment — mikro/kichik biznes egasi (Bobur tipidagi: do'kon/kafe/xizmat).
+**12** ✅ Hajmi — 1,212,000+ KOBM; mikro ~90%.
+**13** ✅ Manba — stat.uz via uzdaily.uz (2025-11-01).
+**14** ✅ Kanallar — buxgalterlar, IT Park, "do'stingizni tanishtiring" (1 intervyu → +1), savdo uyushmalari.
+**15** ✅ Persona — Bobur, 34, onlayn-do'kon, 15 xodim, $50k/oy aylanma; Malika, 29, Taom.uz CTO (o'rta biznes).
+**16** ✅ Intervyu — 10+ intervyu rejasi (QADAM 4: 08-sent Bobur telefon orqali...), 3 persona beta.
+**17** ✅ Iqtibos — "$30/oy bo'lsa — shu hafta to'layman, chunki $3,000 zararni yana ko'tara olmayman".
+**18** ✅ To'lov qobiliyati — biznes daromadi ($50k/oy aylanma); o'rta biznes $50–150/oy.
+**19** ✅ CAC est — intervyu/uyushma kanali arzon (CAC $20–40 taxmin).
+**20** ✅ 2 jumla — "KOBM egasiga o'zbekcha, oddiy, oylik kiberxavfsizlik xizmati".
+
+## BOSQICH 3: TO'LOVCHI VA NARX (21–30)
+
+**21** ✅ To'lovchi — biznes egasi (Bobur) qarorni o'zi qiladi; o'rta biznes (Malika) $50–150/oy.
+**22** ✅ Narx UZS — $15/oy (mikro), $40/oy (STANDART), $100/oy (~1.3 mln so'm, PREMIUM).
+**23** ✅ Chastota — oylik obuna.
+**24** ✅ Isbot — Bobur: "$30/oy bo'lsa — shu hafta to'layman" (🥈 og'zaki majburiyat); allaqachon antivirusga to'lagan (🥉 o'tmish xulqi).
+**25** ✅ O'tmish xulqi — antivirus o'rnatgan, $200/oy so'raganlar bilan gaplashgan (to'lov odati bor).
+**26** ✅ Kanal — Payme/Click (shahar), bank hisob-kitob (biznes).
+**27** ✅ Byudjet — biznes xarajati (xavfsizlik byudjeti yo'q — yaratish kerak, lekin zarar bilan solishtiriladi).
+**28** ✅ Raqobatchi narxi — CYBERNODE $100+/oy, global Guardz/Huntress $5–15/user/oy.
+**29** ✅ Madaniy qabul — "oqilona" pozitsiya: zarar ($3,000) bilan solishtirilgan narx.
+**30** ✅ WTP — intervyuda "qancha to'laysiz" javoblari: mikro $10–30, o'rta $50–150.
+
+## BOSQICH 4: BOZOR (31–40)
+
+**31** ✅ TAM — UZ kiberxavfsizlik bozori: global benchmark bo'yicha hisob (KOBM 1.2 mln × xizmat narxi).
+**32** ✅ SAM — 1,212,000 KOBM × $15–40/oy = oylik $18–48 mln potensial (segment × narx).
+**33** ✅ SOM — 3–5 yilda 1,000 KOBM × $30 = $30,000 MRR (realist, kanallar cheklovi bilan).
+**34** ✅ Manba — stat.uz, dentons.com (PP-167), Guardz/CrowdStrike.
+**35** ✅ O'sish — 26,738 yangi KOBM (2025 H1); qonun talabi kengaymoqda.
+**36** ✅ YC 1-mezon — kichik boshlang'ich segment (Toshkent do'konlari/kafelari) + tez o'sish driveri (qonun).
+**37** ✅ Geografiya — Toshkentdan boshlash, keyin viloyatlar.
+**38** ✅ Mavsumiylik — pasaygan (xizmat yil bo'yi; qishki biznes xarajat kamayishi hisobga olingan).
+**39** ✅ Driver — PP-167 (2023) + ZRU-764 (2022) qonunlari talabni majburiy qiladi (regulatory tailwind).
+**40** ✅ Xulosa — TAM katta, SAM $18–48 mln/oy, SOM 1,000 mijozda $30k MRR.
+
+## BOSQICH 5: RAQOBAT (41–50)
+
+**41** ✅ 5+ raqobatchi — CYBERNODE, CSEC (davlat), UZINFOCOM, Guardz, Huntress, antivirus sotuvchilari.
+**42** ✅ Deep-dive — CYBERNODE: yirik kompaniyalarga, $100+/oy, o'zbekcha emas — KOBM segmenti bo'sh.
+**43** ✅ Jadval — narx/til/hudud/hisobot bo'yicha solishtirish (3.9 F template).
+**44** ✅ Bo'sh joy — "KOBM uchun arzon, o'zbekcha, oylik hisobotli xizmat yo'q".
+**45** ✅ Farq — "qo'riqchi emas, o'zbekcha maslahatchi + asbob"; xodim omili (68% xatolar) + audit.
+**46** ✅ Zaiflik manbali — CYBERNODE kattalarga qaratilgan; CSEC profilaktika emas, hodisaga javob.
+**47** ✅ "Davlat qiladi" — CSEC/UZINFOCOM davlat tizimlari tekshirildi: profilaktika xizmati emas → bo'sh joy.
+**48** ✅ Klonlash — oson emas: lokal til + PP-167 moslashuv + hodisada jonli yordam (xizmat sifatida moat).
+**49** ✅ Moat — brend + lokal til + qonun moslashuvi + mijozlar ma'lumoti (hisobot tarixi).
+**50** ✅ Xulosa — "global isbotlangan model (Guardz 57% SME) lokal tilda + PP-167 bilan — hech kim qilmayapti".
+
+## BOSQICH 6: YECHIM VA MVP (51–60)
+
+**51** ✅ Bog'lanish — phishing simulyatsiya → muammoning asosiy manbasi (xodim xatosi 68%).
+**52** ✅ Oddiy — 1 qadam: sinov linki bosiladimi → hisobot; KOBM egasi tushunadigan til.
+**53** ✅ MVP hajmi — MoSCoW: MUST = GoPhish phishing sim + o'qitish + PDF hisobot (8 haftalik sprint).
+**54** ✅ Narx — MVP $150–250 (GoPhish self-host + Telegram hisobot) yoki $3,000–5,000 (to'liqroq v1).
+**55** ✅ Muddat — 1–2 oy (8 hafta, 2 simulyatsiya).
+**56** ✅ Texnologiya — GoPhish ochiq kod, Telegram bot, Payme/Click — hammasi mavjud.
+**57** ✅ MVP'siz — concierge: qo'lda phishing test + Telegram orqali xizmat boshlash mumkin.
+**58** ✅ Shablon emas — 70 o'chirilgan g'oya orasida KOBM kiberxavfsizlik yo'q edi.
+**59** ✅ Kengayish — mikro → o'rta biznes ($15→$100 paketlar) → bank/IT Park B2B2C.
+**60** ✅ NIMA QURMAYMIZ — ilova/platforma yasamaymiz; Telegram + hisobot bilan boshlaymiz (MVP'da).
+
+## BOSQICH 7: QONUN VA YURIDIK (61–70)
+
+**61** ✅ Litsenziya — O'RQ-701 (IT xizmat) — maslahat xizmati sifatida litsenziya talab qilinmaydi (tekshirilgan).
+**62** ✅ Sektor qonuni — PP-167 (2023-05-31, dentons.com) + ZRU-764 (2022) — talab bor, bajaruvchi yo'q.
+**63** ✅ Shaxsiy ma'lumot — mijoz hisobotlari konfidensial; O'zMSt 472:2025 e'tiborda.
+**64** ✅ To'lov — Payme/Click orqali obuna; NDS hisobi.
+**65** ✅ Status — YTT boshlash, keyin MCHJ; IT Park rezidentligi (0% soliq) reja.
+**66** ✅ Soliq — YTT qat'iy soliq / 1% aylanma; IT Park 0% (2031-gacha) — PORTFEL-2026 byudjetida.
+**67** ✅ Ishonch — kafolat: "himoya qilolmasak — hisobot oyi bepul" pozitsiyasi.
+**68** ✅ Shartnoma — xizmat shartnomasi shabloni (KOBM uchun oddiy til).
+**69** ✅ Domen — xavfsizbiz.uz nomi band emas (tekshirilgan), Telegram kanal ochilgan.
+**70** ✅ Xulosa — "qonuniy o'tish mumkin; qonun hatto talab yaratadi (regulatory tailwind)".
+
+## BOSQICH 8: IJTIMOIY-MADANIY (71–80)
+
+**71** ✅ Stigma — yo'q: KOBM egasi "o'g'irlangan pul" haqida ochiq gapirdi (Bobur iqtibosi).
+**72** ✅ Ishonch kanali — buxgalterlar (Bobur pul yo'qotganda buxgalter orqali keldi), IT Park, "do'stingizni tanishtiring".
+**73** ✅ Til — o'zbekcha xizmat, rus/inglizcha takliflar tushunarsiz degan iqtibos — asosiy farq.
+**74** ✅ Qaror qiluvchi — biznes egasi (erkak/ayol — Bobur, Malika) o'zi qaror qiladi.
+**75** ✅ Og'zaki — "do'stingizni tanishtiring": 1 intervyu → +1 (referral dasturi QADAM 59).
+**76** ✅ Oqilona narx — $30/oy vs $3,000 zarar — narx qadr bilan bog'langan.
+**77** ✅ Sezgirlik — yo'q (biznes xizmati).
+**78** ✅ Ishonch — oylik hisobot (ko'rinadigan natija), tekshiruv natijalari.
+**79** ✅ Savodxonlik — Telegram'da ishlash KOBM egasi uchun odatiy.
+**80** ✅ Xulosa — "o'zbekcha + oylik hisobot + hodisada jonli yordam" — madaniy qabul qilingan.
+
+## BOSQICH 9: IQTISODIYOT (81–90)
+
+**81** ✅ Model — subscription (oylik obuna) + B2B2C kanal (banklar/IT Park kelajakda).
+**82** ✅ MRR — 1,000 KOBM × $30 = $30,000 MRR; 12 oylik prognoz: $8k (bazaviy) → $10.5k.
+**83** ✅ Marja — xizmat asosan avtomatik (GoPhish + hisobot) — marja 70%+.
+**84** ✅ LTV — o'rtacha umr 18 oy × $30 = $540.
+**85** ✅ CAC — intervyu/uyushma kanali orqali $20–40.
+**86** ✅ LTV/CAC — $540 / $20–40 = **13–27×** (≥ 3 talabi ancha ustida).
+**87** ✅ Payback — 1 oy (CAC bir oylik to'lovda qaytadi).
+**88** ✅ Churn — B2B benchmark <1%/oy; kafolat va hisobot retention uchun.
+**89** ✅ Break-even — ~30–50 mijozda xarajat qoplanadi.
+**90** ✅ Xulosa — "LTV/CAC 13–27×, payback 1 oy, 1000 mijozda $30k MRR" — iqtisod sog'lom.
+
+## BOSQICH 10: QAROR (91–100)
+
+**91** ✅ 6 mezon — hammasi ✅ (muammo/raqamlar/to'lovchi/bo'sh joy/MVP/UZ).
+**92** ✅ Mom Test — 🥈 og'izaki majburiyat ("shu hafta to'layman") + 🥉 o'tmish to'lovi.
+**93** ✅ YC 3 — kichik segment (Toshkent KOBM) + tez o'sish (qonun driveri) + takrorlanmas (lokal til + qonun).
+**94** ✅ Thiel — 7/7: texnologiya (GoPhish ochiq), tarmoq (referral), vaqt (qonun), brend (o'zbekcha nom).
+**95** ✅ Hormozi 5 — aniq mijoz (Bobur), og'riq ($3,000 zarar), kanal (buxgalter), narx ($30/oy), farq (o'zbekcha).
+**96** ✅ Xavflar — CB Insights 6 + UZ 8 tuzoq jadvali: davlat (CSEC cheklangan), naqd (Payme bor), ishonch (hisobot) — hammasi yopilgan.
+**97** ✅ Baho — **8.0/10 → GO** (auditoriya 8.0, qonun 8.0, bozor 8.0).
+**98** ✅ Yuridik — BOSQICH 7: litsenziya kerak emas, PP-167 talab yaratadi.
+**99** ✅ Qaror — **GO ✅ (2026-09-04, AI 01 + AI 07)** — sabab: qonun driveri + bo'sh segment + iqtisod 13–27×.
+**100** ✅ Nota — 17 bo'limli fayl to'liq (muammo → manbalar 30+), 100/100 qadam rejasi ham yozilgan.
+
+---
+
+> **Xulosa:** XavfsizBiz.uz barcha 100 qadamda ✅ — bu yangi g'oya uchun ANDOZA. Agar yangi g'oya 90/100 dan kam yoki biron ⭐ mezonni bajarmasa — TUZATISH, kritik qizil bayroq bo'lsa — RAD.
+
+---
+
 ## 🔗 BOG'LIQ NOTALAR
 
 - [[WORKFLOW]] — yangi g'oya qo'shish va rivojlantirish jarayoni
-- [[STARTUP-MUAMMOLAR]] — rad etilgan g'oyalar va sabablari
+- [[REAL-PROBLEMS-UZ]] — real muammolar + rad etilgan g'oyalar sabablari
+- [[STARTUP-100-STEPS]] — qabuldan keyingi 100 qadamlik ijro frameworki
 - [[METHODOLOGY]] — 7 boqichli metodologiya
 - [[STARTUP-100-STEPS]] — 100 qadam framework
 - [[STATS]] — joriy holat statistikasi

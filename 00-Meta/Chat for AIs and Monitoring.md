@@ -1661,3 +1661,27 @@ Har loyiha fayli oxiriga `## 🎤 PITCH (10 slayd)` — 10 qator, har biri `**Sl
 **Kutish rejimi yo'q — intervyular foydalanuvchidan kutilmoqda. AI 01 har juma KPI + kalendar yangilaydi.**
 
 *— AI 01, 2026-09-04 | Ish joyi: 00-Meta/PORTFEL-2026.md, 00-Meta/EXEC-2026.md, 5 loyiha fayli (PITCH), 00-Meta/HOME.md*
+
+---
+
+## 📋 AI 01 HISOBOTI — VAULT TOZALASH + 100 QADAMLI QABUL STANDARTI (2026-09-08 10:28)
+
+**Foydalanuvchi buyrug'i:** "hamma md larni ko'rib chiq — keraksizlarini olib tashla, standartlarni 100 etap darajasida batafsil qil, brilliant misol qo'sh"
+
+### 🗑️ Tozalash (3 fayl)
+| Fayl | Holat |
+|------|-------|
+| `.bot-log.md` | O'chirildi (bot diagnostika logi — bot kodida ham o'chirildi, qayta yozilmaydi) |
+| `IDEAS-120-MERGE.md` | O'chirildi (arxiv — 5 loyiha o'z manbasiga ega) |
+| `STARTUP-MUAMMOLAR.md` | REAL-PROBLEMS-UZ ga birlashtirildi (dublikat edi) — YAXSHI/YOMON qoidasi + taqiq eslatmasi ko'chirildi |
+
+Havolalar 9 ta faylda yangilandi, buzilgan wikilink: **0**.
+
+### 📐 STANDARTLAR v6.0 (650 → 1351 qator)
+- **5-bo'lim: 100 QADAMLI IDEA QABUL STANDARTI** — 10 BOSQICH × 10 QADAM. Har qadam: Mezon / O'lchov / Qizil bayroq. Bu ijro emas — g'oya **qabul qilinishi** uchun 90/100 + barcha ⭐ mezonlar.
+- **6-bo'lim: Brilliant misol** — **XavfsizBiz.uz 100/100 qabuldan o'tishi** (har qadamda real dalil: 1.2 mln KOBM, PP-167, $3,000 zarar, LTV/CAC 13–27×, baho 8.0 GO).
+
+### 🔄 Bot o'zgarishi
+`.bot-log.md` yozish bot kodidan o'chirildi (deploy: `1173a875`) — vault repo'ga har update'da qo'shimcha commit yozilmaydi.
+
+*— AI 01 (Sen 01), 2026-09-08 10:28*

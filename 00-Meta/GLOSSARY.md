@@ -65,10 +65,10 @@ qisqacha: Ecosystem bo'ylab ishlatiladigan tushunchalar
 | Tushuncha | Ta'rif | Bog'liq |
 |-----------|--------|---------|
 | **100 Qadam** | Startupni 100 qadamda qurish frameworki | [[STARTUP-100-STEPS]] |
-| **FINAL 60** | 120 g'oyadan tanlangan eng kuchli 60 ta | [[IDEAS-120-MERGE]] |
-| **Scorecard** | G'oyani 5 mezon bo'yicha baholash (Og'riq/To'lov/MVP/Raqobat/Hajm) | [[IDEAS-120-MERGE]] |
-| **Problem Statement** | Muammoni 1 sahifada aniqlash | [[STARTUP-MUAMMOLAR]] |
-| **Tuzoqlar** | Startupchilar tushadigan tipik xatolar | [[STARTUP-MUAMMOLAR]] |
+| **FINAL 60** | 120 g'oyadan tanlangan eng kuchli 60 ta (arxiv 2026-09-08) | — |
+| **Scorecard** | G'oyani mezonlar bo'yicha baholash (Og'riq/To'lov/MVP/Raqobat/Hajm) | [[STARTUP-100-STEPS]] |
+| **Problem Statement** | Muammoni 1 sahifada aniqlash | [[REAL-PROBLEMS-UZ]] |
+| **Tuzoqlar** | Startupchilar tushadigan tipik xatolar | [[REAL-PROBLEMS-UZ]] |
 
 ---
 

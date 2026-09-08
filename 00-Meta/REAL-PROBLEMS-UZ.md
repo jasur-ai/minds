@@ -15,6 +15,28 @@ qisqacha: 5 g'oya bo'yicha real muammolar tahlili
 > **AI 07 tomonidan tadqiqot qilindi** | Mavjud yechimlar tekshirildi, bo'shliqlar aniqlandi
 > **Manba:** World Bank, HRW, UNESCO, UNDP, kun.uz, cabar.asia, journalehdi.com
 > *2026-09-04: 10 muammodan 8 tasi o'chirildi (g'oyalari rad etilgan) — faqat 5 ta saqlangan g'oyaga tegishlilari qoldi.*
+> *2026-09-08: STARTUP-MUAMMOLAR fayli shu yerga birlashtirildi (dublikat edi).*
+
+---
+
+## 📊 YAXSHI / YOMON STARTUP QOIDASI
+
+```
+YAXSHI STARTUP:
+✅ Muammo ANIQ (kim uchun? nima muammo?)
+✅ Yechim ODDIY (1-2 qadam bilan hal)
+✅ Natija KO'RINADIGAN (foydalanuvchi sezadi)
+✅ MAVJUD YECHIM YO'Q (hech kim qilmayapti)
+
+YOMON STARTUP:
+❌ Muammo NOMA'LUM (hamma uchun)
+❌ Murakkab (10+ qadam)
+❌ Natija ANIQ EMAS
+❌ MAVJUD YECHIM BOR (takrorlash)
+```
+
+> [!warning] ⚠️ QAYTA TAKLIF TAQIQLANADI
+> 70 ta g'oya rad etildi (mavjud yechim bor: Metanchi.uz, Payxem, IshTopchi, Agro-Market, QALB, HEALZY, Apple Pay...; not startup — davlat loyihalari; dublikat). Qayta taklif qilish TAQIQLANADI. To'liq ro'yxat: [[Chat for AIs and Monitoring]].
 
 ---
 

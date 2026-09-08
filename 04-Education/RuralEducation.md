@@ -14,7 +14,7 @@ qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — i
 # 📚 QISHLOQMAKTAB.UZ — QISHLOQ TA'LIMI — 100 QADAM
 
 > **G'oya:** Qishloq maktab o'quvchilari uchun arzon, jonli, guruhli onlayn ta'lim (ingliz tili, matematika, IT) — o'zbekcha interfeys, offline rejim, ota-ona hisoboti
-> **Manba:** [[IDEAS-120-MERGE]] FINAL 60 — #29 (42/50) | AI 01 (g'oya #8) + AI 07 merge
+> **Manba:** IDEAS-120 arxivi FINAL 60 — #29 (42/50) | AI 01 (g'oya #8) + AI 07 merge
 > **Framework:** [[STARTUP-100-STEPS]]
 
 ---

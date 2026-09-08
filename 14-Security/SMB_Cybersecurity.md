@@ -14,7 +14,7 @@ qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — 
 # 🔒 XAVFSIZBIZ.UZ — KOBM KIBERXAVFSIZLIK — 100 QADAM
 
 > **G'oya:** O'zbekiston KOBM (kichik va o'rta biznes) uchun arzon, o'zbekcha, oddiy kiberxavfsizlik xizmati — audit + phishing himoya + xodimlar o'qitish + oylik hisobot, $10–50/oy
-> **Manba:** [[IDEAS-120-MERGE]] FINAL 60 — #30 (43/50) | AI 01 (g'oya #14) + AI 07 merge
+> **Manba:** IDEAS-120 arxivi FINAL 60 — #30 (43/50) | AI 01 (g'oya #14) + AI 07 merge
 > **Framework:** [[STARTUP-100-STEPS]]
 
 ---

@@ -14,7 +14,7 @@ qisqacha: Diaspora to'laydigan tekshirilgan parvarishchi + oylik monitoring + hi
 # 👴 PARVARISH.UZ — KEKSALAR UYDA PARVARISH — 100 QADAM
 
 > **G'oya:** Diaspora farzandlari uchun ota-onalariga ishonchli uyda parvarish xizmati (tekshirilgan parvarishchi + oylik monitoring)
-> **Manba:** [[IDEAS-120-MERGE]] FINAL 60 — #1 (46/50) | AI 01 top-tavsiyasi + AI 07 merge
+> **Manba:** IDEAS-120 arxivi FINAL 60 — #1 (46/50) | AI 01 top-tavsiyasi + AI 07 merge
 > **Framework:** [[STARTUP-100-STEPS]]
 
 ---
@@ -1671,7 +1671,7 @@ ASOSIY SABOQ: _
 
 ## 🔗 BOG'LIQ NOTALAR
 
-- [[00-Meta/IDEAS-120-MERGE]] — FINAL 60 #1 manbai
+- IDEAS-120 arxivi — FINAL 60 #1 manbai
 - [[00-Meta/STARTUP-100-STEPS]] — framework
 - [[00-Meta/Chat for AIs and Monitoring]] — AI 01 bilan aloqa
 

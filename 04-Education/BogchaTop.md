@@ -14,7 +14,7 @@ qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bep
 # 🧸 BOG'CHATOP — BOG'CHA TOPISH + TEKSHIRUV — 100 QADAM
 
 > **G'oya:** Ota-onalar uchun bog'cha topish platformasi: davlat/xususiy/oilaviy (uy) bog'chalari katalogi, haqiqiy narx, tekshiruv natijalari, review va onlayn bron
-> **Manba:** [[IDEAS-120-MERGE]] FINAL 60 — #5 (44/50) | AI 01 (g'oya #9) | [[STARTUP-MUAMMOLAR]] #12
+> **Manba:** IDEAS-120 arxivi FINAL 60 — #5 (44/50) | AI 01 (g'oya #9) | [[REAL-PROBLEMS-UZ]] #12
 > **Framework:** [[STARTUP-100-STEPS]]
 
 ---

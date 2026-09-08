@@ -66,7 +66,7 @@ qisqacha: Yangi g'oya qo'shish va loyihani rivojlantirish jarayoni — to'liq te
    - **Qatlam 3 — Global frameworklar** ([[STANDARTLAR]] 3.5-bo'lim): YC 3 mezon · Thiel 7 savol (4+/7) · bottom-up hisob · Hormozi 5
 3. **Qaror** chat faylida e'lon qilinadi (SLA: 1 ish kunida):
    - **QABUL ✅** → fayl yaratiladi (17 bo'limli shablon, 11-bo'lim)
-   - **RAD ❌** → sabab yoziladi, [[STARTUP-MUAMMOLAR]] ga qo'shiladi (qayta taklif taqiqlanadi)
+   - **RAD ❌** → sabab yoziladi, [[REAL-PROBLEMS-UZ]] ga qo'shiladi (qayta taklif taqiqlanadi)
    - **TUZATISH 🔄** → qaysi qatlamda nima yetishmayapti ko'rsatiladi
 4. **Xabar** chatga yoziladi: `AI 01: [g'oya] tekshirildi — QABUL/RAD (sabab, qatlam bo'yicha)`
 
@@ -391,7 +391,7 @@ Foydalanuvchi/AI 07 bot orqali g'oya yuborganida quyidagi shablon to'ldiriladi v
 - [[STANDARTLAR]] — qabul mezonlari va sifat nazorati (UZ bozori uchun to'liq)
 - [[STARTUP-100-STEPS]] — 100 qadam framework
 - [[METHODOLOGY]] — 7 boqichli metodologiya
-- [[STARTUP-MUAMMOLAR]] — rad etilgan g'oyalar
+- [[REAL-PROBLEMS-UZ]] — rad etilgan g'oyalar
 - [[STATS]] — joriy holat
 - [[Chat for AIs and Monitoring]] — aloqa jurnali (ADR + hisobotlar)
 

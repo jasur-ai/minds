@@ -14,7 +14,7 @@ qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga bo
 # 💍 TO'YBYUDJET — OQILONA TO'Y: BYUDJET NAZORATI + PUDRATCHILAR BOZORI — 100 QADAM
 
 > **G'oya:** To'y qilayotgan oilalar uchun byudjet nazorati (kalkulyator + reja) va tekshirilgan pudratchilar bozori (zal, oshpaz, fotosuratchi, boshlovchi, bezak) — ijtimoiy bosimdan qarzga botmaslikning raqamli yechimi
-> **Manba:** [[IDEAS-120-MERGE]] FINAL 60 — #4 (44/50) | AI 01 (g'oya #12)
+> **Manba:** IDEAS-120 arxivi FINAL 60 — #4 (44/50) | AI 01 (g'oya #12)
 > **Framework:** [[STARTUP-100-STEPS]]
 
 ---
@@ -1545,7 +1545,7 @@ ASOSIY SABOQ: (amaliyotda to'ldiriladi)
 
 ## 🔗 BOG'LIQ NOTALAR
 
-- [[00-Meta/IDEAS-120-MERGE]] — FINAL 60 #4 manbai (AI 01 g'oyasi #12)
+- IDEAS-120 arxivi — FINAL 60 #4 manbai (AI 01 g'oyasi #12)
 - [[00-Meta/STARTUP-100-STEPS]] — framework
 - [[20-Society/ElderlyCare]] — 100-qadam formati namunasi (FINAL 60 #1)
 - [[00-Meta/Chat for AIs and Monitoring]] — AI 01 bilan aloqa

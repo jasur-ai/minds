@@ -39,7 +39,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 | 4 | 04-Education | RuralEducation (QishloqMaktab.uz) | 100/100 (2026-09-04) |
 | 5 | 14-Security | SMB_Cybersecurity (XavfsizBiz.uz) | 100/100 (2026-09-04) |
 
-### Meta fayllar (9 ta):
+### Meta fayllar (11 ta):
 
 | Fayl | Vazifa |
 |------|--------|
@@ -49,9 +49,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 | Chat for AIs and Monitoring | AI 07 ↔ AI 01 aloqa jurnali |
 | METHODOLOGY | Yagona metodologiya (7 boqich + UZ ekotizim + checklist) |
 | STARTUP-100-STEPS | 100 qadam framework |
-| STARTUP-MUAMMOLAR | 5 g'oyaning aniq muammolari + tuzoqlar |
-| IDEAS-120-MERGE | 120 → 60 merge + FINAL 60 (manba) |
-| REAL-PROBLEMS-UZ | O'zbekistondagi real muammolar (5 g'oya bo'yicha) |
+| REAL-PROBLEMS-UZ | O'zbekistondagi real muammolar (5 g'oya bo'yicha) + rad etilgan g'oyalar |
 
 ---
 
@@ -62,6 +60,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 | **O'chirilgan g'oya notalari** | 59 ta | 11 ta | — | 70 ta |
 | **O'chirilgan meta fayllar** | — | 13 ta | 3 ta | 16 ta |
 | **Jami o'chirilgan** | 59 ta | 24 ta | 3 ta | **86 ta** |
+| **2026-09-08 tozalash** | — | — | 3 ta | **89 ta** |
 | **Qolgan g'oya notalari** | 16 ta | 5 ta | 5 ta | — |
 | **Qolgan meta fayllar** | 23 ta | 12 ta | **9 ta** | — |
 
@@ -70,6 +69,12 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 - **STARTUP-METHODOLOGY** → METHODOLOGY ga birlashtirildi (dublikat edi)
 - **REAL-IDEAS-2026** → barcha 5 g'oyasi rad etilgan (IshTopchi, Payxem bor)
 - **UNSOLVED-PROBLEMS** → REAL-PROBLEMS-UZ bilan dublikat
+
+### Meta tozalash (2026-09-08):
+
+- **IDEAS-120-MERGE** → o'chirildi (arxiv — 5 g'oya o'z manbasiga ega)
+- **STARTUP-MUAMMOLAR** → REAL-PROBLEMS-UZ ga birlashtirildi (dublikat edi)
+- **.bot-log** → o'chirildi (bot diagnostika logi)
 
 ### 2-tozalash sabablari (web-research asosida):
 
