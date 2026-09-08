@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sessions": [
+    {
+      "id": "test1",
+      "title": "Vaultda nechta loyiha bor va ularning ho",
+      "created": "2026-09-08 05:08",
+      "updated": "2026-09-08 05:09",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "Vaultda nechta loyiha bor va ularning hozirgi bosqichi qanday?",
+          "ts": "2026-09-08 05:09"
+        },
+        {
+          "w": "a",
+          "t": "Vaultda 5 ta loyiha bor: XavfsizBiz.uz, To'yByudjet, QishloqMaktab.uz, Bog'chaTop va Parvarish.uz. Hozirgi bosqichda barcha loyihalar 100/100 qadamga yetkazilgan va ijro bosqichiga o'tgan.",
+          "ts": "2026-09-08 05:09"
+        }
+      ]
+    }
+  ]
+}
