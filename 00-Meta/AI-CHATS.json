@@ -2,20 +2,20 @@
   "version": 1,
   "sessions": [
     {
-      "id": "wikitest",
-      "title": "Wikipedia orqali tekshir: Ozbekiston Res",
-      "created": "2026-09-08 05:12",
-      "updated": "2026-09-08 05:12",
+      "id": "readtest",
+      "title": "00-Meta/METHODOLOGY.md faylini ochib, un",
+      "created": "2026-09-08 05:11",
+      "updated": "2026-09-08 05:11",
       "msgs": [
         {
           "w": "u",
-          "t": "Wikipedia orqali tekshir: Ozbekiston Respublikasining rasmiy tillari qanday?",
-          "ts": "2026-09-08 05:12"
+          "t": "00-Meta/METHODOLOGY.md faylini ochib, undagi asosiy metodologiya qadamlarini sanab ber.",
+          "ts": "2026-09-08 05:11"
         },
         {
           "w": "a",
-          "t": "O'zbekiston Respublikasining rasmiy tili o'zbek tili hisoblanadi.",
-          "ts": "2026-09-08 05:12"
+          "t": "00-Meta/METHODOLOGY.md fayli kontekstida, asosiy metodologiya qadamlari quyidagilardan iborat:\n\n1. **Problem Definition**: Muammoli vaziyatni aniqlash va ta'riflash.\n2. **Ideation**: G'oya va yechimlarni ishlab chiqish.\n3. **Research**: Tajribalar va ma'lumotlar to'plash.\n4. **Prototyping**: Prototip yaratish va sinovdan o'tkazish.\n5. **Testing**: Prototipni sinovdan o'tkazish va natijalarni tahlil qilish.\n6. **Iteration**: Natijalarga asoslanib, loyihani takomillashtirish.\n7. **Implementation**: Loyihani amalga oshirish va ishga tushirish.\n8. **Evaluation**: Loyiha natijalarini baholash va qayta tekshirish.\n\nShuningdek, ushbu metodologiya \"Lean Startup\" tamoyillariga asoslanib, quyidagi bosqichlarni o'",
+          "ts": "2026-09-08 05:11"
         }
       ]
     },
