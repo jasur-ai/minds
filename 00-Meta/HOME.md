@@ -11,8 +11,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 # 🌐 ECOSYSTEM — Startup G'oyalar Vaulti
 
-> *2026-09-08 tozalashdan so'ng: 5 ta real startup g'oyasi + 11 meta fayl*
-> *Faqat UZ bozorida REAL daromad, bo'sh joy va amalga oshirish mumkin bo'lgan g'oyalar saqlandi.*
+> *2026-09-08: 5 ta real startup loyihasi (100/100) + 100 ta yangi mass-research qilingan g'oya ([[IDEAS-100]], 0-daraja) + meta fayllar*
+> *Faqat UZ bozorida REAL daromad, bo'sh joy va amalga oshirish mumkin bo'lgan g'oyalar saqlanadi.*
 
 ---
 
@@ -39,7 +39,29 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
-## ✅ SAQLANGAN G'OYALAR (5 ta)
+## 🧠 YANGI: IDEAS-100 — 100 TA MASS-RESEARCH G'OYA (0-DARAJA)
+
+> **2026-09-08** — AI 07 mass-research (stat.uz, lex.uz, kun.uz, yuz.uz, DataReportal, cbu.uz, gazeta.uz). Barchasi [[STANDARTLAR]] 6 mezoniga tekshirilgan, **BOSQICH 0** (intervyu boshlanmagan).
+> **Katalog:** [[IDEAS-100]] · **Navbat:** sektor ichida #1 → #10 tartibida QADAM 1 (5+ intervyu) boshlanadi.
+
+| Sektor | Papka | G'oyalar | To'lovchi modeli |
+|--------|-------|:--------:|------------------|
+| 🌾 Qishloq xo'jaligi | `01-Agro` | 10 | Dehqon % + B2B |
+| 💰 Moliya | `02-Finance` | 10 | Obuna + bank lead |
+| 🏥 Sog'liq | `03-Health` | 10 | Klinika listing + obuna |
+| 📚 Ta'lim | `04-Education` | 10 (+2 mavjud) | Kurs + obuna |
+| ✈️ Turizm | `05-Tourism` | 10 | Paket % + listing |
+| 🚚 Logistika | `06-Logistics` | 10 | Do'kon % + kuryer |
+| 🛒 Savdo | `07-Trade` | 10 | Obuna + komissiya |
+| 🛠 Xizmatlar | `08-Services` | 10 | Usta % + obuna |
+| ⚡ Energiya | `09-Energy` | 10 | O'rnatuvchi lead + subsidya |
+| 💻 Texnologiya | `10-Tech` | 10 | Biznes paket + obuna |
+
+> ⚡ **Keyingi qadam:** [[IDEAS-100]] #1 lar (HosilLog, MikroQarzTaqqos, KlinikaNarx, RepetitorTop, IchkiTur, MahallaKuryer, BozorNarx, UstaTop, QuyoshHisob, BotQuruvchi) — har biri uchun 5+ intervyu.
+
+---
+
+## ✅ SAQLANGAN LOYIHALAR (5 ta — 100/100)
 
 | # | Loyiha | Soha | Nega ishlaydi | Fayl |
 |---|--------|------|---------------|------|
@@ -115,9 +137,11 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 | Ko'rsatkich | Qiymat |
 |-------------|--------|
-| **G'oya notalari** | 5 ta |
-| **Meta fayllar** | 11 ta |
-| **Jami notalar** | 16 ta |
+| **Loyihalar (100/100)** | 5 ta |
+| **Yangi g'oyalar (0-daraja, IDEAS-100)** | 100 ta |
+| **G'oya notalari (jami)** | 105 ta |
+| **Meta fayllar** | 12 ta (IDEAS-100 qo'shildi) |
+| **Jami notalar** | 117 ta |
 | **O'chirilgan (1-tozalash)** | 59 ta yaroqsiz shablon nota (2026-09-04) |
 | **O'chirilgan (2-tozalash)** | 11 ta g'oya + 13 meta fayl (2026-09-04) |
 | **O'chirilgan (meta tozalash)** | 3 ta eskirgan meta fayl (2026-09-04) |
@@ -139,5 +163,5 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 — EXEC-2026 ijro rejasi boshlangan (PORTFEL-2026 + EXEC-2026 qo'shildi)*
+*Oxirgi yangilanish: 2026-09-08 — IDEAS-100: 100 ta mass-research g'oya qo'shildi (10 sektor × 10, 0-daraja)*
 *MllyCore Ecosystem v3.2*

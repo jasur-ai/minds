@@ -20,7 +20,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 |-------------|--------|
 | **Loyiha nomi** | Ecosystem — Startup G'oyalar Vaulti |
 | **Yaratilgan sana** | 2026-09-02 |
-| **Oxirgi yangilanish** | 2026-09-04 (100/100 yakunlandi) |
+| **Oxirgi yangilanish** | 2026-09-08 (IDEAS-100: 100 g'oya qo'shildi) |
 | **Maqsad** | UZ bozorida REAL daromad beradigan startup g'oyalarni yig'ish va ishlab chiqish |
 | **Til** | O'zbek |
 | **Format** | Obsidian Markdown |
@@ -29,7 +29,26 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 
 ## 📁 Tarkibiy qismlar
 
-### Saqlangan g'oya notalari (5 ta):
+### Yangi g'oyalar — IDEAS-100 (100 ta, 0-daraja, 2026-09-08):
+
+| Sektor | Papka | G'oyalar |
+|--------|-------|:--------:|
+| Qishloq xo'jaligi | `01-Agro` | 10 (HosilLog…AgroSugurta) |
+| Moliya | `02-Finance` | 10 (MikroQarzTaqqos…SoliqYordam) |
+| Sog'liq | `03-Health` | 10 (KlinikaNarx…OziqRatsion) |
+| Ta'lim | `04-Education` | 10 (RepetitorTop…TalabaIsh) |
+| Turizm | `05-Tourism` | 10 (IchkiTur…EkoTurizm) |
+| Logistika | `06-Logistics` | 10 (MahallaKuryer…AvtoQism) |
+| Savdo | `07-Trade` | 10 (BozorNarx…SportTovar) |
+| Xizmatlar | `08-Services` | 10 (UstaTop…TadbirDekor) |
+| Energiya | `09-Energy` | 10 (QuyoshHisob…MikroEnergiya) |
+| Texnologiya | `10-Tech` | 10 (BotQuruvchi…RaqamliViza) |
+
+> Katalog: [[IDEAS-100]] · Manbalar: stat.uz, lex.uz, kun.uz, yuz.uz, gazeta.uz, DataReportal, cbu.uz, trade.gov
+
+---
+
+### Saqlangan loyihalar (5 ta — 100/100):
 
 | # | Papka | Nota | Tur |
 |---|-------|------|-----|
@@ -128,7 +147,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 
 | Ko'rsatkich | Qiymat |
 |-------------|--------|
-| **Ichki linklar** | Yangilangan (faqat saqlangan notalar) |
+| **Ichki linklar** | 98+ (IDEAS-100 dan har g'oyaga) |
 | **Buzilgan linklar** | 0 (2026-09-04 tekshirilgan) |
 | **Eng ko'p bog'langan** | IDEAS-120-MERGE, STARTUP-100-STEPS, Chat for AIs and Monitoring |
 
@@ -147,4 +166,4 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 
 ---
 
-*Oxirgi yangilanish: 2026-09-04 — 5/5 loyiha 100/100 ga yetkazildi (mega-topshiriq 4 yakuni)*
+*Oxirgi yangilanish: 2026-09-08 — IDEAS-100: 100 ta mass-research g'oya qo'shildi (10 sektor × 10, BOSQICH 0)*
