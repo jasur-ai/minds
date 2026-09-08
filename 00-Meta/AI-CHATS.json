@@ -66,6 +66,24 @@
           "ts": "2026-09-08 09:47"
         }
       ]
+    },
+    {
+      "id": "cmtsi1qurhky6",
+      "title": "xop hozirgi holat boyicha nechta goya tu",
+      "created": "2026-09-08 10:01",
+      "updated": "2026-09-08 10:01",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "xop hozirgi holat boyicha nechta goya tugallangan va nechtasi hali jarayonda?",
+          "ts": "2026-09-08 10:01"
+        },
+        {
+          "w": "a",
+          "t": "**Javob:**\n\nHozirgi holatda **5 ta loyihani tugallangan** va **5 ta loyihani jarayonda**.\n\n### **Tugallangan loyihalar (100/100):**\n1. **XavfsizBiz.uz** (SMB kiberxavfsizlik)  \n   - **Baho:** 8.0  \n   - **Holat:** GO ✅  \n   - **Tugallangan qadamlar:** 100 qadam (QADAM 91–100).  \n   - **Keyingi qadam:** 50 intervyu (QADAM 4) — 5 do'kon/kafe egasi bilan boshlash.  \n   - **Manba:** [[14-Security/SMB_Cybersecurity.md]]  \n\n2. **To'yByudjet** (to'y pudratchilari)  \n   - **Baho:** 7.8  \n   - **Holat:** GO ✅  \n   - **Tugallangan qadamlar:** 100 qadam (QADAM 91–100).  \n   - **Keyingi qadam:** 10 pudratchi katalogi (kun 60), 2 shartnoma (kun 90).  \n   - **Manba:** [[20-Society/ToyByudjet.md]]  \n\n3. **QishloqMaktab.uz** (qishloq ingliz tili)  \n   - **Baho:** 7.8  \n   - **Holat:** GO ✅  \n   - **Tugallangan qadamlar:** 100 qadam (QADAM 91–100).  \n   - **Keyingi qadam:** Payshanba maktabi direktori bilan uchrashuv + 10 ota-ona intervyusi.  \n   - **Manba:** [[04-Education/RuralEducation.md]]  \n\n4. **Bog'chaTop** (bog'cha topish)  \n   - **Baho:** 7.5  \n   - **Holat:** GO ✅  \n   - **Tugallangan qadamlar:** 100 qadam (QADAM 91–100).  \n   - **Keyingi qadam:** 30 bog'cha katalogi (kun 30), 50+ ota-ona murojaati (kun 60).  \n   - **Manba:** [[04-Education/BogchaTop.md]]  \n\n5. **Parvarish.uz** (ElderlyCare)  \n   - **Baho:** etalon  \n   - **Holat:** GO ✅  \n   - **Tugallangan qadamlar:** 100 qadam (QADAM 91–100).  \n   - **Keyingi qadam:** 1000 mijoz (400 mln so'm/yil).  \n   - **Manba:** [[20-Society/ElderlyCare.md]]  \n\n---\n\n### **Jarayonda bo'lgan loyihalar (30/60/90 kunlik ijro rejasi):**\n1. **XavfsizBiz.uz**  \n   - **30-kunlik maqsad:** 10 intervyu (5 do'kon/kafe egasi + 5 buxgalter).  \n   - **60-kunlik maqsad:** Beta davri (3–5 KOBM da 1-simulyatsiya).  \n   - **90-kunlik maqsad:** 2-mijoz to'lovi (1 beta-mijoz obuna boshladi).  \n   - **Manba:** [[00-Meta/EXEC-2026.md]]  \n\n2. **To'yByudjet**  \n   - **30-kunlik maqsad:** 30 intervyu rejasi (5 pudratchi + 10 juftlik).  \n   - **60-kunlik maqsad:** 10 pudratchi katalogi.  \n   - **90-kunlik maqsad:** 2 shartnoma.  \n   - **Manba:** [[00-Meta/EXEC-2026.md]]  \n\n3. **QishloqMaktab.uz**  \n   - **30-kunlik maqsad:** 10 oila piloti.  \n   - **60-kunlik maqsad:** 15 oila piloti.  \n   - **90-kunlik maqsad:** Donor murojaat xati.  \n   - **Manba:** [[00-Meta/EXEC-2026.md]]  \n\n4. **Bog'chaTop**  \n   - **30-kunlik maqsad:** 30 bog'cha katalogi.  \n   - **60-kunlik maqsad:** 50+ ota-ona murojaati.  \n   - **90-kunlik maqsad:** 10+ bron.  \n   - **Manba:** [[00-Meta/EXEC-2026.md]]  \n\n5. **Parvarish.uz**  \n   - **30-kunlik maqsad:** 1000 mijoz (400 mln so'm/yil).  \n   - **60-kunlik maqsad:** 2000 mijoz.  \n   - **90-kunlik maqsad:** 5 yilda donor B2B bilan 20,000 o'quvchi.  \n   - **Manba:** [[00-Meta/EXEC-2026.md]]  \n\n---\n\n### **Yakun:**\n- **Tugallangan:** 5 loyihalar (100/100).  \n- **Jarayonda:** 5 loyihalar (30/60/90 kunlik ijro rejasi).  \n- **Umumiy:** 10 loyihalar (5 tugallangan + 5 jarayonda).  \n\n**Manbalar:**  \n- [[00-Meta/PORTFEL-2026.md]]  \n- [[00-Meta/EXEC-20",
+          "ts": "2026-09-08 10:01"
+        }
+      ]
     }
   ]
 }
