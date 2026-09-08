@@ -94,6 +94,24 @@
           "ts": "2026-09-08 10:02"
         }
       ]
+    },
+    {
+      "id": "web-mtsi4ei7",
+      "title": "Eng istiqbolli 3 goya qaysilar? qisqa ja",
+      "created": "2026-09-08 10:03",
+      "updated": "2026-09-08 10:03",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "Eng istiqbolli 3 goya qaysilar? qisqa javob ber",
+          "ts": "2026-09-08 10:03"
+        },
+        {
+          "w": "a",
+          "t": "### Eng Istiqbolli 3 G'oya (Standartlarga asosan)  \n**1. XavfsizBiz.uz (SMB Kiberxavfsizlik)**  \n- **Baho:** 8.0 ✅  \n- **TAM:** 400k+ KOBM (4.61 mln 0–4 yosh bolalar + 1.2 mln KOBM)  \n- **Model:** B2B SaaS ($15/$40/$100 obuna)  \n- **MVP byudjeti:** $150–400 (GoPhish + simulyatsiya)  \n- **LTV/CAC:** 13–27× (muhim mezon)  \n- **Xavf:** Foydalanuvchi xavfsizligi (intervyu + tekshiruv protokollari)  \n\n**2. To'yByudjet (To'y Pudratchilari Bozori)**  \n- **Baho:** 7.8 ✅  \n- **TAM:** 200k+ to'y/yil (10 trln so'm+)  \n- **Model:** Marketplace + komissiya (5–10%) + SaaS (escrow)  \n- **MVP byudjeti:** $300–700 (kalkulyator + katalog)  \n- **MRR:** $10k (12 oy, 100+ pudratchi)  \n- **Xavf:** Raqobat (kalki.uz, Instagram agentliklari)  \n\n**3. Parvarish.uz (Elderly Care)**  \n- **Baho:** 8.0 ✅  \n- **TAM:** 4.5 mln 60+ yoshli aholi (11.2%)  \n- **Model:** B2C abonent (6–9 mln so'm/oy, 30–40% marja)  \n- **MVP byudjeti:** Bootstrap (parvarishchi bazasi 3 mln/oy)  \n- **Daromad:** $32k/yil (1000 mijoz)  \n- **Xavf:** Litsenziyalash (O'RQ-701 + 2026 qonuni)  \n\n---\n\n### **Nimaga bu 3?**  \n1. **XavfsizBiz.uz** — KOBMlar uchun kritik muammo (phishing, SMS-stealer), real to'lovchi (banklar + IT Park), va LTV/CAC mezonlarida yuqori.  \n2. **To'yByudjet** — Bo'sh joy (kalkulyator + tekshiruv) + global model (The Knot) + 12 oy MRR $10k.  \n3. **Parvarish.uz** — 4.5 mln 60+ yoshli aholi, donor B2B (BILIM) + 5 yilda 20,000 o'quvchi (QishloqMaktab.uz xavfsizligi).  \n\n**Qo'shimcha:** \"QishloqMaktab.uz\" ham 7.8 baho bilan 4-5 o'ringa kiritilgan, lekin \"XavfsizBiz.uz\" va \"To'yByudjet\" 100 qadam rejasi tayyor (QADAM 91–100).",
+          "ts": "2026-09-08 10:03"
+        }
+      ]
     }
   ]
 }
