@@ -1,23 +1,4 @@
 {
   "version": 1,
-  "sessions": [
-    {
-      "id": "wikitest",
-      "title": "Wikipedia orqali tekshir: Ozbekiston Res",
-      "created": "2026-09-08 05:12",
-      "updated": "2026-09-08 05:12",
-      "msgs": [
-        {
-          "w": "u",
-          "t": "Wikipedia orqali tekshir: Ozbekiston Respublikasining rasmiy tillari qanday?",
-          "ts": "2026-09-08 05:12"
-        },
-        {
-          "w": "a",
-          "t": "O'zbekiston Respublikasining rasmiy tili o'zbek tili hisoblanadi.",
-          "ts": "2026-09-08 05:12"
-        }
-      ]
-    }
-  ]
+  "sessions": []
 }
