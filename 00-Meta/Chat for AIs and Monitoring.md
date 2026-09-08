@@ -1719,3 +1719,52 @@ Har bir yetakchi uchun faylga qo'sh:
 - Push qilishni unutma — dashboard darhol ko'rsatadi.
 
 **Muhim:** bu topshiriq bot/dashboard orqali yuborildi — bajarganingdan keyin `00-Meta/Chat for AIs and Monitoring.md` ga hisobot yoz va push qil.
+
+---
+
+## 🤖 AI 07 — Multi-Agent platforma qo'shildi (2026-09-08 16:25)
+
+> **Ijrochi:** AI 01 (Sen AI 01) · **Holat:** ✅ bajarildi + jonli testdan o'tdi · **Deploy:** `fd817d44` — minds-bot.donnellg.workers.dev
+
+### 🎯 Nima qilindi — 2 agent, 1 platforma
+
+| Agent | Model | Rol | Kuchli tomoni |
+|-------|-------|-----|--------------|
+| **AI 01** | Qwen 3 30B (`qwen3-30b-a3b-fp8`) | Tahlilchi va ijrochi | Vault tahlili, manbali javob, suhbat xotirasi |
+| **AI 07** | Llama 3.3 70B (`llama-3.3-70b-instruct-fp8-fast`) | Strateg va mustaqil yaratuvchi | STANDARTLAR asosida yangi g'oya topadi + **100 qadamni avto-bajaradi** |
+
+### 🆕 AI 07 ning 2 ta mustaqil imkoniyati (avto-ijro)
+
+**1. Yangi g'oya topish (`YANGI GOYA: nom — tavsif`)**
+- STANDARTLAR v6.0 + WORKFLOW + REAL-PROBLEMS-UZ (o'chirilgan g'oyalar ro'yxati) kontekstga beriladi.
+- 10 bosqichli tuzilma bilan fayl yaratadi: Muammo → Auditoriya → To'lovchi/Narx → Raqobat → Qonuniy → Xavflar → Keyingi qadamlar → Manbalar.
+- **Yozadi:** `21-YangiGoyalar/<Nom>.md` (repo'ga, git orqali — deploy'da yo'qolmaydi).
+- **Sifat muhofazasi (`sanitizeSection`):** o'ylab topilgan sana/statistika/manba avtomatik o'chiriladi — model raqam topolmasa `[WIKI: so'rov]` research markeri qoldiradi, fantastika yozmaydi.
+
+**2. Qadam avto-bajarish (`QADAM N ni bajar: <fayl>`)**
+- STARTUP-100-STEPS qadam spetsifikatsiyasi bo'yicha qadamni bajarib **faylga qo'shadi** (butun faylni qayta yozmaydi).
+- Frontmatter avtomatik yangilanadi: `qadam: 1/100`, `bosqich: 1/10`.
+- Har qadam oxirida `🤖 AI 01 GA PROMPT` bloki chiqadi — inson/AI 01 nazorati uchun.
+- Manbalar [WIKI:] orqali tekshiriladi; topilmagan raqam yozilmaydi.
+
+### 🖥️ Dashboard (web)
+- AI bo'limida **agent switcher**: AI 01 ⇄ AI 07 (model chip: Qwen 3 30B / Llama 3.3 70B).
+- Har agent o'z rangiga ega, greeting va per-agent suhbat tarixi (repo'da `00-Meta/AI-CHATS.json`).
+- AI 07 uchun quick-actions: «💡 Yangi g'oya top» · «📋 Keyingi qadam».
+
+### 🤖 Telegram bot
+- Yangi buyruqlar: `/ask07 <savol>` (AI 07 ga bevosita), `/ai07`, `/agents` (ro'yxat).
+- `/ask` — ai01, `/ask07` — ai07; har biri o'z sessiyasini saqlaydi (`tg-<id>` / `tg07-<id>`).
+
+### 🧪 Jonli test natijalari (2026-09-08)
+- ✅ `/api/agents` — 2 agent metama'lumot bilan qaytadi.
+- ✅ AI 07 oddiy savolga javob berdi (agent: ai07, sid: web-ai07-…).
+- ✅ **Avto-g'oya:** `KichikBiznesQollanma` yaratildi → repo'ga yozildi → tekshirildi → tozalandi.
+- ✅ **Avto-qadam:** shu faylda QADAM 1 bajarildi → frontmatter `qadam: 1/100` ga yangilandi → repo'ga yozildi.
+- ✅ `sanitizeSection`: o'ylab topilgan sana/statistika yozilmadi (avvalgi `kun.uz 2025-07-11 n=1,247` muammosi hal bo'ldi).
+- ✅ Test fayllar tozalandi — `21-YangiGoyalar/` bo'sh (avtomatik yaratiladi).
+
+### 📌 Qoidalar (AI 01 va boshqa agentlar uchun)
+- `21-YangiGoyalar/` — AI 07 avto-yaratgan g'oyalar keladi. Ularni ko'rib chiqib, 100 qadamli qabul standartidan o'tganini tasdiqlang yoki rad eting.
+- AI-CHATS.json endi har agent uchun alohida sessiyalar saqlaydi (`agent` maydoni).
+- Sessiya kesh TTL 3s — parallel yozishda eskirgan snapshot yo'qolmaydi.
