@@ -5,7 +5,7 @@
       "id": "cmts7iv9badxv",
       "title": "namuna goya qani qayerda keltirilgan?",
       "created": "2026-09-08 06:28",
-      "updated": "2026-09-08 06:30",
+      "updated": "2026-09-08 06:31",
       "msgs": [
         {
           "w": "u",
@@ -26,6 +26,16 @@
           "w": "a",
           "t": "Namuna goya misoli \"XavfsizBiz.uz\" quyidagi manbalarda keltirilgan:\n\n1. **00-Meta/HOME.md**: `✅ SAQLANGAN G'OYALAR (5 ta)` bo'limida XavfsizBiz.uz loyihasi haqida ma'lumot berilgan.\n2. **14-Security/SMB_Cybersecurity.md**: Bu fayl XavfsizBiz.uz loyihasi haqida batafsil ma'lumotlarni o'z ichiga oladi.\n3. **00-Meta/EXEC-2026.md**: XavfsizBiz.uz loyihasi 30/60/90 kunlik ijro rejasida alohida e'tibor berilgan.\n4. **00-Meta/PORTFEL-2026.md**: XavfsizBiz.uz loyihasi investor portfelida baho 8.0 bilan 1-prioritet sifatida ko'rsatilgan.\n\nShunday qilib, \"XavfsizBiz.uz\" goyasining batafsil ma'lumot",
           "ts": "2026-09-08 06:30"
+        },
+        {
+          "w": "u",
+          "t": "unda xuddi shulardan namuna qilib yani goya top standararni tekshir idea bolishi uchun 100 tas etapdan o'tishi kere shulardan o'tkazib bitta idea ber yangi va uni idealarga qosh 0-qadamda executega deb",
+          "ts": "2026-09-08 06:31"
+        },
+        {
+          "w": "a",
+          "t": "Namuna goya misoli \"XavfsizBiz.uz\" quyidagi manbalarda keltirilgan:\n\n1. **00-Meta/HOME.md**: `✅ SAQLANGAN G'OYALAR (5 ta)` bo'limida XavfsizBiz.uz loyihasi haqida ma'lumot berilgan.\n2. **14-Security/SMB_Cybersecurity.md**: Bu fayl XavfsizBiz.uz loyihasi haqida batafsil ma'lumotlarni o'z ichiga oladi.\n3. **00-Meta/EXEC-2026.md**: XavfsizBiz.uz loyihasi 30/60/90 kunlik ijro rejasida alohida e'tibor berilgan.\n4. **00-Meta/PORTFEL-2026.md**: XavfsizBiz.uz loyihasi investor portfelida baho 8.0 bilan 1-prioritet sifatida ko'rsatilgan.\n\nShunday qilib, \"XavfsizBiz.uz\" goyasining batafsil ma'lumot",
+          "ts": "2026-09-08 06:31"
         }
       ]
     }
