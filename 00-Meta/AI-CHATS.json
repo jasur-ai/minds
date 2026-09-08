@@ -2,6 +2,34 @@
   "version": 1,
   "sessions": [
     {
+      "id": "test1",
+      "title": "Vaultda nechta loyiha bor va ularning ho",
+      "created": "2026-09-08 05:08",
+      "updated": "2026-09-08 05:11",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "Vaultda nechta loyiha bor va ularning hozirgi bosqichi qanday?",
+          "ts": "2026-09-08 05:09"
+        },
+        {
+          "w": "a",
+          "t": "Vaultda 5 ta loyiha bor: XavfsizBiz.uz, To'yByudjet, QishloqMaktab.uz, Bog'chaTop va Parvarish.uz. Hozirgi bosqichda barcha loyihalar 100/100 qadamga yetkazilgan va ijro bosqichiga o'tgan.",
+          "ts": "2026-09-08 05:09"
+        },
+        {
+          "w": "u",
+          "t": "Yana bitta savol: bu 5 loyihadan qaysi biri birinchi boshlangan edi?",
+          "ts": "2026-09-08 05:11"
+        },
+        {
+          "w": "a",
+          "t": "Birinchi boshlangan loyiha **XavfsizBiz.uz** bo'lgan. Uning baho si 8.0, MRR $8k, MVP byudjeti $150-400k, LTV/CAC 13-27x.",
+          "ts": "2026-09-08 05:11"
+        }
+      ]
+    },
+    {
       "id": "readtest",
       "title": "00-Meta/METHODOLOGY.md faylini ochib, un",
       "created": "2026-09-08 05:11",
@@ -20,20 +48,20 @@
       ]
     },
     {
-      "id": "readtest2",
-      "title": "00-Meta/METHODOLOGY.md faylini ochib, me",
+      "id": "wikitest",
+      "title": "Wikipedia orqali tekshir: Ozbekiston Res",
       "created": "2026-09-08 05:12",
-      "updated": "2026-09-08 05:13",
+      "updated": "2026-09-08 05:12",
       "msgs": [
         {
           "w": "u",
-          "t": "00-Meta/METHODOLOGY.md faylini ochib, metodologiya necha boqichli va qaysi bosqichlardan iborat?",
-          "ts": "2026-09-08 05:13"
+          "t": "Wikipedia orqali tekshir: Ozbekiston Respublikasining rasmiy tillari qanday?",
+          "ts": "2026-09-08 05:12"
         },
         {
           "w": "a",
-          "t": "Metodologiya 7 boqichli:\n\n1. **IDEATION** (G'oya — 1 hafta)\n2. **VALIDATION** (Tekshirish — 2-4 hafta)\n3. **MVP** (Minimal mahsulot yaratish)\n4. **PMF** (Bozor-mahsulot mosligini topish)\n5. **GTM** (Bozorga chiqish)\n6. **GROWTH** (O'sishni tezlashtirish)\n7. **SCALE** (Kengaytirish va exit)",
-          "ts": "2026-09-08 05:13"
+          "t": "O'zbekiston Respublikasining rasmiy tili o'zbek tili hisoblanadi.",
+          "ts": "2026-09-08 05:12"
         }
       ]
     },
