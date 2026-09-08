@@ -5,7 +5,7 @@
       "id": "cmts7iv9badxv",
       "title": "namuna goya qani qayerda keltirilgan?",
       "created": "2026-09-08 06:28",
-      "updated": "2026-09-08 06:31",
+      "updated": "2026-09-08 06:33",
       "msgs": [
         {
           "w": "u",
@@ -36,6 +36,16 @@
           "w": "a",
           "t": "Namuna goya misoli \"XavfsizBiz.uz\" quyidagi manbalarda keltirilgan:\n\n1. **00-Meta/HOME.md**: `✅ SAQLANGAN G'OYALAR (5 ta)` bo'limida XavfsizBiz.uz loyihasi haqida ma'lumot berilgan.\n2. **14-Security/SMB_Cybersecurity.md**: Bu fayl XavfsizBiz.uz loyihasi haqida batafsil ma'lumotlarni o'z ichiga oladi.\n3. **00-Meta/EXEC-2026.md**: XavfsizBiz.uz loyihasi 30/60/90 kunlik ijro rejasida alohida e'tibor berilgan.\n4. **00-Meta/PORTFEL-2026.md**: XavfsizBiz.uz loyihasi investor portfelida baho 8.0 bilan 1-prioritet sifatida ko'rsatilgan.\n\nShunday qilib, \"XavfsizBiz.uz\" goyasining batafsil ma'lumot",
           "ts": "2026-09-08 06:31"
+        },
+        {
+          "w": "u",
+          "t": "men senga yangi goya ber dedim",
+          "ts": "2026-09-08 06:33"
+        },
+        {
+          "w": "a",
+          "t": "O'zbekistonda yangi goya berish uchun 100 qadamli qabul standartiga amal qilish kerak. Quyidagi mezonlarni bajarish shart:\n\n1. Aniq muammo\n2. Real raqamlar\n3. To'lovchi bor\n4. Bo'sh joy\n5. Amalga oshirish mumkin\n6. UZ bozoriga mos\n\nAgar sizning goyangiz ushbu mezonlarga javob bersa, unda uni 00-Meta/STANDARTLAR.md fayliga asosan baholash mumkin. Agar baho 7.0+ bo'lsa, goya qabul qilinadi va 100 qadamli reja tayyorlanadi.\n\nSizning yangi goyangizni quyidagi formatda taqdim eting:\n\n* G'oya nomi\n* Soha\n* Muammo\n* Yechim\n* Bozor\n* Model\n* Raqobat\n* Isbot\n* Traction\n* Jamoa\n* Sarmoya so'rovi\n* Vision\n\nMisol uchun:",
+          "ts": "2026-09-08 06:33"
         }
       ]
     }
