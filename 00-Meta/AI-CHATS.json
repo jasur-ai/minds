@@ -141,25 +141,6 @@
           "ts": "2026-09-08 10:55"
         }
       ]
-    },
-    {
-      "id": "web-ai07-mtsl17l3",
-      "agent": "ai07",
-      "title": "1+1 nechi? 2 soz bilan javob ber",
-      "created": "2026-09-08 11:24",
-      "updated": "2026-09-08 11:24",
-      "msgs": [
-        {
-          "w": "u",
-          "t": "1+1 nechi? 2 soz bilan javob ber",
-          "ts": "2026-09-08 11:24"
-        },
-        {
-          "w": "a",
-          "t": "Ikki",
-          "ts": "2026-09-08 11:24"
-        }
-      ]
     }
   ]
 }
