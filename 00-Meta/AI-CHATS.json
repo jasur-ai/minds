@@ -71,7 +71,7 @@
       "id": "cmtsi1qurhky6",
       "title": "xop hozirgi holat boyicha nechta goya tu",
       "created": "2026-09-08 10:01",
-      "updated": "2026-09-08 10:02",
+      "updated": "2026-09-08 10:04",
       "msgs": [
         {
           "w": "u",
@@ -92,6 +92,16 @@
           "w": "a",
           "t": "**Javob:**  \n**Umumiy g'oyalar soni: 100 ta** (IDEAS-100.md).  \n\n### **Tafsilotlar:**  \n1. **IDEAS-100.md** faylida 100 ta yangi mass-research qilingan g'oya (0-daraja) saqlangan.  \n   - **Sektorlar:** 10 ta sektorda 10 g'oyadan (masalan: Qishloq xo'jaligi, Moliya, Sog'liq, Ta'lim, Turizm, Logistika, Savdo, Xizmatlar, Energiya, Texnologiya).  \n   - **Ma'lumot:** [[IDEAS-100]] · **Navbat:** #1 → #10 tartibida QADAM 1 (5+ intervyu) boshlanadi.  \n\n2. **Real startup loyihasi (5 ta):**  \n   - XavfsizBiz.uz, To'yByudjet, QishloqMaktab.uz, Bog'chaTop, Parvarish.uz.  \n   - Bu loyihalar **100/100 qadamga yetkazilgan** (masalan, [[14-Security/SMB_Cybersecurity.md]]).  \n   - **Birlikda:** 5 ta real loyihalar + 100 ta g'oya.  \n\n### **Hudud:**  \n- **G'oyalar soni:** 100 ta (IDEAS-100.md).  \n- **Real loyihalar:** 5 ta (100/100 qadam).  \n\n**Manba:** [[00-Meta/HOME.md]] · [[IDEAS-100]] · [[14-Security/SMB_Cybersecurity.md]] · [[20-Society/ToyByudjet.md]] · [[04-Education/RuralEducation.md]].",
           "ts": "2026-09-08 10:02"
+        },
+        {
+          "w": "u",
+          "t": "eng istqiqbolli goyalar qaysilar?",
+          "ts": "2026-09-08 10:04"
+        },
+        {
+          "w": "a",
+          "t": "**Javob:**  \n**Eng istiqbolli g'oyalar (7.8+ baho):**  \n1. **XavfsizBiz.uz** (SMB kiberxavfsizlik) — **8.0**  \n2. **To'yByudjet** (to'y pudratchilari) — **7.8**  \n3. **QishloqMaktab.uz** (qishloq ingliz tili) — **7.8**  \n4. **Bog'chaTop** (bog'cha topish) — **7.5**  \n5. **Parvarish.uz** (ElderlyCare) — **etalon** (baho yo'q, ammo 5 yilda 20,000+ foydalanuvchi proyektsiyasi)  \n\n---\n\n### **Tahlil:**  \n#### **1. XavfsizBiz.uz (8.0)**  \n- **Muammo:** 400k+ KOBM himoyasiz (xplogs22, SMS-stealer).  \n- **Yechim:** Arzon, o'zbekcha kiberxavfsizlik (phishing simulyatsiya + o'qitish).  \n- **MRR:** $8k (100+ mijoz, 12 oyda).  \n- **LTV/CAC:** 13–27× (yaxshi).  \n- **Keyingi qadam:** 50 intervyu (QADAM 4) + GoPhish o'rnatish.  \n- **Sarmoya so'rovi:** 156 mln so'm (12 oy).  \n\n#### **2. To'yByudjet (7.8)**  \n- **Muammo:** 25% oila to'y uchun qarz oladi, 65.2% to'y 50–100 mln so'm turadi.  \n- **Yechim:** Byudjet kalkulyatori + tekshirilgan pudratchilar bozori.  \n- **MRR:** $10k (12 oyda).  \n- **TAM:** 200k+ to'y/yon, 10 trln so'm+.  \n- **Sarmoya so'rovi:** 252 mln so'm (12 oy).  \n\n#### **3. QishloqMaktab.uz (7.8)**  \n- **Muammo:** 1,600+ qishloq maktabda ingliz tili o'qituvchisi yetishmaydi.  \n- **Yechim:** Jonli Telegram darslari + guruh to'lovi ($20–25).  \n- **MRR:** $1.2k → $6k (donor B2B).  \n- **TAM:** 10 mln+ qishloq aholisi, 3 mln+ maktab yoshidagi bola.  \n- **Sarmoya so'rovi:** 96 mln so'm (12 oy).  \n\n#### **4. Bog'chaTop (7.5)**  \n- **Muammo:** 780k bola davlat bog'chasidan tashqarida, tekshiruv yo'q.  \n- **Yechim:** Tekshirilgan bog'cha katalogi + komissiya (3–5%).  \n- **MRR:** $8k (12 oyda).  \n- **TAM:** 4.61 mln bola, 780k davlat qamrovidan tashqarida.  \n- **Sarmoya so'rovi:** 156 mln so'm (12 oy).  \n\n#### **5. Parvarish.uz (etalon)**  \n- **Muammo:** 4.5 mln 60+ yoshli kishi, xizmatga muhtoj.  \n- **Yechim:** B2C abonent (6–9 mln so'm/oy, 30–40% marja).  \n- **MRR:** ~$32k/yil (bootstrap).  \n- **TAM:** 4.5 mln + diaspora pul oqimi.  \n- **Sarmoya so'rovi:** 170 mln so'm (12 oy).  \n\n---\n\n### **Asosiy me'yorlar bo'yicha tahlil:**  \n| G'oya | **Baho** | **TAM** | **MRR (12 oy)** | **Sarmoya so'rovi** | **Xavf** |  \n|-------|----------|---------|------------------|---------------------|----------|  \n| XavfsizBiz.uz | 8.0 | 400k+ KOBM | $8k | 156 mln | Nishonli (phishing) |  \n| To'yByudjet | 7.8 | 200k+ to'y",
+          "ts": "2026-09-08 10:04"
         }
       ]
     },
