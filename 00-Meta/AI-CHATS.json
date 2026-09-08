@@ -2,34 +2,6 @@
   "version": 1,
   "sessions": [
     {
-      "id": "test1",
-      "title": "Vaultda nechta loyiha bor va ularning ho",
-      "created": "2026-09-08 05:08",
-      "updated": "2026-09-08 05:11",
-      "msgs": [
-        {
-          "w": "u",
-          "t": "Vaultda nechta loyiha bor va ularning hozirgi bosqichi qanday?",
-          "ts": "2026-09-08 05:09"
-        },
-        {
-          "w": "a",
-          "t": "Vaultda 5 ta loyiha bor: XavfsizBiz.uz, To'yByudjet, QishloqMaktab.uz, Bog'chaTop va Parvarish.uz. Hozirgi bosqichda barcha loyihalar 100/100 qadamga yetkazilgan va ijro bosqichiga o'tgan.",
-          "ts": "2026-09-08 05:09"
-        },
-        {
-          "w": "u",
-          "t": "Yana bitta savol: bu 5 loyihadan qaysi biri birinchi boshlangan edi?",
-          "ts": "2026-09-08 05:11"
-        },
-        {
-          "w": "a",
-          "t": "Birinchi boshlangan loyiha **XavfsizBiz.uz** bo'lgan. Uning baho si 8.0, MRR $8k, MVP byudjeti $150-400k, LTV/CAC 13-27x.",
-          "ts": "2026-09-08 05:11"
-        }
-      ]
-    },
-    {
       "id": "wikitest",
       "title": "Wikipedia orqali tekshir: Ozbekiston Res",
       "created": "2026-09-08 05:12",
