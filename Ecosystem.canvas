@@ -6,17 +6,17 @@
 		{"id":"i3","type":"file","file":"04-Education/BogchaTop.md","x":-1350,"y":-330,"width":300,"height":90,"color":"3"},
 		{"id":"i4","type":"file","file":"04-Education/RuralEducation.md","x":-1350,"y":-220,"width":300,"height":90,"color":"3"},
 		{"id":"i5","type":"file","file":"14-Security/SMB_Cybersecurity.md","x":-1350,"y":-110,"width":300,"height":90,"color":"3"},
-		{"id":"label_meta","type":"text","text":"## 📂 META — BOSHQARUV & TADQIQOT (9 fayl)","x":600,"y":-620,"width":600,"height":50,"color":"6"},
+		{"id":"label_meta","type":"text","text":"## 📂 META — BOSHQARUV & TADQIQOT (12 fayl)","x":600,"y":-620,"width":600,"height":50,"color":"6"},
 		{"id":"m01","type":"file","file":"00-Meta/HOME.md","x":600,"y":-550,"width":300,"height":90,"color":"6"},
 		{"id":"m02","type":"file","file":"00-Meta/STATS.md","x":600,"y":-440,"width":300,"height":90,"color":"6"},
 		{"id":"m03","type":"file","file":"00-Meta/GLOSSARY.md","x":600,"y":-330,"width":300,"height":90,"color":"6"},
 		{"id":"m04","type":"file","file":"00-Meta/Chat for AIs and Monitoring.md","x":600,"y":-220,"width":300,"height":90,"color":"6"},
 		{"id":"m05","type":"file","file":"00-Meta/METHODOLOGY.md","x":600,"y":-110,"width":300,"height":90,"color":"6"},
 		{"id":"m06","type":"file","file":"00-Meta/STARTUP-100-STEPS.md","x":1000,"y":-550,"width":300,"height":90,"color":"6"},
-		{"id":"m07","type":"file","file":"00-Meta/STARTUP-MUAMMOLAR.md","x":1000,"y":-440,"width":300,"height":90,"color":"6"},
-		{"id":"m08","type":"file","file":"00-Meta/IDEAS-120-MERGE.md","x":1000,"y":-330,"width":300,"height":90,"color":"6"},
+		{"id":"m07","type":"file","file":"00-Meta/WORKFLOW.md","x":1000,"y":-440,"width":300,"height":90,"color":"6"},
+		{"id":"m08","type":"file","file":"00-Meta/IDEAS-100.md","x":1000,"y":-330,"width":300,"height":90,"color":"6"},
 		{"id":"m09","type":"file","file":"00-Meta/REAL-PROBLEMS-UZ.md","x":1000,"y":-220,"width":300,"height":90,"color":"6"},
-		{"id":"center_note","type":"text","text":"## 🌐 ECOSYSTEM v3.1\n\n**Jami 86 fayl o'chirildi:** 59 shablon + 11 g'oya + 16 meta\n\n5 ta REAL g'oya — faqat UZ bozorida daromad, bo'sh joy va amalga oshirish mumkin bo'lganlar:\n1. Parvarish.uz (keksalar parvarishi)\n2. To'yByudjet (oqilona to'y)\n3. Bog'chaTop (bog'cha topish)\n4. QishloqMaktab.uz (qishloq ta'limi)\n5. XavfsizBiz.uz (KOBM kiberxavfsizlik)","x":-400,"y":200,"width":700,"height":300,"color":"1"}
+		{"id":"center_note","type":"text","text":"## 🌐 ECOSYSTEM v3.2\n\n**Jami 89 fayl o'chirildi:** 70 g'oya + 16 meta + 3 arxiv (2026-09-08)\n\n**IDEAS-100:** 10 sektor × 10 = 100 ta yangi mass-research g'oya (0-daraja)\n\n5 ta REAL loyiha — 100/100, faqat UZ bozorida daromad, bo'sh joy va amalga oshirish mumkin bo'lganlar:\n1. Parvarish.uz (keksalar parvarishi)\n2. To'yByudjet (oqilona to'y)\n3. Bog'chaTop (bog'cha topish)\n4. QishloqMaktab.uz (qishloq ta'limi)\n5. XavfsizBiz.uz (KOBM kiberxavfsizlik)","x":-400,"y":200,"width":700,"height":300,"color":"1"}
 	],
 	"edges":[
 		{"id":"e01","fromNode":"i1","fromSide":"right","toNode":"m04","toSide":"left","color":"3"},
