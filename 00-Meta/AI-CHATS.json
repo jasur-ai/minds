@@ -151,6 +151,25 @@
           "ts": "2026-09-09 14:05"
         }
       ]
+    },
+    {
+      "id": "test-ai06-v3",
+      "agent": "ai06",
+      "title": "01-Agro/HosilLog.md ni tekshir: [VERDICT",
+      "created": "2026-09-09 14:16",
+      "updated": "2026-09-09 14:17",
+      "msgs": [
+        {
+          "w": "u",
+          "t": "01-Agro/HosilLog.md ni tekshir: [VERDICT] ber",
+          "ts": "2026-09-09 14:17"
+        },
+        {
+          "w": "a",
+          "t": "[VERDICT: TUZATISH]\n\n[XATOLAR]\n\n1. [Uydirma raqam/manba] 01-Agro/HosilLog.md — sabab: \"AI 07 mass-research 2026-09-08\" manbasi to'liq emas, manba linki yo'q — tuzatish: Manba linklari qo'shish.\n2. [Standard buzilishi] 01-Agro/HosilLog.md — sabab: 5+ intervyu bo'lmadi (g'oya 0-darajada) — tuzatish: 5+ intervyu bajarish.\n3. [Bo'shlilik] 01-Agro/HosilLog.md — sabab: \"Keyingi: 5+ intervyu (dehqon + restoran)\" qismi ish emas — tuzatish: Tashkisli intervyu jadvali yaratish.\n\n[ISBOTLANGAN] (xatosiz topilganlar, qisqa ro'yxat)\n\n- 00-Meta/HOME.md\n- 00-Meta/STANDARTLAR.md\n- 00-Meta/WORKFLOW.md\n- 00-Meta/EXEC-2026.md\n- 00-Meta/PORTFEL-2026.md\n- 00-Meta/REAL-PROBLEMS-UZ.md\n- 00-Meta/METHODOLOGY.md\n- 00-Meta/STARTUP-100-STEPS.md\n- 20-Society/ElderlyCare.md\n- 20-Society/ToyByudjet.md\n\n[XULOSA]\n\nFayllar to'liq o'qiladi. 01-Agro/HosilLog.md faylida 3 xato topildi. Boshqa fayllar xatoliksiz.",
+          "ts": "2026-09-09 14:17"
+        }
+      ]
     }
   ]
 }
