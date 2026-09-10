@@ -81,3 +81,17 @@ Bajarish rejasini tuzish uchun quyidagi qadamlar kerak:
 5. 3 beta-mijozga taklif yuborish.
 
 **Holat:** 🔄 bajarilmoqda — «tugadi» deganda AI 06 tekshiradi
+
+---
+
+## 👷 Ish (2026-09-10 11:33)
+
+**Topshiriq:** qisqa test: vaultda nechta loyiha bor degan savolga javob ber
+
+**AI 01 (Qwen 3 30B):**
+❌ AI 01 xatosi: 4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.
+
+**AI 07 (Llama 3.3 70B):**
+❌ AI 07 xatosi: 4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.
+
+**Holat:** 🔄 bajarilmoqda — «tugadi» deganda AI 06 tekshiradi
