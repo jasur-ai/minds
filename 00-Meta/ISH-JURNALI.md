@@ -51,3 +51,33 @@ qisqacha: O'zbekistonda online ta'lim platformasi orqali ta'lim sifatini oshiris
 > **Auditoriya:** 15-25 yoshl
 
 **Holat:** 🔄 bajarilmoqda — «tugadi» deganda AI 06 tekshiradi
+
+---
+
+## 👷 Ish (2026-09-10 11:30)
+
+**Topshiriq:** EXEC-2026 rejasini tahlil qilib bugungi eng muhim ishni aniqla va qisqa bajarish rejasini tuz (fayl yozma, faqat matn)
+
+**AI 01 (Qwen 3 30B):**
+📝 Yozildi: 21-YangiGoyalar/EXEC-2026-Tahlil.md, 21-YangiGoyalar/exec.md
+
+
+
+**AI 07 (Llama 3.3 70B):**
+Bugungi eng muhim ishni aniqlash uchun EXEC-2026 rejasini tahlil qildim. Rejada 5 ta loyiha uchun 30/60/90 kunlik maqsadlar belgilangan. Loyihalardan biri XavfsizBiz.uz (SMB kiberxavfsizlik) bo'lib, uning 30-kunlik maqsadlari quyidagilardan iborat:
+
+- 10 intervyu: 5 do'kon/kafe egasi + 5 buxgalter (Telegram/qo'ng'iroq) — 👤 Foydalanuvchi, 🤖 AI 01 skript bilan · muddat 09-12
+- Intervyu natijalari: muammo og'rig'i + to'lov qobiliyati jadvali ([[WORKFLOW]] 7.2) — 🤖 AI 01 · 09-15
+- Landing sahifa: `xavfsizbiz.uz` + waitlist (Telegram bot orqali) — ⚙️ AI 07 + 🤖 AI 01 kontent · 09-20
+- Concierge MVP sxemasi: GoPhish o'rnatish + 1 phishing simulyatsiya demo tayyorlash — ⚙️ AI 07 · 09-25
+- 3 beta-mijozga taklif (intervyuda ishtiyoq ko'rsatganlar) — 👤 Foydalanuvchi · 09-30
+
+Bajarish rejasini tuzish uchun quyidagi qadamlar kerak:
+
+1. 5 do'kon/kafe egasi va 5 buxgalter bilan intervyu o'tkazish.
+2. Intervyu natijalarini tahlil qilish va muammo og'rig'i + to'lov qobiliyati jadvalini tuzish.
+3. Landing sahifa yaratish va waitlistni ochish.
+4. Concierge MVP sxemasini ishlab chiqish va phishing simulyatsiya demo tayyorlash.
+5. 3 beta-mijozga taklif yuborish.
+
+**Holat:** 🔄 bajarilmoqda — «tugadi» deganda AI 06 tekshiradi
