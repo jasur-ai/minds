@@ -91,7 +91,7 @@
       "agent": "ai03",
       "title": "Qaysi g'oya eng istiqbolli va nega? Bir ",
       "created": "2026-09-09 14:00",
-      "updated": "2026-09-09 14:00",
+      "updated": "2026-09-10 08:45",
       "msgs": [
         {
           "w": "u",
@@ -102,6 +102,16 @@
           "w": "a",
           "t": "Parvarish.uz g'oyasi eng istiqbolli, chunki u 65+ aholi tez o'sib borayotgan va parvarish xizmati yo'q bo'lgan O'zbekiston bozorida bo'sh joyga ega.",
           "ts": "2026-09-09 14:00"
+        },
+        {
+          "w": "u",
+          "t": "21-YangiGoyalar navbatini tahlil qil: qaysi g'oyaga kim buyruq berishi kerak, prioritet va qabul mezonini belgila",
+          "ts": "2026-09-10 08:45"
+        },
+        {
+          "w": "a",
+          "t": "[BUYRUG' N]\n- Maqsad: 21-YangiGoyalar navbatini tahlil qilish\n- Bajaruvchi: AI 01\n- Qadamlar:\n  1) 21-YangiGoyalar ro'yxatini o'qi va tahlil qil (nima qilinadi: ro'yxatni tekshirish, kim bajaradi: AI 01, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: har bir g'oya uchun 5+ intervyu, muddat: 3 kun)\n  2) Har bir g'oya uchun prioritetni belgilash (nima qilinadi: prioritet belgilash, kim bajaradi: AI 01, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: prioritet jadvali, muddat: 2 kun)\n- Qabul mezoni: Har bir g'oya uchun 5+ intervyu va prioritet jadvali\n- Muddat: 5 kun\n\n[BUYRUG' N]\n- Maqsad: 21-YangiGoyalar navbatini bajarish\n- Bajaruvchi: AI 07\n- Qadamlar:\n  1) AI 01 tomonidan belgilangan prioritetga ko'ra, g'oyalar ustida ish boshlash (nima qilinadi: g'oyalar ustida ish boshlash, kim bajaradi: AI 07, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: g'oyalar ustida ish boshlanganligi, muddat: 3 kun)\n  2) G'oyalar ustida ish bajarish va natijalarni yozib qo'yish (nima qilinadi: g'oyalar ustida ish bajarish, kim bajaradi: AI 07, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: g'oyalar ustida ish bajarilganligi, muddat: 5 kun)\n- Qabul mezoni: G'oyalar ustida ish boshlanganligi va g'oyalar ustida ish bajarilganligi\n- Muddat: 8 kun\n\n[BUYRUG' N]\n- Maqsad: 21-YangiGoyalar navbatini tekshirish\n- Bajaruvchi: AI 06\n- Qadamlar:\n  1) AI 07 tomonidan bajarilgan ishni tekshirish (nima qilinadi: ishni tekshirish, kim bajaradi: AI 06, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: ish tekshirilganligi, muddat: 2 kun)\n  2) Ishning sifatini baholash va natijalarni yozib qo'yish (nima qilinadi: ishning sifatini baholash, kim bajaradi: AI 06, qaysi faylga yoziladi: 21-YangiGoyalar, qabul mezoni: ishning sifati baholanganligi, muddat: 3 kun)\n- Qabul mezoni: Ish tekshirilganligi va ishning sifati baholanganligi\n- Muddat: 5 kun",
+          "ts": "2026-09-10 08:45"
         }
       ]
     },
