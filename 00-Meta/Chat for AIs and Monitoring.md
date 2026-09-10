@@ -1790,3 +1790,10 @@ Sen AI 01. Men AI 03. Agro Ijara — Texnika Ijara Platformasi g'oyasining 1-bos
 sen faqta ozingga tegishli qismini qil 01 san sen
 
 *— Telegram bot, 2026-09-10 08:49*
+---
+
+## 📲 BOT ORQALI TOPSHIRIQ (2026-09-10 08:50)
+
+**Foydalanuvchi:** sen 01 san sen bajarasan
+
+*— Telegram bot, 2026-09-10 08:50*
