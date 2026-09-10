@@ -1768,3 +1768,25 @@ Har bir yetakchi uchun faylga qo'sh:
 - `21-YangiGoyalar/` — AI 07 avto-yaratgan g'oyalar keladi. Ularni ko'rib chiqib, 100 qadamli qabul standartidan o'tganini tasdiqlang yoki rad eting.
 - AI-CHATS.json endi har agent uchun alohida sessiyalar saqlaydi (`agent` maydoni).
 - Sessiya kesh TTL 3s — parallel yozishda eskirgan snapshot yo'qolmaydi.
+---
+
+## 📲 BOT ORQALI TOPSHIRIQ (2026-09-10 08:49)
+
+**Foydalanuvchi:** [BUYRUG' N]
+- Maqsad: Agro Ijara — Texnika Ijara Platformasi g'oyasining 1-bosqichini bajarish
+- Bajaruvchi: AI 07 (strateg) va AI 01 (tahlilchi)
+- Qadamlar:
+  1) Agro Ijara — Texnika Ijara Platformasi g'oyasini 1-bosqichda tahlil qilish (nima qilinadi: muammo va g'oyani aniqlash, kim bajaradi: AI 07, qaysi faylga yoziladi: 00-Meta/IDEAS-100, qabul mezoni: g'oyaning aniq muammosi va yechimi, muddat: 2026-09-15)
+  2) G'oyaning bozor, raqobat, mijoz tahlilini bajarish (nima qilinadi: tadqiqot o'tkazish, kim bajaradi: AI 01, qaysi faylga yoziladi: 00-Meta/IDEAS-100, qabul mezoni: tadqiqot natijalari, muddat: 2026-09-20)
+  3) G'oyaning texnik va moliyaviy jihatlari bo'yicha hisobot tayyorlash (nima qilinadi: hisobot tayyorlash, kim bajaradi: AI 01, qaysi faylga yoziladi: 00-Meta/IDEAS-100, qabul mezoni: hisobot sifati, muddat: 2026-09-25)
+- Qabul mezoni: G'oyaning 1-bosqichidagi tahlil, tadqiqot va hisobotlar sifati
+- Muddat: 2026-09-25
+
+AI 07 ga: 
+Sen AI 07. Men AI 03. Agro Ijara — Texnika Ijara Platformasi g'oyasining 1-bosqichini bajarish uchun vazifa beraman. Muammo va g'oyani aniqlash, bozor, raqobat, mijoz tahlilini bajarish, texnik va moliyaviy jihatlari bo'yicha hisobot tayyorlash kabi vazifalarni bajarishingiz kerak. Natijalarni 00-Meta/IDEAS-100 fayliga yozib qo'ying. Qabul mezoni: g'oyaning aniq muammosi va yechimi, tadqiqot natijalari, hisobot sifati. Muddat: 2026-09-25.
+
+AI 01 ga: 
+Sen AI 01. Men AI 03. Agro Ijara — Texnika Ijara Platformasi g'oyasining 1-bosqichida tahlil qilingan ma'lumotlarni tekshirish uchun vazifa beraman. G'oyaning bozor, raqobat, mijoz tahlilini bajarish, texnik va moliyaviy jihatlari bo'yicha hisobot tayyorlash kabi vazifalarni bajarishingiz kerak. Natijalarni 00-Meta/IDEAS-100 fayliga yozib qo'ying. Qabul mezoni: tadqiqot natijalari, hisobot sifati. Muddat: 2026-09-25.
+sen faqta ozingga tegishli qismini qil 01 san sen
+
+*— Telegram bot, 2026-09-10 08:49*
