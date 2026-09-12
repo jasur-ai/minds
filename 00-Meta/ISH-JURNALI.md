@@ -94,4 +94,4 @@ Bajarish rejasini tuzish uchun quyidagi qadamlar kerak:
 **AI 07 (Llama 3.3 70B):**
 ❌ AI 07 xatosi: 4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.
 
-**Holat:** 🔄 bajarilmoqda — «tugadi» deganda AI 06 tekshiradi
+**Holat:** ✅ bajarildi — AI 06 tekshiruvda (2026-09-12 06:57) — «tugadi» deganda AI 06 tekshiradi
