@@ -95,3 +95,41 @@ Bajarish rejasini tuzish uchun quyidagi qadamlar kerak:
 ❌ AI 07 xatosi: 4006: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage.
 
 **Holat:** ✅ bajarildi — AI 06 tekshiruvda (2026-09-12 06:57) — «tugadi» deganda AI 06 tekshiradi
+
+**AI 06 xulosasi (2026-09-12 06:57):**
+The audit of the two files, "qishloq-maktab.md" and "OnlineEduPlatform.md," revealed several issues that need to be addressed to improve their compliance, accuracy, and clarity. Here's a structured approach to resolving these issues:
+
+### 1. Addressing Source Citations (Uydirma Raqam/MANBA)
+- **Action**: Ensure all cited sources include exact URLs or document references. Add snippets of data used to support claims.
+- **Implementation**: For each source mentioned, provide the full link and relevant excerpts. For example, in "qishloq-maktab.md," include the direct link to the "stat.uz" report and a specific quote or data point.
+
+### 2. Ensuring Compliance (Standart Buzilishi)
+- **Action**: Verify and include all necessary legal requirements, such as licenses.
+- **Implementation**: Research and list the required licenses for educational platforms in Uzbekistan. Ensure these are explicitly mentioned in the files.
+
+### 3. Resolving Logical Inconsistencies (Mantiqiy Ziddiyat)
+- **Action**: Re-examine assumptions and data to ensure claims are supported.
+- **Implementation**: For claims like affordability, check if the source data actually supports the assertion. If not, revise the claim or provide accurate supporting data.
+
+### 4. Clarifying Future Steps (Bo'shliq)
+- **Action**: Provide detailed plans for future steps.
+- **Implementation**: Outline specifics such as the number of interviews, target groups, objectives, and timelines. For example, specify that 10 interviews will be conducted with rural parents over the next two weeks.
+
+### 5. Improving Command Clarity (Buyruq Beruvchi)
+- **Action**: Ensure commands are clear, specific, and measurable.
+- **Implementation**: Revise instructions to include measurable goals and acceptance criteria. For instance, instead of vague commands, specify tasks with clear outcomes.
+
+### 6. Detailed File Revisions
+- **For "qishloq-maktab.md"**:
+  - Add full source links and excerpts.
+  - Include license information.
+  - Revise affordability claims with accurate data.
+  - Detail future steps with specifics.
+
+- **For "OnlineEduPlatform.md"**:
+  - Provide full source links and excerpts.
+  - Include necessary licenses.
+  - Refine the problem statement with specific data.
+  - Detail future steps with timelines and objectives.
+
+By systematically addressing each issue, the files will become more compliant, accurate, and actionable, ensuring they meet the required standards and provide clear guidance for further development.
