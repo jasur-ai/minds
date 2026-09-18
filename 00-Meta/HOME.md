@@ -39,6 +39,22 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
+## 🔬 SHAXSIY TADQIQOT (yangi bo'lim — 2026-09-18)
+
+> **Alohida tadqiqot bo'limi:** 2 loyiha + 2 maqola, har biri o'z tadqiqot, ma'lumot, validatsiya papkalari bilan.
+> Bosh sahifa: [[00-HOME]] · Agent profili: [[00-AI-AGENT]]
+
+| Yo'nalish | Fayl | Holat |
+|---|---|---|
+| 🇺🇿 **Loyiha 1 — Carbon Emission** (emission-audit, "uch daftar") | [[Goya-Uch-Daftar]] · [[TZ-Anomaliya-Monitoring]] | 🟢 faol |
+| 🗑️ **Loyiha 2 — Trash Organizer** (Ochiq Eko Ledger) | [[TZ-Ochiq-Eko-Ledger-MVP]] | 🟡 kutishda |
+| 📝 **Maqola 1 — EGAZ BALANS** | [[Maqola-EGAZ-BALANS]] | 🟢 qoralama |
+| 📝 **Maqola 2 — Ochiq Eko Ledger** | [[Maqola-Ochiq-Eko-Ledger]] | 🟡 kutishda |
+
+**5 ta chuqur tadqiqot:** [[Tadqiqot-0-Indeks]] · [[Tadqiqot-1-Shovqin-Qavati]] · [[Tadqiqot-2-Soliq-Siri]] · [[Tadqiqot-3-Uskunalar-Holati]] · [[Tadqiqot-4-Egalik-Modeli]] · [[Tadqiqot-5-Tolov-Modeli]]
+
+---
+
 ## 🧠 YANGI: IDEAS-100 — 100 TA MASS-RESEARCH G'OYA (0-DARAJA)
 
 > **2026-09-08** — AI 07 mass-research (stat.uz, lex.uz, kun.uz, yuz.uz, DataReportal, cbu.uz, gazeta.uz). Barchasi [[STANDARTLAR]] 6 mezoniga tekshirilgan, **BOSQICH 0** (intervyu boshlanmagan).

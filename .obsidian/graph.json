@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:22-ShaxsiyTadqiqot",
+      "color": {
+        "a": 1,
+        "rgb": 8088793
+      }
+    },
+    {
       "query": "path:01-Technology",
       "color": {
         "a": 1,
