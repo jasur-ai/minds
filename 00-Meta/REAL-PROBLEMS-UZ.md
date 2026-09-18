@@ -2,7 +2,7 @@
 aliases: [Haqiqiy Muammolar, Real Problems, Unsolved]
 tags: [meta, problems]
 created: 2026-09-02
-updated: 2026-09-04
+updated: 2026-09-18
 sektor: 00-Meta
 tur: meta
 holat: faol
@@ -122,8 +122,10 @@ YOMON STARTUP:
 
 | Metrika | Qiymat |
 |---------|--------|
-| Saqlangan g'oya muammolari | 5 ta |
+| Saqlangan g'oya muammolari | 5 ta (validatsiya qilingan) |
+| Qo'shilgan (2026-09-18 birlashtirish) | 4 ta: [[UyEnergiya]] · [[KichikBiznesHisobi]] · [[AgroSense]] · [[EksportKoprik]] |
 | O'chirilgan muammolar | 8 ta (g'oyalari rad etilgan) |
+| Arxivga olingan g'oyalar (2026-09-18) | **84 ta** → [[RAD-ETILGAN-GOYALAR]] |
 | Mavjud yechimlar (takrorlamang) | 8 ta |
 
 ---

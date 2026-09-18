@@ -20,7 +20,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 |-------------|--------|
 | **Loyiha nomi** | Ecosystem — Startup G'oyalar Vaulti |
 | **Yaratilgan sana** | 2026-09-02 |
-| **Oxirgi yangilanish** | 2026-09-08 (IDEAS-100: 100 g'oya qo'shildi) |
+| **Oxirgi yangilanish** | 2026-09-18 (g'oyalar auditi: 9 ta portfel qoldi) |
 | **Maqsad** | UZ bozorida REAL daromad beradigan startup g'oyalarni yig'ish va ishlab chiqish |
 | **Til** | O'zbek |
 | **Format** | Obsidian Markdown |
@@ -29,22 +29,22 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 
 ## 📁 Tarkibiy qismlar
 
-### Yangi g'oyalar — IDEAS-100 (100 ta, 0-daraja, 2026-09-08):
+### G'OYALAR PORTFELI — 9 ta (2026-09-18 auditidan keyin):
 
-| Sektor | Papka | G'oyalar |
-|--------|-------|:--------:|
-| Qishloq xo'jaligi | `01-Agro` | 10 (HosilLog…AgroSugurta) |
-| Moliya | `02-Finance` | 10 (MikroQarzTaqqos…SoliqYordam) |
-| Sog'liq | `03-Health` | 10 (KlinikaNarx…OziqRatsion) |
-| Ta'lim | `04-Education` | 10 (RepetitorTop…TalabaIsh) |
-| Turizm | `05-Tourism` | 10 (IchkiTur…EkoTurizm) |
-| Logistika | `06-Logistics` | 10 (MahallaKuryer…AvtoQism) |
-| Savdo | `07-Trade` | 10 (BozorNarx…SportTovar) |
-| Xizmatlar | `08-Services` | 10 (UstaTop…TadbirDekor) |
-| Energiya | `09-Energy` | 10 (QuyoshHisob…MikroEnergiya) |
-| Texnologiya | `10-Tech` | 10 (BotQuruvchi…RaqamliViza) |
+| # | G'oya | Papka | Ball | Tur |
+|---|-------|-------|:----:|-----|
+| 1 | **XavfsizBiz.uz** | `14-Security` | 8.0 | Validatsiya qilingan |
+| 2 | **To'yByudjet** | `20-Society` | 7.8 | Validatsiya qilingan |
+| 3 | **QishloqMaktab.uz** | `04-Education` | 7.8 | Validatsiya qilingan |
+| 4 | **Bog'chaTop** | `04-Education` | 7.5 | Validatsiya qilingan |
+| 5 | **Parvarish.uz** | `20-Society` | 7.5 | Validatsiya qilingan |
+| 6 | **UyEnergiya.uz** | `09-Energy` | 7.5 | 🆕 Birlashtirilgan (6 g'oyadan) |
+| 7 | **KichikBiznes Hisobi** | `02-Finance` | 7.2 | 🆕 Birlashtirilgan (4 g'oyadan) |
+| 8 | **AgroSense.uz** | `01-Agro` | 7.2 | 🆕 Birlashtirilgan (3 g'oyadan) |
+| 9 | **EksportKo'prik.uz** | `01-Agro` | 7.2 | 🆕 Birlashtirilgan (3 g'oyadan) |
 
-> Katalog: [[IDEAS-100]] · Manbalar: stat.uz, lex.uz, kun.uz, yuz.uz, gazeta.uz, DataReportal, cbu.uz, trade.gov
+> Audit: [[G'OYALAR-AUDIT-2026]] · Arxiv (84 g'oya): [[RAD-ETILGAN-GOYALAR]] · Yopilgan katalog: [[IDEAS-100]]
+> **Bo'sh papkalar:** 03-Health, 05-Tourism, 06-Logistics, 07-Trade, 08-Services, 10-Tech — barcha g'oyalari arxivga olindi.
 
 ---
 
@@ -80,6 +80,7 @@ qisqacha: Ecosystem loyihasi umumiy ko'rsatkichlari
 | **O'chirilgan meta fayllar** | — | 13 ta | 3 ta | 16 ta |
 | **Jami o'chirilgan** | 59 ta | 24 ta | 3 ta | **86 ta** |
 | **2026-09-08 tozalash** | — | — | 3 ta | **89 ta** |
+| **2026-09-18 g'oyalar auditi** | 84 g'oya (81+3) | — | 1 ta (ko'chirildi) | **174 ta** |
 | **Qolgan g'oya notalari** | 16 ta | 5 ta | 5 ta | — |
 | **Qolgan meta fayllar** | 23 ta | 12 ta | **9 ta** | — |
 

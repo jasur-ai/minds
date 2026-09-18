@@ -11,7 +11,8 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 # 🌐 ECOSYSTEM — Startup G'oyalar Vaulti
 
-> *2026-09-08: 5 ta real startup loyihasi (100/100) + 100 ta yangi mass-research qilingan g'oya ([[IDEAS-100]], 0-daraja) + meta fayllar*
+> *2026-09-18: **9 ta g'oya portfeli** (5 validatsiya qilingan + 4 birlashtirilgan) + meta fayllar + Shaxsiy tadqiqot bo'limi*
+> *Audit: [[G'OYALAR-AUDIT-2026]] — 102 g'oya baholandi, 84 tasi arxivga ([[RAD-ETILGAN-GOYALAR]])*
 > *Faqat UZ bozorida REAL daromad, bo'sh joy va amalga oshirish mumkin bo'lgan g'oyalar saqlanadi.*
 
 ---
@@ -55,13 +56,23 @@ qisqacha: Ecosystem vault navigatsiya markazi
 
 ---
 
-## 🧠 YANGI: IDEAS-100 — 100 TA MASS-RESEARCH G'OYA (0-DARAJA)
+## 🧠 G'OYALAR PORTFELI — 9 TA (2026-09-18 auditidan keyin)
 
-> **2026-09-08** — AI 07 mass-research (stat.uz, lex.uz, kun.uz, yuz.uz, DataReportal, cbu.uz, gazeta.uz). Barchasi [[STANDARTLAR]] 6 mezoniga tekshirilgan, **BOSQICH 0** (intervyu boshlanmagan).
-> **Katalog:** [[IDEAS-100]] · **Navbat:** sektor ichida #1 → #10 tartibida QADAM 1 (5+ intervyu) boshlanadi.
+| # | G'oya | Ball | Holat |
+|---|-------|:----:|-------|
+| 1 | [[SMB_Cybersecurity|XavfsizBiz.uz]] | 8.0 | ✅ Validatsiya qilingan (100/100) |
+| 2 | [[ToyByudjet]] | 7.8 | ✅ Validatsiya qilingan |
+| 3 | [[RuralEducation|QishloqMaktab.uz]] | 7.8 | ✅ Validatsiya qilingan |
+| 4 | [[BogchaTop]] | 7.5 | ✅ Validatsiya qilingan |
+| 5 | [[ElderlyCare|Parvarish.uz]] | 7.5 | ✅ Validatsiya qilingan (etalon) |
+| 6 | [[UyEnergiya]] | 7.5 | 🆕 Birlashtirilgan (quyosh/energiya) |
+| 7 | [[KichikBiznesHisobi]] | 7.2 | 🆕 Birlashtirilgan (KOBM hisobi) |
+| 8 | [[AgroSense]] | 7.2 | 🆕 Birlashtirilgan (agro sensor) |
+| 9 | [[EksportKoprik|EksportKo'prik.uz]] | 7.2 | 🆕 Birlashtirilgan (eksport) |
 
-| Sektor | Papka | G'oyalar | To'lovchi modeli |
-|--------|-------|:--------:|------------------|
+**Hujjatlar:** [[G'OYALAR-AUDIT-2026]] (to'liq baholar) · [[RAD-ETILGAN-GOYALAR]] (arxiv, 84 g'oya) · [[IDEAS-100]] (yopilgan katalog)
+
+--------|-------|:--------:|------------------|
 | 🌾 Qishloq xo'jaligi | `01-Agro` | 10 | Dehqon % + B2B |
 | 💰 Moliya | `02-Finance` | 10 | Obuna + bank lead |
 | 🏥 Sog'liq | `03-Health` | 10 | Klinika listing + obuna |

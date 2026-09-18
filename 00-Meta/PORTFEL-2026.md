@@ -2,15 +2,38 @@
 aliases: [PORTFEL-2026, Portfolio 2026, Investor Portfeli]
 tags: [meta, portfolio, investor, 2026]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-18
 sektor: 00-Meta
 tur: meta
 holat: faol
 sarlavha: PORTFEL-2026
-qisqacha: 5 loyiha investor portfeli — ballar, sarmoya so'rovi, risklar, prioritet
+qisqacha: 9 g'oya portfeli (5 validatsiya + 4 birlashtirilgan) — ballar, sarmoya so'rovi, prioritet
 ---
 
-# 💼 PORTFEL-2026 — 5 Loyiha Investor Portfeli
+# 💼 PORTFEL-2026 — 9 G'OYA PORTFELI
+
+> **2026-09-18 yangilanish:** g'oyalar auditi ([[G'OYALAR-AUDIT-2026]]) natijasida portfelga **4 ta yangi g'oya** qo'shildi (birlashtirish orqali): [[UyEnergiya]] 7.5 · [[KichikBiznesHisobi]] 7.2 · [[AgroSense]] 7.2 · [[EksportKoprik]] 7.2.
+> Quyidagi 1–4-bo'limlar **dastlabki 5 loyiha** (100/100 qadam) bo'yicha investor tahlili — o'zgarishsiz.
+
+## 📊 0. TO'LIQ PORTFEL — 9 G'OYA (2026-09-18)
+
+| # | G'oya | Ball | Qaror | Papka |
+|---|-------|:----:|:-----:|-------|
+| 1 | XavfsizBiz.uz | 8.0 | GO ✅ | `14-Security` |
+| 2 | To'yByudjet | 7.8 | GO ✅ | `20-Society` |
+| 3 | QishloqMaktab.uz | 7.8 | GO ✅ | `04-Education` |
+| 4 | Bog'chaTop | 7.5 | GO ✅ | `04-Education` |
+| 5 | Parvarish.uz | 7.5 | GO ✅ | `20-Society` |
+| 6 | UyEnergiya.uz | 7.5 | GO ✅ | `09-Energy` |
+| 7 | KichikBiznes Hisobi | 7.2 | GO ✅ | `02-Finance` |
+| 8 | AgroSense.uz | 7.2 | GO ✅ | `01-Agro` |
+| 9 | EksportKo'prik.uz | 7.2 | GO ✅ | `01-Agro` |
+
+**Portfel o'rtacha bahosi: 7.5**
+
+---
+
+## 📊 1. INVESTOR JADVALI (5 loyiha)
 
 > **Maqsad:** Barcha 5 loyihani investor uchun yagona jadvalda ko'rsatish — baholar, sarmoya so'rovi, risklar va prioritet.
 > **Manba:** Har loyiha fayli (100/100 qadam) · baholar [[STANDARTLAR]] 3-bo'lim bo'yicha · valyuta: 1 USD ≈ 12,800 so'm
