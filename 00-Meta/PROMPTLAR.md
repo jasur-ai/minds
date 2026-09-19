@@ -1,7 +1,7 @@
 # 📚 Prompt kutubxonasi
 
 ## P1 — INVEST baholash
-- kategoriya: Baholash · ishlatilgan: 1 · 2026-09-19
+- kategoriya: Baholash · ishlatilgan: 2 · 2026-09-19
 - matn: Quyidagi g'oyani INVEST mezonlari bo'yicha baholang va 1-10 ball bering:\n1) Muammo qanchalik og'riqli? 2) Auditoriya qanchalik katta? 3) Yechim texnik jihatdan bajariladimi? 4) Raqobat qanchalik kuchli? 5) Daromad modeli aniqmi? 6) 6 oyda ishga tushadimi?\nHar mezon uchun qisqa izoh + eng zaif joyni va uni tuzatish yo'lini yozing. Raqamlarni taxmin qilmang — manba ko'rsating.
 
 ## P2 — Mom Test intervyu savollari
