@@ -9,3 +9,4 @@ holat: yangi
 
 ## 🧪 Intervyu rejasi
 - [ ] Issiqxona egasi (Chirchiq) — Haroratni qanday nazorat qilasiz?
+- [ ] Baliq fermasi egasi — Kislorod tushganda nima qilasiz?
