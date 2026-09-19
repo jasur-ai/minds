@@ -1,8 +1,8 @@
 ---
 sarlavha: TEST
-holat: yangi
-bosqich: 0
-qadam: 0
+holat: tekshiruvda
+bosqich: 2
+qadam: 15
 ---
 
 # TEST fayl
