@@ -6,3 +6,8 @@ qadam: 15
 ---
 
 # TEST fayl
+
+---
+
+## 📝 Ish jurnali
+- **2026-09-19** · 🧪 intervyu — 3 ta egasi bilan gaplashdim, 2 tasi to'lashga tayyor
