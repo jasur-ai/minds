@@ -1,9 +1,13 @@
 ---
 sarlavha: TEST AVTO
-holat: faol
-sektor: 01-Agro
-bosqich: 9
 qadam: 37
+tur: g'oya
+holat: yangi
+sektor: 01-Agro
+created: 2026-09-19
+bosqich: 4
 ---
 
-# TEST AVTO
+# TEST AVTO fayl
+
+matn
