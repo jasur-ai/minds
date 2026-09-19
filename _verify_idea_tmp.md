@@ -11,3 +11,4 @@ qadam: 15
 
 ## 📝 Ish jurnali
 - **2026-09-19** · 🧪 intervyu — 3 ta egasi bilan gaplashdim, 2 tasi to'lashga tayyor
+- **2026-09-19** · ⚖️ qaror — MVP ni sensor to'plamidan boshlash
