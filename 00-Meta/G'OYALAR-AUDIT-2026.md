@@ -98,7 +98,7 @@ qisqacha: 102 g'oya 6 mezon bo'yicha baholandi — 5 qoldi, 16 si 4 yangi g'oyag
 | 32 | **MaktabYordam — uy vazifasi** | `04-Education` | 6 · 5 · 7 · 5 · 5 · 7 | **5.8** | 📦 arxivga — Bepul kontent ko'p; ota-ona trafigi qimmat (CAC yuqori) |
 | 33 | **OtaOnaAkademiya — kurslar** | `04-Education` | 6 · 6 · 7 · 5 · 6 · 7 | **6.2** | 📦 arxivga — Kurs bozori to'yingan (YouTube, Telegram kanallari, mahalliy platformalar) |
 | 34 | **RepetitorTop — repetitor topish** | `04-Education` | 7 · 6 · 7 · 5 · 6 · 6 | **6.2** | 📦 arxivga — Repetitor.uz va Telegram guruhlari bor — bo'sh joy tor |
-| 35 | **QishloqMaktab.uz — qishloq ta'limi** | `04-Education` | 8 · 8 · 7 · 8 · 6 · 8 | **7.5** | GO ✅ qoldi — VALIDATSIYA QILINGAN (7.8) — 100/100 qadam, BILIM donor kanali |
+| 35 | **QishloqMaktab.uz — qishloq ta'limi** | `04-Education` | 8 · 8 · 7 · 8 · 6 · 8 | **7.8** | GO ✅ qoldi — VALIDATSIYA QILINGAN (7.8) — 100/100 qadam, BILIM donor kanali |
 | 36 | **STEMTo'plam — eksperiment to'plami** | `04-Education` | 6 · 6 · 6 · 6 · 6 · 6 | **6.0** | 📦 arxivga — Import tovar savdosi — startup emas, savdo biznesi |
 | 37 | **TalabaIsh — talaba ishi** | `04-Education` | 6 · 6 · 7 · 4 · 5 · 6 | **5.7** | 📦 arxivga — STANDARTLAR 1.1: IshTopchi (50k+) mavjud — qayta taklif taqiqlangan |
 | 38 | **TestDTM — DTM mashq** | `04-Education` | 7 · 6 · 8 · 4 · 7 · 6 | **6.3** | 📦 arxivga — Bepul test platformalari + davlat test.uz — raqobat juda kuchli |

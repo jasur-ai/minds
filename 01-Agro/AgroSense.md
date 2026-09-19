@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 0
 qadam: 0
+ball: 7.2
 sarlavha: AgroSense.uz — kichik agro ishlab chiqaruvchi uchun sensor + uskuna (birlashtirilgan g'oya)
 qisqacha: Issiqxona/baliq uchun arzon sensor to'plami, maslahat va uskuna ijarasi — Telegram'da
 ---

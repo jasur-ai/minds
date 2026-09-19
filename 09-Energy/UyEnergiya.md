@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 0
 qadam: 0
+ball: 7.5
 sarlavha: UyEnergiya.uz — uy uchun energiya tejash va quyosh tizimi (birlashtirilgan g'oya)
 qisqacha: Kalkulyator → audit → izolyatsiya/quyosh → tekshirilgan o'rnatuvchi: bitta voronka
 ---

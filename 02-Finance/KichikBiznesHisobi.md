@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 0
 qadam: 0
+ball: 7.2
 sarlavha: KichikBiznes Hisobi — do'kon/kafe uchun naqd, ish haqi, soliq, hujjat (birlashtirilgan g'oya)
 qisqacha: Telegram'da kichik biznes hisobi: naqd kassa, ish haqi, soliq eslatmasi, hujjat arxivi
 ---

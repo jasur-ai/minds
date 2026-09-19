@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 10
 qadam: 100
+ball: 7.5
 sarlavha: Parvarish.uz — keksalar parvarishi
 qisqacha: Diaspora to'laydigan tekshirilgan parvarishchi + oylik monitoring + hisobot
 ---

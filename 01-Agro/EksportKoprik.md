@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 0
 qadam: 0
+ball: 7.2
 sarlavha: EksportKo'prik.uz — kichik ishlab chiqaruvchini eksportga chiqarish (birlashtirilgan g'oya)
 qisqacha: Eksport hujjati (fitosanitar/GOST) + partiya yig'ish + xaridor topish — yagona xizmat
 ---

@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 10
 qadam: 100
+ball: 7.8
 sarlavha: To'yByudjet — oqilona to'y
 qisqacha: To'y byudjet nazorati + tekshirilgan pudratchilar bozori — qarzga botmaslik yechimi
 ---

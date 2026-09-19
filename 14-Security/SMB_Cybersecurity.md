@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 10
 qadam: 100
+ball: 8.0
 sarlavha: XavfsizBiz.uz — KOBM kiberxavfsizlik
 qisqacha: KOBM uchun arzon o'zbekcha kiberxavfsizlik xizmati ($15–100/oy) — audit, phishing himoya, xodim o'qitish
 ---

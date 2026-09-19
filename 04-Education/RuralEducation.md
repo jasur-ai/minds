@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 10
 qadam: 100
+ball: 7.8
 sarlavha: QishloqMaktab.uz — qishloq ta'limi
 qisqacha: Qishloq bolalari uchun jonli guruhli onlayn darslar ($5–10/oy) — ingliz tili, o'zbekcha, ota-ona hisobotli
 ---

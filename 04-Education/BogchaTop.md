@@ -7,6 +7,7 @@ tur: g'oya
 holat: faol
 bosqich: 10
 qadam: 100
+ball: 7.5
 sarlavha: Bog'chaTop — bog'cha topish + tekshiruv
 qisqacha: Bog'cha katalogi + mustaqil tekshiruv + haqiqiy review — ota-ona bepul, bog'cha $25/oy
 ---
