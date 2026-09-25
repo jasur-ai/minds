@@ -10,7 +10,6 @@
 - keyingi: O'z DSt 3605:2022 kalibrlash talablarini TZ ga kiritish (muddat: 2026-09-26)
 - yozuv: 2026-09-19 21:40 · Beshta ochiq savol bo'yicha chuqur tadqiqot yakunlandi: shovqin qavati, soliq siri, uskunalar holati, egalik va to'lov modeli
 - yozuv: 2026-09-18 18:20 · PQ-343 va PF-16 ni qiyoslab, 1.03.2026 muddati va 5× jazo amalda ekanini tasdiqladim
-- yozuv: 2026-09-25 07:11 · TIZIM SINOVI: yozuv qo'shish zanjiri tekshirilmoqda
 
 ## U-8442078631 — nilu
 - mavzu: XavfsizBiz.uz — KOBM kiberxavfsizlik xizmati
