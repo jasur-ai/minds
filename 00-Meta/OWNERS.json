@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26 16:29",
+  "updatedAt": "2026-09-26 16:31",
   "owners": [
     {
       "id": "8004724563",
@@ -19,7 +19,7 @@
     {
       "id": "999999999",
       "name": "Sinov a'zo",
-      "role": "member",
+      "role": "rahbar",
       "addedAt": "2026-09-26 16:29",
       "by": "admin"
     }
