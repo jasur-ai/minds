@@ -123,3 +123,28 @@ Platforma — Ekologiya jamg'armasi; kengaytma — Umummilliy jamg'arma (kengash
 
 **Keyingi qadam:** **C varianti — moliyaviy model** (xarajat smetasi korxona/davlat kesimida + PF-16 qaytarish zanjiri). Shundan keyin 1-tadqiqot yo'nalishi to'liq yopiladi.
 
+
+---
+
+## 🔄 YANGILANISH 3 — C varianti: moliyaviy model (2026-09-26)
+
+`Tadqiqot-1D-Moliyaviy-Model.md` — indeksdagi **C variantini** yopdi. **Shu bilan 1-tadqiqot yo'nalishi (A → B → C) to'liq bajarildi.**
+
+| Savol | Javob (1-D dan) |
+|---|---|
+| Xarajat nimadan iborat? | **To'rt blok:** (1) uskuna — xalqaro benchmark: bitta mo'ri uchun CEMS **$120 000–350 000** to'liq o'rnatilgan, sertifikatlangan fon stansiyasi **$150 000–250 000**, arzon sensor $500–5 000; (2) o'rnatish + geoaxborot bazasiga integratsiya + metrologik tekshiruv; (3) yillik xizmat — CEMS uchun kapitalning **3–6%**, fon stansiyasi uchun **5–15%**; (4) mustaqil tekshiruv (RATA yillik, mezon nisbiy aniqlik **≤10%**; ≤7,5% bo'lsa chastota kamayadi) |
+| Korxona uchun qaysi yo'l arzon? | Uch stsenariy: **S1 hech nima** → kompensatsiya **5×** (202-son Nizom 201-band); **S2 fon stansiyasi** → qarzdorlikdan voz kechish + **50%** qaytarish (2 yil); **S3 to'liq paket** → **70%** qaytarish. Shartli misolda (baza 2 mlrd so'm/yil) 3 yillik sof yo'qotish: ≈30 mlrd ↔ ≈3 mlrd ↔ ≈1,8 mlrd so'm |
+| Yana qanday imtiyoz bor? | **301-band:** to'liq paketni o'rnatgan YOKI shartnoma bo'yicha 15% dan ortiq to'lov qilgan I/II toifa subyektlarga kompensatsiyani **teng ulushlarda 36 oy** bo'lib to'lash — bu **likvidlik** imtiyozi (oyiga ≈55 mln so'm, shartli) |
+| Qaytarish tartibi qanday? | PF-16 → VM **85-son** (28.02.2026): ikki bosqich, imtiyoz **Ekologiya qo'mitasi xulosasi** bilan, ariza **DXM yoki YAIDPX (my.gov.uz)** orqali; fon stansiyasi aniqlansa qo'mita qarzdorlikdan **avtomatik** voz kechadi va korxonani xabardor qiladi |
+| Uskunaga qanday talablar? | VM 783-son: **O'zMSt 194:2024** (fon) va **O'zMSt 195:2024** (tashlama) ga muvofiqlik; TIF TN **9027** / **8421**; chang-gaz samaradorligi **≥99,5%** (yangi) va **≥95%** (modernizatsiya), lokal suv **≥80%**; xarid shartida **respublika hududida texnik servis** talabi |
+| Davlat tomoni qanday moliyalanadi? | Ikki alohida oqim: (a) **347 stansiya** — byudjet transferti (VM 783-son); (b) **Maxsus/Ekologiya jamg'armasi** — 2025: 900 mlrd so'm, **2026: 548 mlrd** (8-ilova), uglerod savdosidan **20%**, 9-ilova ajratmalari (kompensatsiya 45/15, jarima 50/37) |
+| Himoya qatlami qancha turadi? | 1-C paketi: karta va apellyatsiya ≈ **0** yangi institut; 5% mustaqil qayta-o'lchov + choraklik Aniqlik hisoboti — monitoring byudjetining taxminan **1–3%** i. **Xulosa:** himoya arzon, uni tushirib qoldirish qimmat |
+
+**Uchta bo'shliq (halol):**
+1. **«50%/70% gacha»** — yakuniy foiz xulosa bilan belgilanadi, korxona oldindan aniq raqamni bilmaydi;
+2. **Qaytarish 2 yilga cho'zilgan**, jazo esa **darhol** — diskontlangan qiymatda rag'bat zaiflashadi (taklif: birinchi 6 oyda tezlashtirilgan qaytarish);
+3. **Voz kechish faqat qarzdorlikka** tegishli, joriy to'lovga emas (taklif: imtiyozni joriy yilga yoyish). Qo'shimcha: 36 oy bo'lib to'lash va 50%/70% qaytarish **bir vaqtda** qo'llanishi mumkinmi — hujjatlarda aniq misol yo'q.
+
+**Yangi tezis:** jazo (202-son Nizom) va rag'bat (PF-16 / VM 85-son) **ikki hujjatda** — korxona ularni birlashtirmaguncha qaror qabul qilmaydi. **Aniqlik — moliyaviy kategoriya:** o'lchov xatosi → koeffitsient → summa → qaytarish foizi (uch marta ko'paytirilgan xato).
+
+**Keyingi qadam:** yo'nalishdan tashqari — `TZ-1` ni rasmiylashtirish (obyekt tanlash mezonlari, ma'lumot almashish rejimi; muddat **2026-10-10**), so'ng natijalarni `Goya-Uch-Daftar.md` ga sintez qilish.
