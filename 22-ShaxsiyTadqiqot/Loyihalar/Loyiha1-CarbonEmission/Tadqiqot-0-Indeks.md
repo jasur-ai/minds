@@ -86,3 +86,20 @@ Platforma — Ekologiya jamg'armasi; kengaytma — Umummilliy jamg'arma (kengash
 ---
 
 *Bu indeks beshta mustaqil tadqiqotni bog'laydi. Har biri o'z manbalar jadvali bilan (rasmiy **R** / akademik **A** / media **M** + havola + sana) yakunlanadi.*
+
+---
+
+## 🔄 YANGILANISH — 1-tadqiqot davomi (2026-09-26)
+
+`Tadqiqot-1B-Shovqin-Qavati-Davomi.md` 1-tadqiqotning **to'rt bo'shlig'ini** ko'rib chiqdi:
+
+| Bo'shliq | Holat | Qisqa javob |
+|---|---|---|
+| UZ uchun aniq raqam | ⚠️ qisman | Operator kesimida raqamlar: oqim o'lchagichi **5–17%** (bitta yo'l) / **0,5–1%** (X-shakl); etalon **±0,7%**; RATA «etaloni» **5–6%** |
+| O'z DSt 3605:2022 matni | ✅ **yo'l topildi** | Matn shart emas — TT shartlarini **Davlat ekologik sertifikatlashtirish va standartlashtirish markazi** yozadi (VM-783); mahalliylashtirish topshirig'i bor |
+| Uskunalar o'rnatildimi | ✅ **birinchi dalil** | «IES» AJ: 5 obyekt + 3 tasi geoaxborot bazasiga integratsiya; situatsion markaz. **Namuna**, qamrov emas |
+| Kalibrovka bozori | ✅ **to'ldirildi** | ILAC MRA (116 davlat) + ISO/IEC 17025:2019 kuchda; **lekin** noaniqlikni qayta hisoblash amaliyoti hujjatlashtirilmagan (rasman tan olingan bo'shliq) |
+
+**Yangi asosiy tezis (1-tadqiqotda yo'q edi):** eng zaif bo'g'in — **oqim o'lchagichi**, va uning xatosi **hamma moddalarga bir xil yo'nalishda** o'tadi → shovqin qavati **belgili (signed)** va **zanjir kesimida** o'lchanishi shart.
+
+**A varianti boshlanди:** `Tadqiqot-1B` oxirida **TZ-1 qoralamasi (v0.1)** — maqsad, 3 strata, 100–120 juftlik, 7 bosqichli ish rejasi va natija shakli.
