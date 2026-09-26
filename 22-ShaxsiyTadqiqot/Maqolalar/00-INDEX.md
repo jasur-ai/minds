@@ -2,7 +2,7 @@
 aliases: [Maqolalar]
 tags: [shaxsiy-tadqiqot, indeks]
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-26
 sektor: 22-ShaxsiyTadqiqot
 tur: indeks
 holat: faol
@@ -14,7 +14,7 @@ qisqacha: Maqolalar ro'yxati
 
 | Maqola | Holat | Asosiy fayl |
 |---|---|---|
-| [[Maqola 1 — Carbon Emission (indeks)|Maqola 1 · EGAZ BALANS]] | 🟢 qoralama | [[Maqola-EGAZ-BALANS]] |
+| [[Maqola 1 — Carbon Emission (indeks)|Maqola 1 · EGAZ BALANS]] | 🟢 qoralama **v2** | [[Maqola-v2-Raqam-Qimmatga-Aylanadi]] · [[Maqola-EGAZ-BALANS]] (v1) |
 | [[Maqola 2 — Trash Organizer (indeks)|Maqola 2 · Ochiq Eko Ledger]] | 🟡 kutishda | [[Maqola-Ochiq-Eko-Ledger]] |
 
 🔗 [[00-HOME]] · [[00-AI-AGENT]]

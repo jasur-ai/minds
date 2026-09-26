@@ -2,7 +2,7 @@
 aliases: [Maqola 1, EGAZ BALANS indeks]
 tags: [shaxsiy-tadqiqot, maqola1, indeks]
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-26
 sektor: 22-ShaxsiyTadqiqot | Maqola1
 tur: indeks
 holat: qoralama
@@ -14,7 +14,14 @@ manba: workspace/03-Maqola1-Carbon-Emission/00-INDEX.md
 # 03 · MAQOLA 1 — CARBON EMISSION (EGAZ-BALANS)
 
 **Holat:** 🟢 faol (qoralama) · **Maqsad:** umumiy darajadagi maqola — texnik implementatsiya YO'Q
-**Yangilangan:** 2026-09-18
+**Yangilangan:** 2026-09-26
+
+## Versiyalar
+
+| Versiya | Fayl | Mazmuni |
+|---|---|---|
+| **v1.0** | `Maqola-EGAZ-BALANS.md` | Dalillar to'plami (raw compilation) — hamma raqam, iqtibos, ziddiyat; o'chirilmaydi |
+| **v2.0** | `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` | **Matn skeleti** — uch qatlam (o'lchov → himoya → pul), professional tuzilma, E-turkum manbalari |
 
 ## Tuzilma
 

@@ -13,6 +13,8 @@ manba: workspace/03-Maqola1-Carbon-Emission/Maqola/Maqola1_EGAZ_BALANS.md
 
 # E-GAZ-BALANS: O'ZBEKISTON EMISSIYA RAQAMLARIGA ISHONISH MUMKINMI? — HISOBOTNI AVTOMATIK TEKSHIRISH G'OYASI VA DALILLAR TO'PLAMI
 
+> **YANGILANISH (2026-09-26):** ushbu dalillar to'plami asosida **matn skeleti v2.0** yozildi — `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` (uch qatlam: o'lchov → himoya → pul; E-turkum manbalari). Bu fayl **o'chirilmaydi** va to'liq bibliografiya manbasi bo'lib qoladi.
+
 > **QORALAMA (DRAFT / RAW COMPILATION).** Bu hujjat — nashrga tayyor maqola emas, balki manba tadqiqot hujjati (`Uzbekistan_Eko_DeepResearch_2026.md`) va qo'shimcha veb-qidiruv natijalarida topilgan **hamma dalil, raqam, iqtibos va taqqoslashning tartiblangan to'plami**. Yakuniy tanlov — nimani qoldirish, nimani qisqartirish — muallif (Jasur) tomonidan alohida hal qilinadi. Qisqartirishlar ushbu bosqichda qilinmagan; oxirida qo'shimcha materiallar uchun alohida bo'lim mavjud (§11).
 
 **Muallif:** [F.I.Sh.] · **Tashkilot:** [Universitet / kafedra] · **Konferensiya:** MMIT'26  
