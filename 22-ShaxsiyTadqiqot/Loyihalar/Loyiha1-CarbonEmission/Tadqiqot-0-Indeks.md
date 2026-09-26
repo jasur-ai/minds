@@ -103,3 +103,23 @@ Platforma — Ekologiya jamg'armasi; kengaytma — Umummilliy jamg'arma (kengash
 **Yangi asosiy tezis (1-tadqiqotda yo'q edi):** eng zaif bo'g'in — **oqim o'lchagichi**, va uning xatosi **hamma moddalarga bir xil yo'nalishda** o'tadi → shovqin qavati **belgili (signed)** va **zanjir kesimida** o'lchanishi shart.
 
 **A varianti boshlanди:** `Tadqiqot-1B` oxirida **TZ-1 qoralamasi (v0.1)** — maqsad, 3 strata, 100–120 juftlik, 7 bosqichli ish rejasi va natija shakli.
+
+---
+
+## 🔄 YANGILANISH 2 — B varianti: «Adolat paketi» (2026-09-26)
+
+`Tadqiqot-1C-Adolat-Paketi.md` — indeksdagi **B variantini** boshladi (va shu bilan A→B ketma-ketligi yopildi).
+
+| Savol | Javob (1-C dan) |
+|---|---|
+| Platforma talablarida himoya bormi? | ❌ **yo'q** — PQ-343 7-ilovasidagi 8 talabning birortasida apellyatsiya/tushuntirish/yolg'on-ijobiy oshkorligi yo'q; 2-talab «inson omilini qisqartirish», 6-talab «onlayn ta'sir chorasi» |
+| UZ qonunchiligi nima beradi? | ✅ **ko'p**: O'RQ-457 — 30 ish kuni, **ijroni to'xtatish**, to'liq hajmda ko'rish, tushuntirish (9, 10, 53, 56, 62–70-moddalar); MJTK — **10 kun**; murojaat — 15 kun/1 oy; MPK — 3 oy (ziddiyatli) |
+| Nega shoshilinch? | 202-son Nizom koeffitsienti **1×–20×**; normativ yo'q bo'lsa **20×**; bir vaqtda bir necha modda — **10×**. O'lchov xatosi (oqim o'lchagichi 5–17%) **to'g'ridan-to'g'ri pulga** aylanadi |
+| Texnik javob | **Uch zonali qoida**: 🟢 x̄ < L · 🟡 L ≤ x̄ ≤ L+U (shartli — jazo yo'q, avtomatik tekshiruv) · 🔴 x̄ > L+U (jazo, lekin karta va e'tiroz bilan). Asos: JCGM 106 (guarded rejection), ILAC-G8 (2,5% / <50% risk), ISO/IEC 17025 7.8.6 |
+| Amaliy javob | **12 maydonli tushuntirish kartasi** + **6 bosqichli apellyatsiya oqimi** (soft-hold → karta → 10 kun e'tiroz → pauza → 30 ish kuni → sud) |
+| Statistika | **5 ochiq metrika** (sariq zona ulushi, precision, bekor qilingan qarorlar, U/L) + **5% mustaqil qayta-o'lchov kvotasi** (4 mustaqil a'zoli Jamg'arma kengashi hisob beradi) |
+
+**Yangi tezis:** himoya qatlami — texnik emas, **huquqiy bo'shliq**; uni yopish uchun uch hujjat yetarli: PQ-343 7-ilovasiga **9-talab**, VM-783 **TT shartlariga qaror qoidasi**, 202-son **Nizomga e'tiroz moddasi**.
+
+**Keyingi qadam:** **C varianti — moliyaviy model** (xarajat smetasi korxona/davlat kesimida + PF-16 qaytarish zanjiri). Shundan keyin 1-tadqiqot yo'nalishi to'liq yopiladi.
+
