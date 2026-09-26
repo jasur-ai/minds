@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10 11:58",
+  "updatedAt": "2026-09-26 16:29",
   "owners": [
     {
       "id": "8004724563",
@@ -15,6 +15,13 @@
       "addedAt": "2026-09-08 09:05",
       "by": "bot",
       "loyiha": "XavfsizBiz.uz"
+    },
+    {
+      "id": "999999999",
+      "name": "Sinov a'zo",
+      "role": "member",
+      "addedAt": "2026-09-26 16:29",
+      "by": "admin"
     }
   ]
 }
