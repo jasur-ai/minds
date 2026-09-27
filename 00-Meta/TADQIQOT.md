@@ -5,7 +5,7 @@
 - yonalish: Ekologiya · siyosat
 - holat: faol
 - bosqich: Tadqiqot
-- progress: 88
+- progress: 98
 - at: 2026-09-27 05:39
 - keyingi: TZ-1 rasmiylashtirish (obyekt tanlash mezonlari + ma'lumot almashish rejimi; muddat: 2026-10-10), so'ng natijalarni Goya-Uch-Daftar.md ga sintez qilish
 - yozuv: 2026-09-26 22:05 · **Tadqiqot 1-D — moliyaviy model yakunlandi (C varianti); shu bilan 1-tadqiqot yo'nalishi (A→B→C) to'liq yopildi.** Xarajat to'rt blokka bo'lindi: uskuna · o'rnatish+integratsiya · yillik xizmat · mustaqil tekshiruv. Xalqaro benchmarklar: bitta mo'ri uchun CEMS **$120–350 ming** to'liq o'rnatilgan (yillik xizmat TIC ning 3–6% i), sertifikatlangan fon stansiyasi **$150–250 ming**. UZ tomonida rag'bat zinapoyasi faktlar bilan tiklandi: **5×** jazo (202-son Nizom 201-band) → fon stansiyasi = qarzdorlikdan voz kechish + **50%** qaytarish → to'liq paket = **70%** → o'rnatganlar uchun kompensatsiyani **36 oy** bo'lib to'lash (301-band). Manbalar: PF-16, VM 85-son (fon/emissiya stansiyalari tahriri: O'zMSt 194/195:2024, TIF TN 9027/8421, chang-gaz ≥99,5%/95%, suv ≥80%), PQ-343 8–10-ilovalar (2026: 548 mlrd so'm), VM 783-son, EPA RATA, AppLus/Clarity/ESEGAS narxlari (D1–D16). Uchta bo'shliq: 50%/70% «gacha» — oldindan ma'lum emas; qaytarish 2 yilga cho'zilgan, jazo esa darhol; voz kechish faqat qarzdorlikka tegishli. Asosiy xulosa: himoya qatlamining narxi monitoring byudjetining ~**1–3%** i — ya'ni 1-C paketi qimmat emas, uni tushirib qoldirish qimmat.
