@@ -22,6 +22,8 @@ manba: workspace/03-Maqola1-Carbon-Emission/00-INDEX.md
 |---|---|---|
 | **v1.0** | `Maqola-EGAZ-BALANS.md` | Dalillar to'plami (raw compilation) — hamma raqam, iqtibos, ziddiyat; o'chirilmaydi |
 | **v2.0** | `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` | **Matn skeleti** — uch qatlam (o'lchov → himoya → pul), professional tuzilma, E-turkum manbalari |
+| **v3.0** | `Maqola-v3-YAKUNIY-Draft.md` + `YAKUNIY/01-Maqola-Draft.html` | **O'qish nusxasi (yakuniy draft)** — matn + raqam + **10 grafik** ketma-ketligi · 13 bo'lim · E-turkum |
+| — | `grafiklar/K1…K10.svg` | Grafiklar to'plami (inline SVG: internet/chop etishda ham ko'rinadi) |
 
 ## Tuzilma
 
