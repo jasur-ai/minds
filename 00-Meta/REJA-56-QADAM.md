@@ -1,6 +1,7 @@
 # REJA — 56 QADAM: loyiha (g'oya) + maqola, to'liq bajarildi
 
 **Sana:** 2026-09-26 · **Holat:** ✅ 56/56 bajarildi · **Ikki yo'nalish:** A — loyiha (g'oya), B — maqola, C — yakuniy yig'ish
+**Har bir qadamning mustaqil izlanishi:** `00-Meta/QADAM-IZLANISH.md` — 56 bo'lim (savol -> manbalar -> dalillar -> tahlil -> xulosa); botda `/izlanish N` yoki `/qadam56 N`.
 **Tamoyil:** har bir qadam **o'z qismini tugallaydi** (deliverable'i bor), bir-biriga bog'lanadi va oxirida ikki nusxada taqdim etiladi: **maqola = matn + raqam + grafik ketma-ketligi**, **loyiha = xarita (map)**.
 
 ---
