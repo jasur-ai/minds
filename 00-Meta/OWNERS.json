@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26 17:11",
+  "updatedAt": "2026-09-27 04:26",
   "owners": [
     {
       "id": "8004724563",
@@ -8,6 +8,13 @@
       "addedAt": "init",
       "by": "init",
       "loyiha": "ToyByudjet"
+    },
+    {
+      "id": "5037035198",
+      "name": "Salimova",
+      "role": "rahbar",
+      "addedAt": "2026-09-27 04:26",
+      "by": "- jasur"
     }
   ]
 }
