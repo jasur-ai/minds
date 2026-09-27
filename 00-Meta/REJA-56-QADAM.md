@@ -61,6 +61,7 @@
 | M19 | Qoralama bo'limi | sarlavha variantlari · ishlatilmagan dalillar · ochiq savollar | v3 §13 |
 | M20 | Sarlavha variantlari | 4 variant | v3 §13.1 |
 | M21 | Grafiklar to'plami | **10 grafik** (K1–K10), inline SVG | `grafiklar/K1…K10.svg` |
+| M21b | Grafiklarni eksport qilish | SVG → **PNG** (11 ta, 1.4× shkala) — chop etish/taqdimot uchun | `grafiklar/*.svg` · `png/*.png` |
 | M22 | O'qish ketma-ketligi | matn → jadval → grafik → xulosa | v3 (tuzilma) |
 | M23 | Mobil va chop etish mosligi | responsive + print CSS | v3 HTML (`@media`) |
 | M24 | Indeks va tavsifni yangilash | «Versiyalar» jadvali, uch qatlam o'qi | `00-INDEX.md`, `Umumiy-Maqola-Tavsifi.md` |
