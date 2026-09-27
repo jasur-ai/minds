@@ -1,0 +1,210 @@
+{
+ "nodes": [
+  {
+   "id": "core",
+   "type": "text",
+   "text": "# EMISSIYA AUDITI\n**avtomatik monitoring tizimi**\n\no'lchov → himoya → pul",
+   "x": 0,
+   "y": 0,
+   "width": 340,
+   "height": 160,
+   "color": "5"
+  },
+  {
+   "id": "muammo",
+   "type": "text",
+   "text": "# 🎯 MUAMMO\nDavlat **hisob-kitob**, korxona **o'lchov** asosida ishlaydi.\n2 335 obyekt · 01.03.2026 muddat",
+   "x": -520,
+   "y": -340,
+   "width": 340,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "t1b",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Tadqiqot-1B-Shovqin-Qavati-Davomi.md",
+   "x": 460,
+   "y": -340,
+   "width": 360,
+   "height": 150,
+   "color": "6"
+  },
+  {
+   "id": "t1c",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Tadqiqot-1C-Adolat-Paketi.md",
+   "x": 460,
+   "y": -140,
+   "width": 360,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "t1d",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Tadqiqot-1D-Moliyaviy-Model.md",
+   "x": 460,
+   "y": 60,
+   "width": 360,
+   "height": 150,
+   "color": "4"
+  },
+  {
+   "id": "huquq",
+   "type": "text",
+   "text": "# ⚖️ HUQUQIY BAZA\nVM-783 · 202-Nizom · PF-16 · VM-85\nPQ-343 · PQ-347 · O'RQ-457 · MJTK",
+   "x": -520,
+   "y": -140,
+   "width": 340,
+   "height": 130,
+   "color": "3"
+  },
+  {
+   "id": "pul",
+   "type": "text",
+   "text": "# 💰 PUL\n5× jazo ↔ 50%/70% qaytarish ↔ 36 oy\nBudjet 900→548 mlrd · amalda 274 mlrd",
+   "x": -520,
+   "y": 60,
+   "width": 340,
+   "height": 130,
+   "color": "4"
+  },
+  {
+   "id": "goya",
+   "type": "text",
+   "text": "# 💡 G'OYA\nuch daftar · qaror qoidasi (uch zona)\ntushuntirish kartasi · Aniqlik hisoboti",
+   "x": -520,
+   "y": 260,
+   "width": 340,
+   "height": 130,
+   "color": "5"
+  },
+  {
+   "id": "tz1",
+   "type": "text",
+   "text": "# 🧪 TZ-1\n3 strata · 100–120 juftlik · 8–12 hafta\nmuddat: **2026-10-10**",
+   "x": 460,
+   "y": 260,
+   "width": 360,
+   "height": 130,
+   "color": "5"
+  },
+  {
+   "id": "maqola",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Maqolalar/Maqola1-CarbonEmission/Maqola-v3-YAKUNIY-Draft.md",
+   "x": 460,
+   "y": 460,
+   "width": 360,
+   "height": 150,
+   "color": "2"
+  },
+  {
+   "id": "xarita",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Loyiha-1-Xarita.md",
+   "x": -520,
+   "y": 460,
+   "width": 340,
+   "height": 130,
+   "color": "2"
+  },
+  {
+   "id": "indeks",
+   "type": "file",
+   "file": "22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Tadqiqot-0-Indeks.md",
+   "x": 0,
+   "y": 300,
+   "width": 340,
+   "height": 130,
+   "color": "6"
+  }
+ ],
+ "edges": [
+  {
+   "id": "emuammo",
+   "fromNode": "core",
+   "fromSide": "left",
+   "toNode": "muammo",
+   "toSide": "right"
+  },
+  {
+   "id": "et1b",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "t1b",
+   "toSide": "left"
+  },
+  {
+   "id": "et1c",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "t1c",
+   "toSide": "left"
+  },
+  {
+   "id": "et1d",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "t1d",
+   "toSide": "left"
+  },
+  {
+   "id": "ehuquq",
+   "fromNode": "core",
+   "fromSide": "left",
+   "toNode": "huquq",
+   "toSide": "right"
+  },
+  {
+   "id": "epul",
+   "fromNode": "core",
+   "fromSide": "left",
+   "toNode": "pul",
+   "toSide": "right"
+  },
+  {
+   "id": "egoya",
+   "fromNode": "core",
+   "fromSide": "left",
+   "toNode": "goya",
+   "toSide": "right"
+  },
+  {
+   "id": "etz1",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "tz1",
+   "toSide": "left"
+  },
+  {
+   "id": "emaqola",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "maqola",
+   "toSide": "left"
+  },
+  {
+   "id": "exarita",
+   "fromNode": "core",
+   "fromSide": "left",
+   "toNode": "xarita",
+   "toSide": "right"
+  },
+  {
+   "id": "eindeks",
+   "fromNode": "core",
+   "fromSide": "right",
+   "toNode": "indeks",
+   "toSide": "left"
+  },
+  {
+   "id": "eindeks",
+   "fromNode": "core",
+   "fromSide": "bottom",
+   "toNode": "indeks",
+   "toSide": "top"
+  }
+ ]
+}

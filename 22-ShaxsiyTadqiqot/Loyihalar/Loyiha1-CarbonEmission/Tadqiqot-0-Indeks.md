@@ -147,4 +147,13 @@ Platforma — Ekologiya jamg'armasi; kengaytma — Umummilliy jamg'arma (kengash
 
 **Yangi tezis:** jazo (202-son Nizom) va rag'bat (PF-16 / VM 85-son) **ikki hujjatda** — korxona ularni birlashtirmaguncha qaror qabul qilmaydi. **Aniqlik — moliyaviy kategoriya:** o'lchov xatosi → koeffitsient → summa → qaytarish foizi (uch marta ko'paytirilgan xato).
 
+## 🗺️ XARITA — loyihaning umumiy ko'rinishi (2026-09-26)
+
+Butun loyiha bir varaqda: `Loyiha-1-Xarita.md` (+ vizual SVG `YAKUNIY/02-Loyiha-Xarita.html`, Obsidian canvas `Loyiha-1-Xarita.canvas`).
+Tuzilma: Muammo · Uch qatlam (1-B/1-C/1-D) · Huquqiy baza · Pul oqimlari · G'oya · TZ-1 · Mini-ilova · Tadqiqotlar daraxti · Manbalar · Keyingi qadamlar.
+
+**Bajarilgan ishlar rejasi:** `00-Meta/REJA-56-QADAM.md` — A (loyiha, 26) + B (maqola, 26) + C (yig'ish, 4) = **56 qadam, 56/56 bajarildi**.
+
+---
+
 **Keyingi qadam:** yo'nalishdan tashqari — `TZ-1` ni rasmiylashtirish (obyekt tanlash mezonlari, ma'lumot almashish rejimi; muddat **2026-10-10**), so'ng natijalarni `Goya-Uch-Daftar.md` ga sintez qilish.
