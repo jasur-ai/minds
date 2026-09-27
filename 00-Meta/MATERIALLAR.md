@@ -1,17 +1,18 @@
-# 📚 MATERIALS — bot ichidagi yakuniy materiallar (56 qadam)
+# MATERIALLAR — yakuniy ro'yxat (2026-09-27)
 
-**Yangilangan:** 2026-09-26 · **Bot buyruqlari:** `/reja56` · `/qadam56 <n>` · `/maqola` · `/xarita`
+## Bot ko'rsatadigan materiallar
 
-| Kalit | Fayl | Nima | Qadamlar |
+| Material | Fayl | Grafiklar | Rasm manzili |
 |---|---|---|---|
-| REJA | `00-Meta/REJA-56-QADAM.md` | 56 qadamli reja (A: 26 · B: 26 · C: 4) | **1–56** |
-| MAQOLA | `22-ShaxsiyTadqiqot/Maqolalar/Maqola1-CarbonEmission/Maqola-v3-YAKUNIY-Draft.md` | Maqola 1 yakuniy drafti (13 bo'lim, 10 grafik) | 13 bo'lim |
-| XARITA | `22-ShaxsiyTadqiqot/Loyihalar/Loyiha1-CarbonEmission/Loyiha-1-Xarita.md` | Loyiha 1 xaritasi (10 tugun) | 10 tugun |
-| PNG | `…/Maqola1-CarbonEmission/png/K1…K10.png` · `…/Loyiha1-CarbonEmission/png/XARITA.png` | Grafiklar (Telegram rasm sifatida) | 11 ta |
+| Yakuniy maqola (16 bo'lim) | `Maqolalar/Maqola-Yakuniy/Final-Maqola.md` | K1–K10, N1–N10 | `Maqola1-CarbonEmission/png/` + `Maqola2-TrashOrganizer/png/` |
+| G'oya 1 (Emissiya auditi) | `Loyihalar/Loyiha1-CarbonEmission/Loyiha-1-Goya.md` | XARITA | `Loyiha1-CarbonEmission/png/XARITA.png` |
+| G'oya 2 (Ochiq Eko Ledger) | `Loyihalar/Loyiha2-TrashOrganizer/Loyiha-2-Goya.md` | XARITA2 | `Loyiha2-TrashOrganizer/png/XARITA2.png` |
+| Izlanish (56 qadam) | `00-Meta/QADAM-IZLANISH.md` | — | — |
+| Reja (56 qadam) | `00-Meta/REJA-56-QADAM.md` | — | — |
 
-## Ketma-ketlik qoidasi
+## Arxiv
 
-Bot `/reja56` da **1 dan 56 gacha** ketma-ket yuriladi: ⏮ ◀ ▶ ⏭ tugmalari bilan.
-Har qadam: **nomi → natija (deliverable) → fayl → bo'lim (A/B/C)**.
-Maqola bo'limlari ketma-ketligi: 1 → 13 (grafiklar rasm bilan birga yuboriladi).
-Xarita tugunlari: 1 → 10.
+- `Maqolalar/Maqola1-CarbonEmission/` — v1 (65 KB), v2 (41 KB), v3 (14 KB), png/K1–K10
+- `Maqolalar/Maqola2-TrashOrganizer/` — v1 (52 KB), v3 (12 KB), png/N1–N10
+- `Loyihalar/Loyiha1-CarbonEmission/` — 1-B/1-C/1-D tadqiqotlar, Xarita, canvas
+- `Loyihalar/Loyiha2-TrashOrganizer/` — TZ (63 KB), Xarita
