@@ -4,7 +4,7 @@
 - mavzu: Emissiya auditi — avtomatik monitoring tizimi
 - yonalish: Ekologiya · siyosat
 - holat: faol
-- bosqich: Prototip
+- bosqich: Tadqiqot
 - progress: 88
 - at: 2026-09-27 05:39
 - keyingi: TZ-1 rasmiylashtirish (obyekt tanlash mezonlari + ma'lumot almashish rejimi; muddat: 2026-10-10), so'ng natijalarni Goya-Uch-Daftar.md ga sintez qilish
