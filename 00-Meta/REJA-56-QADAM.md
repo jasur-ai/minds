@@ -40,33 +40,33 @@
 
 | # | Qadam | Natija (deliverable) | Fayl / dalil |
 |---|---|---|---|
-| M1 | Mavzu va taranglik | «raqam ishonchsiz bo'lsa, jazo ham adolatsiz» | v3 §1 |
-| M2 | Maqsadli o'quvchi | siyosat qiluvchi · muhandis · jurnalist · investor · talaba | `Umumiy-Maqola-Tavsifi.md` |
-| M3 | Qoidalar | ziddiyat ochiq · so'z chegarasi yo'q · har da'vo manbali | `00-INDEX.md` |
-| M4 | Dalillar to'plami (raw) | 65 KB, hamma raqam va iqtibos | `Maqola-EGAZ-BALANS.md` (v1) |
-| M5 | Manba darajalari | R — rasmiy · A — akademik · M — media | v1 §9; v3 §12 |
-| M6 | Raqamlar reestri | manba + sana + daraja | `Raqamlar-Reestr.md` |
-| M7 | Ziddiyatlar jadvali | 4 ziddiyat, biri hal qilingan | v3 §3.3 |
-| M8 | Abstrakt | uch qatlam + kalit raqamlar | v3 sarlavhaoldi |
-| M9 | Yangi o'q: uch qatlam | o'lchov → himoya → pul | v3 §2 |
-| M10 | Kirish (hook) | «1-mart: raqam qachon pulga aylandi» | v3 §1 |
-| M11 | I qatlam bo'limi | 5–17% oqim · belgili xato · RATA | v3 §4 |
-| M12 | II qatlam bo'limi | 8 talabda e'tiroz yo'q · UZ mexanizmlari · uch zona | v3 §5 |
-| M13 | III qatlam bo'limi | 5× ↔ 50%/70% ↔ 36 oy · uch bo'shliq | v3 §6 |
-| M14 | Amaliyot bo'limi | Muborak 10,834 mlrd · Boysun 8,5 mlrd · 750 korxona | v3 §8 |
-| M15 | Xarajat bo'limi | 4 blok · xalqaro narxlar | v3 §7 |
-| M16 | Muhokama | 5 qarshi fikr + yashil yuvish | v3 §10 |
-| M17 | Xulosa + tavsiyalar | 10 tavsiya (9 tasi texnik emas) | v3 §11 |
-| M18 | Manbalar | E-turkum (E1–E20) + 1-B/C/D | v3 §12 |
-| M19 | Qoralama bo'limi | sarlavha variantlari · ishlatilmagan dalillar · ochiq savollar | v3 §13 |
-| M20 | Sarlavha variantlari | 4 variant | v3 §13.1 |
-| M21 | Grafiklar to'plami | **10 grafik** (K1–K10), inline SVG | `grafiklar/K1…K10.svg` |
-| M21b | Grafiklarni eksport qilish | SVG → **PNG** (11 ta, 1.4× shkala) — chop etish/taqdimot uchun | `grafiklar/*.svg` · `png/*.png` |
-| M22 | O'qish ketma-ketligi | matn → jadval → grafik → xulosa | v3 (tuzilma) |
-| M23 | Mobil va chop etish mosligi | responsive + print CSS | v3 HTML (`@media`) |
-| M24 | Indeks va tavsifni yangilash | «Versiyalar» jadvali, uch qatlam o'qi | `00-INDEX.md`, `Umumiy-Maqola-Tavsifi.md` |
-| M25 | Annotatsiya va kalit so'zlar | 8 kalit so'z + annotatsiya | v3 sarlavhaoldi |
-| M26 | Yakuniy o'qish nusxasi | matn + raqam + grafik ketma-ketligi (HTML) | `01-Maqola-Draft.html` |
+| B1 | Mavzu va taranglik | «raqam ishonchsiz bo'lsa, jazo ham adolatsiz» | v3 §1 |
+| B2 | Maqsadli o'quvchi | siyosat qiluvchi · muhandis · jurnalist · investor · talaba | `Umumiy-Maqola-Tavsifi.md` |
+| B3 | Qoidalar | ziddiyat ochiq · so'z chegarasi yo'q · har da'vo manbali | `00-INDEX.md` |
+| B4 | Dalillar to'plami (raw) | 65 KB, hamma raqam va iqtibos | `Maqola-EGAZ-BALANS.md` (v1) |
+| B5 | Manba darajalari | R — rasmiy · A — akademik · M — media | v1 §9; v3 §12 |
+| B6 | Raqamlar reestri | manba + sana + daraja | `Raqamlar-Reestr.md` |
+| B7 | Ziddiyatlar jadvali | 4 ziddiyat, biri hal qilingan | v3 §3.3 |
+| B8 | Abstrakt | uch qatlam + kalit raqamlar | v3 sarlavhaoldi |
+| B9 | Yangi o'q: uch qatlam | o'lchov → himoya → pul | v3 §2 |
+| B10 | Kirish (hook) | «1-mart: raqam qachon pulga aylandi» | v3 §1 |
+| B11 | I qatlam bo'limi | 5–17% oqim · belgili xato · RATA | v3 §4 |
+| B12 | II qatlam bo'limi | 8 talabda e'tiroz yo'q · UZ mexanizmlari · uch zona | v3 §5 |
+| B13 | III qatlam bo'limi | 5× ↔ 50%/70% ↔ 36 oy · uch bo'shliq | v3 §6 |
+| B14 | Amaliyot bo'limi | Muborak 10,834 mlrd · Boysun 8,5 mlrd · 750 korxona | v3 §8 |
+| B15 | Xarajat bo'limi | 4 blok · xalqaro narxlar | v3 §7 |
+| B16 | Muhokama | 5 qarshi fikr + yashil yuvish | v3 §10 |
+| B17 | Xulosa + tavsiyalar | 10 tavsiya (9 tasi texnik emas) | v3 §11 |
+| B18 | Manbalar | E-turkum (E1–E20) + 1-B/C/D | v3 §12 |
+| B19 | Qoralama bo'limi | sarlavha variantlari · ishlatilmagan dalillar · ochiq savollar | v3 §13 |
+| B20 | Sarlavha variantlari | 4 variant | v3 §13.1 |
+| B21 | Grafiklar to'plami | **10 grafik** (K1–K10), inline SVG | `grafiklar/K1…K10.svg` |
+| B21b | Grafiklarni eksport qilish | SVG → **PNG** (11 ta, 1.4× shkala) — chop etish/taqdimot uchun | `grafiklar/*.svg` · `png/*.png` |
+| B22 | O'qish ketma-ketligi | matn → jadval → grafik → xulosa | v3 (tuzilma) |
+| B23 | Mobil va chop etish mosligi | responsive + print CSS | v3 HTML (`@media`) |
+| B24 | Indeks va tavsifni yangilash | «Versiyalar» jadvali, uch qatlam o'qi | `00-INDEX.md`, `Umumiy-Maqola-Tavsifi.md` |
+| B25 | Annotatsiya va kalit so'zlar | 8 kalit so'z + annotatsiya | v3 sarlavhaoldi |
+| B26 | Yakuniy o'qish nusxasi | matn + raqam + grafik ketma-ketligi (HTML) | `01-Maqola-Draft.html` |
 
 ## C. YAKUNIY YIG'ISH — 4 QADAM
 
