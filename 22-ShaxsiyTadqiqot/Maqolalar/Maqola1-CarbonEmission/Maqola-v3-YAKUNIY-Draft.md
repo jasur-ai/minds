@@ -11,7 +11,7 @@ manba: workspace/YAKUNIY/01-Maqola-Draft.html
 ---
 
 # RAQAM QIMMATGA AYLANADI
-## Emissiya hisoboti to'g'ri bo'lmasa, O'zbekistonda kim to'laydi?
+*Emissiya hisoboti to'g'ri bo'lmasa, O'zbekistonda kim to'laydi?*
 
 **O'lchov xatosi → koeffitsient → jarima → qaytarish: uch qatlam, o'n grafik, bitta ochiq savol**
 
