@@ -1,10 +1,10 @@
 ---
-aliases: [Yakuniy maqola, Ikki hisob bir savol, Emissiya va chiqindi]
+aliases: [YAKUNIY MAQOLA, Ikki hisob bir savol, Emissiya va chiqindi]
 tags: [maqola, yakuniy, emissiya, chiqindi, ochiqlik, O'zbekiston]
 created: 2026-09-27
 updated: 2026-09-27
 tur: maqola
-holat: qoralama (v4.0 — yakuniy birlashgan nusxa)
+holat: yakuniy (v5.0 — complete)
 sarlavha: "RAQAM ISHONCHSIZ BO'LSA, QAROR HAM ADOLATSIZ"
 qismlar: 2 (I — emissiya o'lchovi; II — chiqindi hisobi va ochiqlik)
 grafiklar: 20 (K1–K10 + N1–N10)
@@ -19,9 +19,9 @@ manba: Maqola1 v3 (14,254 B) + Maqola2 v3 (12,216 B) birlashtirildi
 
 **Annotatsiya.** 2026-yil O'zbekiston uchun ikki muhim sana bilan boshlandi va davom etdi: 1-martdan yirik ifloslantiruvchi korxonalar uchun avtomatik o'lchov uskunalari majburiy bo'ldi, 1-oktabrdan xavfli chiqindi hosil qiluvchilar choraklik hisobot topshiradi. Ikki soha — **emissiya** va **chiqindi** — bir xil savolga kelib taqaladi: *e'lon qilinayotgan raqamga ishonish mumkinmi va u qanday qarorga aylanyapti?* Maqola ikki qismdan iborat. **I qism** o'lchov ishonchini ko'radi (noaniqlik zanjiri, himoya mexanizmlari, jarima va rag'bat, xarajat). **II qism** chiqindi hisobini va oshkoralikni ko'radi (hajm va qayta ishlash ziddiyatlari, besh kanal, zonalash, fuqaro murojaati, WtE amaliyoti). Qismlar ataylab **aralashtirilmagan**: birinchisi «o'lchov» metodologiyasi, ikkinchisi «hisob va e'lon» metodologiyasi. Umumiy xulosa bitta: **ishonch nazoratdan emas, oshkoralikdan tug'iladi** — va u o'lchanadigan, tekshiriladigan, e'tiroz bildiriladigan bo'lishi shart.
 
-> **QORALAMA v4.0 — yakuniy birlashgan nusxa.** Bu hujjat ikki maqolaning yakuniy birlashtirilgan shakli: matn + raqam + grafik ketma-ketligi. Manba nusxalar (v1–v3) arxivda saqlanadi va o'chirilmaydi. Texnik implementatsiya (stack, modul, arxitektura) bu maqolada **ataylab yozilmagan** — u TZ hujjatlarida (`TZ-1`, `TZ-Ochiq-Eko-Ledger-MVP.md`).
+> **YAKUNIY NUSXA v5.0 (complete).** Bu hujjat ikki maqolaning yakuniy birlashtirilgan shakli: matn + raqam + grafik ketma-ketligi. Manba nusxalar (v1–v3) arxivda saqlanadi va o'chirilmaydi. Texnik implementatsiya (stack, modul, arxitektura) bu maqolada **ataylab yozilmagan** — u TZ hujjatlarida (`TZ-1`, `TZ-Ochiq-Eko-Ledger-MVP.md`).
 
-**Muallif:** [F.I.Sh.] · **Konferensiya:** MMIT'26 · **Sana:** 2026-09-27
+**Muallif:** Jasur · **Konferensiya:** MMIT'26 · **Sana:** 2026-09-27
 
 ---
 
@@ -61,13 +61,13 @@ Qismlar ataylab aralashtirilmagan: I qism — o'lchov metodologiyasi, II qism �
 
 ### 3.1. Nuqtadagi xato uch marta ko'payadi
 
-![K1 — Xato → pul zanjiri](png/K1.png)
+![K1 — Xato → pul zanjiri](Maqola1-CarbonEmission/png/K1.png)
 
 Zanjir qisqa: **kontsentratsiya × oqim × vaqt → koeffitsient → summa**. Har bo'g'inda xato qo'shiladi, oxirida bitta summaga aylanadi.
 
 ### 3.2. Xato qayerda katta?
 
-![K3 — O'lchov noaniqligi diapazonlari](png/K3.png)
+![K3 — O'lchov noaniqligi diapazonlari](Maqola1-CarbonEmission/png/K3.png)
 
 | Bo'g'in | Noaniqlik | Manba / daraja |
 |---|---|---|
@@ -90,7 +90,7 @@ Talablar (≥99,5% / ≥95% / ≥80% samaradorlik — VM-783, 3-band, R) **nuqta
 
 ### 4.1. Uch zonali qoida
 
-![K7 — Uch zonali qoida](png/K7.png)
+![K7 — Uch zonali qoida](Maqola1-CarbonEmission/png/K7.png)
 
 Chegaralar o'lchov noaniqligidan kelib chiqadi (JCGM 106 yondashuvi, A):
 
@@ -108,7 +108,7 @@ Qaror bilan birga **12 maydonli karta** beriladi: o'lchangan qiymat (x̄), kenga
 
 ### 4.3. Apellyatsiya oqimi
 
-![K8 — Apellyatsiya vaqt chizig'i](png/K8.png)
+![K8 — Apellyatsiya vaqt chizig'i](Maqola1-CarbonEmission/png/K8.png)
 
 6 bosqich: **T+0** xabarnoma → **T+2 kun** korxona tushuntirishi → **10 kun** dastlabki ko'rib chiqish → **soft-hold** (pul muzlatiladi, lekin da'vo saqlanadi) → **30 ish kuni** yakuniy xulosa (O'RQ-457, R) → sud yo'li. Ayrim hujjatlarda 60 kunlik muddat ham uchraydi (MJTK — M); bu farq §10 jadvalida ochiq qoldirilgan.
 
@@ -118,7 +118,7 @@ Qaror bilan birga **12 maydonli karta** beriladi: o'lchangan qiymat (x̄), kenga
 
 ### 5.1. Rag'bat zinapoyasi
 
-![K2 — Rag'bat zinapoyasi](png/K2.png)
+![K2 — Rag'bat zinapoyasi](Maqola1-CarbonEmission/png/K2.png)
 
 - o'rnatilmagan holat — **5× koeffitsient** (202-Nizom, 201-band, R);
 - o'rnatilgan va hisobot ochiq — **50%**, keyin **70%** imtiyoz;
@@ -128,13 +128,13 @@ Demak, tizim bir vaqtda ham jazolaydi, ham rag'batlantiradi. Muammo — **oraliq
 
 ### 5.2. Vaqt assimetriyasi
 
-![K9 — Jazo darhol, qaytarish 2 yilga](png/K9.png)
+![K9 — Jazo darhol, qaytarish 2 yilga](Maqola1-CarbonEmission/png/K9.png)
 
 Jazo **darhol va to'liq** qo'llanadi; qaytarish esa **2 yilga** cho'zilgan 70% imtiyoz bilan keladi. Bu assimetriya korxona uchun «o'lchov xatosi qimmat, tuzatish sekin» degan signal beradi.
 
 ### 5.3. Pul qayerdan keladi
 
-![K6 — Budjet va jamg'arma](png/K6.png)
+![K6 — Budjet va jamg'arma](Maqola1-CarbonEmission/png/K6.png)
 
 2025-yil budjeti **900 mlrd so'm**, 2026-yil 8-ilovasi bo'yicha **548 mlrd so'm**; amalda 2026-yil I yarim yillikda jamg'arma **274 mlrd so'm** (PQ-343, R; gazeta.uz 16.09.2026, R). Raqamlar bir-biridan farq qiladi, chunki reja va amalda tushgan mablag' bir xil emas — buni ham ochiq yozish kerak.
 
@@ -142,7 +142,7 @@ Jazo **darhol va to'liq** qo'llanadi; qaytarish esa **2 yilga** cho'zilgan 70% i
 
 ## 6. I QISM — QAMROV, NARX VA HISOBOT
 
-![K5 — Obyekt, tekshiruv, stansiya](png/K5.png)
+![K5 — Obyekt, tekshiruv, stansiya](Maqola1-CarbonEmission/png/K5.png)
 
 - **2 335 obyekt** (663 I + 1 672 II toifa — VM-783, R);
 - **750 korxona** tekshirildi (2025–2026 — Sputnik, M);
@@ -150,11 +150,11 @@ Jazo **darhol va to'liq** qo'llanadi; qaytarish esa **2 yilga** cho'zilgan 70% i
 
 Ya'ni 2 335 obyektdan atigi ~2% avtomatik kuzatuvda. Tekshiruv bilan yopiladigan bo'shliq esa har yili yuzlab korxona hajmida.
 
-![K4 — Uskuna: xalqaro narx diapazonlari](png/K4.png)
+![K4 — Uskuna: xalqaro narx diapazonlari](Maqola1-CarbonEmission/png/K4.png)
 
 **«Juda qimmat» e'tirozining tekshiruvi:** CEMS (TIC) **$120–350k**, CAAQMS **$150–250k**, PM monitoring **$20–50k**, FRM/FEM **$15–40k**, BAM ≈**$30k**; yillik xizmat 5–15% / OPEX 3–6% (Applus, clarity.io, ESEGAS, Accio — 2026, M/A). UZ shartnoma summalari ochiq xaridda emas (etender/uzex login talab qiladi) — bu ham §14 ochiq savollariga kirdi.
 
-![K10 — Choraklik «Aniqlik hisoboti»](png/K10.png)
+![K10 — Choraklik «Aniqlik hisoboti»](Maqola1-CarbonEmission/png/K10.png)
 
 Taklif: har chorak **5 metrika** e'lon qilinadi — signallar jami soni · sariq zona ulushi · qayta-o'lchov natijalari · apellyatsiya statistikasi · kalibrovka holati. Qizil signallarning **≥5%** i mustaqil (ILAC-MRA) laboratoriyada qayta o'lchanadi.
 
@@ -166,13 +166,13 @@ Taklif: har chorak **5 metrika** e'lon qilinadi — signallar jami soni · sariq
 
 ### 7.1. Hajm: ikki baravardan ortiq farq
 
-![N1 — Chiqindi hajmi](png/N1.png)
+![N1 — Chiqindi hajmi](Maqola2-TrashOrganizer/png/N1.png)
 
 Bir vaqtda uch xil hajm yuritiladi: rasmiy hisobotlarda **7,2 mln t/yil**, poligonlar hisobida **14 mln t/yil**, xalqaro tahlilda **15 mln t/yil** (IndexBox, 22.09.2026, M; gazeta.uz/en 05.12.2025, M). Sabab — hisob metodikasi va qamrov: nima «chiqindi», nima «ikkilamchi xom ashyo», qaysi hajm poligonga ketadi va qaysi qismi hisobga olinmaydi.
 
 ### 7.2. Qayta ishlash: to'rt xil ko'rsatkich
 
-![N2 — Qayta ishlash darajasi](png/N2.png)
+![N2 — Qayta ishlash darajasi](Maqola2-TrashOrganizer/png/N2.png)
 
 - rasmiy e'lonlarda **18–19%**;
 - plastik bo'yicha amaliy hisobda **6,6%**;
@@ -191,13 +191,13 @@ Bu «bir xil narsani to'rt xil o'lchash» holati. Farqni yashiradigan narsa bitt
 
 ### 8.1. Bugungi ochiqlik hajmi
 
-![N8 — Ochiq datasetlar ulushi](png/N8.png)
+![N8 — Ochiq datasetlar ulushi](Maqola2-TrashOrganizer/png/N8.png)
 
 `data.egov.uz` da ~10 000 dataset bor, ekologiya yo'nalishi — **~170 ta (≈1,7%)** (R). Huquqiy ochiqlik e'lon qilingan (Aarhus 2025-03; monitoring bazasi 01.12.2025 — R), miqdoriy ochiqlik esa hali kichik.
 
 ### 8.2. Bir ma'lumot — besh kanal
 
-![N5 — Bir ma'lumot, besh kanal](png/N5.png)
+![N5 — Bir ma'lumot, besh kanal](Maqola2-TrashOrganizer/png/N5.png)
 
 Bugun e'lon **inson zanjiridan** o'tadi: yig'ish → tahrir → tasdiqlash → nashr. Taklif — bir registrdan **bir vaqtda** besh kanalga chiqish: veb-sayt/dashboard · ochiq API · Telegram-bot · matbuot e'loni (LLM shablon asosida) · xarita qatlami.
 
@@ -205,7 +205,7 @@ Nima uchun bu **institutsional** talab? Chunki kechikish odamga emas, jarayonga 
 
 ### 8.3. To'rt rangli zonalash
 
-![N6 — Zonalash qoidasi](png/N6.png)
+![N6 — Zonalash qoidasi](Maqola2-TrashOrganizer/png/N6.png)
 
 - 🟢 **yashil** — normativ ichida;
 - 🟡 **sariq** — normativdan 1–2× oralig'ida;
@@ -218,11 +218,11 @@ Ko'k zona atayin kiritilgan: «ma'lumot yo'q» ham **ochiq ko'rsatiladi**, chunk
 
 ## 9. II QISM — FUQARO VA ISHONCH
 
-![N7 — Murojaat zanjiri](png/N7.png)
+![N7 — Murojaat zanjiri](Maqola2-TrashOrganizer/png/N7.png)
 
 Murojaat besh holatdan o'tadi: **yuborildi → ko'rilmoqda → javob berildi → hal qilindi → ochiq arxiv**. KPI: **≤10 kun**; har holat va muddat ommaviy ko'rinadi; «javobsiz qolgan murojaat» statistikasi yashirilmaydi (Aarhus 9-modda — odil sudlov, R).
 
-![N9 — Ishonchning besh qavati](png/N9.png)
+![N9 — Ishonchning besh qavati](Maqola2-TrashOrganizer/png/N9.png)
 
 Ishonch arxitekturasi besh qavatdan iborat:
 
@@ -236,13 +236,13 @@ Ishonch arxitekturasi besh qavatdan iborat:
 
 ## 10. II QISM — 2026 AMALIYOTI: POLIGONLAR, WtE, TAQVIM
 
-![N3 — Poligonlar va qayta yuklash](png/N3.png)
+![N3 — Poligonlar va qayta yuklash](Maqola2-TrashOrganizer/png/N3.png)
 
 - 2025-yilda **47 poligon** yopilib rekultivatsiya qilindi; 2026 maqsadi — **−32,6%**, 2030 maqsadi — **−50%** (gazeta.uz 04.05.2026, M);
 - **qayta yuklash stansiyalari** 2026 — **28 ta**, 2030 gacha — **70 ta**;
 - sanitariya qamrovi 2025 — **88%**, 2026 maqsadi — **90%**.
 
-![N4 — Chiqindidan energiya](png/N4.png)
+![N4 — Chiqindidan energiya](Maqola2-TrashOrganizer/png/N4.png)
 
 **WtE (chiqindidan energiya) — eng katta yangi fakt:**
 
@@ -252,7 +252,7 @@ Ishonch arxitekturasi besh qavatdan iborat:
 - Samarqand: **1 500 t/kun**, **240 mln kVt·soat/yil** (shahar chiqindisining ~70%), start 2027-yil boshi (asiaplus 04.05.2026, M);
 - Navoiy: **$260 mln** xavfli chiqindi platformasi — **330 ming t/yil** (gazeta.uz 04.05.2026, M).
 
-![N10 — Majburiyatlar taqvimi](png/N10.png)
+![N10 — Majburiyatlar taqvimi](Maqola2-TrashOrganizer/png/N10.png)
 
 **Ochiq savol:** WtE zavodlarida **dioksin va kul** monitoringi qanday e'lon qilinadi? Kuydirish **saralashdan keyin** kelishi kerak — aks holda aylanma iqtisodiyot kuydirishga aylanadi (§12.5).
 
@@ -385,4 +385,4 @@ To'liq dalil to'plamlari: `Maqola1-CarbonEmission/Maqola-EGAZ-BALANS.md` (v1) va
 
 ---
 
-**Hujjat holati:** QORALAMA v4.0 (2026-09-27) — **yakuniy birlashgan nusxa** (I qism: 10 grafik; II qism: 10 grafik; jami 16 bo'lim). Manba maqolalar v1–v3 arxivda saqlanadi. Yakuniy tanlov — muallif (Jasur) tomonidan.
+**Hujjat holati:** YAKUNIY v5.0 (2026-09-27) — **complete nusxa** (I qism: 10 grafik; II qism: 10 grafik; jami 16 bo'lim). Manba maqolalar v1–v3 arxivda saqlanadi. Yakuniy tanlov — muallif (Jasur) tomonidan.

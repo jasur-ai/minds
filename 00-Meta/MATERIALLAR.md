@@ -4,9 +4,9 @@
 
 | Material | Fayl | Grafiklar | Rasm manzili |
 |---|---|---|---|
-| Yakuniy maqola (16 bo'lim) | `Maqolalar/Maqola-Yakuniy/Final-Maqola.md` | K1–K10, N1–N10 | `Maqola1-CarbonEmission/png/` + `Maqola2-TrashOrganizer/png/` |
-| G'oya 1 (Emissiya auditi) | `Loyihalar/Loyiha1-CarbonEmission/Loyiha-1-Goya.md` | XARITA | `Loyiha1-CarbonEmission/png/XARITA.png` |
-| G'oya 2 (Ochiq Eko Ledger) | `Loyihalar/Loyiha2-TrashOrganizer/Loyiha-2-Goya.md` | XARITA2 | `Loyiha2-TrashOrganizer/png/XARITA2.png` |
+| Yakuniy maqola (16 bo'lim) | `Maqolalar/YAKUNIY-MAQOLA.md` | K1–K10, N1–N10 | `Maqola1-CarbonEmission/png/` + `Maqola2-TrashOrganizer/png/` |
+| G'oya 1 (Emissiya auditi) | `Loyihalar/YAKUNIY-LOYIHA.md` | XARITA | `Loyiha1-CarbonEmission/png/XARITA.png` |
+| G'oya 2 (Ochiq Eko Ledger) | `Loyihalar/YAKUNIY-LOYIHA.md` | XARITA2 | `Loyiha2-TrashOrganizer/png/XARITA2.png` |
 | Izlanish (56 qadam) | `00-Meta/QADAM-IZLANISH.md` | — | — |
 | Reja (56 qadam) | `00-Meta/REJA-56-QADAM.md` | — | — |
 

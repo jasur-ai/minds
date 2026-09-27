@@ -1,15 +1,15 @@
-# YAKUNIY TUZILMA (2026-09-27)
+# YAKUNIY TUZILMA — complete (2026-09-27)
 
-**Tamoyil:** hujjatlar aralashmaydi — 1 maqola, 2 g'oya, 1 izlanish fayli, 1 reja.
+**Tamoyil:** har ish uchun **bittadan yakuniy fayl**. Duplikat yo'q, hujjatlar aralashmaydi.
 
-| # | Hujjat | Nima | Hajm | Bot |
+| # | Yakuniy fayl | Nima | Hajm | Bot |
 |---|---|---|---|---|
-| 1 | `Maqolalar/Maqola-Yakuniy/Final-Maqola.md` | **YAKUNIY MAQOLA** — ikkala maqola birlashtirilgan: 16 bo'lim, 20 grafik (K1–K10 + N1–N10), ikki qism (I — emissiya o'lchovi, II — chiqindi hisobi) | 22 KB | `/maqola` |
-| 2 | `Loyihalar/Loyiha1-CarbonEmission/Loyiha-1-Goya.md` | **G'OYA 1** — Emissiya auditi: 26 bosqich g'oya ko'rinishida + xarita | 4,8 KB | `/goya1` |
-| 3 | `Loyihalar/Loyiha2-TrashOrganizer/Loyiha-2-Goya.md` | **G'OYA 2** — Ochiq Eko Ledger: 26 bosqich g'oya ko'rinishida + xarita | 4,9 KB | `/goya2` |
-| 4 | `00-Meta/QADAM-IZLANISH.md` | **QADAM IZLANISHI** — 56 qadamning har biri mustaqil izlanish (Savol → Dalil → Xulosa → Fayl) | 24 KB | `/izlanish N` |
-| 5 | `00-Meta/REJA-56-QADAM.md` | **REJA** — A (g'oya 26) + B (maqola 26) + C (yig'ish 4) = 56 | 6,9 KB | `/reja56` |
+| 1 | `Maqolalar/YAKUNIY-MAQOLA.md` | **YAKUNIY MAQOLA** — 16 bo'lim, 20 grafik (K1–K10 + N1–N10); I qism — emissiya o'lchovi, II qism — chiqindi hisobi va ochiqlik | 22,5 KB | `/maqola` |
+| 2 | `Loyihalar/YAKUNIY-LOYIHA.md` | **YAKUNIY LOYIHA** — ikki g'oya bitta faylda: 1-LOYIHA (Emissiya auditi, 26 bosqich) + 2-LOYIHA (Ochiq Eko Ledger, 26 bosqich) + 2 xarita | 9,7 KB | `/loyiha` |
+| 3 | `00-Meta/QADAM-IZLANISH.md` | **QADAM IZLANISHI** — 56 qadamning har biri mustaqil izlanish (Savol → Dalil → Xulosa → Fayl) | 24,5 KB | `/izlanish N` |
+| 4 | `00-Meta/REJA-56-QADAM.md` | **REJA** — A (g'oya 26) + B (maqola 26) + C (yig'ish 4) = 56 | 6,9 KB | `/reja56` |
 
-**Arxiv (o'chirilmaydi):** `Maqola1-CarbonEmission/` (v1–v3 + K grafiklar) · `Maqola2-TrashOrganizer/` (v1–v3 + N grafiklar) · `Loyiha-1-Xarita.md` · `Loyiha-2-Xarita.md` · `Loyiha-1/2-Goya` manba tadqiqotlar (1-B/1-C/1-D, TZ).
+**Manba/arxiv (o'chirilmaydi — yakuniy fayllarga asos bo'lgan material):**
+`Maqolalar/Maqola1-CarbonEmission/` (v1–v3 + K grafiklar) · `Maqolalar/Maqola2-TrashOrganizer/` (v1–v3 + N grafiklar) · `Loyihalar/Loyiha1-CarbonEmission/` (1-B/1-C/1-D, Xarita, canvas) · `Loyihalar/Loyiha2-TrashOrganizer/` (TZ 63 KB, Xarita).
 
-**Bot tuzilmasi (v0.8.0):** tugmalar — 🧩 56 qadam · 📄 Yakuniy maqola · 🔎 Izlanish · 🏭 G'oya 1 · 🗑 G'oya 2; arxiv komandalari `/xarita`, `/maqola2`, `/xarita2`.
+**Bot (v0.9.0):** 🧩 56 qadam · 📄 Yakuniy maqola · 🏭 Yakuniy loyiha · 🔎 Izlanish. Arxiv komandalari: `/xarita`, `/maqola2`, `/xarita2`.
