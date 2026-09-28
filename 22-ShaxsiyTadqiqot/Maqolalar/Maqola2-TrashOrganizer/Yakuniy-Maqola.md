@@ -243,6 +243,6 @@ Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatl
 
 **Sarlavha alternativalari:** «Kim nima chiqarayotganini kim biladi?» (joriy); «Uch raqam, bir savol: chiqindi hisobida ishonch masalasi»; «Ko'k zona: ma'lumot yo'qligini yashirmaslik siyosati».
 
-**Grafiklardan nashrda foydalanish:** asosiy matnda N1, N2, N5, N6, N8 va N10 saqlanishi tavsiya etiladi; N3, N4, N7, N9 ilovaga o'tkazilishi mumkin.
+**Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 5- va 6-rasmlar saqlanishi tavsiya etiladi (huquqiy taqvim, hajm bo'yicha ko'rsatkichlar, qayta ishlash darajasi, portal datasetlari, e'lon qilish sxemasi, to'rt rangli zonalash); 7-, 8-, 9- va 10-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (murojaat jarayoni, ishonch qavatlari, poligonlar tarmog'i, chiqindidan energiya).
 
 **Ilova:** maqolaning birinchi qismi — emissiya o'lchovi ishonchi — alohida nashr sifatida tayyorlanmoqda.

@@ -283,6 +283,6 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 
 **Sarlavha alternativalari:** «Raqam ishonchsiz bo'lsa, jazo ham adolatsiz» (joriy); «Chegaradagi korxona: o'lchov xatosi va huquqiy oqibat»; «2 335 obyekt, 5–17% noaniqlik: emissiya nazoratining ishonch masalasi».
 
-**Grafiklardan nashrda foydalanish:** asosiy matnda K1, K3, K5, K7, K8 va K10 saqlanishi tavsiya etiladi; K2, K4, K6, K9 ilova yoki elektron versiyaga o'tkazilishi mumkin.
+**Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 8- va 10-rasmlar saqlanishi tavsiya etiladi (o'lchov zanjiri, uch zonali qoida, jarima va uni qaytarish assimetriyasi, jamg'arma oqimi, tizimning o'zini tekshirishi); 5-, 6-, 7- va 9-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (o'lchov vositalari kesimi, yer usti stansiyalari, xarajat tarkibi, hisobotlarni taqqoslash).
 
 **Ilova:** ushbu maqolaning ikkinchi qismi — chiqindi hisobi va oshkoralik masalasi — alohida nashr sifatida tayyorlanmoqda.
