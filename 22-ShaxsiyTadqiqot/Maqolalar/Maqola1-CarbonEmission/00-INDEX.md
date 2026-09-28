@@ -7,6 +7,6 @@
 | `Raqamlar-Reestr.md` · `Dalillar-Tekshiruvi.md` · `Research-Uzbekistan-Eko-2026.md` | reestr, tekshiruv, tadqiqot | dalil |
 | `Umumiy-Maqola-Tavsifi.md` | mavzu, o'quvchi, tuzilma tavsifi | hujjat |
 | `grafiklar/` · `png/` | K1–K10 (SVG + PNG) | material |
-| **`Yakuniy-Maqola.md`** | **YAKUNIY MAQOLA — oxirgi fayl** (13 bo'lim, 10 grafik) | ✅ complete |
+| **`Yakuniy-Maqola.md`** | **YAKUNIY MAQOLA 1 — «Raqam ishonchsiz bo'lsa, jazo ham adolatsiz»** (oxirgi fayl: 13 bo'lim, 10 grafik K1–K10) | ✅ complete |
 
 **Bot:** `/maqola` · **Loyiha:** `../Loyiha1-CarbonEmission/` · **Tadqiqotlar:** `1-B`, `1-C`, `1-D` (loyiha papkasida).

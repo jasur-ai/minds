@@ -5,11 +5,11 @@ created: 2026-09-27
 updated: 2026-09-27
 tur: maqola
 holat: yakuniy (complete) — maqola 1 ning oxirgi fayli
-sarlavha: "RAQAM ISHONCHSIZ BO'LSA, JAZO HAM ADOLATSIZ"
+sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 qisqacha: "Emissiya o'lchovi ishonchi: noaniqlik zanjiri, himoya mexanizmlari, jarima va rag'bat — 10 grafik (K1-K10)"
 ---
 
-# RAQAM ISHONCHSIZ BO'LSA, JAZO HAM ADOLATSIZ
+# YAKUNIY MAQOLA 1 — RAQAM ISHONCHSIZ BO'LSA, JAZO HAM ADOLATSIZ
 
 **Emissiya o'lchovi ishonchi: 2 335 obyekt, 5–17% noaniqlik va 5× jarima — o'lchovni qanday ishonchli qilish mumkin?**
 

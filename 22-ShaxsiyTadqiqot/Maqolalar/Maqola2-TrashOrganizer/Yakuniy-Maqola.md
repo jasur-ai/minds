@@ -5,11 +5,11 @@ created: 2026-09-27
 updated: 2026-09-27
 tur: maqola
 holat: yakuniy (complete) — maqola 2 ning oxirgi fayli
-sarlavha: "KIM NIMA CHIQARAYOTGANINI KIM BILADI?"
+sarlavha: "YAKUNIY MAQOLA 2 — Kim nima chiqarayotganini kim biladi?"
 qisqacha: "Chiqindi va ifloslanish hisobi oshkoraligi: ziddiyatli raqamlar, besh kanal, zonalash, murojaat, WtE — 10 grafik (N1-N10)"
 ---
 
-# KIM NIMA CHIQARAYOTGANINI KIM BILADI?
+# YAKUNIY MAQOLA 2 — KIM NIMA CHIQARAYOTGANINI KIM BILADI?
 
 **Chiqindi va ifloslanish hisobini ochiq qilish: ma'lumot → izoh → e'lon → murojaat — 15 mln tonna, 3–4% qayta ishlash va 6 ta WtE zavod ortidagi savol**
 
