@@ -123,6 +123,8 @@ Ikki rejimning nisbatini 5-rasm ko'rsatadi. Amaldagi tartibda ikki rejim yonma-y
 
 Ikki rejim o'rtasidagi masofa katta, lekin **oraliq holatlar yozilmagan**: 50% va 70% orasidagi farq qanday mezonga bog'liq, ikki yillik muddat qaysi kundan boshlanadi va tozalash uskunasi qaysi samaradorlik darajasidan «o'rnatilgan» hisoblanadi — bu savollarga hujjatlarda aniq javob yo'q. Noaniq oraliq korxona uchun investitsiya qarorini qiyinlashtiradi.
 
+Shu o'rinda atamalarni ajratib olish zarur: rag'bat rejimi **to'lov (kompensatsiya) bo'yicha** imtiyoz beradi, ya'ni undirilishi mumkin bo'lgan to'lovdan voz kechiladi yoki uning bir qismi qaytariladi; **jarima esa bu imtiyozga kirmaydi** — u ma'muriy jazo sifatida o'z kuchida qoladi va faqat sud tartibida, qonunda ko'rsatilgan asoslar bo'yicha bekor qilinishi mumkin. Ommaviy tushuntirishlarda bu ikki narsa ko'pincha bir gapda aytiladi va natijada korxona «jarimasini qaytarib olaman» degan noto'g'ri tasavvurga kelib qoladi; hujjat matni bunday o'qishga asos bermaydi.
+
 ![5-rasm](png/K2.png)
 
 *5-rasm. Jazo va rag'bat rejimlarining shartli taqqoslanishi (baza: o'rnatilmagan holat = 100).*
@@ -130,7 +132,7 @@ Ikki rejim o'rtasidagi masofa katta, lekin **oraliq holatlar yozilmagan**: 50% v
 
 ### 4.2. Vaqt assimetriyasi
 
-To'lovlar rejasidagi raqamlar bu masalani yorqin ko'rsatadi. 2025-yil uchun sohaviy jamg'arma 900 mlrd so'm hajmida rejalashtirilgan edi; 2026-yil uchun reja 548 mlrd so'm, amalda esa birinchi yarim yillikda 274 mlrd so'm tushgan (gazeta.uz, 16.09.2026; uza.uz, 15.09.2026). Ya'ni yarim yil natijasi yillik rejaning taxminan yarmini tashkil qiladi — jiddiy ziddiyat yo'q, lekin bu raqamlar kompensatsiya to'lovlari hajmining real iqtisodiy vaznga ega ekanini ko'rsatadi.
+To'lovlar rejasidagi raqamlar bu masalani yorqin ko'rsatadi. 2025-yil uchun sohaviy jamg'arma 900 mlrd so'm hajmida rejalashtirilgan edi; 2026-yil uchun reja 548 mlrd so'm, amalda esa birinchi yarim yillikda 274 mlrd so'm tushgan (gazeta.uz, 16.09.2026; uza.uz, 15.09.2026). Ya'ni 274 mlrd so'm — bu **yarim yillik** ko'rsatkich, uni yillikka keltirsak 274 × 2 = 548 mlrd so'm bo'ladi, bu esa 2026-yil uchun e'lon qilingan yillik reja bilan aynan mos tushadi. Demak, bu yerda ziddiyat yo'q; taqqoslashda xatolik faqat davrlar aralashtirilganda yuzaga keladi (2025-yil rejasi — 900 mlrd, 2026-yil rejasi — 548 mlrd, 2026-yilning birinchi yarmi — 274 mlrd so'm). Raqamlarning o'zi kompensatsiya to'lovlari hajmi real iqtisodiy vaznga ega ekanini ko'rsatadi.
 
 Pul oqimining boshqa tomoni vaqtga sezgir: jazo qarori tez qo'llaniladi, to'lovning qaytarilishi esa ikki yilga cho'ziladi. Diskontlangan qiymatda bu rag'batni sezilarli zaiflashtiradi. Shu sababli dastlabki olti oyda tezlashtirilgan qaytarish tartibi taklif etiladi — u byudjet uchun neytral, korxona uchun esa investitsiya qarorini tezlashtiruvchi chora.
 
