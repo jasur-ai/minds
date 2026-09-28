@@ -24,39 +24,33 @@ qisqacha: "Chiqindi va ifloslanish hisobi oshkoraligi: ziddiyatli raqamlar, besh
 
 ---
 
-## 1. KIRISH — BIR YIL, IKKI HISOB, BITTA SAVOL
+## 1. KIRISH — HUQUQ BOR, RAQAM ISHONCHSIZ
 
-2026-yilning 1-martidan **avtomatik o'lchov uskunalari** o'rnatish majburiyati kuchga kirdi: shu kundan boshlab chiqindi gaz hajmi va tarkibi real vaqtda o'lchanadi. Kelasi oyning 1-oktabridan esa **xavfli chiqindi** hosil qiluvchilar har chorak hisobotini keyingi oyning 20-sanagiga qadar topshiradi. 2027-yil 1-yanvardan I–III sinf chiqindilarining har bir partiyasi **raqamli pasport** bilan yuritiladi.
+O'zbekiston **2025-yil martda Aarhus konventsiyasiga** qo'shildi: axborotga kirish, qaror qabul qilishda ishtirok va ekologik odil sudlov — uchta majburiyat. **2025-yil 1-dekabrdan** davlat ekologik monitoring bazasi ommaviy ochiq; **2026-yil 1-oktabrdan** xavfli chiqindi hosil qiluvchilar har chorak hisobotini keyingi oyning 20-sanagiga qadar topshiradi; **2027-yil 1-yanvardan** I–III sinf chiqindilarining har bir partiyasi **raqamli pasport** bilan yuritiladi. 2030-yilga poligonlar soni **50% ga** qisqartiriladi.
 
-Ya'ni bir yil ichida davlat ikki hisobni majburiy qildi: **o'lchov hisobi** (emissiya) va **moddiy hisob** (chiqindi). Lekin ikkalasida ham bir xil savol qoladi:
+Huquqiy poydevor qurildi. Ammo bir savol qoladi:
 
-> *E'lon qilinayotgan raqam qanchalik aniq — va u asosida chiqarilgan qaror qanchalik adolatli?*
+> *Kim nima chiqarayotganini kim biladi — va e'lon qilinayotgan raqamga ishonish mumkinmi?*
 
-Bu savol sheriy emas. 2025-yilda ekologiya sohasida ~59 000 huquqbuzarlik qayd etildi (gazeta.uz, 01.05.2026, M). Bitta tekshiruvda 750 korxona ko'rilganda **1 trln 386 mlrd so'm** zarar va ~500 mansabdor shaxs ustidan jazo qo'llanildi (Sputnik, 05.08.2026, M). Chiqindi bo'yicha esa bir vaqtning o'zida **7,2 mln t**, **14 mln t** va **15 mln t** degan uch xil yillik hajm aytiladi (§10). Qarorlar ishlayapti — ishonch esa o'lchanmagan.
+Raqamlar bir-biriga ishonmaydi: chiqindi hajmi bir vaqtda **7,2 mln t**, **14 mln t** va **15 mln t** deb aytiladi; qayta ishlash ko'rsatkichi **18–19%** ham, **3–4%** ham bo'lishi mumkin. Sabab — hisob metodi va qamrov **e'lon qilinmagani**.
 
-**Maqolaning shiori:** raqam ishonchsiz bo'lsa, qaror ham adolatsiz.
+**Maqolaning shiori:** ishonch nazoratdan emas, oshkoralikdan tug'iladi.
+
+*Maqola 1 (emissiya o'lchovi ishonchi) shu zanjirning birinchi yarmini ko'radi: `../Maqola1-CarbonEmission/Yakuniy-Maqola.md`.*
 
 ---
 
----
+## 2. TUZILMA — HISOB → E'LON → ISHTIROK
 
-## 2. TUZILMA — IKKI QISM, BIR MANTIQ
-
-| | **I QISM — EMISSIYA O'LCHOVI** | **II QISM — CHIQINDI HISOBI VA OCHIQLIK** |
+| Qatlam | Savol | Asosiy dalil |
 |---|---|---|
-| Savol | O'lchangan raqam qanchalik ishonchli? | Hisoblangan va e'lon qilingan raqam qanchalik ishonchli? |
-| Zaif bo'g'in | **oqim** (5–17% noaniqlik) | **metod va qamrov** (hisob usuli e'lon qilinmagan) |
-| Himoya taklifi | uch zonali qoida · tushuntirish kartasi · apellyatsiya | besh kanal · to'rt rangli zonalash · murojaat moduli |
-| Pul o'lchovi | 5× jarima ↔ 50–70% imtiyoz ↔ 36 oy | investitsiya (WtE) va rag'bat |
-| Asosiy dalil | 2 335 obyekt, ~2% avtomatik qamrov | 15 mln t chiqindi, 3–4% qayta ishlash |
+| **I. HISOB** | Raqam qayerdan va nega ziddiyatli? | 3 xil hajm · 4 xil qayta ishlash ko'rsatkichi · metod e'lon qilinmagan |
+| **II. E'LON** | Ma'lumot qanday qilib e'longa aylanadi? | bir registrdan **besh kanal** · to'rt rangli zonalash · avtomatik izoh (shablon) |
+| **III. ISHTIROK** | Fuqaro nima qila oladi? | murojaat moduli · **≤10 kun** KPI · ochiq arxiv · Eko-Reyting |
 
-**Umumiy mantiq (ikkala qismda bir xil):**
+**Zanjir:** ma'lumot → izoh → e'lon → murojaat → tuzatish.
 
-**ma'lumot → manba va noaniqlik bayoni → himoya (e'tiroz) → e'lon → tuzatish**
-
-Qismlar ataylab aralashtirilmagan: I qism — o'lchov metodologiyasi, II qism — hisob va oshkoralik metodologiyasi. Ko'prik nuqtalari bitta: **manba havolasi** va **«ma'lumot yo'q» ham ochiq ko'rsatilishi** tamoyili.
-
----
+> **Chegara:** bu maqola texnik loyiha emas. Arxitektura va modullar — `TZ-Ochiq-Eko-Ledger-MVP.md` (63 KB).
 
 ---
 

@@ -24,39 +24,33 @@ qisqacha: "Emissiya o'lchovi ishonchi: noaniqlik zanjiri, himoya mexanizmlari, j
 
 ---
 
-## 1. KIRISH — BIR YIL, IKKI HISOB, BITTA SAVOL
+## 1. KIRISH — 1-MART: RAQAM QACHON PULGA AYLANDI
 
-2026-yilning 1-martidan **avtomatik o'lchov uskunalari** o'rnatish majburiyati kuchga kirdi: shu kundan boshlab chiqindi gaz hajmi va tarkibi real vaqtda o'lchanadi. Kelasi oyning 1-oktabridan esa **xavfli chiqindi** hosil qiluvchilar har chorak hisobotini keyingi oyning 20-sanagiga qadar topshiradi. 2027-yil 1-yanvardan I–III sinf chiqindilarining har bir partiyasi **raqamli pasport** bilan yuritiladi.
+2026-yil **1-martdan** yirik ifloslantiruvchi korxonalar uchun **avtomatik o'lchov uskunalari** o'rnatish majburiyati kuchga kirdi (PQ-343). Shu kundan boshlab chiqindi gaz hajmi va tarkibi real vaqtda o'lchanadi — va o'lchangan raqam **bevosita pulga** aylanadi: jarima (5× koeffitsient), imtiyoz (50–70%), kompensatsiya.
 
-Ya'ni bir yil ichida davlat ikki hisobni majburiy qildi: **o'lchov hisobi** (emissiya) va **moddiy hisob** (chiqindi). Lekin ikkalasida ham bir xil savol qoladi:
+Savol shu yerda tug'iladi:
 
-> *E'lon qilinayotgan raqam qanchalik aniq — va u asosida chiqarilgan qaror qanchalik adolatli?*
+> *Chegaraga yaqin turgan korxona uchun o'lchov xatosi «norma»mi yoki «jarima»mi? Va buni kim hal qiladi?*
 
-Bu savol sheriy emas. 2025-yilda ekologiya sohasida ~59 000 huquqbuzarlik qayd etildi (gazeta.uz, 01.05.2026, M). Bitta tekshiruvda 750 korxona ko'rilganda **1 trln 386 mlrd so'm** zarar va ~500 mansabdor shaxs ustidan jazo qo'llanildi (Sputnik, 05.08.2026, M). Chiqindi bo'yicha esa bir vaqtning o'zida **7,2 mln t**, **14 mln t** va **15 mln t** degan uch xil yillik hajm aytiladi (§10). Qarorlar ishlayapti — ishonch esa o'lchanmagan.
+Bu nazariy savol emas. 2025-yilda ekologiya sohasida **~59 000 huquqbuzarlik** qayd etildi (gazeta.uz, 01.05.2026, M); bitta tekshiruvda **750 korxona** ko'rilganda **1 trln 386 mlrd so'm** zarar va ~500 mansabdor shaxs ustidan jazo qo'llanildi (Sputnik, 05.08.2026, M). Qarorlar ishlayapti — lekin ular asosidagi **o'lchov ishonchi e'lon qilinmagan**.
 
-**Maqolaning shiori:** raqam ishonchsiz bo'lsa, qaror ham adolatsiz.
+**Maqolaning shiori:** raqam ishonchsiz bo'lsa, jazo ham adolatsiz.
+
+*Maqola 2 (chiqindi hisobi va ochiqlik) shu zanjirning ikkinchi yarmini ko'radi: `../Maqola2-TrashOrganizer/Yakuniy-Maqola.md`.*
 
 ---
 
----
+## 2. TUZILMA — UCH QATLAM, BIR ZANJIR
 
-## 2. TUZILMA — IKKI QISM, BIR MANTIQ
-
-| | **I QISM — EMISSIYA O'LCHOVI** | **II QISM — CHIQINDI HISOBI VA OCHIQLIK** |
+| Qatlam | Savol | Asosiy dalil |
 |---|---|---|
-| Savol | O'lchangan raqam qanchalik ishonchli? | Hisoblangan va e'lon qilingan raqam qanchalik ishonchli? |
-| Zaif bo'g'in | **oqim** (5–17% noaniqlik) | **metod va qamrov** (hisob usuli e'lon qilinmagan) |
-| Himoya taklifi | uch zonali qoida · tushuntirish kartasi · apellyatsiya | besh kanal · to'rt rangli zonalash · murojaat moduli |
-| Pul o'lchovi | 5× jarima ↔ 50–70% imtiyoz ↔ 36 oy | investitsiya (WtE) va rag'bat |
-| Asosiy dalil | 2 335 obyekt, ~2% avtomatik qamrov | 15 mln t chiqindi, 3–4% qayta ishlash |
+| **I. O'LCHOV** | O'lchangan raqam qanchalik ishonchli? | oqim noaniqligi **5–17%**; etalon ±0,7%; RATA ≤10% |
+| **II. HIMOYA** | Xatoni jarimadan qanday ajratish mumkin? | uch zonali qoida (L, L+U) · 12 maydonli karta · 6 bosqichli apellyatsiya |
+| **III. PUL** | Jazo va rag'bat bir tizimmi? | 5× ↔ 50%→70% ↔ 36 oy · 3 bo'shliq · 4 blokli xarajat |
 
-**Umumiy mantiq (ikkala qismda bir xil):**
+**Zanjir:** kontsentratsiya × oqim × vaqt → koeffitsient → summa → qaytarish/jarima.
 
-**ma'lumot → manba va noaniqlik bayoni → himoya (e'tiroz) → e'lon → tuzatish**
-
-Qismlar ataylab aralashtirilmagan: I qism — o'lchov metodologiyasi, II qism — hisob va oshkoralik metodologiyasi. Ko'prik nuqtalari bitta: **manba havolasi** va **«ma'lumot yo'q» ham ochiq ko'rsatilishi** tamoyili.
-
----
+> **Chegara:** bu maqola texnik loyiha emas. Uskuna, modul va arxitektura — `TZ-1` (2026-10-10) va 1-B/1-C/1-D tadqiqotlarida.
 
 ---
 
