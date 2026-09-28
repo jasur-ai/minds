@@ -1,45 +1,12 @@
----
-aliases: [Maqola 1, EGAZ BALANS indeks]
-tags: [shaxsiy-tadqiqot, maqola1, indeks]
-created: 2026-09-18
-updated: 2026-09-26
-sektor: 22-ShaxsiyTadqiqot | Maqola1
-tur: indeks
-holat: qoralama
-sarlavha: Maqola 1 — Carbon Emission (indeks)
-qisqacha: Maqola fayllari, qoidalar va materiallar
-manba: workspace/03-Maqola1-Carbon-Emission/00-INDEX.md
----
+# MAQOLA 1 — Emissiya o'lchovi ishonchi (indeks)
 
-# 03 · MAQOLA 1 — CARBON EMISSION (EGAZ-BALANS)
-
-**Holat:** 🟢 faol (qoralama) · **Maqsad:** umumiy darajadagi maqola — texnik implementatsiya YO'Q
-**Yangilangan:** 2026-09-26
-
-## Versiyalar
-
-| Versiya | Fayl | Mazmuni |
+| Fayl | Nima | Holat |
 |---|---|---|
-| **v1.0** | `Maqola-EGAZ-BALANS.md` | Dalillar to'plami (raw compilation) — hamma raqam, iqtibos, ziddiyat; o'chirilmaydi |
-| **v2.0** | `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` | **Matn skeleti** — uch qatlam (o'lchov → himoya → pul), professional tuzilma, E-turkum manbalari |
-| **v3.0** | `Maqola-v3-YAKUNIY-Draft.md` + `YAKUNIY/01-Maqola-Draft.html` | **O'qish nusxasi (yakuniy draft)** — matn + raqam + **10 grafik** ketma-ketligi · 13 bo'lim · E-turkum |
-| — | `grafiklar/K1…K10.svg` | Grafiklar to'plami (inline SVG: internet/chop etishda ham ko'rinadi) |
+| `Maqola-EGAZ-BALANS.md` | dalil to'plami (v1) | arxiv |
+| `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` | oraliq nusxa (v2) | arxiv |
+| `Raqamlar-Reestr.md` · `Dalillar-Tekshiruvi.md` · `Research-Uzbekistan-Eko-2026.md` | reestr, tekshiruv, tadqiqot | dalil |
+| `Umumiy-Maqola-Tavsifi.md` | mavzu, o'quvchi, tuzilma tavsifi | hujjat |
+| `grafiklar/` · `png/` | K1–K10 (SVG + PNG) | material |
+| **`Yakuniy-Maqola.md`** | **YAKUNIY MAQOLA — oxirgi fayl** (13 bo'lim, 10 grafik) | ✅ complete |
 
-## Tuzilma
-
-| Papka | Mazmuni | Fayl |
-|---|---|---|
-| `Maqola/` | Asosiy matn (qoralama, 10 bo'lim, §5.5 KPI dashboard) | `Maqola1_EGAZ_BALANS.md` |
-| `Research/` | Butun loyihaning asos tadqiqoti (har bir raqamning manbasi) | `Uzbekistan_Eko_DeepResearch_2026.md` |
-| `Tadqiqotlar/` | 5 ta ochiq savol bo'yicha chuqur tadqiqotlar | `00-TADQIQOTLAR.md` |
-| `Malumotlar/` | Raqamlar reestri (manba + sana + daraja bilan) | `Raqamlar_Reestr.md` |
-| `Umumiy/` | Maqolaning bir varaqli tavsifi va holati | `00-UMUMIY.md` |
-| `Validatsiya/` | Da'volar ↔ manbalar tekshiruvi | `Dalillar_Tekshiruvi.md` |
-
-## Maqola qoidalari (promptdan)
-
-1. So'z chegarasi **yo'q**, oldindan istisno **yo'q**.
-2. Ziddiyatli raqamlar **ikkalasi ham** ko'rsatiladi, ziddiyat **ochiq** qoldiriladi.
-3. Sarlavhalar — savol/taranglik shaklida, lekin jiddiy.
-4. Har bir da'vo manbali.
-5. Oxirida — `QORALAMA — YAKUNIY TANLOV MUALLIFGA QOLDIRILADI` bo'limi.
+**Bot:** `/maqola` · **Loyiha:** `../Loyiha1-CarbonEmission/` · **Tadqiqotlar:** `1-B`, `1-C`, `1-D` (loyiha papkasida).
