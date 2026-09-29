@@ -2,7 +2,7 @@
 aliases: [Eko Ledger TZ, Loyiha 2 TZ]
 tags: [shaxsiy-tadqiqot, loyiha2, tz]
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-29
 sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: tz
 holat: kutishda
@@ -18,15 +18,16 @@ manba: workspace/02-Loyiha2-Trash-Organizer/TZ/Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.m
 **Asos hujjat:** `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7 (OCHIQ-EKO-LEDGER kontsepsiyasi)  
 **Ijrochi profili:** talaba (School 21); mavjud ko'nikmalar: Python, **aiogram** (Telegram bot), **FastAPI**, PostgreSQL/Firebase, LLM API bilan ishlash  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta)  
-**Versiya:** 1.0 (2026-09-17)
+**Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); S7 yakuni — W15 (28.12.2026–03.01.2027); himoya buferi — 06–15.01.2027  
+**Versiya:** 1.1 (2026-09-29; sana/hafta izchilligi, dublikat qoidasi va havolalar tuzatildi)
 
-> **MUHIM IZOH.** Manba hujjatda **zona-rang kodlash (qizil/sariq/yashil/ko'k-neytral)** va **fuqaro murojaati moduli** *yo'q*. Ular ushbu loyihaning **o'z qo'shimchalari** — shu sababli quyida to'liq (matematik qoidagacha) spetsifikatsiya qilinadi: §2.5 va §2.6.
+> **MUHIM IZOH.** Manba hujjatda **zona-rang kodlash (qizil/sariq/yashil/ko'k-neytral)** va **fuqaro murojaati moduli** *yo'q*. Ular ushbu loyihaning **o'z qo'shimchalari** — shu sababli quyida to'liq (matematik qoidagacha) spetsifikatsiya qilinadi: §5 va §6.
 
 ---
 
 ## MUNDARIJA
 
-0. Hujjat maqsadi va kontekst
+0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir)
 1. Nima isbotlanadi (loyihaning ilmiy/amaliy da'vosi)
 2. Jarayon xaritasi — xronologik va vizual
 3. Bosqichlar bo'yicha batafsil jadval
@@ -50,7 +51,17 @@ Loyiha — **milliy platforma emas**, balki ikki mexanizmni **ishlaydigan ko'rin
 
 Manba hujjatning besh qatlamli "ishonch arxitekturasi" (§4.6) MVP'da quyidagicha kesiladi: 5 qatlamdan **1-qatlam (ma'lumot manbasi), 3-qatlam (taqqoslash qatlami) va 4-qatlam (ochiq nashr + murojaat)** to'liq amalga oshiriladi; sun'iy yo'ldosh/verifikatsiya va rag'bat tizimi (2- va 5-qatlamlar) **loyiha doirasidan tashqarida** — ular faqat arxitekturada "stub" sifatida qoldiriladi.
 
-**Nega aynan bu ikki zanjir?** Chunki manba hujjatdagi P1 (ma'lumot yopiqligi), P2 (e'lon qilishning odamga qaramligi), P7 (murojaat natijasizligi) va P14 (soxtalashtirish) — eng ko'p shikoyat qilingan va **eng kam xarajat bilan isbotlanadigan** muammolar. Qolganlari (emisssiya limiti, soliq instrumentlari) qonun o'zgarishini talab qiladi, MVP esa **mavjud qonunchilik ichida** ishlay oladi: 2025-yil 1-dekabrdan boshlab davlat ekologik monitoring bazasi **ochiq bo'lishi shart** (Ekologik madaniyat kontsepsiyasi) va 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha **choraklik hisobot majburiyati** kuchga kiradi.
+**Nega aynan bu ikki zanjir?** Chunki manba hujjatdagi P1 (ma'lumot yopiqligi), P2 (e'lon qilishning odamga qaramligi), P7 (murojaat natijasizligi) va P14 (soxtalashtirish) — eng ko'p shikoyat qilingan va **eng kam xarajat bilan isbotlanadigan** muammolar. Qolganlari (emissiya limiti, soliq instrumentlari) qonun o'zgarishini talab qiladi, MVP esa **mavjud qonunchilik ichida** ishlay oladi: 2025-yil 1-dekabrdan boshlab davlat ekologik monitoring bazasi **ochiq bo'lishi shart** (Ekologik madaniyat kontsepsiyasi) va 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha **choraklik hisobot majburiyati** kuchga kiradi.
+
+### 0.1. Nega aynan hozir — besh shart bir vaqtda
+
+1. **Xalqaro majburiyat:** 2025-yil martda Aarhus konventsiyasiga qo'shilish — axborotga kirish, qarorlarda ishtirok va odil sudlov (uch ustun).
+2. **Ichki huquqiy sanalar:** 2025-yil 1-dekabrdan davlat ekologik monitoring bazasi ochiq (PQ-184, 15.05.2025); 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha choraklik hisobot; 2027-yil 1-yanvardan raqamli pasport — ya'ni ochiqlik majburiyati **sanalarga bog'langan**.
+3. **Ma'lumot hajmi o'sdi:** data.egov.uz'da o'n mingdan ortiq dataset (ekologiya yo'nalishi ~1,7%), chiqindilar hisoboti har chorakda minglab yozuv — qo'lda e'lon qilish amalda imkonsiz.
+4. **Investitsiya to'lqini:** oltita chiqindidan energiya zavodi (933 mln dollar) va beshta qo'shimcha loyiha (625 mln dollar) — oshkoralik talabi endi loyiha shartnomalarida ham paydo bo'ldi.
+5. **Texnologiyaning yetukligi:** deterministik qoida + cheklangan LLM (RAG) yondashuvi ishlaydigan darajaga yetdi, xarajati esa §10 dagi hisobda ~$5–15/oy (LLM API).
+
+**Ma'no:** MVP aynan "ochiqlik majburiyati kuchga kirgan, lekin e'tibor mexanizmi hali qurilmagan" oynada yozilmoqda.
 
 ---
 
@@ -78,13 +89,13 @@ Manba hujjatning besh qatlamli "ishonch arxitekturasi" (§4.6) MVP'da quyidagich
 
 ```mermaid
 flowchart TD
-    S0["S0 · Ma'lumot modeli + manba<br/>W1–W2 · 10 kun"] --> S1["S1 · Backend + DB<br/>FastAPI + PostgreSQL/PostGIS<br/>W2–W5 · 18 kun"]
+    S0["S0 · Ma'lumot modeli + manba<br/>W1–W2 · 10 kun"] --> S1["S1 · Backend + DB<br/>FastAPI + PostgreSQL/PostGIS<br/>W2–W4 · 18 kun"]
     S1 --> S2["S2 · Zona-rang algoritmi<br/>qoidalar + validatsiya<br/>W4–W6 · 12 kun"]
-    S2 --> S3["S3 · Xarita + dashboard<br/>Leaflet, GeoJSON API<br/>W6–W9 · 16 kun"]
+    S2 --> S3["S3 · Xarita + dashboard<br/>Leaflet, GeoJSON API<br/>W6–W8 · 16 kun"]
     S2 --> S4["S4 · LLM matn generatori<br/>prompt + verifikatsiya<br/>W6–W8 · 12 kun"]
     S3 --> S5["S5 · Telegram bot (aiogram)<br/>obuna, so'rov, ogohlantirish<br/>W8–W10 · 12 kun"]
-    S3 --> S6["S6 · Murojaat moduli<br/>kanal + SLA + ochiq javob<br/>W9–W12 · 18 kun"]
-    S4 --> S7["S7 · Test, demo, hujjat<br/>W12–W15 · 15 kun"]
+    S3 --> S6["S6 · Murojaat moduli<br/>kanal + SLA + ochiq javob<br/>W9–W11 · 18 kun"]
+    S4 --> S7["S7 · Test, demo, hujjat<br/>W13–W15 · 15 kun"]
     S5 --> S7
     S6 --> S7
 
@@ -114,7 +125,7 @@ gantt
     S6 Murojaat moduli          :s6, 2026-11-19, 18d
     section Yakun
     S7 Test + demo + hujjat     :s7, 2026-12-14, 15d
-    Buffer / himoya             :crit, 2027-01-05, 10d
+    Buffer / himoya             :crit, 2027-01-06, 10d
 ```
 
 ### 2.3. Nega aynan shu tartib (bog'liqlik mantiqi)
@@ -141,13 +152,13 @@ gantt
 | Bosqich | Muddat | Nima qilinadi | Texnologiya | **Nega aynan shu texnologiya** | **Nega aynan shu vaqtda** | **Kirish → Chiqish** | **Definition of Done** | Natija/deliverable |
 |---|---|---|---|---|---|---|---|---|
 | **S0** Ma'lumot modeli + manba | W1–W2 · 10 kun | Korxona kartochkasi maydonlari; 3 indikator tanlash; 5 manba oqimi kartografiyasi; sintetik rejim generatori | JSON Schema, YAML (`sources.yaml`), `pydantic`, `Faker` (uz_UZ) | JSON Schema — maydonlar shartnomasi (backend/generator/LLM/bot bitta sxemadan); YAML manba reyestri — yangi manba kod o'zgarishisiz qo'shiladi | Manba/maydonlar keyin o'zgarsa, baza va API qayta yoziladi — eng qimmat xato turi | Manba ro'yxati + huquqiy hujjatlar → 2 JSON Schema + `sources.yaml` + generator | 500 sintetik korxona + 20 000 o'lchov generatsiya qilinadi; 5 manba (M1–M5) kartografiyalangan | `01_data_model.md`, 2 sxema, `sources.yaml`, `generator.py` |
-| **S1** Backend + DB | W2–W5 · 18 kun | FastAPI ilova (ingestion + CRUD + geo API); PostGIS sxemasi; migratsiyalar; rollar; rate limit; audit log | FastAPI + Pydantic v2, **PostgreSQL 16 + PostGIS 3.4**, SQLAlchemy 2.0 async + Alembic, Redis 7, Docker Compose | PostGIS **kerak**: `ST_Contains` (mahalla poligoni), `ST_DWithin` (500 m radius), KNN ("eng yaqin stansiya") — Python'da O(n×m) bir necha soniya, PostGIS'da millisekund (GiST indeks); narxi — bitta `CREATE EXTENSION`. FastAPI — OpenAPI bepul = ochiq API maqsadi | Barcha keyingi qism bitta API kontraktiga tayanadi; API "muzlatilsa", xarita va bot parallel yoziladi (2 kishilik jamoada ~30% vaqt tejash) | S0 sxemalari → ishlaydigan API + seed | 15+ test o'tadi (shu jumladan PostGIS so'rovlari); `/docs` ochiq; migratsiya `up/down` ishlaydi | API, migratsiyalar, seed, testlar |
+| **S1** Backend + DB | W2–W4 · 18 kun | FastAPI ilova (ingestion + CRUD + geo API); PostGIS sxemasi; migratsiyalar; rollar; rate limit; audit log | FastAPI + Pydantic v2, **PostgreSQL 16 + PostGIS 3.4**, SQLAlchemy 2.0 async + Alembic, Redis 7, Docker Compose | PostGIS **kerak**: `ST_Contains` (mahalla poligoni), `ST_DWithin` (500 m radius), KNN ("eng yaqin stansiya") — Python'da O(n×m) bir necha soniya, PostGIS'da millisekund (GiST indeks); narxi — bitta `CREATE EXTENSION`. FastAPI — OpenAPI bepul = ochiq API maqsadi | Barcha keyingi qism bitta API kontraktiga tayanadi; API "muzlatilsa", xarita va bot parallel yoziladi (2 kishilik jamoada ~30% vaqt tejash) | S0 sxemalari → ishlaydigan API + seed | 15+ test o'tadi (shu jumladan PostGIS so'rovlari); `/docs` ochiq; migratsiya `up/down` ishlaydi | API, migratsiyalar, seed, testlar |
 | **S2** Zona algoritmi | W4–W6 · 12 kun | §5 qoidasi: R → rang; ishonch darajasi C; 6 override (O1–O6); snapshot va `rule_version` saqlash; 100 test-holati | Sof Python (`zoning/engine.py`), `scipy.stats` (rolling median/percentile), `pydantic`, `pytest`, SQL (`zoning_runs`) | **ML emas, qoidaviy** — rangni fuqaro, jurnalist va sud tekshira olishi shart; model izohlab bo'lmaydigan bo'lsa apellyatsiyaga bardosh bermaydi | Rang — xarita, bot va LLM matnining **kirish ma'lumoti** (kritik yo'l); kech yozilsa uchta yo'nalish birga bloklanadi | S1 bazasi + normativ jadval (`norms`) → `zone_class` yozuvlari | 100 chegara-testi (±1%) o'tadi; `rules.md` inson tilida yozilgan; rang o'zgarishi jurnali ishlaydi | `engine.py`, `rules.md`, 100 test, `zoning_runs` |
-| **S3** Xarita + dashboard | W6–W9 · 16 kun | Leaflet xarita (poligon + marker + popup + legenda + vaqt slayderi); zona klik → murojaat shakli; KPI paneli | Leaflet 1.9 + OSM, `leaflet.markercluster`, Chart.js, GeoJSON API, FastAPI `StaticFiles` | Leaflet — bepul, litsenziya toza (token/billing yo'q), 3G'da tez; GeoJSON — jurnalist ham yuklab oladi (ochiqlik talabi); markercluster — 10 000 marker brauzerda bloklanmaydi | Rang (S2) tayyor bo'lgach; oldin yozilgan xarita "quruq" maket bo'ladi | `zones.geojson` + `facilities` → xarita + dashboard | 10 000 marker < 3 s (3G < 8 s); mobil (≤768 px) ko'rinish ishlaydi; legenda "ko'k = toza emas" matni bilan | `web/map.html`, skrinshotlar, demo |
+| **S3** Xarita + dashboard | W6–W8 · 16 kun | Leaflet xarita (poligon + marker + popup + legenda + vaqt slayderi); zona klik → murojaat shakli; KPI paneli | Leaflet 1.9 + OSM, `leaflet.markercluster`, Chart.js, GeoJSON API, FastAPI `StaticFiles` | Leaflet — bepul, litsenziya toza (token/billing yo'q), 3G'da tez; GeoJSON — jurnalist ham yuklab oladi (ochiqlik talabi); markercluster — 10 000 marker brauzerda bloklanmaydi | Rang (S2) tayyor bo'lgach; oldin yozilgan xarita "quruq" maket bo'ladi | `zones.geojson` + `facilities` → xarita + dashboard | 10 000 marker < 3 s (3G < 8 s); mobil (≤768 px) ko'rinish ishlaydi; legenda "ko'k = toza emas" matni bilan | `web/map.html`, skrinshotlar, demo |
 | **S4** LLM matn generatori | W6–W8 · 12 kun | Prompt shabloni (§8.3); 3 format (bot/press/haftalik); 6 qavatli verifikatsiya; matn arxivi | LLM API (structured output), `pydantic`, `jsonschema`, regex-tekshiruv, `jinja2` (zaxira), `httpx`, kesh | LLM API — MVP'da lokal infra yo'q; **Jinja2 zaxira** — LLM/API ishlamasa matn deterministik shablondan chiqadi; kesh — bir xil snapshot → bir xil matn (ishonch masalasi) | Raqamlar (S2) tayyor bo'lgach; LLM **oxirida** qo'shiladi — avval ishonchli faktlar, keyin til | snapshot JSON → 3 formatdagi matn + verifikatsiya natijasi | 100 holatda "uydirma raqam" testi **0 xato**; taqiqlangan so'zlar filtri ishlaydi | `prompt_v1.md`, `verify.py`, test natijalari |
 | **S5** Telegram bot | W8–W10 · 12 kun | Obuna ("hudud → rang o'zgarsa xabar"), indikator so'rovi, korxona kartochkasi, murojaat yuborish, holat kuzatuvi, kunlik avto-e'lon | **aiogram 3.x** (async, FSM), webhook (FastAPI bilan bir ilovada), Redis (FSM state + rate limit) | Telegram — O'zbekistonda eng keng kanal (ilova o'rnatish/sayt kerak emas → qamrov); aiogram talabada bor, to'liq async, FSM forma uchun ideal; **webhook** long-polling'dan resursni tejaydi | Xarita va alert oqimi (S3) ishlagach; bot — mavjud ma'lumotning ikkinchi ko'rinishi, yangi manba emas | S3 API + `events` → bot oqimi | 6 ssenariy ishlaydi; obuna xabari yetib boradi; 10 test (mock Telegram); `/help` yozilgan | Bot, demo video, testlar |
-| **S6** Murojaat moduli | W9–W12 · 18 kun | 3 kanal (bot/veb/API), 12 maydon, 7 holatli zanjir, SLA 10 kun + avto-eskalatsiya (7/10/15), moderator **belgisi** (o'chirish emas), dublikat, KPI panel | FastAPI CRUD, PostgreSQL (`appeals`, `appeal_events`, `sla_metrics`), `pg_trgm` (dublikat), PostGIS `ST_DWithin`, MinIO/disk, `arq`/cron, aiogram | `pg_trgm` — dublikatni ML'siz, tushunarli tutadi; `ST_DWithin` — "300 m radiusda bir xil kategoriya" (dublikat + jamoaviy signal); `appeal_events` — **append-only** (o'chirib bo'lmaydi) = "inson aralashuvisiz" tamoyilining texnik kafolati; `arq`/cron — SLA mustaqil jarayon (API o'chsa ham ishlaydi) | Bot (S5) va xarita (S3) murojaat uchun kirish nuqtalari; modul ularsiz "ko'r" | Foydalanuvchi murojaati → to'liq sikl + SLA + javob | 25+ test, shu jumladan **"o'chirishga urinish rad etiladi"** testi; 10-kun "muddati o'tdi" belgisi avtomatik chiqadi | To'liq modul, KPI paneli, testlar |
-| **S7** Test + demo + hujjat | W12–W15 · 15 kun | 80+ test; `docker compose up`; 3 demo video; README, arxitektura, cheklovlar; 5–6 betlik texnik hisobot; maqola rasmlari | `pytest`+`pytest-asyncio`+`httpx`, `ruff`, GitHub Actions, Playwright (ixtiyoriy), ekran yozuvi | Playwright **ixtiyoriy** — xarita qo'lda sinaladi (vaqt tejash); CI majburiy (reproduksiya dalili) | Komponentlar barqarorlashgach; erta integratsiya testi ko'p sinadi | Tizim → CI yashil + hujjatlar + video | 1 buyruqda ko'tariladi; GeoJSON/CSV eksport ochiq; `limitations.md` yozilgan; Git tag `v1.0` | CI badge, videolar, `docs/`, hisobot |
+| **S6** Murojaat moduli | W9–W11 · 18 kun | 3 kanal (bot/veb/API), 12 maydon, 7 holatli zanjir, SLA 10 kun + avto-eskalatsiya (7/10/15), moderator **belgisi** (o'chirish emas), dublikat, KPI panel | FastAPI CRUD, PostgreSQL (`appeals`, `appeal_events`, `sla_metrics`), `pg_trgm` (dublikat), PostGIS `ST_DWithin`, MinIO/disk, `arq`/cron, aiogram | `pg_trgm` — dublikatni ML'siz, tushunarli tutadi; `ST_DWithin` — "300 m radiusda bir xil kategoriya" (dublikat + jamoaviy signal); `appeal_events` — **append-only** (o'chirib bo'lmaydi) = "inson aralashuvisiz" tamoyilining texnik kafolati; `arq`/cron — SLA mustaqil jarayon (API o'chsa ham ishlaydi) | Bot (S5) va xarita (S3) murojaat uchun kirish nuqtalari; modul ularsiz "ko'r" | Foydalanuvchi murojaati → to'liq sikl + SLA + javob | 25+ test, shu jumladan **"o'chirishga urinish rad etiladi"** testi; 10-kun "muddati o'tdi" belgisi avtomatik chiqadi | To'liq modul, KPI paneli, testlar |
+| **S7** Test + demo + hujjat | W13–W15 · 15 kun | 80+ test; `docker compose up`; 3 demo video; README, arxitektura, cheklovlar; 5–6 betlik texnik hisobot; maqola rasmlari | `pytest`+`pytest-asyncio`+`httpx`, `ruff`, GitHub Actions, Playwright (ixtiyoriy), ekran yozuvi | Playwright **ixtiyoriy** — xarita qo'lda sinaladi (vaqt tejash); CI majburiy (reproduksiya dalili) | Komponentlar barqarorlashgach; erta integratsiya testi ko'p sinadi | Tizim → CI yashil + hujjatlar + video | 1 buyruqda ko'tariladi; GeoJSON/CSV eksport ochiq; `limitations.md` yozilgan; Git tag `v1.0` | CI badge, videolar, `docs/`, hisobot |
 
 ### S0. Ma'lumot modeli va manba tanlash (W1–W2, 10 kun)
 
@@ -169,13 +180,13 @@ gantt
 | M4 | Korxona o'z e'loni (self-report) | ixtiyoriy | forma | oylik | ✅ |
 | M5 | Fuqaro signali (murojaat/telegram) | kraudsort | matn + foto + nuqta | real-time | ✅ |
 
-### S1. Backend va baza (W2–W5, 18 kun)
+### S1. Backend va baza (W2–W4, 18 kun)
 
 | Ustun | Mazmun |
 |---|---|
-| **Nima qilinadi** | FastAPI ilova: `POST /v1/measurements` (ingestion), `GET /v1/facilities`, `GET /v1/facilities/{id}`, `GET /v1/zones?level=mahalla|tuman|viloyat`, `GET /v1/geo/zones.geojson`, `GET /v1/events`, `GET /v1/appeals`, `POST /v1/appeals`, `PATCH /v1/appeals/{id}/status`; PostGIS sxemasi; migratsiyalar; autentifikatsiya (admin/inspektor/fuqaro rollari); rate limit; audit log |
+| **Nima qilinadi** | FastAPI ilova: `POST /v1/measurements` (ingestion), `GET /v1/facilities`, `GET /v1/facilities/{id}`, `GET /v1/zones?level=mahalla\|tuman\|viloyat`, `GET /v1/geo/zones.geojson`, `GET /v1/events`, `GET /v1/appeals`, `POST /v1/appeals`, `PATCH /v1/appeals/{id}/status`; PostGIS sxemasi; migratsiyalar; autentifikatsiya (admin/inspektor/fuqaro rollari); rate limit; audit log |
 | **Texnologiya** | FastAPI + Pydantic v2, **PostgreSQL 16 + PostGIS 3.4**, SQLAlchemy 2.0 async + Alembic, Redis 7 (kesh, navbat), Docker Compose, `prometheus-client`, `pytest` |
-| **Nega aynan shu texnologiya** | 1) **PostGIS vs "oddiy lat/lon"]** — baribir SQL bor, lekin PostGIS *kerak*, chunki real so'rovlar: "shu mahalla poligoni ichidagi korxonalar" (`ST_Contains`), "murojaatdan 500 m radiusdagi ob'ektlar" (`ST_DWithin`), "eng yaqin stansiya" (`<->` operatori/KNN). Bu so'rovlarni Python'da qilish O(n×m) → 10 000 nuqtada bir necha soniya; PostGIS'da **millisekundlar** (GiST indeks). Xulosa: oddiy lat/lon'dan boshlash **texnik qarz** yaratadi, narxi esa — bitta `CREATE EXTENSION postgis`; 2) **FastAPI** — talabaning mavjud tajribasi + avtomatik OpenAPI (ochiq API — loyihaning maqsadlaridan biri!); 3) **Redis** — kunlik zoning natijasini keshlash (xarita yuklanishi) va Telegram alert navbati (`arq`); 4) **Docker Compose** — PostGIS+Redis+API bir buyruqda |
+| **Nega aynan shu texnologiya** | 1) **PostGIS vs "oddiy lat/lon"** — baribir SQL bor, lekin PostGIS *kerak*, chunki real so'rovlar: "shu mahalla poligoni ichidagi korxonalar" (`ST_Contains`), "murojaatdan 500 m radiusdagi ob'ektlar" (`ST_DWithin`), "eng yaqin stansiya" (`<->` operatori/KNN). Bu so'rovlarni Python'da qilish O(n×m) → 10 000 nuqtada bir necha soniya; PostGIS'da **millisekundlar** (GiST indeks). Xulosa: oddiy lat/lon'dan boshlash **texnik qarz** yaratadi, narxi esa — bitta `CREATE EXTENSION postgis`; 2) **FastAPI** — talabaning mavjud tajribasi + avtomatik OpenAPI (ochiq API — loyihaning maqsadlaridan biri!); 3) **Redis** — kunlik zoning natijasini keshlash (xarita yuklanishi) va Telegram alert navbati (`arq`); 4) **Docker Compose** — PostGIS+Redis+API bir buyruqda |
 | **Nega aynan shu vaqtda** | Barcha keyingi bosqichlar API kontraktiga tayanadi; API oldin "muzlatilsa", xarita va bot ustida parallel ishlash mumkin (2 kishilik jamoada 30% vaqt tejamkorligi) |
 | **Deliverable** | Ishlaydigan API + `/docs`, migratsiyalar, seed skripti, 15+ test (shu jumladan PostGIS so'rovlari testi) |
 
@@ -183,13 +194,13 @@ gantt
 
 | Ustun | Mazmun |
 |---|---|
-| **Nima qilinadi** | §5'dagi to'liq qoida implementatsiya qilinadi: indikator darajasi → nisbat R → korxona rangi → zona rangi (agregatsiya); "ishonch darajasi" (C) hisobi; qoida versiyasi va snapshot saqlash; 100 ta test-holati; rang o'zgarishi jurnalı |
+| **Nima qilinadi** | §5'dagi to'liq qoida implementatsiya qilinadi: indikator darajasi → nisbat R → korxona rangi → zona rangi (agregatsiya); "ishonch darajasi" (C) hisobi; qoida versiyasi va snapshot saqlash; 100 ta test-holati; rang o'zgarishi jurnali |
 | **Texnologiya** | Sof Python (`zoning/engine.py` — barcha biznes-logika), `scipy.stats` (rolling median, percentile), `pydantic` (natija sxemasi), `pytest` (qoidaviy testlar), SQL (`zoning_runs` jadvali) |
 | **Nega aynan shu texnologiya** | 1) **Sof Python, ML emas** — rang qoidasi **deterministik va tushunarli** bo'lishi shart: har bir rangni fuqaro, jurnalist va sud tekshirishi mumkin. Machine learning MVP'da o'rinsiz (izohlash qiyin, apellyatsiyaga bardosh bermaydi); 2) **Qoida versiyasi (v1.0, v1.1)** — agar qoida o'zgarsa, eski rang qanday qoida bo'yicha chiqqani saqlanadi (audit); 3) `pytest` — 100 holat (har bir chegara qiymat ±1%) |
 | **Nega aynan shu vaqtda** | Rang xarita, bot va LLM matnining **kirish ma'lumoti**; algoritm kech yozilsa, uchta yo'nalish bir vaqtda bloklanadi (kritik yo'l) |
 | **Deliverable** | `zoning/engine.py` + `zoning/rules.md` (inson tilida qoidalar), 100 test, `zoning_runs` tarixi |
 
-### S3. Xarita va dashboard (W6–W9, 16 kun)
+### S3. Xarita va dashboard (W6–W8, 16 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -219,7 +230,7 @@ gantt
 | **Nega aynan shu vaqtda** | Xarita va alert oqimi (S3) ishlagach; bot — mavjud ma'lumotning **ikkinchi ko'rinishi**, yangi ma'lumot manbasi emas |
 | **Deliverable** | `@eco_ledger_bot` (test nomi), 6 ta buyruq/ssenariy, `/help`, 10 ta test (mock Telegram), demo video |
 
-### S6. Murojaat moduli (W9–W12, 18 kun)
+### S6. Murojaat moduli (W9–W11, 18 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -229,7 +240,7 @@ gantt
 | **Nega aynan shu vaqtda** | Bot (S5) va xarita (S3) murojaat uchun kirish nuqtalari; modul ularsiz "ko'r" bo'ladi |
 | **Deliverable** | Murojaat sikli to'liq ishlaydi; SLA dashboard; 25+ test (shu jumladan "o'chirishga urinish rad etiladi" testi) |
 
-### S7. Test, demo, hujjatlashtirish (W12–W15, 15 kun)
+### S7. Test, demo, hujjatlashtirish (W13–W15, 15 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -269,7 +280,7 @@ gantt
 
 | Ustuvorlik | Indikator | Norma (raqamli) | Nega aynan shu birinchi |
 |---|---|---|---|
-| **1** | **PM2.5** (havo) | O'zbekiston: bir martalik **REM = 35 µg/m³** (SanQvaM 0053-23, 2024-yil 27-may o'zgartirishi); avvalgi kunlik me'yor 60 µg/m³, yillik ~30 µg/m³. **JSST (2021):** 24-soatlik **15 µg/m³**, yillik **5 µg/m³** | (a) **Sog'liq ta'siri eng katta** — Toshkentda havoning ifloslanishi yillik **$488 mln** zarar (≈0,7% GRP); (b) **ma'lumot bor** — avtomatik stansiyalar **real vaqtda** o'lchaydi (M1); (c) **rang o'zgarishi tez** — fuqaro darrov ko'radi, ya'ni platforma "tirik" ko'rinadi; (d) xalqaro taqqoslash imkoni (JSST etaloni bilan ikkinchi qavat) |
+| **1** | **PM2.5** (havo) | O'zbekiston: bir martalik **REM = 35 µg/m³** (SanQvaM 0053-23, 2024-yil 27-may o'zgartirishi); avvalgi kunlik me'yor 60 µg/m³, yillik me'yor ~30–35 µg/m³ (manba tafovuti — Ilova C-3, C-18). **JSST (2021):** 24-soatlik **15 µg/m³**, yillik **5 µg/m³** | (a) **Sog'liq ta'siri eng katta** — Toshkentda havoning ifloslanishi yillik **$488,4 mln** zarar (≈0,7% YaIM) — Jahon banki hisoboti (Ilova C-18); (b) **ma'lumot bor** — avtomatik stansiyalar **real vaqtda** o'lchaydi (M1); (c) **rang o'zgarishi tez** — fuqaro darrov ko'radi, ya'ni platforma "tirik" ko'rinadi; (d) xalqaro taqqoslash imkoni (JSST etaloni bilan ikkinchi qavat) |
 | **2** | **BOD₅ va KOD** (oqava suv) | **BOD (KBS): 3 mgO₂/dm³** (I toifa) / **6 mgO₂/dm³** (II toifa); **KOD (BXO): 15 mgO₂/dm³** (I) / **30 mgO₂/dm³** (II); erigan kislorod ≥6/4 mg/dm³; pH 6,0–8,5 (lex.uz, 26-son 22.11.2024) | (a) **Manba korxonaga bog'lanadi** (M2 — ruxsatnoma) → bitta korxona javobgarligini ko'rsatish mumkin; (b) **fizik-kimyoviy jihatdan aniq** — bitta raqam, izohlash oson; (c) bu — manba hujjatdagi P6 (suv ifloslanishi, kanallar/kollektorlar) bilan to'g'ridan-to'g'ri mos; (d) laboratoriya tahlili talab qilinadi → kamroq ma'lumot, lekin "o'lchov" ishonchi yuqori |
 | **3** | **Chiqindi hajmi (xavfli + qattiq maishiy)** | Normativ **chiqarish limiti** yo'q → taqqoslash qavatlari: **korxona tarixi** + **sektor o'rtachasi** + **litsenziya sharti**. Me'yor o'rniga "kutilgan diapazon" (birlik mahsulotga chiqindi) | (a) **Yangilangan qonun oqimi**: 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha choraklik hisobot majburiy (20-sanagacha), 2027-yil 1-yanvardan raqamli pasport → **ma'lumot o'z-o'zidan keladi**; (b) manba hujjatda eng ko'p raqamli kontradiksiya aynan shu sohada (7,2–14 mln t) → platforma qarama-qarshilikni **ko'rsatishi** kerak; (c) 2–3 indikatordan bittasi **chiqindi** bo'lishi fuqaro uchun eng tushunarli (ko'z bilan ko'riladi) |
 
@@ -347,7 +358,7 @@ f_method       = 1,0 avtomatik stansiya/laboratoriya (akkreditlangan)
 f_completeness = mavjud_indikatorlar / rejaviy_indikatorlar
 ```
 
-**Nega?** Bitta self-report qiymat bilan "qizil" deyish — noto'g'ri va sudda himoyasiz. `C` — bu "biz qanchalik bilamiz" o'lchovi. **Qoida:** yuqori oshib ketish + past ishonch → rang **sariq shtrixli ("tekshiruv kutilmoqda")** ko'rinishida ko'rsatiladi va birinchi navbatda **tekshiruvga** yuboriladi.
+**Nega?** Bitta self-report qiymat bilan "qizil" deyish — noto'g'ri va sudda himoyasiz. `C` — bu "biz qanchalik bilamiz" o'lchovi. **Qoida:** yuqori oshib ketish + past ishonch → rang **ko'k (neytral) bo'lib qoladi**, ustiga **sariq shtrix — "tekshiruv kutilmoqda"** qo'yiladi va obyekt birinchi navbatda **tekshiruvga** yuboriladi. (Sariq rang faqat o'lchangan, ishonchli oshib ketishga beriladi — §5.1.)
 
 ### 5.3. Kuchaytiruvchi qoidalar (override)
 
@@ -360,7 +371,17 @@ f_completeness = mavjud_indikatorlar / rejaviy_indikatorlar
 | O5 | **Tabiiy manba aniqlangan** | Chang bo'roni/transchegaraviy ko'chish (meteorologik ma'lumot) | rang **saqlanadi**, ammo izohga sabab qo'shiladi (yashilga **o'tkazilmaydi!**) |
 | O6 | **Hudud chegarasi effekti** | Stansiya sanoat zonasidan uzoq | C pasayadi (aks holda "kimning ifloslanishi" noma'lum) |
 
-### 5.4. Korxonadan zonaga agregatsiya
+### 5.4. Severity shkalasi (barcha §5 qoidalari uchun)
+
+| Daraja | Ma'nosi | Mezon |
+|---|---|---|
+| **1** | chegara atrofidagi tebranish | R ≤ 2 |
+| **2** | sezilarli oshib ketish | 2 < R ≤ 5 |
+| **3** | ekstremal (O3 bilan bog'langan) | R > 5 |
+
+**Nima uchun kerak:** §5.5 dagi agregatsiya "RED va severity≥2" shartini ishlatadi — ya'ni **chegara atrofidagi bitta tasodifiy o'lchov** hududni qizil qilmaydi; qizil rang faqat **sezilarli** oshib ketishdan boshlanadi.
+
+### 5.5. Korxonadan zonaga agregatsiya
 
 ```
 Zona rangi =
@@ -372,7 +393,7 @@ Zona rangi =
 
 **Qamrov (coverage)** — zona ichidagi obyektlardan necha foizi **haqiqiy o'lchovga** ega. Bu raqam **har doim xaritada ochiq** ko'rsatiladi ("Yunusobod: 12/31 ob'ekt monitoringda — qamrov 39%"), shunda "yashil" rang **qanday dalilga** asoslangani ko'rinadi.
 
-### 5.5. Manba hujjat §4.4.4 "taqqoslash qatlami"ga xaritalash
+### 5.6. Manba hujjat §4.4.4 "taqqoslash qatlami"ga xaritalash
 
 | Qatlam (manba hujjat) | MVP'dagi roli | Ko'rinishi |
 |---|---|---|
@@ -382,7 +403,7 @@ Zona rangi =
 | **4. Korxona tarixi** | **Trend strelkasi** | ↑ 12% (so'nggi 6 oy) yoki ↓ 8% — rang o'zgarishini izohlaydi |
 | **5. Mintaqaviy reyting** | **Dashboard paneli** | Viloyatlar reytingi (qizil ulushi bo'yicha), oylik |
 
-### 5.6. Rang o'zgarishi — audit qoidasi
+### 5.7. Rang o'zgarishi — audit qoidasi
 
 Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 
@@ -404,7 +425,7 @@ Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 
 **Nega bu muhim:** fuqaro yoki korxona "nega qizil bo'ldim?" deb so'rasa, javob **bitta yozuvda**, o'zgarmas holda turadi. Qoida versiyasi (`rule_version`) ham saqlanadi — algoritm o'zgarsa, o'tmish **qayta yozilmaydi**, yangi qoida faqat **oldinga** qo'llanadi (audit tamoyili, xuddi moliyaviy hisobotdagi kabi).
 
-### 5.7. Vizualizatsiya spetsifikatsiyasi (Leaflet)
+### 5.8. Vizualizatsiya spetsifikatsiyasi (Leaflet)
 
 | Element | Texnik spetsifikatsiya |
 |---|---|
@@ -470,7 +491,7 @@ Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 | 11 | `report_to_authority` | BOOL | ✅ | "Rasmiy organlarga yuborilsinmi" (default: ha) |
 | 12 | `lang` | ENUM(`uz`,`ru`) | ✅ | Javob tili |
 
-**Anti-spam qoidalari (faqat texnik):** bitta telefon → kuniga ≤5 murojaat; bir xil matn ≥0,85 trigramma o'xshashlik + 300 m radius + 24 soat → **dublikat sifatida birlashtiriladi** (yangi murojaat **yo'qolmaydi**, "unga qo'shiladi" va `supporters_count` oshadi — bu **kuchli signal**); yangi akkauntning birinchi murojaati navbatga qo'yiladi (**post-moderatsiya**, e'lon qilinishi kechiktirilmaydi).
+**Anti-spam qoidalari (faqat texnik):** bitta telefon → kuniga ≤5 murojaat; dublikat **ikki pog'onali** aniqlanadi (Ilova A bilan bir xil chegara): (1) trigramma o'xshashlik **≥0,85** + 300 m radius + ≤24 soat + bir xil kategoriya → **avtomatik birlashtiriladi** (yangi murojaat **yo'qolmaydi**, "unga qo'shiladi" va `supporters_count` oshadi — bu **kuchli signal**); (2) o'xshashlik **0,55–0,85** oralig'ida bo'lsa — murojaat **alohida yozuv bo'lib qoladi** va "o'xshash murojaatlar" guruhida ko'rsatiladi (operator ko'rigi uchun; e'lon qilinishi kechiktirilmaydi). Yangi akkauntning birinchi murojaati **belgilanadi** (post-moderatsiya; e'lon qilinishi kechiktirilmaydi).
 
 ### 6.5. Holat zanjiri (7 holat) va SLA
 
@@ -738,6 +759,12 @@ JSON:
 - Matn o'zgarsa (yangi model versiyasi) — **yangi yozuv**, eski matn saqlanadi (tarix).
 - LLM'ning "o'z fikri" yo'q: **tavsiya, prognoz, siyosiy baho** so'ralmaydi va ruxsat etilmaydi.
 
+### 8.6. Adabiyot dalili (nega aynan shu arxitektura)
+
+- **RAG naqshi standartga aylandi:** cheklangan kontekst (faqat berilgan raqamlar/hujjatlar) bilan generatsiya — atrof-muhit siyosati va regulyativ matnlarni qayta ishlashda asosiy yondashuv (Yang et al., *Sustainability* 17(22):10282, 2025; Springer EGRWSE 2025, LLM + RAG; Jain et al., ACL 2025 Findings — AI/NLP va regulyativ muvofiqlik ko'rigi).
+- **Chegarani bilish:** kalibrlanmagan LLM baholashda o'rtacha aniqlik ~56% atrofida qoladi va hallyutsinatsiya holatlari qayd etilgan (Wu et al., *Systems* 13(10):899, 2025) — shu sababli V1–V6 verifikatsiya va **Jinja2 zaxira** ixtiyoriy emas, majburiy komponent.
+- **Xulosa:** LLM bu yerda **yozuvchi**, qaror qabul qiluvchi emas; qaror (rang) deterministik qoidada qoladi (D1 da'vosi §1).
+
 ---
 
 ## 9. RISKLAR VA CHEKLOVLAR
@@ -749,7 +776,7 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 | R1 | **Yolg'on murojaat (feik shikoyat)** | Yuqori | Yuqori | Telefon tasdiqlash; dublikat aniqlash; `C` (ishonch) hisobi murojaatga past vazn beradi; murojaat **o'zi** rangni qizilga o'tkazmaydi — faqat **tekshiruvga** yuboradi (O2: minimum sariq) |
 | R2 | **Ma'lumot yo'qligi "yashil"ga aylanib qolishi** | Yuqori | Yuqori | **Ko'k-neytral** kategoriyasi + qamrov foizi majburiy ko'rsatish (dizaynning eng muhim qarori) |
 | R3 | **Stansiya joylashuvi noto'g'ri → noto'g'ri zona** | O'rta | Yuqori | `C` pasaytiriladi; "hudud chegarasi effekti" qoidasi (O6); ko'rsatilmagan noaniqlik yoziladi |
-| R4 | **Rang o'zgarishi siyosity bosim keltiradi** ("qizilni o'chiring") | O'rta | Yuqori | `rule_version` + `zoning_runs` audit izi: qoidani yashirin o'zgartirish **uning tarixida ko'rinadi**; ochiq API'da eski snapshot'lar saqlanadi; qoidaga o'zgartirish **jamoat muhokamasi** bilan (versiya e'loni) |
+| R4 | **Rang o'zgarishi siyosiy bosim keltiradi** ("qizilni o'chiring") | O'rta | Yuqori | `rule_version` + `zoning_runs` audit izi: qoidani yashirin o'zgartirish **uning tarixida ko'rinadi**; ochiq API'da eski snapshot'lar saqlanadi; qoidaga o'zgartirish **jamoat muhokamasi** bilan (versiya e'loni) |
 | R5 | **LLM matni xato/ayblovchi bo'lib qolishi** | O'rta | Yuqori | 6 qavatli verifikatsiya (V1–V6) + Jinja2 zaxira; "ayblov" so'zlari taqiqlangan; inson namunaviy ko'rigi |
 | R6 | **Manba ma'lumotining o'zi soxta (P14)** | Yuqori | Yuqori | 3 mustaqil manba (`f_redundancy`); self-report past vazn (0,4); **verifikatsiya kutilmoqda** holati; kross-signal (chiqindi hisoboti ↔ ishlab chiqarish hajmi) |
 | R7 | **Spam / bot hujumi** | O'rta | O'rta | Rate limit; telefon tasdiqlash; dublikat birlashtirish (`supporters_count` sun'iy shishirilmasligi uchun **unique telefon** hisobi) |
@@ -757,13 +784,15 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 | R9 | **Maxfiylik (murojaatchi shaxsi)** | O'rta | Yuqori | `author_hash` (telefon ochiq jadvalda saqlanmaydi); `publication_consent` fuqaro tanlovi; anonim rejim default taklif |
 | R10 | **Ko'k zonada ko'p hudud qolishi → xarita "foydasiz" tuyulishi** | O'rta | O'rta | Qamrovni oshirish **yo'l xaritasi** sifatida e'lon: "ko'k hudud = ma'lumot bo'shlig'i" — bu **o'zi natija** (manba hujjat P1/P5 muammosini ko'rsatadi) |
 | R11 | Semestr vaqti yetishmasligi | Yuqori | O'rta | Qat'iy kesish chizig'i: **S1–S3 + S6 majburiy**, S4 (LLM) va S5 (bot) — "ikkinchi to'lqin"; MVP S3+S6 bilan ham to'liq da'voga ega |
+| R12 | **LLM/API versiyasi o'zgaradi yoki narx oshadi** (model deprecation, kvota) | O'rta | O'rta | Jinja2 shablon zaxirasi majburiy (S4); prompt va model versiyasi snapshot bilan bog'lanadi; xarajat chegarasi + alert (oylik limit) |
+| R13 | **Normativ va real holat orasida uzilish** — me'yorlar yangilanadi, eski snapshot "eskirib" qoladi | O'rta | O'rta | `norms` jadvali versiyalanadi; har snapshot `rule_version` + `norm_version` bilan saqlanadi; me'yor o'zgarsa — **yangi** snapshot, eskisi o'zgarmaydi (audit izi) |
 
 **Cheklovlar (hujjatda ochiq yoziladi):**
 1. Demo sintetik ma'lumotda ishlaydi; real korxona nomlari bilan ommaviy e'lon qilinmaydi.
 2. Rang — **signal**, yuridik xulosa emas; platforma "kim aybdor" savoliga javob bermaydi.
 3. LLM faqat mavjud raqamlar asosida matn yozadi, tahlil/prognoz qilmaydi.
 4. Zona chegaralari (mahalla) — taxminiy; real kadastr poligonlariga o'tish keyingi bosqich.
-5. PM2.5 uchun **yillik normaning o'zi bahsli** (milliy standart ~30 µg/m³, JSST 5 µg/m³) — platforma ikkalasini ham ko'rsatadi, tanlovni yashirmaydi.
+5. PM2.5 uchun **yillik normaning o'zi bahsli** (milliy standart ~30–35 µg/m³ — manbalar tafovuti, JSST 5 µg/m³) — platforma ikkalasini ham ko'rsatadi, tanlovni yashirmaydi.
 
 ---
 
@@ -772,14 +801,14 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 | Bosqich | Boshlanish | Tugash | Kun | Deliverable | Darvoza |
 |---|---|---|---|---|---|
 | S0 Model + manbalar | 22.09.2026 | 01.10.2026 | 10 | Sxema, `sources.yaml`, generator | **D1:** maydonlar muzlatildi |
-| S1 Backend + PostGIS | 01.10.2026 | 19.10.2026 | 18 | API + `/docs` + seed | **D2:** API kontrakti tayyor |
-| S2 Zona algoritmi | 15.10.2026 | 27.10.2026 | 12 | `engine.py`, 100 test, `rules.md` | **D3:** rang qoidasi tasdiqlandi |
-| S3 Xarita + dashboard | 29.10.2026 | 14.11.2026 | 16 | Leaflet xarita, GeoJSON API | **D4:** xarita ishlaydi |
-| S4 LLM matn | 29.10.2026 | 10.11.2026 | 12 | Prompt + verifikatsiya | **D5:** 0 uydirma raqam |
-| S5 Telegram bot | 12.11.2026 | 24.11.2026 | 12 | Bot 6 ssenariy | **D6:** obuna + alert ishlaydi |
-| S6 Murojaat moduli | 19.11.2026 | 07.12.2026 | 18 | To'liq sikl + SLA + KPI | **D7:** murojaat o'chirilmaydi (test) |
-| S7 Test + demo | 14.12.2026 | 29.12.2026 | 15 | CI, video, hisobot | **D8:** 1 buyruqda ko'tariladi |
-| Buffer / himoya | 05.01.2027 | 15.01.2027 | 10 | Taqdimot | — |
+| S1 Backend + PostGIS | 01.10.2026 | 18.10.2026 | 18 | API + `/docs` + seed | **D2:** API kontrakti tayyor |
+| S2 Zona algoritmi | 15.10.2026 | 26.10.2026 | 12 | `engine.py`, 100 test, `rules.md` | **D3:** rang qoidasi tasdiqlandi |
+| S3 Xarita + dashboard | 29.10.2026 | 13.11.2026 | 16 | Leaflet xarita, GeoJSON API | **D4:** xarita ishlaydi |
+| S4 LLM matn | 29.10.2026 | 09.11.2026 | 12 | Prompt + verifikatsiya | **D5:** 0 uydirma raqam |
+| S5 Telegram bot | 12.11.2026 | 23.11.2026 | 12 | Bot 6 ssenariy | **D6:** obuna + alert ishlaydi |
+| S6 Murojaat moduli | 19.11.2026 | 06.12.2026 | 18 | To'liq sikl + SLA + KPI | **D7:** murojaat o'chirilmaydi (test) |
+| S7 Test + demo | 14.12.2026 | 28.12.2026 | 15 | CI, video, hisobot | **D8:** 1 buyruqda ko'tariladi |
+| Buffer / himoya | 06.01.2027 | 15.01.2027 | 10 | Taqdimot | — |
 
 **Resurs:** 1–2 kishi × ~15 soat/hafta ≈ 240–480 soat. Xarajat: VPS **$10–20/oy**, LLM API **$5–15/oy**, domen ixtiyoriy → **~$30–70 jami**. Bepul alternativa: `fly.io`/`railway` free tier (PostGIS bilan cheklov bor) → shuning uchun **lokal Docker + demo video** asosiy yo'l.
 
@@ -790,15 +819,22 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 ### Ilova A. Dublikat aniqlash — aniq qoida
 
 ```
-dublikat_hisoblanadi agar:
-    trigramma_o'xshashlik(description_a, description_b) ≥ 0,55
-    VA ST_DWithin(a.geom, b.geom, 300)              -- 300 metr
+UMUMIY SHART (ikkala pog'ona uchun):
+    ST_DWithin(a.geom, b.geom, 300)              -- 300 metr
     VA |a.occurred_at − b.occurred_at| ≤ 24 soat
     VA a.category = b.category
 
+1-POG'ONA (avtomatik birlashtirish):
+    trigramma_o'xshashlik(description_a, description_b) ≥ 0,85
 → yangi murojaat "supporters" sifatida biriktiriladi (yo'qolmaydi),
   asosiy murojaatga +1 ovoz, umumiy ro'yxatda bitta satr,
-  lekin "20 ta fuqaro xabar berdi" ko'rinishida ko'rsatiladi.
+  lekin "20 ta fuqaro xabar berdi" ko'rinishida ko'rsatiladi
+  (supporters_count — faqat unique telefon hisobida).
+
+2-POG'ONA (guruhlash, birlashtirmasdan):
+    0,55 ≤ trigramma_o'xshashlik < 0,85
+→ murojaat alohida yozuv bo'lib qoladi (o'chirilmaydi, e'loni kechiktirilmaydi),
+  faqat "o'xshash murojaatlar" guruhida ko'rsatiladi — operator ko'rigi uchun.
 ```
 
 ### Ilova B. TZ checklist (himoyadan oldin)
@@ -814,18 +850,34 @@ dublikat_hisoblanadi agar:
 - [ ] GeoJSON/CSV eksport ochiq (Aarhus/PRTR mos)
 - [ ] `docs/limitations.md` yozilgan; demo video 3 ta; Git tag `v1.0`
 
-### Ilova C. Manbalar (yangi qo'shilganlar)
+### Ilova C. Manbalar (darajalar bo'yicha)
 
-1. **SanQvaM 0053-23** (2024-yil 27-may o'zgartirishi): PM2.5 bir martalik REM = **35 µg/m³**, PM10 = **500 µg/m³**, CO = **5 mg/m³** — Hydromet rasmiy e'lonlari: https://t.me/s/uzgydromet/18526 ; https://gov.uz/oz/hydromet/news/view/69664
-2. **JSST havo sifati me'yorlari (2021):** PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq: https://www.gazeta.uz/oz/2025/11/25/air-pollution/
-3. **Suv obyektlariga oqizish normativlari** (BOD/KBS 3 va 6 mgO₂/dm³; KOD/BXO 15 va 30 mgO₂/dm³; erigan kislorod ≥6/4; pH 6,0–8,5) — O'zbekiston Respublikasi 26-son, 22.11.2024 sanitariya qoidalari: https://lex.uz/mact/-7340751
-4. **Aarhus Konvensiyasi, 4-modda** — ma'lumot so'roviga **1 oy** (murakkabda 2 oy) ichida javob: https://www.bmluk.gv.at/en/topics/climate-environment/eu-international-affairs/three-pillars-of-the-aarhus-convention.html
-5. **PRTR Protokoli** — ≥86 modda; **bepul, internetda, ob'ekt/modda/joy bo'yicha qidiriladigan**; hisobot yilidan keyin **15 oy** ichida yangilash: https://unece.org/env/pp/prtrng.html
-6. **Aarhus tezkor mexanizmi** (ekologik faollar uchun maxsus ma'ruzachi, 2021) — istalgan fuqaro shikoyat qilishi mumkin: https://unece.org/media/environment/Aarhus-Convention/press/361413
-7. **PostGIS + Leaflet amaliy namunasi** (student-darajadagi boshlang'ich loyiha): https://github.com/pcavezzan/osm-leaflet-example ; Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
-8. **Xavfli chiqindi 2026 rejimi** — 1-oktabrdan choraklik hisobot, 2027-yil 1-yanvardan raqamli pasport: https://yuz.uz/uz/news/prezident-qarori-2030-iilgaca-xavfli-ciqindilarni-qaita-isl
-9. **Ekologik monitoring bazasi 1-dekabrdan ochiq** (Ekologik madaniyat kontsepsiyasi): norma.uz
-10. Manba hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7
+**Darajalar:** **R** — rasmiy hujjat va davlat organi ma'lumoti; **A** — hakamlik ko'rigidan o'tgan tadqiqot/xalqaro hisobot; **M** — media va amaliy ochiq manba.
+
+**R — rasmiy va huquqiy**
+1. PQ-184 (15.05.2025) — 2030-yilgacha ekologik madaniyat kontsepsiyasi; 2025-yil 1-dekabrdan davlat atrof-muhit monitoringi bazasining ochiqligi. https://lex.uz/uz/docs/-7528761
+2. PF-56 (24.03.2025) — chiqindilarni qayta ishlash sohasini tizimlashtirish; ma'lumotlarni Agentlikning yagona elektron hisob tizimiga taqdim etish. https://lex.uz/uz/docs/-7445858
+3. SanQvaM 0053-23 (18.08.2023; 2024-yil 27-may o'zgartirishi): PM2.5 bir martalik REM = **35 µg/m³**, PM10 = **500 µg/m³**, CO = **5 mg/m³**. https://lex.uz/uz/docs/-6676993 · Hydromet e'lonlari: https://t.me/s/uzgydromet/18526 · https://gov.uz/oz/hydromet/news/view/69664
+4. Prezident qarori, 2026-yil avgust — xavfli chiqindilar: 2030-yilgacha qayta ishlashni 20%ga yetkazish; 2027-yil 1-yanvardan raqamli pasport. https://yuz.uz/uz/news/prezident-qarori-2030-iilgaca-xavfli-ciqindilarni-qaita-isl
+5. Davlat ochiq ma'lumotlar portali — datasetlar statistikasi (ekologiya yo'nalishi ~1,7% — muallif hisobi, 2026-09). https://data.egov.uz
+6. Aarhus Konvensiyasi, 4-modda — ma'lumot so'roviga **1 oy** (murakkabda 2 oy) ichida javob. https://www.bmluk.gv.at/en/topics/climate-environment/eu-international-affairs/three-pillars-of-the-aarhus-convention.html
+7. PRTR Protokoli (Kiyev, 2003) — ≥86 modda; **bepul, internetda, ob'ekt/modda/joy bo'yicha qidiriladigan**; hisobot yilidan keyin **15 oy** ichida yangilash. https://unece.org/env/pp/prtrng.html
+8. Suv obyektlariga oqizish normativlari (BOD/KBS 3 va 6; KOD/BXO 15 va 30 mgO₂/dm³; erigan kislorod ≥6/4; pH 6,0–8,5) — 26-son sanitariya qoidalari, 22.11.2024. https://lex.uz/uz/docs/-7340751
+
+**A — tadqiqotlar va xalqaro hisobotlar**
+9. Wu, Y. et al. (2025) — «The AI Annotator: LLMs' Potential in Scoring Sustainability Reports», *Systems* 13(10):899: GPT-4o o'rtacha aniqlik ~56%, hallyutsinatsiya holatlari. https://doi.org/10.3390/systems13100899
+10. Yang, Y. et al. (2025) — «Automating the Construction of Environmental Policy Knowledge Graph with LLMs», *Sustainability* 17(22):10282. https://doi.org/10.3390/su172210282
+11. Jain, J. et al. (2025) — «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance», *Findings of ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
+12. «Use of AI-Powered Technologies for Review of Environmental Regulations», Springer (EGRWSE 2025), 2026, 329–337 — LLM + RAG kombinatsiyasi. https://doi.org/10.1007/978-3-032-15832-1_31
+13. UN/UNITAR (2024) — «National E-waste Monitor: Uzbekistan»: yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
+
+**M — media va amaliy manbalar**
+14. JSST havo sifati me'yorlari (2021): PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq. https://www.gazeta.uz/oz/2025/11/25/air-pollution/
+15. gazeta.uz, 04.05.2026 — oltita chiqindidan energiya zavodi: **933 mln dollar**, 3,6 mln tonna, 1,6 mlrd kVt·soat; qamrov 88% → 90%. https://www.gazeta.uz/oz/2026/05/04/recycle/
+16. Aarhus tezkor mexanizmi (2021) — ekologik faollar uchun maxsus ma'ruzachi; istalgan fuqaro shikoyat qilishi mumkin. https://unece.org/media/environment/Aarhus-Convention/press/361413
+17. PostGIS + Leaflet amaliy namunalari: https://github.com/pcavezzan/osm-leaflet-example · Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
+18. kun.uz, 09.10.2024 — Jahon banki va Ekovazirlik hisoboti: Toshkentda PM2.5 yillik o'rtacha **38,8 µg/m³**, ~3 000 erta o'lim, yillik zarar **$488,4 mln (~0,7% YaIM)** (stansiya "M1" shu manbaga tayanadi). https://kun.uz/en/news/2024/10/09/world-bank-report-83-of-tashkent-residents-live-in-high-air-pollution-zones
+19. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7; g'oya asosi — `Loyiha-2-Xarita.md`.
 
 ---
 

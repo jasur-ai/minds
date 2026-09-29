@@ -2,7 +2,7 @@
 aliases: [YAKUNIY LOYIHA, Ikki g'oya, Emissiya auditi, Ochiq Eko Ledger]
 tags: [shaxsiy-tadqiqot, loyiha, goya, yakuniy]
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-29
 tur: loyiha
 holat: yakuniy (complete) — ikki g'oya bitta faylda
 sarlavha: "YAKUNIY LOYIHA — ikki g'oya: Emissiya auditi va Ochiq Eko Ledger"
@@ -20,14 +20,14 @@ qisqacha: 1-loyiha (emissiya o'lchovi ishonchi) + 2-loyiha (chiqindi hisobi oshk
 | Zaif bo'g'in | oqim o'lchagichi (5–17% noaniqlik) | hisob metodi va qamrov (7,2/14/15 mln t) |
 | Asosiy yechim | uch zona + tushuntirish kartasi + apellyatsiya + ≥5% qayta-o'lchov | besh kanal + to'rt rangli zonalash + murojaat (≤10 kun) |
 | Huquqiy poydevor | VM-783 · 202-Nizom · PQ-343/347 · O'RQ-457 | Aarhus · hisobot 01.10.2026 · pasport 01.01.2027 · PQ-4291 |
-| Keyingi qadam | **TZ-1** (2026-10-10) — shovqin qavatini o'lchash | **MVP TZ** — 8 haftalik bosqichlar |
+| Keyingi qadam | **TZ-1** (2026-10-10) — shovqin qavatini o'lchash; AI qatlami TZ si tayyor (v1.1) | **MVP build** — yadro ~8 hafta (S1–S3 + S6), to'liq reja 16 hafta |
 | Bosqichlar | A1–A26 (26 ta) | A1–A26 (26 ta) |
 
 ![1-LOYIHA xaritasi — Emissiya auditi](Loyiha1-CarbonEmission/png/XARITA.png)
 
 ![2-LOYIHA xaritasi — Ochiq Eko Ledger](Loyiha2-TrashOrganizer/png/XARITA2.png)
 
-> **Eslatma:** bu hujjat — **g'oya (konsepsiya)**. Texnik implementatsiya yozilmagan: 1-LOYIHA uchun `TZ-1` (10.10.2026) va 1-B/1-C/1-D daftarlari; 2-LOYIHA uchun `TZ-Ochiq-Eko-Ledger-MVP.md` (63 KB). Maqola: `Maqolalar/YAKUNIY-MAQOLA.md`.
+> **Eslatma:** bu hujjat — **g'oya (konsepsiya)**. Texnik implementatsiya ikki joyda: 1-LOYIHA uchun `Loyiha1-CarbonEmission/TZ-Anomaliya-Monitoring.md` (AI qatlami, v1.1, 59 KB) hamda `TZ-1` (10.10.2026 — o'lchov qavati); 2-LOYIHA uchun `Loyiha2-TrashOrganizer/TZ-Ochiq-Eko-Ledger-MVP.md` (hajmi 69 KB, v1.1). Maqolalar: `Maqolalar/Maqola1-CarbonEmission/Yakuniy-Maqola.md` va `Maqolalar/Maqola2-TrashOrganizer/Yakuniy-Maqola.md`.
 
 ---
 
@@ -98,10 +98,11 @@ qisqacha: 1-loyiha (emissiya o'lchovi ishonchi) + 2-loyiha (chiqindi hisobi oshk
 
 ## 1-LOYIHA · KEYINGI QADAM
 
-1. **TZ-1** rasmiylashtirish (2026-10-10): shovqin qavatini o'lchash — 3 strata, 100–120 juftlik, 8–12 hafta.
-2. Pilot: I toifa + yuqori emissiyali tarmoqlar (energetika, sement, metallurgiya).
-3. Uch zonali qoidani sinovdan o'tkazish va choraklik «Aniqlik hisoboti»ni joriy etish.
-4. Natijalarni trilogiya sinteziga (1-B + 1-C + 1-D) qo'shish.
+1. **AI qatlami TZ si** — tayyor (v1.1, 2026-09-29): `Loyiha1-CarbonEmission/TZ-Anomaliya-Monitoring.md`.
+2. **TZ-1** rasmiylashtirish (2026-10-10): shovqin qavatini o'lchash — 3 strata, 100–120 juftlik, 8–12 hafta.
+3. Pilot: I toifa + yuqori emissiyali tarmoqlar (energetika, sement, metallurgiya).
+4. Uch zonali qoidani sinovdan o'tkazish va choraklik «Aniqlik hisoboti»ni joriy etish.
+5. Natijalarni trilogiya sinteziga (1-B + 1-C + 1-D) qo'shish.
 
 ---
 
@@ -164,13 +165,13 @@ qisqacha: 1-loyiha (emissiya o'lchovi ishonchi) + 2-loyiha (chiqindi hisobi oshk
 | A9–A11 | Ochilish nuqtalari | ko'k zona · obyekt kartochkasi · zonalash qoidasi |
 | A12–A14 | Oqim va ishonch | murojaat ≤10 kun · besh kanal · qarama-qarshi signal |
 | A15–A18 | Xarajat va rag'bat | MVP (backend+hosting) · WtE barqaror qoidasi · qayta ishlash rag'bati |
-| A19–A21 | Reja | MVP TZ (8 hafta) · ochiq API formati · hudud tanlovi |
+| A19–A21 | Reja | MVP TZ: yadro ~8 hafta (S1–S3 + S6) / to'liq 16 hafta · ochiq API formati · hudud tanlovi |
 | A22–A24 | Risk va kuzatuv | yashirish · siyosiylashish · kuydirishga aylanish; 6 ochiq savol |
 | A25–A26 | Taqdim etish | xarita (10 tugun) · N-turkum manba darajalari |
 
 ## 2-LOYIHA · KEYINGI QADAM
 
-1. **MVP TZ** bo'yicha bosqichlar (8 hafta): model → kanal → izoh → murojaat.
+1. **MVP build** — TZ (`TZ-Ochiq-Eko-Ledger-MVP.md`) bo'yicha: yadro (`S1–S3 + S6`) ~8 hafta; to'liq reja 16 hafta.
 2. Pilot: **2 viloyat** (biri sanoat, biri agrar) — solishtirish uchun.
 3. PRTR tamoyiliga o'tish taklifini tayyorlash (obyekt + modda + muddat + ochiq format).
 4. WtE dioksin/kul e'loni bo'yicha ochiqlik talabini shakllantirish.

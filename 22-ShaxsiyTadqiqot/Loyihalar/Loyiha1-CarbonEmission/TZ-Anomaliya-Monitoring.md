@@ -2,7 +2,7 @@
 aliases: [Loyiha 1 TZ, Anomaliya monitoring TZ]
 tags: [shaxsiy-tadqiqot, loyiha1, tz]
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-09-29
 sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: tz
 holat: faol
@@ -18,13 +18,14 @@ manba: workspace/01-Loyiha1-Carbon-Emission/TZ/Loyiha1_AI_anomaliya_TZ.md
 **Asos hujjat:** `Uzbekistan_Eko_DeepResearch_2026.md`, §3.6 (AI va avtomatlashtirish arxitekturasi) — undagi 4 modeldan faqat **1-model: anomaliya aniqlash**  
 **Ijrochi profili:** talaba (School 21), Python/FastAPI/PostgreSQL/Redis tajribasi, yakka yoki 2–3 kishilik jamoa  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta + himoya)  
-**Versiya:** 1.0 (2026-09-17)
+**Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); W16 — 04–10.01.2027; himoya buferi — 06–15.01.2027  
+**Versiya:** 1.1 (2026-09-29; hafta hisobi, havolalar va izchillik tuzatishlari)
 
 ---
 
 ## MUNDARIJA
 
-0. Hujjat maqsadi va kontekst
+0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir)
 1. Muammo va maqsad
 2. Muvaffaqiyat mezonlari (acceptance criteria)
 3. Jarayon xaritasi — xronologik va vizual
@@ -53,7 +54,21 @@ Manba hujjatning §3.6-qismida to'rt qatlamli AI arxitekturasi tavsiflangan:
 | 3 | Ta'sir modeli | Dispersiya, mahalla darajasidagi ta'sir | ❌ |
 | 4 | Benchmark generatsiyasi | Tarmoq normativini hosil qilish | ❌ (faqat oddiy peer-z-score ishlatiladi) |
 
-**Nega aynan 1-model birinchi?** Chunki u: (a) eng kam ma'lumot talab qiladi (labeled data kerak emas), (b) natijasi darhol tekshiriladi (aniq/noma'lum), (c) milliy tizimning eng qimmat bo'laklaridan biri — Xitoy ETS platformasida aynan shu funksiya ma'lumot manipulyatsiyasini keskin kamaytirgan (MEE Progress Report 2024: "big data texnologiyasidan foydalanib, anormal ma'lumotlar aniqlanadi va erta ogohlantirishlar beriladi — kalit korxonalar reyestri, ma'lumot sifati rejalari, oylik qayd etilgan ma'lumotlar, hisobot va verifikatsiya ustidan to'liq jarayonli kuzatuv").
+**Nega aynan 1-model birinchi?** Chunki u: (a) eng kam ma'lumot talab qiladi (labeled data kerak emas), (b) natijasi darhol tekshiriladi (aniq/noma'lum), (c) milliy tizimning eng qimmat bo'laklaridan biri — Xitoy ETS platformasida anomaliya aniqlash funksiyasi ma'lumot sifatini nazorat qilishning doimiy qatlamiga aylangan (mustaqil miqdoriy dalillar — §8.3) (MEE Progress Report 2024: "big data texnologiyasidan foydalanib, anormal ma'lumotlar aniqlanadi va erta ogohlantirishlar beriladi — kalit korxonalar reyestri, ma'lumot sifati rejalari, oylik qayd etilgan ma'lumotlar, hisobot va verifikatsiya ustidan to'liq jarayonli kuzatuv").
+
+### 0.1. Nega aynan hozir — yetti shart bir vaqtda birlashdi
+
+Loyiha "yaxshi fikr" emas, **vaqtga bog'langan imkoniyat**: quyidagi shartlarning hech biri 2023-yildan oldin mavjud emas edi va ular bir vaqtda pishib yetdi (to'liq jadval va dalillar — `Goya-Uch-Daftar.md` §3):
+
+1. **Huquqiy majburiyat:** PF-81 (31.05.2023) va VM-783 (25.11.2024) — I/II toifa korxonalari avtomatik stansiya o'rnatishi shart (o'rnatmasa — to'lovlar 5×); ya'ni ma'lumot oqimi majburiy tarzda yaratilmoqda.
+2. **Algoritmik baholash pretsedenti:** soliq sohasida EHF 48 mezon bo'yicha real vaqtda baholanadi — "algoritm + yopiq mezon + oshkora maqom" modeliga huquqiy yo'l ochiq.
+3. **Institutsional asos:** PP-358 (14.10.2024) — 2030-yilgacha AI strategiyasi; 2025–2026 uchun ustuvor AI loyihalari ro'yxati (PF-189, PQ-320, VM-425).
+4. **Bozor talabi:** Yevropa Ittifoqi (YeI) reyestrida 403 akkreditlangan verifikator, CBAM deklarantlari esa 4 100 ta — verifikatsiya quvvati tanqis; demak, bitta verifikatorning unumdorligini oshirish — aniq biznes pozitsiyasi.
+5. **Pul bosimi:** CBAM defolt qiymatlari (ammiak selitrasi — €160,74/t) verifikatsiya xarajatidan (€5–50 ming/obyekt) qimmat.
+6. **Ichki moliya:** kompensatsiya to'lovlari Ekologiya jamg'armasiga tushadi; ekologik zarar sug'urtasi joriy etilmoqda — aniq o'lchovdan **moliyaviy manfaatdor** tomon paydo bo'ldi.
+7. **Raqobat ustunligi:** Jahon banki bahosida O'zbekiston alyuminiyining emissiya intensivligi YeI o'rtachasidan past — verifikatsiya himoya emas, **hujjatlashtirilgan ustunlik**.
+
+**Ma'no:** TZ aynan shu oyna ochilganda yozilmoqda; S0'da muzlatiladigan metrikalar va AC'lar shu shartlarga tayanadi.
 
 ---
 
@@ -86,7 +101,7 @@ H2: Anomaliyalar "qora quti" emas — har bir bayroq **insonga tushunarli sabab*
 | AC-4 | "Yuqori xavf" aniqligi | Precision@Top20 | ≥ 0,70 |
 | AC-5 | Tushuntirib berish | Har bir flagda sabab + raqamlar | 100% |
 | AC-6 | API javob vaqti | p95 (bir korxona skoringi) | ≤ 300 ms |
-| AC-7 | Ishlab chiqarish holati | Docker Compose ile 1 buyruqda ko'tarilish + 20 ta test | o'tadi |
+| AC-7 | Ishlab chiqarish holati | Docker Compose bilan 1 buyruqda ko'tarilish + 20 ta test | o'tadi |
 | AC-8 | Audit izi | Har bir skor: model versiyasi, feature snapshot, vaqt | 100% |
 | AC-9 | Hujjatlashtirish | README + arXiv-uslubidagi 4–6 betlik hisobot | mavjud |
 | AC-10 | Reproduksiya | `make seed && make train && make eval` | bir xil natija (seed=42) |
@@ -102,17 +117,17 @@ H2: Anomaliyalar "qora quti" emas — har bir bayroq **insonga tushunarli sabab*
 ```mermaid
 flowchart TD
     S0["S0 · Scope va Spec<br/>W1 · 5 kun"] --> S1["S1 · Ma'lumot manbasi tanlash<br/>+ UZ-proksi generator<br/>W1–W3 · 12 kun"]
-    S1 --> S2["S2 · EDA + Statistik baseline<br/>(Z-score, IQR, Benford)<br/>W2–W4 · 10 kun"]
-    S1 --> S3["S3 · Feature engineering<br/>+ Feature store sxemasi<br/>W3–W5 · 10 kun"]
+    S1 --> S2["S2 · EDA + Statistik baseline<br/>(Z-score, IQR, Benford)<br/>W2–W3 · 10 kun"]
+    S1 --> S3["S3 · Feature engineering<br/>+ Feature store sxemasi<br/>W3–W4 · 10 kun"]
     S2 --> S3
-    S3 --> S4["S4 · Model v1: Isolation Forest<br/>+ tuning<br/>W5–W7 · 12 kun"]
-    S4 --> S5["S5 · Model v2: Autoencoder<br/>+ OCSVM qiyoslash<br/>W7–W9 · 12 kun"]
-    S3 --> S6["S6 · Baholash harness<br/>+ injection experiment<br/>W8–W10 · 12 kun"]
+    S3 --> S4["S4 · Model v1: Isolation Forest<br/>+ tuning<br/>W5–W6 · 12 kun"]
+    S4 --> S5["S5 · Model v2: Autoencoder<br/>+ OCSVM qiyoslash<br/>W7–W8 · 12 kun"]
+    S3 --> S6["S6 · Baholash harness<br/>+ injection experiment<br/>W9–W10 · 12 kun"]
     S5 --> S6
-    S4 --> S7["S7 · Serving qatlami<br/>FastAPI + Postgres + Redis<br/>W9–W12 · 16 kun"]
+    S4 --> S7["S7 · Serving qatlami<br/>FastAPI + Postgres + Redis<br/>W10–W12 · 16 kun"]
     S6 --> S7
-    S7 --> S8["S8 · Dashboard / UI<br/>qizil bayroq reytingi<br/>W11–W13 · 10 kun"]
-    S7 --> S9["S9 · Test + Docker + Docs<br/>W13–W15 · 12 kun"]
+    S7 --> S8["S8 · Dashboard / UI<br/>qizil bayroq reytingi<br/>W12–W13 · 10 kun"]
+    S7 --> S9["S9 · Test + Docker + Docs<br/>W13–W14 · 12 kun"]
     S8 --> S10["S10 · Demo, himoya,<br/>maqola uchun artefaktlar<br/>W15–W16 · 8 kun"]
     S9 --> S10
 
@@ -142,20 +157,20 @@ flowchart TD
 
 ### 4.0. KONSOLIDATSIYALANGAN JADVAL (barcha bosqichlar bir ko'rinishda)
 
-> Bu jadval — tez ko'rish uchun; har bir bosqichning to'liq asoslanishi quyida (4.1–4.11) batafsil keltirilgan.
+> Bu jadval — tez ko'rish uchun; har bir bosqichning to'liq asoslanishi quyida (S0–S10 bandlarida) batafsil keltirilgan.
 
 | Bosqich | Muddat | Nima qilinadi | Texnologiya | **Nega aynan shu texnologiya** | **Nega aynan shu vaqtda** | **Kirish → Chiqish** | **Definition of Done** | Natija/deliverable |
 |---|---|---|---|---|---|---|---|---|
-| **S0** Scope & spec | W1 · 5 kun | Muammo, anomaliya taksonomiyasi (A1–A8), metrikalar va anti-mezonlarni muzlatish; ADR yozish | Markdown, Mermaid, GitHub Issues, `docs/adr/` | Mermaid — kod bilan versiyalanadi (draw.io diff qilinmaydi); ADR — har tanlovning "nega"si keyin maqolaga ko'chadi | Metrika keyin muzlatilsa p-hacking xavfi; S0 tugamasdan S1 boshlanmaydi | Spec g'oyasi → tasdiqlangan `00_spec.md` + ADR 001–003 | Metrikalar va 8 anomaliya turi yozma tasdiqlangan; 5 ta issue ochilgan | `docs/00_spec.md`, ADR'lar, taksonomiya jadvali |
+| **S0** Scope & spec | W1 · 5 kun | Muammo, anomaliya taksonomiyasi (A1–A8), metrikalar va anti-mezonlarni muzlatish; ADR yozish | Markdown, Mermaid, GitHub Issues, `docs/adr/` | Mermaid — kod bilan versiyalanadi (draw.io diff qilinmaydi); ADR — har tanlovning "nega"si keyin maqolaga ko'chadi | Metrika keyin muzlatilsa p-hacking xavfi; spec va metrika muzlatilmasa, S1 ning dataset qismi boshlanmaydi (jadvaldagi 2 kunlik qoplama — generator skeleti uchun) | Spec g'oyasi → tasdiqlangan `00_spec.md` + ADR 001–003 | Metrikalar va 8 anomaliya turi yozma tasdiqlangan; 5 ta issue ochilgan | `docs/00_spec.md`, ADR'lar, taksonomiya jadvali |
 | **S1** Dataset + generator | W1–W3 · 12 kun | E-PRTR taqsimotlarini o'rganish; UZ-proksi generator; 4 ssenariy (clean/5/15/30%) | Python 3.12, `pandas`, `numpy`, `Faker` (uz_UZ), `pyarrow`, `pydantic`, `DuckDB`, `uv` | Sintetik + E-PRTR kalibrovka — UZ korxona ma'lumoti yopiq; Parquet+DuckDB Pandas+CSV'dan 5–20× tez; Pydantic sxemasi FastAPI bilan umumiy (DRY) | Model va metrika **ground truth**ga tayanadi; generator kech yozilsa "aniqlangan anomaliya" isbotlanmaydi | E-PRTR fayllari + UZ sektor ulushlari → `uz_proxy_v1.parquet` (≈50 000 yozuv) | 4 ssenariy generatsiya qilinadi; har yozuvda `ground_truth_label`; dataset card yozilgan | Dataset, `generator.py`, `dataset_card.md` |
-| **S2** EDA + baseline | W2–W4 · 10 kun | Taqsimot/korrelyatsiya tahlili; Z-score (MAD), IQR, nisbat, Benford, YoY baseline detektorlar | `ydata-profiling`, `matplotlib`/`seaborn`, `scipy.stats`, Jupyter, `pandera` | Baseline **majburiy** — IQR+nisbat 70%ni tutsa, AE qurish vaqt isrofi; `pandera` birlik xatolarini (A4) erta ushlaydi | Baseline natijalari S3'dagi feature va S4'dagi model tanlovni belgilaydi | `uz_proxy_v1.parquet` → baseline metrikalar jadvali | 5 baseline detektor uchun precision/recall hisoblangan; ML oqlanish qarori yozilgan | `01_eda.ipynb`, `baseline_metrics.md` |
-| **S3** Feature engineering | W3–W5 · 10 kun | §7'dagi 6 guruh (24 feature) hisoblash; offline/online ajratish; feature registry va versiyalash | `pandas`/`polars`, `sklearn` Pipeline + ColumnTransformer, Parquet feature store, `pydantic` | Pipeline — train/serve bir xil transformatsiya (**train-serve skew** yo'q); `feast` o'rniga oddiy interfeys (MVP ko'lami kichik, ko'chirish oson) | Model featuresiz o'qitilmaydi; S2 xato tahlili qaysi feature kerakligini ko'rsatadi | Tozalangan dataset → `features_v1.parquet` + lug'at | Har feature formulasi hujjatlashtirilgan; leak testi o'tgan (test davri fit'ga kirmaydi) | `src/features/build.py`, feature store, `feature_dictionary.md` |
-| **S4** Model v1 — IF | W5–W7 · 12 kun | Isolation Forest o'qitish + `optuna` tuning; poroğni PR-kurvada tanlash; SHAP izohlari | `scikit-learn` (`IsolationForest`), `optuna`, `mlflow`, `shap` | IF — OCSVM'dan **36× tez** (3,94 s vs 143,87 s), AE'dan kam ma'lumot/tuning talab qiladi, shovqinli tabular sanoat ma'lumotida yaxshi | Feature'lar tayyor bo'lgach; AE'dan **oldin** — IF natijasi AE'ni oqlash/oqlamaslikni ko'rsatadi | `features_v1.parquet` → o'qitilgan IF + metrikalar | AC-1/AC-3 baholangan (yoki xato tahlili); MLflow run ID yozilgan; SHAP ishlaydi | `models/if_v1/`, `if_v1_metrics.md` |
-| **S5** Model v2 — AE (+OCSVM) | W7–W9 · 12 kun | Autoencoder faqat "toza" yozuvlarda o'qitish; ONNX eksport; OCSVM nazorat guruhi; 3 model qiyoslash | `PyTorch`, `scikit-learn` (`OneClassSVM`), `optuna`, `onnxruntime` | PyTorch — School 21 tajribasi + akademik standart; AE faqat normal data'da (reconstruction paradigması talabi); ONNX — Docker yengil, inferens tez | IF natijasi ma'lum bo'lgach — "nega AE kerak" savoliga **o'lchovli** javob berish uchun | `features_v1` (faqat clean subset) → `ae_v1.onnx` + 3 model jadvali | Uch model bir xil test to'plamida o'lchangan; inferens vaqti qayd etilgan | `model_comparison.md` |
-| **S6** Eval harness | W8–W10 · 12 kun | 5 seed × 4 ssenariy = 20 run; bootstrap CI; kalibrlash (isotonic); xato tahlili (A1–A8 kesimida) | `sklearn` metrikalari, `scipy.stats`, `mlflow`, `seaborn`, `pytest` | Bootstrap CI — kichik test to'plamida bitta raqamga ishonish xato; isotonic — "0,9 ball" = "90% ehtimol" ishonchini beradi | Barcha 3 model tayyor bo'lgach; natijalar S7'da API'ga qaysi model chiqishini hal qiladi | 3 model + injection ssenariylari → `eval_report.md` | PR-kurva, confusion, tur bo'yicha recall chizilgan; CI hisoblangan; model tanlangan | `eval_report.md` + rasmlar, 20 MLflow run |
-| **S7** Serving | W9–W12 · 16 kun | `/v1/score`, `/v1/alerts`, `/v1/models`; Postgres sxemasi; Redis kesh; Alembic; Docker Compose; Prometheus | FastAPI + Pydantic v2, SQLAlchemy 2.0 async (`asyncpg`), Alembic, Redis 7, `arq`, ONNX Runtime, Docker, `prometheus-client` | FastAPI — talabada bor, async, avtomatik OpenAPI (shartnoma isboti); Postgres — munosabatli + JSONB; Redis kesh → amaliyotda **~2,9 ms** javob; SQLAlchemy async (sinxron ORM loop'ni bloklaydi) | Model tanlangach; API oldinroq yozish — "qaysi model" noaniq bo'lganda keraksiz ish | Tanlangan model + sxema → ishlaydigan xizmat | `docker compose up` → `/docs` ochiladi; p95 ≤ 300 ms; kesh hit/miss o'lchangan | API, OpenAPI, `api_benchmark.md` |
-| **S8** Dashboard | W11–W13 · 10 kun | Alert feed (filtr: sektor/viloyat/tur), korxona kartochkasi (tarix + izoh), model monitoring | Streamlit + Plotly (MVP) yoki React+Vite+Recharts; Leaflet (ixtiyoriy) | Streamlit — 1 kunda ishlaydigan dashboard, dizayner kerak emas (vaqt/effekt optimum); React'ga o'tish ADR'da qayd etiladi | API tayyor bo'lgach; UI API'siz "maket" bo'lib qoladi | API → 3 sahifali UI | Har bir flag izohsiz ko'rsatilmaydi (AC-5); demo video yozilgan | `dashboard/app.py`, video, skrinshotlar |
-| **S9** Test/Docker/Docs | W13–W15 · 12 kun | ≥20 test, CI, multi-stage Dockerfile, README, cheklovlar hujjati | `pytest`+`pytest-asyncio`+`httpx`, `ruff`, `pre-commit`, GitHub Actions | `ruff` — flake8+isort+black o'rnida bitta tez vosita; `httpx` — FastAPI test uchun rasmiy; CI badge — reproduksiya da'vosining dalili | Komponentlar barqarorlashgach; erta integratsiya testi ko'p sinadi | Tizim → CI yashil + hujjatlar | `make seed/train/eval` qayta ishlaydi (seed=42 bir xil natija); README 10 daqiqada ishga tushadi | CI badge, testlar, `docs/` |
+| **S2** EDA + baseline | W2–W3 · 10 kun | Taqsimot/korrelyatsiya tahlili; Z-score (MAD), IQR, nisbat, Benford, YoY baseline detektorlar | `ydata-profiling`, `matplotlib`/`seaborn`, `scipy.stats`, Jupyter, `pandera` | Baseline **majburiy** — IQR+nisbat 70%ni tutsa, AE qurish vaqt isrofi; `pandera` birlik xatolarini (A4) erta ushlaydi | Baseline natijalari S3'dagi feature va S4'dagi model tanlovni belgilaydi | `uz_proxy_v1.parquet` → baseline metrikalar jadvali | 5 baseline detektor uchun precision/recall hisoblangan; ML oqlanish qarori yozilgan | `01_eda.ipynb`, `baseline_metrics.md` |
+| **S3** Feature engineering | W3–W4 · 10 kun | §7'dagi 6 guruh (24 feature) hisoblash; offline/online ajratish; feature registry va versiyalash | `pandas`/`polars`, `sklearn` Pipeline + ColumnTransformer, Parquet feature store, `pydantic` | Pipeline — train/serve bir xil transformatsiya (**train-serve skew** yo'q); `feast` o'rniga oddiy interfeys (MVP ko'lami kichik, ko'chirish oson) | Model featuresiz o'qitilmaydi; S2 xato tahlili qaysi feature kerakligini ko'rsatadi | Tozalangan dataset → `features_v1.parquet` + lug'at | Har feature formulasi hujjatlashtirilgan; leak testi o'tgan (test davri fit'ga kirmaydi) | `src/features/build.py`, feature store, `feature_dictionary.md` |
+| **S4** Model v1 — IF | W5–W6 · 12 kun | Isolation Forest o'qitish + `optuna` tuning; porog'ni PR-kurvada tanlash; SHAP izohlari | `scikit-learn` (`IsolationForest`), `optuna`, `mlflow`, `shap` | IF — OCSVM'dan **36× tez** (3,94 s vs 143,87 s), AE'dan kam ma'lumot/tuning talab qiladi, shovqinli tabular sanoat ma'lumotida yaxshi | Feature'lar tayyor bo'lgach; AE'dan **oldin** — IF natijasi AE'ni oqlash/oqlamaslikni ko'rsatadi | `features_v1.parquet` → o'qitilgan IF + metrikalar | AC-1/AC-3 baholangan (yoki xato tahlili); MLflow run ID yozilgan; SHAP ishlaydi | `models/if_v1/`, `if_v1_metrics.md` |
+| **S5** Model v2 — AE (+OCSVM) | W7–W8 · 12 kun | Autoencoder faqat "toza" yozuvlarda o'qitish; ONNX eksport; OCSVM nazorat guruhi; 3 model qiyoslash | `PyTorch`, `scikit-learn` (`OneClassSVM`), `optuna`, `onnxruntime` | PyTorch — School 21 tajribasi + akademik standart; AE faqat normal data'da (reconstruction paradigmasining talabi); ONNX — Docker yengil, inferens tez | IF natijasi ma'lum bo'lgach — "nega AE kerak" savoliga **o'lchovli** javob berish uchun | `features_v1` (faqat clean subset) → `ae_v1.onnx` + 3 model jadvali | Uch model bir xil test to'plamida o'lchangan; inferens vaqti qayd etilgan | `model_comparison.md` |
+| **S6** Eval harness | W9–W10 · 12 kun | 5 seed × 4 ssenariy = 20 run; bootstrap CI; kalibrlash (isotonic); xato tahlili (A1–A8 kesimida) | `sklearn` metrikalari, `scipy.stats`, `mlflow`, `seaborn`, `pytest` | Bootstrap CI — kichik test to'plamida bitta raqamga ishonish xato; isotonic — "0,9 ball" = "90% ehtimol" ishonchini beradi | Barcha 3 model tayyor bo'lgach; natijalar S7'da API'ga qaysi model chiqishini hal qiladi | 3 model + injection ssenariylari → `eval_report.md` | PR-kurva, confusion, tur bo'yicha recall chizilgan; CI hisoblangan; model tanlangan | `eval_report.md` + rasmlar, 20 MLflow run |
+| **S7** Serving | W10–W12 · 16 kun | `/v1/score`, `/v1/alerts`, `/v1/models`; Postgres sxemasi; Redis kesh; Alembic; Docker Compose; Prometheus | FastAPI + Pydantic v2, SQLAlchemy 2.0 async (`asyncpg`), Alembic, Redis 7, `arq`, ONNX Runtime, Docker, `prometheus-client` | FastAPI — talabada bor, async, avtomatik OpenAPI (shartnoma isboti); Postgres — munosabatli + JSONB; Redis kesh → amaliyotda **~2,9 ms** javob; SQLAlchemy async (sinxron ORM loop'ni bloklaydi) | Model tanlangach; API oldinroq yozish — "qaysi model" noaniq bo'lganda keraksiz ish | Tanlangan model + sxema → ishlaydigan xizmat | `docker compose up` → `/docs` ochiladi; p95 ≤ 300 ms; kesh hit/miss o'lchangan | API, OpenAPI, `api_benchmark.md` |
+| **S8** Dashboard | W12–W13 · 10 kun | Alert feed (filtr: sektor/viloyat/tur), korxona kartochkasi (tarix + izoh), model monitoring | Streamlit + Plotly (MVP) yoki React+Vite+Recharts; Leaflet (ixtiyoriy) | Streamlit — 1 kunda ishlaydigan dashboard, dizayner kerak emas (vaqt/effekt optimum); React'ga o'tish ADR'da qayd etiladi | API tayyor bo'lgach; UI API'siz "maket" bo'lib qoladi | API → 3 sahifali UI | Har bir flag izohsiz ko'rsatilmaydi (AC-5); demo video yozilgan | `dashboard/app.py`, video, skrinshotlar |
+| **S9** Test/Docker/Docs | W13–W14 · 12 kun | ≥20 test, CI, multi-stage Dockerfile, README, cheklovlar hujjati | `pytest`+`pytest-asyncio`+`httpx`, `ruff`, `pre-commit`, GitHub Actions | `ruff` — flake8+isort+black o'rnida bitta tez vosita; `httpx` — FastAPI test uchun rasmiy; CI badge — reproduksiya da'vosining dalili | Komponentlar barqarorlashgach; erta integratsiya testi ko'p sinadi | Tizim → CI yashil + hujjatlar | `make seed/train/eval` qayta ishlaydi (seed=42 bir xil natija); README 10 daqiqada ishga tushadi | CI badge, testlar, `docs/` |
 | **S10** Demo/hisobot | W15–W16 · 8 kun | 8–10 slayd; jonli demo (buzilgan yozuv → alert); maqola uchun 3 rasm + 2 jadval | Marp/LaTeX, `matplotlib` (vektor SVG/PDF), Git tag `v1.0` | Vektor grafik — chop etish uchun shart; Git tag — baholovchi aniq commit'ni ko'radi | Yakunda — raqamlar muzlatilgan bo'lishi kerak | Tizim → himoya + `final_report.pdf` | Barcha AC'lar holati jadvalda; git tag qo'yilgan | Taqdimot, hisobot, `v1.0` |
 
 ### S0. Scope, spec va metrika muzlatish (W1, 5 kun)
@@ -186,22 +201,22 @@ flowchart TD
 | Ustun | Mazmun |
 |---|---|
 | **Nima qilinadi** | (a) ochiq datasetlar skaneri: EU E-PRTR (facility-level, 2007–2023, 91 modda), US TRI, Kaggle industrial-emissions to'plamlari; (b) "UZ-proksi" sintetik generator yoziladi — O'zbekiston sektor tarkibiga mos (energetika 63,6%, agro 17,6%, IPPU 14–15%, chiqindi 5,0%; BTR1); (c) 4 ta ssenariy: clean / 5% anomaliya / 15% / 30% |
-| **Texnologiya** | Python 3.12, `pandas`, `numpy`, `faker`, `Faker`-provayder (uz_UZ), `pyarrow` (Parquet), `pydantic` (sxema validatsiyasi), `DuckDB` (tez SQL tahlil), `uv` (paket menejeri) |
+| **Texnologiya** | Python 3.12, `pandas`, `numpy`, `Faker` (`uz_UZ` provayderi), `pyarrow` (Parquet), `pydantic` (sxema validatsiyasi), `DuckDB` (tez SQL tahlil), `uv` (paket menejeri) |
 | **Nega aynan shu texnologiya** | 1) **Sintetik generator + real E-PRTR kalibrovka** — chunki O'zbekistonda korxona darajasidagi GHG ma'lumotlari hali ochiq emas (manba hujjat §3.3, P5 va §3.4); real E-PRTR *taqsimot shakli* (log-normal emissiya, hajm↔emissiya korrelyatsiyasi, sektor dispersiyasi) o'rganilib, UZ tarkibiga proyeksiya qilinadi; 2) **Parquet+DuckDB** — 10⁵–10⁶ qator uchun Pandas+CSV'ga nisbatan 5–20× tez, Postgres'ga yuklashdan oldin tez iteratsiya; 3) **Pydantic** — sxemani kodda majburlash (keyin FastAPI bilan bir xil model — DRY) |
 | **Nega aynan shu vaqtda** | Model, feature va metrika generatordagi **ground truth**ga tayanadi; agar generator keyin yozilsa, "aniqlangan anomaliya" nima ekanini isbotlab bo'lmaydi |
 | **Deliverable** | `data/synthetic/uz_proxy_v1.parquet` (≈50 000 korxona-davr yozuvi), `generator.py`, `dataset_card.md` (cheklovlar ochiq yozilgan) |
 
-### S2. EDA + statistik baseline (W2–W4, 10 kun)
+### S2. EDA + statistik baseline (W2–W3, 10 kun)
 
 | Ustun | Mazmun |
 |---|---|
 | **Nima qilinadi** | Taqsimotlar, korrelyatsiya matritsasi, mavsumiylik, sektor kesimi; **baseline detektorlar**: Z-score (robust: MAD), IQR chegarasi, nisbat chegaralari, Benford qonuni (birinchi raqam tekshiruvi), YoY delta |
-| **Texnologiya** | `pandas-profiling`/`ydata-profiling`, `matplotlib`+`seaborn`, `scipy.stats`, `Jupyter` (nativatsiya uchun), `great_expectations` (yengil variantda — `pandera`) |
-| **Nega aynan shu texnologiya** | 1) Baseline **majburiy**, chunki ML'ni oqlash kerak: agar IQR+nisbat qoidalari 70% anomaliyani tutsa, Autoencoder qurish — vaqt isrofi (akademik jihatdan ham to'g'ri: baselinesiz ML natija ishonchsiz); 2) `pandera` — sxema buzilishini erta ushlaydi (A4 birlik xatosi kabi holatlarni eksplitsit test qilish); 3) Jupyter — EDA uchun, lekin ishlab chiqarish kodi `.py` modulga ko'chiriladi (nativatsiya talabi) |
+| **Texnologiya** | `ydata-profiling` (sobiq `pandas-profiling`), `matplotlib`+`seaborn`, `scipy.stats`, `Jupyter` (EDA bayoni uchun), `great_expectations` (yengil variantda — `pandera`) |
+| **Nega aynan shu texnologiya** | 1) Baseline **majburiy**, chunki ML'ni oqlash kerak: agar IQR+nisbat qoidalari 70% anomaliyani tutsa, Autoencoder qurish — vaqt isrofi (akademik jihatdan ham to'g'ri: baselinesiz ML natija ishonchsiz); 2) `pandera` — sxema buzilishini erta ushlaydi (A4 birlik xatosi kabi holatlarni eksplitsit test qilish); 3) Jupyter — EDA uchun, lekin ishlab chiqarish kodi `.py` modulga ko'chiriladi (bayon talabi) |
 | **Nega aynan shu vaqtda** | Baseline natijalari S3'dagi feature tanlovni va S4'da model tanlovni belgilaydi |
-| **Deliverable** | `notebooks/01_eda.ipynb` (nativatsiya), `reports/baseline_metrics.md` — baseline precision/recall jadvali |
+| **Deliverable** | `notebooks/01_eda.ipynb` (bayon), `reports/baseline_metrics.md` — baseline precision/recall jadvali |
 
-### S3. Feature engineering + feature store sxemasi (W3–W5, 10 kun)
+### S3. Feature engineering + feature store sxemasi (W3–W4, 10 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -211,7 +226,7 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Model featuresiz o'qitilmaydi; S2 baseline xatolari aynan qaysi feature kerakligini ko'rsatadi |
 | **Deliverable** | `src/features/build.py`, `features_v1.parquet`, `docs/feature_dictionary.md` (har bir feature: formula, manba, kutilgan yo'nalish) |
 
-### S4. Model v1 — Isolation Forest + tuning (W5–W7, 12 kun)
+### S4. Model v1 — Isolation Forest + tuning (W5–W6, 12 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -221,7 +236,7 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Feature'lar tayyor bo'lgach; AE'dan **oldin** — chunki IF natijasi AE'ni oqlash/oqlmaslikni ko'rsatadi (agar IF F1 ≥ 0,85 bo'lsa, AE ustuvorlik emas) |
 | **Deliverable** | `models/if_v1/` (model + metadata), `reports/if_v1_metrics.md`, MLflow tajriba havolasi |
 
-### S5. Model v2 — Autoencoder (va OCSVM taqqoslash) (W7–W9, 12 kun)
+### S5. Model v2 — Autoencoder (va OCSVM taqqoslash) (W7–W8, 12 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -240,7 +255,7 @@ flowchart TD
 | Autoencoder | Eng yuqori aniqlik (AUC 0,967; real sanoatda precision 0,99) | Ma'lumotga ochlik, driftga sezgir, porog kalibrovkasi nozik | MDPI *FI* 2026; JISEM 2025 (F1 93,2%); MDPI *Appl. Sci.* 16(5):2457 |
 | **Amaliy xulosa** | **IF — v1 baseline; AE — v2 (agar IF ≤ 0,80 F1 bo'lsa)**; OCSVM — faqat nazorat guruhi | | |
 
-### S6. Baholash harness va injection eksperimenti (W8–W10, 12 kun)
+### S6. Baholash harness va injection eksperimenti (W9–W10, 12 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -250,7 +265,7 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Barcha 3 model tayyor bo'lgach; natijalar S7'da qaysi model API'ga chiqishini hal qiladi |
 | **Deliverable** | `reports/eval_report.md` + `reports/figures/*.png` (PR-kurva, confusion, tur bo'yicha recall) |
 
-### S7. Serving qatlami — FastAPI + PostgreSQL + Redis (W9–W12, 16 kun)
+### S7. Serving qatlami — FastAPI + PostgreSQL + Redis (W10–W12, 16 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -262,7 +277,7 @@ flowchart TD
 
 **Muhim amaliy qoida (paste'da bildirilgan tuzoq):** `async def` route ichida og'ir CPU inferens **to'g'ridan-to'g'ri** chaqirilmasligi kerak — event loop bloklanadi. MVP uchun yechim: `run_in_threadpool` (starlette) yoki `ProcessPoolExecutor`, katta yuklamada esa Redis Streams + alohida worker. ~100 req/s gacha bitta kichik model uchun in-process pool **yetarli** — ortiqcha infra qurish shart emas (markaicode, 2026).
 
-### S8. Dashboard / UI (W11–W13, 10 kun)
+### S8. Dashboard / UI (W12–W13, 10 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -270,9 +285,9 @@ flowchart TD
 | **Texnologiya** | `Streamlit` (MVP) **yoki** `React + Vite + Recharts` (agar jamoada frontend bor bo'lsa); `Plotly`; Leaflet ixtiyoriy (viloyat xaritasi) |
 | **Nega aynan shu texnologiya** | 1) **Streamlit** — Python'da 1 kunda ishlaydigan dashboard, dizayner kerak emas; akademik demo uchun optimal vaqt/effekt nisbati; kamchiligi — kastom UX cheklangan, shuning uchun "kelajakda React" ADR'da qayd etiladi; 2) Agar frontend ko'nikmasi bor bo'lsa React — ish beruvchi uchun ko'proq qiymat, lekin **MVP'da ustuvorlik emas**; 3) `Plotly` — interaktiv grafik 1 satr kod |
 | **Nega aynan shu vaqtda** | API S7'da tayyor bo'lgach; UI API'siz "maket" bo'lib qoladi |
-| **Deliverable** | `dashboard/app.py`, demo video (2–3 daqiqa, `asoul` ekran yozuvi), skrinshotlar maqolaga |
+| **Deliverable** | `dashboard/app.py`, demo video (2–3 daqiqa, OBS/`ffmpeg` ekran yozuvi), skrinshotlar maqolaga |
 
-### S9. Test, Docker, hujjatlashtirish (W13–W15, 12 kun)
+### S9. Test, Docker, hujjatlashtirish (W13–W14, 12 kun)
 
 | Ustun | Mazmun |
 |---|---|
@@ -472,7 +487,7 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 [2] JISEM, "Autoencoder-based anomaly detection framework", 2025 — AE F1 93,2%, ROC-AUC 97% vs IF/OCSVM — https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027  
 [3] Premier Journal of Science, "Modern Anomaly Detection Methods in Industry", 2025 — AE 87–89%, IF 84–86%, RF 89–91%, inferens 48 ms — https://premierscience.com/pjs-25-1320/  
 [4] MDPI Applied Sciences 16(5):2457, 2026 — real industrial (water treatment): AE precision 0,99 / recall 0,61; IF 0,03/0,21; LOF eng sekin — https://www.mdpi.com/2076-3417/16/5/2457  
-[5] IEEE 10428838 — IF ROC-AUC 90% / sensitivity 98% vs OCSVM 61% / 41%
+[5] IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / sensitivity 98% ga qarshi 61% / 41% — https://doi.org/10.1109/ICICyTA60173.2023.10428838
 
 ### 8.3. Yakuniy qaror va asoslash
 **MVP: Isolation Forest (v1) → so'ngra Autoencoder (v2) bilan taqqoslash.**
@@ -480,6 +495,8 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 **Nega IF birinchi:** (a) inferens **36× tez** (OCSVM'ga nisbatan), (b) kam tuning — talaba vaqtini feature va izohlashga sarflaydi, hyperparametr qidiruvga emas, (c) driftga chidamli, (d) adabiyotda tabular sanoat ma'lumotida "kuchli baseline" sifatida tan olingan.  
 **Nega AE keyin va shartli:** adabiyotda eng yuqori aniqlik ko'rsatgan, lekin **ma'lumotga och** va **driftga sezgir**; MVP'da 50k yozuv bor — AE o'rganishi mumkin, ammo agar IF AC-1/AC-3 ni bajarsa, AE **ixtiyoriy** va faqat akademik taqqoslash uchun qoladi. Bu "texnologiyani ishlatish uchun ishlatmaslik" tamoyili.  
 **OCSVM:** faqat nazorat guruhi sifatida (adabiyotdagi past ko'rsatkichlarni o'z ma'lumotimizda tekshirish).
+
+**Yangi dalillar (2025–2026).** Mustaqil tadqiqotlar ML nazorati regulyator ko'rigini **to'ldirishini** ko'rsatadi: 107 chiqarish manbasi bo'yicha 334 ma'lumot-pattern o'zgarishi 90% ishonch darajasida aniqlangan, holbuki rasmiy nazorat yozuvlarida shundan faqat 24 tasi qayd etilgan (Xu et al., 2025, *Environment International* 201:109594). Sement zavodlari kesimida ≥2% manipulyatsiya ≥90% aniqlik bilan topilgan, yolg'on signal darajasi esa 3%dan past (Wu et al., 2026, *Processes* 14(3):554). CEMS ma'lumot sifati uchun to'liq ramka — anomaliya aniqlash + kalibrovka + to'ldirish — Xitoy ETS sharoitida taklif qilingan (Song et al., 2025, *EIA Review* 115:108037); usullar ko'rigi — Nassif et al. (2021, *IEEE Access* 9:78658–78700). Shu dalillar ikkita talabni mustahkamlaydi: (1) FP darajasi alohida o'lchanishi kerak — shu sabab AC-2 (FPR ≤ 0,10) S0'da muzlatiladi; (2) aniqlash regulyator qarorini **almashtirmaydi**, balki tekshiruv uchun ustuvorlik beradi (§8.4, AC-5).
 
 ### 8.4. Izohlanuvchanlik (AC-5 talabi) — texnik yechim
 1. **Nisbat izohlari (qoidalashtirilgan):** har bir flag uchun "kutilgan qiymat ↔ haqiqiy qiymat ↔ farq" uchligi matn ko'rinishida.
@@ -499,7 +516,7 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 | **Precision (anomaliya)** | TP/(TP+FP) | Resursni behuda sarflamaslik (har bir flag = tekshiruv xarajati) |
 | **F1** | 2PR/(P+R) | Balans (AC-3) |
 | **FPR** | FP/(FP+TN) | Halol korxonalarni bezovta qilmaslik (AC-2) |
-| **PR-AUC** | Precision-Recall egri ostidagi yuqori | **Asosiy** — sinf muvozanatsizligida (anomaliya 5–30%) ROC-AUC yolg'on optimizm beradi |
+| **PR-AUC** | Precision-Recall egri chizig'i ostidagi yuza | **Asosiy** — sinf muvozanatsizligida (anomaliya 5–30%) ROC-AUC yolg'on optimizm beradi |
 | **Precision@Top20** | Eng yuqori 20 bayroq ichida anomaliyalar ulushi | Real foydalanish: inspektor **20 ta** korxonani tekshira oladi |
 | **Alert turi bo'yicha recall** | Har A1–A8 uchun alohida | Qaysi tur qiyin — xato tahlilining asosi |
 | **Inferens vaqti** | p50/p95 (ms) | AC-6 |
@@ -536,10 +553,11 @@ Manba hujjat §3.10 (risklar matritsasi) va **P14 (ma'lumot soxtalashtirilishi)*
 | R4 | Feature leak (kelajak ma'lumoti o'tmishga) | O'rta | Yuqori | Faqat o'tmish oynali feature'lar; test yozuvlari (leak testi) |
 | R5 | **Manba ma'lumotning o'zi xato** (hisoblagich, EF) | Yuqori | O'rta | "Anomaliya = tekshirishga loyiq signal, ayblov emas" — tizim falsafasi; EF noaniqligi feature'ga kiritiladi |
 | R6 | Adversarial moslashuv (korxona AI'ni chalg'itishni o'rganadi) | Past (MVP) | Yuqori (kelajak) | Hujjatda "kelajak risk" sifatida qayd; randomizatsiya va yangi signallar (sun'iy yo'ldosh metan) |
-| R7 | Poroğ tanlovidagi subyektivlik | O'rta | O'rta | Poroğ **PR-kurva + biznes cheklovi** (FPR ≤ 10%) orqali, S0'da qoida sifatida muzlatiladi |
+| R7 | Porog' tanlovidagi subyektivlik | O'rta | O'rta | Porog' **PR-kurva + biznes cheklovi** (FPR ≤ 10%) orqali, S0'da qoida sifatida muzlatiladi |
 | R8 | Inferens blokirovkasi (async route + CPU model) | O'rta | O'rta | `run_in_threadpool` / worker; yuklama testi (`locust`/`k6`) |
 | R9 | Etik/reputatsion risk (noto'g'ri bayroq) | O'rta | Yuqori | MVP faqat sintetik ma'lumot; real nomlar yo'q; "faqat ichki tekshiruv" rejimi |
 | R10 | Vaqt yetishmasligi (semestr) | Yuqori | O'rta | MVP-doirasi qat'iy (bitta model majburiy, ikkinchisi ixtiyoriy); "kesish chizig'i" S7 oxirida |
+| R11 | **Model dreyfi** — yangi uskunalar, EF yangilanishi va talab o'zgarishi bilan kirish ma'lumotlari taqsimoti suriladi | O'rta | O'rta | Har chorakda qayta o'qitish + MLflow'da model versiyasi va seed; kirish feature'lari taqsimoti monitoringi; har bir skor o'z model versiyasiga bog'lanadi (eski skor qayta yozilmaydi) |
 
 **Cheklovlar (hujjatda ochiq yozilishi shart):**
 1. Natijalar sintetik ma'lumotda olingan — real UZ korxonalariga to'g'ridan-to'g'ri ko'chirilmaydi.
@@ -583,7 +601,7 @@ gantt
 
     section S10 Himoya
     S10 Demo + hisobot          :s10, 2026-12-28, 8d
-    Buffer / himoya             :crit, 2027-01-05, 10d
+    Buffer / himoya             :crit, 2027-01-06, 10d
 ```
 
 ### 11.2. Jadval ko'rinishidagi umumiy vaqt chizig'i
@@ -591,7 +609,7 @@ gantt
 | Bosqich | Boshlanish | Tugash | Davomiylik | Asosiy deliverable | Milestone (darvoza) |
 |---|---|---|---|---|---|
 | S0 Scope & spec | 22.09.2026 | 26.09.2026 | 5 kun | `00_spec.md`, ADR 001–003 | **G1:** metrika muzlatildi |
-| S1 Dataset va generator | 25.09.2026 | 06.10.2026 | 12 kun | `uz_proxy_v1.parquet`, dataset card | **G2:** ground truth'lı dataset |
+| S1 Dataset va generator | 25.09.2026 | 06.10.2026 | 12 kun | `uz_proxy_v1.parquet`, dataset card | **G2:** ground truth'li dataset |
 | S2 EDA + baseline | 29.09.2026 | 08.10.2026 | 10 kun | `01_eda.ipynb`, baseline metrikalar | **G3:** ML oqlanish qarori |
 | S3 Feature engineering | 06.10.2026 | 15.10.2026 | 10 kun | `features_v1.parquet`, feature dictionary | **G5:** feature muzlatildi |
 | S4 Isolation Forest v1 | 19.10.2026 | 30.10.2026 | 12 kun | `if_v1` model + metrikalar | **G6:** AC-1…AC-3 baholandi |
@@ -601,7 +619,7 @@ gantt
 | S8 Dashboard | 07.12.2026 | 16.12.2026 | 10 kun | 3 sahifali UI | **G10:** demo tayyor |
 | S9 Test + Docs | 14.12.2026 | 25.12.2026 | 12 kun | CI, 20+ test, README | **G11:** AC-8…AC-10 |
 | S10 Demo + hisobot | 28.12.2026 | 04.01.2027 | 8 kun | Slide + final report | **G12:** hisobga topshirildi |
-| Buffer / himoya | 05.01.2027 | 15.01.2027 | 10 kun | Himoya | — |
+| Buffer / himoya | 06.01.2027 | 15.01.2027 | 10 kun | Himoya | — |
 
 **Resurs byudjeti (talaba sharoiti):** 1 kishi × ~15 soat/hafta ≈ **240 soat**; 2 kishi ≈ 2× (parallel: backend + ML). Xarajat: ~**$0** (ochiq manbalar, lokal Docker, bepul CI; ixtiyoriy: LLM/cloud GPU **$20–60**).
 
@@ -649,16 +667,31 @@ audit_log(id PK, entity, entity_id, action, actor, payload JSONB, ts)
 - [ ] Final report 4–6 bet (arxitektura + natija + cheklov)
 - [ ] Git tag `v1.0`, CI yashil
 
-### Ilova C. Qo'shimcha o'qish (asosiy manbalar)
+### Ilova C. Manbalar (darajalar bo'yicha)
 
-1. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF qiyoslash, SCADA — https://doi.org/10.3390/fi18020096
-2. JISEM 2025 — AE anomaly detection (F1 93,2%) — https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
-3. Premier Journal of Science 2025 — sanoat anomaliya usullari — https://premierscience.com/pjs-25-1320/
-4. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash) AE vs IF vs OCSVM — https://www.mdpi.com/2076-3417/16/5/2457
-5. MEE (Xitoy) *Progress Report of China's National Carbon Market (2024)* — "big data orqali anormal ma'lumotlar aniqlanadi va erta ogohlantirish beriladi" — https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
-6. Production ML inference server (FastAPI + Redis + ONNX) — https://github.com/sky4infy/production-ml-inference-server
-7. FastAPI inference arxitekturasi (Redis Streams, "100 req/s dan past bo'lsa — soddaroq qiling") — https://markaicode.com/architecture/fastapi-inference-architecture/
-8. Manba hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi)
+**Darajalar:** **R** — rasmiy hujjat; **A** — hakamlik ko'rigidan o'tgan tadqiqot; **M** — media va amaliy ochiq manba. Model tanlovi (§8) faqat A darajali manbalarga tayanadi; R — huquqiy ramka, M — amaliyot.
+
+**R — rasmiy va huquqiy**
+1. UNFCCC — Uzbekistan NDC 3.0 (2025): 2035-yilga YaIM birligiga emissiya intensivligini 2010-yilga nisbatan −50%; metan siyosati. https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC.pdf
+2. «Issiqxona gazlarining chiqarilishini cheklash to'g'risida» qonun (2025; kuchga kirishi — 2026-yil 9-yanvar) — milliy uglerod birliklari, reyestr, savdo tartibi (gazeta.uz, 09.07.2025). https://www.gazeta.uz/oz/2025/07/09/greenhouse/
+3. VM-783 (25.11.2024) — I/II toifa obyektlari va avtomatik stansiyalar talablari; 202-son Nizom (201-band — koeffitsiyentlar, 301-band — rag'bat). https://lex.uz/uz/docs/-7233437 · https://lex.uz/uz/docs/-5367873
+
+**A — tadqiqotlar (model tanlovi va yangi dalillar)**
+4. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF to'rt tomonlama qiyoslash (SCADA). https://doi.org/10.3390/fi18020096
+5. JISEM, 2025 — Autoencoder anomaliya ramkasi: F1 93,2%, ROC-AUC 97%. https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
+6. Premier Journal of Science, 2025 — sanoat anomaliya usullari: AE 87–89%, IF 84–86%, inferens 48 ms. https://premierscience.com/pjs-25-1320/
+7. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash): AE precision 0,99 / recall 0,61; IF 0,03/0,21. https://www.mdpi.com/2076-3417/16/5/2457
+8. IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / 61%. https://doi.org/10.1109/ICICyTA60173.2023.10428838
+9. Xu et al. (2025), *Environment International* 201:109594 — CEMS vaqt qatorlarida pattern o'zgarishlari: 334 holat 90% ishonchda, rasmiy nazoratda 24 tasi. https://doi.org/10.1016/j.envint.2025.109594
+10. Song et al. (2025), *Environmental Impact Assessment Review* 115:108037 — CEMS ma'lumot sifati ramkasi (anomaliya + kalibrovka + to'ldirish), Xitoy ETS. https://doi.org/10.1016/j.eiar.2025.108037
+11. Nassif et al. (2021), *IEEE Access* 9:78658–78700 — anomaliya aniqlash bo'yicha 290 tadqiqotli tizimli ko'rik. https://doi.org/10.1109/ACCESS.2021.3083060
+12. Wu et al. (2026), *Processes* 14(3):554 — sement zavodida ≥2% manipulyatsiya ≥90% aniqlikda, FP <3%. https://doi.org/10.3390/pr14030554
+
+**M — amaliy va media manbalar**
+13. MEE (Xitoy), *Progress Report of China's National Carbon Market* (2024) — big-data orqali anormal ma'lumotlarni aniqlash va erta ogohlantirish. https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
+14. Production ML inference server (FastAPI + Redis + ONNX). https://github.com/sky4infy/production-ml-inference-server
+15. FastAPI inference arxitekturasi — «100 req/s dan past bo'lsa, soddaroq qiling». https://markaicode.com/architecture/fastapi-inference-architecture/
+16. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md` — §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi); g'oya asosi — `Goya-Uch-Daftar.md` §3 (§0.1).
 
 ---
 
