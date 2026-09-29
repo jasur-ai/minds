@@ -26,4 +26,4 @@ lekin ikki guruh hali mustaqil tasdiq talab qiladi:
 **Qoidalar:** ⚠️ — raqam to'g'ri, lekin kontekst/metodika boshqa; matnda shu aytilishi shart.
 ⏳ — tekshirilmagan; matnda "mustaqil tasdiqlanmagan" izohi bilan beriladi va yangi da'vo sifatida ishlatilmaydi.
 
-**Ochiq savollar:** yakuniy maqolaning 8-bo'limi (6–11-savollar) tekshiruv ro'yxati vazifasini o'taydi.
+**Ochiq savollar:** yakuniy maqolaning 9-bo'limi (6–11-savollar) tekshiruv ro'yxati vazifasini o'taydi. Manba darajalari: R (rasmiy) · A (tadqiqot/xalqaro hisobot) · M (media).

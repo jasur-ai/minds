@@ -11,7 +11,7 @@ sarlavha: "YAKUNIY MAQOLA 2 — Kim nima chiqarayotganini kim biladi?"
 
 **Annotatsiya.** O'zbekistonda chiqindi hisobi bo'yicha bir vaqtda bir necha xil yillik hajm ko'rsatkichi yuritiladi: rasmiy statistikada qariyb 7 million tonna, poligonlarga topshirilgan hajm bo'yicha 14 million tonna, davlat dasturidagi prognozda 14–14,5 million tonna, xalqaro bahoda esa qariyb 15 million tonna. Qayta ishlash darajasi ham manbaga qarab 3–4% dan 6,5% gacha o'zgaradi, plastik oqimi bo'yicha alohida hisobda 6,6%. Bu raqamlar bir-birini inkor etmaydi — ular turli qamrov va metodika bilan hisoblangani uchun taqqoslanmaydi. Maqola ishonchsizlikning sababi nazoratning yetishmasligida emas, hisob metodining oshkor etilmaganida ekanini ko'rsatadi va yechimni ma'lumotni majburiy oshkor qilishda ko'radi: bitta registrdan bir vaqtda besh kanalga e'lon qilish (rasmiy sayt, ochiq API, messenjer-bot, matbuot xabari, xarita qatlami), to'rt rangli zonalash — shu jumladan «ma'lumot yo'q» holatining ham ochiq ko'rsatilishi, fuqaro murojaati uchun 10 ish kunidan oshmaydigan muddat va ochiq arxiv. Maqola 2026-yilgi amaliyotni ham tahlil qiladi: poligonlarni qisqartirish siyosati, oltita chiqindidan energiya zavodi va ularda dioksin hamda kul monitoringining oshkoraligi masalasi.
 
-**Kalit so'zlar:** chiqindi hisobi · qayta ishlash · chiqindidan energiya (WtE) · ochiq ma'lumot · PRTR · zonalash · Aarhus konventsiyasi · oshkoralik siyosati · O'zbekiston
+**Kalit so'zlar:** chiqindi hisobi · qayta ishlash · chiqindidan energiya (WtE) · ochiq ma'lumot · PRTR · to'rt rangli zonalash · Aarhus konventsiyasi · anomaliya aniqlash · avtomatlashtirilgan matn generatsiyasi (RAG) · XAI · oshkoralik siyosati · O'zbekiston
 
 **Muallif:** Jasur · **Sana:** 2026-09-29
 
@@ -30,7 +30,7 @@ Demak, qonuniy talab bor, muddatlar bor. Savol boshqa joyda: **e'lon qilinayotga
 
 Bu tafovutlarni yashirmaslik kerak, lekin ularni «yolg'on» deb atash ham to'g'ri emas. Ular turli hududiy qamrov, turli chiqindi toifalari va turli metodikalar asosida olingan. Muammo shunda: **raqam bilan birga uning manbasi va hisoblash usuli e'lon qilinmaydi**. Natijada fuqaro ham, investor ham, jurnalist ham qaysi raqamga tayanishni bilmaydi.
 
-Maqolaning markaziy savoli shunday: **chiqindi va ifloslanish hisobini tekshiriladigan qilish uchun nima qilish kerak?** Quyida avval raqamlar tafovutining sabablari tahlil qilinadi (I qism), so'ngra e'lon qilish mexanizmi taklif etiladi (II qism), oxirida fuqaro ishtiroki (III qism) va undan keyin alohida bo'limda 2026-yilgi amaliyot — poligonlarni qisqartirish, chiqindidan energiya (WtE) va xavfli chiqindi — ko'rib chiqiladi (5-bo'lim).
+Maqolaning markaziy savoli shunday: **chiqindi va ifloslanish hisobini tekshiriladigan qilish uchun nima qilish kerak?** Quyida avval raqamlar tafovutining sabablari tahlil qilinadi (I qism), so'ngra e'lon qilish mexanizmi taklif etiladi (II qism), oxirida fuqaro ishtiroki (III qism) va undan keyin alohida bo'limda 2026-yilgi amaliyot — poligonlarni qisqartirish, chiqindidan energiya (WtE) va xavfli chiqindi — ko'rib chiqiladi (5-bo'lim). Alohida bo'lim (7-bo'lim) texnologik qatlamga bag'ishlanadi: minglab yozuv va besh e'lon kanali bilan ishlaydigan tizimni qo'lda boshqarish mumkin emas — shuning uchun avtomatik tahlil usullari va ularning chegarasi ko'rsatiladi.
 
 ---
 
@@ -163,6 +163,8 @@ Bu ko'rsatkichlar o'zaro bog'liq: poligon yopilganda chiqindi oqimi boshqa joyga
 
 Eng katta yangi qatlam — chiqindidan energiya loyihalari. Oltita zavod bo'yicha umumiy 933 million dollarlik loyihalar 2026–2027-yillarda amalga oshirilmoqda: Qashqadaryo, Samarqand, Toshkent, Andijon, Farg'ona va Namangan hududlarida (Xinhua, 11.09.2026; gazeta.uz, 04.05.2026). To'liq quvvatda ishga tushsa, yiliga 3,6 million tonnaga yaqin chiqindi qayta ishlanadi va 1,6 milliard kilovatt-soatga yaqin elektr energiyasi olinadi. Poligonga tushadigan yuklama qariyb 40 foizga kamayishi kutilmoqda. Birinchi navbatdagi Qashqadaryo zavodi yiliga 500 ming tonnadan ortiq chiqindini qayta ishlashi, 342 million kilovatt-soat elektr ishlab chiqarishi va atmosferaga 180 ming tonna kamroq karbonat angidrid chiqarishi ko'rsatilgan (China Daily, 06.05.2026). Samarqand zavodi uchun kuniga 1 500 tonna quvvat va shahar chiqindisining qariyb 70 foizini qamrash rejalashtirilgan (10-rasm).
 
+Keyingi bosqich ham e'lon qilingan: beshta hududda (Qoraqalpog'iston, Jizzax, Surxondaryo, Buxoro va Xorazm) qo'shimcha loyihalar rejalashtirilgan — umumiy qiymati 625 million dollar, yiliga 1,9 million tonna qo'shimcha quvvat va 635 million kilovatt-soat elektr energiyasi (spot.uz va gazeta.uz, 14.09.2026; Xinhua, 11.09.2026).
+
 Bu loyihalar chiqindi masalasini energetika masalasiga bog'laydi. Shu yerda eng jiddiy savol tug'iladi: **kuydirish jarayonida hosil bo'ladigan dioksin va kul bo'yicha monitoring qanday olib boriladi va natijalar qayerda e'lon qilinadi?** Xalqaro amaliyotda bu savolga javob majburiy o'lchov va davriy e'lon orqali beriladi. Agar O'zbekistonda bu qatlam ochiq bo'lmasa, chiqindidan energiya loyihalari oshkoralik siyosatining eng zaif nuqtasiga aylanadi.
 
 Ikkinchi savol texnologik: kuydirish faqat saralashdan keyin kelishi kerak.
@@ -188,13 +190,42 @@ Xavfli chiqindi oqimi alohida tartibga muhtoj. 2026-yil 1-oktabrdan xavfli chiqi
 
 **9.** Chiqindidan energiya tanqidi alohida e'tibor talab qiladi. Kuydirish saralashdan keyin kelishi shart, aks holda rag'bat noto'g'ri tomonga ishlaydi: qayta ishlanishi mumkin bo'lgan xom ashyo yoqib yuboriladi. Shuning uchun WtE quvvatlari saralash quvvatlari bilan birgalikda rejalashtirilishi kerak.
 
-**10.** Taklif etilayotgan tizim texnologik qatlamsiz to'liq ishlamaydi. Obyektlar soni mingdan ortiq bo'lsa, ma'lumot oqimini qo'lda tekshirish amalda imkonsiz. Bu yerda anomaliyalarni aniqlash usullari (ketma-ketlikdagi g'ayritabiiy qiymatlarni belgilash, ko'rsatkichlar orasidagi nomuvofiqlikni topish) tekshiruv resursini to'g'ri yo'naltirish imkonini beradi. Shart o'sha-o'sha: model faqat belgilaydi va tartiblaydi, qaror qabul qilmaydi; natija har doim manba havolasi bilan keladi. Dunyo amaliyotida ham shu yo'nalish shakllanmoqda — Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi.
+**10.** Texnologik qatlam. Tizim qo'lda boshqarishga mo'ljallanmagan: minglab yozuv, besh kanal va to'rt rangli zonalash avtomatik tahlilni talab qiladi. Bu masala keyingi bo'limda alohida ko'rib chiqiladi — qaysi texnikalar ishlatiladi va ularning chegarasi qayerda (7-bo'lim).
 
 *(Muhokama nuqtalari 6–10; ro'yxatning boshi — Maqola 1 da, 1–5.)*
 
 ---
 
-## 7. Xulosa va tavsiyalar
+## 7. AI/ML qatlami: besh kanal va to'rt rang kim uchun ishlaydi
+
+Muhokamaning texnologik bandi alohida bo'limga arziydi: «bir ma'lumot, besh kanal» tamoyili va to'rt rangli zonalash minglab yozuv bilan ishlaydi — ya'ni bunday tizim qo'lda emas, avtomatik tahlil bilan boshqariladi.
+
+**Miqyos.** Ochiq ma'lumotlar portalida o'ndan ortiq ming dataset bor, shundan ekologiya yo'nalishiga tegishlisi qariyb 170 ta; chiqindi sohasidagi hisobotlar esa har chorakda minglab yozuvni tashkil qiladi (korxonalar, hududlar, ekosanoat zonalari). Bu hajmda «ko'k zona» holatini — ma'lumot yo'qligi yoki kechikishini — va ziddiyatli qiymatlarni qo'lda kuzatish amalda imkonsiz. Xalqaro tajribada ham xuddi shunday: Xitoyning milliy uglerod savdo tizimi 3 680 obyektni, Yevropa Ittifoqining tizimi qariyb 10 ming qurilmani qamraydi va ikkalasi ham monitoring-hisobot-verifikatsiya (MRV) jarayonida avtomatlashtirishga tayanadi (ICAP, 2025; Yevropa Komissiyasi).
+
+**Qaysi texnikalar mos.** Taklif etilayotgan tizimga to'rtta aniq vazifa to'g'ri keladi (2-jadval):
+
+| Vazifa | Texnika | Nega aynan shu |
+|---|---|---|
+| «Ko'k zona»: ma'lumot yo'q yoki kechikkan yozuvlarni aniqlash | **Nazoratsiz anomaliya aniqlash (Isolation Forest) + bo'shliqlarni to'ldirish (imputation) modellari** | Bo'shliqni yashirmaslik kerak: model uni topadi va ko'rsatadi; to'ldirilgan qiymat esa alohida belgilanadi |
+| «Qarama-qarshi signal»: hajm, transport va energiya ko'rsatkichlarining mosligi | **Ko'p manbali ma'lumot sintezi (data fusion) va o'zaro tekshiruv** | Mustaqil manbalar birgalikda ma'lumotni tanlab e'lon qilishni qimmatlashtiradi |
+| Avtomatik matbuot izohi (raqamni o'zgartirmasdan) | **Retrieval-Augmented Generation (RAG) yoki cheklangan shablon generatsiyasi** | Hallyutsinatsiyaning oldini oladi: matn faqat registrdagi yozuvdan quriladi, tashqi bilim ishlatilmaydi |
+| Izohlar sifatini baholash (ichki audit) | **LLM-as-annotator + inson tekshiruvi** | Katta til modellari hozircha mutaxassisni to'liq almashtirmaydi — bu o'lchov bilan tasdiqlangan |
+
+**2-jadval.** Muammo — texnika — asos jadvali (xalqaro adabiyot asosida).
+
+**Adabiyot nima deydi.** Tabiiy til qayta ishlash (NLP) regulyativ hujjatlar bilan ishlashda yetakchi yo'nalishlardan biriga aylangan: ACL 2025 konferensiyasida e'lon qilingan tizimli sharh (Jain, Dhanasekaran, Diab, 2025) avtomatik muvofiqlik tekshiruvining imkoniyatlari va cheklovlarini umumlashtiradi. Atrof-muhit siyosati sohasida Yang va boshqalar (Sustainability, 2025) katta til modellari yordamida siyosat bilim grafi qurish usulini taklif etadi, Springer nashridagi tadqiqot (EGRWSE 2025, 2026-yilda chop etilgan) esa atrof-muhit regulyatsiyasini ko'rib chiqishda LLM va RAG kombinatsiyasini amalda ko'rsatadi. Muhim ehtiyot chorasi ham adabiyotdan keladi: barqarorlik (ESG) hisobotlarini baholashda eng kuchli model hisoblangan GPT-4o o'rtacha aniqlik bo'yicha atigi ~56 foiz natija bergan, hallyutsinatsiya holatlari esa alohida qayd etilgan (Wu, Hu, Wang, Systems, 2025). Ya'ni bunday model e'lon matnini **tayyorlashi** mumkin, lekin uni **tasdiqlay olmaydi**.
+
+**Chegara va risklar.** Uch shart belgilanadi:
+
+1. **Model registrdan tashqariga chiqmaydi.** RAG yoki shablon generatsiyasi faqat mavjud yozuvdan matn quradi; har bir jumla manba havolasi va o'zgartirish tarixi bilan keladi.
+2. **Yolg'on signal muvozanati.** «Ko'k zona» va shubhali qiymatlar jazo emas, inson tekshiruviga yuboriladi; tizim o'zi e'lon yoki sanksiya qarorini chiqarmaydi. Shu sababli zonalash ikkilik emas, to'rt holatli: noma'lum holat ham alohida rang sifatida ko'rsatiladi.
+3. **Model dreyfi va audit izi.** Model versiyasi, o'qitish sanasi va o'zgartirish tarixi yozib borilishi shart — aks holda e'lon qilingan raqamni tekshirish imkoni yo'qoladi. Avtomatik qaror ustidan tushuntirish olish huquqi Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 86-moddasida (2026-yil 2-avgustdan kuchda) mustahkamlangan.
+
+Texnik tanlov va ishlab chiqish bosqichlari — loyiha hujjati (TZ-Ochiq-Eko-Ledger) darajasidagi masala; maqola faqat tamoyilni belgilaydi: avtomatlashtirish e'lon qilishni tezlashtiradi va tartiblaydi, lekin hisob metodini yashirmaydi — aksincha, har bir yozuv manbasi va o'zgartirish tarixi bilan ochiq bo'ladi.
+
+---
+
+## 8. Xulosa va tavsiyalar
 
 Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatlari, pasport tizimi, poligonlar siyosati, energiya loyihalari. Keyingi masala — shu asosning ishlashini o'lchash va o'lchov natijalarini ochiq ko'rsatish.
 
@@ -209,7 +240,7 @@ Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatl
 
 ---
 
-## 8. Ochiq savollar
+## 9. Ochiq savollar
 
 *(Savollar 6–11; ro'yxatning boshi — Maqola 1 da, 1–5.)*
 
@@ -222,9 +253,9 @@ Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatl
 
 ---
 
-## 9. Manbalar
+## 10. Manbalar
 
-**Manbalar va usul.** Dalillar ikki darajaga ajratilgan: **R** — rasmiy hujjatlar va davlat organlari ma'lumotlari; **M** — media va ochiq manbalar. Ma'lumotlar 2026-yil sentabr holatiga to'plangan. Bir xil ko'rsatkich bo'yicha turli manbalar bergan qiymatlar matnda yashirilmaydi — aksincha, manbasi bilan yonma-yon ko'rsatiladi. Muallifning o'z hisob-kitoblari matnda alohida belgilangan.
+**Manbalar va usul.** Dalillar uch darajaga ajratilgan: **R** — rasmiy hujjatlar va davlat organlari ma'lumotlari; **A** — hakamlik ko'rigidan o'tgan tadqiqotlar va xalqaro hisobotlar; **M** — media va ochiq manbalar. Ma'lumotlar 2026-yil sentabr holatiga to'plangan. Bir xil ko'rsatkich bo'yicha turli manbalar bergan qiymatlar matnda yashirilmaydi — manbasi bilan yonma-yon ko'rsatiladi. Muallifning o'z hisob-kitoblari matnda alohida belgilangan.
 
 **Rasmiy hujjatlar va davlat ma'lumotlari (R)**
 
@@ -237,28 +268,41 @@ Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatl
 7. Davlat ochiq ma'lumotlar portali — datasetlar statistikasi. https://data.egov.uz
 8. UNECE PRTR protokoli (Kiev, 2003) — ifloslantiruvchi moddalar hisobi va uzatilishi; Yevropa Ittifoqi E-PRTR registri. https://unece.org/env/pp/prtr
 9. Chiqindilarni boshqarish va sirkulyar iqtisodiyotni rivojlantirish agentligi (gov.uz), 15.11.2025 — plastik chiqindi QMCHning 15 foizini tashkil qilishi; yiliga 1,8 mln tonna plastik, shundan 6,6 foizi qayta ishlanishi. https://gov.uz/en/sanitation/news/view/102286
+10. Xalqaro uglerod harakati hamkorligi (ICAP), 2025 va Yevropa Komissiyasi — Xitoy milliy savdo tizimi 3 680 obyektni, Yevropa tizimi qariyb 10 000 statsionar qurilmani qamrab olishi (qiyosiy ko'lam uchun). https://icapcarbonaction.com/en/news/china-officially-expands-national-ets-cement-steel-and-aluminum-sectors
 
-**Media va tahlil (M)**
+**Tadqiqotlar va xalqaro hisobotlar (A)**
 
-10. gazeta.uz, 14.09.2026 — ikkita zavod yil oxirigacha ishga tushishi; «nol chiqindi» modeli; poligonga yuklamaning 40% ga kamayishi. https://www.gazeta.uz/oz/2026/09/14/waste/
-11. gazeta.uz, 04.05.2026 — 933 mln dollarlik oltita zavod, 3,6 mln tonna va 1,6 mlrd kilovatt-soat; Navoiyda 260 mln dollarlik xavfli chiqindi platformasi (330 ming t/yil); qamrov 88% → 90%; poligonlar 32,6% → 50%; qayta yuklash stansiyalari 28 → 70. https://www.gazeta.uz/oz/2026/05/04/recycle/
-12. gazeta.uz (ingliz nashri), 05.12.2025 — qayta ishlash 3–4%, qariyb 200 poligon, 950 mln dollar investitsiya, zavodlarning tayyorligi 30–40%. https://www.gazeta.uz/en/2025/12/05/waste/
-13. spot.uz, 14.09.2026 — qo'shimcha loyihalar (625 mln dollar, 1,9 mln tonna, 635 mln kilovatt-soat); poligonga yuklamaning 40% ga kamayishi. https://www.spot.uz/oz/2026/09/14/waste-to-energy
-14. spot.uz, 02.12.2025 — 47 ta poligon faoliyati to'xtatilishi va 243 gektar yerning tabiatga qaytarilishi. https://www.spot.uz/oz/2025/12/02/ecological-improvement
-15. Xinhua, 11.09.2026 — oltita loyiha 2026–2027-yillarda, 3,6 mln tonna, 1,6 mlrd kilovatt-soat, 158 mln m³ gaz iqtisodi, issiqxona gazlari 316 ming tonna kamayishi. https://english.news.cn/20260911/e4d4070d24ba46b7b71718528d55fd60/c.html
-16. Euronews / IndexBox, 22.09.2026 — yillik hajm qariyb 15 mln tonna; qayta ishlash 5–6 foiz; metan ushlash amaliyoti; Toshkent atrofidagi yangi poligon kuniga 1,5–2,5 ming tonna qabul qilishi. https://www.euronews.com/2026/09/22/rethinking-waste-the-journey-towards-a-circular-economy
-17. uza.uz, 14.09.2026 — hisobot davrida qayta ishlash darajasi 6,5 foiz, chiqindi olib chiqish qamrovi 64 foiz. https://uza.uz/oz/posts/chiqindilarni-qayta-ishlash-darajasi-65-foizni-tashkil-etgan_908783
-18. China Daily (Ningbo), 06.05.2026 — Qashqadaryo zavodi: yiliga 500 ming tonnadan ortiq chiqindi, 342 mln kilovatt-soat, 180 ming tonna kamaytirilgan CO₂. https://ningbo.chinadaily.com.cn/2026-05/06/c_1180598.htm
-19. UN/UNITAR, «National E-waste Monitor: Uzbekistan» (2024) — yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
-20. qalampir.uz — yillik maishiy chiqindi hajmi 7 mln tonna atrofida. https://www.qalampir.uz/uz/news/7-mln-tonna-uzbekistonda-chik-indi-%D2%B3osil-bulishi-kupaygan-54753
-21. president.uz, 30.04.2026 — chiqindilarni boshqarish bo'yicha taqdimot (WtE loyihalari va xavfli chiqindi platformasi). https://president.uz/uz/lists/view/9163
+11. Jain, J., Dhanasekaran, N., Diab, M. (2025). «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance». *Findings of the Association for Computational Linguistics: ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
+12. Yang, Y., Liu, X., Tu, X., Lu, Y., Wang, Y. (2025). «Automating the Construction of Environmental Policy Knowledge Graph with Large Language Models». *Sustainability*, 17(22), 10282. https://doi.org/10.3390/su172210282
+13. «Use of AI-Powered Technologies for Review of Environmental Regulations». *Sustainable Environmental Geotechnology and Pollution Control (EGRWSE 2025)*, Springer, 2026, 329–337. https://doi.org/10.1007/978-3-032-15832-1_31 — LLM va RAG kombinatsiyasi atrof-muhit regulyatsiyasini ko'rib chiqishda.
+14. Wu, Y., Hu, P., Wang, D.D. (2025). «The AI Annotator: Large Language Models' Potential in Scoring Sustainability Reports». *Systems*, 13(10), 899. https://doi.org/10.3390/systems13100899 — GPT-4o o'rtacha aniqlik ~56 foiz, hallyutsinatsiya holatlari qayd etilgan.
+15. UN/UNITAR (2024). «National E-waste Monitor: Uzbekistan» — yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
+
+**Media va ochiq manbalar (M)**
+
+16. gazeta.uz, 14.09.2026 — ikkita zavod yil oxirigacha ishga tushishi; «nol chiqindi» modeli; poligonga yuklamaning 40% ga kamayishi; qo'shimcha loyihalar (625 mln dollar, 1,9 mln tonna, 635 mln kilovatt-soat). https://www.gazeta.uz/oz/2026/09/14/waste/
+17. gazeta.uz, 04.05.2026 — 933 mln dollarlik oltita zavod, 3,6 mln tonna va 1,6 mlrd kilovatt-soat; Navoiyda 260 mln dollarlik xavfli chiqindi platformasi (330 ming t/yil); qamrov 88% → 90%; poligonlar −32,6% → −50%; qayta yuklash stansiyalari 28 → 70. https://www.gazeta.uz/oz/2026/05/04/recycle/
+18. gazeta.uz (ingliz nashri), 05.12.2025 — qayta ishlash 3–4%, qariyb 200 poligon, 950 mln dollar investitsiya, zavodlarning tayyorligi 30–40%. https://www.gazeta.uz/en/2025/12/05/waste/
+19. spot.uz, 14.09.2026 — qo'shimcha loyihalar (625 mln dollar, 1,9 mln tonna, 635 mln kilovatt-soat); poligonga yuklamaning 40% ga kamayishi. https://www.spot.uz/oz/2026/09/14/waste-to-energy
+20. spot.uz, 02.12.2025 — 47 ta poligon faoliyati to'xtatilishi va 243 gektar yerning tabiatga qaytarilishi. https://www.spot.uz/oz/2025/12/02/ecological-improvement
+21. Xinhua, 11.09.2026 — oltita loyiha 2026–2027-yillarda, 3,6 mln tonna, 1,6 mlrd kilovatt-soat, 158 mln m³ gaz iqtisodi, issiqxona gazlari 316 ming tonna kamayishi. https://english.news.cn/20260911/e4d4070d24ba46b7b71718528d55fd60/c.html
+22. Euronews / IndexBox, 22.09.2026 — yillik hajm qariyb 15 mln tonna; qayta ishlash 5–6 foiz; metan ushlash amaliyoti. https://www.euronews.com/2026/09/22/rethinking-waste-the-journey-towards-a-circular-economy
+23. uza.uz, 14.09.2026 — hisobot davrida qayta ishlash darajasi 6,5 foiz, chiqindi olib chiqish qamrovi 64 foiz. https://uza.uz/oz/posts/chiqindilarni-qayta-ishlash-darajasi-65-foizni-tashkil-etgan_908783
+24. China Daily (Ningbo), 06.05.2026 — Qashqadaryo zavodi (yiliga 500 ming tonnadan ortiq chiqindi, 342 mln kilovatt-soat, 180 ming tonna CO₂ kamayishi) hamda mamlakat bo'yicha qayta ishlash bahosi: manbada «recycling rates estimated at just 4 to 5 percent». https://ningbo.chinadaily.com.cn/2026-05/06/c_1180598.htm
+25. qalampir.uz — yillik maishiy chiqindi hajmi 7 mln tonna atrofida. https://www.qalampir.uz/uz/news/7-mln-tonna-uzbekistonda-chik-indi-%D2%B3osil-bulishi-kupaygan-54753
+26. president.uz, 30.04.2026 — chiqindilarni boshqarish bo'yicha taqdimot (WtE loyihalari va xavfli chiqindi platformasi). https://president.uz/uz/lists/view/9163
 
 ---
 
-## 10. Nashr variantlari
+## 11. Nashr variantlari
 
 **Sarlavha alternativalari:** «Kim nima chiqarayotganini kim biladi?» (joriy); «Uch raqam, bir savol: chiqindi hisobida ishonch masalasi»; «Ko'k zona: ma'lumot yo'qligini yashirmaslik siyosati».
 
 **Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 5- va 6-rasmlar saqlanishi tavsiya etiladi (huquqiy taqvim, hajm bo'yicha ko'rsatkichlar, qayta ishlash darajasi, portal datasetlari, e'lon qilish sxemasi, to'rt rangli zonalash); 7-, 8-, 9- va 10-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (murojaat jarayoni, ishonch qavatlari, poligonlar tarmog'i, chiqindidan energiya).
+
+**Nashr uchun rasmiy blok (inglizcha).**
+**Title:** Who knows what is being generated? The openness of waste accounting in Uzbekistan.
+**Abstract.** Uzbekistan operates several different annual waste figures at the same time: about 7 million tonnes in official statistics, 14 million tonnes of waste delivered to landfills, and around 15 million tonnes in international estimates; the recycling rate varies between 3–4 and 6.5 per cent depending on the source, with a separate 6.6 per cent figure for the plastics stream alone. The article argues that the problem is not weak enforcement but undisclosed accounting methodology, and it proposes mandatory disclosure through a single registry feeding five publication channels (official website, open API, messenger bot, automated press release and a map layer) together with four-colour zoning, which includes an explicit "no data" colour, a ten-working-day response deadline for citizen complaints and an open archive. The 2026 practice — landfill reduction policy, six waste-to-energy plants and hazardous waste reporting — is analysed as well.
+**Keywords:** waste accounting; recycling; waste-to-energy (WtE); open data; PRTR; four-colour zoning; Aarhus Convention; anomaly detection; automated text generation (RAG); explainable AI; Uzbekistan.
 
 **Juftlik:** maqolaning birinchi qismi — emissiya o'lchovi ishonchi — Maqola 1 («Raqam ishonchsiz bo'lsa, jazo ham adolatsiz») sifatida alohida nashr etiladi. Ikki maqolada tavsiyalar (1–6 va 7–12), ochiq savollar (1–5 va 6–11) va muhokama nuqtalari (1–5 va 6–10) yagona ro'yxat sifatida raqamlangan.

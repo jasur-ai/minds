@@ -11,7 +11,7 @@ sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 
 **Annotatsiya.** 2026-yil 1-martdan O'zbekistonda atrof-muhitga ta'siri bo'yicha I va II toifaga mansub sanoat korxonalari atmosfera tashlanmalarini avtomatik o'lchash stansiyalari bilan jihozlashi majburiy bo'ldi. Shu paytdan boshlab o'lchangan raqam bevosita moliyaviy oqibatga ega bo'ldi: me'yordan oshgan tashlanma uchun kompensatsiya to'lovi, rag'bat rejimida esa to'lovlarning bir qismini qaytarish. Maqola o'lchov zanjirini (kontsentratsiya × oqim × vaqt → koeffitsient → summa) bo'g'inma-bo'g'in tahlil qiladi va zanjirdagi eng katta noaniqlik oqim o'lchagichida ekanini ko'rsatadi: xalqaro adabiyotda qayd etilgan qiymatlar 5–17% (AQSh sharoitida), AQSh energetika korxonalarida o'tkazilgan sinovlarda esa ayrim hollarda 20% gacha musbat siljish aniqlangan. Amaldagi tartib esa yagona chegaraga tayanadi va o'lchov noaniqligini huquqiy jihatdan tan olmaydi; natijada chegaraga yaqin turgan korxona uchun bir xil o'lchov natijasi ikki xil xulosaga — me'yor yoki huquqbuzarlik — olib kelishi mumkin. Maqola uch qismli javob taklif qiladi: noaniqlikni e'lon qilish (I qism), xatoni jarimadan ajratuvchi himoya mexanizmi (II qism) va pul oqimini shu asosda ko'rinadigan qilish (III qism). Taklifning yadrosi — JCGM 106 va ILAC-G8 andozalariga mos uch zonali qoida hamda to'lov bazasini hisoblashda qo'llaniladigan tushuntirish kartasi.
 
-**Kalit so'zlar:** emissiya monitoringi · o'lchov noaniqligi · oqim o'lchagichi · kompensatsiya to'lovi · apellyatsiya · JCGM 106 · ILAC-G8 · ISO/IEC 17025 · O'zbekiston
+**Kalit so'zlar:** emissiya monitoringi · o'lchov noaniqligi · oqim o'lchagichi · uch zonali qoida · kompensatsiya to'lovi · apellyatsiya · anomaliya aniqlash · mashinali o'qitish (nazoratsiz usullar) · XAI · JCGM 106 · ILAC-G8 · ISO/IEC 17025 · O'zbekiston
 
 **Muallif:** Jasur · **Sana:** 2026-09-29
 
@@ -25,7 +25,7 @@ O'lchovning pulga aylanishi bir necha kanal orqali sodir bo'ladi. Birinchidan, m
 
 Demak, bir o'lchov natijasi bir vaqtning o'zida ham jazo, ham rag'bat manbai bo'lishi mumkin. Bu holat o'lchov sifatiga yangi talab qo'yadi: raqam nafaqat «to'g'ri», balki **tekshiriladigan va e'tiroz bildiriladigan** bo'lishi kerak. Amaliyotda esa ko'rsatkichlar boshqacha: 2026-yilda ekologik politsiya 750 ta korxonada tekshiruv o'tkazib, tabiatga yetkazilgan 1 trln 386 mlrd so'm miqdoridagi zararni hisobladi, 500 ga yaqin mansabdor shaxsga ma'muriy jarima qo'llanildi (Sputnik O'zbekiston, 05.08.2026). 2025-yil davomida ekologiya sohasida qariyb 59 ming huquqbuzarlik qayd etilgan (gazeta.uz, 01.05.2026). Hajmlar katta — shuning uchun o'lchov ishonchi masalasi nazariy emas, moliyaviy masala.
 
-Maqolaning markaziy savoli shunday: **chegaraga yaqin turgan korxona uchun o'lchov xatosi normami yoki huquqbuzarlikmi — va buni kim, qanday mezon bilan hal qiladi?** Quyida avval o'lchov zanjiri tahlil qilinadi (I qism), so'ng xatoni jazodan ajratuvchi himoya mexanizmi taklif etiladi (II qism), oxirida pul oqimining shu asosda qanday ko'rinadigan qilinishi ko'rsatiladi (III qism).
+Maqolaning markaziy savoli shunday: **chegaraga yaqin turgan korxona uchun o'lchov xatosi normami yoki huquqbuzarlikmi — va buni kim, qanday mezon bilan hal qiladi?** Quyida avval o'lchov zanjiri tahlil qilinadi (I qism), so'ng xatoni jazodan ajratuvchi himoya mexanizmi taklif etiladi (II qism), oxirida pul oqimining shu asosda qanday ko'rinadigan qilinishi ko'rsatiladi (III qism). Alohida bo'lim (8-bo'lim) masshtab masalasiga bag'ishlanadi: 2 335 obyekt va o'nlab o'lchov parametri bilan ishlaydigan tizimni faqat qo'lda boshqarish amalda imkonsiz — bu savol avtomatlashtirish va anomaliya aniqlash usullariga olib keladi.
 
 ---
 
@@ -50,17 +50,17 @@ Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (1-jadval; 2-r
 
 | Bo'g'in | Noaniqlik / siljish | Manba |
 |---|---|---|
-| Gaz tahlili (kontsentratsiya) | ~3% | uskuna texnik hujjatlari (xalqaro amaliyot) |
-| Namuna olish tizimi | ≤1% | xalqaro amaliyot kuzatuvlari (adabiyot kesimi) |
-| Etalon va kalibrovka | ±0,7% | etalon gazlari sertifikatlari (metrologik amaliyot) |
+| Gaz tahlili (kontsentratsiya) | kalibrovka siljishi ≤2,5% span | EPA PS-2 (40 CFR 60, ilova B) |
+| Butun CEMS (namuna olish interfeysi bilan) | kalibrovka xatosi ≤5% span | EPA PS-2, 13.2-band |
+| Etalon va kalibrovka | ±0,7% | sertifikatlangan etalon gazlar (ishlab chiqaruvchi sertifikati) |
 | **Oqim o'lchagichi (USM, S-probe)** | **5–17%** (AQSh sharoitida) | Sarunac va boshq. (Lehigh University), 2004; chet el sinovlari — ⚠️ milliy ko'rsatkich emas |
 | Uskuna almashtirilganda | ayrim hollarda 20% gacha musbat siljish | Sarunac va boshq. (Lehigh University), 2004 |
 
-**1-jadval.** O'lchov zanjiri bo'g'inlaridagi noaniqlik darajalari (xalqaro manbalar asosida; ⚠️ — chet el sharoitida olingan qiymat).
+**1-jadval.** O'lchov zanjiri bo'g'inlaridagi noaniqlik darajalari (xalqaro manbalar asosida; ⚠️ — chet el sharoitida olingan qiymat). Birliklarga e'tibor bering: xalqaro talablar **span** (o'lchov diapazoni) qiymatiga nisbatan, manbalardagi 5–17% esa **o'qish** qiymatiga nisbatan berilgan — bu ikki kattalikni to'g'ridan-to'g'ri qo'shib bo'lmaydi.
 
 Eng katta noaniqlik oqim bo'g'inida to'planadi — «qancha gaz o'tdi» degan savolda.
 
-⚠️ **Metodik izoh.** Jadvaldagi qiymatlar xalqaro manbalardan olingan: ular O'zbekiston korxonalarida o'tkazilgan o'lchovlar emas, balki zanjirda xato qayerda to'planishi mumkinligini ko'rsatuvchi ma'lumot. Xususan, 5–17% diapazoni AQSh sharoitida bajarilgan sinovlarga asoslanadi. Shu sababli bu sonlar milliy fakt sifatida emas, **tekshirilishi kerak bo'lgan gipoteza** sifatida ishlatiladi: I toifa korxonalarida davriy nisbiy aniqlik sinovlari o'tkazilib, natijalari e'lon qilinsa, O'zbekiston uchun haqiqiy diapazon aniqlanadi (shu yo'nalishdagi savol — 9-bo'limning 3-bandi).
+⚠️ **Metodik izoh.** Jadvaldagi qiymatlar xalqaro manbalardan olingan: ular O'zbekiston korxonalarida o'tkazilgan o'lchovlar emas, balki zanjirda xato qayerda to'planishi mumkinligini ko'rsatuvchi ma'lumot. Xususan, 5–17% diapazoni AQSh sharoitida bajarilgan sinovlarga asoslanadi. Shu sababli bu sonlar milliy fakt sifatida emas, **tekshirilishi kerak bo'lgan gipoteza** sifatida ishlatiladi: I toifa korxonalarida davriy nisbiy aniqlik sinovlari o'tkazilib, natijalari e'lon qilinsa, O'zbekiston uchun haqiqiy diapazon aniqlanadi (shu yo'nalishdagi savol — 10-bo'limning 3-bandi).
 
 ![2-rasm](png/K3.png)
 
@@ -208,7 +208,7 @@ Demak, o'lchov natijasi me'yor chegarasida (x̄ = L) bo'lsa ham, haqiqiy qiymat 
 
 Moliyaviy oqibatni koeffitsient orqali ko'rsatish mumkin: O'RQ-1143 bo'yicha kompensatsiya to'lovi besh baravargacha oshirilgani uchun, chegarada turgan korxona uchun asossiz hisoblanishi mumkin bo'lgan to'lov miqdori taxminan
 
-**5 × 0,21 = 1,05**, ya'ni me'yordagi tashlanma uchun hisoblangan to'lovning to'liq hajmiga teng bo'lishi mumkin.
+**5 × 0,21 = 1,05**. Bu yerda 5 — O'RQ-1143 bo'yicha kompensatsiya to'lovining maksimal oshirish koeffitsiyenti (besh baravar), 0,21 esa nisbiy noaniqlik (U ning L ga nisbati). Ko'paytirish ma'nosi shu: chegara atrofidagi o'lchov xatosi bazaviy to'lovga nisbatan ~21% hajm beradi, besh baravar koeffitsiyent qo'llanganda esa **asossiz hisoblanishi mumkin bo'lgan ortiqcha to'lov bazaviy to'lovning taxminan bir baravariga (1,05) aylanadi** — ya'ni korxona me'yorda turib ham ikki baravar to'lov bilan yuzlashishi mumkin.
 
 Bu hisob-kitobning real masshtabini ko'rsatadigan misol bor: 2026-yil may oyida Muborak gazni qayta ishlash zavodiga ekologik qonunbuzarliklar uchun 10 mlrd 834 mln so'm miqdorida qo'shimcha kompensatsiya belgilangani e'lon qilindi (gazeta.uz va spot.uz, 13.05.2026). Bunday summalarda 20% noaniqlik qariyb 2,2 mlrd so'mga teng (10 834 mln × 0,20 = 2 167 mln). Albatta, har bir holatda noaniqlikning haqiqiy qiymati o'lchash tizimiga bog'liq; maqsad aniq raqamni talab qilish emas, **noaniqlik hisobga olinmagan qarorning moliyaviy narxini ko'rsatish**.
 
@@ -224,13 +224,42 @@ Bu hisob-kitobning real masshtabini ko'rsatadigan misol bor: 2026-yil may oyida 
 
 **4.** Xarajat masalasi. Maqolada keltirilgan bloklar xarajatni oshkor qiladi, lekin O'zbekiston uchun eng real yo'l — bosqichma-bosqich o'rnatish: avval I toifa va yuqori emissiyali tarmoqlar (energetika, sement, metallurgiya), keyin qolgan obyektlar. To'rt blokli tuzilma shu bosqichlashning byudjet asosi bo'lishi mumkin.
 
-**5.** Ushbu muammoning texnologik qatlami bor: sariq zona avtomatik ravishda yuzaga keladigan ma'lumotlar oqimini talab qiladi. Vaqt qatorlaridagi anomaliyalarni aniqlash usullari (statistik usullar, keyin mashinali o'qitish modellari) aynan shu ish uchun mos: uskunaning ishonchsizligi davrlarini, kalibrovka siljishini va noodatiy emissiya rejimlarini oldindan belgilash mumkin. Bu yerda ikkita shart qat'iy: model raqamni o'zgartirmaydi, faqat tekshiruvga yuboriladigan ishni tartibga soladi; qaror qabul qilish vakolati insonda qoladi. Ayni paytda jahon amaliyoti ham shu yo'nalishda shakllanmoqda: Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi. O'zbekiston uchun bu qatlamning amaliy qiymati birinchi navbatda tekshiruv resursini to'g'ri taqsimlashda — 2 335 obyektni qo'lda kuzatish imkonsiz.
+**5.** Texnologik qatlam. Sariq zona avtomatik ravishda yuzaga keladigan ma'lumotlar oqimini talab qiladi: kunlik o'lchovlar, kalibrovka yozuvlari va hisobot ma'lumotlarini qo'lda tekshirish 2 335 obyektda imkonsiz. Bu masala keyingi bo'limda alohida ko'rib chiqiladi — qaysi texnikalar ishlatiladi, ular nima qiladi va nima qilmaydi (8-bo'lim).
 
 *(Muhokama nuqtalari 1–5; ro'yxatning davomi — Maqola 2 da, 6–10.)*
 
 ---
 
-## 8. Xulosa va tavsiyalar
+## 8. AI/ML qatlami: nega kerak va qaysi chegarada
+
+Muhokamaning texnologik bandi alohida bo'limga arziydi, chunki taklif etilayotgan uch zonali tizim ma'lumot oqimini avtomatik qayta ishlashni nazarda tutadi — bu aynan sun'iy intellekt va mashinali o'qitish (ML) masalasidir.
+
+**Miqyos.** Bir tomonda O'zbekistonning 2 335 obyekti va 347 fon stansiyasi; ikkinchi tomonda xalqaro amaliyot. Xitoyning milliy uglerod savdo tizimi 2025-yil martdagi kengayishdan keyin 3 680 ta obyektni qamraydi (2 087 energetika, 962 sement, 232 metallurgiya, 97 alyuminiy korxonasi) va bu mamlakat emissiyalarining 60 foizdan ortig'ini tashkil qiladi (ICAP, 2025; gov.cn, 27.03.2025). Yevropa Ittifoqining savdo tizimi esa qariyb 10 ming statsionar qurilmani qamraydi (Yevropa Komissiyasi; ICAP hisobida 8 704 qurilma, 2024). Bu hajmdagi tizimlarda ko'rsatkichlarni qo'lda tekshirish amaliyotda mumkin emas — yetakchi tizimlar monitoring, hisobot va verifikatsiya (MRV) jarayonini avtomatlashtirishga o'tgan. O'zbekiston ko'lami Xitoyning elektr energetikasi sektori boshlang'ich ko'rsatkichiga (2 087 obyekt) yaqin, ya'ni masala nazariy emas.
+
+**Qaysi texnikalar mos.** Taklif etilayotgan zonalar tizimiga to'rtta aniq ML vazifasi to'g'ri keladi (3-jadval):
+
+| Vazifa | Texnika | Nega aynan shu |
+|---|---|---|
+| Yuzlab obyekt orasidan birinchi navbatda tekshirilishi keraklilarini ajratish | **Isolation Forest / One-Class SVM** — nazoratsiz anomaliya aniqlash | Yorliqlangan «buzilish» holatlari yo'q; nazoratsiz usullar aynan shu sharoit uchun ishlab chiqilgan |
+| Kalibrovka siljishi va uskuna eskirishi kabi sekin dreyfni aniqlash | **Vaqt qatori dekompozitsiyasi (STL) + qoldiq chegarasi; LSTM-autoencoder** | Dreyf nuqta-anomaliya emas: trend va mavsumiylikdan ajratilgan qoldiqda qidiriladi |
+| Tushuntirish kartasida «nega bu qaror chiqdi»ni ko'rsatish | **Explainable AI (XAI): SHAP qiymatlari yoki feature importance** | Karta aynan shu tamoyilni amalga oshiradi — qaror asosi raqamli dalil bilan ochiladi |
+| O'lchovni ishlab chiqarish hajmi va energiya balansi bilan solishtirish | **Ko'p manbali ma'lumot sintezi (data fusion) va o'zaro tekshiruv** | Mustaqil manbalar birgalikda ma'lumotni yashirishni qimmatlashtiradi |
+
+**3-jadval.** Muammo — texnika — asos jadvali (xalqaro adabiyot asosida).
+
+**Adabiyot nima deydi.** Xitoyning kimyoviy sanoat parkida o'tkazilgan tadqiqot (Xu va boshq., Environment International, 2025) 31 korxonaning 107 chiqindi oqimi bo'yicha 17 modelni sinab ko'rdi: eng yaxshi natijani Random Forest berdi. Muhim natija shunda: vaqt kesimida 334 ta rejim o'zgarishi 90 foiz ishonch bilan aniqlandi, ammo shulardan faqat 24 tasi nazorat organlarining rasmiy yozuvlariga to'g'ri keldi — ya'ni algoritmik aniqlash nazoratni takrorlamaydi, balki uni to'ldiradi. Xitoy uglerod savdo tizimi sharoitida CEMS ma'lumot sifati uchun ramka taklif etgan Song va boshqalar (Environmental Impact Assessment Review, 2025) anomaliya aniqlash, kalibrovkani shartga bog'lash va bo'shliqlarni to'ldirish (imputation) bosqichlarini birlashtiradi; ramka Shandun issiqlik elektr stansiyasida sinovdan o'tgan. Umumiy uslubiy asos sifatida Nassif va boshqalarning (IEEE Access, 2021) 290 tadqiqotni qamrab olgan anomaliya aniqlash sharhi keltirilishi mumkin.
+
+**Chegara va risklar.** Model raqamni o'zgartirmaydi, faqat ishlarni tartiblaydi va tekshiruvga yo'naltiradi; qaror qabul qilish vakolati insonda qoladi. Bu ataylab shunday, chunki kamida uch turdagi risk real:
+
+- **Yolg'on signal muvozanati.** Model chegarasi qat'iyroq bo'lsa, tekshiruv yuklamasi oshadi; yumshoqroq bo'lsa, buzilishlar o'tib ketadi. Aynan shu sababli ikkilik «jazo bor/yo'q» o'rniga uch zonali javob taklif etiladi: ehtimoliy holat jazo emas, qo'shimcha tekshiruv tug'diradi. Xitoyning sement zavodlarida o'tkazilgan amaliy tadqiqot ko'rsatadiki, 2 foiz va undan yuqori hajmdagi ma'lumot buzilishlari 90 foizdan yuqori aniqlikda topiladi, yolg'on signal darajasi esa 3 foizdan past ushlab turiladi (Wu va boshq., Processes, 2026).
+- **Model dreyfi.** Uskunalar, xom ashyo tarkibi va hisobot qoidalari o'zgarishi bilan model aniqligi pasayadi; shuning uchun davriy qayta o'qitish (retraining) va uning natijalarini e'lon qilish majburiy jarayon bo'lishi kerak.
+- **Tushuntirish huquqi.** Avtomatik qaror ustidan tushuntirish olish huquqi Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 86-moddasida (2026-yil 2-avgustdan kuchda) mustahkamlangan; tushuntirish kartasi shu talab bilan ham uyg'un.
+
+Model tanlash, ma'lumot sxemasi va ishlab chiqish bosqichlari ushbu maqolaning predmeti emas — bu loyiha hujjati (TZ-1) darajasidagi masala. Maqola faqat asosiy savolga javob beradi: qaysi hollarda raqam qaror uchun yetarli asos bo'ladi va bu javobni avtomatlashtirish qaysi chegarada qolishi kerak.
+
+---
+
+## 9. Xulosa va tavsiyalar
 
 O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy jihatdan to'liq shakllandi: VM-783, VM-85, PF-16, PQ-343, O'RQ-1143. Keyingi masala — bu tizimning **ishonch arxitekturasi**, ya'ni raqamning qanday holatlarda qaror uchun yetarli asos bo'lishi.
 
@@ -241,11 +270,11 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 3. **Tushuntirish kartasini joriy etish.** Har bir jazo qarori 12 maydonli karta bilan birga berilsin (ISO/IEC 17025:2017, 7.8.6).
 4. **Mustaqil qayta o'lchov kvotasi.** Qizil signallarning kamida 5 foizi ILAC o'zaro tan olish doirasidagi laboratoriyada tekshirilsin.
 5. **Rag'bat zinapoyasini uzluksiz qilish.** 50% va 70% orasidagi oraliq mezonlar, muddatning boshlanish sanasi va «o'rnatilgan uskuna» tushunchasi aniq belgilansin; dastlabki olti oyda tezlashtirilgan qaytarish tartibi joriy etilsin.
-6. **Choraklik aniqlik hisoboti.** Besh ko'rsatkich doimiy e'lon qilib borilsin; hisobot o'lchov sifatining tashqi nazorati vazifasini o'tasin.
+6. **Choraklik aniqlik hisoboti.** Besh ko'rsatkich doimiy e'lon qilib borilsin (3-jadvaldagi avtomatik anomaliya signallari bilan birgalikda); hisobot o'lchov sifatining tashqi nazorati vazifasini o'tasin.
 
 ---
 
-## 9. Ochiq savollar
+## 10. Ochiq savollar
 
 *(Savollar 1–5; davomi — Maqola 2 da, 6–11.)*
 
@@ -257,9 +286,9 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 
 ---
 
-## 10. Manbalar
+## 11. Manbalar
 
-**Manbalar va usul.** Dalillar uch darajaga ajratilgan: **R** — rasmiy hujjatlar va davlat organlari ma'lumotlari; **A** — xalqaro andozalar va mustaqil tadqiqotlar; **M** — media va ochiq manbalar. Ma'lumotlar 2026-yil sentabr holatiga to'plangan. Chet el sharoitida olingan qiymatlar ⚠️ bilan belgilanadi va milliy fakt sifatida ishlatilmaydi; mustaqil tasdiqlanmagan raqamlar matnda shunday izoh bilan beriladi. Muallifning o'z hisob-kitoblari matnda alohida ko'rsatilgan.
+**Manbalar va usul.** Dalillar uch darajaga ajratilgan: **R** — rasmiy hujjatlar va davlat organlari ma'lumotlari; **A** — xalqaro andozalar, regulyator talablari va hakamlik ko'rigidan o'tgan tadqiqotlar; **M** — media va ochiq manbalar. Ma'lumotlar 2026-yil sentabr holatiga to'plangan. Chet el sharoitida olingan qiymatlar ⚠️ bilan belgilanadi va milliy fakt sifatida ishlatilmaydi. Muallifning o'z hisob-kitoblari matnda alohida ko'rsatilgan.
 
 **Rasmiy hujjatlar va davlat ma'lumotlari (R)**
 
@@ -269,41 +298,52 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 4. PF-46-son farmon, 25.03.2026 — «Toza havo» umummilliy loyihasini amalga oshirish chora-tadbirlari. https://lex.uz/uz/docs/-8101201
 5. PQ-343-son qaror, 18.11.2025 — o'rnatish muddatlari, yagona platforma va sohaviy jamg'arma parametrlari (4-, 7-, 8-ilovalar). https://lex.uz/uz/docs/-7847341
 6. 202-son Nizom — kompensatsiya to'lovlari tartibi (201-band: koeffitsiyentlar; 301-band: rag'bat shartlari, 36 oy). https://lex.uz/uz/docs/-5367873
-7. O'RQ-1143-son qonun, 04.05.2026 — ekologik huquqbuzarliklar bo'yicha javobgarlikni kuchaytirish (kompensatsiya to'lovlari besh baravargacha; jarima tarzidagi moliyaviy sanksiyalar toifa bo'yicha). https://lex.uz/docs/8169998
+7. O'RQ-1143-son qonun, 04.05.2026 — ekologik huquqbuzarliklar bo'yicha javobgarlikni kuchaytirish. https://lex.uz/docs/8169998
 8. O'RQ-457-son qonun, 08.01.2018 — «Ma'muriy tartib-taomillar to'g'risida» va MJTK — murojaat va apellyatsiya muddatlari (30 ish kuni; 10/60 kun). https://lex.uz/docs/-3492199
 9. Senat ma'lumoti (SQ-844-IV), 20.12.2023 — 44 korxonada 69 avtomatik stansiya va 27 kuzatuv punkti. https://lex.uz/docs/-6733055
+10. ICAP, 2025; Xitoy hukumati axborot portali (gov.cn / China Daily), 27.03.2025 — Xitoy milliy uglerod savdo tizimining kengayishi: 3 680 ta obyekt (2 087 energetika, 962 sement, 232 metallurgiya, 97 alyuminiy), emissiyalarning 60 foizdan ortig'i. https://icapcarbonaction.com/en/news/china-officially-expands-national-ets-cement-steel-and-aluminum-sectors · https://english.www.gov.cn/news/202503/27/content_WS67e508a1c6d0868f4e8f13a1.html
+11. Yevropa Komissiyasi — «Scope of the EU ETS»: qariyb 10 000 statsionar qurilma; ICAP hisobida 8 704 qurilma (2024). https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets/scope-eu-ets_en
 
-**Andozalar va mustaqil tadqiqotlar (A)**
+**Andozalar, regulyator talablari va tadqiqotlar (A)**
 
-10. JCGM 106:2012 — «Evaluation of measurement data — The role of measurement uncertainty in conformity assessment» (qabul/rad zonalari).
-11. ILAC-G8:09/2019 — «Guidelines on decision rules and statements of conformity» (himoya zonasi, w = U).
-12. ISO/IEC 17025:2017 — sinov laboratoriyalari kompetentligi; 7.8.6-band: hisobotda noaniqlik ko'rsatilishi sharti.
-13. Sarunac, N., Romero, C.E., Levy, E.K., Bilirgen, H. (2004). «Factors affecting CEM measurement accuracy and recommendations for improvement». Lehigh University Energy Research Center (AQSh); OSTI 20501708. — oqim o'lchagichlari va namuna olish zondlaridagi musbat siljish (ayrim hollarda 20% gacha), tuzatishdan keyin ortiqcha hisob-kitobning 15 foiz punktdan ko'proq kamayishi, qoldiq siljish 1–2%.
-14. Kanadaning CEMS protokoli (Environment Canada) — oqim monitori uchun RATA ≤10%, siljish ≤5% FS; siljish chegaradan oshsa, ma'lumotlarga tuzatish kiritish tartibi.
-15. EPA CAMD (AQSh) — nisbiy aniqlik sinovi (40 CFR 22) va kalibrovka amaliyoti.
+12. JCGM 106:2012 — «Evaluation of measurement data — The role of measurement uncertainty in conformity assessment» (qabul/rad zonalari).
+13. ILAC-G8:09/2019 — «Guidelines on decision rules and statements of conformity» (himoya zonasi, w = U).
+14. ISO/IEC 17025:2017 — sinov laboratoriyalari kompetentligi; 7.8.6-band: hisobotda noaniqlik ko'rsatilishi sharti.
+15. Sarunac, N., Romero, C.E., Levy, E.K., Bilirgen, H. (2004). «Factors affecting CEM measurement accuracy and recommendations for improvement». Lehigh University Energy Research Center (AQSh); OSTI 20501708.
+16. Kanadaning CEMS protokoli (Environment Canada) — oqim monitori uchun RATA ≤10%, siljish ≤5% FS; siljish chegaradan oshsa, tuzatish kiritish tartibi.
+17. EPA (AQSh), 40 CFR 60, ilova B — Performance Specification 2: kalibrovka siljishi ≤2,5% span, kalibrovka xatosi ≤5% span; EPA CAMD amaliyoti. https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-60/appendix-Appendix%20B%20to%20Part%2060
+18. Xu, Z., Shi, X., Shu, W., Xin, Y., Zan, X., Si, Z., Cheng, J. (2025). «Machine learning classifiers to detect data pattern change of continuous emission monitoring system: A typical chemical industrial park as an example». *Environment International*, 201, 109594. DOI 10.1016/j.envint.2025.109594 — 17 model sinovi; 334 rejim o'zgarishi (90% ishonch), shundan 24 tasi nazorat yozuvlariga mos kelgan.
+19. Song, Y., Luo, X., Lu, Y., Qian, J., Zhang, W., Liu, L., Huang, J., Zhao, X., Zhang, D. (2025). «Improving the data quality of CO₂ continuous emissions monitoring systems: In the context of China's emissions trading scheme». *Environmental Impact Assessment Review*, 115, 108037. DOI 10.1016/j.eiar.2025.108037 — anomaliya aniqlash, kalibrovka va bo'shliqlarni to'ldirish ramkasi (Shandun issiqlik elektr stansiyasi).
+20. Nassif, A.B., Abu Talib, M., Nasir, Q., Dakalbab, F.M. (2021). «Machine learning for anomaly detection: a systematic review». *IEEE Access*, 9, 78658–78700. DOI 10.1109/ACCESS.2021.3083060 — 290 tadqiqotni qamrab olgan uslubiy sharh.
+21. Wu, T., Fan, J. va boshq. (2026). «An Improved Carbon Dioxide Monitoring Method Related to China's Carbon Emissions Trading System in Cement Plants». *Processes*, 14(3), 554. DOI 10.3390/pr14030554 — 2% va undan yuqori buzilishlar 90%+ aniqlikda, yolg'on signal <3%.
 
 **Media va ochiq manbalar (M)**
 
-16. gazeta.uz, 01.05.2026 — ekologik zarar uchun jarimalar oshirilishi; 2025-yilda qariyb 59 ming huquqbuzarlik. https://www.gazeta.uz/oz/2026/05/01/eco/
-17. gazeta.uz, 05.05.2026 — O'RQ-1143: yuridik shaxslarga nisbatan jarimalar karrasiga oshirilishi. https://www.gazeta.uz/oz/2026/05/05/ekologiya/
-18. gazeta.uz, 02.03.2026 — VM-85 nizomi: qarzdorlikdan voz kechish va to'lovlarning bir qismini qaytarish. https://www.gazeta.uz/oz/2026/03/02/eco/
-19. gazeta.uz, 24.03.2026 — «Toza havo» loyihasi: PM2,5 bo'yicha yaxshilanish, monitoring postlari va yagona geoaxborot tizimi. https://www.gazeta.uz/oz/2026/03/24/ecology/
-20. gazeta.uz, 13.05.2026 — Muborak GQIZga 10 mlrd 834 mln so'm qo'shimcha kompensatsiya. https://www.gazeta.uz/oz/2026/05/13/muborak/
-21. spot.uz, 13.05.2026 — Muborak GQIZ: 10,8 mlrd so'm kompensatsiya.
-22. Sputnik O'zbekiston, 05.08.2026 — 750 korxona tekshiruvi: 1 trln 386 mlrd so'm zarar, 500 ga yaqin mansabdor shaxsga jarima. https://oz.sputniknews.uz/20260805/uzbekistan-korxona-ekologiya-zarar-59509079.html
-23. gazeta.uz, 16.09.2026 — 2026-yil I yarim yillikda sohaviy jamg'armaga 274 mlrd so'm. https://www.gazeta.uz/oz/2026/09/16/budget-2026/
-24. uza.uz, 15.09.2026 — byudjetning yarim yillik ijrosi: ekologiya yo'nalishiga 274 mlrd so'm. https://uza.uz/oz/posts/davlat-byudjetining-yarim-yillikdagi-ijrosi-qanday-baholandi_909226
-25. uza.uz, 29.11.2025 — I toifadagi 9 sement zavodida avtomatik kuzatuv stansiyalari ish boshlagani.
-26. kun.uz, 25.11.2025 — 347 ta fon stansiyasi to'g'ridan-to'g'ri shartnomalar asosida xarid qilinishi; «Air Monitoring Uzbekistan» platformasi. https://kun.uz/news/2025/11/25/toshkentda-ekologik-vaziyatni-yaxshilash-uchun-maxsus-komissiya-tuzildi
-27. Anhor, 08.09.2026 — «Zamin» fondi ko'magida 28 ta HORIBA stansiyasi o'rnatilishi. https://anhor.uz/uzl/ekologiya/ozbekistonda-havo-sifati-monitoring-kengaytirish
-28. Applus, Clarity.io, ESEGAS, Accio — CEMS va havo monitoringi uskunalarining xalqaro narx diapazonlari (2026-yil ochiq sahifalari; yo'naltiruvchi ma'lumot).
+22. gazeta.uz, 01.05.2026 — ekologik zarar uchun jarimalar oshirilishi; 2025-yilda qariyb 59 ming huquqbuzarlik. https://www.gazeta.uz/oz/2026/05/01/eco/
+23. gazeta.uz, 05.05.2026 — O'RQ-1143: yuridik shaxslarga nisbatan jarimalar karrasiga oshirilishi. https://www.gazeta.uz/oz/2026/05/05/ekologiya/
+24. gazeta.uz, 02.03.2026 — VM-85 nizomi: qarzdorlikdan voz kechish va to'lovlarning bir qismini qaytarish. https://www.gazeta.uz/oz/2026/03/02/eco/
+25. gazeta.uz, 24.03.2026 — «Toza havo» loyihasi: PM2,5 bo'yicha yaxshilanish, monitoring postlari va yagona geoaxborot tizimi. https://www.gazeta.uz/oz/2026/03/24/ecology/
+26. gazeta.uz, 13.05.2026 — Muborak GQIZga 10 mlrd 834 mln so'm qo'shimcha kompensatsiya. https://www.gazeta.uz/oz/2026/05/13/muborak/
+27. spot.uz, 13.05.2026 — Muborak GQIZ: 10,8 mlrd so'm kompensatsiya.
+28. Sputnik O'zbekiston, 05.08.2026 — 750 korxona tekshiruvi: 1 trln 386 mlrd so'm zarar, 500 ga yaqin mansabdor shaxsga jarima. https://oz.sputniknews.uz/20260805/uzbekistan-korxona-ekologiya-zarar-59509079.html
+29. gazeta.uz, 16.09.2026 — 2026-yil I yarim yillikda sohaviy jamg'armaga 274 mlrd so'm. https://www.gazeta.uz/oz/2026/09/16/budget-2026/
+30. uza.uz, 15.09.2026 — byudjetning yarim yillik ijrosi: ekologiya yo'nalishiga 274 mlrd so'm. https://uza.uz/oz/posts/davlat-byudjetining-yarim-yillikdagi-ijrosi-qanday-baholandi_909226
+31. uza.uz, 29.11.2025 — I toifadagi 9 sement zavodida avtomatik kuzatuv stansiyalari ish boshlagani.
+32. kun.uz, 25.11.2025 — 347 ta fon stansiyasi to'g'ridan-to'g'ri shartnomalar asosida xarid qilinishi; «Air Monitoring Uzbekistan» platformasi. https://kun.uz/news/2025/11/25/toshkentda-ekologik-vaziyatni-yaxshilash-uchun-maxsus-komissiya-tuzildi
+33. Anhor, 08.09.2026 — «Zamin» fondi ko'magida 28 ta HORIBA stansiyasi o'rnatilishi. https://anhor.uz/uzl/ekologiya/ozbekistonda-havo-sifati-monitoring-kengaytirish
+34. Applus, Clarity.io, ESEGAS, Accio — CEMS va havo monitoringi uskunalarining xalqaro narx diapazonlari (2026-yil ochiq sahifalari; yo'naltiruvchi ma'lumot).
 
 ---
 
-## 11. Nashr variantlari
+## 12. Nashr variantlari
 
 **Sarlavha alternativalari:** «Raqam ishonchsiz bo'lsa, jazo ham adolatsiz» (joriy); «Chegaradagi korxona: o'lchov xatosi va huquqiy oqibat»; «2 335 obyekt, 5–17% noaniqlik: emissiya nazoratining ishonch masalasi».
 
 **Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 6-, 7- va 10-rasmlar saqlanishi tavsiya etiladi (o'lchov zanjiri; bo'g'inlar bo'yicha noaniqlik; uch zonali qaror qoidasi; apellyatsiya oqimi; vaqt assimetriyasi; sohaviy jamg'arma; choraklik aniqlik hisoboti). 5-, 8- va 9-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (jazo va rag'bat rejimlari taqqoslanishi; qamrov ko'rsatkichlari; xalqaro narx diapazonlari).
+
+**Nashr uchun rasmiy blok (inglizcha).**
+**Title:** When the number is unreliable, the penalty is unfair: measurement uncertainty in Uzbekistan's industrial emission monitoring.
+**Abstract.** Since 1 March 2026, category I and II industrial enterprises in Uzbekistan are required to install automated monitoring stations whose readings translate directly into financial consequences: compensation payments for exceedances of limits, or partial refunds under the incentive regime. The article analyses the measurement chain (concentration × flow × time → coefficient → payment) and shows that the largest uncertainty accumulates in the flow measurement link: figures reported in the international literature range from 5 to 17 per cent under US conditions, and a Lehigh University study recorded positive bias of up to 20 per cent in some cases. The current regime relies on a single threshold and does not recognise measurement uncertainty as a legal criterion, so an identical reading may lead either to a finding of compliance or to a finding of violation. The paper proposes a three-part response: declaring uncertainty (Part I), a protection mechanism separating error from penalty through a three-zone decision rule (Part II), and making the payment flow visible on that basis (Part III). A worked example and a discussion of the AI/ML layer — unsupervised anomaly detection, time-series drift monitoring and explainable AI — complete the analysis.
+**Keywords:** emission monitoring; measurement uncertainty; flow meter; three-zone decision rule; compensation payments; appeal; anomaly detection; unsupervised machine learning; XAI; Uzbekistan.
 
 **Juftlik:** ushbu maqolaning ikkinchi qismi — chiqindi hisobi va oshkoralik — Maqola 2 («Kim nima chiqarayotganini kim biladi?») sifatida alohida nashr etiladi. Ikki maqola bir-birini to'ldiradi: tavsiyalar (1–6 va 7–12), ochiq savollar (1–5 va 6–11) va muhokama nuqtalari (1–5 va 6–10) yagona ro'yxat sifatida raqamlangan.

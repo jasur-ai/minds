@@ -5,12 +5,12 @@
 
 | Papka | Oxirgi (yakuniy) fayl | Bo'limlar | Rasmlar | Bot |
 |---|---|---|---|---|
-| `Maqola1-CarbonEmission/` | **`Yakuniy-Maqola.md`** | 11 | 10 (1–10-rasm) | `/maqola` |
-| `Maqola2-TrashOrganizer/` | **`Yakuniy-Maqola.md`** | 10 | 10 (1–10-rasm) | `/maqola2` |
+| `Maqola1-CarbonEmission/` | **`Yakuniy-Maqola.md`** | 12 | 10 (1–10-rasm) | `/maqola` |
+| `Maqola2-TrashOrganizer/` | **`Yakuniy-Maqola.md`** | 11 | 10 (1–10-rasm) | `/maqola2` |
 
 ## Maqola 1 — Emissiya o'lchovi ishonchi
 - **`Yakuniy-Maqola.md`** — «Raqam ishonchsiz bo'lsa, jazo ham adolatsiz» (yakuniy, nashrga tayyor)
-  - uch qism: **I** — o'lchov zanjiri, **II** — himoya (uch zonali qoida), **III** — pul (jazo va rag'bat)
+  - uch qism: **I** — o'lchov zanjiri, **II** — himoya (uch zonali qoida), **III** — pul (jazo va rag'bat); AI/ML qatlami (8-bo'lim)
   - hisoblangan misol (§6), metodik izoh (⚠️ chet el ma'lumotlari), to'liq bibliografiya R/A/M
 - `Maqola-EGAZ-BALANS.md` — dalil to'plami (v1, arxiv)
 - `Maqola-v2-Raqam-Qimmatga-Aylanadi.md` — oraliq nusxa (arxiv)
@@ -19,7 +19,7 @@
 
 ## Maqola 2 — Chiqindi hisobi va ochiqlik
 - **`Yakuniy-Maqola.md`** — «Kim nima chiqarayotganini kim biladi?» (yakuniy, nashrga tayyor)
-  - uch qism: **I** — hisob, **II** — e'lon (to'rt rangli zonalash), **III** — ishtirok; undan keyin 2026-yilgi amaliyot (5-bo'lim)
+  - uch qism: **I** — hisob, **II** — e'lon (to'rt rangli zonalash), **III** — ishtirok; 2026-yilgi amaliyot (5-bo'lim); AI/ML qatlami (7-bo'lim)
 - `Maqola-Ochiq-Eko-Ledger.md` — dalil to'plami (v1, arxiv)
 - `Validatsiya-Holati.md` · `Umumiy-Maqola-Tavsifi.md`
 - `png/` (N1–N10)
