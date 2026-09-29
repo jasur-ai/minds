@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: Ishlaydigan prototip: zona dvigateli (4 rang), murojaat moduli (7 holat, SLA), xarita, 125 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), bot kodi, Docker/CI, xarita; 125 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 
@@ -27,9 +27,9 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 | **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **125 test** (zona: 48) |
 | **S3** Xarita va dashboard | `web/map.html`, mobil | ✅ `web/map.html` (o'z-o'zini ta'minlaydi; `/` da jonli) |
 | **S4** LLM matn generatori | prompt_v1.md + verify.py + 100 test-matn | ✅ `src/llm/generate.py` (6 qavat), `src/llm/prompt_v1.md` |
-| **S5** Telegram bot (aiogram) | 6 ssenariy | ⏳ **token kerak** — kod skeleti: `docs/BOT-INTEGRATSIYA.md` (API tayyor) |
+| **S5** Telegram bot (aiogram) | 6 ssenariy | ✅ **to'liq kod:** `scripts/bot.py` (FSM, lokatsiya, dublikat-javobi, SLA buyruqlari) — ishga tushirish uchun token kerak |
 | **S6** Murojaat moduli | 7 holat, SLA, 25+ test | ✅ `src/murojaat/service.py` |
-| **S7** Test/demo/hujjat | CI, demo, hisobot | ✅ demo + hisobot + docs (CI badge — keyingi qadam) |
+| **S7** Test/demo/hujjat | CI, demo, hisobot | ✅ `Dockerfile` · `docker-compose.yml` (bot profili) · `.github/workflows/ci.yml` · `docs/architecture.md` · `docs/limitations.md` · `docs/DEMO-SSENARIYLAR.md` (3 video skript) |
 
 ## 2. Zona dvigateli — demo natijasi (TZ §5, rule_version 1.0)
 
@@ -72,7 +72,28 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 | `reports/DEMO-NATIJA.md` | to'liq demo hisoboti |
 | `tests/` (4 fayl) | **125 test — barchasi o'tadi** |
 
-## 6. Cheklovlar va keyingi qadam
+## 6. S5/S7 yakuni (professional paket)
+
+- **S5 bot — to'liq kod** (`scripts/bot.py`, aiogram 3): 6 ssenariy — `/start`, `/holat`, `/xarita`,
+  `/murojaat` (FSM: kategoriya → tavsif 30+ → lokatsiya → telefon), `/kuzatish`, `/sla`;
+  dublikat birlashganda foydalanuvchiga tushunarli javob beradi. Bot — yupqa klient, DB'ga tegmaydi.
+  Ishga tushirish: `export ECO_BOT_TOKEN=... && make bot` (yoki `docker compose --profile bot up`).
+- **S7 paketi:** Docker (healthcheck bilan), CI (125 test + demo smoke), `docs/architecture.md`
+  (5 qatlam ↔ fayl xaritasi + 5 dizayn qarori), `docs/limitations.md` (7 band), 3 demo-video skripti.
+
+### 6.1. Huquqiy bog'lanish (har bir mexanizm qaysi hujjatga xizmat qiladi)
+
+| Mexanizm | Prezident hujjati | Nima beradi |
+|---|---|---|
+| Ochiq e'lon (xarita + 5 kanal) | **PQ-184** (15.05.2025 — 01.12.2025 dan baza ochiq), **PF-149** (26.09.2024) | e'lon ixtiyor emas, talab — loyiha uni bajaradigan qatlam |
+| Hisob va manba | **PF-5** (04.01.2024), **PF-56** (24.03.2025 — yagona elektron hisob), **PQ-4291** | ma'lumot oqimi davlat tizimidan keladi |
+| Murojaat va SLA | **PF-217** (18.11.2025 — aholi talablariga tezkor javob), **O'RQ-457** (30 ish kuni) | 10 kunlik standart ikkalasidan qat'iyroq — islohotning ko'rinadigan natijasi |
+| Zona/severity va sanksiya uyg'unligi | **PF-217** (01.04.2026 sanksiya tartibi), **202-son Nizom** | «sezilarli oshib ketish» mezoni jazo amaliyotiga mos |
+| LLM qatlami | **PQ-358** (14.10.2024), **PF-189**/**PQ-320** (2025), **VM-425** (10.07.2025) | LLM institutsional qo'llab-quvvatlash doirasida; 6 qavat verifikatsiya |
+| Platforma handover | **PQ-343** (18.11.2025 — platforma 01.09.2026ga qadar; kechiktirishga 5×) | MVP tayyor bo'lganda yagona ekologik onlayn platformaga ko'chiriladi |
+| Xavfli chiqindi (kelajak moduli) | **Prezident qarori 2026-08** (01.10.2026 hisobot; 01.01.2027 raqamli pasport) | yangi majburiyatlar MVP naqshiga bevosita qo'shiladi |
+
+## 7. Cheklovlar va keyingi qadam
 
 - Ma'lumotlar **sintetik** (real korxona nomlari yo'q — TZ §1 anti-da'vosi).
 - S5 (real Telegram bot) — bot tokeni kutilmoqda; ulash yo'li hujjatlashtirilgan.

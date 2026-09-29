@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: Ishlaydigan prototip: generator, 26 feature, IF/AE/OCSVM, F1 0,538 / FPR 0,086, 14 test
+qisqacha: To'liq prototip (S1–S10): generator, 26 feature, IF F1 0,538 / FPR 0,086; dashboard, Docker/CI, demo; 25 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -30,7 +30,9 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | **S5** Model v2 — AE (+OCSVM) | uch tomonlama qiyos | ✅ `src/models.py` |
 | **S6** Baholash harness | PR/ROC, FPR, tur recall, biznes | ✅ `src/evaluate.py` + `reports/eval_report.md` |
 | **S7** Serving | FastAPI `/v1/score` | ✅ `src/api/app.py` (sync endpointlar — threadpool) |
-| S8–S10 | dashboard, Docker/CI, demo | ⏳ keyingi bosqich |
+| **S8** Dashboard | KPI, alert feed (top-20 + izoh), monitoring | ✅ `web/dashboard.html` (139 KB, CDN'siz) |
+| **S9** Test/Docker/CI | 20+ test, konteyner, CI | ✅ **25 test** · `Dockerfile` · `docker-compose.yml` · `.github/workflows/ci.yml` |
+| **S10** Demo/himoya | 8–10 slayd + jonli skript | ✅ `presentation/DEMO.md` (hakam savollari bilan) |
 
 ## 2. Sintetik oqim (S1)
 
@@ -63,7 +65,9 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/test_pipeline.py` | **14 test — barchasi o'tadi** |
+| `tests/` (2 fayl) | **25 test — barchasi o'tadi** |
+| `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
+| `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
 ## 5. Cheklovlar (TZ §10 — yashirilmaydi)
 
@@ -72,12 +76,42 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 - Model raqamni **o'zgartirmaydi**: faqat tekshiruv ustuvorligini belgilaydi (AC-5).
 - Real ma'lumot bilan solishtirish uchun PQ-343 (01.03.2026 / 01.09.2026) integratsiyasi kutiladi.
 
-## 6. Qanday qayta ishga tushirish
+## 6. S8–S10 natijalari (professional paket)
+
+### 6.1. S8 — monitoring paneli
+`make dashboard` → `web/dashboard.html` (statik, tashqi CDN yo'q — ichki audit uchun ham ishlaydi):
+- **KPI kartalar:** F1 0,538 · Precision 0,590 · Recall 0,495 · **FPR 0,086 (AC-2 ✔)** · ROC-AUC 0,789 · alertlar soni
+- **Uch nomzod jadvali** (TZ §8.2 rollari bilan) va **A1–A8 tur recall** chiplari
+- **Alert feed (top-20):** har bir signal uchun eng katta og'ishli 3 feature (z-qiymat) va «biz bilgan tur» (faqat sinov uchun)
+- **Audit izi:** model params, threshold (train kvantili), feature ro'yxati, o'qitilgan sana
+
+### 6.2. S9 — Docker, CI, hujjatlar
+- `Dockerfile` + `docker-compose.yml` (1 server; healthcheck `/v1/health`)
+- `.github/workflows/ci.yml`: 25 test + quvur smoke (MVP papkasi repoga chiqarilganda darhol ishlaydi)
+- `docs/architecture.md` (qatlamlar + ADR), `docs/limitations.md` (7 band halol cheklov)
+- **25 test:** chegaralar (±0,01), dublikat/SLA zanjiri, uydirma-raqam testi, dashboard izoh qoplami, determinizm
+
+### 6.3. S10 — demo va himoya
+`presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
+javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
+
+### 6.4. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+
+| MVP qatlami | Prezident hujjati | Nima beradi |
+|---|---|---|
+| Skoring signali (o'lchov → bayroq) | **PF-81** (31.05.2023), **PF-46** (25.03.2026, I/II toifa monitoring), **PQ-343** (18.11.2025 — 01.03.2026 / 01.09.2026) | tekshiruv ustuvorligi aynan davlat joriy etayotgan monitoring bilan bir oqimda |
+| Hisobot madaniyati | **GHG qonuni** (07.07.2025; kuchda 09.01.2026) + **NDC 3.0** | korxona-daraja hisoboti — model shu raqamlar sifati ustida ishlaydi |
+| Jazo/rag'bat muvozanati (foyda modeli) | **O'RQ-1143** (5×), **VM-85**, **PQ-343** (kechiktirishga 5×) | signal→tekshiruv zanjiri iqtisodiy oqibatlarga to'g'ri bog'lanadi |
+| AI qatlami | **PQ-358** (14.10.2024), **PF-189** (22.10.2025), **PQ-320** (30.10.2025), **VM-425** (10.07.2025) | loyiha milliy AI kun tartibida — grant/imtiyozli kredit yo'li bor |
+| Serving va ochiqlik | **PF-149** (26.09.2024), **PF-6079** (05.10.2020, «Raqamli O'zbekiston — 2030») | API/dashboard ochiq standartlarda — handover PQ-343 platformasiga |
+| Nazorat kuchaytirish | **PF-217** (18.11.2025; sanksiyalar 01.04.2026) | model yuklamani tartiblaydi — nazorat tizimining yordamchisi |
+
+## 7. Qanday qayta ishga tushirish
 
 ```bash
 cd 01-Loyiha1-Carbon-Emission/MVP
 pip install -r requirements.txt
 python3 scripts/run_all.py      # ~35 s: S1→S6
-pytest -q tests/                # 14 test
+pytest -q tests/                # 25 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```
