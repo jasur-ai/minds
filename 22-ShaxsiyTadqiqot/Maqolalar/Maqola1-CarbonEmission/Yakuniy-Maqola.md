@@ -21,7 +21,7 @@ sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 
 2026-yil 1-mart — O'zbekiston ekologik nazorati uchun burilish sanasi. Shu kundan boshlab atrof-muhitga ta'siri bo'yicha I va II toifaga mansub korxonalar atmosfera havosiga ustuvor tashlanmalarni tahlil qiluvchi avtomatik monitoring stansiyalarini o'rnatishi shart bo'ldi (VM-783; PQ-343). Ilgari hisob-kitob yo'li bilan to'ldirilgan hisobotlar o'rnini real vaqtda o'lchanadigan ma'lumot egallaydi.
 
-O'lchovning pulga aylanishi bir necha kanal orqali sodir bo'ladi. Birinchidan, me'yordan oshgan tashlanma uchun kompensatsiya to'lovi hisoblanadi; 2026-yil 4-mayda qabul qilingan O'RQ-1143-son qonun bilan bunday to'lovlar besh baravargacha, ayrim hollarda jarimalar o'n baravargacha oshirildi. Ikkinchidan, VM-85-son qaror bilan rag'bat tizimi joriy etildi: monitoring stansiyasini o'rnatgan va tozalash uskunalarini ishga tushirgan korxonaga kompensatsiya to'lovlarining bir qismi ikki yil davomida qaytariladi. Uchinchidan, 2026-yil 30-yanvardagi PF-16-son farmon bilan ushbu to'lovlardan shakllangan qarzdorlikdan voz kechish mexanizmi belgilandi.
+O'lchovning pulga aylanishi bir necha kanal orqali sodir bo'ladi. Birinchidan, me'yordan oshgan tashlanma uchun kompensatsiya to'lovi hisoblanadi; 2026-yil 4-mayda qabul qilingan O'RQ-1143-son qonun bilan bunday to'lovlar besh baravargacha, ayrim hollarda jarimalar o'n baravargacha oshirildi. Ikkinchidan, VM-85-son qaror bilan rag'bat tizimi joriy etildi: monitoring stansiyasini o'rnatgan va tozalash uskunalarini ishga tushirgan korxonaga kompensatsiya to'lovlarining bir qismi ikki yil davomida qaytariladi. Uchinchidan, 2025-yil 30-yanvardagi PF-16-son farmon bilan ushbu to'lovlardan shakllangan qarzdorlikdan voz kechish mexanizmi belgilandi.
 
 Demak, bir o'lchov natijasi bir vaqtning o'zida ham jazo, ham rag'bat manbai bo'lishi mumkin. Bu holat o'lchov sifatiga yangi talab qo'yadi: raqam nafaqat «to'g'ri», balki **tekshiriladigan va e'tiroz bildiriladigan** bo'lishi kerak. Amaliyotda esa ko'rsatkichlar boshqacha: 2026-yilda ekologik politsiya 750 ta korxonada tekshiruv o'tkazib, tabiatga yetkazilgan 1 trln 386 mlrd so'm miqdoridagi zararni hisobladi, 500 ga yaqin mansabdor shaxsga ma'muriy jarima qo'llanildi (Sputnik O'zbekiston, 05.08.2026). 2025-yil davomida ekologiya sohasida qariyb 59 ming huquqbuzarlik qayd etilgan (gazeta.uz, 01.05.2026). Hajmlar katta — shuning uchun o'lchov ishonchi masalasi nazariy emas, moliyaviy masala.
 
@@ -46,7 +46,7 @@ Zanjirning o'ziga xosligi shundaki, xato har bir bo'g'inda qo'shilib, oxirida bi
 
 ### 2.2. Bo'g'inlar bo'yicha noaniqlik
 
-Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (2-rasm):
+Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (1-jadval; 2-rasm):
 
 | Bo'g'in | Noaniqlik / siljish | Manba |
 |---|---|---|
@@ -55,6 +55,8 @@ Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (2-rasm):
 | Etalon va kalibrovka | ±0,7% | metrologik amaliyot |
 | **Oqim o'lchagichi (USM, S-probe)** | **5–17%** (AQSh sharoitida) | Sarunac va boshq. (Lehigh University), 2004; chet el sinovlari — ⚠️ milliy ko'rsatkich emas |
 | Uskuna almashtirilganda | ayrim hollarda 20% gacha musbat siljish | Sarunac va boshq. (Lehigh University), 2004 |
+
+**1-jadval.** O'lchov zanjiri bo'g'inlaridagi noaniqlik darajalari (xalqaro manbalar asosida; ⚠️ — chet el sharoitida olingan qiymat).
 
 Eng katta noaniqlik oqim bo'g'inida to'planadi — «qancha gaz o'tdi» degan savolda.
 
@@ -85,13 +87,15 @@ Muhim nuqta shunda: xalqaro andozalarda chegara qiymati bilan birga uning ishonc
 
 ### 3.1. Uch zonali qoida
 
-Taklifning yadrosi — o'lchov natijasini chegara (L) va kengaytirilgan noaniqlik (U) bilan birgalikda baholash. Bu yondashuv JCGM 106:2012 andozasining qabul-sohasidagi asosiy g'oyasi bo'lib, ILAC-G8:09/2019 uni himoya zonasi (guard band) shaklida amaliyotga tatbiq etadi (3-rasm):
+Taklifning yadrosi — o'lchov natijasini chegara (L) va kengaytirilgan noaniqlik (U) bilan birgalikda baholash. Bu yondashuv JCGM 106:2012 andozasining qabul-sohasidagi asosiy g'oyasi bo'lib, ILAC-G8:09/2019 uni himoya zonasi (guard band) shaklida amaliyotga tatbiq etadi (2-jadval; 3-rasm):
 
 | Zona | Shart | Huquqiy oqibat |
 |---|---|---|
 | Yashil | o'rtacha qiymat x̄ ≤ L | jazo yo'q; ma'lumot yozib boriladi |
 | Sariq | L < x̄ ≤ L + U | jazo yo'q; avtomatik qo'shimcha tekshiruv va tavsiya |
 | Qizil | x̄ > L + U | jazo + tushuntirish kartasi + e'tiroz huquqi |
+
+**2-jadval.** Uch zonali qaror qoidasi: shartlar va huquqiy oqibatlar.
 
 Bu qoidada chegara va ishonch oralig'i aralashmaydi: yashil zona o'lchov natijasi me'yor ichida ekanini bildiradi, sariq zona xatoning mumkin bo'lgan sohasi chegarani kesib o'tishini tan oladi, qizil zona esa o'lchov aniq ko'rsatgan oshishni qamrab oladi. Zonalar orasidagi chegara ikkilanmasligi uchun shartlar qat'iy tengsizliklar bilan berilgan (x̄ ≤ L; L < x̄ ≤ L+U; x̄ > L+U). Bu zonalar o'lchov ishonchiga taalluqli; normadan oshish darajasini ko'rsatuvchi zonalash (Maqola 2) boshqa savolga javob beradi — shu sababli shartlar ham har xil.
 
@@ -100,7 +104,7 @@ Bu qoidada chegara va ishonch oralig'i aralashmaydi: yashil zona o'lchov natijas
 *3-rasm. Uch zonali qaror qoidasi: chegara (L) va kengaytirilgan noaniqlik (U) asosida (JCGM 106:2012; ILAC-G8:09/2019).*
 
 
-Amaldagi tizimda oraliq zona mavjud emas: VM-783 va 202-Nizom talablarni bajarish/bajarmaslik shaklida tartibga soladi, o'lchov noaniqligi esa huquqiy mezon sifatida kiritilmagan. Shu sababli chegarada turgan korxona uchun yagona o'lchov natijasi ikki xil huquqiy xulosaga olib kelishi mumkin.
+Amaldagi tizimda oraliq zona mavjud emas: VM-783 va unga bog'liq 202-son Nizom (kompensatsiya to'lovlari tartibi) talablarni bajarish/bajarmaslik shaklida tartibga soladi, o'lchov noaniqligi esa huquqiy mezon sifatida kiritilmagan. Shu sababli chegarada turgan korxona uchun yagona o'lchov natijasi ikki xil huquqiy xulosaga olib kelishi mumkin.
 
 ### 3.2. Tushuntirish kartasi
 
@@ -136,9 +140,9 @@ Shu o'rinda atamalarni ajratib olish zarur: rag'bat rejimi **to'lov (kompensatsi
 
 ### 4.2. Vaqt assimetriyasi
 
-To'lovlar rejasidagi raqamlar bu masalani yorqin ko'rsatadi. 2025-yil uchun sohaviy jamg'arma 900 mlrd so'm hajmida rejalashtirilgan edi; 2026-yil uchun reja 548 mlrd so'm, amalda esa birinchi yarim yillikda 274 mlrd so'm tushgan (gazeta.uz, 16.09.2026; uza.uz, 15.09.2026). Ya'ni 274 mlrd so'm — bu **yarim yillik** ko'rsatkich, uni yillikka keltirsak 274 × 2 = 548 mlrd so'm bo'ladi, bu esa 2026-yil uchun e'lon qilingan yillik reja bilan aynan mos tushadi. Demak, bu yerda ziddiyat yo'q; taqqoslashda xatolik faqat davrlar aralashtirilganda yuzaga keladi (2025-yil rejasi — 900 mlrd, 2026-yil rejasi — 548 mlrd, 2026-yilning birinchi yarmi — 274 mlrd so'm). Raqamlarning o'zi kompensatsiya to'lovlari hajmi real iqtisodiy vaznga ega ekanini ko'rsatadi.
+To'lovlar rejasidagi raqamlar bu masalani yorqin ko'rsatadi (7-rasm). 2025-yil uchun sohaviy jamg'arma 900 mlrd so'm hajmida rejalashtirilgan edi; 2026-yil uchun reja 548 mlrd so'm, amalda esa birinchi yarim yillikda 274 mlrd so'm tushgan (gazeta.uz, 16.09.2026; uza.uz, 15.09.2026). Ya'ni 274 mlrd so'm — bu **yarim yillik** ko'rsatkich, uni yillikka keltirsak 274 × 2 = 548 mlrd so'm bo'ladi, bu esa 2026-yil uchun e'lon qilingan yillik reja bilan aynan mos tushadi. Demak, bu yerda ziddiyat yo'q; taqqoslashda xatolik faqat davrlar aralashtirilganda yuzaga keladi (2025-yil rejasi — 900 mlrd, 2026-yil rejasi — 548 mlrd, 2026-yilning birinchi yarmi — 274 mlrd so'm). Raqamlarning o'zi kompensatsiya to'lovlari hajmi real iqtisodiy vaznga ega ekanini ko'rsatadi.
 
-Pul oqimining boshqa tomoni vaqtga sezgir: jazo qarori tez qo'llaniladi, to'lovning qaytarilishi esa ikki yilga cho'ziladi. Diskontlangan qiymatda bu rag'batni sezilarli zaiflashtiradi. Shu sababli dastlabki olti oyda tezlashtirilgan qaytarish tartibi taklif etiladi — u byudjet uchun neytral, korxona uchun esa investitsiya qarorini tezlashtiruvchi chora.
+Pul oqimining boshqa tomoni vaqtga sezgir: jazo qarori tez qo'llaniladi, to'lovning qaytarilishi esa ikki yilga cho'ziladi (6-rasm). Diskontlangan qiymatda bu rag'batni sezilarli zaiflashtiradi. Shu sababli dastlabki olti oyda tezlashtirilgan qaytarish tartibi taklif etiladi — u byudjet uchun neytral, korxona uchun esa investitsiya qarorini tezlashtiruvchi chora.
 
 ![6-rasm](png/K9.png)
 
@@ -155,14 +159,14 @@ Pul oqimining boshqa tomoni vaqtga sezgir: jazo qarori tez qo'llaniladi, to'lovn
 
 ### 5.1. Qamrov raqamlari
 
-VM-783-son qaror bilan I toifa bo'yicha 663 ta, II toifa bo'yicha 1 672 ta obyekt qamrab olinadi — jami 2 335 ta. Viloyatlar va tumanlarda fon monitoringi uchun 347 ta kichik avtomatik stansiya o'rnatilishi belgilangan. Sanoat tomonidagi amaliy ko'rsatkichlar quyidagicha: 44 ta korxonada 69 ta avtomatik stansiya ishga tushirilgani qayd etilgan; 2026-yil sentabrga kelib 28 ta HORIBA komplekti o'rnatilgani xabar qilingan; I toifadagi 9 ta sement zavodida avtomatik kuzatuv stansiyalari ish boshlagan.
+VM-783-son qaror bilan I toifa bo'yicha 663 ta, II toifa bo'yicha 1 672 ta obyekt qamrab olinadi — jami 2 335 ta (VM-783, 2-ilova). Viloyatlar va tumanlarda fon monitoringi uchun 347 ta kichik avtomatik stansiya o'rnatilishi belgilangan (VM-783, 1-ilova; kun.uz, 25.11.2025). Sanoat tomonidagi amaliy ko'rsatkichlar quyidagicha: 44 ta korxonada 69 ta avtomatik stansiya ishga tushirilgani qayd etilgan (Senat ma'lumoti, SQ-844-IV, 20.12.2023); 2026-yil sentabrga kelib «Zamin» fondi ko'magida 28 ta HORIBA komplekti o'rnatilgani xabar qilingan (Anhor, 08.09.2026); I toifadagi 9 ta sement zavodida avtomatik kuzatuv stansiyalari ish boshlagan (uza.uz, 29.11.2025).
 
-Ushbu raqamlardan oddiy nisbat kelib chiqadi: avtomatik stansiya o'rnatilgan korxonalar sonini I–II toifa obyektlari soniga bo'lsak, **44 / 2 335 ≈ 1,9%** ga teng bo'ladi. Bu — muallif hisob-kitobi bo'lib, maqsadi qamrovning boshlang'ich bosqichda ekanini ko'rsatish.
+Ushbu raqamlardan oddiy nisbat kelib chiqadi (8-rasm): avtomatik stansiya o'rnatilgan korxonalar sonini I–II toifa obyektlari soniga bo'lsak, **44 / 2 335 ≈ 1,9%** ga teng bo'ladi. Bu — muallif hisob-kitobi (44 ÷ 2 335 = 0,0188) bo'lib, qamrovning boshlang'ich bosqichda ekanini ko'rsatishga xizmat qiladi.
 
 ![8-rasm](png/K5.png)
 
 *8-rasm. Qamrov ko'rsatkichlari: obyektlar soni, tekshiruvlar va o'rnatilgan stansiyalar.*
- Tekshiruv usuli bilan yopilayotgan qism esa yillik yuzlab korxona hajmida: 2026-yilda 750 ta korxona tekshirilgan. Qamrov tez o'sayotgani holda o'lchov sifati mexanizmlari hali shakllanmagan — bu maqolaning asosiy dalili.
+ Tekshiruv usuli bilan yopilayotgan qism esa yillik yuzlab korxona hajmida: 2026-yilda 750 ta korxona tekshirilgan (Sputnik O'zbekiston, 05.08.2026). Qamrov tez o'sayotgani holda o'lchov sifati mexanizmlari hali shakllanmagan — bu maqolaning asosiy dalili.
 
 ### 5.2. Xarajat tuzilishi
 
@@ -173,7 +177,7 @@ Ushbu raqamlardan oddiy nisbat kelib chiqadi: avtomatik stansiya o'rnatilgan kor
 3. **Yillik xizmat** — tekshirish, kalibrovka, ehtiyot qismlar (xalqaro amaliyotda uskuna qiymatining 5–15% i, ayrim takliflarda operatsion xarajatlarning 3–6% i);
 4. **Mustaqil tekshiruv** — davriy nisbiy aniqlik sinovi va qayta o'lchov.
 
-Xalqaro bozor narxlari diapazoni keng: uzluksiz emissiya monitoringi tizimlari (CEMS) uchun 120–350 ming dollar, havo sifati monitoring stansiyalari uchun 150–250 ming dollar, chang monitoringi uchun 20–50 ming dollar, etalon uskunalar uchun 15–40 ming dollar (Applus, Clarity.io, ESEGAS, Accio — 2026-yil ochiq sahifalari). O'zbekistondagi shartnoma summalari ochiq xarid tizimlarida to'liq oshkor etilmagani uchun bu raqamlar faqat yo'naltiruvchi hisoblanadi va milliy taqqoslash uchun ochiq reyestr zarur.
+Xalqaro bozor narxlari diapazoni keng: uzluksiz emissiya monitoringi tizimlari (CEMS) uchun 120–350 ming dollar, havo sifati monitoring stansiyalari uchun 150–250 ming dollar, chang monitoringi uchun 20–50 ming dollar, etalon uskunalar uchun 15–40 ming dollar (Applus, Clarity.io, ESEGAS, Accio — 2026-yil ochiq sahifalari; 9-rasm). O'zbekistondagi shartnoma summalari ochiq xarid tizimlarida to'liq oshkor etilmagani uchun bu raqamlar faqat yo'naltiruvchi hisoblanadi va milliy taqqoslash uchun ochiq reyestr zarur.
 
 ![9-rasm](png/K4.png)
 
@@ -182,7 +186,7 @@ Xalqaro bozor narxlari diapazoni keng: uzluksiz emissiya monitoringi tizimlari (
 
 ### 5.3. Choraklik hisobot
 
-Tizim o'z ishining natijalarini ham o'lchashi kerak. Taklif: har chorakda besh ko'rsatkich e'lon qilinadi — umumiy signallar soni, sariq zona ulushi, qayta o'lchov natijalari, e'tirozlar statistikasi va kalibrovkalar holati. Qizil signallarning kamida 5 foizi ILAC o'zaro tan olish doirasidagi mustaqil laboratoriyada qayta o'lchanadi. Bu ko'rsatkichlar nazorat organining o'z xatosini ko'rsatishga tayyorligini bildiradi.
+Tizim o'z ishining natijalarini ham o'lchashi kerak. Taklif: har chorakda besh ko'rsatkich e'lon qilinadi (10-rasm) — umumiy signallar soni, sariq zona ulushi, qayta o'lchov natijalari, e'tirozlar statistikasi va kalibrovkalar holati. Qizil signallarning kamida 5 foizi ILAC o'zaro tan olish doirasidagi mustaqil laboratoriyada qayta o'lchanadi. Bu ko'rsatkichlar nazorat organining o'z xatosini ko'rsatishga tayyorligini bildiradi.
 
 ![10-rasm](png/K10.png)
 
@@ -195,7 +199,7 @@ Tizim o'z ishining natijalarini ham o'lchashi kerak. Taklif: har chorakda besh k
 
 Quyidagi hisob-kitob maqolaning muallifiga tegishli bo'lib, u o'lchov noaniqligining moliyaviy oqibatini ko'rsatish maqsadida keltiriladi.
 
-Faraz qilaylik, gaz tahlilining nisbiy standart noaniqligi 3%, oqim o'lchagichiniki 10%. Bu ikki komponent mustaqil bo'lgani uchun yig'indi noaniqlik kvadratlar yig'indisining ildizi bilan hisoblanadi:
+Faraz qilaylik, gaz tahlilining nisbiy standart noaniqligi 3%, oqim o'lchagichiniki esa jadvaldagi 5–17% diapazonining o'rtasiga yaqin qiymat sifatida 10%. Bu ikki komponent mustaqil bo'lgani uchun yig'indi noaniqlik kvadratlar yig'indisining ildizi bilan hisoblanadi:
 
 - u = √(3² + 10²) = √109 ≈ **10,4%**
 - kengaytirilgan noaniqlik (k = 2): U = 2 × 10,4 ≈ **21%**
@@ -206,7 +210,7 @@ Moliyaviy oqibatni koeffitsient orqali ko'rsatish mumkin: O'RQ-1143 bo'yicha kom
 
 **5 × 0,21 = 1,05**, ya'ni me'yordagi tashlanma uchun hisoblangan to'lovning to'liq hajmiga teng bo'lishi mumkin.
 
-Bu hisob-kitobning real masshtabini ko'rsatadigan misol bor: 2026-yil may oyida Muborak gazni qayta ishlash zavodiga ekologik qonunbuzarliklar uchun 10 mlrd 834 mln so'm miqdorida qo'shimcha kompensatsiya belgilangani e'lon qilindi (gazeta.uz va spot.uz, 13.05.2026). Bunday summalarda 20% noaniqlik qariyb 2,1 mlrd so'mga teng. Albatta, har bir holatda noaniqlikning haqiqiy qiymati o'lchash tizimiga bog'liq; maqsad aniq raqamni talab qilish emas, **noaniqlik hisobga olinmagan qarorning moliyaviy narxini ko'rsatish**.
+Bu hisob-kitobning real masshtabini ko'rsatadigan misol bor: 2026-yil may oyida Muborak gazni qayta ishlash zavodiga ekologik qonunbuzarliklar uchun 10 mlrd 834 mln so'm miqdorida qo'shimcha kompensatsiya belgilangani e'lon qilindi (gazeta.uz va spot.uz, 13.05.2026). Bunday summalarda 20% noaniqlik qariyb 2,2 mlrd so'mga teng (10 834 mln × 0,20 = 2 167 mln). Albatta, har bir holatda noaniqlikning haqiqiy qiymati o'lchash tizimiga bog'liq; maqsad aniq raqamni talab qilish emas, **noaniqlik hisobga olinmagan qarorning moliyaviy narxini ko'rsatish**.
 
 ---
 
@@ -255,39 +259,44 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 
 ## 10. Manbalar
 
-**Rasmiy hujjatlar (R)**
+**Manbalar va usul.** Dalillar uch darajaga ajratilgan: **R** — rasmiy hujjatlar va davlat organlari ma'lumotlari; **A** — xalqaro andozalar va mustaqil tadqiqotlar; **M** — media va ochiq manbalar. Ma'lumotlar 2026-yil sentabr holatiga to'plangan. Chet el sharoitida olingan qiymatlar ⚠️ bilan belgilanadi va milliy fakt sifatida ishlatilmaydi; mustaqil tasdiqlanmagan raqamlar matnda shunday izoh bilan beriladi. Muallifning o'z hisob-kitoblari matnda alohida ko'rsatilgan.
 
-1. VM-783-son qaror, 25.11.2024 — «Sanoat korxonalarining atrof-muhitga salbiy ta'sirini kamaytirishni ta'minlash chora-tadbirlari to'g'risida». https://lex.uz/uz/docs/-7233437
-2. VM-85-son qaror, 28.02.2026 — «Sanoat korxonalarining atrof-muhitga salbiy ta'sirini kamaytirish harakatlarini rag'batlantirish chora-tadbirlari to'g'risida» (nizom). https://lex.uz/uz/docs/-8068163
+**Rasmiy hujjatlar va davlat ma'lumotlari (R)**
+
+1. VM-783-son qaror, 25.11.2024 — «Sanoat korxonalarining atrof-muhitga salbiy ta'sirini kamaytirishni ta'minlash chora-tadbirlari to'g'risida» (1-, 2-, 3-ilovalar: 347 stansiya, toifalar, samaradorlik talablari). https://lex.uz/uz/docs/-7233437
+2. VM-85-son qaror, 28.02.2026 — atrof-muhitga salbiy ta'sirni kamaytirish harakatlarini rag'batlantirish nizomi. https://lex.uz/uz/docs/-8068163
 3. PF-16-son farmon, 30.01.2025 — «O'zbekiston-2030» strategiyasini amalga oshirishga oid davlat dasturi. https://lex.uz/docs/-7369703
 4. PF-46-son farmon, 25.03.2026 — «Toza havo» umummilliy loyihasini amalga oshirish chora-tadbirlari. https://lex.uz/uz/docs/-8101201
-5. PQ-343-son qaror (o'rnatish muddatlari va sohaviy jamg'arma parametrlari). https://lex.uz/uz/docs/-7847341
-6. 202-Nizom (VM-783 ilovasi) — 201-band (koeffitsientlar), 301-band (rag'bat shartlari). https://lex.uz/uz/docs/-5367873
-7. O'RQ-1143-son qonun, 04.05.2026 — ekologik huquqbuzarliklar bo'yicha sanksiyalarni kuchaytirish (jarimalar o'n baravargacha, kompensatsiya to'lovlari besh baravargacha).
-8. O'RQ-457-son qonuni va MJTK — murojaat va apellyatsiya muddatlari (30 ish kuni; 10/60 kun).
+5. PQ-343-son qaror, 18.11.2025 — o'rnatish muddatlari, yagona platforma va sohaviy jamg'arma parametrlari (4-, 7-, 8-ilovalar). https://lex.uz/uz/docs/-7847341
+6. 202-son Nizom — kompensatsiya to'lovlari tartibi (201-band: koeffitsiyentlar; 301-band: rag'bat shartlari, 36 oy). https://lex.uz/uz/docs/-5367873
+7. O'RQ-1143-son qonun, 04.05.2026 — ekologik huquqbuzarliklar bo'yicha javobgarlikni kuchaytirish (kompensatsiya to'lovlari besh baravargacha; jarima tarzidagi moliyaviy sanksiyalar toifa bo'yicha). https://lex.uz/docs/8169998
+8. O'RQ-457-son qonun, 08.01.2018 — «Ma'muriy tartib-taomillar to'g'risida» va MJTK — murojaat va apellyatsiya muddatlari (30 ish kuni; 10/60 kun). https://lex.uz/docs/-3492199
+9. Senat ma'lumoti (SQ-844-IV), 20.12.2023 — 44 korxonada 69 avtomatik stansiya va 27 kuzatuv punkti. https://lex.uz/docs/-6733055
 
-**Andozalar va xalqaro amaliyot (A)**
+**Andozalar va mustaqil tadqiqotlar (A)**
 
-9. JCGM 106:2012 — «Evaluation of measurement data — The role of measurement uncertainty in conformity assessment» (qabul/rad zonalari).
-10. ILAC-G8:09/2019 — «Guidelines on decision rules and statements of conformity» (himoya zonasi, w = U).
-11. ISO/IEC 17025:2017 — sinov laboratoriyalari kompetentligi; 7.8.6-band: hisobotda noaniqlik ko'rsatilishi sharti.
-12. Sarunac, N., Romero, C.E., Levy, E.K., Bilirgen, H. (2004). «Factors affecting CEM measurement accuracy and recommendations for improvement». Lehigh University Energy Research Center (AQSh). — oqim o'lchagichlari va namuna olish zondlaridagi musbat siljish (ayrim hollarda 20% gacha); tuzatishdan keyin ortiqcha hisob-kitob 15 foiz punktdan ko'proq kamaygani; qoldiq siljish 1–2%.
-13. Kanadaning CEMS protokoli va texnik talablari — oqim monitori uchun RATA ≤10%, bias ≤5% FS; siljish chegaradan oshsa, ma'lumotlarga tuzatish kiritish tartibi.
-14. EPA CAMD (AQSh) — nisbiy aniqlik sinovi va kalibrovka amaliyoti.
+10. JCGM 106:2012 — «Evaluation of measurement data — The role of measurement uncertainty in conformity assessment» (qabul/rad zonalari).
+11. ILAC-G8:09/2019 — «Guidelines on decision rules and statements of conformity» (himoya zonasi, w = U).
+12. ISO/IEC 17025:2017 — sinov laboratoriyalari kompetentligi; 7.8.6-band: hisobotda noaniqlik ko'rsatilishi sharti.
+13. Sarunac, N., Romero, C.E., Levy, E.K., Bilirgen, H. (2004). «Factors affecting CEM measurement accuracy and recommendations for improvement». Lehigh University Energy Research Center (AQSh); OSTI 20501708. — oqim o'lchagichlari va namuna olish zondlaridagi musbat siljish (ayrim hollarda 20% gacha), tuzatishdan keyin ortiqcha hisob-kitobning 15 foiz punktdan ko'proq kamayishi, qoldiq siljish 1–2%.
+14. Kanadaning CEMS protokoli (Environment Canada) — oqim monitori uchun RATA ≤10%, siljish ≤5% FS; siljish chegaradan oshsa, ma'lumotlarga tuzatish kiritish tartibi.
+15. EPA CAMD (AQSh) — nisbiy aniqlik sinovi (40 CFR 22) va kalibrovka amaliyoti.
 
-**Media va hisobotlar (M)**
+**Media va ochiq manbalar (M)**
 
-15. gazeta.uz, 01.05.2026 — ekologik zarar uchun jarimalar oshirilishi; 2025-yilda ~59 ming huquqbuzarlik. https://www.gazeta.uz/oz/2026/05/01/eco/
-16. gazeta.uz, 05.05.2026 — O'RQ-1143: yuridik shaxslarga nisbatan jarimalar karrasiga oshirilishi. https://www.gazeta.uz/oz/2026/05/05/ekologiya/
-17. gazeta.uz, 02.03.2026 — VM-85 nizomi: qarzdorlikdan voz kechish va to'lovlarning bir qismini qaytarish. https://www.gazeta.uz/oz/2026/03/02/eco/
-18. gazeta.uz, 24.03.2026 — «Toza havo» loyihasi: PM2,5 bo'yicha yaxshilanish, majburiy monitoring postlari va yagona geoaxborot tizimi. https://www.gazeta.uz/oz/2026/03/24/ecology/
-19. gazeta.uz, 13.05.2026 — Muborak GQIZga 10 mlrd 834 mln so'm qo'shimcha kompensatsiya. https://www.gazeta.uz/oz/2026/05/13/muborak/
-20. spot.uz, 13.05.2026 — Muborak GQIZ: 10,8 mlrd so'm kompensatsiya.
-21. Sputnik O'zbekiston, 05.08.2026 — 750 korxona tekshiruvi: 1 trln 386 mlrd so'm zarar, 500 ga yaqin mansabdor shaxsga jarima. https://oz.sputniknews.uz/20260805/uzbekistan-korxona-ekologiya-zarar-59509079.html
-22. gazeta.uz, 16.09.2026 — 2026-yil I yarim yillikda sohaviy jamg'armaga 274 mlrd so'm. https://www.gazeta.uz/oz/2026/09/16/budget-2026/
-23. uza.uz, 15.09.2026 — byudjetning yarim yillik ijrosi: ekologiya yo'nalishiga 274 mlrd so'm. https://uza.uz/oz/posts/davlat-byudjetining-yarim-yillikdagi-ijrosi-qanday-baholandi_909226
-24. uza.uz, 29.11.2025 — I toifadagi 9 sement zavodida avtomatik kuzatuv stansiyalari ish boshlagani.
-25. Applus, Clarity.io, ESEGAS, Accio — CEMS va havo monitoringi uskunalarining xalqaro narx diapazonlari (2026-yil ochiq sahifalari).
+16. gazeta.uz, 01.05.2026 — ekologik zarar uchun jarimalar oshirilishi; 2025-yilda qariyb 59 ming huquqbuzarlik. https://www.gazeta.uz/oz/2026/05/01/eco/
+17. gazeta.uz, 05.05.2026 — O'RQ-1143: yuridik shaxslarga nisbatan jarimalar karrasiga oshirilishi. https://www.gazeta.uz/oz/2026/05/05/ekologiya/
+18. gazeta.uz, 02.03.2026 — VM-85 nizomi: qarzdorlikdan voz kechish va to'lovlarning bir qismini qaytarish. https://www.gazeta.uz/oz/2026/03/02/eco/
+19. gazeta.uz, 24.03.2026 — «Toza havo» loyihasi: PM2,5 bo'yicha yaxshilanish, monitoring postlari va yagona geoaxborot tizimi. https://www.gazeta.uz/oz/2026/03/24/ecology/
+20. gazeta.uz, 13.05.2026 — Muborak GQIZga 10 mlrd 834 mln so'm qo'shimcha kompensatsiya. https://www.gazeta.uz/oz/2026/05/13/muborak/
+21. spot.uz, 13.05.2026 — Muborak GQIZ: 10,8 mlrd so'm kompensatsiya.
+22. Sputnik O'zbekiston, 05.08.2026 — 750 korxona tekshiruvi: 1 trln 386 mlrd so'm zarar, 500 ga yaqin mansabdor shaxsga jarima. https://oz.sputniknews.uz/20260805/uzbekistan-korxona-ekologiya-zarar-59509079.html
+23. gazeta.uz, 16.09.2026 — 2026-yil I yarim yillikda sohaviy jamg'armaga 274 mlrd so'm. https://www.gazeta.uz/oz/2026/09/16/budget-2026/
+24. uza.uz, 15.09.2026 — byudjetning yarim yillik ijrosi: ekologiya yo'nalishiga 274 mlrd so'm. https://uza.uz/oz/posts/davlat-byudjetining-yarim-yillikdagi-ijrosi-qanday-baholandi_909226
+25. uza.uz, 29.11.2025 — I toifadagi 9 sement zavodida avtomatik kuzatuv stansiyalari ish boshlagani.
+26. kun.uz, 25.11.2025 — 347 ta fon stansiyasi to'g'ridan-to'g'ri shartnomalar asosida xarid qilinishi; «Air Monitoring Uzbekistan» platformasi. https://kun.uz/news/2025/11/25/toshkentda-ekologik-vaziyatni-yaxshilash-uchun-maxsus-komissiya-tuzildi
+27. Anhor, 08.09.2026 — «Zamin» fondi ko'magida 28 ta HORIBA stansiyasi o'rnatilishi. https://anhor.uz/uzl/ekologiya/ozbekistonda-havo-sifati-monitoring-kengaytirish
+28. Applus, Clarity.io, ESEGAS, Accio — CEMS va havo monitoringi uskunalarining xalqaro narx diapazonlari (2026-yil ochiq sahifalari; yo'naltiruvchi ma'lumot).
 
 ---
 
@@ -295,6 +304,6 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 
 **Sarlavha alternativalari:** «Raqam ishonchsiz bo'lsa, jazo ham adolatsiz» (joriy); «Chegaradagi korxona: o'lchov xatosi va huquqiy oqibat»; «2 335 obyekt, 5–17% noaniqlik: emissiya nazoratining ishonch masalasi».
 
-**Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 8- va 10-rasmlar saqlanishi tavsiya etiladi (o'lchov zanjiri, uch zonali qoida, jarima va uni qaytarish assimetriyasi, jamg'arma oqimi, tizimning o'zini tekshirishi); 5-, 6-, 7- va 9-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (o'lchov vositalari kesimi, yer usti stansiyalari, xarajat tarkibi, hisobotlarni taqqoslash).
+**Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 6-, 7- va 10-rasmlar saqlanishi tavsiya etiladi (o'lchov zanjiri; bo'g'inlar bo'yicha noaniqlik; uch zonali qaror qoidasi; apellyatsiya oqimi; vaqt assimetriyasi; sohaviy jamg'arma; choraklik aniqlik hisoboti). 5-, 8- va 9-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (jazo va rag'bat rejimlari taqqoslanishi; qamrov ko'rsatkichlari; xalqaro narx diapazonlari).
 
 **Juftlik:** ushbu maqolaning ikkinchi qismi — chiqindi hisobi va oshkoralik — Maqola 2 («Kim nima chiqarayotganini kim biladi?») sifatida alohida nashr etiladi. Ikki maqola bir-birini to'ldiradi: tavsiyalar (1–6 va 7–12), ochiq savollar (1–5 va 6–11) va muhokama nuqtalari (1–5 va 6–10) yagona ro'yxat sifatida raqamlangan.
