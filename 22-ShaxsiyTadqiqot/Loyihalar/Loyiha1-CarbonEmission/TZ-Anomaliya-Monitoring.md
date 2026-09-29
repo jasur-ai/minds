@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: tz
 holat: faol
 sarlavha: TZ — AI anomaliya monitoringi
-qisqacha: Texnik topshiriq: S0–S10 bosqichlar, texnologiya tanlovi asoslari
+qisqacha: Texnik topshiriq: S0–S10 bosqichlar, texnologiya tanlovi asoslari; bo'limlar prezident qarorlari bilan bog'langan (v1.3)
 manba: workspace/01-Loyiha1-Carbon-Emission/TZ/Loyiha1_AI_anomaliya_TZ.md
 ---
 
@@ -19,7 +19,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/TZ/Loyiha1_AI_anomaliya_TZ.md
 **Ijrochi profili:** talaba (School 21), Python/FastAPI/PostgreSQL/Redis tajribasi, yakka yoki 2–3 kishilik jamoa  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta + himoya)  
 **Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); W16 — 04–10.01.2027; himoya buferi — 06–15.01.2027  
-**Versiya:** 1.2 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; hafta hisobi va havolalar tuzatilgan)
+**Versiya:** 1.3 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; S0–S10 va barcha asosiy bo'limlar prezident qarorlari bilan bog'langan; Ilova C — 23 manba)
 
 ---
 
@@ -104,6 +104,8 @@ O'zbekiston 2025-yilda "Issiqxona gazlari emissiyasini cheklash to'g'risida" qon
 
 Natijada: hisobotning to'g'riligini tekshirish uchun **har bir korxonaga inspektor** yuborish imkonsiz (I toifa 663 + II toifa 1 672 korxona — VM-783), demak kerak **avtomatik, masshtablanadigan va tushuntirib bera oladigan** tekshiruv qatlami.
 
+**Prezident qarorlari asosi:** bu muammo davlat kun tartibida to'g'ridan-to'g'ri tan olingan — PF-81-son farmoni (31.05.2023) ekologiya sohasini transformatsiya qilishni, PF-46-son farmoni (25.03.2026) esa I va II toifa korxonalarida avtomatik monitoring stansiyalarini o'rnatishni maqsad qilib belgilagan; PQ-343-son qarori (18.11.2025) bu talablarni aniq sanalarga bog'lagan (Ilova C).
+
 ### 1.2. Ilmiy/amaliy savol (research question)
 > Korxona o'z-o'zidan e'lon qilgan GHG emissiyasi bilan **mustaqil** ma'lumot manbalari (energiya iste'moli, yoqilg'i xaridi, ishlab chiqarish hajmi, bojxona/soliq signallari) o'rtasidagi statistik mos kelmaslikni unsupervised ML orqali aniqlash mumkinmi — va bu qanchalik aniq/nishonchli?
 
@@ -129,6 +131,8 @@ H2: Anomaliyalar "qora quti" emas — har bir bayroq **insonga tushunarli sabab*
 | AC-10 | Reproduksiya | `make seed && make train && make eval` | bir xil natija (seed=42) |
 
 **Anti-mezonlar (nima qilinmaydi):** milliy reyestr emas; real korxona ma'lumotlari bilan ishlamaydi; yuridik xulosa chiqarmaydi; faqat **"tekshirishga loyiq" signal**.
+
+**Prezident qarorlari asosi:** mezonlar davlat maqsadlari bilan bir tilga o'girilgan — PF-46 (25.03.2026) «Toza havo» loyihasida tashlanmalarni 10,5%ga kamaytirish va PM2,5 bo'yicha oshish kunlarini qisqartirish kabi o'lchanadigan maqsadlar belgilangan; AC bloklari aynan shu «o'lchanadigan majburiyat» mantiqida yozilgan (Ilova C).
 
 ---
 
@@ -172,6 +176,8 @@ flowchart TD
 | S8 | S7 | UI API'siz ishlamaydi |
 | S9 | hammasi | Docker/test faqat komponentlar tayyor bo'lgach |
 | S10 | S9 | Demo va maqola artefaktlari tugallangan tizimni talab qiladi |
+
+**Prezident qarorlari asosi:** bosqichlar tartibi PQ-343 (18.11.2025) sanalari bilan sinxron — fon stansiyalari 2026-yil 1-martga qadar, yagona ekologik onlayn platforma 2026-yil 1-sentabrga qadar ishga tushadi; MVP ana shu integratsiyaga tayyor bo'lishi kerak (Ilova C).
 
 ---
 
@@ -218,6 +224,8 @@ flowchart TD
 | A7 | **Ikki marta hisoblangan qisqartirish** | offset ikki joyda | credits takrorlanishi |
 | A8 | **Sana/davr siljishi** | hisobot davri chegarasida sakrash | vaqt seriyasi uzilishi |
 
+**Prezident qarorlari asosi:** ko'lam va metrika davlat talabidan olinadi — PF-46 maqsadlari va PQ-343 muddatlari (2026-yil 1-mart, 1-sentabr) S0 bosqichida muzlatiladi (Ilova C).
+
 ### S1. Ma'lumot manbasi tanlash va UZ-proksi generator (W1–W3, 12 kun)
 
 | Ustun | Mazmun |
@@ -227,6 +235,8 @@ flowchart TD
 | **Nega aynan shu texnologiya** | 1) **Sintetik generator + real E-PRTR kalibrovka** — chunki O'zbekistonda korxona darajasidagi GHG ma'lumotlari hali ochiq emas (manba hujjat §3.3, P5 va §3.4); real E-PRTR *taqsimot shakli* (log-normal emissiya, hajm↔emissiya korrelyatsiyasi, sektor dispersiyasi) o'rganilib, UZ tarkibiga proyeksiya qilinadi; 2) **Parquet+DuckDB** — 10⁵–10⁶ qator uchun Pandas+CSV'ga nisbatan 5–20× tez, Postgres'ga yuklashdan oldin tez iteratsiya; 3) **Pydantic** — sxemani kodda majburlash (keyin FastAPI bilan bir xil model — DRY) |
 | **Nega aynan shu vaqtda** | Model, feature va metrika generatordagi **ground truth**ga tayanadi; agar generator keyin yozilsa, "aniqlangan anomaliya" nima ekanini isbotlab bo'lmaydi |
 | **Deliverable** | `data/synthetic/uz_proxy_v1.parquet` (≈50 000 korxona-davr yozuvi), `generator.py`, `dataset_card.md` (cheklovlar ochiq yozilgan) |
+
+**Prezident qarorlari asosi:** ma'lumot oqimi PF-81 va PQ-343 majburiy monitoringi tufayli yuzaga keladi; shu sababli real oqimga ulanish yakuniy mezon sifatida ko'rsatilgan (Ilova C).
 
 ### S2. EDA + statistik baseline (W2–W3, 10 kun)
 
@@ -238,6 +248,8 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Baseline natijalari S3'dagi feature tanlovni va S4'da model tanlovni belgilaydi |
 | **Deliverable** | `notebooks/01_eda.ipynb` (bayon), `reports/baseline_metrics.md` — baseline precision/recall jadvali |
 
+**Prezident qarorlari asosi:** baseline «yashil iqtisodiyot» dasturi ko'rsatkichlariga tayanadi — PF-16 (30.01.2025) 2025-yilni «Atrof-muhitni asrash va yashil iqtisodiyot yili» deb e'lon qilgan davlat dasturi (Ilova C).
+
 ### S3. Feature engineering + feature store sxemasi (W3–W4, 10 kun)
 
 | Ustun | Mazmun |
@@ -248,6 +260,8 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Model featuresiz o'qitilmaydi; S2 baseline xatolari aynan qaysi feature kerakligini ko'rsatadi |
 | **Deliverable** | `src/features/build.py`, `features_v1.parquet`, `docs/feature_dictionary.md` (har bir feature: formula, manba, kutilgan yo'nalish) |
 
+**Prezident qarorlari asosi:** feature'lar davlat hisoboti tarkibiga mos — PF-46 monitoring stansiyalari va PF-16 yashil iqtisodiyot ko'rsatkichlari (Ilova C).
+
 ### S4. Model v1 — Isolation Forest + tuning (W5–W6, 12 kun)
 
 | Ustun | Mazmun |
@@ -257,6 +271,8 @@ flowchart TD
 | **Nega aynan shu texnologiya** | 1) **Isolation Forest** — boshqa muqobillarga nisbatan: (a) One-Class SVM'ga qaraganda **tez** (SCADA tadqiqotida inferens: IF **3,94 s** vs OCSVM **143,87 s**, MDPI *Future Internet* 2026), (b) Autoencoder'ga qaraganda **kam ma'lumot va kam tuning** talab qiladi (label-free, ixtiyoriy parametrlar), (c) yuqori o'lchamli, shovqinli sanoat ma'lumotida yaxshi (Premer Journal of Science 2025: IF 84–86%, AE 87–89% unsupervised sharoitda); 2) **mlflow** — "nega bu natija" degan savolga javob (model versiyasi, seed, parametr) — audit izi AC-8; 3) **SHAP** — tushuntirish AC-5 (IF uchun path-based izoh ham qo'shiladi) |
 | **Nega aynan shu vaqtda** | Feature'lar tayyor bo'lgach; AE'dan **oldin** — chunki IF natijasi AE'ni oqlash/oqlmaslikni ko'rsatadi (agar IF F1 ≥ 0,85 bo'lsa, AE ustuvorlik emas) |
 | **Deliverable** | `models/if_v1/` (model + metadata), `reports/if_v1_metrics.md`, MLflow tajriba havolasi |
+
+**Prezident qarorlari asosi:** AI yo'nalishi PQ-358 (14.10.2024) strategiyasida, qo'llab-quvvatlash tartibi esa PF-189 (22.10.2025) va PQ-320 (30.10.2025) hujjatlarida belgilangan (Ilova C).
 
 ### S5. Model v2 — Autoencoder (va OCSVM taqqoslash) (W7–W8, 12 kun)
 
@@ -277,6 +293,8 @@ flowchart TD
 | Autoencoder | Eng yuqori aniqlik (AUC 0,967; real sanoatda precision 0,99) | Ma'lumotga ochlik, driftga sezgir, porog kalibrovkasi nozik | MDPI *FI* 2026; JISEM 2025 (F1 93,2%); MDPI *Appl. Sci.* 16(5):2457 |
 | **Amaliy xulosa** | **IF — v1 baseline; AE — v2 (agar IF ≤ 0,80 F1 bo'lsa)**; OCSVM — faqat nazorat guruhi | | |
 
+**Prezident qarorlari asosi:** model qiyoslash natijalari PQ-358 ustuvor AI loyihalari talabiga mos tarzda — asos va samaradorlik ko'rsatkichi ochiq holda — hujjatlashtiriladi (Ilova C).
+
 ### S6. Baholash harness va injection eksperimenti (W9–W10, 12 kun)
 
 | Ustun | Mazmun |
@@ -286,6 +304,8 @@ flowchart TD
 | **Nega aynan shu texnologiya** | 1) **Bootstrap CI** — kichik test to'plamida bitta raqamga ishonish xato; 2) **Isotonic kalibrlash** — "0,9 ball" ni "90% ehtimol"ga aylantirish, chunki foydalanuvchi "qizil bayroq"ni qanday talqin qilishini bilishi kerak; 3) **pytest** — baholashni qayta ishlatiladigan qilish (har model o'zgarishida qayta o'lchash) |
 | **Nega aynan shu vaqtda** | Barcha 3 model tayyor bo'lgach; natijalar S7'da qaysi model API'ga chiqishini hal qiladi |
 | **Deliverable** | `reports/eval_report.md` + `reports/figures/*.png` (PR-kurva, confusion, tur bo'yicha recall) |
+
+**Prezident qarorlari asosi:** baholash harness'i ekologik nazoratni kuchaytirish mantiqiga xizmat qiladi — PF-217 (18.11.2025) nazorat tizimini va 2026-yil 1-apreldan moliyaviy sanksiyalar tartibini joriy etgan (Ilova C).
 
 ### S7. Serving qatlami — FastAPI + PostgreSQL + Redis (W10–W12, 16 kun)
 
@@ -299,6 +319,8 @@ flowchart TD
 
 **Muhim amaliy qoida (paste'da bildirilgan tuzoq):** `async def` route ichida og'ir CPU inferens **to'g'ridan-to'g'ri** chaqirilmasligi kerak — event loop bloklanadi. MVP uchun yechim: `run_in_threadpool` (starlette) yoki `ProcessPoolExecutor`, katta yuklamada esa Redis Streams + alohida worker. ~100 req/s gacha bitta kichik model uchun in-process pool **yetarli** — ortiqcha infra qurish shart emas (markaicode, 2026).
 
+**Prezident qarorlari asosi:** serving qatlami PQ-343 yagona ekologik onlayn platformasi talablariga mos interfeys sifatida loyihalanadi; PF-6079 (05.10.2020) «Raqamli O'zbekiston — 2030» ramkasi infratuzilma asosi (Ilova C).
+
 ### S8. Dashboard / UI (W12–W13, 10 kun)
 
 | Ustun | Mazmun |
@@ -308,6 +330,8 @@ flowchart TD
 | **Nega aynan shu texnologiya** | 1) **Streamlit** — Python'da 1 kunda ishlaydigan dashboard, dizayner kerak emas; akademik demo uchun optimal vaqt/effekt nisbati; kamchiligi — kastom UX cheklangan, shuning uchun "kelajakda React" ADR'da qayd etiladi; 2) Agar frontend ko'nikmasi bor bo'lsa React — ish beruvchi uchun ko'proq qiymat, lekin **MVP'da ustuvorlik emas**; 3) `Plotly` — interaktiv grafik 1 satr kod |
 | **Nega aynan shu vaqtda** | API S7'da tayyor bo'lgach; UI API'siz "maket" bo'lib qoladi |
 | **Deliverable** | `dashboard/app.py`, demo video (2–3 daqiqa, OBS/`ffmpeg` ekran yozuvi), skrinshotlar maqolaga |
+
+**Prezident qarorlari asosi:** dashboard ochiqlik majburiyatini bajaradi — PF-149 (26.09.2024) ekologiya sohalarida ochiqlikni alohida yo'nalish sifatida belgilagan (Ilova C).
 
 ### S9. Test, Docker, hujjatlashtirish (W13–W14, 12 kun)
 
@@ -319,6 +343,8 @@ flowchart TD
 | **Nega aynan shu vaqtda** | Faqat komponentlar barqarorlashgach; erta yozilgan integratsiya testi ko'p sinadi va vaqt yeydi |
 | **Deliverable** | CI badge, 20+ test, `README.md`, `docs/architecture.md`, `docs/limitations.md` |
 
+**Prezident qarorlari asosi:** PF-217 (18.11.2025) ekologik nazoratni kuchaytirishni belgilagan; test va hujjatlashtirish talablari shu nazorat qatlamiga tayyor bo'lishga qaratilgan (Ilova C).
+
 ### S10. Demo, himoya, maqola artefaktlari (W15–W16, 8 kun)
 
 | Ustun | Mazmun |
@@ -328,6 +354,8 @@ flowchart TD
 | **Nega aynan shu texnologiya** | Chop etish uchun vektor grafik shart; Git tag — baholovchi aniq commit'ni ko'rishi uchun |
 | **Nega aynan shu vaqtda** | Yakunda — chunki raqamlar muzlatilgan bo'lishi kerak |
 | **Deliverable** | `presentation/`, `reports/final_report.pdf`, `v1.0` tag |
+
+**Prezident qarorlari asosi:** demo va artefaktlar PQ-320 (30.10.2025) ustuvor AI loyihalari mezonlariga tayyor holatda — natija ko'rsatkichi va izohlanuvchanlik bilan — taqdim etiladi (Ilova C).
 
 ---
 
@@ -408,12 +436,16 @@ flowchart LR
 
 **Nega aynan shu stack (bir jumlada):** talabaning mavjud ko'nikmalariga (Python/FastAPI/PostgreSQL/Redis) to'liq tayanadi, **yangi o'rganish xarajatini minimal** qiladi, MVP ko'lamiga mos (bitta model, ~50k–500k yozuv), va kelajakdagi milliy platforma arxitekturasining (§3.6 manba hujjat) **to'g'ridan-to'g'ri urug'i** — ya'ni demo'dan keyin kod tashlanmaydi, kengaytiriladi.
 
+**Prezident qarorlari asosi:** stek «Raqamli O'zbekiston — 2030» (PF-6079, 05.10.2020) va PQ-358 (14.10.2024) yo'nalishiga mos — ochiq standartlar, joylashuv (PostGIS) va API-birinchi yondashuv (Ilova C).
+
 ---
 
 ## 6. MA'LUMOT MANBAI: MUAMMO VA YECHIM
 
 ### 6.1. Muammo (ochiq tan olinadi)
 O'zbekistonda **korxona darajasidagi GHG/energiya ma'lumotlari hozircha ochiq emas** (manba hujjat §3.3 P5; milliy reyestr green.imv.uz hozircha asosan "yashil loyihalar" va uglerod birliklari hisobini yuritadi). Demak MVP real milliy ma'lumotda o'qitilmaydi.
+
+**Prezident qarorlari asosi:** ochiqlik yo'nalishi allaqachon belgilangan — PQ-343 (18.11.2025) Ekologik monitoring milliy markazini va yagona platformani ko'zda tutadi; MVP shu o'tish davri uchun ko'prik yechim (Ilova C).
 
 ### 6.2. Uch qatlamli ma'lumot strategiyasi
 
@@ -422,6 +454,8 @@ O'zbekistonda **korxona darajasidagi GHG/energiya ma'lumotlari hozircha ochiq em
 | **L1: Kalibrovka** | **EU E-PRTR** (facility-level, 2007–2023, 91 modda, havo/suv/chiqindi) | Real taqsimotlar: emissiya log-normal shakli, sektor dispersiyasi, hajm↔emissiya korrelyatsiyasi | Boshqa iqtisodiy tuzilma va texnologiya darajasi → **faqat shakl olinadi, daraja emas** |
 | **L2: Struktura** | O'zbekiston rasmiy statistikasi (BTR1/NDC 3.0 sektor ulushlari; VM-783 toifa taqsimoti; statistika agentligi sanoat ko'rsatkichlari) | Sektor tarkibi, korxona soni, hajm diapazonlari UZ'ga moslanadi | Faqat agregat — korxona darajasi modellashtiriladi |
 | **L3: Ground truth** | **Sintetik injection** (A1–A8) | "Bilgan holda buzilgan" yozuvlar — aniqlikni o'lchashning yagona yo'li | Sintetik anomaliya real soxtalashtirishdan **soddaroq** bo'lishi mumkin → §10-cheklov |
+
+**Prezident qarorlari asosi:** L1–L3 qatlamlari davlat hisobotini almashtirmaydi — PF-81/PQ-343 majburiy o'lchovi asosiy manba bo'lib qoladi, generator faqat bo'shliqni vaqtincha to'ldiradi (Ilova C).
 
 ### 6.3. Generator spetsifikatsiyasi (qisqa pseudokod)
 
@@ -454,6 +488,8 @@ for each company c in sectors (Energy 60%, Agriculture 18%, IPPU 15%, Waste 5%, 
 3. **Etik:** real korxonalarni "ayblash" xavfi yo'q — MVP faqat sintetikada ishlaydi.
 4. **Adabiyotda qabul qilingan:** anomaliya deteksiya tadqiqotlarining muhim qismi aynan shu usulda (SWaT, TEP, sintetik injection) o'tkaziladi.
 
+**Prezident qarorlari asosi:** usul davlat tekshiruvini istisno qilmaydi, to'ldiradi — PF-217 (18.11.2025) nazorat tizimini kuchaytiradi; MVP ana shu qatlamga yordamchi vosita sifatida quriladi (Ilova C).
+
 ---
 
 ## 7. FEATURE ENGINEERING SPETSIFIKATSIYASI
@@ -480,6 +516,8 @@ for each company c in sectors (Energy 60%, Agriculture 18%, IPPU 15%, Waste 5%, 
 2. **Sektor-normalizatsiya:** barcha nisbatlar sektor ichida normallashtiriladi (energetika va agro taqqoslanmaydi).
 3. **Explainability-first:** har feature inson tiliga o'giriladi (`feature_glossary.json` → UI'da "gaz iste'moli bo'yicha 1 200 t chiqishi kerak edi, hisobotda 740 t").
 4. **Versiyalash:** `features_v1`, `features_v2` — model metadata'da qaysi versiya ishlatilgani yoziladi (audit izi).
+
+**Prezident qarorlari asosi:** feature'lar davlat monitoringi ko'rsatkichlari (kontsentratsiya, oqim, kalibrovka) va PF-16 «yashil iqtisodiyot» dasturi ko'rsatkichlari bilan moslangan (Ilova C).
 
 ---
 
@@ -520,6 +558,8 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 
 **Yangi dalillar (2025–2026).** Mustaqil tadqiqotlar ML nazorati regulyator ko'rigini **to'ldirishini** ko'rsatadi: 107 chiqarish manbasi bo'yicha 334 ma'lumot-pattern o'zgarishi 90% ishonch darajasida aniqlangan, holbuki rasmiy nazorat yozuvlarida shundan faqat 24 tasi qayd etilgan (Xu et al., 2025, *Environment International* 201:109594). Sement zavodlari kesimida ≥2% manipulyatsiya ≥90% aniqlik bilan topilgan, yolg'on signal darajasi esa 3%dan past (Wu et al., 2026, *Processes* 14(3):554). CEMS ma'lumot sifati uchun to'liq ramka — anomaliya aniqlash + kalibrovka + to'ldirish — Xitoy ETS sharoitida taklif qilingan (Song et al., 2025, *EIA Review* 115:108037); usullar ko'rigi — Nassif et al. (2021, *IEEE Access* 9:78658–78700). Shu dalillar ikkita talabni mustahkamlaydi: (1) FP darajasi alohida o'lchanishi kerak — shu sabab AC-2 (FPR ≤ 0,10) S0'da muzlatiladi; (2) aniqlash regulyator qarorini **almashtirmaydi**, balki tekshiruv uchun ustuvorlik beradi (§8.4, AC-5).
 
+**Prezident qarorlari asosi:** model tanlovi asoslangan qaror sifatida hujjatlashtiriladi — PF-189/PQ-320 (2025) qo'llab-quvvatlash tartibi doirasida loyiha ana shunday hujjat bilan taqdim etiladi (Ilova C).
+
 ### 8.4. Izohlanuvchanlik (AC-5 talabi) — texnik yechim
 1. **Nisbat izohlari (qoidalashtirilgan):** har bir flag uchun "kutilgan qiymat ↔ haqiqiy qiymat ↔ farq" uchligi matn ko'rinishida.
 2. **SHAP** (TreeExplainer IF uchun) — eng ko'p hissa qo'shgan 5 feature.
@@ -544,6 +584,8 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 | **Inferens vaqti** | p50/p95 (ms) | AC-6 |
 | **Kalibrlash xatosi** | Brier score / ECE | "0,9 ball = 90% ehtimol" ishonchi |
 
+**Prezident qarorlari asosi:** metrikalar davlat maqsadlari tiliga o'girilgan — PF-46 (tashlanmalar, PM2,5 kunlari) va PQ-320 (AI loyihasi samaradorligi) ko'rsatkichlari (Ilova C).
+
 ### 9.2. Eksperiment protokoli
 1. **Bo'lish:** vaqt bo'yicha (temporal split) — train: 2021Q1–2025Q2, test: 2025Q3–2026Q2. Tasodifiy bo'lishdan farqli — "o'tmishdan o'rganib, kelajakni bashorat" (leak yo'q, real holatga mos).
 2. **5 seed × 4 ssenariy** (clean/5%/15%/30%) = 20 run; har biri MLflow'da.
@@ -560,6 +602,8 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 
 ### 9.4. "Biznes" darajasidagi taqqoslash (nihoyat muhim)
 Texnik metrikadan tashqari, **foyda modeli** yoziladi: faraz qilaylik, inspektor yiliga **N=200** tekshiruv o'tkazadi. Random tanlovda aniqlangan soxtalik ulushi = baza darajasi (masalan 10%); model bilan top-200 → **aniqlangan soxtalik ~4–6× ko'proq**. Bu — "AI nima beradi" savolining raqamli javobi.
+
+**Prezident qarorlari asosi:** foyda modeli PF-16 «yashil iqtisodiyot» dasturi va PF-46 nazorat maqsadlari kesimida ko'rsatiladi (Ilova C).
 
 ---
 
@@ -586,6 +630,8 @@ Manba hujjat §3.10 (risklar matritsasi) va **P14 (ma'lumot soxtalashtirilishi)*
 2. Model "soxtalashtirishni isbotlamaydi" — faqat "tekshirishga loyiq" deb belgilaydi.
 3. Emissiya omillari (EF) noaniqligi natijaning bir qismini tashkil qiladi.
 4. Dehqonchilik/chorvachilik (diffuz manbalar) MVP doirasidan tashqarida — alohida loyiha.
+
+**Prezident qarorlari asosi:** asosiy risklar PF-217 sanksiya tartibi va PF-46 nazorat maqsadlari fonida baholanadi; MVP hech bir riskni yashirmaydi (Ilova C).
 
 ---
 
@@ -645,6 +691,8 @@ gantt
 
 **Resurs byudjeti (talaba sharoiti):** 1 kishi × ~15 soat/hafta ≈ **240 soat**; 2 kishi ≈ 2× (parallel: backend + ML). Xarajat: ~**$0** (ochiq manbalar, lokal Docker, bepul CI; ixtiyoriy: LLM/cloud GPU **$20–60**).
 
+**Prezident qarorlari asosi:** vaqt chizig'i davlat sanalariga bog'langan — PQ-343 (18.11.2025) → 01.03.2026 (stansiyalar) → 01.09.2026 (platforma) → 01.01.2027 (yagona geoaxborot bazasi); MVP shu zanjirning tekshiruv bosqichi (Ilova C).
+
 ---
 
 ## 12. ILOVALAR
@@ -697,25 +745,31 @@ audit_log(id PK, entity, entity_id, action, actor, payload JSONB, ts)
 1. UNFCCC — Uzbekistan NDC 3.0 (2025): 2035-yilga YaIM birligiga emissiya intensivligini 2010-yilga nisbatan −50%; metan siyosati. https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC.pdf
 2. «Issiqxona gazlarining chiqarilishini cheklash to'g'risida» qonun (2025; kuchga kirishi — 2026-yil 9-yanvar) — milliy uglerod birliklari, reyestr, savdo tartibi (gazeta.uz, 09.07.2025). https://www.gazeta.uz/oz/2025/07/09/greenhouse/
 3. VM-783 (25.11.2024) — I/II toifa obyektlari va avtomatik stansiyalar talablari; 202-son Nizom (201-band — koeffitsiyentlar, 301-band — rag'bat). https://lex.uz/uz/docs/-7233437 · https://lex.uz/uz/docs/-5367873
-4. PF-81-son farmon (31.05.2023) — ekologiya sohasini transformatsiya qilish; PQ-343 (18.11.2025) — o'rnatish muddatlari va yagona platforma. https://lex.uz/uz/docs/-6479180 · https://lex.uz/uz/docs/-7847341
+4. PF-81-son farmon (31.05.2023) — ekologiya sohasini transformatsiya qilish; PQ-343 (18.11.2025) — o'rnatish muddatlari (fon stansiyalari — 2026-yil 1-martga qadar; yagona ekologik onlayn platforma — 01.09.2026ga qadar). https://lex.uz/uz/docs/-6479180 · https://lex.uz/uz/docs/-7847341
 5. PQ-358 (14.10.2024) — sun'iy intellekt strategiyasi 2030; PF-189 (22.10.2025) va PQ-320 (30.10.2025) — AI loyihalarni qo'llab-quvvatlash; VM-425 (10.07.2025) — ustuvor AI loyihalari. https://lex.uz/acts/-7158604
 
+6. PF-16-son farmon (30.01.2025) — «O'zbekiston — 2030» strategiyasini «Atrof-muhitni asrash va "yashil iqtisodiyot" yilida» amalga oshirishga oid davlat dasturi. https://lex.uz/uz/docs/-7369703
+7. PF-46-son farmon (25.03.2026) — «Toza havo» umummilliy loyihasi: tashlanmalarni 10,5%ga kamaytirish, I va II toifa korxonalarida avtomatik monitoring stansiyalari, PM2,5 bo'yicha oshish kunlarini qisqartirish. https://lex.uz/uz/docs/-8101201
+8. PF-217-son farmon (18.11.2025) — Ekologiya va iqlim o'zgarishi milliy qo'mitasi va Ekopolitsiya; ekologik nazoratni kuchaytirish; 2026-yil 1-apreldan yuridik shaxslarga moliyaviy sanksiyalar tartibi. https://lex.uz/uz/docs/-7847353
+9. PF-149-son farmon (26.09.2024) — ekologiya va atrof-muhitni muhofaza qilish sohalarida ochiqlikni ta'minlash hamda boshqaruv tizimini takomillashtirish. https://lex.uz/uz/docs/-7128153
+10. PF-6079-son farmon (05.10.2020) — «Raqamli O'zbekiston — 2030» strategiyasi; raqamli infratuzilma va ochiq standartlar yo'nalishi. https://lex.uz/uz/docs/-5030957
+
 **A — tadqiqotlar (model tanlovi va yangi dalillar)**
-6. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF to'rt tomonlama qiyoslash (SCADA). https://doi.org/10.3390/fi18020096
-7. JISEM, 2025 — Autoencoder anomaliya ramkasi: F1 93,2%, ROC-AUC 97%. https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
-8. Premier Journal of Science, 2025 — sanoat anomaliya usullari: AE 87–89%, IF 84–86%, inferens 48 ms. https://premierscience.com/pjs-25-1320/
-9. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash): AE precision 0,99 / recall 0,61; IF 0,03/0,21. https://www.mdpi.com/2076-3417/16/5/2457
-10. IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / 61%. https://doi.org/10.1109/ICICyTA60173.2023.10428838
-11. Xu et al. (2025), *Environment International* 201:109594 — CEMS vaqt qatorlarida pattern o'zgarishlari: 334 holat 90% ishonchda, rasmiy nazoratda 24 tasi. https://doi.org/10.1016/j.envint.2025.109594
-12. Song et al. (2025), *Environmental Impact Assessment Review* 115:108037 — CEMS ma'lumot sifati ramkasi (anomaliya + kalibrovka + to'ldirish), Xitoy ETS. https://doi.org/10.1016/j.eiar.2025.108037
-13. Nassif et al. (2021), *IEEE Access* 9:78658–78700 — anomaliya aniqlash bo'yicha 290 tadqiqotli tizimli ko'rik. https://doi.org/10.1109/ACCESS.2021.3083060
-14. Wu et al. (2026), *Processes* 14(3):554 — sement zavodida ≥2% manipulyatsiya ≥90% aniqlikda, FP <3%. https://doi.org/10.3390/pr14030554
+11. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF to'rt tomonlama qiyoslash (SCADA). https://doi.org/10.3390/fi18020096
+12. JISEM, 2025 — Autoencoder anomaliya ramkasi: F1 93,2%, ROC-AUC 97%. https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
+13. Premier Journal of Science, 2025 — sanoat anomaliya usullari: AE 87–89%, IF 84–86%, inferens 48 ms. https://premierscience.com/pjs-25-1320/
+14. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash): AE precision 0,99 / recall 0,61; IF 0,03/0,21. https://www.mdpi.com/2076-3417/16/5/2457
+15. IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / 61%. https://doi.org/10.1109/ICICyTA60173.2023.10428838
+16. Xu et al. (2025), *Environment International* 201:109594 — CEMS vaqt qatorlarida pattern o'zgarishlari: 334 holat 90% ishonchda, rasmiy nazoratda 24 tasi. https://doi.org/10.1016/j.envint.2025.109594
+17. Song et al. (2025), *Environmental Impact Assessment Review* 115:108037 — CEMS ma'lumot sifati ramkasi (anomaliya + kalibrovka + to'ldirish), Xitoy ETS. https://doi.org/10.1016/j.eiar.2025.108037
+18. Nassif et al. (2021), *IEEE Access* 9:78658–78700 — anomaliya aniqlash bo'yicha 290 tadqiqotli tizimli ko'rik. https://doi.org/10.1109/ACCESS.2021.3083060
+19. Wu et al. (2026), *Processes* 14(3):554 — sement zavodida ≥2% manipulyatsiya ≥90% aniqlikda, FP <3%. https://doi.org/10.3390/pr14030554
 
 **M — amaliy va media manbalar**
-15. MEE (Xitoy), *Progress Report of China's National Carbon Market* (2024) — big-data orqali anormal ma'lumotlarni aniqlash va erta ogohlantirish. https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
-16. Production ML inference server (FastAPI + Redis + ONNX). https://github.com/sky4infy/production-ml-inference-server
-17. FastAPI inference arxitekturasi — «100 req/s dan past bo'lsa, soddaroq qiling». https://markaicode.com/architecture/fastapi-inference-architecture/
-18. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md` — §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi); g'oya asosi — `Goya-Uch-Daftar.md` §3 (§0.1).
+20. MEE (Xitoy), *Progress Report of China's National Carbon Market* (2024) — big-data orqali anormal ma'lumotlarni aniqlash va erta ogohlantirish. https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
+21. Production ML inference server (FastAPI + Redis + ONNX). https://github.com/sky4infy/production-ml-inference-server
+22. FastAPI inference arxitekturasi — «100 req/s dan past bo'lsa, soddaroq qiling». https://markaicode.com/architecture/fastapi-inference-architecture/
+23. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md` — §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi); g'oya asosi — `Goya-Uch-Daftar.md` §3 (§0.1).
 
 ---
 

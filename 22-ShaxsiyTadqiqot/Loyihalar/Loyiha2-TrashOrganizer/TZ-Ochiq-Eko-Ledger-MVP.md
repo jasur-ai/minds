@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: tz
 holat: kutishda
 sarlavha: TZ — Ochiq Eko Ledger MVP
-qisqacha: Texnik topshiriq: S0–S7 bosqichlar + Definition of Done
+qisqacha: Texnik topshiriq: S0–S7 bosqichlar + Definition of Done; bo'limlar prezident qarorlari bilan bog'langan (v1.3)
 manba: workspace/02-Loyiha2-Trash-Organizer/TZ/Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.md
 ---
 
@@ -19,7 +19,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/TZ/Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.m
 **Ijrochi profili:** talaba (School 21); mavjud ko'nikmalar: Python, **aiogram** (Telegram bot), **FastAPI**, PostgreSQL/Firebase, LLM API bilan ishlash  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta)  
 **Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); S7 yakuni — W15 (28.12.2026–03.01.2027); himoya buferi — 06–15.01.2027  
-**Versiya:** 1.2 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; sana/hafta va dublikat qoidasi tuzatilgan)
+**Versiya:** 1.3 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; S0–S7 va barcha asosiy bo'limlar prezident qarorlari bilan bog'langan; Ilova C — 26 manba)
 
 > **MUHIM IZOH.** Manba hujjatda **zona-rang kodlash (qizil/sariq/yashil/ko'k-neytral)** va **fuqaro murojaati moduli** *yo'q*. Ular ushbu loyihaning **o'z qo'shimchalari** — shu sababli quyida to'liq (matematik qoidagacha) spetsifikatsiya qilinadi: §5 va §6.
 
@@ -110,6 +110,8 @@ Loyiha **mavjud qonunchilik ichida** ishlaydi: yangi qonun talab qilinmaydi, chu
 
 **Anti-da'volar (nima isbotlanmaydi):** platforma korxonani **ayblamaydi**; natija **yuridik dalil emas**; real korxona nomlari bilan ommaviy demo **faqat sintetik ma'lumotda** ko'rsatiladi.
 
+**Prezident qarorlari asosi:** da'voning asosi qarorlarda allaqachon yozilgan — PF-56 (24.03.2025) yagona elektron hisob tizimini, PQ-184 (15.05.2025) monitoring bazasining 2025-yil 1-dekabrdan ochiqligini, PF-149 (26.09.2024) esa ekologiya sohalarida ochiqlikni belgilagan (Ilova C).
+
 ---
 
 ## 2. JARAYON XARITASI — XRONOLOGIK VA VIZUAL
@@ -170,6 +172,8 @@ gantt
 | S6 Murojaat moduli | S3, S5 | Murojaat xaritadan (nuqta tanlash) va botdan boshlanadi; ob'ekt identifikatori (facility_id) talab qilinadi |
 | S7 Test/demo | hammasi | Yakuniy tekshiruv |
 
+**Prezident qarorlari asosi:** tartib davlat sanasiga tayanadi — S0 2025-yil 1-dekabrdagi ochiqlik sanasidan keyin boshlanadi (PQ-184; Ilova C).
+
 ---
 
 ## 3. BOSQICHLAR BO'YICHA BATAFSIL JADVAL
@@ -209,6 +213,8 @@ gantt
 | M4 | Korxona o'z e'loni (self-report) | ixtiyoriy | forma | oylik | ✅ |
 | M5 | Fuqaro signali (murojaat/telegram) | kraudsort | matn + foto + nuqta | real-time | ✅ |
 
+**Prezident qarorlari asosi:** manbalar davlat tizimlaridan iborat — PF-56 yagona elektron hisob tizimi, PQ-184 ochiq monitoring bazasi, PQ-343 yagona ekologik onlayn platformasi (Ilova C).
+
 ### S1. Backend va baza (W2–W4, 18 kun)
 
 | Ustun | Mazmun |
@@ -218,6 +224,8 @@ gantt
 | **Nega aynan shu texnologiya** | 1) **PostGIS vs "oddiy lat/lon"** — baribir SQL bor, lekin PostGIS *kerak*, chunki real so'rovlar: "shu mahalla poligoni ichidagi korxonalar" (`ST_Contains`), "murojaatdan 500 m radiusdagi ob'ektlar" (`ST_DWithin`), "eng yaqin stansiya" (`<->` operatori/KNN). Bu so'rovlarni Python'da qilish O(n×m) → 10 000 nuqtada bir necha soniya; PostGIS'da **millisekundlar** (GiST indeks). Xulosa: oddiy lat/lon'dan boshlash **texnik qarz** yaratadi, narxi esa — bitta `CREATE EXTENSION postgis`; 2) **FastAPI** — talabaning mavjud tajribasi + avtomatik OpenAPI (ochiq API — loyihaning maqsadlaridan biri!); 3) **Redis** — kunlik zoning natijasini keshlash (xarita yuklanishi) va Telegram alert navbati (`arq`); 4) **Docker Compose** — PostGIS+Redis+API bir buyruqda |
 | **Nega aynan shu vaqtda** | Barcha keyingi bosqichlar API kontraktiga tayanadi; API oldin "muzlatilsa", xarita va bot ustida parallel ishlash mumkin (2 kishilik jamoada 30% vaqt tejamkorligi) |
 | **Deliverable** | Ishlaydigan API + `/docs`, migratsiyalar, seed skripti, 15+ test (shu jumladan PostGIS so'rovlari testi) |
+
+**Prezident qarorlari asosi:** hisob maydonlari PF-56 tizimi bilan moslashadi; PF-6079 (05.10.2020) «Raqamli O'zbekiston — 2030» ochiq standartlar talabini beradi (Ilova C).
 
 ### S2. Zona-rang algoritmi (W4–W6, 12 kun)
 
@@ -229,6 +237,8 @@ gantt
 | **Nega aynan shu vaqtda** | Rang xarita, bot va LLM matnining **kirish ma'lumoti**; algoritm kech yozilsa, uchta yo'nalish bir vaqtda bloklanadi (kritik yo'l) |
 | **Deliverable** | `zoning/engine.py` + `zoning/rules.md` (inson tilida qoidalar), 100 test, `zoning_runs` tarixi |
 
+**Prezident qarorlari asosi:** zona qoidalari PF-46 (25.03.2026) «Toza havo» maqsadlariga tayanadi — PM2,5 bo'yicha oshish kunlari ana shu hisob orqali o'lchanadi (Ilova C).
+
 ### S3. Xarita va dashboard (W6–W8, 16 kun)
 
 | Ustun | Mazmun |
@@ -238,6 +248,8 @@ gantt
 | **Nega aynan shu texnologiya** | 1) **Leaflet** — bepul, ochiq, 6 KB'lik asosiy yuklama, mobil brauzerda tez; choropleth uchun nativ qo'llab-quvvatlash (`L.geoJSON` + style funksiyasi); Mapbox'ga nisbatan token/billing yo'q — **ochiq platforma uchun litsenziya toza**; 2) **GeoJSON** — inson o'qiy oladigan standart, jurnalist ham yuklab olishi mumkin (ochiqlik talabi); katta hajmda keyin MVTB (vector tiles)ga o'tish yo'li ochiq; 3) **markercluster** — 10 000 marker brauzerda bloklanmaydi |
 | **Nega aynan shu vaqtda** | Rang (S2) tayyor bo'lgach; oldin yozilgan xarita "quruq" maket bo'lib qoladi |
 | **Deliverable** | `web/map.html` (prod), `docs/screenshots/`, mobil moslashuv (responsive), xarita yuklanish vaqti < 3 s (3G'da < 8 s) |
+
+**Prezident qarorlari asosi:** xarita ochiqlik majburiyatining ko'rinadigan qismi — PF-149 va PQ-184 talablari bo'yicha ma'lumot ommaviy va tekshiriladigan shaklda ko'rsatiladi (Ilova C).
 
 ### S4. LLM matn generatori (W6–W8, 12 kun)
 
@@ -249,6 +261,8 @@ gantt
 | **Nega aynan shu vaqtda** | Raqamlar (S2) tayyor bo'lgach. LLM'ni **oxirida** qo'shish — to'g'ri tartib: avval ishonchli faktlar, keyin til |
 | **Deliverable** | `llm/prompt_v1.md`, `llm/verify.py`, 100 ta test-matn natijasi, "uydirma raqam" testi (0 ta xato) |
 
+**Prezident qarorlari asosi:** LLM qatlami PQ-358 (14.10.2024) strategiyasi va PF-189/PQ-320 qo'llab-quvvatlash tartibi doirasida quriladi (Ilova C).
+
 ### S5. Telegram bot — aiogram (W8–W10, 12 kun)
 
 | Ustun | Mazmun |
@@ -258,6 +272,8 @@ gantt
 | **Nega aynan shu texnologiya** | 1) **Telegram — O'zbekistonda eng keng tarqalgan kanal** (fuqaro uchun ilova o'rnatish talab qilinmaydi, saytga kirish shart emas) — bu **qamrov** masalasi: veb-saytga 100 kishi kirsa, botga 10 000 obunachi yig'ish real; 2) **aiogram** — talabada bor, to'liq async (FastAPI bilan bir event loop'da), FSM murojaat formasini qadam-baqadam yig'ish uchun ideal; 3) **Webhook** (long-polling emas) — serverda resurs tejaladi, javob tezligi barqaror |
 | **Nega aynan shu vaqtda** | Xarita va alert oqimi (S3) ishlagach; bot — mavjud ma'lumotning **ikkinchi ko'rinishi**, yangi ma'lumot manbasi emas |
 | **Deliverable** | `@eco_ledger_bot` (test nomi), 6 ta buyruq/ssenariy, `/help`, 10 ta test (mock Telegram), demo video |
+
+**Prezident qarorlari asosi:** bot kanali PF-217 (18.11.2025) «aholi talablariga tezkor javob bera oladigan boshqaruv tizimi» maqsadiga xizmat qiladi (Ilova C).
 
 ### S6. Murojaat moduli (W9–W11, 18 kun)
 
@@ -269,6 +285,8 @@ gantt
 | **Nega aynan shu vaqtda** | Bot (S5) va xarita (S3) murojaat uchun kirish nuqtalari; modul ularsiz "ko'r" bo'ladi |
 | **Deliverable** | Murojaat sikli to'liq ishlaydi; SLA dashboard; 25+ test (shu jumladan "o'chirishga urinish rad etiladi" testi) |
 
+**Prezident qarorlari asosi:** murojaat moduli PF-217 tezkorlik talabi va O'RQ-457 (30 ish kuni) muddatiga tayanadi; SLA 10 kun — ikkalasidan ham qat'iyroq (Ilova C).
+
 ### S7. Test, demo, hujjatlashtirish (W13–W15, 15 kun)
 
 | Ustun | Mazmun |
@@ -278,6 +296,8 @@ gantt
 | **Nega aynan shu texnologiya** | Playwright MVP'da **ixtiyoriy** — xarita qo'lda sinaladi, vaqt tejash; CI esa majburiy (reproduksiya dalili) |
 | **Nega aynan shu vaqtda** | Komponentlar barqarorlashgach; erta integratsiya testi ko'p sinadi |
 | **Deliverable** | CI badge, 3 demo video, `docs/`, texnik hisobot, Git tag `v1.0` |
+
+**Prezident qarorlari asosi:** test/demo natijalari PQ-320 ustuvor AI loyihalari mezonlariga tayyorlanadi; handover manzili — PQ-343 yagona platformasi (Ilova C).
 
 ---
 
@@ -314,6 +334,8 @@ gantt
 | **3** | **Chiqindi hajmi (xavfli + qattiq maishiy)** | Normativ **chiqarish limiti** yo'q → taqqoslash qavatlari: **korxona tarixi** + **sektor o'rtachasi** + **litsenziya sharti**. Me'yor o'rniga "kutilgan diapazon" (birlik mahsulotga chiqindi) | (a) **Yangilangan qonun oqimi**: 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha choraklik hisobot majburiy (20-sanagacha), 2027-yil 1-yanvardan raqamli pasport → **ma'lumot o'z-o'zidan keladi**; (b) manba hujjatda eng ko'p raqamli kontradiksiya aynan shu sohada (7,2–14 mln t) → platforma qarama-qarshilikni **ko'rsatishi** kerak; (c) 2–3 indikatordan bittasi **chiqindi** bo'lishi fuqaro uchun eng tushunarli (ko'z bilan ko'riladi) |
 
 **Xulosa (nega aynan uchta, ettita emas):** 3 ta indikator = 3 xil taqqoslash mantig'i (normativ-bir martalik; normativ-continuous; normativsiz-relative). Bu uchta **butun algoritmni** sinash uchun yetarli; 7 ta indikator qo'shish MVP qiymatini oshirmaydi, lekin integratsiya xatarini ikki barobar oshiradi.
+
+**Prezident qarorlari asosi:** indikatorlar PF-46 monitoring doirasi va SanQvaM 0053-23 me'yorlari bilan chegaralangan (Ilova C).
 
 ### 4.3. Asosiy jadvallar (qisqartirilgan)
 
@@ -371,6 +393,8 @@ Bu yerda `V_measured` — 30-kunlik o'rtacha (spike'lar alohida hodisa sifatida 
 
 > **Kritik dizayn qarori:** "ma'lumot yo'q" ≠ "yashil". Bu **eng ko'p uchraydigan tizim xatosi** (Xitoy IPE tajribasida ham, EEA hisobotlarida ham): e'lon qilmaydigan korxona "toza" ko'rinib qoladi. Shuning uchun **ko'k-neytral** — alohida, **kamchilikni ko'rsatuvchi** holat, va uning **ulushi** alohida KPI sifatida o'lchanadi (necha % hudud "ko'r zonada").
 
+**Prezident qarorlari asosi:** bu tamoyil ochiqlik majburiyatidan kelib chiqadi — PQ-184 va PF-149 ochiqlikni umumiy talab sifatida belgilagan, «ko'k zona» esa shu talabning to'liq bajarilishini ko'rsatadigan yagona halol shakl (loyiha qarori; Ilova C).
+
 ### 5.2. "Ishonch darajasi" (C) — rangning ikkinchi o'qi
 
 ```
@@ -409,6 +433,8 @@ f_completeness = mavjud_indikatorlar / rejaviy_indikatorlar
 | **3** | ekstremal (O3 bilan bog'langan) | R > 5 |
 
 **Nima uchun kerak:** §5.5 dagi agregatsiya "RED va severity≥2" shartini ishlatadi — ya'ni **chegara atrofidagi bitta tasodifiy o'lchov** hududni qizil qilmaydi; qizil rang faqat **sezilarli** oshib ketishdan boshlanadi.
+
+**Prezident qarorlari asosi:** severity shkalasi PF-217 (18.11.2025) sanksiya tartibi bilan uyg'unlikda ishlaydi — 2026-yil 1-apreldan moliyaviy sanksiyalar joriy etilgan (Ilova C).
 
 ### 5.5. Korxonadan zonaga agregatsiya
 
@@ -454,6 +480,8 @@ Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 
 **Nega bu muhim:** fuqaro yoki korxona "nega qizil bo'ldim?" deb so'rasa, javob **bitta yozuvda**, o'zgarmas holda turadi. Qoida versiyasi (`rule_version`) ham saqlanadi — algoritm o'zgarsa, o'tmish **qayta yozilmaydi**, yangi qoida faqat **oldinga** qo'llanadi (audit tamoyili, xuddi moliyaviy hisobotdagi kabi).
 
+**Prezident qarorlari asosi:** rang o'zgarishlarining yozib borilishi PQ-343 (18.11.2025) yagona platformasiga qo'yiladigan shaffoflik talablariga mos (Ilova C).
+
 ### 5.8. Vizualizatsiya spetsifikatsiyasi (Leaflet)
 
 | Element | Texnik spetsifikatsiya |
@@ -483,6 +511,8 @@ Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 | **Korxonaning o'zi** | O'z reytingiga e'tiroz (apellyatsiya) | eco_id egasi tasdiqlash |
 
 **Muhim printsip:** *"Kim murojaat qila olmaydi"* degan to'siq **faqat** texnik (spam, dublikat) bo'lishi mumkin — **mazmuni bo'yicha** filtr yo'q. "Nomaqbul" yoki "noqulay" ekani uchun murojaat rad etilmaydi.
+
+**Prezident qarorlari asosi:** murojaat huquqi davlat islohoti bilan bir yo'nalishda — PF-217 (18.11.2025) aynan shu sohada aholi talablariga tezkor javob beradigan boshqaruv tizimini yaratishga qaratilgan (Ilova C).
 
 ### 6.2. Murojaat turlari
 
@@ -559,6 +589,8 @@ stateDiagram-v2
 
 **KPI paneli (ochiq, har kim ko'radi):** organlar va hududlar bo'yicha — o'rtacha javob vaqti (median), muddatga rioya % , ochiq murojaatlar soni, "muddati o'tgan" ulushi. Reyting **ommaviy** — bu bosim mexanizmi (Xitoy IPE modeli: ochiqlik → obro' orqali majburlash).
 
+**Prezident qarorlari asosi:** SLA 10 kun — PF-217 tezkorlik talabi va O'RQ-457 30 ish kuni muddatidan qat'iyroq ichki standart (Ilova C).
+
 ### 6.6. Ma'lumotlar bazasida saqlash
 
 ```sql
@@ -617,6 +649,8 @@ sla_metrics(period DATE, body TEXT, region TEXT, total INT, on_time INT,
 - **PRTR Protokoli (Kiev, 2003):** ma'lumotlar **bepul, internetda, ob'ekt/modda/joy bo'yicha qidiriladigan**, hisobot yilidan keyin **15 oy ichida** yangilanishi kerak. Platformaning ochiq API + GeoJSON eksporti aynan shu talabni MVP darajasida bajaradi.
 - **Aarhus 3-ustun (adolatga erishish):** murojaat zanjiri + o'zgarmas audit izi fuqaroga sud uchun **dalil bazasi** beradi (o'chirilgan murojaat sudda isbotlanmaydi — shu sabab "o'chirmaslik" texnik talab).
 - **Qo'shimcha:** Aarhus maxsus ma'ruzachisi (Special Rapporteur on environmental defenders, 2021) — ekologik faollar ta'qib qilinishiga qarshi tezkor mexanizm; platforma murojaatchi shaxsini **default anonim** saqlaydi (`author_hash`).
+
+**Prezident qarorlari asosi:** ochiqlik va jamoatchilik ishtiroki PF-149 (26.09.2024) farmonida alohida yo'nalish sifatida belgilangan (Ilova C).
 
 ---
 
@@ -704,6 +738,8 @@ flowchart TB
 | **Fayllar** | MinIO yoki lokal disk | S3 (AWS) | Maxfiylik + xarajat 0; S3'ga o'tish interfeysi ochiq | AWS S3 — ma'lumot chet elda (siyosiy) |
 | **Deploy** | Docker Compose (1 VPS) | Kubernetes, serverless | MVP: 1 server, 3 konteyner; K8s — ortiqcha | Serverless — doimiy cron (SLA) va PostGIS uchun mos emas |
 
+**Prezident qarorlari asosi:** stek tanlovi «Raqamli O'zbekiston — 2030» (PF-6079) va PQ-358 yo'nalishida — ochiq va ko'chirilishi oson texnologiyalar (Ilova C).
+
 ### 7.3. Advisor kontekstida qo'shimcha asoslash
 - **Akademik taqdimot uchun:** arxitektura **5 qatlamga** aniq bo'linadi (manba → ingestion → yadro → chiqish → murojaat) va **bitta** deterministik yadroga (zona dvigateli) tayanadi — komissiyaga "qora quti emas, qoidaviy tizim + LLM faqat til uchun" deb tushuntirish oson.
 - **Talaba ko'nikmasiga mosligi:** ishlatilgan 8 texnologiyadan 6 tasi (Python, FastAPI, PostgreSQL, Telegram/aiogram, LLM API, Docker) talabada **allaqachon bor**; yangi o'rganiladigan 2 tasi — **PostGIS** (bir haftalik ish) va **Leaflet** (2–3 kun). Bu — semestr uchun real yuklama.
@@ -782,6 +818,8 @@ JSON:
 
 **Muhim:** V6 — "inson aralashuvi" emas, **namuna nazorati**: e'lon qilish **to'xtatilmaydi** (matn shablon bilan chiqadi), inson faqat **sifat nazoratini** qiladi. Bu manba hujjatning "inson tamoyilisiz e'lon" talabiga mos.
 
+**Prezident qarorlari asosi:** verifikatsiya talabi PF-189/PQ-320 (2025) doirasidagi asoslanganlik mezoniga mos; LLM faqat registr yozuvini tarjima qiladi (Ilova C).
+
 ### 8.5. Audit va izchillik
 - Har matn uchun saqlanadi: `input_hash`, `prompt_version`, `model`, `verify_status`, `text_hash`, `created_at`.
 - Bir xil `input_hash` → kesh'dan **bir xil matn** (bir xil fakt uchun ikki xil matn chiqmasligi — ishonch masalasi).
@@ -823,6 +861,8 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 4. Zona chegaralari (mahalla) — taxminiy; real kadastr poligonlariga o'tish keyingi bosqich.
 5. PM2.5 uchun **yillik normaning o'zi bahsli** (milliy standart ~30–35 µg/m³ — manbalar tafovuti, JSST 5 µg/m³) — platforma ikkalasini ham ko'rsatadi, tanlovni yashirmaydi.
 
+**Prezident qarorlari asosi:** risklarning bir qismi allaqachon huquqiy javobga ega — PF-217 nazorat va sanksiya tartibini kuchaytiradi, PF-5 (04.01.2024) chiqindi tizimi va yashil subsidiyalarni belgilaydi (Ilova C).
+
 ---
 
 ## 10. YAKUNIY GANTT VA RESURS BYUDJETI
@@ -840,6 +880,8 @@ Manba hujjat §4.3 (14 pain point) va §4.6 (ishonch arxitekturasi)dan kelib chi
 | Buffer / himoya | 06.01.2027 | 15.01.2027 | 10 | Taqdimot | — |
 
 **Resurs:** 1–2 kishi × ~15 soat/hafta ≈ 240–480 soat. Xarajat: VPS **$10–20/oy**, LLM API **$5–15/oy**, domen ixtiyoriy → **~$30–70 jami**. Bepul alternativa: `fly.io`/`railway` free tier (PostGIS bilan cheklov bor) → shuning uchun **lokal Docker + demo video** asosiy yo'l.
+
+**Prezident qarorlari asosi:** PF-189/PQ-320 (2025) grant va imtiyozli kredit mexanizmlari bilan solishtirganda ham MVP yuki past (≈$30–70/oy) — loyiha davlat ko'magisiz ham ko'tarila oladi (Ilova C).
 
 ---
 
@@ -897,20 +939,24 @@ UMUMIY SHART (ikkala pog'ona uchun):
 11. O'RQ-457-son qonun, 08.01.2018 — «Ma'muriy tartib-taomillar to'g'risida»: murojaat va apellyatsiya muddatlari (30 ish kuni). https://lex.uz/docs/-3492199
 12. PQ-358 (14.10.2024) — sun'iy intellekt strategiyasi 2030; PF-189 (22.10.2025), PQ-320 (30.10.2025), VM-425 (10.07.2025) — AI loyihalarni qo'llab-quvvatlash. https://lex.uz/acts/-7158604
 
+13. PF-217-son farmon (18.11.2025) — «aholi talablariga tezkor javob bera oladigan» boshqaruv tizimi: Ekologiya va iqlim o'zgarishi milliy qo'mitasi, Ekopolitsiya; PQ-343-son qaror (18.11.2025) — Ekologik monitoring milliy markazi va Yagona ekologik onlayn platformaga talablar (platforma — 01.09.2026ga qadar). https://lex.uz/uz/docs/-7847353 · https://lex.uz/uz/docs/-7847341
+14. PF-46-son farmon (25.03.2026) — «Toza havo» umummilliy loyihasi: I va II toifa korxonalarida avtomatik monitoring stansiyalari; PM2,5 bo'yicha oshish kunlarini qisqartirish. https://lex.uz/uz/docs/-8101201
+15. PF-6079-son farmon (05.10.2020) — «Raqamli O'zbekiston — 2030» strategiyasi; ochiq ma'lumotlar va raqamli infratuzilma yo'nalishi. https://lex.uz/uz/docs/-5030957
+
 **A — tadqiqotlar va xalqaro hisobotlar**
-13. Wu, Y. et al. (2025) — «The AI Annotator: LLMs' Potential in Scoring Sustainability Reports», *Systems* 13(10):899: GPT-4o o'rtacha aniqlik ~56%, hallyutsinatsiya holatlari. https://doi.org/10.3390/systems13100899
-14. Yang, Y. et al. (2025) — «Automating the Construction of Environmental Policy Knowledge Graph with LLMs», *Sustainability* 17(22):10282. https://doi.org/10.3390/su172210282
-15. Jain, J. et al. (2025) — «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance», *Findings of ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
-16. «Use of AI-Powered Technologies for Review of Environmental Regulations», Springer (EGRWSE 2025), 2026, 329–337 — LLM + RAG kombinatsiyasi. https://doi.org/10.1007/978-3-032-15832-1_31
-17. UN/UNITAR (2024) — «National E-waste Monitor: Uzbekistan»: yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
+16. Wu, Y. et al. (2025) — «The AI Annotator: LLMs' Potential in Scoring Sustainability Reports», *Systems* 13(10):899: GPT-4o o'rtacha aniqlik ~56%, hallyutsinatsiya holatlari. https://doi.org/10.3390/systems13100899
+17. Yang, Y. et al. (2025) — «Automating the Construction of Environmental Policy Knowledge Graph with LLMs», *Sustainability* 17(22):10282. https://doi.org/10.3390/su172210282
+18. Jain, J. et al. (2025) — «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance», *Findings of ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
+19. «Use of AI-Powered Technologies for Review of Environmental Regulations», Springer (EGRWSE 2025), 2026, 329–337 — LLM + RAG kombinatsiyasi. https://doi.org/10.1007/978-3-032-15832-1_31
+20. UN/UNITAR (2024) — «National E-waste Monitor: Uzbekistan»: yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
 
 **M — media va amaliy manbalar**
-18. JSST havo sifati me'yorlari (2021): PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq. https://www.gazeta.uz/oz/2025/11/25/air-pollution/
-19. gazeta.uz, 04.05.2026 — oltita chiqindidan energiya zavodi: **933 mln dollar**, 3,6 mln tonna, 1,6 mlrd kVt·soat; qamrov 88% → 90%. https://www.gazeta.uz/oz/2026/05/04/recycle/
-20. Aarhus tezkor mexanizmi (2021) — ekologik faollar uchun maxsus ma'ruzachi; istalgan fuqaro shikoyat qilishi mumkin. https://unece.org/media/environment/Aarhus-Convention/press/361413
-21. PostGIS + Leaflet amaliy namunalari: https://github.com/pcavezzan/osm-leaflet-example · Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
-22. kun.uz, 09.10.2024 — Jahon banki va Ekovazirlik hisoboti: Toshkentda PM2.5 yillik o'rtacha **38,8 µg/m³**, ~3 000 erta o'lim, yillik zarar **$488,4 mln (~0,7% YaIM)** (stansiya "M1" shu manbaga tayanadi). https://kun.uz/en/news/2024/10/09/world-bank-report-83-of-tashkent-residents-live-in-high-air-pollution-zones
-23. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7; g'oya asosi — `Loyiha-2-Xarita.md`.
+21. JSST havo sifati me'yorlari (2021): PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq. https://www.gazeta.uz/oz/2025/11/25/air-pollution/
+22. gazeta.uz, 04.05.2026 — oltita chiqindidan energiya zavodi: **933 mln dollar**, 3,6 mln tonna, 1,6 mlrd kVt·soat; qamrov 88% → 90%. https://www.gazeta.uz/oz/2026/05/04/recycle/
+23. Aarhus tezkor mexanizmi (2021) — ekologik faollar uchun maxsus ma'ruzachi; istalgan fuqaro shikoyat qilishi mumkin. https://unece.org/media/environment/Aarhus-Convention/press/361413
+24. PostGIS + Leaflet amaliy namunalari: https://github.com/pcavezzan/osm-leaflet-example · Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
+25. kun.uz, 09.10.2024 — Jahon banki va Ekovazirlik hisoboti: Toshkentda PM2.5 yillik o'rtacha **38,8 µg/m³**, ~3 000 erta o'lim, yillik zarar **$488,4 mln (~0,7% YaIM)** (stansiya "M1" shu manbaga tayanadi). https://kun.uz/en/news/2024/10/09/world-bank-report-83-of-tashkent-residents-live-in-high-air-pollution-zones
+26. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7; g'oya asosi — `Loyiha-2-Xarita.md`.
 
 ---
 
