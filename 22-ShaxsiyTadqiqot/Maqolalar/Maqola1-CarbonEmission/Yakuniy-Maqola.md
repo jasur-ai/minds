@@ -9,7 +9,7 @@ sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 
 **Emissiya o'lchovi ishonchi: 2 335 obyekt, oqim o'lchagichidagi 5–17% noaniqlik va bir chegarali jarima tizimi**
 
-**Annotatsiya.** 2026-yil 1-martdan O'zbekistonda atrof-muhitga ta'siri bo'yicha I va II toifaga mansub sanoat korxonalari atmosfera tashlanmalarini avtomatik o'lchash stansiyalari bilan jihozlashi majburiy bo'ldi. Shu paytdan boshlab o'lchangan raqam bevosita moliyaviy oqibatga ega bo'ldi: me'yordan oshgan tashlanma uchun kompensatsiya to'lovi, rag'bat rejimida esa to'lovlarning bir qismini qaytarish. Maqola o'lchov zanjirini (kontsentratsiya × oqim × vaqt → koeffitsient → summa) bo'g'inma-bo'g'in tahlil qiladi va zanjirdagi eng katta noaniqlik oqim o'lchagichida ekanini ko'rsatadi: adabiyotda qayd etilgan qiymatlar 5–17%, AQSh energetika korxonalarida o'tkazilgan sinovlarda esa ayrim hollarda 20% gacha musbat siljish aniqlangan. Amaldagi tartib esa yagona chegaraga tayanadi va o'lchov noaniqligini huquqiy jihatdan tan olmaydi; natijada chegaraga yaqin turgan korxona uchun bir xil o'lchov natijasi ikki xil xulosaga — me'yor yoki huquqbuzarlik — olib kelishi mumkin. Maqola uch bosqichli javob taklif qiladi: noaniqlikni e'lon qilish (I), xatoni jarimadan ajratuvchi himoya mexanizmi (II) va pul oqimini shu asosda ko'rinadigan qilish (III). Taklifning yadrosi — JCGM 106 va ILAC-G8 andozalariga mos uch zonali qoida hamda to'lov bazasini hisoblashda qo'llaniladigan tushuntirish kartasi.
+**Annotatsiya.** 2026-yil 1-martdan O'zbekistonda atrof-muhitga ta'siri bo'yicha I va II toifaga mansub sanoat korxonalari atmosfera tashlanmalarini avtomatik o'lchash stansiyalari bilan jihozlashi majburiy bo'ldi. Shu paytdan boshlab o'lchangan raqam bevosita moliyaviy oqibatga ega bo'ldi: me'yordan oshgan tashlanma uchun kompensatsiya to'lovi, rag'bat rejimida esa to'lovlarning bir qismini qaytarish. Maqola o'lchov zanjirini (kontsentratsiya × oqim × vaqt → koeffitsient → summa) bo'g'inma-bo'g'in tahlil qiladi va zanjirdagi eng katta noaniqlik oqim o'lchagichida ekanini ko'rsatadi: xalqaro adabiyotda qayd etilgan qiymatlar 5–17% (AQSh sharoitida), AQSh energetika korxonalarida o'tkazilgan sinovlarda esa ayrim hollarda 20% gacha musbat siljish aniqlangan. Amaldagi tartib esa yagona chegaraga tayanadi va o'lchov noaniqligini huquqiy jihatdan tan olmaydi; natijada chegaraga yaqin turgan korxona uchun bir xil o'lchov natijasi ikki xil xulosaga — me'yor yoki huquqbuzarlik — olib kelishi mumkin. Maqola uch qismli javob taklif qiladi: noaniqlikni e'lon qilish (I qism), xatoni jarimadan ajratuvchi himoya mexanizmi (II qism) va pul oqimini shu asosda ko'rinadigan qilish (III qism). Taklifning yadrosi — JCGM 106 va ILAC-G8 andozalariga mos uch zonali qoida hamda to'lov bazasini hisoblashda qo'llaniladigan tushuntirish kartasi.
 
 **Kalit so'zlar:** emissiya monitoringi · o'lchov noaniqligi · oqim o'lchagichi · kompensatsiya to'lovi · apellyatsiya · JCGM 106 · ILAC-G8 · ISO/IEC 17025 · O'zbekiston
 
@@ -25,11 +25,11 @@ O'lchovning pulga aylanishi bir necha kanal orqali sodir bo'ladi. Birinchidan, m
 
 Demak, bir o'lchov natijasi bir vaqtning o'zida ham jazo, ham rag'bat manbai bo'lishi mumkin. Bu holat o'lchov sifatiga yangi talab qo'yadi: raqam nafaqat «to'g'ri», balki **tekshiriladigan va e'tiroz bildiriladigan** bo'lishi kerak. Amaliyotda esa ko'rsatkichlar boshqacha: 2026-yilda ekologik politsiya 750 ta korxonada tekshiruv o'tkazib, tabiatga yetkazilgan 1 trln 386 mlrd so'm miqdoridagi zararni hisobladi, 500 ga yaqin mansabdor shaxsga ma'muriy jarima qo'llanildi (Sputnik O'zbekiston, 05.08.2026). 2025-yil davomida ekologiya sohasida qariyb 59 ming huquqbuzarlik qayd etilgan (gazeta.uz, 01.05.2026). Hajmlar katta — shuning uchun o'lchov ishonchi masalasi nazariy emas, moliyaviy masala.
 
-Maqolaning markaziy savoli shunday: **chegaraga yaqin turgan korxona uchun o'lchov xatosi normami yoki huquqbuzarlikmi — va buni kim, qanday mezon bilan hal qiladi?** Quyida avval o'lchov zanjiri tahlil qilinadi (I bo'lim), so'ng xatoni jazodan ajratuvchi himoya mexanizmi taklif etiladi (II bo'lim), oxirida pul oqimining shu asosda qanday ko'rinadigan qilinishi ko'rsatiladi (III bo'lim).
+Maqolaning markaziy savoli shunday: **chegaraga yaqin turgan korxona uchun o'lchov xatosi normami yoki huquqbuzarlikmi — va buni kim, qanday mezon bilan hal qiladi?** Quyida avval o'lchov zanjiri tahlil qilinadi (I qism), so'ng xatoni jazodan ajratuvchi himoya mexanizmi taklif etiladi (II qism), oxirida pul oqimining shu asosda qanday ko'rinadigan qilinishi ko'rsatiladi (III qism).
 
 ---
 
-## 2. I. O'lchov zanjiri: xato qayerda to'planadi
+## 2. I qism — O'lchov zanjiri: xato qayerda to'planadi
 
 ### 2.1. Zanjirning tuzilishi
 
@@ -53,10 +53,12 @@ Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (2-rasm):
 | Gaz tahlili (kontsentratsiya) | ~3% | ILAC-G8 andozaviy amaliyoti |
 | Namuna olish tizimi | ≤1% | ISO/IEC 17025 talab doirasi |
 | Etalon va kalibrovka | ±0,7% | metrologik amaliyot |
-| **Oqim o'lchagichi (USM, S-probe)** | **5–17%** | Kanada CEMS protokoli (bias ≤5% FS chegarasi bilan solishtiring) |
+| **Oqim o'lchagichi (USM, S-probe)** | **5–17%** (AQSh sharoitida) | Sarunac va boshq. (Lehigh University), 2004; chet el sinovlari — ⚠️ milliy ko'rsatkich emas |
 | Uskuna almashtirilganda | ayrim hollarda 20% gacha musbat siljish | Sarunac va boshq. (Lehigh University), 2004 |
 
 Eng katta noaniqlik oqim bo'g'inida to'planadi — «qancha gaz o'tdi» degan savolda.
+
+⚠️ **Metodik izoh.** Jadvaldagi qiymatlar xalqaro manbalardan olingan: ular O'zbekiston korxonalarida o'tkazilgan o'lchovlar emas, balki zanjirda xato qayerda to'planishi mumkinligini ko'rsatuvchi ma'lumot. Xususan, 5–17% diapazoni AQSh sharoitida bajarilgan sinovlarga asoslanadi. Shu sababli bu sonlar milliy fakt sifatida emas, **tekshirilishi kerak bo'lgan gipoteza** sifatida ishlatiladi: I toifa korxonalarida davriy nisbiy aniqlik sinovlari o'tkazilib, natijalari e'lon qilinsa, O'zbekiston uchun haqiqiy diapazon aniqlanadi (shu yo'nalishdagi savol — 9-bo'limning 3-bandi).
 
 ![2-rasm](png/K3.png)
 
@@ -71,13 +73,15 @@ Ya'ni bir xil uskuna bilan olingan ikki raqam o'rtasidagi farq ko'pincha xodimni
 
 ### 2.4. Normativ talablar bilan taqqoslash
 
-Uskunalarga qo'yiladigan xalqaro talablar o'lchov sifati chegarasini belgilaydi: nisbiy aniqlik sinovi (RATA) oqim monitori uchun 10% dan, siljish (bias) esa to'liq shkala qiymatining 5% idan oshmasligi kerak (Kanada CEMS protokoli; EPA CAMD amaliyoti). O'zbekistonda esa chang-gaz tozalash uskunalarining samaradorligi bo'yicha talablar — ≥99,5%, ≥95% va ≥80% (VM-783, 3-band) — **nuqta** sifatida, ya'ni noaniqliksiz yozilgan.
+Uskunalarga qo'yiladigan xalqaro talablar o'lchov sifati chegarasini belgilaydi: nisbiy aniqlik sinovi (RATA) oqim monitori uchun 10% dan, siljish (bias) esa to'liq shkala qiymatining 5% idan oshmasligi kerak (Kanada CEMS protokoli; EPA CAMD amaliyoti). O'zbekistonda esa chang-gaz tozalash uskunalarining samaradorligi bo'yicha talablar — ≥99,5%, ≥95% va ≥80% (VM-783, 3-band) — **nuqta qiymat** sifatida, ya'ni noaniqliksiz yozilgan.
 
-Bu farq muhim. Xalqaro andozalarda chegara bilan birga uning ishonch oralig'i ham e'lon qilinadi; mahalliy tartibda esa faqat chegara qoladi. Natijada 10–20% noaniqlik sharoitida qabul qilingan qaror o'zining xato fazosini ko'rsatmaydi.
+Bu ikki ko'rsatkichni aralashtirmaslik kerak: **tozalash samaradorligi** uskuna ifloslantiruvchi moddaning qancha qismini ushlab qolishini bildiradi, **o'lchov noaniqligi** esa o'lchangan qiymatning haqiqiy qiymatdan qanchalik chetlanishi mumkinligini ko'rsatadi. Ya'ni uskuna 95% samaradorlik bilan ishlashi va ayni paytda uning natijasi 10% noaniqlik bilan o'lchanishi mumkin — biri ikkinchisini inkor etmaydi.
+
+Muhim nuqta shunda: xalqaro andozalarda chegara qiymati bilan birga uning ishonch oralig'i ham e'lon qilinadi; mahalliy tartibda esa samaradorlik talabi nuqta sifatida berilgan. Natijada 10–20% noaniqlik sharoitida qabul qilingan qaror o'zining xato fazosini ko'rsatmaydi.
 
 ---
 
-## 3. II. Himoya: xatoni jazodan ajratish
+## 3. II qism — Himoya: xatoni jazodan ajratish
 
 ### 3.1. Uch zonali qoida
 
@@ -89,7 +93,7 @@ Taklifning yadrosi — o'lchov natijasini chegara (L) va kengaytirilgan noaniqli
 | Sariq | L < x̄ ≤ L + U | jazo yo'q; avtomatik qo'shimcha tekshiruv va tavsiya |
 | Qizil | x̄ > L + U | jazo + tushuntirish kartasi + e'tiroz huquqi |
 
-Bu qoidada chegara va ishonch oralig'i aralashmaydi: yashil zona o'lchov natijasi me'yor ichida ekanini bildiradi, sariq zona xatoning mumkin bo'lgan sohasi chegarani kesib o'tishini tan oladi, qizil zona esa o'lchov aniq ko'rsatgan oshishni qamrab oladi. Zonalar orasidagi chegara ikkilanmasligi uchun shartlar qat'iy tengsizliklar bilan berilgan (x̄ ≤ L; L < x̄ ≤ L+U; x̄ > L+U).
+Bu qoidada chegara va ishonch oralig'i aralashmaydi: yashil zona o'lchov natijasi me'yor ichida ekanini bildiradi, sariq zona xatoning mumkin bo'lgan sohasi chegarani kesib o'tishini tan oladi, qizil zona esa o'lchov aniq ko'rsatgan oshishni qamrab oladi. Zonalar orasidagi chegara ikkilanmasligi uchun shartlar qat'iy tengsizliklar bilan berilgan (x̄ ≤ L; L < x̄ ≤ L+U; x̄ > L+U). Bu zonalar o'lchov ishonchiga taalluqli; normadan oshish darajasini ko'rsatuvchi zonalash (Maqola 2) boshqa savolga javob beradi — shu sababli shartlar ham har xil.
 
 ![3-rasm](png/K7.png)
 
@@ -115,7 +119,7 @@ E'tiroz bildirish tartibi amaldagi muddatlarga tayanishi mumkin. Taklif etilayot
 
 ---
 
-## 4. III. Pul: jazo va rag'bat bir zinapoyada
+## 4. III qism — Pul: jazo va rag'bat bir zinapoyada
 
 ### 4.1. Ikki rejim va ular orasidagi masofa
 
@@ -208,21 +212,25 @@ Bu hisob-kitobning real masshtabini ko'rsatadigan misol bor: 2026-yil may oyida 
 
 ## 7. Muhokama
 
-**Birinchidan**, o'lchov noaniqligini qabul qilish nazoratni bo'shashtiradi, degan xavf bor. Amaliyot buni tasdiqlamaydi: sariq zona jazoni bekor qilmaydi, u tekshiruvni ko'paytiradi. Xatoni jazodan ajratish jarima tizimining o'zini ishonchli qiladi — chunki bugungi holatda e'tiroz bildirish uchun asos korxonada emas, hujjatda bo'lishi kerak.
+**1.** O'lchov noaniqligini qabul qilish nazoratni bo'shashtiradi, degan xavf bor. Amaliyot buni tasdiqlamaydi: sariq zona jazoni bekor qilmaydi, u tekshiruvni ko'paytiradi. Xatoni jazodan ajratish jarima tizimining o'zini ishonchli qiladi — chunki bugungi holatda e'tiroz bildirish uchun asos korxonada emas, hujjatda bo'lishi kerak.
 
-**Ikkinchidan**, korxonaning xatoni yashirish imkoniyati haqida savol tug'iladi. Bunga qarshi vosita — qarama-qarshi signal: hisoblangan massa ishlab chiqarish hajmi, xom ashyo iste'moli va energiya balansi bilan solishtiriladi. Bu nisbatlar o'lchov uskunasidan mustaqil bo'lgani uchun ular birgalikda yashirishni qimmatlashtiradi.
+**2.** Korxonaning xatoni yashirish imkoniyati haqida ham savol tug'iladi. Bunga qarshi vosita — **qarama-qarshi signal** (hisob-kitobni o'lchov uskunasidan mustaqil bo'lgan boshqa ko'rsatkichlar bilan solishtirish): hisoblangan massa ishlab chiqarish hajmi, xom ashyo iste'moli va energiya balansi bilan solishtiriladi. Bu nisbatlar o'lchov uskunasidan mustaqil bo'lgani uchun ular birgalikda yashirishni qimmatlashtiradi.
 
-**Uchinchidan**, taklif etilayotgan ichki ko'rsatkichlar tizimi o'z navbatida yangi risklar yaratadi: reytinglar siyosiylashishi, ko'rsatkichlarning rasmiyatchilikka aylanishi mumkin. Shu sababli metodika oldindan e'lon qilinishi va ko'rsatkichlar yaxshilanish dinamikasi bo'yicha baholanishi kerak.
+**3.** Ikkinchi xavf — korxonalar kesimidagi **jamlanma ko'rsatkich (reyting)** bilan bog'liq: bir martalik reyting tez siyosiylashadi, ko'rsatkichlarning o'zi rasmiyatchilikka aylanishi mumkin. Shu sababli metodika oldindan e'lon qilinishi va ko'rsatkichlar yaxshilanish **dinamikasi** bo'yicha baholanishi kerak — reyting yakuniy hukm emas, o'zgarish tendensiyasi sifatida o'qilishi lozim.
 
-**To'rtinchidan**, xarajat masalasi. Maqolada keltirilgan bloklar xarajatni oshkor qiladi, lekin O'zbekiston uchun eng real yo'l — bosqichma-bosqich o'rnatish: avval I toifa va yuqori emissiyali tarmoqlar (energetika, sement, metallurgiya), keyin qolgan obyektlar. To'rt blokli tuzilma shu bosqichlashning byudjet asosi bo'lishi mumkin.
+**4.** Xarajat masalasi. Maqolada keltirilgan bloklar xarajatni oshkor qiladi, lekin O'zbekiston uchun eng real yo'l — bosqichma-bosqich o'rnatish: avval I toifa va yuqori emissiyali tarmoqlar (energetika, sement, metallurgiya), keyin qolgan obyektlar. To'rt blokli tuzilma shu bosqichlashning byudjet asosi bo'lishi mumkin.
 
-**Beshinchidan**, ushbu muammoning texnologik qatlami bor: sariq zona avtomatik ravishda yuzaga keladigan ma'lumotlar oqimini talab qiladi. Vaqt qatorlaridagi anomaliyalarni aniqlash usullari (statistik usullar, keyin mashinali o'qitish modellari) aynan shu ish uchun mos: uskunaning ishonchsizligi davrlarini, kalibrovka siljishini va noodatiy emissiya rejimlarini oldindan belgilash mumkin. Bu yerda ikkita shart qat'iy: model raqamni o'zgartirmaydi, faqat tekshiruvga yuboriladigan ishni tartibga soladi; qaror qabul qilish vakolati insonda qoladi. Ayni paytda jahon amaliyoti ham shu yo'nalishda shakllanmoqda: Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi. O'zbekiston uchun bu qatlamning amaliy qiymati birinchi navbatda tekshiruv resursini to'g'ri taqsimlashda — 2 335 obyektni qo'lda kuzatish imkonsiz.
+**5.** Ushbu muammoning texnologik qatlami bor: sariq zona avtomatik ravishda yuzaga keladigan ma'lumotlar oqimini talab qiladi. Vaqt qatorlaridagi anomaliyalarni aniqlash usullari (statistik usullar, keyin mashinali o'qitish modellari) aynan shu ish uchun mos: uskunaning ishonchsizligi davrlarini, kalibrovka siljishini va noodatiy emissiya rejimlarini oldindan belgilash mumkin. Bu yerda ikkita shart qat'iy: model raqamni o'zgartirmaydi, faqat tekshiruvga yuboriladigan ishni tartibga soladi; qaror qabul qilish vakolati insonda qoladi. Ayni paytda jahon amaliyoti ham shu yo'nalishda shakllanmoqda: Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi. O'zbekiston uchun bu qatlamning amaliy qiymati birinchi navbatda tekshiruv resursini to'g'ri taqsimlashda — 2 335 obyektni qo'lda kuzatish imkonsiz.
+
+*(Muhokama nuqtalari 1–5; ro'yxatning davomi — Maqola 2 da, 6–10.)*
 
 ---
 
 ## 8. Xulosa va tavsiyalar
 
 O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy jihatdan to'liq shakllandi: VM-783, VM-85, PF-16, PQ-343, O'RQ-1143. Keyingi masala — bu tizimning **ishonch arxitekturasi**, ya'ni raqamning qanday holatlarda qaror uchun yetarli asos bo'lishi.
+
+*(Tavsiyalar 1–6; ro'yxatning davomi — Maqola 2 da, 7–12.)*
 
 1. **Noaniqlikni e'lon qilish.** Har bir e'lon qilingan ko'rsatkich bilan birga uning kengaytirilgan noaniqligi (U) va hisoblash metodi ko'rsatilsin.
 2. **Uch zonali qoidani huquqiy tan olish.** Yashil, sariq va qizil zonalar chegarasi x̄ ≤ L; L < x̄ ≤ L+U; x̄ > L+U shaklida qat'iy belgilansin (JCGM 106:2012, ILAC-G8:09/2019).
@@ -234,6 +242,8 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 ---
 
 ## 9. Ochiq savollar
+
+*(Savollar 1–5; davomi — Maqola 2 da, 6–11.)*
 
 1. 2026-yil yakunlari bo'yicha avtomatik stansiyalar soni va ularning texnik holati qanday?
 2. Yagona geoaxborot tizimiga integratsiya qilingan ma'lumotlar qanday shaklda va qanday chastotada ochiq e'lon qilinadi (gazeta.uz, 24.03.2026 xabariga ko'ra bu ish rejalashtirilgan)?
@@ -287,4 +297,4 @@ O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy
 
 **Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 8- va 10-rasmlar saqlanishi tavsiya etiladi (o'lchov zanjiri, uch zonali qoida, jarima va uni qaytarish assimetriyasi, jamg'arma oqimi, tizimning o'zini tekshirishi); 5-, 6-, 7- va 9-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (o'lchov vositalari kesimi, yer usti stansiyalari, xarajat tarkibi, hisobotlarni taqqoslash).
 
-**Ilova:** ushbu maqolaning ikkinchi qismi — chiqindi hisobi va oshkoralik masalasi — alohida nashr sifatida tayyorlanmoqda.
+**Juftlik:** ushbu maqolaning ikkinchi qismi — chiqindi hisobi va oshkoralik — Maqola 2 («Kim nima chiqarayotganini kim biladi?») sifatida alohida nashr etiladi. Ikki maqola bir-birini to'ldiradi: tavsiyalar (1–6 va 7–12), ochiq savollar (1–5 va 6–11) va muhokama nuqtalari (1–5 va 6–10) yagona ro'yxat sifatida raqamlangan.

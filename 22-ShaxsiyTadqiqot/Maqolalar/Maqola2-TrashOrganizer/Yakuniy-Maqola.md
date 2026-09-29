@@ -30,11 +30,11 @@ Demak, qonuniy talab bor, muddatlar bor. Savol boshqa joyda: **e'lon qilinayotga
 
 Bu tafovutlarni yashirmaslik kerak, lekin ularni «yolg'on» deb atash ham to'g'ri emas. Ular turli hududiy qamrov, turli chiqindi toifalari va turli metodikalar asosida olingan. Muammo shunda: **raqam bilan birga uning manbasi va hisoblash usuli e'lon qilinmaydi**. Natijada fuqaro ham, investor ham, jurnalist ham qaysi raqamga tayanishni bilmaydi.
 
-Maqolaning markaziy savoli shunday: **chiqindi va ifloslanish hisobini tekshiriladigan qilish uchun nima qilish kerak?** Quyida avval raqamlar tafovutining sabablari tahlil qilinadi (I bo'lim), so'ngra e'lon qilish mexanizmi taklif etiladi (II bo'lim), oxirida fuqaro ishtiroki va 2026-yilgi amaliyot ko'rib chiqiladi (III bo'lim).
+Maqolaning markaziy savoli shunday: **chiqindi va ifloslanish hisobini tekshiriladigan qilish uchun nima qilish kerak?** Quyida avval raqamlar tafovutining sabablari tahlil qilinadi (I qism), so'ngra e'lon qilish mexanizmi taklif etiladi (II qism), oxirida fuqaro ishtiroki (III qism) va undan keyin alohida bo'limda 2026-yilgi amaliyot — poligonlarni qisqartirish, chiqindidan energiya (WtE) va xavfli chiqindi — ko'rib chiqiladi (5-bo'lim).
 
 ---
 
-## 2. I. Hisob: nega raqamlar bir-biriga to'g'ri kelmaydi
+## 2. I qism — Hisob: nega raqamlar bir-biriga to'g'ri kelmaydi
 
 ### 2.1. Hajm bo'yicha tafovut
 
@@ -73,7 +73,7 @@ Muhim jihat shundaki, ochiqlik ikki xil bo'ladi: e'lon qilingan hisobot shaklida
 
 ---
 
-## 3. II. E'lon: bir ma'lumot, besh kanal
+## 3. II qism — E'lon: bir ma'lumot, besh kanal
 
 ### 3.1. Bugungi zanjir va uning zaif nuqtasi
 
@@ -112,7 +112,7 @@ Bu cheklovning sababi oddiy: avtomatik matn yozuvchi tizimlar ishonchli ko'rinad
 
 ---
 
-## 4. III. Ishtirok: fuqaro nima qila oladi
+## 4. III qism — Ishtirok: fuqaro nima qila oladi
 
 ### 4.1. Murojaat moduli
 
@@ -129,13 +129,13 @@ Muddat chegarasining ahamiyati shunda: fuqaro uchun eng katta to'siq — javobsi
 
 Ma'lumot ishonchi bir qavatdan iborat emas. Amaliyotda besh qavatni ajratish mumkin:
 
-1. **Manba dalili** — har bir yozuv qayerdan olingani va qanday kalibrovka asosida;
-2. **Qarama-qarshi signal** — hajm, transport va energiya ko'rsatkichlari bir-biriga mos kelishi;
-3. **Shablonli izoh** — yuqorida bayon etilgan cheklangan avtomatik izohlash;
-4. **E'tiroz va tuzatish oqimi** — korxona ham, fuqaro ham tuzatish taklif qilishi mumkin;
-5. **Jamlanmagan ko'rsatkichlar** — hudud va tarmoq kesimida yaxshilanish dinamikasi.
+1-qavat. **Manba dalili** — har bir yozuv qayerdan olingani va qanday kalibrovka asosida;
+2-qavat. **Qarama-qarshi signal** — hajm, transport va energiya ko'rsatkichlari bir-biriga mos kelishi;
+3-qavat. **Shablonli izoh** — yuqorida bayon etilgan cheklangan avtomatik izohlash;
+4-qavat. **E'tiroz va tuzatish oqimi** — korxona ham, fuqaro ham tuzatish taklif qilishi mumkin;
+5-qavat. **Jamlanmagan ko'rsatkichlar** — hudud va tarmoq kesimida yaxshilanish dinamikasi.
 
-Beshinchi qavatda «yaxshi/yomon» degan yakuniy hukm emas, dinamika ko'rsatiladi. Sabab amaliy: bir martalik reyting tez siyosiylashadi, dinamika esa ancha barqaror va tekshiriladigan.
+Beshinchi qavatda «yaxshi/yomon» degan yakuniy hukm emas, dinamika ko'rsatiladi. Sabab amaliy: korxonalarni yagona jamlanma ko'rsatkich bo'yicha taqqoslaydigan **bir martalik reyting** tez siyosiylashadi, dinamika esa ancha barqaror va tekshiriladigan.
 
 ![8-rasm](png/N9.png)
 
@@ -178,15 +178,17 @@ Xavfli chiqindi oqimi alohida tartibga muhtoj. 2026-yil 1-oktabrdan hosil qiluvc
 
 ## 6. Muhokama
 
-**Birinchidan**, oshkoralik o'zi chiqindini kamaytirmaydi, degan e'tiroz o'rinli. Lekin u javobgarlikni yaratadi: hisoblanmagan va e'lon qilinmagan hajm uchun hech kim javob bermaydi. Shuning uchun oshkoralik — siyosatning alternativasi emas, uning sharti.
+**6.** Oshkoralik o'zi chiqindini kamaytirmaydi, degan e'tiroz o'rinli. Lekin u javobgarlikni yaratadi: hisoblanmagan va e'lon qilinmagan hajm uchun hech kim javob bermaydi. Shuning uchun oshkoralik — siyosatning alternativasi emas, uning sharti.
 
-**Ikkinchidan**, korxonalar ma'lumotni tanlab e'lon qilish xavfi bor. Bunga qarshi asosiy vosita — qarama-qarshi signal: hajm, transport va energiya ko'rsatkichlarini birgalikda tekshirish. Bu usul nisbatan arzon va mustaqil, chunki bu ko'rsatkichlar boshqa idoralarda shakllanadi.
+**7.** Korxonalar ma'lumotni tanlab e'lon qilish xavfi ham bor. Bunga qarshi asosiy vosita — qarama-qarshi signal: hajm, transport va energiya ko'rsatkichlarini birgalikda tekshirish. Bu usul nisbatan arzon va mustaqil, chunki bu ko'rsatkichlar boshqa idoralarda shakllanadi.
 
-**Uchinchidan**, «bir ma'lumot, besh kanal» yondashuvi yangi xato kanallarini ham yaratadi: bitta manbadagi xato besh joyda takrorlanadi. Shu sababli manba darajasidagi nazorat va tuzatish tartibi kanallar sonidan muhimroq. Har bir yozuvda o'zgartirish tarixi saqlanishi shu xatoning oldini oladi.
+**8.** «Bir ma'lumot, besh kanal» yondashuvi yangi xato kanallarini ham yaratadi: bitta manbadagi xato besh joyda takrorlanadi. Shu sababli manba darajasidagi nazorat va tuzatish tartibi kanallar sonidan muhimroq. Har bir yozuvda o'zgartirish tarixi saqlanishi shu xatoning oldini oladi.
 
-**To'rtinchidan**, chiqindidan energiya tanqidi alohida e'tibor talab qiladi. Kuydirish saralashdan keyin kelishi shart, aks holda rag'bat noto'g'ri tomonga ishlaydi: qayta ishlanishi mumkin bo'lgan xom ashyo yoqib yuboriladi. Shuning uchun WtE quvvatlari saralash quvvatlari bilan birgalikda rejalashtirilishi kerak.
+**9.** Chiqindidan energiya tanqidi alohida e'tibor talab qiladi. Kuydirish saralashdan keyin kelishi shart, aks holda rag'bat noto'g'ri tomonga ishlaydi: qayta ishlanishi mumkin bo'lgan xom ashyo yoqib yuboriladi. Shuning uchun WtE quvvatlari saralash quvvatlari bilan birgalikda rejalashtirilishi kerak.
 
-**Beshinchidan**, taklif etilayotgan tizim texnologik qatlamsiz to'liq ishlamaydi. Obyektlar soni mingdan ortiq bo'lsa, ma'lumot oqimini qo'lda tekshirish amalda imkonsiz. Bu yerda anomaliyalarni aniqlash usullari (ketma-ketlikdagi g'ayritabiiy qiymatlarni belgilash, ko'rsatkichlar orasidagi nomuvofiqlikni topish) tekshiruv resursini to'g'ri yo'naltirish imkonini beradi. Shart o'sha-o'sha: model faqat belgilaydi va tartiblaydi, qaror qabul qilmaydi; natija har doim manba havolasi bilan keladi. Dunyo amaliyotida ham shu yo'nalish shakllanmoqda — Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi.
+**10.** Taklif etilayotgan tizim texnologik qatlamsiz to'liq ishlamaydi. Obyektlar soni mingdan ortiq bo'lsa, ma'lumot oqimini qo'lda tekshirish amalda imkonsiz. Bu yerda anomaliyalarni aniqlash usullari (ketma-ketlikdagi g'ayritabiiy qiymatlarni belgilash, ko'rsatkichlar orasidagi nomuvofiqlikni topish) tekshiruv resursini to'g'ri yo'naltirish imkonini beradi. Shart o'sha-o'sha: model faqat belgilaydi va tartiblaydi, qaror qabul qilmaydi; natija har doim manba havolasi bilan keladi. Dunyo amaliyotida ham shu yo'nalish shakllanmoqda — Yevropa Ittifoqining sun'iy intellekt to'g'risidagi qonuni 2026-yil 2-avgustdan kuchga kirgan 86-moddasi avtomatik qaror ustidan tushuntirish olish huquqini belgilaydi.
+
+*(Muhokama nuqtalari 6–10; ro'yxatning boshi — Maqola 1 da, 1–5.)*
 
 ---
 
@@ -194,23 +196,27 @@ Xavfli chiqindi oqimi alohida tartibga muhtoj. 2026-yil 1-oktabrdan hosil qiluvc
 
 Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatlari, pasport tizimi, poligonlar siyosati, energiya loyihalari. Keyingi masala — shu asosning ishlashini o'lchash va o'lchov natijalarini ochiq ko'rsatish.
 
-1. **Raqam bilan birga metodika e'lon qilinsin.** Har bir yillik va choraklik ko'rsatkich uchun qamrov, toifalar va hisoblash usuli ko'rsatilsin.
-2. **E'lon besh kanalda bir vaqtda amalga oshirilsin.** Manba bitta registr bo'lsin, har bir yozuvda o'zgartirish tarixi saqlansin.
-3. **Zonalash qoidasi yagona va matematik bo'lsin.** «Ma'lumot yo'q» holati (ko'k zona) alohida ko'rsatilishi va uning ulushi har chorak e'lon qilinishi kerak.
-4. **Qayta ishlash ko'rsatkichi ta'rifi qonun darajasida aniqlashtirilsin.** Kompostlash, eksport va ikkinchi darajali xom ashyo hisobga olinishi qoidasi belgilansin.
-5. **Murojaat muddati va ochiq arxiv majburiy bo'lsin.** O'rtacha javob muddati va javobsiz murojaatlar ulushi doimiy e'lon qilinsin.
-6. **Chiqindidan energiya zavodlarida dioksin va kul monitoringi ochiq bo'lsin.** O'lchov natijalari davriy ravishda e'lon qilinishi va saralash quvvatlari bilan birgalikda rejalashtirilishi kerak.
+*(Tavsiyalar 7–12; ro'yxatning boshi — Maqola 1 da, 1–6.)*
+
+7. **Raqam bilan birga metodika e'lon qilinsin.** Har bir yillik va choraklik ko'rsatkich uchun qamrov, toifalar va hisoblash usuli ko'rsatilsin.
+8. **E'lon besh kanalda bir vaqtda amalga oshirilsin.** Manba bitta registr bo'lsin, har bir yozuvda o'zgartirish tarixi saqlansin.
+9. **Zonalash qoidasi yagona va matematik bo'lsin.** «Ma'lumot yo'q» holati (ko'k zona) alohida ko'rsatilishi va uning ulushi har chorak e'lon qilinishi kerak.
+10. **Qayta ishlash ko'rsatkichi ta'rifi qonun darajasida aniqlashtirilsin.** Kompostlash, eksport va ikkinchi darajali xom ashyo hisobga olinishi qoidasi belgilansin.
+11. **Murojaat muddati va ochiq arxiv majburiy bo'lsin.** O'rtacha javob muddati va javobsiz murojaatlar ulushi doimiy e'lon qilinsin.
+12. **Chiqindidan energiya zavodlarida dioksin va kul monitoringi ochiq bo'lsin.** O'lchov natijalari davriy ravishda e'lon qilinishi va saralash quvvatlari bilan birgalikda rejalashtirilishi kerak.
 
 ---
 
 ## 8. Ochiq savollar
 
-1. 2026-yil oxiriga kelib qayta yuklash stansiyalari va poligonlarni qisqartirish bo'yicha yillik maqsadga erishildimi?
-2. Oltita chiqindidan energiya zavodidan qaysilari ishga tushdi va poligonga yuklamaning kamayishi o'lchandi mi?
-3. Dioksin va kul monitoringi bo'yicha qanday normativ talablar belgilanadi va natijalar qayerda e'lon qilinadi?
-4. Ochiq ma'lumotlar portalida ekologiya yo'nalishidagi datasetlar ulushi o'zgardi mi?
-5. Rasmiy qayta ishlash ko'rsatkichi qaysi metodika bilan hisoblanadi va u xalqaro hisob-kitoblardan nega farq qiladi?
-6. Ochiq Eko-Reyting yoki shunga o'xshash jamlanmagan ko'rsatkichlar joriy etilishi rejalashtirilganmi?
+*(Savollar 6–11; ro'yxatning boshi — Maqola 1 da, 1–5.)*
+
+6. 2026-yil oxiriga kelib qayta yuklash stansiyalari va poligonlarni qisqartirish bo'yicha yillik maqsadga erishildimi?
+7. Oltita chiqindidan energiya zavodidan qaysilari ishga tushdi va poligonga yuklamaning kamayishi o'lchandi mi?
+8. Dioksin va kul monitoringi bo'yicha qanday normativ talablar belgilanadi va natijalar qayerda e'lon qilinadi?
+9. Ochiq ma'lumotlar portalida ekologiya yo'nalishidagi datasetlar ulushi o'zgardi mi?
+10. Rasmiy qayta ishlash ko'rsatkichi qaysi metodika bilan hisoblanadi va u xalqaro hisob-kitoblardan nega farq qiladi?
+11. Korxonalar kesimida jamlanma ekologik ko'rsatkich (ochiq ma'lumotlar asosida hisoblanadigan reyting) joriy etilishi rejalashtirilganmi?
 
 ---
 
@@ -245,4 +251,4 @@ Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatl
 
 **Grafiklardan nashrda foydalanish:** asosiy matnda 1-, 2-, 3-, 4-, 5- va 6-rasmlar saqlanishi tavsiya etiladi (huquqiy taqvim, hajm bo'yicha ko'rsatkichlar, qayta ishlash darajasi, portal datasetlari, e'lon qilish sxemasi, to'rt rangli zonalash); 7-, 8-, 9- va 10-rasmlar ilova yoki elektron versiyaga o'tkazilishi mumkin (murojaat jarayoni, ishonch qavatlari, poligonlar tarmog'i, chiqindidan energiya).
 
-**Ilova:** maqolaning birinchi qismi — emissiya o'lchovi ishonchi — alohida nashr sifatida tayyorlanmoqda.
+**Juftlik:** maqolaning birinchi qismi — emissiya o'lchovi ishonchi — Maqola 1 («Raqam ishonchsiz bo'lsa, jazo ham adolatsiz») sifatida alohida nashr etiladi. Ikki maqolada tavsiyalar (1–6 va 7–12), ochiq savollar (1–5 va 6–11) va muhokama nuqtalari (1–5 va 6–10) yagona ro'yxat sifatida raqamlangan.
