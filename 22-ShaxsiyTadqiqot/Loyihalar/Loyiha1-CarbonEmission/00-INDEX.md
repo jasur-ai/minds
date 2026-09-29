@@ -22,6 +22,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/00-INDEX.md
 
 | Papka | Fayl | Vazifasi | Holat |
 |---|---|---|---|
+| `MVP/` | Ishlaydigan prototip: S1–S7 → `MVP-Natijalar.md` | ✅ F1 0,538 · FPR 0,086 · 14 test |
 | `Goya/` | `Emissiya_Goya_Mukammalligi.md` | Asosiy g'oya hujjati (§0–§17), "uch daftar", ishonch zinapoyasi | ✅ 60 KB |
 | `TZ/` | `Loyiha1_AI_anomaliya_TZ.md` | Texnik topshiriq: S0–S10 bosqichlar, huquqiy asos xaritasi (§0.2) | ✅ 68 KB (v1.3) |
 | `Validatsiya/` | `Emissiya_Audit_Master_Validatsiya.md` | Master reja + validatsiya paketi (M1–M3, T1–T5, F1–F4, 4 haftalik sprint) | ✅ 33 KB |

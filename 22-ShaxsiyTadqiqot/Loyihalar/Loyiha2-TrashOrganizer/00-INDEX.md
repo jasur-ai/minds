@@ -22,6 +22,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/00-INDEX.md
 
 | Papka | Fayl | Vazifasi | Holat |
 |---|---|---|---|
+| `MVP/` | Ishlaydigan prototip: S0–S7 → `MVP-Natijalar.md` | ✅ 125 test · jonli xarita |
 | `TZ/` | `Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.md` | Texnik topshiriq: S0–S7 bosqichlar, zona algoritmi, huquqiy asos xaritasi (§0.2) | ✅ 77 KB (v1.3) |
 | `Maket/` | `Ochiq_Eko_Ledger_maket.html` | Vizual maket (statik) | ✅ |
 | `Umumiy/` | `00-UMUMIY.md` | Qisqa tavsif va kalit qoidalar | ✅ |
