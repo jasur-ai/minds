@@ -13,7 +13,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/00-INDEX.md
 
 # 01 · LOYIHA 1 — CARBON EMISSION (Emission-audit)
 
-**Holat:** 🟢 faol · **Bosqich:** g'oya + AI qatlami TZ tayyor (build YO'Q) · **Yangilangan:** 2026-09-29
+**Holat:** 🟢 faol · **Bosqich:** g'oya + AI qatlami TZ tayyor — huquqiy asosga bog'langan (v1.2) · **Yangilangan:** 2026-09-29
 
 > Uch daftar g'oyasi: **FIZIK** (o'lchov) · **FISKAL** (to'lov) · **FAZOVIY** (sun'iy yo'ldosh) —
 > uchta mustaqil dalil solishtiriladi, **farq ko'rsatiladi, ayblov qo'yilmaydi**.
@@ -23,7 +23,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/00-INDEX.md
 | Papka | Fayl | Vazifasi | Holat |
 |---|---|---|---|
 | `Goya/` | `Emissiya_Goya_Mukammalligi.md` | Asosiy g'oya hujjati (§0–§17), "uch daftar", ishonch zinapoyasi | ✅ 60 KB |
-| `TZ/` | `Loyiha1_AI_anomaliya_TZ.md` | Texnik topshiriq: S0–S10 bosqichlar, "nega aynan shu texnologiya" | ✅ 59 KB (v1.1) |
+| `TZ/` | `Loyiha1_AI_anomaliya_TZ.md` | Texnik topshiriq: S0–S10 bosqichlar, huquqiy asos xaritasi (§0.2) | ✅ 62 KB (v1.2) |
 | `Validatsiya/` | `Emissiya_Audit_Master_Validatsiya.md` | Master reja + validatsiya paketi (M1–M3, T1–T5, F1–F4, 4 haftalik sprint) | ✅ 33 KB |
 | `Tadqiqotlar/` | `Tadqiqot_1…5` (+ indeks) | §15 beshta ochiq savolga alohida chuqur tadqiqot | ✅ 6 fayl |
 | `Umumiy/` | `Qisqa_Xulosa_Executive_Brief.md` | Rahbariyat uchun bir varaqli xulosa | ✅ |

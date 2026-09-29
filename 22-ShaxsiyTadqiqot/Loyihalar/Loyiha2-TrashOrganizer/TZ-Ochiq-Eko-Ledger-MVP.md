@@ -19,7 +19,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/TZ/Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.m
 **Ijrochi profili:** talaba (School 21); mavjud ko'nikmalar: Python, **aiogram** (Telegram bot), **FastAPI**, PostgreSQL/Firebase, LLM API bilan ishlash  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta)  
 **Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); S7 yakuni — W15 (28.12.2026–03.01.2027); himoya buferi — 06–15.01.2027  
-**Versiya:** 1.1 (2026-09-29; sana/hafta izchilligi, dublikat qoidasi va havolalar tuzatildi)
+**Versiya:** 1.2 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; sana/hafta va dublikat qoidasi tuzatilgan)
 
 > **MUHIM IZOH.** Manba hujjatda **zona-rang kodlash (qizil/sariq/yashil/ko'k-neytral)** va **fuqaro murojaati moduli** *yo'q*. Ular ushbu loyihaning **o'z qo'shimchalari** — shu sababli quyida to'liq (matematik qoidagacha) spetsifikatsiya qilinadi: §5 va §6.
 
@@ -27,7 +27,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/TZ/Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.m
 
 ## MUNDARIJA
 
-0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir)
+0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir — 60 soniyalik dalil; 0.2. Huquqiy asos xaritasi)
 1. Nima isbotlanadi (loyihaning ilmiy/amaliy da'vosi)
 2. Jarayon xaritasi — xronologik va vizual
 3. Bosqichlar bo'yicha batafsil jadval
@@ -53,15 +53,44 @@ Manba hujjatning besh qatlamli "ishonch arxitekturasi" (§4.6) MVP'da quyidagich
 
 **Nega aynan bu ikki zanjir?** Chunki manba hujjatdagi P1 (ma'lumot yopiqligi), P2 (e'lon qilishning odamga qaramligi), P7 (murojaat natijasizligi) va P14 (soxtalashtirish) — eng ko'p shikoyat qilingan va **eng kam xarajat bilan isbotlanadigan** muammolar. Qolganlari (emissiya limiti, soliq instrumentlari) qonun o'zgarishini talab qiladi, MVP esa **mavjud qonunchilik ichida** ishlay oladi: 2025-yil 1-dekabrdan boshlab davlat ekologik monitoring bazasi **ochiq bo'lishi shart** (Ekologik madaniyat kontsepsiyasi) va 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha **choraklik hisobot majburiyati** kuchga kiradi.
 
-### 0.1. Nega aynan hozir — besh shart bir vaqtda
+## 0.1. NEGA AYNAN HOZIR (tashqi o'quvchi uchun — 60 soniyalik dalil)
 
-1. **Xalqaro majburiyat:** 2025-yil martda Aarhus konventsiyasiga qo'shilish — axborotga kirish, qarorlarda ishtirok va odil sudlov (uch ustun).
-2. **Ichki huquqiy sanalar:** 2025-yil 1-dekabrdan davlat ekologik monitoring bazasi ochiq (PQ-184, 15.05.2025); 2026-yil 1-oktabrdan xavfli chiqindi bo'yicha choraklik hisobot; 2027-yil 1-yanvardan raqamli pasport — ya'ni ochiqlik majburiyati **sanalarga bog'langan**.
-3. **Ma'lumot hajmi o'sdi:** data.egov.uz'da o'n mingdan ortiq dataset (ekologiya yo'nalishi ~1,7%), chiqindilar hisoboti har chorakda minglab yozuv — qo'lda e'lon qilish amalda imkonsiz.
-4. **Investitsiya to'lqini:** oltita chiqindidan energiya zavodi (933 mln dollar) va beshta qo'shimcha loyiha (625 mln dollar) — oshkoralik talabi endi loyiha shartnomalarida ham paydo bo'ldi.
-5. **Texnologiyaning yetukligi:** deterministik qoida + cheklangan LLM (RAG) yondashuvi ishlaydigan darajaga yetdi, xarajati esa §10 dagi hisobda ~$5–15/oy (LLM API).
+> Bu bo'lim komissiya, hakam yoki taqrizchi hujjatni birinchi marta ochganda o'qishi uchun mo'ljallangan. Maqsad — "bu yana bitta dashboard g'oyasimi" degan savolga "yo'q, bu allaqachon ko'rinib turgan ishonch inqirozini yopadi" deb javob berish.
 
-**Ma'no:** MVP aynan "ochiqlik majburiyati kuchga kirgan, lekin e'tibor mexanizmi hali qurilmagan" oynada yozilmoqda.
+**1. Muammo — nazariy emas, xuddi hozir, ko'zga ko'rinib turibdi.**
+O'zbekistonda chiqindi hajmi haqida bir vaqtning o'zida **7 mln t, 14 mln t va 15 mln t** deb uchta turli raqam yuritiladi; qayta ishlash darajasi esa **3–4% dan 6,5% gacha** — ikki baravardan ortiq farq. Bu — kelajakda paydo bo'lishi mumkin bo'lgan muammo emas, **hozir, ochiq manbalarda, bir-biriga zid holda mavjud**.
+
+**2. Huquqiy majburiyat bor, ijro yo'q — va bu farq allaqachon sanaga bog'langan.**
+Aarhus konventsiyasiga 2025-yil martda qo'shilindi. 2025-yil 1-dekabrdan monitoring bazasi ochiq bo'lishi shart (PQ-184; PF-149). **2026-yil 1-oktabrdan** (ya'ni ushbu loyiha ishlab chiqilayotgan paytda) xavfli chiqindi hosil qiluvchilar choraklik hisobot topshirishi **majburiy**. 2027-yil 1-yanvardan raqamli pasport tizimi. Texnik asos (PF-5, PF-56 — yagona elektron hisob tizimi) allaqachon qonunda bor — **yetishmayotgani faqat ochiq e'lon qiladigan qatlam**, ya'ni aynan shu loyiha yopadigan bo'shliq.
+
+**3. Katta pul allaqachon sarflanmoqda — nazoratsiz.**
+Oltita chiqindidan energiya (WtE) zavodi, umumiy qiymati **$933 mln**, 2026–2027-yillarda ishga tushmoqda. Bu zavodlarda dioksin va kul monitoringi qanday e'lon qilinishi hali noma'lum. Bu — kelajakda nazorat qilinishi kerak bo'lgan narsa emas, **hozir quriladigan, milliardlab dollarlik infratuzilmaning ochiqlik qatlami hali yo'q**.
+
+**4. Ochiqlik — o'lchanadigan darajada kam.**
+data.egov.uz portalida ~10 000 datasetdan atigi **~170 tasi (1,7%)** ekologiyaga tegishli. Huquq e'lon qilingan, miqdoriy ijro esa boshlang'ich bosqichda — bu tafovut raqamda aniq ko'rinadi.
+
+**5. Fuqaro ishtiroki mexanizmi — qonunda bor, amalda yo'q.**
+Aarhus konventsiyasining uchinchi ustuni (ekologik odil sudlov) fuqaro murojaati orqali ishlaydi, lekin hozircha standart javob muddati, ochiq arxiv yoki holat kuzatuvi yo'q. Bu — huquq bilan amaliyot orasidagi, sanaga bog'langan tafovut.
+
+**Bir jumlada:** bu loyiha "yana bitta ochiq ma'lumot g'oyasi" emas — bu, **allaqachon qonunda va'da qilingan, lekin hali bajarilmagan majburiyatni texnik jihatdan ijro etadigan** loyiha.
+
+---
+
+## 0.2. HUQUQIY ASOS XARITASI — har bir mexanizm qaysi hujjatga tayanadi
+
+Loyiha **mavjud qonunchilik ichida** ishlaydi: yangi qonun talab qilinmaydi, chunki ochiqlik va hisobot majburiyatlari allaqachon sanalarga bog'langan. Jadval — loyiha mexanizmi va huquqiy asos bog'lanishi:
+
+| # | Loyiha mexanizmi | Huquqiy asos | Bu nimani beradi |
+|---|---|---|---|
+| 1 | Ochiqlik majburiyati (e'lon qatlami) | **Aarhus konventsiyasi** (2025-03); **PQ-184** (15.05.2025) — 01.12.2025 dan davlat monitoring bazasi ochiq; **PF-149** (26.09.2024) — ekologiya sohalarida ochiqlikni ta'minlash va boshqaruvni takomillashtirish | E'lon qilish endi ixtiyor emas, talab — loyiha ana shu talabni bajaradigan qatlam |
+| 2 | Chiqindi hisobi majburiyati | **PF-5** (04.01.2024) — chiqindilarni boshqarish tizimi, yashil subsidiyalar, qayta yuklash stansiyalari; **PF-56** (24.03.2025) — yagona elektron hisob tizimi; **PQ-4291** (17.04.2019) — strategiya va prognoz; Prezident qarori (2026-08) — 01.10.2026 choraklik hisobot, 01.01.2027 raqamli pasport | Ma'lumot o'z-o'zidan keladi — loyiha faqat uni qabul qilib, ochiq ko'rsatadi |
+| 3 | To'lov va rag'bat | **202-son Nizom** (kompensatsiya to'lovlari tartibi); **VM-85** (28.02.2026) — rag'batlantirish nizomi | Iqtisodiy dastak bor — tizimning ahamiyati tasdiqlangan |
+| 4 | Murojaat muddati va odil sudlov | **Aarhus 4-modda** (ma'lumot so'roviga 1 oy); **O'RQ-457** (08.01.2018) — murojaat va apellyatsiya: 30 ish kuni; MJTK (10/60 kun) | Platformaning 10 kunlik standarti xalqaro minimumdan ham, milliy tartibdan ham qat'iyroq |
+| 5 | AI matn qatlami (LLM) | **PQ-358** (14.10.2024) — AI strategiyasi 2030; **PF-189** (22.10.2025) va **PQ-320** (30.10.2025) — AI loyihalarni qo'llab-quvvatlash; **VM-425** (10.07.2025) — ustuvor AI loyihalari | LLM qatlami institutsional qo'llab-quvvatlashga ega; davlat organlari ham AI joriy etishga yo'naltirilgan |
+| 6 | Xalqaro usul va standart | **PRTR protokoli** (Kiev, 2003); **EU E-PRTR**; Xitoy IPE tajribasi | Usul isbotlangan; O'zbekiston PRTR yo'lida — loyiha o'sha yo'lning MVP qadami |
+| 7 | Ochiq ma'lumot kanali | **data.egov.uz**; «Raqamli O'zbekiston — 2030» strategiyasi | Nashr kanali allaqachon mavjud — yangi infratuzilma qurish talab qilinmaydi |
+
+**Xulosa:** MVP davlat organi o'rnini **egallamaydi** — u mavjud majburiyatlarni bajarish uchun **ochiq, tekshiriladigan va o'chirilmaydigan** qatlamni taqdim etadi. Huquqiy jihatdan loyiha "davlat ichida" turadi va uning natijasi keyinchalik milliy platformaga to'g'ridan-to'g'ri ko'chiriladi.
 
 ---
 

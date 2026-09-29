@@ -13,7 +13,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/00-INDEX.md
 
 # 02 · LOYIHA 2 — TRASH ORGANIZER (Ochiq Eko Ledger)
 
-**Holat:** 🟢 TZ tayyor (v1.1) — build navbatda · **Yangilangan:** 2026-09-29
+**Holat:** 🟢 TZ tayyor (v1.2, huquqiy asosga bog'langan) — build navbatda · **Yangilangan:** 2026-09-29
 
 > Ochiq ekologik ledger g'oyasi: chiqindi va chiqarilish ma'lumotlari **ochiq**, tekshiriladigan
 > va apellyatsiya qilinadigan shaklda. **Muhim:** g'oya darajasi — build yo'q.
@@ -22,7 +22,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/00-INDEX.md
 
 | Papka | Fayl | Vazifasi | Holat |
 |---|---|---|---|
-| `TZ/` | `Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.md` | Texnik topshiriq: S0–S7 bosqichlar + Definition of Done | ✅ 69 KB (v1.1) |
+| `TZ/` | `Loyiha2_Ochiq_Eko_Ledger_MVP_TZ.md` | Texnik topshiriq: S0–S7 bosqichlar, zona algoritmi, huquqiy asos xaritasi (§0.2) | ✅ 73 KB (v1.2) |
 | `Maket/` | `Ochiq_Eko_Ledger_maket.html` | Vizual maket (statik) | ✅ |
 | `Umumiy/` | `00-UMUMIY.md` | Qisqa tavsif va kalit qoidalar | ✅ |
 

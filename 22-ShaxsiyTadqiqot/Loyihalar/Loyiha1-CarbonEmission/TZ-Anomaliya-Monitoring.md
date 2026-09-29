@@ -19,13 +19,13 @@ manba: workspace/01-Loyiha1-Carbon-Emission/TZ/Loyiha1_AI_anomaliya_TZ.md
 **Ijrochi profili:** talaba (School 21), Python/FastAPI/PostgreSQL/Redis tajribasi, yakka yoki 2–3 kishilik jamoa  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta + himoya)  
 **Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); W16 — 04–10.01.2027; himoya buferi — 06–15.01.2027  
-**Versiya:** 1.1 (2026-09-29; hafta hisobi, havolalar va izchillik tuzatishlari)
+**Versiya:** 1.2 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; hafta hisobi va havolalar tuzatilgan)
 
 ---
 
 ## MUNDARIJA
 
-0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir)
+0. Hujjat maqsadi va kontekst (0.1. Nega aynan hozir — 60 soniyalik dalil; 0.2. Huquqiy asos xaritasi)
 1. Muammo va maqsad
 2. Muvaffaqiyat mezonlari (acceptance criteria)
 3. Jarayon xaritasi — xronologik va vizual
@@ -56,19 +56,41 @@ Manba hujjatning §3.6-qismida to'rt qatlamli AI arxitekturasi tavsiflangan:
 
 **Nega aynan 1-model birinchi?** Chunki u: (a) eng kam ma'lumot talab qiladi (labeled data kerak emas), (b) natijasi darhol tekshiriladi (aniq/noma'lum), (c) milliy tizimning eng qimmat bo'laklaridan biri — Xitoy ETS platformasida anomaliya aniqlash funksiyasi ma'lumot sifatini nazorat qilishning doimiy qatlamiga aylangan (mustaqil miqdoriy dalillar — §8.3) (MEE Progress Report 2024: "big data texnologiyasidan foydalanib, anormal ma'lumotlar aniqlanadi va erta ogohlantirishlar beriladi — kalit korxonalar reyestri, ma'lumot sifati rejalari, oylik qayd etilgan ma'lumotlar, hisobot va verifikatsiya ustidan to'liq jarayonli kuzatuv").
 
-### 0.1. Nega aynan hozir — yetti shart bir vaqtda birlashdi
+## 0.1. NEGA AYNAN HOZIR (tashqi o'quvchi uchun — 60 soniyalik dalil)
 
-Loyiha "yaxshi fikr" emas, **vaqtga bog'langan imkoniyat**: quyidagi shartlarning hech biri 2023-yildan oldin mavjud emas edi va ular bir vaqtda pishib yetdi (to'liq jadval va dalillar — `Goya-Uch-Daftar.md` §3):
+> Bu bo'lim komissiya, hakam yoki taqrizchi hujjatni birinchi marta ochganda o'qishi uchun mo'ljallangan. Maqsad — "bu yana bitta o'quv loyihasimi" degan savolga "yo'q, bu allaqachon pul harakatlanayotgan real bo'shliqni yopadi" deb javob berish.
 
-1. **Huquqiy majburiyat:** PF-81 (31.05.2023) va VM-783 (25.11.2024) — I/II toifa korxonalari avtomatik stansiya o'rnatishi shart (o'rnatmasa — to'lovlar 5×); ya'ni ma'lumot oqimi majburiy tarzda yaratilmoqda.
-2. **Algoritmik baholash pretsedenti:** soliq sohasida EHF 48 mezon bo'yicha real vaqtda baholanadi — "algoritm + yopiq mezon + oshkora maqom" modeliga huquqiy yo'l ochiq.
-3. **Institutsional asos:** PP-358 (14.10.2024) — 2030-yilgacha AI strategiyasi; 2025–2026 uchun ustuvor AI loyihalari ro'yxati (PF-189, PQ-320, VM-425).
-4. **Bozor talabi:** Yevropa Ittifoqi (YeI) reyestrida 403 akkreditlangan verifikator, CBAM deklarantlari esa 4 100 ta — verifikatsiya quvvati tanqis; demak, bitta verifikatorning unumdorligini oshirish — aniq biznes pozitsiyasi.
-5. **Pul bosimi:** CBAM defolt qiymatlari (ammiak selitrasi — €160,74/t) verifikatsiya xarajatidan (€5–50 ming/obyekt) qimmat.
-6. **Ichki moliya:** kompensatsiya to'lovlari Ekologiya jamg'armasiga tushadi; ekologik zarar sug'urtasi joriy etilmoqda — aniq o'lchovdan **moliyaviy manfaatdor** tomon paydo bo'ldi.
-7. **Raqobat ustunligi:** Jahon banki bahosida O'zbekiston alyuminiyining emissiya intensivligi YeI o'rtachasidan past — verifikatsiya himoya emas, **hujjatlashtirilgan ustunlik**.
+**1. Bu — gipotetik muammo emas, allaqachon ishlayotgan tizim.**
+2026-yil 1-martdan boshlab O'zbekistonda I/II toifa korxonalar (2 335 ta) uchun avtomatik emissiya monitoringi **majburiy** (PF-81, VM-783, PQ-343), va o'lchangan raqam **shu kundan boshlab pulga aylanadi**: O'RQ-1143 (4-may 2026) bilan kompensatsiya to'lovlari besh baravargacha oshirildi. Ya'ni bu loyiha "kelajakda kerak bo'ladigan" narsa emas — **hozir, real vaqtda, real pul bilan ishlayotgan tizimning tekshiruv qatlami yo'q**.
 
-**Ma'no:** TZ aynan shu oyna ochilganda yozilmoqda; S0'da muzlatiladigan metrikalar va AC'lar shu shartlarga tayanadi.
+**2. Qamrov bilan majburiyat orasidagi tafovut — o'lchanadigan darajada katta.**
+2 335 obyektdan atigi **44 tasida (≈1,9%)** haqiqiy avtomatik stansiya ishlayapti (Senat ma'lumoti, SQ-844-IV). Qolgan ~98% — yo hisobot qo'lda, yo umuman tekshirilmaydi. Bir yilda **750 ta korxona** tekshiriladi — bu 2 335 obyektni **taxminan 3 yilda bir marta** ko'rish degani. Bu — inspektor yetishmasligi emas, **masshtab muammosi**: qo'lda tekshiruv arifmetik jihatdan imkonsiz. AI/ML — bu yerda "qo'shimcha" emas, **yagona real yechim**.
+
+**3. Xalqaro bosim allaqachon moliyaviy zarar keltiryapti.**
+CBAM 2026-yil 1-yanvardan to'liq kuchda (Q1 2026 holatida sertifikat narxi €75,36/tCO₂e). Markaziy Osiyo + Kavkaz mintaqasidagi CBAM ta'sirining **~30%i aynan O'zbekistonda**. Verifikatsiyalangan ma'lumot bo'lmasa, eksportchi korxonalar **default (eng yuqori) qiymat** bilan jarimalanadi — bu allaqachon sodir bo'layotgan iqtisodiy yo'qotish, kelajakdagi xavf emas.
+
+**4. Xalqaro tajriba AI-nazoratning ishlashini ko'rsatgan.**
+Xitoyning milliy uglerod savdo platformasida big-data anomaliya aniqlash doimiy nazorat qatlamiga aylangan (rasmiy hisobot, 2024; mustaqil miqdoriy dalillar — §8.3). Qozog'istonning 13 yillik tajribasi esa aksincha ko'rsatadi: nazoratsiz tizimda narx $1/t darajasida qolib ketadi. Ya'ni bu — sinovdan o'tmagan g'oya emas, **boshqa joyda ishlayotgan, O'zbekistonda hali joriy etilmagan yechim**.
+
+**Bir jumlada:** bu loyiha "kelajakda foydali bo'lishi mumkin bo'lgan tadqiqot" emas — bu, **hozir ishlayotgan, lekin tekshiruv qatlami yo'q tizimga nazorat ko'zi qo'yish** loyihasi.
+
+---
+
+## 0.2. HUQUQIY ASOS XARITASI — har bir mexanizm qaysi hujjatga tayanadi
+
+Loyihaning hech bir qismi qonunga o'zgartirish talab qilmaydi: u **mavjud majburiyatlar** ustiga quriladi va ularning ijrosini tekshiriladigan qiladi. Quyidagi jadval — loyiha mexanizmi va huquqiy asos bog'lanishi (barcha hujjatlar lex.uz yoki rasmiy manbada e'lon qilingan):
+
+| # | Loyiha mexanizmi | Huquqiy asos | Bu nimani beradi |
+|---|---|---|---|
+| 1 | Majburiy o'lchov (ma'lumot oqimi) | **PF-81** (31.05.2023) — ekologiya sohasini transformatsiya qilish; **VM-783** (25.11.2024) — I/II toifa va stansiya talablari; **PQ-343** (18.11.2025) — o'rnatish muddatlari va yagona platforma | Korxonalar o'zi o'lchashga majbur — tekshiruv qatlami real oqimda sinaladi |
+| 2 | Hisob, reyestr va xalqaro majburiyat | **«Issiqxona gazlarining chiqarilishini cheklash to'g'risida» qonun** (07.07.2025; kuchga kirishi 09.01.2026); **NDC 3.0** (2025) — 2035-yilga intensivlik −50% (2010 bazasi) | Korxona darajasidagi hisobot madaniyati shakllanmoqda — tekshiriladigan raqam paydo bo'ldi |
+| 3 | O'lchov → to'lov zanjiri | **202-son Nizom** (201-band — koeffitsiyentlar; 301-band — rag'bat, 36 oy); **O'RQ-1143** (04.05.2026); **VM-85** (28.02.2026); **PF-16** (30.01.2025) | O'lchov xatosi bevosita pul oqibatiga ega — himoya mexanizmi iqtisodiy zarurat |
+| 4 | Havo yo'nalishi ustuvorligi | **PF-46** (25.03.2026) — «Toza havo» umummilliy loyihasi | Sohaviy siyosiy qo'llab-quvvatlash |
+| 5 | Apellyatsiya va muddatlar | **O'RQ-457** (08.01.2018) — murojaat 30 ish kuni; MJTK (10/60 kun) | Himoya mexanizmi milliy tartib-taomilga mos shaklda taklif etiladi |
+| 6 | AI qatlami (institutsional asos) | **PQ-358** (14.10.2024) — AI strategiyasi 2030; **PF-189** (22.10.2025) va **PQ-320** (30.10.2025) — AI loyihalarni qo'llab-quvvatlash (grant va imtiyozli kredit, ustuvor ro'yxat); **VM-425** (10.07.2025) — 2025–2026 ustuvor AI loyihalari | Loyiha milliy AI kun tartibi ichida: moliyalashtirish va rasmiy homiylik yo'li bor |
+| 7 | Xalqaro qiyos va verifikatsiya talabi | ICAP (2025); Yevropa Komissiyasi (EU ETS doirasi); CBAM (2023/956 reglamenti amalda) | Verifikatsiyalangan ma'lumot — eksport raqobatbardoshligi sharti |
+
+**Xulosa:** loyiha davlat organi vazifasini **egallamaydi** — u mavjud majburiyatlarni (monitoring, hisob, to'lov, apellyatsiya) tekshiriladigan va izohlanadigan qiladi. Shu sababli TZ nafaqat texnik, balki huquqiy jihatdan ham "davlat ichida" turadi.
 
 ---
 
