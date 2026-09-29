@@ -13,7 +13,7 @@ sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 
 **Kalit so'zlar:** emissiya monitoringi · o'lchov noaniqligi · oqim o'lchagichi · kompensatsiya to'lovi · apellyatsiya · JCGM 106 · ILAC-G8 · ISO/IEC 17025 · O'zbekiston
 
-**Muallif:** Jasur · **Sana:** 2026-09-28
+**Muallif:** Jasur · **Sana:** 2026-09-29
 
 ---
 
@@ -50,9 +50,9 @@ Adabiyot va xalqaro amaliyotda qayd etilgan qiymatlar quyidagicha (1-jadval; 2-r
 
 | Bo'g'in | Noaniqlik / siljish | Manba |
 |---|---|---|
-| Gaz tahlili (kontsentratsiya) | ~3% | ILAC-G8 andozaviy amaliyoti |
-| Namuna olish tizimi | ≤1% | ISO/IEC 17025 talab doirasi |
-| Etalon va kalibrovka | ±0,7% | metrologik amaliyot |
+| Gaz tahlili (kontsentratsiya) | ~3% | uskuna texnik hujjatlari (xalqaro amaliyot) |
+| Namuna olish tizimi | ≤1% | xalqaro amaliyot kuzatuvlari (adabiyot kesimi) |
+| Etalon va kalibrovka | ±0,7% | etalon gazlari sertifikatlari (metrologik amaliyot) |
 | **Oqim o'lchagichi (USM, S-probe)** | **5–17%** (AQSh sharoitida) | Sarunac va boshq. (Lehigh University), 2004; chet el sinovlari — ⚠️ milliy ko'rsatkich emas |
 | Uskuna almashtirilganda | ayrim hollarda 20% gacha musbat siljish | Sarunac va boshq. (Lehigh University), 2004 |
 
