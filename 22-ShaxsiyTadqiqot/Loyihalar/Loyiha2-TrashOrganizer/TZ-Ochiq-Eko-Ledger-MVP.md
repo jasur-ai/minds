@@ -892,21 +892,25 @@ UMUMIY SHART (ikkala pog'ona uchun):
 6. Aarhus Konvensiyasi, 4-modda — ma'lumot so'roviga **1 oy** (murakkabda 2 oy) ichida javob. https://www.bmluk.gv.at/en/topics/climate-environment/eu-international-affairs/three-pillars-of-the-aarhus-convention.html
 7. PRTR Protokoli (Kiyev, 2003) — ≥86 modda; **bepul, internetda, ob'ekt/modda/joy bo'yicha qidiriladigan**; hisobot yilidan keyin **15 oy** ichida yangilash. https://unece.org/env/pp/prtrng.html
 8. Suv obyektlariga oqizish normativlari (BOD/KBS 3 va 6; KOD/BXO 15 va 30 mgO₂/dm³; erigan kislorod ≥6/4; pH 6,0–8,5) — 26-son sanitariya qoidalari, 22.11.2024. https://lex.uz/uz/docs/-7340751
+9. PF-149-son farmon, 26.09.2024 — ekologiya va atrof-muhitni muhofaza qilish sohalarida ochiqlikni ta'minlash hamda boshqaruv tizimini takomillashtirish. https://lex.uz/uz/docs/-7128153
+10. PF-5-son farmon, 04.01.2024 — chiqindilarni boshqarish tizimini takomillashtirish (yashil subsidiyalar, qayta yuklash stansiyalari). https://lex.uz/uz/docs/-6732832
+11. O'RQ-457-son qonun, 08.01.2018 — «Ma'muriy tartib-taomillar to'g'risida»: murojaat va apellyatsiya muddatlari (30 ish kuni). https://lex.uz/docs/-3492199
+12. PQ-358 (14.10.2024) — sun'iy intellekt strategiyasi 2030; PF-189 (22.10.2025), PQ-320 (30.10.2025), VM-425 (10.07.2025) — AI loyihalarni qo'llab-quvvatlash. https://lex.uz/acts/-7158604
 
 **A — tadqiqotlar va xalqaro hisobotlar**
-9. Wu, Y. et al. (2025) — «The AI Annotator: LLMs' Potential in Scoring Sustainability Reports», *Systems* 13(10):899: GPT-4o o'rtacha aniqlik ~56%, hallyutsinatsiya holatlari. https://doi.org/10.3390/systems13100899
-10. Yang, Y. et al. (2025) — «Automating the Construction of Environmental Policy Knowledge Graph with LLMs», *Sustainability* 17(22):10282. https://doi.org/10.3390/su172210282
-11. Jain, J. et al. (2025) — «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance», *Findings of ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
-12. «Use of AI-Powered Technologies for Review of Environmental Regulations», Springer (EGRWSE 2025), 2026, 329–337 — LLM + RAG kombinatsiyasi. https://doi.org/10.1007/978-3-032-15832-1_31
-13. UN/UNITAR (2024) — «National E-waste Monitor: Uzbekistan»: yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
+13. Wu, Y. et al. (2025) — «The AI Annotator: LLMs' Potential in Scoring Sustainability Reports», *Systems* 13(10):899: GPT-4o o'rtacha aniqlik ~56%, hallyutsinatsiya holatlari. https://doi.org/10.3390/systems13100899
+14. Yang, Y. et al. (2025) — «Automating the Construction of Environmental Policy Knowledge Graph with LLMs», *Sustainability* 17(22):10282. https://doi.org/10.3390/su172210282
+15. Jain, J. et al. (2025) — «From Complexity to Clarity: AI/NLP's Role in Regulatory Compliance», *Findings of ACL 2025*, 26629–26641. https://aclanthology.org/2025.findings-acl.1366.pdf
+16. «Use of AI-Powered Technologies for Review of Environmental Regulations», Springer (EGRWSE 2025), 2026, 329–337 — LLM + RAG kombinatsiyasi. https://doi.org/10.1007/978-3-032-15832-1_31
+17. UN/UNITAR (2024) — «National E-waste Monitor: Uzbekistan»: yiliga qariyb 7 mln tonna qattiq maishiy chiqindi statistikasi. https://ewastemonitor.info/wp-content/uploads/2024/10/National_E-waste_Monitor_Uzbekistan_EN_WEB.pdf
 
 **M — media va amaliy manbalar**
-14. JSST havo sifati me'yorlari (2021): PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq. https://www.gazeta.uz/oz/2025/11/25/air-pollution/
-15. gazeta.uz, 04.05.2026 — oltita chiqindidan energiya zavodi: **933 mln dollar**, 3,6 mln tonna, 1,6 mlrd kVt·soat; qamrov 88% → 90%. https://www.gazeta.uz/oz/2026/05/04/recycle/
-16. Aarhus tezkor mexanizmi (2021) — ekologik faollar uchun maxsus ma'ruzachi; istalgan fuqaro shikoyat qilishi mumkin. https://unece.org/media/environment/Aarhus-Convention/press/361413
-17. PostGIS + Leaflet amaliy namunalari: https://github.com/pcavezzan/osm-leaflet-example · Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
-18. kun.uz, 09.10.2024 — Jahon banki va Ekovazirlik hisoboti: Toshkentda PM2.5 yillik o'rtacha **38,8 µg/m³**, ~3 000 erta o'lim, yillik zarar **$488,4 mln (~0,7% YaIM)** (stansiya "M1" shu manbaga tayanadi). https://kun.uz/en/news/2024/10/09/world-bank-report-83-of-tashkent-residents-live-in-high-air-pollution-zones
-19. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7; g'oya asosi — `Loyiha-2-Xarita.md`.
+18. JSST havo sifati me'yorlari (2021): PM2.5 — yillik **5 µg/m³**, 24-soat **15 µg/m³**; milliy standart bilan farq. https://www.gazeta.uz/oz/2025/11/25/air-pollution/
+19. gazeta.uz, 04.05.2026 — oltita chiqindidan energiya zavodi: **933 mln dollar**, 3,6 mln tonna, 1,6 mlrd kVt·soat; qamrov 88% → 90%. https://www.gazeta.uz/oz/2026/05/04/recycle/
+20. Aarhus tezkor mexanizmi (2021) — ekologik faollar uchun maxsus ma'ruzachi; istalgan fuqaro shikoyat qilishi mumkin. https://unece.org/media/environment/Aarhus-Convention/press/361413
+21. PostGIS + Leaflet amaliy namunalari: https://github.com/pcavezzan/osm-leaflet-example · Leaflet dashboard pattern: https://medium.com/datalab-log/how-to-build-a-dashboard-prototype-using-leaflet-d3-js-and-python-1cfda38efbb5
+22. kun.uz, 09.10.2024 — Jahon banki va Ekovazirlik hisoboti: Toshkentda PM2.5 yillik o'rtacha **38,8 µg/m³**, ~3 000 erta o'lim, yillik zarar **$488,4 mln (~0,7% YaIM)** (stansiya "M1" shu manbaga tayanadi). https://kun.uz/en/news/2024/10/09/world-bank-report-83-of-tashkent-residents-live-in-high-air-pollution-zones
+23. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md`, §4.1–§4.7; g'oya asosi — `Loyiha-2-Xarita.md`.
 
 ---
 

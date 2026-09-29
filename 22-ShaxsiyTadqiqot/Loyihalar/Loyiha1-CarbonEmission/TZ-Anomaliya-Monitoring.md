@@ -697,23 +697,25 @@ audit_log(id PK, entity, entity_id, action, actor, payload JSONB, ts)
 1. UNFCCC — Uzbekistan NDC 3.0 (2025): 2035-yilga YaIM birligiga emissiya intensivligini 2010-yilga nisbatan −50%; metan siyosati. https://unfccc.int/sites/default/files/2025-11/Uzbekistan%20Third%20NDC.pdf
 2. «Issiqxona gazlarining chiqarilishini cheklash to'g'risida» qonun (2025; kuchga kirishi — 2026-yil 9-yanvar) — milliy uglerod birliklari, reyestr, savdo tartibi (gazeta.uz, 09.07.2025). https://www.gazeta.uz/oz/2025/07/09/greenhouse/
 3. VM-783 (25.11.2024) — I/II toifa obyektlari va avtomatik stansiyalar talablari; 202-son Nizom (201-band — koeffitsiyentlar, 301-band — rag'bat). https://lex.uz/uz/docs/-7233437 · https://lex.uz/uz/docs/-5367873
+4. PF-81-son farmon (31.05.2023) — ekologiya sohasini transformatsiya qilish; PQ-343 (18.11.2025) — o'rnatish muddatlari va yagona platforma. https://lex.uz/uz/docs/-6479180 · https://lex.uz/uz/docs/-7847341
+5. PQ-358 (14.10.2024) — sun'iy intellekt strategiyasi 2030; PF-189 (22.10.2025) va PQ-320 (30.10.2025) — AI loyihalarni qo'llab-quvvatlash; VM-425 (10.07.2025) — ustuvor AI loyihalari. https://lex.uz/acts/-7158604
 
 **A — tadqiqotlar (model tanlovi va yangi dalillar)**
-4. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF to'rt tomonlama qiyoslash (SCADA). https://doi.org/10.3390/fi18020096
-5. JISEM, 2025 — Autoencoder anomaliya ramkasi: F1 93,2%, ROC-AUC 97%. https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
-6. Premier Journal of Science, 2025 — sanoat anomaliya usullari: AE 87–89%, IF 84–86%, inferens 48 ms. https://premierscience.com/pjs-25-1320/
-7. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash): AE precision 0,99 / recall 0,61; IF 0,03/0,21. https://www.mdpi.com/2076-3417/16/5/2457
-8. IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / 61%. https://doi.org/10.1109/ICICyTA60173.2023.10428838
-9. Xu et al. (2025), *Environment International* 201:109594 — CEMS vaqt qatorlarida pattern o'zgarishlari: 334 holat 90% ishonchda, rasmiy nazoratda 24 tasi. https://doi.org/10.1016/j.envint.2025.109594
-10. Song et al. (2025), *Environmental Impact Assessment Review* 115:108037 — CEMS ma'lumot sifati ramkasi (anomaliya + kalibrovka + to'ldirish), Xitoy ETS. https://doi.org/10.1016/j.eiar.2025.108037
-11. Nassif et al. (2021), *IEEE Access* 9:78658–78700 — anomaliya aniqlash bo'yicha 290 tadqiqotli tizimli ko'rik. https://doi.org/10.1109/ACCESS.2021.3083060
-12. Wu et al. (2026), *Processes* 14(3):554 — sement zavodida ≥2% manipulyatsiya ≥90% aniqlikda, FP <3%. https://doi.org/10.3390/pr14030554
+6. MDPI *Future Internet* 18(2):96, 2026 — AE/LSTM-AE/OCSVM/IF to'rt tomonlama qiyoslash (SCADA). https://doi.org/10.3390/fi18020096
+7. JISEM, 2025 — Autoencoder anomaliya ramkasi: F1 93,2%, ROC-AUC 97%. https://www.jisem-journal.com/index.php/journal/article/download/11924/5547/20027
+8. Premier Journal of Science, 2025 — sanoat anomaliya usullari: AE 87–89%, IF 84–86%, inferens 48 ms. https://premierscience.com/pjs-25-1320/
+9. MDPI *Applied Sciences* 16(5):2457, 2026 — real sanoat (suv tozalash): AE precision 0,99 / recall 0,61; IF 0,03/0,21. https://www.mdpi.com/2076-3417/16/5/2457
+10. IEEE ICICyTA 2023 (10428838) — IF vs OCSVM gaz quvurida: ROC-AUC 90% / 61%. https://doi.org/10.1109/ICICyTA60173.2023.10428838
+11. Xu et al. (2025), *Environment International* 201:109594 — CEMS vaqt qatorlarida pattern o'zgarishlari: 334 holat 90% ishonchda, rasmiy nazoratda 24 tasi. https://doi.org/10.1016/j.envint.2025.109594
+12. Song et al. (2025), *Environmental Impact Assessment Review* 115:108037 — CEMS ma'lumot sifati ramkasi (anomaliya + kalibrovka + to'ldirish), Xitoy ETS. https://doi.org/10.1016/j.eiar.2025.108037
+13. Nassif et al. (2021), *IEEE Access* 9:78658–78700 — anomaliya aniqlash bo'yicha 290 tadqiqotli tizimli ko'rik. https://doi.org/10.1109/ACCESS.2021.3083060
+14. Wu et al. (2026), *Processes* 14(3):554 — sement zavodida ≥2% manipulyatsiya ≥90% aniqlikda, FP <3%. https://doi.org/10.3390/pr14030554
 
 **M — amaliy va media manbalar**
-13. MEE (Xitoy), *Progress Report of China's National Carbon Market* (2024) — big-data orqali anormal ma'lumotlarni aniqlash va erta ogohlantirish. https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
-14. Production ML inference server (FastAPI + Redis + ONNX). https://github.com/sky4infy/production-ml-inference-server
-15. FastAPI inference arxitekturasi — «100 req/s dan past bo'lsa, soddaroq qiling». https://markaicode.com/architecture/fastapi-inference-architecture/
-16. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md` — §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi); g'oya asosi — `Goya-Uch-Daftar.md` §3 (§0.1).
+15. MEE (Xitoy), *Progress Report of China's National Carbon Market* (2024) — big-data orqali anormal ma'lumotlarni aniqlash va erta ogohlantirish. https://www.mee.gov.cn/ywdt/xwfb/202407/W020240722528850763859.pdf
+16. Production ML inference server (FastAPI + Redis + ONNX). https://github.com/sky4infy/production-ml-inference-server
+17. FastAPI inference arxitekturasi — «100 req/s dan past bo'lsa, soddaroq qiling». https://markaicode.com/architecture/fastapi-inference-architecture/
+18. Asos hujjat: `Uzbekistan_Eko_DeepResearch_2026.md` — §3.6 (AI arxitekturasi), §3.10 (risklar), §4.6 (ishonch arxitekturasi); g'oya asosi — `Goya-Uch-Daftar.md` §3 (§0.1).
 
 ---
 
