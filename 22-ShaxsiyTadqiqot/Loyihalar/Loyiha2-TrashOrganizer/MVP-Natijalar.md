@@ -117,10 +117,12 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 
 ## 5.6. Demo videolar (generatsiya qilingan)
 
-`YAKUNIY/video/demo-xarita.gif` — 46 soniya: `run_demo.py` chiqishi → zona ranglari jadvali
-(saqlangan hisobotdan: Yunusobod/Chilonzor qizil, Olmazor ko'k 46%) → xarita rasmi → ochiq GeoJSON API →
-qoida chegaralari (SanQvaM 0053-23) → `bot_healthcheck.sh` (4/4 ✅) → 158 test.
-Subtitr: `demo-xarita.srt`. Kadrlar tekshiruvi: `demo-xarita-kadrlar.png`.
+`YAKUNIY/video/demo-xarita.gif` — **47,4 soniya · 0,86 MB · 8 sahna**: `run_demo.py` chiqishi →
+zona ranglari jadvali (Yunusobod/Chilonzor qizil, Olmazor ko'k 46%) → xarita rasmi →
+**jonli GeoJSON API** (`demo_probe.py api`: HTTP 200 · FeatureCollection · 6 zona · qamrov) →
+qoida chegaralari (SanQvaM 0053-23, «ko'k ≠ toza») → `bot_healthcheck.sh` (4/4 ✅) → 158 test.
+Subtitr `demo-xarita.srt`; tekshiruv varaqlari `-kadrlar.png` (namuna) va `-sahnalar.png` (har sahna oxiri).
+QA: markdown belgilari, jadval qisqartirilishi va bo'sh kadrlar topilib tuzatildi.
 
 ## 6. S5/S7 yakuni (professional paket)
 

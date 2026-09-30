@@ -134,15 +134,21 @@ yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test 
 ### 6.5. Demo videolar (generatsiya qilingan)
 
 `tools/make_demo_gif.py` — sahnalarni **haqiqiy buyruq chiqishlaridan** yasaydi (illyustratsiya emas, yozuv):
-`YAKUNIY/video/demo-xarita.gif` (46 s, 98 kadr) va `demo-model.gif` (45 s, 67 kadr) + `.srt` subtitrlar
-+ kontakt varaqlar (tekshirish uchun). For the record: Dastlabki versiyada 3 nuqson topilib tuzatildi
-(Traceback sahnalar, sarlavha kesilishi, emoji o'rniga bo'sh kataklar).
+`YAKUNIY/video/demo-model.gif` (45,4 s · 0,65 MB) + `.srt` subtitr + ikkita kontakt varaq
+(`-kadrlar.png` = namuna, `-sahnalar.png` = har sahnaning oxirgi kadri).
+QA jarayonida nuqsonlar topilib tuzatildi: Traceback sahnalar, kesilgan sarlavha, emoji o'rniga bo'sh
+kataklar, xom markdown belgilari (`**`, `|---|`) va jadvalning o'rtasidan qisqartirilishi.
 
-### 6.6. S10 — demo va himoya
+### 6.6. Monitoring buyruqlari (Makefile)
+
+`make digest-preview` (yubormasdan ko'rish) · `make digest` (haqiqiy yuborish) · `make monitor` ·
+`make dashboard`. Ishlab chiqarishda `carbon-digest` servisi kunlik tsiklda kadansni o'zi tekshiradi.
+
+### 6.7. S10 — demo va himoya
 `presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
 javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 
-### 6.7. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+### 6.8. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
 
 | MVP qatlami | Prezident hujjati | Nima beradi |
 |---|---|---|
