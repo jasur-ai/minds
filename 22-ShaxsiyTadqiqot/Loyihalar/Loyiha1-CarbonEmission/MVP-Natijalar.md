@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): generator, 26 feature, IF F1 0,538 / FPR 0,086; dashboard; Docker; CI yashil (github.com/jasur-ai/egaz-audit-mvp); 25 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 41 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (2 fayl) | **25 test — barchasi o'tadi** |
+| `tests/` (3 fayl) | **41 test — barchasi o'tadi** |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -99,11 +99,27 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 - `docs/architecture.md` (qatlamlar + ADR), `docs/limitations.md` (7 band halol cheklov)
 - **25 test:** chegaralar (±0,01), dublikat/SLA zanjiri, uydirma-raqam testi, dashboard izoh qoplami, determinizm
 
-### 6.3. S10 — demo va himoya
+### 6.3. S8 real qismi — model monitoring (dreyf va FPR trendi)
+
+`src/monitor.py` + `scripts/run_monitor.py` → `reports/monitor_report.md` + 2 figura:
+
+| Ko'rsatkich | Natija |
+|---|---|
+| Feature dreyfi (PSI) | **24 stabil · 1 kuzatuv** (`drift_slope` 0,173) · 0 dreyf · 1 vaqt (chiqarilgan) |
+| Skor dreyfi (KS) | test taqsimoti bilan sezilarli farq yo'q |
+| FPR trendi (muzlatilgan threshold) | 2025Q3 0,059 · 2025Q4 0,070 · **2026Q1 0,126 ⚠️** · 2026Q2 0,088 |
+| **Qaror** | **THRESHOLDNI QAYTA KALIBRLASH** — bitta davrda FPR 0,10 dan oshgan (model emas, threshold yangi train davridan) |
+
+Professional detallar: vaqt indeksi (`quarter_index`) konstruksiya bo'yicha o'zgaradi — monitoringdan
+chiqarilgan va buni hisobotda ochiq aytadi; threshold hech qachon test davridan tanlanmaydi;
+dashboard'da dreyf jadvali, FPR trendi va **qaror satri** ko'rinadi (S8 panelining real qismi).
+**16 yangi test** (PSI identik/siljish/doimiylik/bo'sh massiv, KS, FPR trendi, qaror qoidalari, figuralar).
+
+### 6.4. S10 — demo va himoya
 `presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
 javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 
-### 6.4. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+### 6.5. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
 
 | MVP qatlami | Prezident hujjati | Nima beradi |
 |---|---|---|
@@ -120,6 +136,6 @@ javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 cd 01-Loyiha1-Carbon-Emission/MVP
 pip install -r requirements.txt
 python3 scripts/run_all.py      # ~35 s: S1→S6
-pytest -q tests/                # 25 test
+pytest -q tests/                # 41 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```

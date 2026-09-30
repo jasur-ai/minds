@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: To'liq prototip (S0–S7): zona dvigateli, murojaat SLA, JONLI bot @ecoledg_bot, push-eslatmalar (6 real xabar), CI yashil (github.com/jasur-ai/eco-ledger-mvp); 158 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli, murojaat SLA, JONLI bot @ecoledg_bot, push-eslatmalar, deploy paketi (compose+backup+nginx), CI yashil; 158 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 
@@ -99,6 +99,21 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 **Repo:** https://github.com/jasur-ai/eco-ledger-mvp · **CI:** ✅ yashil
 (run #2 · 2026-09-30 · 22 s · qadamlar: bog'liqliklar → 158 test → demo smoke)
 Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workflows/ci.yml/badge.svg)`
+
+## 5.4. Ishlab chiqarishga ko'chirish paketi (deploy/)
+
+| Fayl | Vazifa |
+|---|---|
+| `deploy/docker-compose.prod.yml` | 3 servis: api (2 worker, healthcheck) + bot + scheduler (30 daqiqalik sikl); portlar faqat localhost |
+| `deploy/backup.sh` | Kunlik zaxira: python sqlite3 `.backup` → butunlik tekshiruvi → gzip → 14 kunlik saqlash. **Sinovdan o'tdi**: 78 obyekt/8 murojaat/8 obuna tiklandi, nuqson (takroriy sikl) tuzatildi |
+| `deploy/nginx.conf` | Teskari proksi + rate-limit (30 r/s) + TLS (certbot) tayyor konfiguratsiya |
+| `deploy/.env.example` | Tokenlar namunasi (huquq 600; `.env` repoga tushmaydi) |
+| `deploy/README.md` | 9 bo'limli qo'llanma: tayyorlash → joylash → ishga tushirish → TLS → zaxira → ekspluatatsiya → xavfsizlik nazorati → troubleshooting jadvali |
+
+## 5.5. Demo video storyboard (`docs/DEMO-VIDEO-STORYBOARD.md`)
+
+4 video (~8 daqiqa) kadr-kadr: vaqt · ekran · harakat · **ovoz matni** (o'qishga tayyor) + yozish buyruqlari
+(`ffmpeg`) va `demo1-xarita.srt` subtitr na'munasi. Har video yakunida jonli tekshiruv kadri bor.
 
 ## 6. S5/S7 yakuni (professional paket)
 
