@@ -2,12 +2,12 @@
 aliases: [Loyiha 1 MVP natijalari, E-GAZ-AUDIT MVP]
 tags: [shaxsiy-tadqiqot, loyiha1, mvp]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): generator, 26 feature, IF F1 0,538 / FPR 0,086; dashboard, Docker/CI, demo; 25 test
+qisqacha: To'liq prototip (S1–S10): generator, 26 feature, IF F1 0,538 / FPR 0,086; dashboard; Docker; CI yashil (github.com/jasur-ai/egaz-audit-mvp); 25 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -85,7 +85,12 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 - **Alert feed (top-20):** har bir signal uchun eng katta og'ishli 3 feature (z-qiymat) va «biz bilgan tur» (faqat sinov uchun)
 - **Audit izi:** model params, threshold (train kvantili), feature ro'yxati, o'qitilgan sana
 
-### 6.2. S9 — Docker, CI, hujjatlar
+### 6.2. S9 — Docker, CI, hujjatlar (CI JONLI ✅)
+
+**Ochiq repo:** https://github.com/jasur-ai/egaz-audit-mvp · **CI holati:** ✅ yashil
+(run #2 · 2026-09-30 · 47 s · qadamlar: bog'liqliklar → 25 test → quvur smoke)
+
+
 - `Dockerfile` + `docker-compose.yml` (1 server; healthcheck `/v1/health`)
 - `.github/workflows/ci.yml`: 25 test + quvur smoke (MVP papkasi repoga chiqarilganda darhol ishlaydi)
 - `docs/architecture.md` (qatlamlar + ADR), `docs/limitations.md` (7 band halol cheklov)

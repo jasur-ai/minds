@@ -2,12 +2,12 @@
 aliases: [Loyiha 2 MVP natijalari, Ochiq-Eko-Ledger MVP]
 tags: [shaxsiy-tadqiqot, loyiha2, mvp]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-09-30
 sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), JONLI bot @ecoledg_bot, push-eslatmalar (6 real xabar), Docker/CI, xarita; 158 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli, murojaat SLA, JONLI bot @ecoledg_bot, push-eslatmalar (6 real xabar), CI yashil (github.com/jasur-ai/eco-ledger-mvp); 158 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 
@@ -90,6 +90,12 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
   obuna avtomatik yoqiladi.
 - **Testlar:** 158 (16 bot + 17 push + 125 asosiy). Yo'lda topilgan nuqson tuzatildi:
   testlararo baza almashinuvi (config.DB_PATH global) — endi har modul `monkeypatch` bilan izolyatsiya qiladi.
+
+## 5.3. Ochiq repo va CI (JONLI ✅)
+
+**Repo:** https://github.com/jasur-ai/eco-ledger-mvp · **CI:** ✅ yashil
+(run #2 · 2026-09-30 · 22 s · qadamlar: bog'liqliklar → 158 test → demo smoke)
+Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workflows/ci.yml/badge.svg)`
 
 ## 6. S5/S7 yakuni (professional paket)
 
