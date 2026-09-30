@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), bot kodi, Docker/CI, xarita; 125 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), JONLI bot @ecoledg_bot, Docker/CI, xarita; 141 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 
@@ -27,7 +27,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 | **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **125 test** (zona: 48) |
 | **S3** Xarita va dashboard | `web/map.html`, mobil | ✅ `web/map.html` (o'z-o'zini ta'minlaydi; `/` da jonli) |
 | **S4** LLM matn generatori | prompt_v1.md + verify.py + 100 test-matn | ✅ `src/llm/generate.py` (6 qavat), `src/llm/prompt_v1.md` |
-| **S5** Telegram bot (aiogram) | 6 ssenariy | ✅ **to'liq kod:** `scripts/bot.py` (FSM, lokatsiya, dublikat-javobi, SLA buyruqlari) — ishga tushirish uchun token kerak |
+| **S5** Telegram bot (aiogram) | 6 ssenariy | ✅ **JONLI ISHLAYAPTI: [@ecoledg_bot](https://t.me/ecoledg_bot)** (2026-09-30 dan, polling) · 16 handler testi |
 | **S6** Murojaat moduli | 7 holat, SLA, 25+ test | ✅ `src/murojaat/service.py` |
 | **S7** Test/demo/hujjat | CI, demo, hisobot | ✅ `Dockerfile` · `docker-compose.yml` (bot profili) · `.github/workflows/ci.yml` · `docs/architecture.md` · `docs/limitations.md` · `docs/DEMO-SSENARIYLAR.md` (3 video skript) |
 
@@ -71,6 +71,14 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 | `/v1/kpi/sla` | ochiq KPI |
 | `reports/DEMO-NATIJA.md` | to'liq demo hisoboti |
 | `tests/` (4 fayl) | **125 test — barchasi o'tadi** |
+
+## 5.1. Bot jonli ishga tushirildi (2026-09-30)
+
+- **[@ecoledg_bot](https://t.me/ecoledg_bot)** → nomi «Ochiq-Eko-Ledger», tavsif va **7 buyruq menyusi** ro'yxatga olindi.
+- Bot jarayoni: `Bot ishga tushdi: @ecoledg_bot · API: http://127.0.0.1:8000` (polling rejimi).
+- `scripts/bot_healthcheck.sh` — 4 nuqtali tekshiruv (API · GeoJSON · Telegram getMe/webhook · bot jarayoni): **hammasi ✅**.
+- Testlar: `pytest -q tests/` → **141** (16 tasi bot handlerlari, token talab qilmaydi — mock rejim).
+- Hujjatlar: `docs/BOT-ISHLATISH.md` (operator qo'llanmasi: ishga tushirish, cron, token xavfsizligi).
 
 ## 6. S5/S7 yakuni (professional paket)
 
