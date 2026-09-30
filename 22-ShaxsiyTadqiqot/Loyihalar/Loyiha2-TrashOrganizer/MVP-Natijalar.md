@@ -60,6 +60,9 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 - Demo: 3 matn — barchasi **PASS**; uydirma raqam testi va "ko'k zona hech qachon «toza» deb atalmaydi" testi o'tadi
 - API kaliti bo'lmasa ham ishlaydi (deterministik rejim); kalit bilan LLM rejimiga o'tadi (prompt `prompt_v1.md`)
 
+
+**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 19 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
+
 ## 5. Artefaktlar va ochiq endpointlar
 
 | Fayl / endpoint | Nima |

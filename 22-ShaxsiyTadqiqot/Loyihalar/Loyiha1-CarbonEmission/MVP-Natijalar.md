@@ -55,6 +55,9 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
   — A4 (birlik xatosi) deyarli to'liq topiladi; A5/A7/A8 nozik turlar uchun feature kengaytirish keyingi ish.
 - **Inferens:** 0,05 ms / 1 000 yozuv (TZ §8.2: IF OCSVM'dan ~36× tez — tasdiqlandi)
 
+
+**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 19 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
+
 ## 4. Artefaktlar
 
 | Fayl | Nima |
