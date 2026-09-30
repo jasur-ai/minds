@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), JONLI bot @ecoledg_bot, Docker/CI, xarita; 141 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli (4 rang), murojaat (7 holat, SLA), JONLI bot @ecoledg_bot, push-eslatmalar (6 real xabar), Docker/CI, xarita; 158 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 
@@ -79,6 +79,17 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 - `scripts/bot_healthcheck.sh` — 4 nuqtali tekshiruv (API · GeoJSON · Telegram getMe/webhook · bot jarayoni): **hammasi ✅**.
 - Testlar: `pytest -q tests/` → **141** (16 tasi bot handlerlari, token talab qilmaydi — mock rejim).
 - Hujjatlar: `docs/BOT-ISHLATISH.md` (operator qo'llanmasi: ishga tushirish, cron, token xavfsizligi).
+
+## 5.2. Push-eslatmalar (7/10/15-kun) — jonli
+
+- `src/notify/scheduler.py` + `scripts/sla_scheduler.py`: 7-kun ogohlantirish, 10-kun muddati o'tdi,
+  15-kun eskalatsiya (operator chat'iga ham). **Dedupe** — bitta hodisa bir marta (`notification_log`).
+- **Real yetkazish:** 2026-09-30 da 6 xabar Telegram'ga yuborildi (**xato 0**) — foydalanuvchi chat'i faol.
+- Yangi API: `GET /v1/appeals/due`, `POST /v1/bot/subscribe`, `GET /v1/bot/subscriptions`.
+- Yangi bot buyrug'i: `/eslatmalar` (kuzatilayotgan murojaatlar ro'yxati); murojaat yuborilganda
+  obuna avtomatik yoqiladi.
+- **Testlar:** 158 (16 bot + 17 push + 125 asosiy). Yo'lda topilgan nuqson tuzatildi:
+  testlararo baza almashinuvi (config.DB_PATH global) — endi har modul `monkeypatch` bilan izolyatsiya qiladi.
 
 ## 6. S5/S7 yakuni (professional paket)
 
