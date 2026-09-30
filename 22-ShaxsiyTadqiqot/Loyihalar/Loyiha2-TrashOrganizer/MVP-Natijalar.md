@@ -117,12 +117,21 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 
 ## 5.6. Demo videolar (generatsiya qilingan)
 
-`YAKUNIY/video/demo-xarita.gif` — **47,4 soniya · 0,86 MB · 8 sahna**: `run_demo.py` chiqishi →
-zona ranglari jadvali (Yunusobod/Chilonzor qizil, Olmazor ko'k 46%) → xarita rasmi →
-**jonli GeoJSON API** (`demo_probe.py api`: HTTP 200 · FeatureCollection · 6 zona · qamrov) →
-qoida chegaralari (SanQvaM 0053-23, «ko'k ≠ toza») → `bot_healthcheck.sh` (4/4 ✅) → 158 test.
-Subtitr `demo-xarita.srt`; tekshiruv varaqlari `-kadrlar.png` (namuna) va `-sahnalar.png` (har sahna oxiri).
-QA: markdown belgilari, jadval qisqartirilishi va bo'sh kadrlar topilib tuzatildi.
+| Video | Fayl | Davomiylik | Sahnа | Mazmun |
+|---|---|---|---|---|
+| 1 | `demo-xarita.gif` | 47,4 s · 0,86 MB | 8 | run_demo → zona jadvali → xarita → **jonli GeoJSON API** → norma chegaralari → healthcheck 4/4 |
+| 2 | `demo-murojaat.gif` | 25,8 s · 0,61 MB | 4 | holat zanjiri → SLA paneli (jonli API) → **dublikat birlashtirish** → append-only rad etish → 45 test |
+| 3 | `demo-llm.gif` | 25,8 s · 0,57 MB | 4 | registrdan matn → 6 qavat PASS → **taqiqlangan gap FAIL:V3** → 10 test |
+| 4 | `demo-model.gif` | 45,4 s · 0,65 MB | 8 | model jadvali → PR/ROC · PSI · FPR trendi → haftalik dayjest → 54 test |
+
+Jami **4 video · 2 daqiqa 24 soniya · 24 sahna**; har biriga `.srt` subtitr va 2×2 tekshiruv varaqi
+(`-kadrlar.png` namuna, `-sahnalar.png` har sahna oxiri). Barcha terminal sahnalar — **haqiqiy buyruq chiqishi**. QA jarayonida **6 nuqson sinfi** topilib tuzatildi: Traceback sahnalar, emoji o'rniga bo'sh kataklar,
+sarlavhaning kesilishi, xom markdown belgilari (`**`, `|---|`), jadvalning o'rtasidan qisqartirilishi va
+matn bo'shlig'i (sabab jumlasidan keyin nuqta). Buning uchun generator ikki qavatli tekshiruv beradi:
+`-kadrlar.png` (namuna) va `-sahnalar.png` (har sahnaning oxirgi kadri — chiqish to'liq ko'rinadi).
+
+Video 2 va 3'dagi dublikat hamda LLM sinovlari **bazaning nusxasida** bajariladi — asl `data/eco_ledger.db`
+daxlsiz qoladi (`_l2_demo_conn()`).
 
 ## 6. S5/S7 yakuni (professional paket)
 

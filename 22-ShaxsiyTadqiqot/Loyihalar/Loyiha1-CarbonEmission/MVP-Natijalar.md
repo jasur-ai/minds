@@ -133,11 +133,14 @@ yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test 
 
 ### 6.5. Demo videolar (generatsiya qilingan)
 
-`tools/make_demo_gif.py` — sahnalarni **haqiqiy buyruq chiqishlaridan** yasaydi (illyustratsiya emas, yozuv):
-`YAKUNIY/video/demo-model.gif` (45,4 s · 0,65 MB) + `.srt` subtitr + ikkita kontakt varaq
-(`-kadrlar.png` = namuna, `-sahnalar.png` = har sahnaning oxirgi kadri).
-QA jarayonida nuqsonlar topilib tuzatildi: Traceback sahnalar, kesilgan sarlavha, emoji o'rniga bo'sh
-kataklar, xom markdown belgilari (`**`, `|---|`) va jadvalning o'rtasidan qisqartirilishi.
+"Demo videolar" bo'limi 4 videoning to'liq ro'yxatini **Loyiha 2 hujjatining §5.6** bandida beradi
+(L1 videolari — 1 va 4). L1 tomonidan:
+
+| Video | Fayl | Mazmun |
+|---|---|---|
+| 4 | `YAKUNIY/video/demo-model.gif` | `run_all.py` (23 s) → uch model jadvali (markdownsiz, tekis ustunlar) → PR/ROC, PSI, FPR trendi figuralari → haftalik dayjest → 54 test |
+
+Generator `tools/make_demo_gif.py`; kadrlar `-kadrlar.png` va `-sahnalar.png` varaqlarida tekshiriladi.
 
 ### 6.6. Monitoring buyruqlari (Makefile)
 
