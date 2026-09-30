@@ -115,6 +115,13 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 4 video (~8 daqiqa) kadr-kadr: vaqt · ekran · harakat · **ovoz matni** (o'qishga tayyor) + yozish buyruqlari
 (`ffmpeg`) va `demo1-xarita.srt` subtitr na'munasi. Har video yakunida jonli tekshiruv kadri bor.
 
+## 5.6. Demo videolar (generatsiya qilingan)
+
+`YAKUNIY/video/demo-xarita.gif` — 46 soniya: `run_demo.py` chiqishi → zona ranglari jadvali
+(saqlangan hisobotdan: Yunusobod/Chilonzor qizil, Olmazor ko'k 46%) → xarita rasmi → ochiq GeoJSON API →
+qoida chegaralari (SanQvaM 0053-23) → `bot_healthcheck.sh` (4/4 ✅) → 158 test.
+Subtitr: `demo-xarita.srt`. Kadrlar tekshiruvi: `demo-xarita-kadrlar.png`.
+
 ## 6. S5/S7 yakuni (professional paket)
 
 - **S5 bot — to'liq kod** (`scripts/bot.py`, aiogram 3): 6 ssenariy — `/start`, `/holat`, `/xarita`,

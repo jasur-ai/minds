@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 41 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 54 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (3 fayl) | **41 test — barchasi o'tadi** |
+| `tests/` (4 fayl) | **54 test — barchasi o'tadi** |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -115,11 +115,34 @@ chiqarilgan va buni hisobotda ochiq aytadi; threshold hech qachon test davridan 
 dashboard'da dreyf jadvali, FPR trendi va **qaror satri** ko'rinadi (S8 panelining real qismi).
 **16 yangi test** (PSI identik/siljish/doimiylik/bo'sh massiv, KS, FPR trendi, qaror qoidalari, figuralar).
 
-### 6.4. S10 — demo va himoya
+### 6.4. Haftalik monitoring dayjesti (yangi)
+
+`src/digest.py` — model holatini operatorga **bot orqali** haftalik xabar ko'rinishida yuboradi:
+
+| Element | Mazmun |
+|---|---|
+| Model sifati | F1 · Precision · Recall · FPR (AC-2 belgisi bilan) · ROC-AUC · alertlar soni |
+| Dreyf | 🔴 dreyf / 🟡 kuzatuv / 🟢 stabil / ⚪ vaqt soni |
+| FPR trendi | chegaradan oshgan davrlar (masalan «2026Q1 (0.126)») |
+| Qaror | dreyf → qayta o'qitish · FPR → kalibrlash · aks holda stabil |
+
+Professional detallar: **kadans** (`reports/digest_state.json`) — takroriy spam yo'q, haftada bir;
+Telegram 4096-belgi chegarasi avtomatik qisqartirish bilan; yuborish muvaffaqiyatsiz bo'lsa holat
+yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test bilan tekshiriladi.
+**Jonli:** 2026-09-30 da yuborildi (711 belgi, ✅) · **13 yangi test**.
+
+### 6.5. Demo videolar (generatsiya qilingan)
+
+`tools/make_demo_gif.py` — sahnalarni **haqiqiy buyruq chiqishlaridan** yasaydi (illyustratsiya emas, yozuv):
+`YAKUNIY/video/demo-xarita.gif` (46 s, 98 kadr) va `demo-model.gif` (45 s, 67 kadr) + `.srt` subtitrlar
++ kontakt varaqlar (tekshirish uchun). For the record: Dastlabki versiyada 3 nuqson topilib tuzatildi
+(Traceback sahnalar, sarlavha kesilishi, emoji o'rniga bo'sh kataklar).
+
+### 6.6. S10 — demo va himoya
 `presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
 javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 
-### 6.5. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+### 6.7. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
 
 | MVP qatlami | Prezident hujjati | Nima beradi |
 |---|---|---|
@@ -136,6 +159,6 @@ javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 cd 01-Loyiha1-Carbon-Emission/MVP
 pip install -r requirements.txt
 python3 scripts/run_all.py      # ~35 s: S1→S6
-pytest -q tests/                # 41 test
+pytest -q tests/                # 54 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```
