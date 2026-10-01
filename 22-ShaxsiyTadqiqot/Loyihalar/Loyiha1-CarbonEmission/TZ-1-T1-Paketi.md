@@ -173,4 +173,28 @@ obyektga kirishi ish vaqti bilan kelishiladi (TZ-1 §5, 5-band).
 
 ---
 
+
+## 7. Word (imzo va chop) shakli — `12-T1-XAT-VA-MEMORANDUM.docx`
+
+Hujjat **qo'lda ko'chirilmaydi**: `01-Loyiha1-Carbon-Emission/MVP/scripts/build_t1_packet.py` yagona
+manbadan (shu fayl + `TZ-1-rasmiy-v1.0.md`) DOCX yasaydi — 4 qism, 6 jadval, 40 898 bayt:
+
+| Qism | Mazmuni | Kimga |
+|---|---|---|
+| 1. Xat | kirish, D1–D4 so'rovi, kafolatlar (jarima emas · 5 kun oldin natija · kodlar) | Korxona rahbari |
+| 2. Memorandum | 8 bo'lim (predmet, nima beriladi/olinadi, taqiqlar, muddat, maxfiylik, bekor qilish, yakuniy band) + imzo jadvali | Ikki tomon |
+| 3. Ma'lumot ilovasi | D1–D4 oqimlari, 8 kolonkali fayl sxemasi, sifat nazorati (≤10% bo'shliq, SHA-256 append-only) | Korxona mutaxassislari |
+| 4. Obyekt kartasi | M1–M5 majburiy · B1–B6 ballash (≥12/18) · T1 kalendari (12.10 – 06.11.2026) | **Ichki** (korxonaga yuborilmaydi) |
+
+```bash
+cd 01-Loyiha1-Carbon-Emission/MVP
+python3 scripts/build_t1_packet.py --out /home/user/YAKUNIY/12-T1-XAT-VA-MEMORANDUM.docx \
+    --company "«XXX» IES MChJ" --date 2026-10-12      # ⟦ ⟧ maydonlar korxona nomi/sana bilan almashadi
+```
+
+**Nazorat:** hujjatda bo'sh maydonlar `⟦ ⟧` bilan ochiq qoldirilgan — to'ldirilmagan holda imzolash mumkin emas
+(ko'rikdan keyin 12.10.2026 da to'ldiriladi).
+
+---
+
 **Tayyorlagan:** muallif · **Sana:** 2026-10-01 · **Holat:** T1 startiga tayyor (ko'rikdan keyin darhol yuboriladi)

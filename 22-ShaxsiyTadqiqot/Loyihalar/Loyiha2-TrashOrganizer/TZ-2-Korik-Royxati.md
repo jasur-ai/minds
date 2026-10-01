@@ -5,7 +5,7 @@ tags: [shaxsiy-tadqiqot, loyiha2, tz-2, eko-ledger]
 
 # TZ-2 — JUFTLIK KO'RIGI RO'YXATI (10.10.2026)
 
-**Nima:** `5-TZ-Loyiha-2-Eko-Ledger.md` (78 919 B, v1.3) — «Ochiq-Eko-Ledger MVP» texnik topshirig'ini
+**Nima:** `5-TZ-Loyiha-2-Eko-Ledger.md` (80 144 B, v1.3 + ilova) — «Ochiq-Eko-Ledger MVP» texnik topshirig'ini
 **juftlik ishida** ko'rib chiqish uchun nazorat ro'yxati. **Maqsad:** ko'rik 45 daqiqada tugaydi va natijasi —
 imzolangan TZ yoki aniq tuzatishlar ro'yxati.
 **Sana:** 10.10.2026 (TZ-1 bilan bir kunda — ikkala loyiha bir xil formatda ko'riladi).
@@ -22,7 +22,7 @@ imzolangan TZ yoki aniq tuzatishlar ro'yxati.
 |---|---|---|
 | 0–5 | Da'vo va kontekst | TZ-2 §0.1 (60 soniyalik dalil) + §1 (nima isbotlanadi) |
 | 5–30 | Bandlar bo'yicha | §2 jadvalidagi 8 band — «dalil → savol → qaror» |
-| 30–40 | Ochiq nuqtalar | §4 jadvalidagi 6 qaror (har biriga tavsiya berilgan) |
+| 30–40 | Ochiq nuqtalar | §4 jadvalidagi 8 qaror (har biriga tavsiya berilgan) |
 | 40–45 | Imzo va reja | Tasdiq yoki tuzatishlar + himoyadan oldin ro'yxati (§5) |
 
 **Rollar:** Muallif (TZ egasi) · Juftlik/ko'ruvchi (mustaqil savollar, huquqiy havolalar tekshiruvi) ·
@@ -54,7 +54,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 
 | ☐ | Tekshiruv (buyruq) | Natija sharti |
 |---|---|---|
-| ☐ | `cd 02-…/MVP && python3 -m pytest -q tests/` | **158 passed** |
+| ☐ | `cd 02-…/MVP && python3 -m pytest -q tests/` | **189 passed** |
 | ☐ | `curl -s :8000/v1/kpi/sla` | JSON javob (jami 8 · median 4,0 · compliance 100%) |
 | ☐ | `bash scripts/bot_healthcheck.sh` | **4/4** (API · GeoJSON · bot getMe · jarayon) |
 | ☐ | `python3 tools/demo_probe.py dup` | sim 1.00 · `delete → PermissionError` (append-only dalili) |
@@ -63,11 +63,11 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 | ☐ | `python3 tools/demo_probe.py zones` | 4 rang: Z-YUN/Z-CHI red · Z-MUL yellow · Z-YAK/Z-SER green · Z-OLM blue 46% |
 | ☐ | Huquqiy havolalar (TZ-2 Ilova C) — URL tekshiruvi | 200/202 (WAF 403 — «o'lik emas» deb belgilanadi) |
 | ☐ | Nusxalar: loyiha papkasi ↔ `YAKUNIY/` ↔ vault (byte-darajada) | Bir xil |
-| ☐ | `git log` — ochiq repo CI: L2 run #8 ✅ | Yashil |
+| ☐ | `git log` — ochiq repo CI: L2 run #10 ✅ | Yashil |
 
 ---
 
-## 4. Ko'rikda qaror talab qiladigan 6 ochiq nuqta (tavsiya bilan)
+## 4. Ko'rikda qaror talab qiladigan 8 ochiq nuqta (tavsiya bilan)
 
 | # | Nuqta | Variantlar | Tavsiya |
 |---|---|---|---|
@@ -78,6 +78,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 | 5 | Dublikat chegaralari | ≥0,85 merge · ≥0,55 guruh | **Tasdiq** (TZ Ilova A) — test bilan qo'riqlangan; 300 m/24 h oynasi saqlansin |
 | 6 | Nashr kadansi | Har o'zgarishda **yoki** kunlik to'plam | **Kunlik to'plam** (GeoJSON + CSV) + har rang o'zgarishida alohida yozuv (§5.7 audit qoidasi) |
 | 7 | **Adolat paketi doirasi** — tushuntirish kartasi (1C §C.2) va aniqlik hisoboti (§E.2) MVP hajmiga kiradimi? | (a) MVP ichida — prototip tayyor; (b) keyingi bosqich | **Prototip MVP ichida qoladi** (karta va hisobot ishlaydi), lekin **majburiy** deb e'lon qilish himoyadan keyin — U va precision maydonlari manbaga ulanmaguncha to'liq emas |
+| 8 | **Inspeksiya yakuni holati** — `yakunlandi_tekshiruv` (TZ-2 §6.5 ga ilova) qabul qilinadimi? | (a) ha — ilova sifatida kiritiladi (kod va 7 test tayyor); (b) yo'q — kod MVP ichida qoladi, TZ matni tegmaydi | **(a)** — busiz `precision` (1C §E.2 3-metrikasi) umuman hisoblanmaydi; ilova shakli v1.3 muzlatishini buzmaydi |
 
 ---
 
@@ -98,10 +99,10 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 
 | Fayl | Nima uchun | Hajm |
 |---|---|---|
-| `YAKUNIY/5-TZ-Loyiha-2-Eko-Ledger.md` | Asosiy hujjat (ko'riladi) | 78 919 B |
+| `YAKUNIY/5-TZ-Loyiha-2-Eko-Ledger.md` | Asosiy hujjat (ko'riladi) | 80 144 B |
 | `YAKUNIY/3-Loyiha-2-Goya.md` | G'oya qatlami (TZ dan ajratilgan) | — |
 | `02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md` | Bajarilgan S0–S7 + jonli natijalar | — |
-| `…/MVP/tests/` (6 fayl) | 158 test — spetsifikatsiya dalili | — |
+| `…/MVP/tests/` (7 fayl) | 189 test — spetsifikatsiya dalili | — |
 | `…/MVP/docs/limitations.md` | Cheklovlar (7-band) | — |
 | <https://egaz-audit.pages.dev/map.html> | Jonli nashr (xarita) | 23 794 B |
 | `YAKUNIY/7-TZ-1-KORIK-ROYXATI.md` | Qardosh ro'yxat (L1) — format izchilligi uchun | — |

@@ -27,6 +27,8 @@ xaritasi: nimasi **bajarildi** (kod + test), nimasi **ochiq** va nima uchun.
 | §E.2 — **5 ochiq metrika** | `accuracy_report()`<br>`GET /v1/adolat/hisobot` | `test_report_has_5_metrics`, `test_report_counts_match_zone_data` | ✅ 3/5 hisoblanadi, 2 tasi «mavjud emas» + sabab |
 | §E.2 — «1 va 3 juftlikda e'lon qilinadi» | `oskorlik_qoidasi` maydoni | `test_report_disclosure_rule` | ✅ qoida matnga singdirilgan |
 | §D.2 — apellyatsiya oqimi 7 holat | L2 `src/murojaat/service.py` (mavjud) | L2 `tests/test_murojaat.py` | ✅ (R37 da qurilgan) |
+| §C.2 — **chop etiladigan karta** (R46) | `card_html()` + `qr_svg()` · `GET /v1/adolat/karta/{eco_id}/html` · `scripts/build_card.py` | `test_card_html_has_qr`, `test_card_html_no_external_resources`, `test_card_pdf_one_page` | ✅ A4 HTML + **PDF 1 varaq**; QR — botga havola; tashqi resurs yo'q (oflayn chop) |
+| §E.2 — **precision 8-holatga ulandi** (R46) | `_insp_result()` → `accuracy_report()` 3-metrika | `test_report_precision_before_inspection`, `test_report_precision_after_inspection`, `test_insp_result_parser` | ✅ Kod tayyor; qiymat inspeksiya yozuvi paydo bo'lgach chiqadi |
 | Fuqaro kanali | Bot buyrug'i `/tushuntirish <eco_id>` | `test_tushuntirish_renders_three_questions`, `test_tushuntirish_404_message` | ✅ jonli botda |
 
 **Jonli misol (E-1001):** «Nima o'lchandi: 2026-09-25 · 217,0 µg/m³ (auto_accredited) →
@@ -44,7 +46,7 @@ apellyatsiya 30 ish kuni». Ya'ni fuqaro **uchta savolga birinchi ekranda** javo
 |---|---|---|---|---|
 | 1 | **O'lchov noaniqligi U (k=2)** — karta 4-maydoni | 1C ning butun mavzusi: chegara noaniqliksiz oqlanmaydi (JCGM 106, ILAC-G8 `w=U`) | **TZ-1 piloti**: T2/T3 bosqichlari U ni beradi (oqim + kalibrovka) | T2–T3: 09.11 – 04.12.2026 |
 | 2 | **Kalibrovka jurnali** — 7-maydon (hozir «qisman») | Qaror asosini tekshirish uchun | TZ-1 **D3 oqimi** (uskuna jurnali) | T4 bilan: 07.12.2026 |
-| 3 | **Tasdiqlangan qizil signallar (precision)** — 3-metrika | Yolg'on-ijobiy darajasi ochiq bo'lmasa, ishonch qurilmaydi | Nazorat organi inspeksiya yakuni (birlashgan maydon) — TZ-2 §6 ga 8-holat sifatida qo'shiladi | Himoyadan keyin (taklif) |
+| 3 | **Tasdiqlangan qizil signallar (precision)** — 3-metrika | Yolg'o-ijobiy darajasi ochiq bo'lmasa, ishonch qurilmaydi | **R46: kod tayyor** — 8-holat `yakunlandi_tekshiruv` (`natija=` majburiy) yozuvi paydo bo'lishi bilan hisoblanadi | Yo'naltirish moduli: himoyadan keyin |
 | 4 | **Inson tekshiruvi** — 11-maydon | «Kim, qachon, xulosa» — javobgarlik | Hozir `audit_log` dan eng yaqin harakat; to'liq maydon inspektor moduli bilan | Himoyadan keyin |
 | 5 | **Koeffitsient va summa** — 9/10-maydon | Moliyaviy qaror fuqaroga ta'sir qiladi | Platforma **jarima hisoblamaydi** (ochiq xabar qatlami) — maydon «qo'llanilmaydi»; nazorat organi qarori bilan birga to'ldiriladi | Dizayn qarori (o'zgarmaydi) |
 
@@ -59,7 +61,11 @@ yashirmasdan ko'rsatadi. Aynan shu holat 1C §G («halol cheklovlar») ruhiga mo
 ```bash
 cd 02-Loyiha2-Trash-Organizer/MVP
 # 1) modul testlari
-python3 -m pytest -q tests/test_adolat.py            # 16 test
+python3 -m pytest -q tests/test_adolat.py            # 21 test
+python3 -m pytest -q tests/test_murojaat.py           # 35 test (8-holat)
+# 1b) karta: HTML + PDF (chop etish uchun)
+python3 scripts/build_card.py --eco E-1001 --format both --out reports/kartalar/
+#     → reports/kartalar/karta_E-1001.html (10 983 B) · karta_E-1001.pdf (37 581 B)
 # 2) terminal ko'rinishi (demolar uchun)
 python3 /home/user/tools/demo_probe.py adolat
 # 3) jonli API
@@ -67,10 +73,11 @@ python3 -m uvicorn src.api.app:app --host 0.0.0.0 --port 8000
 curl -s localhost:8000/v1/adolat/karta/E-1001 | python3 -m json.tool | head -20
 curl -s localhost:8000/v1/adolat/hisobot
 curl -s "localhost:8000/v1/adolat/oyna?qaror_sanasi=2026-09-25"
+curl -s localhost:8000/v1/adolat/karta/E-1001/html | head -20
 # 4) bot: /tushuntirish E-1001
 ```
 
-**Testlar:** L2 jami **177** (adolat 16 + bot 3 yangi + mavjud 158) — barchasi ✅.
+**Testlar:** L2 jami **189** (adolat 21 + murojaat 35 + qolgan 133) — barchasi ✅.
 
 ---
 

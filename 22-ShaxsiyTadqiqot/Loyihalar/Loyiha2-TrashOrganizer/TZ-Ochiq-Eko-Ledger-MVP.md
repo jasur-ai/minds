@@ -552,7 +552,7 @@ Har bir rang o'zgarishi **hodisa (event)** sifatida yoziladi:
 
 **Anti-spam qoidalari (faqat texnik):** bitta telefon → kuniga ≤5 murojaat; dublikat **ikki pog'onali** aniqlanadi (Ilova A bilan bir xil chegara): (1) trigramma o'xshashlik **≥0,85** + 300 m radius + ≤24 soat + bir xil kategoriya → **avtomatik birlashtiriladi** (yangi murojaat **yo'qolmaydi**, "unga qo'shiladi" va `supporters_count` oshadi — bu **kuchli signal**); (2) o'xshashlik **0,55–0,85** oralig'ida bo'lsa — murojaat **alohida yozuv bo'lib qoladi** va "o'xshash murojaatlar" guruhida ko'rsatiladi (operator ko'rigi uchun; e'lon qilinishi kechiktirilmaydi). Yangi akkauntning birinchi murojaati **belgilanadi** (post-moderatsiya; e'lon qilinishi kechiktirilmaydi).
 
-### 6.5. Holat zanjiri (7 holat) va SLA
+### 6.5. Holat zanjiri (7 holat + ilova: 8-holat) va SLA
 
 ```mermaid
 stateDiagram-v2
@@ -590,6 +590,24 @@ stateDiagram-v2
 **KPI paneli (ochiq, har kim ko'radi):** organlar va hududlar bo'yicha — o'rtacha javob vaqti (median), muddatga rioya % , ochiq murojaatlar soni, "muddati o'tgan" ulushi. Reyting **ommaviy** — bu bosim mexanizmi (Xitoy IPE modeli: ochiqlik → obro' orqali majburlash).
 
 **Prezident qarorlari asosi:** SLA 10 kun — PF-217 tezkorlik talabi va O'RQ-457 30 ish kuni muddatidan qat'iyroq ichki standart (Ilova C).
+
+#### 6.5.1. Ilova (R46 taklifi) — 8-holat: `yakunlandi_tekshiruv`
+
+> **Holat:** v1.3 matni **o'zgarmaydi** (muzlatilgan). Bu band — **ilova** shaklidagi taklif; 10.10.2026
+> juftlik ko'rigida tasdiqlansa §6.5 jadvali va §6.6 ENUM 8 qiymatga o'tadi.
+
+| Holat | Kim o'zgartiradi | Avtomatik? | Ommaviy ko'rinishi |
+|---|---|---|---|
+| `yakunlandi_tekshiruv` | **inspektor** (dalil majburiy) | ⬜ | «Tekshiruv yakunlandi · natija: tasdiqlandi / qisman / tasdiqlanmadi» |
+
+**O'tishlar:** `javob_berildi → yakunlandi_tekshiruv` (inspektor; dalil ichida `natija=` majburiy, usiz so'rov rad etiladi) ·
+`yakunlandi_tekshiruv → hal_qilindi` (operator, dalil bilan) · `yakunlandi_tekshiruv → rad_etildi` (operator, sabab majburiy).
+
+**Nega kerak:** 1C §E.2 ning **3-metrikasi** («tasdiqlangan qizil signallar» / precision) qaysi signallar
+inspeksiya bilan tasdiqlanganini bilmasa hisoblanmaydi — `qisman` natija maxrajga kirmaydi (halol hisob).
+
+**Amalga oshirildi (R46):** `src/murojaat/service.py` (`STATUSES`, `INSPECTION_RESULTS`, `natija=` validatsiyasi) ·
+`src/adolat.py: _insp_result()` → `accuracy_report()` · `tests/test_murojaat.py` (+7 test) · `tests/test_adolat.py` (+5 test).
 
 ### 6.6. Ma'lumotlar bazasida saqlash
 
