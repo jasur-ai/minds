@@ -37,7 +37,7 @@ manbalar tekshiruvi) · Metrolog (T2–T3 bo'yicha) · Korxona vakili (D1–D4 o
 | 1 | Maqsad va savollar H1–H4 (§1) | TZ-1 §1 · `Tadqiqot_1B_Shovqin_Qavati_Davomi.md` §F | Har savol **o'lchanadigan kattalikka** bog'langanmi (T6/T3/T5/T7) |
 | 2 | Obyekt mezonlari, 6 baholanadigan mezon, nomzodlar (§2) | TZ-1 §2 · 1B §E · B10 | Mezonlar obyektni **tanlaydimi yoki bahonami**; zaxira nomzod bormi |
 | 3 | Strata va namuna: 3×30–40 = 90–120 juftlik (§3) | TZ-1 §3 · 1-tadqiqot | 20 daqiqalik oyna + **mustaqil kun** tanlash qoidasi aniqmi (soxta mustaqillik yo'q) |
-| 4 | Ma'lumot almashish rejimi: D1–D5, kolonkalar, sifat (§4) | TZ-1 §4.1–4.6 | Sxema **mashina o'qiydigan**mi; takroriy kalit rad etiladimi; audit izi bormi |
+| 4 | Ma'lumot almashish rejimi: D1–D5, kolonkalar, sifat (§4) | TZ-1 §4.1–4.6 · **qabul moduli** (`src/pilot_io.py`, `scripts/validate_pilot_data.py --selftest`) | Sxema **mashina o'qiydigan**mi; takroriy kalit rad etiladimi; audit izi bormi · **aniqlashtirish:** §4.2 kaliti `manba` ni ham o'z ichiga olishi kerak (aks holda cems va hisobot bir faylda turolmaydi) |
 | 5 | Shartnoma bandlari (9 band, §5) | TZ-1 §5 | Har band keyin «kelishib olinadigan» emas, **bajariladigan** majburiyatmi |
 | 6 | Kalendar T-Z…T7, mas'ul (§6) | TZ-1 §6 · `REJA-56-QADAM.md` (TZ-1 = 1-band) | T4 (o'lchov oynasi) tanqidiy yo'l sifatida ajratilganmi; zaxira +4 hafta bormi |
 | 7 | Zona chegarasi mantiqi, yolg'on-ijobiy (§8.1) | TZ-1 §8.1 · `Tadqiqot_1C_Adolat_Paketi.md` · L1 `reports/eval_report.md` §FPR nazorati | Chegara **JCGM 106 + ILAC-G8 (w=U)** bilan asoslanganmi; yolg'on-ijobiy ustuni ochiqmi |
@@ -59,6 +59,7 @@ o'xshashlikni ko'rsatish foydali: **«yolg'on-ijobiy — nazorat qilinadigan kat
 | ☐ | B-kodlar (B1–B13) TZ-1 §10 da ochib yozilgan, har birida daraja (A/R) bor | To'liq |
 | ☐ | Sana bilan bog'liq ifodalar dinamik emas («20 kundan oshgan» tipida yozilgan) | Xatosiz |
 | ☐ | Nomzod obyektlar (To'raqo'rg'on / Talimarjon / Angren IES + Toshkent / Farg'ona IEM) — manba: B10, sana bilan | Tasdiq |
+| ☐ | Qabul moduli o'zini sinaydi: `python3 scripts/validate_pilot_data.py --selftest` → yaxshi fayl qabul · nuqsonli rad (3 xato sinfi) | Ishlaydi |
 | ☐ | Huquqiy asos (§4.5) — O'z DSt 3605:2022, ISO/IEC 17025 7.6.3, VM-783/PQ-343 bog'lanishi | To'liq |
 | ☐ | Fayl nusxalari: loyiha papkasi (`Tadqiqotlar/TZ-1-rasmiy-v1.0.md`) va `YAKUNIY/` bir xil (byte-darajada) | Bir xil |
 

@@ -36,7 +36,7 @@ Texnik ko'ruvchi (zona algoritmi §5 va LLM verifikatsiya §8) · Ixtiyoriy: yur
 |---|---|---|---|
 | 1 | Huquqiy asos xaritasi — 7 mexanizm (§0.2) | TZ-2 §0.2 · Ilova C (26 manba) | Har mexanizm **mavjud hujjatga** tayanadimi (yangi qonun talab qilinmaydimi); havolalar URL + sana bilanmi |
 | 2 | Zona algoritmi: R → rang, C → ishonch, 6 override (§5.1–5.6) | TZ-2 §5 · `MVP/src/zoning/` · `web/map.html` | Chegaralar (**R ≥ 2,0 / 1,0; C ≥ 0,5**) aniqmi; «ko'k ≠ yashil» tamoyili saqlanganmi |
-| 3 | Murojaat moduli: 12 maydon, 7 holat, 10 kunlik SLA (§6) | TZ-2 §6 · `MVP/src/murojaat/` · SLA paneli (jonli) | Har holat o'tishi **kun bilan** belgilanganmi; rad etishda **sabab majburiy**; apellyatsiya 30 kunmi |
+| 3 | Murojaat moduli: 12 maydon, 7 holat, 10 kunlik SLA (§6) **+ adolat paketi** | TZ-2 §6 · `MVP/src/murojaat/` · SLA paneli (jonli) · **`src/adolat.py`** (karta, oyna, aniqlik hisoboti) | Har holat o'tishi **kun bilan** belgilanganmi; rad etishda **sabab majburiy**; apellyatsiya 30 kunmi |
 | 4 | LLM matn qatlami: 6 qavat verifikatsiya (§8.4) | TZ-2 §8 · `MVP/src/llm/` · `tests/test_llm.py` (10 test) | **V2 (raqam tekshiruvi)** va **V3 (taqiqlangan so'zlar)** ishlaydimi; shablon fallback bormi; audit maydonlari (input_hash …) saqlanadimi |
 | 5 | Arxitektura va stack asoslanishi (§7) | TZ-2 §7 (Mermaid) · `deploy/` (3 servis) · `docs/` | Har komponent **nega aynan shu** ekani yozilganmi; talaba/advisor konteksti hisobga olinganmi |
 | 6 | Ma'lumot modeli va manba tanlash (§4) | TZ-2 §4 · `db/schema_{sqlite,postgis}.sql` | Sxema spetsifikatsiyaga mosmi; **append-only** talabi jadval darajasida bormi |
@@ -77,6 +77,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 | 4 | Apellyatsiya oynasi | 10 kun (o'z standarti) **yoki** 30 ish kuni (O'RQ-457) | **30 kun** — milliy tartib bilan mos (platforma standarti faqat **javob** uchun qat'iyroq: 10 kun) |
 | 5 | Dublikat chegaralari | ≥0,85 merge · ≥0,55 guruh | **Tasdiq** (TZ Ilova A) — test bilan qo'riqlangan; 300 m/24 h oynasi saqlansin |
 | 6 | Nashr kadansi | Har o'zgarishda **yoki** kunlik to'plam | **Kunlik to'plam** (GeoJSON + CSV) + har rang o'zgarishida alohida yozuv (§5.7 audit qoidasi) |
+| 7 | **Adolat paketi doirasi** — tushuntirish kartasi (1C §C.2) va aniqlik hisoboti (§E.2) MVP hajmiga kiradimi? | (a) MVP ichida — prototip tayyor; (b) keyingi bosqich | **Prototip MVP ichida qoladi** (karta va hisobot ishlaydi), lekin **majburiy** deb e'lon qilish himoyadan keyin — U va precision maydonlari manbaga ulanmaguncha to'liq emas |
 
 ---
 
