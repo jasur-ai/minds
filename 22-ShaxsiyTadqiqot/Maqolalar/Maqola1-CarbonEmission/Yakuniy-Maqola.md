@@ -5,7 +5,8 @@ tur: maqola
 sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 ---
 
-# YAKUNIY MAQOLA 1 — RAQAM ISHONCHSIZ BO'LSA, JAZO HAM ADOLATSIZ
+# YAKUNIY MAQOLA 1 — RAQAM ISHONCHSIZ BO'LSA, JAZO ADOLATLIMI?
+### E-GAZ-BALANS: emissiya hisobotini AI ko'zi bilan tekshirish
 
 **Emissiya o'lchovi ishonchi: 2 335 obyekt, oqim o'lchagichidagi 5–17% noaniqlik va bir chegarali jarima tizimi**
 
@@ -17,7 +18,7 @@ sarlavha: "YAKUNIY MAQOLA 1 — Raqam ishonchsiz bo'lsa, jazo ham adolatsiz"
 
 ---
 
-## 1. Kirish: 1-martdan raqam pulga aylandi
+## 1. Kirish: 1-martdan raqam pulga aylandimi?
 
 2026-yil 1-mart — O'zbekiston ekologik nazorati uchun burilish sanasi. Shu kundan boshlab atrof-muhitga ta'siri bo'yicha I va II toifaga mansub korxonalar atmosfera havosiga ustuvor tashlanmalarni tahlil qiluvchi avtomatik monitoring stansiyalarini o'rnatishi shart bo'ldi (PF-81, 31.05.2023; VM-783; PQ-343). Ilgari hisob-kitob yo'li bilan to'ldirilgan hisobotlar o'rnini real vaqtda o'lchanadigan ma'lumot egallaydi. Huquqiy ramka ham shakllanib ulgurdi: «Issiqxona gazlarining chiqarilishini cheklash to'g'risida» qonun 2025-yil iyulda qabul qilinib, 2026-yil 9-yanvardan kuchga kirdi, NDC 3.0 esa 2035-yilga emissiya intensivligini 2010-yilga nisbatan 50 foizga kamaytirish majburiyatini belgiladi.
 
@@ -29,7 +30,7 @@ Maqolaning markaziy savoli shunday: **chegaraga yaqin turgan korxona uchun o'lch
 
 ---
 
-## 2. I qism — O'lchov zanjiri: xato qayerda to'planadi
+## 2. I qism — O'lchov zanjiri: xato qayerda to'planadi?
 
 ### 2.1. Zanjirning tuzilishi
 
@@ -85,7 +86,7 @@ Bu masofa davlat hujjatlarida ham tan olingan: PF-46-son farmon (25.03.2026) «T
 
 ---
 
-## 3. II qism — Himoya: xatoni jazodan ajratish
+## 3. II qism — Himoya: xatoni jazodan ajratish mumkinmi?
 
 ### 3.1. Uch zonali qoida
 
@@ -127,7 +128,7 @@ E'tiroz bildirish tartibi amaldagi muddatlarga tayanishi mumkin. Taklif etilayot
 
 ---
 
-## 4. III qism — Pul: jazo va rag'bat bir zinapoyada
+## 4. III qism — Pul: jazo va rag'bat bir zinapoyada bo'la oladimi?
 
 ### 4.1. Ikki rejim va ular orasidagi masofa
 
@@ -161,7 +162,7 @@ Pul oqimining boshqa tomoni vaqtga sezgir: jazo qarori tez qo'llaniladi, to'lovn
 
 ---
 
-## 5. Qamrov, xarajat va hisobot
+## 5. Qamrov, xarajat va hisobot: kim to'laydi va nimaga?
 
 ### 5.1. Qamrov raqamlari
 
@@ -203,7 +204,7 @@ Tizim o'z ishining natijalarini ham o'lchashi kerak. Taklif: har chorakda besh k
 
 ---
 
-## 6. Hisoblangan misol: noaniqlik qanday summaga aylanadi
+## 6. Hisoblangan misol: noaniqlik qanday summaga aylanadi?
 
 Quyidagi hisob-kitob maqolaning muallifiga tegishli bo'lib, u o'lchov noaniqligining moliyaviy oqibatini ko'rsatish maqsadida keltiriladi.
 
@@ -224,7 +225,7 @@ Bu hisob-kitob PF-46 maqsadlari fonida o'qilishi kerak: «Toza havo» loyihasi a
 
 ---
 
-## 7. Muhokama
+## 7. Muhokama: bu choralar ishonchni tiklaydimi?
 
 **1.** O'lchov noaniqligini qabul qilish nazoratni bo'shashtiradi, degan xavf bor. Amaliyot buni tasdiqlamaydi: sariq zona jazoni bekor qilmaydi, u tekshiruvni ko'paytiradi. Xatoni jazodan ajratish jarima tizimining o'zini ishonchli qiladi — chunki bugungi holatda e'tiroz bildirish uchun asos korxonada emas, hujjatda bo'lishi kerak.
 
@@ -242,7 +243,7 @@ Bu bosqichlash mantiqi davlat hujjatlariga mos: PF-46 aynan I va II toifa korxon
 
 ---
 
-## 8. AI/ML qatlami: nega kerak va qaysi chegarada
+## 8. AI/ML qatlami: nega kerak va qaysi chegarada?
 
 Muhokamaning texnologik bandi alohida bo'limga arziydi, chunki taklif etilayotgan uch zonali tizim ma'lumot oqimini avtomatik qayta ishlashni nazarda tutadi — bu aynan sun'iy intellekt va mashinali o'qitish (ML) masalasidir. Bu yo'nalish milliy kun tartibida ham ustuvor: PQ-358 (14.10.2024) sun'iy intellekt strategiyasi va VM-425 (10.07.2025) ustuvor AI loyihalari ro'yxati davlat organlariga AI joriy etishni aynan shu yo'nalishda talab qiladi.
 
@@ -271,7 +272,7 @@ Model tanlash, ma'lumot sxemasi va ishlab chiqish bosqichlari ushbu maqolaning p
 
 ---
 
-## 9. Xulosa va tavsiyalar
+## 9. Xulosa: nima qilish kerak va kimdan boshlanadi?
 
 O'zbekistonda o'lchovga asoslangan ekologik nazorat 2024–2026-yillarda huquqiy jihatdan to'liq shakllandi: VM-783, VM-85, PF-16, PQ-343, PF-217, O'RQ-1143. Keyingi masala — bu tizimning **ishonch arxitekturasi**, ya'ni raqamning qanday holatlarda qaror uchun yetarli asos bo'lishi.
 

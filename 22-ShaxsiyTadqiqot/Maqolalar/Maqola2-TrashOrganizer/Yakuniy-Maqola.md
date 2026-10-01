@@ -17,7 +17,7 @@ sarlavha: "YAKUNIY MAQOLA 2 — Kim nima chiqarayotganini kim biladi?"
 
 ---
 
-## 1. Kirish: huquqiy majburiyat bilan ishonch o'rtasidagi masofa
+## 1. Kirish: huquqiy majburiyat bilan ishonch o'rtasidagi masofa qancha?
 
 O'zbekiston 2025-yil martda Aarhus konventsiyasiga qo'shildi: axborotga kirish, qarorlar qabul qilishda ishtirok etish va ekologik masalalar bo'yicha odil sudlov — uchta majburiyat. Keyingi ikki yilda bu majburiyatlar amaliy sanalarga aylantirildi: 2025-yil 1-dekabrdan davlat ekologik monitoringi bazasi ommaviy ochiq bo'lishi, 2026-yil 1-oktabrdan xavfli chiqindi hosil qiluvchilar har chorak hisobotini keyingi oyning 20-sanagiga qadar topshirishi, 2027-yil 1-yanvardan esa I–III sinf chiqindilarining har bir partiyasi raqamli pasport bilan yuritilishi belgilandi. Chempion siyosiy maqsad ham e'lon qilindi: 2030-yilga qadar poligonlar sonini 50 foizga qisqartirish (1-rasm). Ochiqlik talabi alohida hujjat bilan ham mustahkamlangan: 2024-yil 26-sentabrdagi PF-149-son farmon ekologiya va atrof-muhitni muhofaza qilish sohalarida ochiqlikni ta'minlashni alohida yo'nalish sifatida belgilagan.
 
@@ -34,7 +34,7 @@ Maqolaning markaziy savoli shunday: **chiqindi va ifloslanish hisobini tekshiril
 
 ---
 
-## 2. I qism — Hisob: nega raqamlar bir-biriga to'g'ri kelmaydi
+## 2. I qism — Hisob: nega raqamlar bir-biriga to'g'ri kelmaydi?
 
 ### 2.1. Hajm bo'yicha tafovut
 
@@ -77,7 +77,7 @@ Bu o'tish ham davlat hujjatlarida belgilangan yo'nalish: PF-149-son farmon (26.0
 
 ---
 
-## 3. II qism — E'lon: bir ma'lumot, besh kanal
+## 3. II qism — E'lon: bir ma'lumot, besh kanal — yetadimi?
 
 ### 3.1. Bugungi zanjir va uning zaif nuqtasi
 
@@ -120,7 +120,7 @@ Bu cheklovning sababi oddiy: avtomatik matn yozuvchi tizimlar ishonchli ko'rinad
 
 ---
 
-## 4. III qism — Ishtirok: fuqaro nima qila oladi
+## 4. III qism — Ishtirok: fuqaro nima qila oladi?
 
 ### 4.1. Murojaat moduli
 
@@ -154,7 +154,7 @@ Beshinchi qavatda «yaxshi/yomon» degan yakuniy hukm emas, dinamika ko'rsatilad
 
 ---
 
-## 5. 2026-yilgi amaliyot: poligonlar, energiya, taqvim
+## 5. 2026-yilgi amaliyot: poligonlar, energiya, taqvim — amalda nima o'zgardi?
 
 ### 5.1. Poligonlarni qisqartirish
 
@@ -192,7 +192,7 @@ Bu tartib Prezident qarori (2026-yil avgust) bilan mustahkamlangan: xavfli chiqi
 
 ---
 
-## 6. Muhokama
+## 6. Muhokama: besh kanal ishonchni tiklaydimi?
 
 **6.** Oshkoralik o'zi chiqindini kamaytirmaydi, degan e'tiroz o'rinli. Lekin u javobgarlikni yaratadi: hisoblanmagan va e'lon qilinmagan hajm uchun hech kim javob bermaydi. Shuning uchun oshkoralik — siyosatning alternativasi emas, uning sharti.
 
@@ -210,7 +210,7 @@ Bu yo'nalish davlat dasturlarida ham ustuvor: PQ-358-son qaror (14.10.2024) sun'
 
 ---
 
-## 7. AI/ML qatlami: besh kanal va to'rt rang kim uchun ishlaydi
+## 7. AI/ML qatlami: besh kanal va to'rt rang kim uchun ishlaydi?
 
 Muhokamaning texnologik bandi alohida bo'limga arziydi: «bir ma'lumot, besh kanal» tamoyili va to'rt rangli zonalash minglab yozuv bilan ishlaydi — ya'ni bunday tizim qo'lda emas, avtomatik tahlil bilan boshqariladi. Yondashuv milliy kun tartibiga mos: PQ-358 (14.10.2024) sun'iy intellekt strategiyasi va VM-425 (10.07.2025) ustuvor AI loyihalari ro'yxati davlat organlariga AI joriy etishni talab qiladi.
 
@@ -239,7 +239,7 @@ Texnik tanlov va ishlab chiqish bosqichlari — loyiha hujjati (TZ-Ochiq-Eko-Led
 
 ---
 
-## 8. Xulosa va tavsiyalar
+## 8. Xulosa: nima qilish kerak va kimdan boshlanadi?
 
 Chiqindi sohasidagi huquqiy asos O'zbekistonda shakllantirildi: ochiqlik muddatlari, pasport tizimi, poligonlar siyosati, energiya loyihalari. Keyingi masala — shu asosning ishlashini o'lchash va o'lchov natijalarini ochiq ko'rsatish.
 
