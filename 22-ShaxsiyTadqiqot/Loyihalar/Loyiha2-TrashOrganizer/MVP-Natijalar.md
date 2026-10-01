@@ -113,7 +113,7 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 - Yangi API: `GET /v1/appeals/due`, `POST /v1/bot/subscribe`, `GET /v1/bot/subscriptions`.
 - Yangi bot buyrug'i: `/eslatmalar` (kuzatilayotgan murojaatlar ro'yxati); murojaat yuborilganda
   obuna avtomatik yoqiladi.
-- **Testlar:** 158 (16 bot + 17 push + 125 asosiy). Yo'lda topilgan nuqson tuzatildi:
+- **Testlar:** 189 (16 bot + 17 push + 156 asosiy) — R46 dan keyin. Yo'lda topilgan nuqson tuzatildi:
   testlararo baza almashinuvi (config.DB_PATH global) — endi har modul `monkeypatch` bilan izolyatsiya qiladi.
 
 ## 5.3. Ochiq repo va CI (JONLI ✅)
