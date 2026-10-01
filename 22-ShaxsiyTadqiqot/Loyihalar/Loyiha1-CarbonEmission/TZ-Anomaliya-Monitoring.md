@@ -19,7 +19,10 @@ manba: workspace/01-Loyiha1-Carbon-Emission/TZ/Loyiha1_AI_anomaliya_TZ.md
 **Ijrochi profili:** talaba (School 21), Python/FastAPI/PostgreSQL/Redis tajribasi, yakka yoki 2–3 kishilik jamoa  
 **Taxminiy semestr:** 2026-yil 22-sentabr — 2027-yil 15-yanvar (16 hafta + himoya)  
 **Hafta hisobi:** W1 — 21–27.09.2026 (dushanba boshli hafta); W16 — 04–10.01.2027; himoya buferi — 06–15.01.2027  
-**Versiya:** 1.3 (2026-09-29; §0.1 — 60 soniyalik dalil bloki; §0.2 — huquqiy asos xaritasi; S0–S10 va barcha asosiy bo'limlar prezident qarorlari bilan bog'langan; Ilova C — 23 manba)
+**Versiya:** 1.4 (2026-10-01; **R41** — §7 feature guruhlari 8 ga kengaytirildi (33 feature: F7 aktivlik
+kross-tekshiruvi, F8 quyi-dan-yuqoriga proksi), **§9.5 threshold siyosati** (median-slide FPR nazorati) va
+gibrid aniqlash kanali (IF ∪ ochiq qoidalar) qo'shildi; avvalgi: v1.3 — §0.1 60 soniyalik dalil bloki,
+§0.2 huquqiy asos xaritasi, S0–S10 va asosiy bo'limlar prezident qarorlari bilan bog'langan, Ilova C — 23 manba)
 
 ---
 
@@ -192,7 +195,7 @@ flowchart TD
 | **S0** Scope & spec | W1 · 5 kun | Muammo, anomaliya taksonomiyasi (A1–A8), metrikalar va anti-mezonlarni muzlatish; ADR yozish | Markdown, Mermaid, GitHub Issues, `docs/adr/` | Mermaid — kod bilan versiyalanadi (draw.io diff qilinmaydi); ADR — har tanlovning "nega"si keyin maqolaga ko'chadi | Metrika keyin muzlatilsa p-hacking xavfi; spec va metrika muzlatilmasa, S1 ning dataset qismi boshlanmaydi (jadvaldagi 2 kunlik qoplama — generator skeleti uchun) | Spec g'oyasi → tasdiqlangan `00_spec.md` + ADR 001–003 | Metrikalar va 8 anomaliya turi yozma tasdiqlangan; 5 ta issue ochilgan | `docs/00_spec.md`, ADR'lar, taksonomiya jadvali |
 | **S1** Dataset + generator | W1–W3 · 12 kun | E-PRTR taqsimotlarini o'rganish; UZ-proksi generator; 4 ssenariy (clean/5/15/30%) | Python 3.12, `pandas`, `numpy`, `Faker` (uz_UZ), `pyarrow`, `pydantic`, `DuckDB`, `uv` | Sintetik + E-PRTR kalibrovka — UZ korxona ma'lumoti yopiq; Parquet+DuckDB Pandas+CSV'dan 5–20× tez; Pydantic sxemasi FastAPI bilan umumiy (DRY) | Model va metrika **ground truth**ga tayanadi; generator kech yozilsa "aniqlangan anomaliya" isbotlanmaydi | E-PRTR fayllari + UZ sektor ulushlari → `uz_proxy_v1.parquet` (≈50 000 yozuv) | 4 ssenariy generatsiya qilinadi; har yozuvda `ground_truth_label`; dataset card yozilgan | Dataset, `generator.py`, `dataset_card.md` |
 | **S2** EDA + baseline | W2–W3 · 10 kun | Taqsimot/korrelyatsiya tahlili; Z-score (MAD), IQR, nisbat, Benford, YoY baseline detektorlar | `ydata-profiling`, `matplotlib`/`seaborn`, `scipy.stats`, Jupyter, `pandera` | Baseline **majburiy** — IQR+nisbat 70%ni tutsa, AE qurish vaqt isrofi; `pandera` birlik xatolarini (A4) erta ushlaydi | Baseline natijalari S3'dagi feature va S4'dagi model tanlovni belgilaydi | `uz_proxy_v1.parquet` → baseline metrikalar jadvali | 5 baseline detektor uchun precision/recall hisoblangan; ML oqlanish qarori yozilgan | `01_eda.ipynb`, `baseline_metrics.md` |
-| **S3** Feature engineering | W3–W4 · 10 kun | §7'dagi 6 guruh (24 feature) hisoblash; offline/online ajratish; feature registry va versiyalash | `pandas`/`polars`, `sklearn` Pipeline + ColumnTransformer, Parquet feature store, `pydantic` | Pipeline — train/serve bir xil transformatsiya (**train-serve skew** yo'q); `feast` o'rniga oddiy interfeys (MVP ko'lami kichik, ko'chirish oson) | Model featuresiz o'qitilmaydi; S2 xato tahlili qaysi feature kerakligini ko'rsatadi | Tozalangan dataset → `features_v1.parquet` + lug'at | Har feature formulasi hujjatlashtirilgan; leak testi o'tgan (test davri fit'ga kirmaydi) | `src/features/build.py`, feature store, `feature_dictionary.md` |
+| **S3** Feature engineering | W3–W4 · 10 kun | §7'dagi 8 guruh (33 feature) hisoblash; offline/online ajratish; feature registry va versiyalash | `pandas`/`polars`, `sklearn` Pipeline + ColumnTransformer, Parquet feature store, `pydantic` | Pipeline — train/serve bir xil transformatsiya (**train-serve skew** yo'q); `feast` o'rniga oddiy interfeys (MVP ko'lami kichik, ko'chirish oson) | Model featuresiz o'qitilmaydi; S2 xato tahlili qaysi feature kerakligini ko'rsatadi | Tozalangan dataset → `features_v1.parquet` + lug'at | Har feature formulasi hujjatlashtirilgan; leak testi o'tgan (test davri fit'ga kirmaydi) | `src/features/build.py`, feature store, `feature_dictionary.md` |
 | **S4** Model v1 — IF | W5–W6 · 12 kun | Isolation Forest o'qitish + `optuna` tuning; porog'ni PR-kurvada tanlash; SHAP izohlari | `scikit-learn` (`IsolationForest`), `optuna`, `mlflow`, `shap` | IF — OCSVM'dan **36× tez** (3,94 s vs 143,87 s), AE'dan kam ma'lumot/tuning talab qiladi, shovqinli tabular sanoat ma'lumotida yaxshi | Feature'lar tayyor bo'lgach; AE'dan **oldin** — IF natijasi AE'ni oqlash/oqlamaslikni ko'rsatadi | `features_v1.parquet` → o'qitilgan IF + metrikalar | AC-1/AC-3 baholangan (yoki xato tahlili); MLflow run ID yozilgan; SHAP ishlaydi | `models/if_v1/`, `if_v1_metrics.md` |
 | **S5** Model v2 — AE (+OCSVM) | W7–W8 · 12 kun | Autoencoder faqat "toza" yozuvlarda o'qitish; ONNX eksport; OCSVM nazorat guruhi; 3 model qiyoslash | `PyTorch`, `scikit-learn` (`OneClassSVM`), `optuna`, `onnxruntime` | PyTorch — School 21 tajribasi + akademik standart; AE faqat normal data'da (reconstruction paradigmasining talabi); ONNX — Docker yengil, inferens tez | IF natijasi ma'lum bo'lgach — "nega AE kerak" savoliga **o'lchovli** javob berish uchun | `features_v1` (faqat clean subset) → `ae_v1.onnx` + 3 model jadvali | Uch model bir xil test to'plamida o'lchangan; inferens vaqti qayd etilgan | `model_comparison.md` |
 | **S6** Eval harness | W9–W10 · 12 kun | 5 seed × 4 ssenariy = 20 run; bootstrap CI; kalibrlash (isotonic); xato tahlili (A1–A8 kesimida) | `sklearn` metrikalari, `scipy.stats`, `mlflow`, `seaborn`, `pytest` | Bootstrap CI — kichik test to'plamida bitta raqamga ishonish xato; isotonic — "0,9 ball" = "90% ehtimol" ishonchini beradi | Barcha 3 model tayyor bo'lgach; natijalar S7'da API'ga qaysi model chiqishini hal qiladi | 3 model + injection ssenariylari → `eval_report.md` | PR-kurva, confusion, tur bo'yicha recall chizilgan; CI hisoblangan; model tanlangan | `eval_report.md` + rasmlar, 20 MLflow run |
@@ -510,6 +513,15 @@ for each company c in sectors (Energy 60%, Agriculture 18%, IPPU 15%, Waste 5%, 
 | **F6. Kross-signal** | `energy_vs_gas_meter_gap` | hisobot energiyasi ↔ mustaqil hisoblagich | A1, A5 |
 | | `production_vs_tax_gap` | hisobot ishlab chiqarish ↔ soliq/bojxona signali | A1, A5 |
 | | `credits_double_count_flag` | bir xil reduction ID ikki joyda | A7 |
+| **F7. Aktivlik kross-tekshiruvi** (v1.4) | `prod_report_gap` | hisobot ishlab chiqarish / mustaqil statistika − 1 | **A5** |
+| | `energy_report_gap` | hisobot energiyasi / mustaqil statistika − 1 | A5 |
+| **F8. Quyi-dan-yuqoriga proksi** (v1.4) | `proxy_gap`, `proxy_gap_own_dev`, `proxy_growth`, `proxy_gap_x_growth` | `proxy = a + b·energy + c·production` (koeffitsiyentlar **faqat train** davrida, robust); qoldiq va uning o'z tarixiga nisbatan chetlanishi; **o'zaro ta'sir** = chetlanish × aktivlik o'zgari-shi | A1, A3, A7, **A8** |
+
+**Amaldagi implementatsiya (v1.4):** 8 guruh · **33 feature** (`src/features.py`, `F.FEATURE_GROUPS`).
+Diagnostika asosi: A5 uchun `prod_report_gap` (normal qatorda aniq 0, A5 da +0,18), A7 uchun
+`offsets_own_dev` (o'z tarixiga nisbatan +0,7), A8 uchun `proxy_gap_x_growth` (interaksiya;
+orakul chegarasi AUC≈0,59 — §9.5). F6 guruhidagi `*_gap` g'oyalari F7/F8 da amalga oshdi;
+qolgan F6 signallari (soliq/bojxona, reduction ID) tashqi registr talab qiladi — TZ-1 pilotida ochiladi.
 
 **Feature engineering tamoyillari:**
 1. **Leak yo'q:** barcha transformatsiyalar `Pipeline.fit` faqat train davrida; test davri hech qachon fit'ga kirmaydi.
@@ -604,6 +616,45 @@ Labeled "soxta hisobot" ma'lumoti yo'q (va bo'lishi ham mumkin emas — jinoyatn
 Texnik metrikadan tashqari, **foyda modeli** yoziladi: faraz qilaylik, inspektor yiliga **N=200** tekshiruv o'tkazadi. Random tanlovda aniqlangan soxtalik ulushi = baza darajasi (masalan 10%); model bilan top-200 → **aniqlangan soxtalik ~4–6× ko'proq**. Bu — "AI nima beradi" savolining raqamli javobi.
 
 **Prezident qarorlari asosi:** foyda modeli PF-16 «yashil iqtisodiyot» dasturi va PF-46 nazorat maqsadlari kesimida ko'rsatiladi (Ilova C).
+
+### 9.5. Threshold siyosati va FPR nazorati (v1.4, R41)
+
+**Muammo.** FPR = P(skor ≥ t | normal). Train kvantilidan olingan **statik** threshold vaqt o'tishi bilan
+FPR ni ushlab turmaydi: normal skorlar taqsimoti siljisa (dreyf), choraklik FPR chegaradan chiqadi
+(monitoring R39: 2026Q1 da 0,1258 ⚠️). Monitoring qarori «thresholdni qayta kalibrlash» edi — bu bo'lim
+o'sha qarorning **qoidasini** belgilaydi.
+
+| Siyosat | Qoida | Nima boshqariladi | Choraklik FPR |
+|---|---|---|---|
+| **Statik** | `t = kvantil(train, 1−alert_rate)` | alert hajmi (train davrida) | dreyfda buziladi ❌ |
+| **Siljuvchi kvantil** | `t = kvantil(train ∪ oxirgi 4 davr, 1−alert_rate)` | alert hajmi (joriy) | FPR ni tuzatmaydi ❌ |
+| **Median-slide (tavsiya)** | `t = t_train + (median_davr − median_train)` | **normal skorlar siljishi** | chegarada qoladi ✅ |
+
+**Nega median-slide ishlaydi:** median normal qatorlar hukmron bo'lgan sohada yotadi, shuning uchun
+`median_davr − median_train ≈ δ` (normal taqsimot siljishi); threshold δ ga surilsa FPR invariant qoladi.
+**Cheklovi:** bu **joylashuv (location) siljishi** uchun aniq; taqsimot *shakli* buzilsa (dispersiya
+o'zgarsa) qisman ishlaydi — shuning uchun monitoring (PSI/KS) bilan birga ishlatiladi.
+**Label'sizlik sharti:** siyosatlar **faqat skorlar** bilan ishlaydi (label ishlatilmaydi) → p-hacking yo'q,
+ishlab chiqarishda ham qo'llaniladi. Operator tekshiruv natijalarini (label) qaytarsa — kalibrlash yanada
+aniqlashadi (kelgusi bosqich).
+
+**Gibrid kanal (IF ∪ ochiq qoidalar).** Izolyatsiya o'rmoni yuqori o'lchamda yagona-feature signallarini
+suyultiradi (A7: yakka-feature AUC 0,93, amalda recall 0,13). Shu sababli model yoniga **shaffof qoidalar**
+qo'shiladi (TZ §7 tamoyil 3 — explainability-first):
+
+| Qoida | Shart | Chegara qanday tanlanadi | Natija |
+|---|---|---|---|
+| R-A5 | `prod_report_gap ≥ 0,01` | validatsiya oynasi (train tail), F1 maksimum; **min aniqlik 0,30** sharti | A5 recall 1,0; normal qatorlar belgilanmaydi |
+| R-A7 | `offsets_own_dev ≥ 0,70` | yuqoridagi tartib | A7 recall 0,13 → **0,63** |
+
+**Intizom:** chegaralar **validatsiya oynasida** (train tail, q16–17) tanlanadi va **qat'iy qiymatlar
+grid'idan** (`0,01 / 0,02 / 0,05 / …`) olinadi — test davri hech qachon tanlovga kirmaydi; minimal aniqlik
+shartidan o'tmagan qoida **rad etiladi** (masalan A8 uchun bunday qoida yo'q — orakul chegarasi past).
+
+**A8 halol chegarasi:** vaqt-aralashtirish (`reported[q] = 0,85·implied[q] + 0,15·implied[q−1] − offsets`)
+siljishi `0,15·|Δaktivlik| ≈ 1–3%` — normal hisobot shovqini (σ≈6%) ichida. `implied_ghg` ni bilgan
+**orakul** detektor ham A8 uchun AUC≈0,59 (|Δ| ≥ 10% qatorlarda 0,66). Ya'ni A8 zaifligi — feature
+yetishmovchiligi emas, **ma'lumotdagi signal chegarasi** (eval_report.md §cheklovlar).
 
 ---
 

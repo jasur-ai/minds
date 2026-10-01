@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 54 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 72 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (4 fayl) | **54 test — barchasi o'tadi** |
+| `tests/` (6 fayl) | **72 test — barchasi o'tadi** |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -142,16 +142,52 @@ yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test 
 
 Generator `tools/make_demo_gif.py`; kadrlar `-kadrlar.png` va `-sahnalar.png` varaqlarida tekshiriladi.
 
-### 6.6. Monitoring buyruqlari (Makefile)
+### 6.6. Model v1.1 — feature kengaytirish, gibrid kanal va FPR nazorati (R41)
+
+**1) Feature'lar 26 → 33 (6 → 8 guruh).** Diagnostika asosida qo'shildi:
+
+| Guruh | Feature | Signal |
+|---|---|---|
+| F7 aktivlik kross-tekshiruvi | `prod_report_gap`, `energy_report_gap` | **A5**: hisobot ishlab chiqarishi statistikadan +18% → `prod_report_gap` = 0,18 (normallar aniq 0) |
+| F8 quyi-dan-yuqoriga proksi | `proxy_gap`, `proxy_gap_own_dev`, `proxy_growth`, `proxy_gap_x_growth` | modeldan tashqari kross-tekshiruv (A1/A3/A7) + A8 o'zaro ta'siri |
+| tarkib (+) | `offsets_own_dev` | **A7**: offsetlar o'z medianasidan +78% |
+
+**2) Natijalar (test 2025Q3–2026Q2, 50 600 yozuv):**
+
+| Ko'rsatkich | R39 (v1.0) | **R41 (v1.1)** |
+|---|---|---|
+| F1 (IF) | 0,5384 | **0,5648** |
+| ROC-AUC | 0,7888 | **0,8117** |
+| FPR | 0,0861 | **0,0730** |
+| A5 recall | 0,158 | **1,000** |
+| A7 recall | 0,079 | 0,129 (IF) → **0,633** (gibrid) |
+| A8 recall | 0,065 | 0,059 *(orakul chegarasi: AUC≈0,59 — ma'lumot chegarasi)* |
+| Eng yomon choraklik FPR | 0,1258 ⚠️ | 0,1075 → **0,0903** ✅ (median-slide) |
+
+**3) Gibrid kanal (IF ∪ ochiq qoidalar).** IF yagona-feature signallarini suyultiradi (A7 yakka-feature
+AUC 0,93, amalda 0,13). Shaffof qoidalar: `prod_report_gap ≥ 0,01` (validatsiya: P=1,0) va
+`offsets_own_dev ≥ 0,70` (P=0,43). Chegaralar **validatsiya oynasida** (q16–17) qat'iy qiymatlar grid'idan
+tanlanadi; min aniqlik 0,30 dan o'tmagan qoida rad etiladi (A8 uchun yo'q). Gibrid: F1 0,558, A7 **0,633**.
+
+**4) FPR nazorati — median-slide siyosati.** FPR = P(skor ≥ t | normal) → normal skorlar siljishi FPR ni
+buzadi. `t = t_train + (median_davr − median_train)` (label'siz, faqat skorlar) eng yomon chorakni
+**0,1075 → 0,0903** ga tushiradi (AC-2 ✅), narxi: recall 0,504 → 0,450. Monitoring qarori endi shu
+siyosatga bog'langan (`monitor_report.md`).
+
+**5) Yangi testlar (+18 → jami 72):** `tests/test_features_r41.py` (8) — proksi **train-only** leak testi,
+A5/A7 signal testlari, klip/fallback; `tests/test_rules_r41.py` (10) — chegara grid'i, validatsiya-only
+tanlov, shovqin qoidasini rad etish, median-slide FPR invariantligi.
+
+### 6.7. Monitoring buyruqlari (Makefile)
 
 `make digest-preview` (yubormasdan ko'rish) · `make digest` (haqiqiy yuborish) · `make monitor` ·
 `make dashboard`. Ishlab chiqarishda `carbon-digest` servisi kunlik tsiklda kadansni o'zi tekshiradi.
 
-### 6.7. S10 — demo va himoya
+### 6.8. S10 — demo va himoya
 `presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
 javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 
-### 6.8. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+### 6.9. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
 
 | MVP qatlami | Prezident hujjati | Nima beradi |
 |---|---|---|
@@ -168,6 +204,6 @@ javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 cd 01-Loyiha1-Carbon-Emission/MVP
 pip install -r requirements.txt
 python3 scripts/run_all.py      # ~35 s: S1→S6
-pytest -q tests/                # 54 test
+pytest -q tests/                # 72 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```
