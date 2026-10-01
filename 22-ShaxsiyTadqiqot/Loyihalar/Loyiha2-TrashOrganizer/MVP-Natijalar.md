@@ -126,6 +126,8 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 | 3 | `demo-llm.gif` | 25,8 s · 0,57 MB | 4 | registrdan matn → 6 qavat PASS → **taqiqlangan gap FAIL:V3** → 10 test |
 | 4 | `demo-model.gif` | 45,4 s · 0,68 MB | 8 | model jadvali → PR/ROC · PSI · FPR trendi (statik vs median-slide) → dayjest → 72 test |
 
+**Jonli yozuv (yangi):** `scripts/record_all.sh` — 4 ssenariyni bir buyruq bilan yozadi (`--list` · `--dry-run` · `--demo <nom>` · `--all`), subtitrni kuydiradi (`--subs burn|soft|none`), ffmpeg bo'lmasa GIF variantga yo'naltiradi. Repo-safe: klonda `ECO_L1=…` bilan ishlaydi.
+
 Jami **4 video · 2 daqiqa 24 soniya · 24 sahna**; har biriga `.srt` subtitr va 2×2 tekshiruv varaqi
 (`-kadrlar.png` namuna, `-sahnalar.png` har sahna oxiri). Barcha terminal sahnalar — **haqiqiy buyruq chiqishi**. QA jarayonida **6 nuqson sinfi** topilib tuzatildi: Traceback sahnalar, emoji o'rniga bo'sh kataklar,
 sarlavhaning kesilishi, xom markdown belgilari (`**`, `|---|`), jadvalning o'rtasidan qisqartirilishi va

@@ -13,6 +13,8 @@
 | 7 | `Loyihalar/Loyiha2-TrashOrganizer/TZ-Ochiq-Eko-Ledger-MVP.md` | 2-LOYIHA TZ (MVP): S0–S7, zona algoritmi, murojaat moduli; bo'limlar prezident qarorlari bilan bog'langan | 77 KB (v1.3) | — |
 | 8 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-rasmiy-v1.0.md` | **TZ-1** — shovqin qavatini o'lchash piloti (v1.0, 10.10.2026 juftlik ko'rigiga tayyor) | 16,7 KB | — |
 | 9 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-Korik-Royxati.md` | TZ-1 ko'rik ro'yxati: 8 band ↔ dalil, texnik tekshiruv, 6 ochiq qaror, T1 rejasi | 7 KB | — |
+| 10 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-T1-Paketi.md` | T1 paketi: memorandum shabloni, ma'lumot ilovasi, obyekt kartasi, kalendar | 8 KB | — |
+| 11 | `Loyihalar/Loyiha2-TrashOrganizer/TZ-2-Korik-Royxati.md` | TZ-2 juftlik ko'rigi ro'yxati (10.10.2026) | 7 KB | — |
 
 **Juftlik raqamlash:** tavsiyalar 1–6 / 7–12 · ochiq savollar 1–5 / 6–11 · muhokama nuqtalari 1–5 / 6–10.
 
