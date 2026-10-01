@@ -124,7 +124,7 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 | 1 | `demo-xarita.gif` | 47,4 s · 0,86 MB | 8 | run_demo → zona jadvali → xarita → **jonli GeoJSON API** → norma chegaralari → healthcheck 4/4 |
 | 2 | `demo-murojaat.gif` | 25,8 s · 0,61 MB | 4 | holat zanjiri → SLA paneli (jonli API) → **dublikat birlashtirish** → append-only rad etish → 45 test |
 | 3 | `demo-llm.gif` | 25,8 s · 0,57 MB | 4 | registrdan matn → 6 qavat PASS → **taqiqlangan gap FAIL:V3** → 10 test |
-| 4 | `demo-model.gif` | 45,4 s · 0,65 MB | 8 | model jadvali → PR/ROC · PSI · FPR trendi → haftalik dayjest → 54 test |
+| 4 | `demo-model.gif` | 45,4 s · 0,68 MB | 8 | model jadvali → PR/ROC · PSI · FPR trendi (statik vs median-slide) → dayjest → 72 test |
 
 Jami **4 video · 2 daqiqa 24 soniya · 24 sahna**; har biriga `.srt` subtitr va 2×2 tekshiruv varaqi
 (`-kadrlar.png` namuna, `-sahnalar.png` har sahna oxiri). Barcha terminal sahnalar — **haqiqiy buyruq chiqishi**. QA jarayonida **6 nuqson sinfi** topilib tuzatildi: Traceback sahnalar, emoji o'rniga bo'sh kataklar,
