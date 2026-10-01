@@ -2,12 +2,12 @@
 aliases: [Loyiha 2 MVP natijalari, Ochiq-Eko-Ledger MVP]
 tags: [shaxsiy-tadqiqot, loyiha2, mvp]
 created: 2026-09-29
-updated: 2026-09-30
+updated: 2026-10-01
 sektor: 22-ShaxsiyTadqiqot | Loyiha2
 tur: natija
 holat: faol
 sarlavha: MVP — Ochiq-Eko-Ledger natijalari (S0–S7)
-qisqacha: To'liq prototip (S0–S7): zona dvigateli, murojaat SLA, JONLI bot @ecoledg_bot, push-eslatmalar, deploy paketi (compose+backup+nginx), CI yashil; 158 test
+qisqacha: To'liq prototip (S0–S7): zona dvigateli, murojaat SLA, JONLI bot @ecoledg_bot, push-eslatmalar, deploy paketi (compose+backup+nginx), CI yashil; adolat paketi (karta HTML/PDF, precision 8-holat); 193 test
 manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ---
 

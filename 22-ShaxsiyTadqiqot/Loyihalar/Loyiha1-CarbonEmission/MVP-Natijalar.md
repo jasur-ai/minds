@@ -2,12 +2,12 @@
 aliases: [Loyiha 1 MVP natijalari, E-GAZ-AUDIT MVP]
 tags: [shaxsiy-tadqiqot, loyiha1, mvp]
 created: 2026-09-29
-updated: 2026-09-30
+updated: 2026-10-01
 sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil; 72 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil (run #13); kirishsiz rejim (8 yo'l, 51 test); 141 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (7 fayl) | **90 test — barchasi o'tadi** |
+| `tests/` (8 fayl) | **141 test — barchasi o'tadi** (kirishsiz 51) |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -230,3 +230,27 @@ python3 scripts/run_all.py      # ~35 s: S1→S6
 pytest -q tests/                # 90 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```
+
+## 7. S12 — kirishsiz rejim: ruxsat berilmasa nima qilinadi (R47)
+
+Korxona hududga kiritmasa pilotning T1–T7 zanjiri uziladi — shu sababli **8 yo'li** ochiq manbalar
+va huquqiy talabga asoslangan paket qurildi (`src/kirishsiz/`; hujjat: `Kirishsiz-Yollar.md`,
+TZ-1 Ilova K). Har yo'lda **isbot kuchi** (1–5) va «nima isbotlanmaydi» yozilgan.
+
+| Yo'l | Kuch | Nima beradi |
+|---|---|---|
+| Huquqiy talab (Aarhus 4-modda · Konstitutsiya 49 · 15 kun) | 5 | Rasmiy hujjat, muddat kuzatuvi |
+| Pastdan-yuqoriga oraliq (ELV × hajm, EMEP/EEA 2023) | 4 | Hisobot mustaqil bahoga sig'adimi |
+| Orbita (TROPOMI/Carbon Mapper) · FIRMS · transsekt | 3 | Oqim kg/s, yonish nuqtasi, Q ± oraliq |
+| Ochiq ekran + shamol atributsiyasi | 2 | Hududiy signal, «yuqori tomon» nomzodlari |
+| Benford / dumaloq raqam skriningi | 1 | Raqamlar tabiiy taqsimotga mos keladimi |
+
+**Qaror qoidasi:** xulosa uchun ≥3 kuchli kamida 2 mustaqil yo'l (yoki 5-kuchli rasmiy hujjat).
+
+**Jonli natija (2026-10-01):** Open-Meteo (kalitsiz) 7 kunlik Toshkent PM2,5 — oshgan kun **0/7**,
+eng yuqori 20,88 µg/m³ (norma 35) · atributsiya sinovida 3 nomzod 11/9/4 soat, tizim «ajratish
+mumkin emas (kuch 2)» deb ogohlantirdi · manbalar tekshiruvi 5/6 javob berdi (OpenAQ kalit talab).
+
+**Kod:** `src/kirishsiz/` (7 modul) · CLI `scripts/kirishsiz.py` · provenans `scripts/fetch_public.py`
+(URL + vaqt + SHA-256 + litsenziya) · **51 yangi test**.
+
