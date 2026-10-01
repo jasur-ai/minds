@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27 04:26",
+  "updatedAt": "2026-10-01 07:48",
   "owners": [
     {
       "id": "8004724563",
@@ -15,6 +15,13 @@
       "role": "rahbar",
       "addedAt": "2026-09-27 04:26",
       "by": "- jasur"
+    },
+    {
+      "id": "6724823030",
+      "name": "sohib",
+      "role": "admin",
+      "addedAt": "2026-10-01 07:48",
+      "by": "bot"
     }
   ]
 }
