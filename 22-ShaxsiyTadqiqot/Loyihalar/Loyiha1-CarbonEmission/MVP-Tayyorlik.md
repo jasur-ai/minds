@@ -24,12 +24,12 @@ manba: workspace/YAKUNIY/20-MVP-TAYYORLIK.md
 |---|---|---|
 | **Ishlaydigan kod** | ✅ | 14 modul (`src/kirishsiz/`), 2 loyiha, CLI 20+ buyruq; har biri **jonli ma'lumotda** ishlatilgan |
 | **Testlar** | ✅ | **287** (L1) + **193** (L2) = **480 passed** |
-| **CI (mustaqil klon)** | ✅ | L1 `jasur-ai/egaz-audit-mvp` CI **#19 yashil** (115 s), L2 `eco-ledger-mvp` CI #16 yashil |
+| **CI (mustaqil klon)** | ✅ | L1 `jasur-ai/egaz-audit-mvp` CI **#20 yashil** (commit `a586838`), L2 `eco-ledger-mvp` CI #16 yashil |
 | **Jonli ma'lumot** | ✅ | 30+ fayl SHA-256 bilan (MANIFEST); **8 760 soat** × 4 retseptor, bo'sh qiymat **0** |
 | **Qayta ishlab chiqarish** | ✅ | har raqam bitta CLI buyrug'i bilan takrorlanadi (quyida §3) |
 | **Deploy** | ✅ | `https://egaz-audit.pages.dev/` **200** · API `:8000` **200** · bot `@ecoledg_bot` jonli |
 | **Hujjat** | ✅ | TZ-1 v1.0 + ilovalar **K.1–K.10**, `YAKUNIY/` **1–20**, vault nusxalari |
-| **Rasmiy so'rovlar** | ✅ tayyor | 4 xat, muddat **20.10**, eskalatsiya **25.10**, kuzatuv jurnali jonli |
+| **Rasmiy so'rovlar** | ✅ tayyor | 4 xat, muddat **20.10**, eskalatsiya **25.10**, kuzatuv jurnali jonli (8 yozuv) |
 | **Halol chegara** | ✅ | har bo'limda «isbotlanmaydi» ro'yxati (masalan §4) |
 
 ---
