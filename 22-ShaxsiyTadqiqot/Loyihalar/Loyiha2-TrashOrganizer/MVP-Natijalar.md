@@ -18,6 +18,22 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 
 ---
 
+### 8. Adolat paketi — tushuntirish kartasi va aniqlik hisoboti (R41)
+
+`Tadqiqot_1C_Adolat_Paketi.md` qoidalari ishlaydigan modulga aylandi (`src/adolat.py`):
+
+| Nima | Implementatsiya | Natija (jonli misol E-1001) |
+|---|---|---|
+| **Tushuntirish kartasi (12 maydon)** — 1C §C.2 | `explain_card()` · `GET /v1/adolat/karta/{eco_id}` | 12/12 maydon; 7 tasi to'ldirilgan, 5 tasi **sabab bilan ochiq** («0» bilan yashirilmaydi) |
+| **Uch savol bir sahifada** (uz + ru) | `objection_text()` → `etiroz_matni.uz/.ru` | «nima o'lchandi · nega shunday qaror · qanday e'tiroz» |
+| **Apellyatsiya oynasi** — 1C §D | `appeal_window()` · `GET /v1/adolat/oyna` | javob 10 kun · oyna 30 ish kuni (O'RQ-457); dam olish kunlari hisobga olinadi |
+| **Aniqlik hisoboti (5 metrika)** — 1C §E.2 | `accuracy_report()` · `GET /v1/adolat/hisobot` | signallar 8 · sariq 50% · o'zgargan qarorlar 0% · precision va U/L — «mavjud emas» + sabab |
+| **Fuqaro kanali** | Bot: `/tushuntirish <eco_id>` | Uch savol + to'lmagan maydonlar soni |
+
+Ochiq maydonlar (halol): **U (noaniqlik)** va **kalibrovka jurnali** — TZ-1 piloti to'ldiradi;
+**precision** — inspeksiya yakuni maydoni (TZ-2 §6 ga 8-holat taklifi); **koeffitsient/summa** — platforma
+jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-APELLYATSIYA-PAKETI.md`.
+
 **Jonli nashr:** zonalar xaritasi <https://egaz-audit.pages.dev/map.html> manzilida ochiq (Cloudflare Pages); bot `/start` ham shu havolani beradi.
 
 ## 1. Nima qurildi (TZ bosqichlari ↔ kod)
@@ -26,7 +42,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 |---|---|---|
 | **S0** Ma'lumot modeli, 3 indikator | korxona kartochkasi, 5 oqim | ✅ `db/schema_sqlite.sql` (+ `schema_postgis.sql`), `src/seed.py` |
 | **S1** Backend va baza | API + migratsiya + seed + 15 test | ✅ `src/db.py`, `src/api/app.py` |
-| **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **125 test** (zona: 48) |
+| **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **177 test** (zona: 48) |
 | **S3** Xarita va dashboard | `web/map.html`, mobil | ✅ `web/map.html` (o'z-o'zini ta'minlaydi; `/` da jonli) |
 | **S4** LLM matn generatori | prompt_v1.md + verify.py + 100 test-matn | ✅ `src/llm/generate.py` (6 qavat), `src/llm/prompt_v1.md` |
 | **S5** Telegram bot (aiogram) | 6 ssenariy | ✅ **JONLI ISHLAYAPTI: [@ecoledg_bot](https://t.me/ecoledg_bot)** (2026-09-30 dan, polling) · 16 handler testi |
@@ -75,7 +91,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 | `/v1/appeals` · `/v1/appeals/{code}` · `/transitions` | murojaat sikli |
 | `/v1/kpi/sla` | ochiq KPI |
 | `reports/DEMO-NATIJA.md` | to'liq demo hisoboti |
-| `tests/` (4 fayl) | **125 test — barchasi o'tadi** |
+| `tests/` (7 fayl) | **177 test — barchasi o'tadi** |
 
 ## 5.1. Bot jonli ishga tushirildi (2026-09-30)
 
@@ -99,7 +115,7 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 ## 5.3. Ochiq repo va CI (JONLI ✅)
 
 **Repo:** https://github.com/jasur-ai/eco-ledger-mvp · **CI:** ✅ yashil
-(run #2 · 2026-09-30 · 22 s · qadamlar: bog'liqliklar → 158 test → demo smoke)
+(run #9 · 2026-10-01 · yashil · qadamlar: bog'liqliklar → testlar → demo smoke; har push'da avtomatik)
 Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workflows/ci.yml/badge.svg)`
 
 ## 5.4. Ishlab chiqarishga ko'chirish paketi (deploy/)
@@ -143,7 +159,7 @@ daxlsiz qoladi (`_l2_demo_conn()`).
   `/murojaat` (FSM: kategoriya → tavsif 30+ → lokatsiya → telefon), `/kuzatish`, `/sla`;
   dublikat birlashganda foydalanuvchiga tushunarli javob beradi. Bot — yupqa klient, DB'ga tegmaydi.
   Ishga tushirish: `export ECO_BOT_TOKEN=... && make bot` (yoki `docker compose --profile bot up`).
-- **S7 paketi:** Docker (healthcheck bilan), CI (125 test + demo smoke), `docs/architecture.md`
+- **S7 paketi:** Docker (healthcheck bilan), CI (177 test + demo smoke), `docs/architecture.md`
   (5 qatlam ↔ fayl xaritasi + 5 dizayn qarori), `docs/limitations.md` (7 band), 3 demo-video skripti.
 
 ### 6.1. Huquqiy bog'lanish (har bir mexanizm qaysi hujjatga xizmat qiladi)
@@ -170,6 +186,6 @@ daxlsiz qoladi (`_l2_demo_conn()`).
 cd 02-Loyiha2-Trash-Organizer/MVP
 pip install -r requirements.txt
 python3 scripts/run_demo.py     # DB seed + hisob + hisobot + xarita
-pytest -q tests/                # 125 test
+pytest -q tests/                # 177 test
 uvicorn src.api.app:app --port 8000   # / → xarita
 ```

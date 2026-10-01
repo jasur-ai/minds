@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (6 fayl) | **72 test — barchasi o'tadi** |
+| `tests/` (7 fayl) | **90 test — barchasi o'tadi** |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -180,16 +180,37 @@ tanlov, shovqin qoidasini rad etish, median-slide FPR invariantligi.
 
 **Jonli nashr:** panel <https://egaz-audit.pages.dev/dashboard.html> manzilida ham ochiq (Cloudflare Pages, statik).
 
-### 6.7. Monitoring buyruqlari (Makefile)
+### 6.7. TZ-1 qabul moduli — pilot ma'lumotini tekshirish (R41)
+
+TZ-1 piloti boshlanganda ma'lumot **shu modul orqali** qabul qilinadi (`src/pilot_io.py`,
+`scripts/validate_pilot_data.py`): sxema (§4.2), sifat nazorati (§4.3) va audit izi (§4.6) avtomatik.
+
+| Tekshiruv (TZ-1 §) | Amalda |
+|---|---|
+| Majburiy kolonkalar, ISO-8601 **offset bilan**, 20 daqiqaga karrali oyna (§4.2) | Offset yo'q / tekislanmagan oyna → **rad etiladi** (aniq xato matni bilan) |
+| Birlik ↔ modda mosligi (SO₂/NOx/CO — mg/m³, PM — µg/m³) | Nomos → rad; `mg/m3`, `µg/m³` kabi yozuvlar normallashtiriladi |
+| Takroriy kalit (§4.3) | Kalit: `obyekt_id\|modda\|oyna_boshi\|manba` — takror → rad |
+| Bo'shliq nazorati (§4.3) | Fayl qamrovi ichida >10% oyna yo'q → obyekt **«shartli»** + D3 jurnalidan izoh talabi |
+| Audit izi (§4.6) | SHA-256 · bayt · qatorlar · rol · vaqt → `data/pilot/audit_log.jsonl` (**append-only**) |
+| Juftliklar | `farq = hisobot − CEMS` (belgili) + kvantillar (q5…q95), MAD, musbat ulush |
+
+**Namuna fayl va o'z-o'zini sinash:** `python3 scripts/validate_pilot_data.py --sample data/pilot/NAMUNA.csv`
+(korxona shu shaklda to'ldiradi) · `--selftest` (yaxshi fayl qabul, nuqsonli fayl rad — 3 xato sinfi).
+
+**Aniqlashtirish (topilma):** TZ-1 §4.2 da kalit `(obyekt_id, modda, oyna_boshi)` deb yozilgan, lekin
+sxemada `manba` ustuni bor — kalitga `manba` kirmasa, bir oynada `cems` va `hisobot` qatori birga
+turolmaydi. Implementatsiyada kalit **to'rt qismli**; bu aniqlashtirish ko'rikda tasdiqlansin (7-ro'yxat §2).
+
+### 6.8. Monitoring buyruqlari (Makefile)
 
 `make digest-preview` (yubormasdan ko'rish) · `make digest` (haqiqiy yuborish) · `make monitor` ·
 `make dashboard`. Ishlab chiqarishda `carbon-digest` servisi kunlik tsiklda kadansni o'zi tekshiradi.
 
-### 6.8. S10 — demo va himoya
+### 6.9. S10 — demo va himoya
 `presentation/DEMO.md`: 10 slayd (har biri 30–90 s), jonli buyruqlar, kutiladigan hakam savollariga
 javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 
-### 6.9. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
+### 6.10. Huquqiy bog'lanish (har bir qatlam qaysi hujjatga xizmat qiladi)
 
 | MVP qatlami | Prezident hujjati | Nima beradi |
 |---|---|---|
@@ -206,6 +227,6 @@ javoblar (sintetik oqim, FPR chegarasi, p-hacking, OCSVM tanlovi).
 cd 01-Loyiha1-Carbon-Emission/MVP
 pip install -r requirements.txt
 python3 scripts/run_all.py      # ~35 s: S1→S6
-pytest -q tests/                # 72 test
+pytest -q tests/                # 90 test
 uvicorn src.api.app:app --port 8001   # S7: /v1/score, /v1/model/info
 ```
