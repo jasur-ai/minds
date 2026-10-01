@@ -434,3 +434,22 @@ bo'yicha ham ma'lumot so'raydi — bu TZ-1 maqsadini (hisobot raqamining ishonch
 balansi** orqali tekshirish yo'lini ochadi. Javob muddati **20.10**, eskalatsiya **25.10**.
 **Chegara:** 15,2% — **yuqori baho** (ikkilamchi aerozol ulushi ajratilmagan); rasmiy raqam kelganda
 baho tasdiqlanadi yoki rad etiladi.
+
+### K.11. Huquqiy asoslar xaritasi va rahbariyat paketi (2026-10-01, R54)
+
+**Nima qo'shildi:** loyihaning har bir elementi rasmiy hujjatlar bilan **mashinada tekshiriladigan**
+tarzda bog'landi va rahbariyat oldiga qo'yiladigan paket tayyorlandi.
+
+| Natija | Qiymat |
+|---|---|
+| Huquqiy registr | **21 hujjat** (Konstitutsiya · Aarhus · 3 qonun · 7 farmon · 3 qaror · 5 standart) |
+| Elementlar / bog'lanishlar | **22 element** · **53 bog'lanish** (har elementda ≥ 2 asos) |
+| Kod | `src/kirishsiz/huquqiy_asos.py` + CLI `kirishsiz.py huquqiy` (13 test) |
+| Hujjat | `YAKUNIY/21-QONUNIY-ASOS-XARITASI.md` (registrdan avtomatik yasaladi) |
+| Rahbariyat paketi | `YAKUNIY/22-RAHBARIYAT-PAKETI.md` — xizmat xati · 10 bandli qaror loyihasi · **kafolat (4 qulf)** · yo'l xaritasi · 8 KPI · 6 risk |
+| Xatga ta'siri | 4 so'rov matniga registrdan **6 huquqiy asos** bloki qo'shildi |
+
+**T1 paketiga ta'siri:** T1–T7 bosqichlar endi VM-783 (uskuna/TT), PQ-343 (stansiya/integratsiya) va
+PF-46 (Toza havo maqsadlari) bandlariga to'g'ridan-to'g'ri bog'langan; qaror loyihasining 5-bandi
+«tasdiqlangan bosqich **to'xtatilmaydi**» qoidasini o'rnatadi (loyiha yarim yo'lda tashlab
+ketilmasligi kafolati).

@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1 + Loyiha2
 tur: xulosa
 holat: faol
 sarlavha: MVP tayyorlik hukmi — 9 mezon dalil bilan (2026-10-01)
-qisqacha: HA — MVP tayyor · 480 test (287+193) · CI L1 #20 / L2 #16 yashil · deploy jonli (Pages 200) · bot @ecoledg_bot · 30+ SHA-manbali fayl · 8 760 soat × 4 retseptor · 4 so'rov tayyor (20.10) · 4 halol bo'shliq (rasmiy javob, FIRMS kaliti, EMEP PDF, ikkilamchi aerozol)
+qisqacha: HA — MVP tayyor · 493 test (300+193) · CI L1 #21 / L2 #16 yashil · deploy jonli (Pages 200) · bot @ecoledg_bot · 30+ SHA-manbali fayl · 8 760 soat × 4 retseptor · 4 so'rov tayyor (huquqiy blok bilan, 20.10) · huquqiy asos xaritasi 21 hujjat/53 bog'lanish · rahbariyat paketi (kafolat 4 qulf) · 4 halol bo'shliq (rasmiy javob, FIRMS kaliti, EMEP PDF, ikkilamchi aerozol)
 manba: workspace/YAKUNIY/20-MVP-TAYYORLIK.md
 ---
 
@@ -23,7 +23,7 @@ manba: workspace/YAKUNIY/20-MVP-TAYYORLIK.md
 | Mezon | Holat | Dalil |
 |---|---|---|
 | **Ishlaydigan kod** | ✅ | 14 modul (`src/kirishsiz/`), 2 loyiha, CLI 20+ buyruq; har biri **jonli ma'lumotda** ishlatilgan |
-| **Testlar** | ✅ | **287** (L1) + **193** (L2) = **480 passed** |
+| **Testlar** | ✅ | **300** (L1) + **193** (L2) = **480 passed** |
 | **CI (mustaqil klon)** | ✅ | L1 `jasur-ai/egaz-audit-mvp` CI **#20 yashil** (commit `a586838`), L2 `eco-ledger-mvp` CI #16 yashil |
 | **Jonli ma'lumot** | ✅ | 30+ fayl SHA-256 bilan (MANIFEST); **8 760 soat** × 4 retseptor, bo'sh qiymat **0** |
 | **Qayta ishlab chiqarish** | ✅ | har raqam bitta CLI buyrug'i bilan takrorlanadi (quyida §3) |
