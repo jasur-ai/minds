@@ -9,7 +9,6 @@ holat: muzlatilgan (10.10.2026 gacha faqat ilova)
 sarlavha: TZ-1 — shovqin qavatini o'lchash piloti (v1.0, 10.10.2026 ko'rigi uchun)
 qisqacha: T1 mas'ul mutaxassis/memorandum dan T7 natijagacha; Ilova K — kirishsiz rejim (ruxsat berilmasa 8 yo'l)
 manba: workspace/01-Loyiha1-Carbon-Emission/Tadqiqotlar/TZ-1-rasmiy-v1.0.md
----
 
 # TZ-1 (v1.0) — SHOVQIN QAVATINI O'LCHASH: PILOT TEXNIK TOPSHIRIQ
 
@@ -303,6 +302,23 @@ apellyatsiyasi. Rad javobi ham dalil (rad sababini tekshirish yo'lini ochadi).
 
 `8. Natija shakli` jadvaliga qo'shimcha ustun: **«A/B qatlam (kirishsiz)»** — yo'l ID, isbot kuchi,
 o'lchangan/baholangan qiymat va oraliq. Ustun bo'sh qolsa — sabab yoziladi («yo'l ishlamadi: …»).
+
+### K.6. A-qatlam natijasi (birinchi 92 kun) — 2026-10-01
+
+Ilova K ishga tushdi: **2026-07-01 → 2026-09-30** (2 208 soat) ochiq manbalar bilan tekshirildi
+(batafsil: `YAKUNIY/15-A-QATLAM-HISOBOTI.md`).
+
+| Ko'rsatkich | Natija |
+|---|---|
+| Kunlik ekran (CAMS, PM2,5, norma 35 µg/m³) | **0/92 kun** oshgan · eng yuqori kunlik 22,49 |
+| Soatlik daraja | 108 soat (4,9%) > 25 µg/m³ · > 35 soat **yo'q** |
+| Sektor tahlili (NE sektor, ±45°) | **NO2 lift 2,45 · PM2,5 2,33 · SO2 1,72 · PM10 1,09** |
+| Nazorat (model ↔ stansiya) | CAMS 13,27 µg/m³ vs stansiya asosida 38,8 (2024) — model **past baholaydi** |
+| Huquqiy talablar | 3 ta tayyor: javob **17.10.2026**, eskalatsiya **22.10.2026** |
+
+**Metodik topilma (kodga ham tegdi):** prognoz API'si 92 kunlik oynani to'liq qoplamadi (shamol 66 kun) —
+shu sababli tarixiy shamol **ERA5** arxividan olindi va qiymatlar **vaqt bo'yicha** juftlandi
+(`screener.dirty_hours_by_time`); indeks bo'yicha juftlash xatosi test bilan qo'riqlandi.
 
 ---
 
