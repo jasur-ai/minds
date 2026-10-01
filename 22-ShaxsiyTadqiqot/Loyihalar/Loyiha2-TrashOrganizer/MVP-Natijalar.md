@@ -81,7 +81,7 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 - API kaliti bo'lmasa ham ishlaydi (deterministik rejim); kalit bilan LLM rejimiga o'tadi (prompt `prompt_v1.md`)
 
 
-**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 19 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
+**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 22 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
 
 ## 5. Artefaktlar va ochiq endpointlar
 
@@ -91,6 +91,8 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 | `/v1/geo/zones.geojson` | zona qatlami (rang, qamrov, rule_version) |
 | `/v1/export/measurements.csv` | ochiq ma'lumot eksporti (Aarhus 4-modda) |
 | `/v1/appeals` · `/v1/appeals/{code}` · `/transitions` | murojaat sikli |
+| `/v1/adolat/karta/{eco_id}` · `/hisobot` · `/oyna` | adolat paketi (12 maydon · 5 metrika · apellyatsiya oynasi) |
+| `/v1/adolat/karta/{eco_id}/html` | **chop etiladigan A4 karta** (QR + uz/ru e'tiroz, tashqi resurs yo'q) |
 | `/v1/kpi/sla` | ochiq KPI |
 | `reports/DEMO-NATIJA.md` | to'liq demo hisoboti |
 | `tests/` (7 fayl) | **189 test — barchasi o'tadi** (adolat 21 · murojaat 35) |
