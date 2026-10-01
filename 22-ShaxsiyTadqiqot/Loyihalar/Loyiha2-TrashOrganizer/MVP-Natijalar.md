@@ -18,6 +18,8 @@ manba: workspace/02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md
 
 ---
 
+**Jonli nashr:** zonalar xaritasi <https://egaz-audit.pages.dev/map.html> manzilida ochiq (Cloudflare Pages); bot `/start` ham shu havolani beradi.
+
 ## 1. Nima qurildi (TZ bosqichlari ↔ kod)
 
 | TZ bosqichi | Deliverable | Bajarildi |

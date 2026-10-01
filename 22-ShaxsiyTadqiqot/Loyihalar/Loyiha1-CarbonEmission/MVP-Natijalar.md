@@ -138,7 +138,7 @@ yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test 
 
 | Video | Fayl | Mazmun |
 |---|---|---|
-| 4 | `YAKUNIY/video/demo-model.gif` | `run_all.py` (23 s) → uch model jadvali (markdownsiz, tekis ustunlar) → PR/ROC, PSI, FPR trendi figuralari → haftalik dayjest → 72 test |
+| 4 | `YAKUNIY/video/demo-model.gif` | `run_all.py` (≈30 s) → uch model jadvali → PR/ROC, PSI, FPR trendi figuralari → haftalik dayjest (median-slide qarori) → 72 test |
 
 Generator `tools/make_demo_gif.py`; kadrlar `-kadrlar.png` va `-sahnalar.png` varaqlarida tekshiriladi.
 
@@ -177,6 +177,8 @@ siyosatga bog'langan (`monitor_report.md`).
 **5) Yangi testlar (+18 → jami 72):** `tests/test_features_r41.py` (8) — proksi **train-only** leak testi,
 A5/A7 signal testlari, klip/fallback; `tests/test_rules_r41.py` (10) — chegara grid'i, validatsiya-only
 tanlov, shovqin qoidasini rad etish, median-slide FPR invariantligi.
+
+**Jonli nashr:** panel <https://egaz-audit.pages.dev/dashboard.html> manzilida ham ochiq (Cloudflare Pages, statik).
 
 ### 6.7. Monitoring buyruqlari (Makefile)
 
