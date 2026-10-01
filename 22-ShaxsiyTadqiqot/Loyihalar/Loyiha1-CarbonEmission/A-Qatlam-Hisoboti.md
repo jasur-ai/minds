@@ -153,7 +153,7 @@ python3 scripts/kirishsiz.py ekran --kun 180 --shamol-fayl data/public/wind_era5
         --obyekt "Toshkent IES:41.3796:69.370217"
 ```
 
-**Testlar:** L1 jami **268** (kirishsiz paketi: 71 + 14 + 33 + 46 = 164; qolgani S1–S11).
+**Testlar:** L1 jami **273** (kirishsiz paketi: 71 + 14 + 33 + 46 + 5 = 169; qolgani S1–S11).
 
 ---
 
@@ -240,3 +240,21 @@ qaysi obyekt ekani ajratilmaydi (IES ↔ Chirchiq); EMEP/EEA 1.A.1 jadvali olinm
 PM2,5 ortiqchasi birlamchi zarra (4,2%) ham, chang (sektor lifti 0,76) ham emas; yo'nalish profillari
 (NO2 **60°**, PM2,5 **105°**); usul chegarasi **o'lchandi** (7,2 km da seriyalar aynan bir xil);
 4 retseptor + **Angren IES** reyestrga. Batafsil: `B-Qatlam-2-Qism.md`.
+
+---
+
+## 14. Isitish mavsumi — birinchi o'lchov (01.10.2026, 365 kun)
+
+Oyna **orqaga** uzaytirildi: 2025-10-02 → 2026-10-01 (8 760 soat). Batafsil: **`Isitish-Mavsumi.md`**.
+
+| Ko'rsatkich | Issiq (apr–sen) | Isitish (okt–mart) |
+|---|---|---|
+| Kunlar / normadan oshgan | 183 / **0** | 181 / **21 (11,6%)** |
+| PM2,5 o'rt. | 15,36 | **25,60** (noyabr **31,23**) |
+| Cho'qqi kunlik | 26,82 | **61,66** (2025-12-01) |
+| IES sektor lifti PM2,5 / NO2 | 1,20 / 1,73 | **1,21 / 1,31** |
+| Sokin soatlar (<2 m/s) | 6,1% | **14,8%** |
+
+**Uch xulosa:** (1) «0/180» to'g'ri, lekin **oynaga xos** — butun yilda 21/365, hammasi isitish mavsumida;
+(2) eng yomon 21 kundan 6 tasida shamol IES sektoridan, 5 tasida undan emas → qishki epizodlar
+**shahar miqyosidagi** manba + sokin havo; (3) IES yo'nalishi hissasi mavsumdan qat'i nazar **barqaror**.

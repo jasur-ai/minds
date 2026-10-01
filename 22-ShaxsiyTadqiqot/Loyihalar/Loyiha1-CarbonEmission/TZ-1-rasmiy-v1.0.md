@@ -361,6 +361,25 @@ Batafsil: `YAKUNIY/17-B-QATLAM-2-QISM.md` (kod: `aerosol.py`, `mavsum.py`, `rets
 
 **Isbot kuchi: 3** (model komponentlari + jonli seriyalar; kimyoviy tarkib o'lchovi yo'q).
 
+
+### K.9. Isitish mavsumi — birinchi o'lchov (2026-10-01, 365 kun)
+
+Batafsil: `Isitish-Mavsumi.md`. Oyna 2025-10-02 → 2026-10-01 (8 760 soat, bo'sh qiymat 0).
+
+| Ko'rsatkich | Natija |
+|---|---|
+| Isitish soatlari (≤ +8 °C) | **2 319 (26,5%)** · harorat min **−8,6 °C** |
+| Normadan oshgan kunlar | **21/181 isitishda (11,6%) ↔ 0/183 issiqda** — A-qatlam «0/180» bilan mos |
+| PM2,5 (isitish ↔ issiq) | **25,60 ↔ 15,36** · noyabr cho'qqi **31,23** · kunlik maks **61,66** (2025-12-01) |
+| IES sektor lifti | PM2,5 **1,21 ↔ 1,20** (barqaror) · NO2 **1,31 ↔ 1,73** |
+| Epizod atributsiyasi (21 kun) | **6 sektor · 10 aralash · 5 sektordan tashqarida** |
+| Dispersiya sharoiti | shamol 4,77 ↔ 6,40 m/s · sokin (<2 m/s) **14,8% ↔ 6,1%** |
+| Harorat korrelyatsiyasi | **r = −0,461** (365 kun) |
+| Testlar | +5 (`epizod_atributsiya`) → **L1 273** |
+
+**Halol chegara:** maishiy isitish ulushi **miqdoriy ajratilmagan** (yoqilg'i statistikasi kerak);
+yo'nalish — ehtimol, dalil emas; ≤7 km manbalar ajratilmaydi. **Isbot kuchi: 3.**
+
 ## 10. Manbalar
 
 **Ushbu hujjatdagi har bir tashqi da'vo B-kodlariga bog'langan** (`Tadqiqot-1B-Shovqin-Qavati-Davomi.md`, MANBALAR jadvali):

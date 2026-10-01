@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (14 fayl) | **268 test — barchasi o'tadi** (kirishsiz 178) |
+| `tests/` (14 fayl) | **273 test — barchasi o'tadi** (kirishsiz 183) |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -270,5 +270,5 @@ Hisobot: `A-Qatlam-Hisoboti.md` · TZ-1 Ilova K.6.
 | Halol chegara | IES (54,9°) va Chirchiq (60,1°) bir yo'nalishda — shamol **ajratmaydi** |
 
 **Kod:** `src/kirishsiz/facilities.py` · `data/public/nomzodlar_uz.json` (5 obyekt) · CLI `nomzodlar`,
-`sektor --haqiqiy`. **Testlar:** 34 yangi (jami L1 175 → **268**).
+`sektor --haqiqiy`. **Testlar:** 34 yangi (jami L1 175 → **273**).
 
