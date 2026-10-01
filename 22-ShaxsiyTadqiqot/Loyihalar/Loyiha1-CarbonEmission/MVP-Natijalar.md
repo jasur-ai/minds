@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil (run #13); kirishsiz rejim (8 yo'l, 51 test); 141 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil (run #14); kirishsiz rejim (8 yo'l, 51 test); 141 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 

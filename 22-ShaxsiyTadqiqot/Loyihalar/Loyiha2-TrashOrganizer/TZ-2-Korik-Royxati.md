@@ -63,7 +63,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 | ☐ | `python3 tools/demo_probe.py zones` | 4 rang: Z-YUN/Z-CHI red · Z-MUL yellow · Z-YAK/Z-SER green · Z-OLM blue 46% |
 | ☐ | Huquqiy havolalar (TZ-2 Ilova C) — URL tekshiruvi | 200/202 (WAF 403 — «o'lik emas» deb belgilanadi) |
 | ☐ | Nusxalar: loyiha papkasi ↔ `YAKUNIY/` ↔ vault (byte-darajada) | Bir xil |
-| ☐ | `git log` — ochiq repo CI: L2 run #15 ✅ | Yashil |
+| ☐ | `git log` — ochiq repo CI: L2 run #16 ✅ | Yashil |
 
 ---
 
