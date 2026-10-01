@@ -77,7 +77,7 @@ curl -s localhost:8000/v1/adolat/karta/E-1001/html | head -20
 # 4) bot: /tushuntirish E-1001
 ```
 
-**Testlar:** L2 jami **189** (adolat 21 + murojaat 35 + qolgan 133) — barchasi ✅.
+**Testlar:** L2 jami **193** (adolat 25 + murojaat 35 + qolgan 133) — barchasi ✅.
 
 ---
 

@@ -14,9 +14,9 @@
 | 8 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-rasmiy-v1.0.md` | **TZ-1** — shovqin qavatini o'lchash piloti (v1.0, 10.10.2026 juftlik ko'rigiga tayyor) | 16,7 KB | — |
 | 9 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-Korik-Royxati.md` | TZ-1 ko'rik ro'yxati: 8 band ↔ dalil, texnik tekshiruv, 6 ochiq qaror, T1 rejasi | 7 KB | — |
 | 10 | `Loyihalar/Loyiha1-CarbonEmission/TZ-1-T1-Paketi.md` | T1 paketi: memorandum shabloni, ma'lumot ilovasi, obyekt kartasi, kalendar · **Word shakli** (`build_t1_packet.py` → `12-T1-XAT-VA-MEMORANDUM.docx`) | 10 KB | — |
-| 11 | `Loyihalar/Loyiha2-TrashOrganizer/TZ-2-Korik-Royxati.md` | TZ-2 juftlik ko'rigi ro'yxati (10.10.2026) — 8 band, **8 ochiq qaror**, 189 test | 8,1 KB | — |
+| 11 | `Loyihalar/Loyiha2-TrashOrganizer/TZ-2-Korik-Royxati.md` | TZ-2 juftlik ko'rigi ro'yxati (10.10.2026) — 8 band, **8 ochiq qaror**, 193 test | 8,1 KB | — |
 | 12 | `Loyihalar/Loyiha1-CarbonEmission/MVP-Natijalar.md` | 1-loyiha MVP natijalari: S1–S11, **90 test**, F1 0,565 · FPR 0,073 · gibrid kanal · median-slide FPR | 13,6 KB | — |
-| 13 | `Loyihalar/Loyiha2-TrashOrganizer/MVP-Natijalar.md` | 2-loyiha MVP natijalari: S0–S7, **189 test**, zona 4 rang, SLA median 4,0 kun, adolat paketi (§8) | 13,1 KB | — |
+| 13 | `Loyihalar/Loyiha2-TrashOrganizer/MVP-Natijalar.md` | 2-loyiha MVP natijalari: S0–S7, **193 test**, zona 4 rang, SLA median 4,0 kun, adolat paketi (§8) | 13,1 KB | — |
 | 14 | `Loyihalar/Loyiha2-TrashOrganizer/Apellyatsiya-Paketi-1C-L2.md` | Adolat (apellyatsiya) paketi — 1C ↔ L2 xaritasi: karta 12 maydon (+ A4/PDF/QR), 30 ish kuni oyna, 5 metrika | 7,6 KB | — |
 
 **Juftlik raqamlash:** tavsiyalar 1–6 / 7–12 · ochiq savollar 1–5 / 6–11 · muhokama nuqtalari 1–5 / 6–10.

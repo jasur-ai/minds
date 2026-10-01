@@ -54,7 +54,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 
 | ☐ | Tekshiruv (buyruq) | Natija sharti |
 |---|---|---|
-| ☐ | `cd 02-…/MVP && python3 -m pytest -q tests/` | **189 passed** |
+| ☐ | `cd 02-…/MVP && python3 -m pytest -q tests/` | **193 passed** |
 | ☐ | `curl -s :8000/v1/kpi/sla` | JSON javob (jami 8 · median 4,0 · compliance 100%) |
 | ☐ | `bash scripts/bot_healthcheck.sh` | **4/4** (API · GeoJSON · bot getMe · jarayon) |
 | ☐ | `python3 tools/demo_probe.py dup` | sim 1.00 · `delete → PermissionError` (append-only dalili) |
@@ -102,7 +102,7 @@ tamoyilning ko'rsatkichi («necha % hudud ko'r zonada»).
 | `YAKUNIY/5-TZ-Loyiha-2-Eko-Ledger.md` | Asosiy hujjat (ko'riladi) | 80 144 B |
 | `YAKUNIY/3-Loyiha-2-Goya.md` | G'oya qatlami (TZ dan ajratilgan) | — |
 | `02-Loyiha2-Trash-Organizer/MVP-NATIJALAR.md` | Bajarilgan S0–S7 + jonli natijalar | — |
-| `…/MVP/tests/` (7 fayl) | 189 test — spetsifikatsiya dalili | — |
+| `…/MVP/tests/` (7 fayl) | 193 test — spetsifikatsiya dalili | — |
 | `…/MVP/docs/limitations.md` | Cheklovlar (7-band) | — |
 | <https://egaz-audit.pages.dev/map.html> | Jonli nashr (xarita) | 23 794 B |
 | `YAKUNIY/7-TZ-1-KORIK-ROYXATI.md` | Qardosh ro'yxat (L1) — format izchilligi uchun | — |

@@ -44,7 +44,7 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 |---|---|---|
 | **S0** Ma'lumot modeli, 3 indikator | korxona kartochkasi, 5 oqim | ✅ `db/schema_sqlite.sql` (+ `schema_postgis.sql`), `src/seed.py` |
 | **S1** Backend va baza | API + migratsiya + seed + 15 test | ✅ `src/db.py`, `src/api/app.py` |
-| **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **189 test** (zona: 48) |
+| **S2** Zona-rang algoritmi | engine + rules.md + 100 test | ✅ `src/zoning/engine.py`, `src/zoning/rules.md`, **193 test** (zona: 48) |
 | **S3** Xarita va dashboard | `web/map.html`, mobil | ✅ `web/map.html` (o'z-o'zini ta'minlaydi; `/` da jonli) |
 | **S4** LLM matn generatori | prompt_v1.md + verify.py + 100 test-matn | ✅ `src/llm/generate.py` (6 qavat), `src/llm/prompt_v1.md` |
 | **S5** Telegram bot (aiogram) | 6 ssenariy | ✅ **JONLI ISHLAYAPTI: [@ecoledg_bot](https://t.me/ecoledg_bot)** (2026-09-30 dan, polling) · 16 handler testi |
@@ -95,7 +95,7 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 | `/v1/adolat/karta/{eco_id}/html` | **chop etiladigan A4 karta** (QR + uz/ru e'tiroz, tashqi resurs yo'q) |
 | `/v1/kpi/sla` | ochiq KPI |
 | `reports/DEMO-NATIJA.md` | to'liq demo hisoboti |
-| `tests/` (7 fayl) | **189 test — barchasi o'tadi** (adolat 21 · murojaat 35) |
+| `tests/` (7 fayl) | **193 test — barchasi o'tadi** (adolat 25 · murojaat 35) |
 
 ## 5.1. Bot jonli ishga tushirildi (2026-09-30)
 
@@ -113,7 +113,7 @@ jarima hisoblamaydi, «qo'llanilmaydi» deb belgilanadi. Batafsil: `YAKUNIY/11-A
 - Yangi API: `GET /v1/appeals/due`, `POST /v1/bot/subscribe`, `GET /v1/bot/subscriptions`.
 - Yangi bot buyrug'i: `/eslatmalar` (kuzatilayotgan murojaatlar ro'yxati); murojaat yuborilganda
   obuna avtomatik yoqiladi.
-- **Testlar:** 189 (16 bot + 17 push + 156 asosiy) — R46 dan keyin. Yo'lda topilgan nuqson tuzatildi:
+- **Testlar:** 193 (16 bot + 17 push + 160 asosiy) — R46 dan keyin. Yo'lda topilgan nuqson tuzatildi:
   testlararo baza almashinuvi (config.DB_PATH global) — endi har modul `monkeypatch` bilan izolyatsiya qiladi.
 
 ## 5.3. Ochiq repo va CI (JONLI ✅)
@@ -163,7 +163,7 @@ daxlsiz qoladi (`_l2_demo_conn()`).
   `/murojaat` (FSM: kategoriya → tavsif 30+ → lokatsiya → telefon), `/kuzatish`, `/sla`;
   dublikat birlashganda foydalanuvchiga tushunarli javob beradi. Bot — yupqa klient, DB'ga tegmaydi.
   Ishga tushirish: `export ECO_BOT_TOKEN=... && make bot` (yoki `docker compose --profile bot up`).
-- **S7 paketi:** Docker (healthcheck bilan), CI (189 test + demo smoke), `docs/architecture.md`
+- **S7 paketi:** Docker (healthcheck bilan), CI (193 test + demo smoke), `docs/architecture.md`
   (5 qatlam ↔ fayl xaritasi + 5 dizayn qarori), `docs/limitations.md` (7 band), 3 demo-video skripti.
 
 ### 6.1. Huquqiy bog'lanish (har bir mexanizm qaysi hujjatga xizmat qiladi)
@@ -190,6 +190,6 @@ daxlsiz qoladi (`_l2_demo_conn()`).
 cd 02-Loyiha2-Trash-Organizer/MVP
 pip install -r requirements.txt
 python3 scripts/run_demo.py     # DB seed + hisob + hisobot + xarita
-pytest -q tests/                # 189 test
+pytest -q tests/                # 193 test
 uvicorn src.api.app:app --port 8000   # / → xarita
 ```

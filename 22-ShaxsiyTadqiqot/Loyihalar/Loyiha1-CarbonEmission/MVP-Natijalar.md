@@ -56,7 +56,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 - **Inferens:** 0,05 ms / 1 000 yozuv (TZ §8.2: IF OCSVM'dan ~36× tez — tasdiqlandi)
 
 
-**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 19 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
+**Taqdimot:** `YAKUNIY/00-MVP-TAQDIMOT.pptx` — 22 slayd (ikkala loyiha, huquqiy asos, CI/testlar).
 
 ## 4. Artefaktlar
 
