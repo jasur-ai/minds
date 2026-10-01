@@ -19,7 +19,7 @@
 | 13 | `Loyihalar/Loyiha2-TrashOrganizer/MVP-Natijalar.md` | 2-loyiha MVP natijalari: S0–S7, **193 test**, zona 4 rang, SLA median 4,0 kun, adolat paketi (§8) | 13,1 KB | — |
 | 14 | `Loyihalar/Loyiha2-TrashOrganizer/Apellyatsiya-Paketi-1C-L2.md` | Adolat (apellyatsiya) paketi — 1C ↔ L2 xaritasi: karta 12 maydon (+ A4/PDF/QR), 30 ish kuni oyna, 5 metrika | 7,6 KB | — |
 | 15 | `Loyihalar/Loyiha1-CarbonEmission/Kirishsiz-Yollar.md` *(nusxa: workspace `YAKUNIY/13-KIRISHSIZ-YOLLAR.md`)* | Kirishsiz (ruxsatsiz) tekshiruv: 8 yo'l · isbot kuchi · jonli ekran natijasi · CLI | 14 KB | — |
-| 16 | `Loyihalar/Loyiha1-CarbonEmission/A-Qatlam-Hisoboti.md` *(nusxa: workspace `YAKUNIY/15-A-QATLAM-HISOBOTI.md`)* | A-qatlam: 92 kunlik real tekshiruv (0/92 kun · sektor lift 2,33–2,45 · model–stansiya farqi) | 12 KB | — |
+| 16 | `Loyihalar/Loyiha1-CarbonEmission/A-Qatlam-Hisoboti.md` *(nusxa: workspace `YAKUNIY/15-A-QATLAM-HISOBOTI.md`)* | A-qatlam v2: 180 kun + haqiqiy obyektlar (0/180 kun · IES sektori NO2 2,30 · uzoq zavodlar radiusdan tashqarida) | 12 KB | — |
 
 **Juftlik raqamlash:** tavsiyalar 1–6 / 7–12 · ochiq savollar 1–5 / 6–11 · muhokama nuqtalari 1–5 / 6–10.
 

@@ -7,7 +7,7 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1
 tur: natija
 holat: faol
 sarlavha: MVP — E-GAZ-AUDIT natijalari (S1–S7)
-qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil (run #15); kirishsiz rejim (8 yo'l, 51 test); 141 test
+qisqacha: To'liq prototip (S1–S10): IF F1 0,538 / FPR 0,086; monitoring (PSI/KS, FPR trendi — kalibrlash tavsiyasi); dashboard; deploy; CI yashil (run #16); kirishsiz rejim (8 yo'l, 51 test); 141 test
 manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 ---
 
@@ -68,7 +68,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | `models/metadata.json` | audit izi: params, feature ro'yxati, threshold, trained_at |
 | `reports/eval_report.md` | to'liq baholash hisoboti (sweep jadvali bilan) |
 | `reports/figures/*.png` | PR/ROC, skor taqsimoti, tur bo'yicha recall |
-| `tests/` (9 fayl) | **161 test — barchasi o'tadi** (kirishsiz 71) |
+| `tests/` (10 fayl) | **175 test — barchasi o'tadi** (kirishsiz 85) |
 | `web/dashboard.html` | S8 monitoring paneli: KPI kartalar, alert feed (top-20 + top-3 izoh), figuralar, audit izi |
 | `presentation/DEMO.md` | S10: 10 slayd, jonli demo buyruqlari, kutiladigan savollar javoblari bilan |
 
@@ -255,19 +255,20 @@ mumkin emas (kuch 2)» deb ogohlantirdi · manbalar tekshiruvi 5/6 javob berdi (
 (URL + vaqt + SHA-256 + litsenziya) · **51 yangi test**.
 
 
-## 8. S13 — A-qatlam: 92 kunlik real tekshiruv (R48)
+## 8. S13–S14 — A-qatlam: kirishsiz rejim amalda (R48–R49)
 
-`Kirishsiz-Yollar.md` (Ilova K) amalda sinandi: 2026-07-01 → 2026-09-30, 2 208 soat, ochiq manbalar
-(CAMS havo sifati + ERA5 shamol). Batafsil: `A-Qatlam-Hisoboti.md`.
+Real tekshiruv ochiq manbalar bilan: **92 kun (v1)** va **180 kun + haqiqiy obyektlar (v2)**.
+Hisobot: `A-Qatlam-Hisoboti.md` · TZ-1 Ilova K.6.
 
-| Ko'rsatkich | Natija |
+| Ko'rsatkich | Natija (180 kun) |
 |---|---|
-| Kunlik norma oshgan kunlar (PM2,5, 35 µg/m³) | **0/92** · eng yuqori kunlik 22,49 |
-| Soatlar > 25 µg/m³ | 108 (4,9%) · > 35 — yo'q |
-| Sektor lifti (NE, ±45°) | NO2 **2,45** · PM2,5 **2,33** · SO2 1,72 · PM10 1,09 (chang signali yo'q) |
-| Model ↔ stansiya nazorati | CAMS 13,27 vs stansiya 38,8 µg/m³ (2024) → model past baholaydi |
-| Huquqiy talablar | 3 ta tayyor: javob 17.10.2026 · eskalatsiya 22.10.2026 |
+| Kunlik norma oshgan kunlar (PM2,5 35 µg/m³) | **0/180** · eng yuqori kunlik 26,82 |
+| Soatlar > 25 / > 35 µg/m³ | 233 (5,4%) / 8 (0,2%) |
+| **Toshkent IES** sektori (13,3 km, rasmiy koordinata) | **NO2 2,30 · PM2,5 1,86** · SO2 1,19 · PM10 0,77 |
+| Maxam Chirchiq (32,4 km) | NO2 2,43 · PM2,5 1,88 |
+| Uzoq sement zavodlari (55–67 km) | 1,15–1,59 · **radiusdan tashqarida** |
+| Halol chegara | IES (54,9°) va Chirchiq (60,1°) bir yo'nalishda — shamol **ajratmaydi** |
 
-**Yangi kod:** `src/kirishsiz/sector.py` (shamollanish guli · lift) · `screener.dirty_hours_by_time`
-(vaqt bo'yicha juftlash) · CLI `ekran --shamol-fayl` va `sektor`. **Yangi testlar:** 20 ta.
+**Kod:** `src/kirishsiz/facilities.py` · `data/public/nomzodlar_uz.json` (5 obyekt) · CLI `nomzodlar`,
+`sektor --haqiqiy`. **Testlar:** 34 yangi (jami L1 **175**).
 
