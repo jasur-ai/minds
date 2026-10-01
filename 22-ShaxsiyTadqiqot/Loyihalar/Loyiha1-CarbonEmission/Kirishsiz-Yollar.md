@@ -23,6 +23,12 @@ manba: workspace/YAKUNIY/13-KIRISHSIZ-YOLLAR.md
 
 ---
 
+> **Yangilanish (R49, 2026-10-01):** «kirishsiz» rejim amalda sinaldi — **180 kunlik** analiz va
+> **haqiqiy obyektlar** (rasmiy manbali koordinatalar) bilan: `YAKUNIY/15-A-QATLAM-HISOBOTI.md` (v2).
+> Qisqacha: 0/180 kun norma oshgan · **Toshkent IES** sektori NO2 **2,30×** / PM2,5 **1,86×** ·
+> uzoq sement zavodlari (55–67 km) radiusdan tashqarida · IES va Chirchiq klasteri shamol bo'yicha
+> **ajratilmaydi** (`facilities.sektor_guruhlari`).
+
 ## 1. Uzilish nimada — aniq ro'yxat
 
 | TZ-1 bosqichi | Nima kerak edi | Ruxsatsiz holat | Yo'qoladigan narsa |
