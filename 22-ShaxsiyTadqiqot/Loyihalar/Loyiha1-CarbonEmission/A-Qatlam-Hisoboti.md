@@ -258,3 +258,25 @@ Oyna **orqaga** uzaytirildi: 2025-10-02 → 2026-10-01 (8 760 soat). Batafsil: *
 **Uch xulosa:** (1) «0/180» to'g'ri, lekin **oynaga xos** — butun yilda 21/365, hammasi isitish mavsumida;
 (2) eng yomon 21 kundan 6 tasida shamol IES sektoridan, 5 tasida undan emas → qishki epizodlar
 **shahar miqyosidagi** manba + sokin havo; (3) IES yo'nalishi hissasi mavsumdan qat'i nazar **barqaror**.
+
+## 15. Retseptorlar va maishiy isitish (01.10.2026, R53)
+
+**Retseptorlar, 365 kun, bir xil mezon** (isitish ≤ +8 °C; epizod > 35 µg/m³):
+
+| Retseptor | Yillik | Isitish | Issiq | Lift | Epizod | Eng yomon kun |
+|---|---|---|---|---|---|---|
+| Toshkent | 18,07 | 25,60 | 15,36 | **1,67** | **21** | 61,7 |
+| Ohangaron = Olmaliq | 11,92 | 15,10 | 10,97 | 1,38 | 3 | 36,9 |
+| **Angren** | 8,65 | 8,44 | 8,73 | **0,97** | **0** | 26,5 |
+
+**Angren nazorati (§14 dagi «IES emas» xulosasini mustaqil tasdiqlaydi):** 4,06 km da ko'mir IES,
+**2 533** isitish soati (Toshkentdan ko'p), lekin lift **0,97×** va **0** epizod.
+**Ohangaron ≡ Olmaliq:** 26 280/26 280 qiymat bayt-baytga bir xil ⇒ bitta o'lchov (≤ 7 km chegarasi yana tasdiqlandi).
+**Mintaqaviylik:** r(Toshkent ↔ Ohangaron) = **0,816**; eng og'ir 5 kun ikkala shaharda ham cho'qqi, Angrenda **emas**.
+
+**Maishiy isitish (yoqilg'i asosida):** EMEP/EEA 2023 1.A.4 Tier 1 — gaz PM2,5 **1,2 g/GJ**,
+qattiq/qo'ng'ir ko'mir **398 g/GJ** (**330×**). Kuzatilgan ΔPM2,5 = **+10,24 µg/m³** ni qoplash uchun
+**1 619 t PM2,5/mavsum** kerak ⇒ isitish energiyasining **10–25%** i qattiq yoqilg'idan bo'lishi kerak
+(baza 15,2%). Gaz bilan bu massani chiqarish **37,5 mlrd m³** gaz talab qiladi — mamlakat yillik
+qazib olishi 42,3 mlrd m³ ⇒ **gaz strukturaviy tushuntira olmaydi**. Kod: `src/kirishsiz/isitish.py`
+(12 test) · docs: `docs/maishiy_isitish.md`.

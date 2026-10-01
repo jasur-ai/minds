@@ -413,3 +413,24 @@ yo'nalish — ehtimol, dalil emas; ≤7 km manbalar ajratilmaydi. **Isbot kuchi:
 | 5 | Usul almashganda siljish | Ikki usulda bir vaqtda (2 hafta) | T4 | siljish belgisi |
 | 6 | Hisobot ↔ fiskal tafovut | Agregat energiya balansi | T5 | % |
 | 7 | Filtr/neytralizator samarasi | Kirish−chiqish o'lchovi | T4 | samaradorlik % (o'lchov noaniqligidan **alohida**) |
+
+### K.10. Maishiy isitish hissasi va retseptorlar nazorati (2026-10-01, R53)
+
+**Nima qo'shildi:** (a) to'rt retseptor uchun **365 kunlik** taqqoslama; (b) maishiy isitishning
+**yoqilg'i asosidagi** miqdoriy bahosi (`isitish.py`); (c) rasmiy so'rovlar to'plami (4 xat).
+
+| Natija | Qiymat |
+|---|---|
+| Toshkent / Ohangaron / **Angren** isitish lifti | 1,67× / 1,38× / **0,97×** |
+| Normadan oshgan kunlar | 21 / 3 / **0** |
+| r(Toshkent ↔ Ohangaron) | **0,816** |
+| Gaz ↔ qattiq yoqilg'i EF farqi (PM2,5) | **330×** (1,2 ↔ 398 g/GJ) |
+| Kerakli qattiq yoqilg'i ulushi | **10–25%** (baza 15,2%) |
+| Gaz ekvivalenti (absurdligi) | 37,5 mlrd m³ ↔ mamlakat yilligi 42,3 mlrd m³ |
+| Testlar | L1 **287** (+14) · jami **480** |
+
+**T1 paketiga ta'siri:** so'rovlar (§9) endi **qattiq yoqilg'i savdosi** va **gaz iste'moli (oylar kesimida)**
+bo'yicha ham ma'lumot so'raydi — bu TZ-1 maqsadini (hisobot raqamining ishonchliligi) **yoqilg'i
+balansi** orqali tekshirish yo'lini ochadi. Javob muddati **20.10**, eskalatsiya **25.10**.
+**Chegara:** 15,2% — **yuqori baho** (ikkilamchi aerozol ulushi ajratilmagan); rasmiy raqam kelganda
+baho tasdiqlanadi yoki rad etiladi.
