@@ -25,7 +25,7 @@ manba: workspace/01-Loyiha1-Carbon-Emission/MVP-NATIJALAR.md
 | **S0** Scope, spec, metrika | metrikalar muzlatildi (F1/P/R/FPR/recall@k) | ✅ `scripts/run_all.py` (ALERT_RATE=0,12 — S0 qarori) |
 | **S1** UZ-proksi generator | A1–A8 injection, 5 sektor, 2021Q1–2026Q2 | ✅ `src/generator.py` |
 | **S2** EDA + baseline | statistik baseline | ✅ hisobotda; feature taqsimoti figuralarda |
-| **S3** Feature engineering | 6 guruh, 26 feature, lug'at | ✅ `src/features.py` + `docs/feature_dictionary.md` |
+| **S3** Feature engineering | **8 guruh, 33 feature**, lug'at | ✅ `src/features.py` (v1.4) + `docs/feature_dictionary.md` |
 | **S4** Model v1 — IF | Isolation Forest + tuning | ✅ n=600, max_samples=0,5 (tajriba bilan tanlandi) |
 | **S5** Model v2 — AE (+OCSVM) | uch tomonlama qiyos | ✅ `src/models.py` |
 | **S6** Baholash harness | PR/ROC, FPR, tur recall, biznes | ✅ `src/evaluate.py` + `reports/eval_report.md` |
@@ -138,7 +138,7 @@ yozilmaydi (keyingi sikl qayta uradi); matnda taqiqlangan so'zlar yo'qligi test 
 
 | Video | Fayl | Mazmun |
 |---|---|---|
-| 4 | `YAKUNIY/video/demo-model.gif` | `run_all.py` (23 s) → uch model jadvali (markdownsiz, tekis ustunlar) → PR/ROC, PSI, FPR trendi figuralari → haftalik dayjest → 54 test |
+| 4 | `YAKUNIY/video/demo-model.gif` | `run_all.py` (23 s) → uch model jadvali (markdownsiz, tekis ustunlar) → PR/ROC, PSI, FPR trendi figuralari → haftalik dayjest → 72 test |
 
 Generator `tools/make_demo_gif.py`; kadrlar `-kadrlar.png` va `-sahnalar.png` varaqlarida tekshiriladi.
 
