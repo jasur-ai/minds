@@ -234,3 +234,8 @@ Rad javobi ham **dalil**: u asosini apellyatsiyada tekshirish yo'lini ochadi (Aa
 
 **Hujjat oxiri.** Kod: `src/kirishsiz/` · CLI: `scripts/kirishsiz.py` · Testlar: `tests/test_kirishsiz.py` (51).
 Har bir da'vo manba + sana + tier bilan; isbot kuchi raqam bilan; «nima isbotlanmaydi» har yo'lda yozilgan.
+
+> **01.10.2026 — yo'l #2 amalda tekshirildi:** pastdan yuqoriga zanjir (ishlab chiqarish × EF → oqim → Briggs/Gauss)
+> ishga tushdi va A-qatlam kuzatuvi bilan solishtirildi: model **5,7–11,5 µg/m³** vs kuzatuv **+9,24 µg/m³** →
+> nisbat **0,80–1,62** → mos. Kod: `src/kirishsiz/bottomup.py` · CLI `pastdan` · 33 test.
+> Batafsil: `B-Qatlam-Mass-Balans.md`.

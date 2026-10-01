@@ -322,6 +322,27 @@ shu sababli tarixiy shamol **ERA5** arxividan olindi va qiymatlar **vaqt bo'yich
 
 ---
 
+
+### K.7. B-qatlam: mass-balans tekshiruvi — pastdan yuqoriga (2026-10-01)
+
+A-qatlam natijasi **mustaqil** yo'l bilan tekshirildi: ishlab chiqarish × koeffitsient → oqim → dispersiya
+(batafsil: `B-Qatlam-Mass-Balans.md`).
+
+| Bosqich | Qiymat | Manba |
+|---|---|---|
+| Faoliyat (IES 2024) | **5,8 mlrd kVt·soat** (o'rtacha yuklama ≈662 MVt = 29,7%) | toshkenties.uz (A) |
+| EF (NOx) | 0,13–0,32 lb/MMBtu = 55,9–137,6 g/GJ → **0,40–1,42 g/kWh** (FIK 35–50%) | AP-42 §3.1-1 (A) |
+| NSPS tekshiruvi | 2,3 lb/MWh = **1,04 g/kWh** — oraliq ichida | 40 CFR 60 (A) |
+| Tashlanma / oqim | **2 334–8 207 t NOx/yil** → **0,074–0,260 kg/s** | hosila |
+| Dispersiya (13,28 km, shahar D) | σy 846 m · σz 833 m; o'qda 8,3–29,1 µg/m³ (u=4) | Briggs/Gauss |
+| Mos kelish ulushi | **156/799 soat = 19,5%** | ERA5 180 kun |
+| **Model (sektor o'rtachasi)** | **5,7–11,5 µg/m³** | hosila |
+| **Kuzatuv (A-qatlam)** | **+9,24 µg/m³** | jonli ekran |
+| **Xulosa** | nisbat **0,80–1,62** → **«mos»** ✅ | — |
+
+**Halol chegara:** PM2,5 uchun model **25× past**; qaysi obyekt ekani ajratilmaydi; EF — adabiyot oralig'i;
+EMEP/EEA 1.A.1 jadvali olinmagan. **Isbot kuchi: 3.** Testlar: +33 → L1 jami **208**.
+
 ## 10. Manbalar
 
 **Ushbu hujjatdagi har bir tashqi da'vo B-kodlariga bog'langan** (`Tadqiqot-1B-Shovqin-Qavati-Davomi.md`, MANBALAR jadvali):

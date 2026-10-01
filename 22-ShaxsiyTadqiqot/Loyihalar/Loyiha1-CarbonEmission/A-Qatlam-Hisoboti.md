@@ -153,7 +153,7 @@ python3 scripts/kirishsiz.py ekran --kun 180 --shamol-fayl data/public/wind_era5
         --obyekt "Toshkent IES:41.3796:69.370217"
 ```
 
-**Testlar:** L1 jami **175** (kirishsiz paketi: 71 + 14 = 85).
+**Testlar:** L1 jami **208** (kirishsiz paketi: 71 + 14 + 33 = 118).
 
 ---
 
@@ -213,4 +213,25 @@ python3 scripts/kirishsiz.py ekran --kun 180 --shamol-fayl data/public/wind_era5
 ---
 
 **Hisobot oxiri (v2).** Kod: `src/kirishsiz/{facilities,sector,screener}.py` · CLI: `scripts/kirishsiz.py nomzodlar|sektor|ekran` ·
-Testlar: 34 yangi (jami L1 175) · Hammasi §7 dagi buyruqlar bilan qayta ishlab chiqariladi.
+Testlar: 34 yangi (jami L1 175, keyin B-qatlam bilan 208) · Hammasi §7 dagi buyruqlar bilan qayta ishlab chiqariladi.
+
+---
+
+## 13. B-qatlam (qo'shimcha, 01.10.2026): mass-balans tekshiruvi
+
+A-qatlam natijasi **mustaqil** yo'l bilan tekshirildi: **ishlab chiqarish × EF → oqim → dispersiya** (yo'l #2).
+Batafsil: **`B-Qatlam-Mass-Balans.md`**.
+
+| Bosqich | Qiymat |
+|---|---|
+| Faoliyat (IES 2024) | 5,8 mlrd kVt·soat → o'rtacha yuklama ≈662 MVt (29,7% o'rnatilgandan) |
+| EF (AP-42 §3.1-1) | 0,13–0,32 lb/MMBtu → 55,9–137,6 g/GJ → **0,40–1,42 g NOx/kWh** (NSPS 1,04 g/kWh — oraliq ichida) |
+| Tashlanma / oqim | **2 334–8 207 t/yil** → **0,074–0,260 kg/s** |
+| Dispersiya (13,28 km, Briggs/Gauss, shahar D) | σy 846 m · σz 833 m · mos kelish ulushi **19,5%** |
+| **Model (sektor o'rtachasi)** | **5,7–11,5 µg/m³** |
+| **Kuzatuv (A-qatlam)** | **+9,24 µg/m³** |
+| **Xulosa** | nisbat **0,80–1,62** → **mos** ✅ — hisobot mustaqil bahoga sig'adi |
+
+**Halol chegara:** PM2,5 uchun model **25× past** (gaz yonishining birlamchi zarrasi ortiqchani tushuntirmaydi);
+qaysi obyekt ekani ajratilmaydi (IES ↔ Chirchiq); EMEP/EEA 1.A.1 jadvali olinmagan; FIRMS `MAP_KEY` yo'q.
+**Testlar:** +33 (`test_kirishsiz_bottomup.py`) → L1 jami **208**.
