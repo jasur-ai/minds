@@ -343,6 +343,24 @@ A-qatlam natijasi **mustaqil** yo'l bilan tekshirildi: ishlab chiqarish × koeff
 **Halol chegara:** PM2,5 uchun model **25× past**; qaysi obyekt ekani ajratilmaydi; EF — adabiyot oralig'i;
 EMEP/EEA 1.A.1 jadvali olinmagan. **Isbot kuchi: 3.** Testlar: +33 → L1 jami **208**.
 
+### K.8. B-qatlam 2-qism: EF taqqoslash, PM2,5 manbasi, retseptorlar, mavsum (2026-10-01)
+
+Batafsil: `YAKUNIY/17-B-QATLAM-2-QISM.md` (kod: `aerosol.py`, `mavsum.py`, `retseptorlar.py`).
+
+| Yo'nalish | Natija |
+|---|---|
+| **EF mustaqil tekshiruvi** | EMEP/EEA 2023 1.A.1.a **89 g NOx/GJ** (CI 15–185) ↔ AP-42 geo-o'rtasi 87,7 → farq **1,5%** ✅ |
+| EMEP asosida haydash | 0,641–0,915 g/kWh → 3 717–5 309 t/yil → sektor o'rtachasi **3,7–7,4 µg/m³** → nisbat **1,25–2,50** |
+| **PM2,5 ortiqchasi** | birlamchi zarra **4,2%**; chang **emas** (sektor lifti 0,76); spektr nozik (0,724 vs 0,626) → ikkilamchi/boshqa (gipoteza) |
+| **Yo'nalish profillari** | NO2 cho'qqi **60°** (5,01×), PM2,5 cho'qqi **105°** (1,55×) — bir manba emas |
+| **Usul chegarasi (o'lchandi)** | 7,2 km da seriyalar **aynan bir xil** (bir katak) · 39–77 km da farqli → ≤7 km ajratilmaydi |
+| **Alohida retseptorlar** | 4 nuqta (Toshkent/Ohangaron/Olmaliq/Angren); Ohangaron klasteri: 3 manba 3 yo'nalishda (20°/126°/240°) |
+| **Angren IES** | reyestrga qo'shildi (ko'mir, 484 MVt, GEM 41,004897/70,122799) — 4,06 km da **signal yo'q** = chegara tasdig'i |
+| **Mavsum oynasi** | oynada **0 isitish soati** (min 8,5 °C) → isitish hissasi baholanmaydi; 10.10 dan kengaytirish |
+| Testlar | +46 (aerosol 22 · mavsum 14 · retseptorlar 18 · EMEP 6 → bottomup 39) → **L1 268** |
+
+**Isbot kuchi: 3** (model komponentlari + jonli seriyalar; kimyoviy tarkib o'lchovi yo'q).
+
 ## 10. Manbalar
 
 **Ushbu hujjatdagi har bir tashqi da'vo B-kodlariga bog'langan** (`Tadqiqot-1B-Shovqin-Qavati-Davomi.md`, MANBALAR jadvali):

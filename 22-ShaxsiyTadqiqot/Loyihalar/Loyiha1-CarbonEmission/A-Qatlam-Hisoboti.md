@@ -153,7 +153,7 @@ python3 scripts/kirishsiz.py ekran --kun 180 --shamol-fayl data/public/wind_era5
         --obyekt "Toshkent IES:41.3796:69.370217"
 ```
 
-**Testlar:** L1 jami **208** (kirishsiz paketi: 71 + 14 + 33 = 118).
+**Testlar:** L1 jami **268** (kirishsiz paketi: 71 + 14 + 33 + 46 = 164; qolgani S1–S11).
 
 ---
 
@@ -213,7 +213,7 @@ python3 scripts/kirishsiz.py ekran --kun 180 --shamol-fayl data/public/wind_era5
 ---
 
 **Hisobot oxiri (v2).** Kod: `src/kirishsiz/{facilities,sector,screener}.py` · CLI: `scripts/kirishsiz.py nomzodlar|sektor|ekran` ·
-Testlar: 34 yangi (jami L1 175, keyin B-qatlam bilan 208) · Hammasi §7 dagi buyruqlar bilan qayta ishlab chiqariladi.
+Testlar: 34 yangi (jami L1 175 → B-qatlam bilan 268) · Hammasi §7 dagi buyruqlar bilan qayta ishlab chiqariladi.
 
 ---
 
@@ -235,3 +235,8 @@ Batafsil: **`B-Qatlam-Mass-Balans.md`**.
 **Halol chegara:** PM2,5 uchun model **25× past** (gaz yonishining birlamchi zarrasi ortiqchani tushuntirmaydi);
 qaysi obyekt ekani ajratilmaydi (IES ↔ Chirchiq); EMEP/EEA 1.A.1 jadvali olinmagan; FIRMS `MAP_KEY` yo'q.
 **Testlar:** +33 (`test_kirishsiz_bottomup.py`) → L1 jami **208**.
+
+**2-qism (01.10.2026):** EF mustaqil tekshiruvi (EMEP/EEA 2023 1.A.1.a **89 g NOx/GJ** ↔ AP-42, farq **1,5%**);
+PM2,5 ortiqchasi birlamchi zarra (4,2%) ham, chang (sektor lifti 0,76) ham emas; yo'nalish profillari
+(NO2 **60°**, PM2,5 **105°**); usul chegarasi **o'lchandi** (7,2 km da seriyalar aynan bir xil);
+4 retseptor + **Angren IES** reyestrga. Batafsil: `B-Qatlam-2-Qism.md`.
