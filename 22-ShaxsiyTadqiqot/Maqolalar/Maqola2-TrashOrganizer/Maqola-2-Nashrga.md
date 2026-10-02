@@ -1,15 +1,3 @@
----
-aliases: [Maqola 2 nashr, Kim nima chiqarayotganini kim biladi]
-tags: [maqola, nashr, loyiha2, chiqindi, oshkoralik]
-created: 2026-10-02
-updated: 2026-10-02
-sektor: 22-ShaxsiyTadqiqot | Maqola2
-tur: maqola
-holat: nashrga-tayyor
-sarlavha: "Kim nima chiqarayotganini kim biladi? Chiqindi hisobining oshkoraligi va undan energiya siyosati"
-qisqacha: Xalqaro formatdagi maqola — muallif/rahbar/universitet bloklari to'ldirilishi kerak (⟦⟧), UZ+EN annotatsiya, UDK 628.4.032:004.9, JEL Q53/Q58/D83/H83, 8 bo'lim, 2 jadval, 9 rasm, 32 manba, etika va ma'lumot bloklari, ilova (nashr variantlari)
-manba: workspace/YAKUNIY/nashr/Maqola-2-Nashrga.md (+ .docx)
----
 # KIM NIMA CHIQARAYOTGANINI KIM BILADI? CHIQINDI HISOBINING OSHKORALIGI VA UNDAN ENERGIYA SIYOSATI
 
 ### WHO KNOWS WHO DISPOSES OF WHAT? TRANSPARENCY OF WASTE ACCOUNTING AND THE WASTE-TO-ENERGY POLICY

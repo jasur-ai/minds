@@ -1,15 +1,3 @@
----
-aliases: [Maqola 1 nashr, Raqam ishonchsiz bo'lsa jazo adolatlimi]
-tags: [maqola, nashr, loyiha1, huquqiy, olchov]
-created: 2026-10-02
-updated: 2026-10-02
-sektor: 22-ShaxsiyTadqiqot | Maqola1
-tur: maqola
-holat: nashrga-tayyor
-sarlavha: "Raqam ishonchsiz bo'lsa, jazo adolatlimi? O'lchov noaniqligi va sanksiya mantig'i o'rtasidagi ziddiyat"
-qisqacha: Xalqaro formatdagi maqola — muallif/rahbar/universitet bloklari to'ldirilishi kerak (⟦⟧), UZ+EN annotatsiya, UDK 504.3.054:34.096, JEL Q53/Q58/K32/C18, 10 bo'lim, 3 jadval, 9 rasm, 37 manba, muallif hissasi/manfaatlar/etika bloklari, ilova (nashr variantlari)
-manba: workspace/YAKUNIY/nashr/Maqola-1-Nashrga.md (+ .docx)
----
 # RAQAM ISHONCHSIZ BO'LSA, JAZO ADOLATLIMI? O'LCHOV NOANIQLIGI VA SANKSIYA MANTIG'I O'RTASIDAGI ZIDDIYAT
 
 ### WHEN THE NUMBER IS UNRELIABLE, IS THE PENALTY FAIR? MEASUREMENT UNCERTAINTY AND THE LOGIC OF SANCTIONS IN INDUSTRIAL EMISSION MONITORING
