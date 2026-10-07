@@ -139,7 +139,7 @@ Badge README'da: `![CI](https://github.com/jasur-ai/eco-ledger-mvp/actions/workf
 
 ## 5.6. Demo videolar (generatsiya qilingan)
 
-| Video | Fayl | Davomiylik | Sahnа | Mazmun |
+| Video | Fayl | Davomiylik | Sahna | Mazmun |
 |---|---|---|---|---|
 | 1 | `demo-xarita.gif` | 47,4 s · 0,86 MB | 8 | run_demo → zona jadvali → xarita → **jonli GeoJSON API** → norma chegaralari → healthcheck 4/4 |
 | 2 | `demo-murojaat.gif` | 25,8 s · 0,61 MB | 4 | holat zanjiri → SLA paneli (jonli API) → **dublikat birlashtirish** → append-only rad etish → 45 test |

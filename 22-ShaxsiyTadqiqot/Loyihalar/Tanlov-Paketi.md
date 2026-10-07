@@ -37,6 +37,8 @@ tekshiradigan va har xulosani huquqiy dalil bilan asoslovchi raqamli verifikatsi
 | `YAKUNIY/tanlov/04-DALILLAR-REYESTRI.md` | Har bir raqamning manbasi (A–F bo'limlar) |
 | `YAKUNIY/tanlov/05-FINMODEL.xlsx` | Moliyaviy model, 6 varaq, formulalar bilan |
 | `YAKUNIY/tanlov/06-TEKSHIRISH-YORIQNOMASI.md` | Hakam uchun 5 daqiqalik mustaqil tekshirish |
+
+**R58 tekshiruvi (07.10.2026):** 493 test qayta yig'ildi va o'tdi (L1 300 + L2 193) · L2 CI **#19 yashil** (`ed98e5a`, `/v1/appeals` xato so'rovga endi 500 emas, 400 qaytaradi) · `huquqiy --qamrov` → 53 bog'lanish, min 2 asos · bot `@ecoledg_bot` jonli · 21 hujjat/22 element tasdiqlandi · kirill aralashmalari barcha hujjatlardan tozalandi.
 | `YAKUNIY/tanlov/01-BIR-BETDA.md` / `.docx` | Bir betlik tavsif (jonli bosqich, email uchun) |
 | `YAKUNIY/tanlov/02-ARIZA-MAYDONLARI.md` | Forma maydonlari, topshirish tartibi, 5 xato |
 | `YAKUNIY/tanlov/03-SAVOL-JAVOB.md` | 60 s pitch · 5 daqiqalik nutq · 12 savol-javob · video skript |

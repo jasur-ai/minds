@@ -616,7 +616,7 @@ Suhbat #: _  Sana: _  Kim: _ (ota-ona/o'qituvchi/ekspert)  Qayerda: _ (qishloq/t
 ## ✅ QADAM 16: TEXNOLOGIYA (BAJARILDI, AI 01 2026-09-04)
 
 ### MVP stack (60 kun):
-| Vazifa | Vositа | Narx |
+| Vazifa | Vosita | Narx |
 |--------|--------|------|
 | Jonli dars (video) | Telegram video / Zoom | $0 (mavjud) |
 | Guruh chat + hisobot | Telegram bot (oddiy) | $0 |

@@ -102,7 +102,7 @@ Platforma — Ekologiya jamg'armasi; kengaytma — Umummilliy jamg'arma (kengash
 
 **Yangi asosiy tezis (1-tadqiqotda yo'q edi):** eng zaif bo'g'in — **oqim o'lchagichi**, va uning xatosi **hamma moddalarga bir xil yo'nalishda** o'tadi → shovqin qavati **belgili (signed)** va **zanjir kesimida** o'lchanishi shart.
 
-**A varianti boshlanди:** `Tadqiqot-1B` oxirida **TZ-1 qoralamasi (v0.1)** — maqsad, 3 strata, 100–120 juftlik, 7 bosqichli ish rejasi va natija shakli.
+**A varianti boshlandi:** `Tadqiqot-1B` oxirida **TZ-1 qoralamasi (v0.1)** — maqsad, 3 strata, 100–120 juftlik, 7 bosqichli ish rejasi va natija shakli.
 
 ---
 

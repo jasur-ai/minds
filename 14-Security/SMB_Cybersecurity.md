@@ -616,7 +616,7 @@ Suhbat #: _  Sana: _  Kim: _ (mikro/o'rta/ekspert)  Kanal: _
 ## ✅ QADAM 16: TEXNOLOGIYA (BAJARILDI, AI 01 2026-09-04)
 
 ### MVP stack (30 kun):
-| Vazifa | Vositа | Narx |
+| Vazifa | Vosita | Narx |
 |--------|--------|------|
 | Phishing simulyatsiya | **GoPhish** (ochiq manba) — email/Telegram shablonlar | $0 |
 | Xodim o'qitish moduli | Telegram bot (Cloudflare Workers — AI 07 tajribasi bor) yoki oddiy veb | $0 |
