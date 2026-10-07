@@ -7,14 +7,14 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1 + Loyiha2
 tur: paket
 holat: faol
 sarlavha: TANLOV PAKETI — TDIU «Eng yaxshi kreativ g'oya» (ISBOT platformasi)
-qisqacha: 12 slaydli taqdimot (112 KB pptx, QR kodlar) + bir betlik tavsif + ariza qo'llanmasi + 12 savol-javob va video skript + dalillar reyestri + moliyaviy model (xlsx) + hakamlar uchun tekshirish yo'riqnomasi. Pozitsiya: verifikatsiya = yashil moliyaning infratuzilmasi (CBAM default ustama 10% (2026) → 30% (2028), milliy uglerod reyestri 01.01.2026, O'RQ-1143 2-10x). Topshirish muddati 10-noyabr; forma 1 fayl (pptx) talab qiladi.
+qisqacha: 14 slaydli taqdimot (121 KB pptx, QR kodlar; **qonunchilik xaritasi** va **«nega aynan shu g'oya yutadi» taqqoslash** slaydlari bilan) + bir betlik tavsif + ariza qo'llanmasi + 14 savol-javob va video skript + dalillar reyestri + moliyaviy model (xlsx) + hakamlar uchun tekshirish yo'riqnomasi. Pozitsiya: verifikatsiya = yashil moliyaning infratuzilmasi (CBAM default ustama 10% (2026) → 30% (2028), milliy uglerod reyestri 01.01.2026, O'RQ-1143 2-10x). Topshirish muddati 10-noyabr; forma 1 fayl (pptx) talab qiladi.
 manba: workspace/YAKUNIY/tanlov/
 ---
 
 # TANLOV PAKETI — ISBOT
 
 **Tanlov:** Toshkent davlat iqtisodiyot universiteti · «Eng yaxshi kreativ g'oya» respublika tanlovi (universitet bosqichi)
-**Muddat:** 10-noyabr · **Yuklanadigan fayl:** `ISBOT-TANLOV-TAQDIMOT.pptx` (12 slayd)
+**Muddat:** 10-noyabr · **Yuklanadigan fayl:** `ISBOT-TANLOV-TAQDIMOT.pptx` (14 slayd)
 
 ## G'oya bir jumlada
 
@@ -23,6 +23,8 @@ tekshiradigan va har xulosani huquqiy dalil bilan asoslovchi raqamli verifikatsi
 
 ## Nega bu pozitsiya (tanlovga moslashtirilgan kuchaytirish)
 
+0. **Qonunchilik — sotuv argumenti:** har modul kuchda bo'lgan bandga bog'langan (O'RQ-1143 → HAVO · PQ-343 → HAVO+API · PF-46 → CHIQINDI · uglerod qonuni → KARBON · Konstitutsiya 49-modda + Aarhus → apellyatsiya); 21 hujjat × 22 element = **53 bog'lanish**, har elementda ≥2 asos. Bu tanlovda ustuvorlikni oshiradi: g'oya «qiziqarli» emas, **majburiyatning bajarilishini** o'lchaydi.
+2. **Raqobat pozitsiyasi:** 10-slaydda 5 g'oya turi (aksiya, ilova, sensor parki, chatbot, konsalting) bilan ochiq taqqoslash — har biri uchun kuchli tomon va cheklov, bizning farqimiz raqam bilan.
 1. **Yashil moliya** tomoni: Milliy uglerod birliklari reyestri (01.01.2026) va **CBAM** (default qiymatga
    **10% ustama 2026, 30% 2028**) verifikatsiyani majburiy qildi ⇒ platforma moliya sektori uchun infratuzilma.
 2. **Pul dalili:** O'RQ-1143 (2–10× kompensatsiya), 10,8 mlrd so'm misolida 20% noaniqlik ≈ **2,2 mlrd so'm**.
@@ -33,7 +35,7 @@ tekshiradigan va har xulosani huquqiy dalil bilan asoslovchi raqamli verifikatsi
 
 | Fayl | Vazifasi |
 |---|---|
-| `YAKUNIY/tanlov/ISBOT-TANLOV-TAQDIMOT.pptx` | Asosiy topshiriladigan fayl, 12 slayd + izohlar + QR |
+| `YAKUNIY/tanlov/ISBOT-TANLOV-TAQDIMOT.pptx` | Asosiy topshiriladigan fayl, 14 slayd + izohlar + QR |
 | `YAKUNIY/tanlov/04-DALILLAR-REYESTRI.md` | Har bir raqamning manbasi (A–F bo'limlar) |
 | `YAKUNIY/tanlov/05-FINMODEL.xlsx` | Moliyaviy model, 6 varaq, formulalar bilan |
 | `YAKUNIY/tanlov/06-TEKSHIRISH-YORIQNOMASI.md` | Hakam uchun 5 daqiqalik mustaqil tekshirish |
