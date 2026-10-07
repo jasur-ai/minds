@@ -7,14 +7,14 @@ sektor: 22-ShaxsiyTadqiqot | Loyiha1 + Loyiha2
 tur: paket
 holat: faol
 sarlavha: TANLOV PAKETI — TDIU «Eng yaxshi kreativ g'oya» (ISBOT platformasi)
-qisqacha: 14 slaydli taqdimot (121 KB pptx, QR kodlar; **qonunchilik xaritasi** va **«nega aynan shu g'oya yutadi» taqqoslash** slaydlari bilan) + bir betlik tavsif + ariza qo'llanmasi + 14 savol-javob va video skript + dalillar reyestri + moliyaviy model (xlsx) + hakamlar uchun tekshirish yo'riqnomasi. Pozitsiya: verifikatsiya = yashil moliyaning infratuzilmasi (CBAM default ustama 10% (2026) → 30% (2028), milliy uglerod reyestri 01.01.2026, O'RQ-1143 2-10x). Topshirish muddati 10-noyabr; forma 1 fayl (pptx) talab qiladi.
+qisqacha: 15 slaydli taqdimot (126 KB pptx, QR kodlar; **qonunchilik xaritasi**, **«nega aynan shu g'oya yutadi» taqqoslash**, **mijoz foydasi** va **g'alaba kartasi** slaydlari bilan) + bir betlik tavsif + ariza qo'llanmasi + 16 savol-javob va video skript + dalillar reyestri + moliyaviy model (xlsx) + hakamlar uchun tekshirish yo'riqnomasi. Pozitsiya: verifikatsiya = yashil moliyaning infratuzilmasi (CBAM default ustama 10% (2026) → 30% (2028), milliy uglerod reyestri 01.01.2026, O'RQ-1143 2-10x). Topshirish muddati 10-noyabr; forma 1 fayl (pptx) talab qiladi.
 manba: workspace/YAKUNIY/tanlov/
 ---
 
 # TANLOV PAKETI — ISBOT
 
 **Tanlov:** Toshkent davlat iqtisodiyot universiteti · «Eng yaxshi kreativ g'oya» respublika tanlovi (universitet bosqichi)
-**Muddat:** 10-noyabr · **Yuklanadigan fayl:** `ISBOT-TANLOV-TAQDIMOT.pptx` (14 slayd)
+**Muddat:** 10-noyabr · **Yuklanadigan fayl:** `ISBOT-TANLOV-TAQDIMOT.pptx` (15 slayd)
 
 ## G'oya bir jumlada
 
@@ -35,10 +35,11 @@ tekshiradigan va har xulosani huquqiy dalil bilan asoslovchi raqamli verifikatsi
 
 | Fayl | Vazifasi |
 |---|---|
-| `YAKUNIY/tanlov/ISBOT-TANLOV-TAQDIMOT.pptx` | Asosiy topshiriladigan fayl, 14 slayd + izohlar + QR |
+| `YAKUNIY/tanlov/ISBOT-TANLOV-TAQDIMOT.pptx` | Asosiy topshiriladigan fayl, 15 slayd + izohlar (≈4,2 daq) + QR |
 | `YAKUNIY/tanlov/04-DALILLAR-REYESTRI.md` | Har bir raqamning manbasi (A–F bo'limlar) |
 | `YAKUNIY/tanlov/05-FINMODEL.xlsx` | Moliyaviy model, 6 varaq, formulalar bilan |
 | `YAKUNIY/tanlov/06-TEKSHIRISH-YORIQNOMASI.md` | Hakam uchun 5 daqiqalik mustaqil tekshirish |
+| `YAKUNIY/tanlov/07-GALABA-STRATEGIYASI.md` | **G'alaba strategiyasi:** 6 mezon × dalil, 10 g'oya arxetipi taqqoslashi, 9 qurol, xatar tahlili, jonli bosqich rejasi |
 
 **R58 tekshiruvi (07.10.2026):** 493 test qayta yig'ildi va o'tdi (L1 300 + L2 193) · L2 CI **#19 yashil** (`ed98e5a`, `/v1/appeals` xato so'rovga endi 500 emas, 400 qaytaradi) · `huquqiy --qamrov` → 53 bog'lanish, min 2 asos · bot `@ecoledg_bot` jonli · 21 hujjat/22 element tasdiqlandi · kirill aralashmalari barcha hujjatlardan tozalandi.
 | `YAKUNIY/tanlov/01-BIR-BETDA.md` / `.docx` | Bir betlik tavsif (jonli bosqich, email uchun) |
